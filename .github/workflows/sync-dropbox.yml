@@ -59,9 +59,22 @@ jobs:
         git rm -r --cached --ignore-unmatch -- '**/.git' || true
         git rm -r --cached --ignore-unmatch -- '**/.git/**' || true
         
-        git commit -m "Sync from Dropbox - $(date '+%Y-%m-%d %H:%M:%S UTC')"
-        git pull origin main --rebase || true
-        git push origin main
+        # Remove submodule entries if they exist without .gitmodules
+        git rm --cached --ignore-unmatch 'Design/Safonova Eleonora/AdminRHS-AI-Catalog-4' || true
+        
+        # Remove entire directories that contain .git
+        find . -type d -name '.git' -not -path './.git' | while read dir; do
+          parent_dir=$(dirname "$dir")
+          git rm -r --cached --ignore-unmatch "$parent_dir" || true
+        done
+        
+        git commit -m "Sync from Dropbox - $(date '+%Y-%m-%d %H:%M:%S UTC')" || true
+        
+        # Pull with rebase to handle conflicts
+        git pull origin main --rebase || git rebase --abort || true
+        
+        # Push changes
+        git push origin main || git push origin main --force-with-lease
     
     - name: Upload sync logs
       if: always()

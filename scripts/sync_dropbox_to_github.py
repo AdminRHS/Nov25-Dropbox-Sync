@@ -60,6 +60,10 @@ class DropboxToGitHubSync:
             if '.git' in part:
                 return True
         
+        # Also exclude AdminRHS-AI-Catalog-4 specifically as it contains .git
+        if 'AdminRHS-AI-Catalog-4' in path:
+            return True
+        
         return False
     
     def get_file_hash(self, content: bytes) -> str:
@@ -520,10 +524,15 @@ class DropboxToGitHubSync:
                 )
                 if result.returncode == 0:
                     for line in result.stdout.strip().split('\n'):
-                        if line and '/.git/' in line:
-                            # Remove file from staging if it's inside a .git directory
-                            subprocess.run(["git", "rm", "--cached", "--ignore-unmatch", line], cwd=os.getcwd())
-                            self.log(f"Removed nested .git file from staging: {line}")
+                        if line:
+                            # Remove files inside .git directories
+                            if '/.git/' in line:
+                                subprocess.run(["git", "rm", "--cached", "--ignore-unmatch", line], cwd=os.getcwd())
+                                self.log(f"Removed nested .git file from staging: {line}")
+                            # Remove files in AdminRHS-AI-Catalog-4 (contains .git)
+                            if 'AdminRHS-AI-Catalog-4' in line:
+                                subprocess.run(["git", "rm", "--cached", "--ignore-unmatch", line], cwd=os.getcwd())
+                                self.log(f"Removed AdminRHS-AI-Catalog-4 file from staging: {line}")
             except Exception as e:
                 self.log(f"Warning: Could not clean nested git repos: {e}", "WARN")
             
