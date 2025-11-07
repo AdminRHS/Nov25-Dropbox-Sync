@@ -310,25 +310,57 @@ class DropboxToGitHubSync:
                 local_file = Path(path)
                 if local_file.exists():
                     # Download file to compare
-                    dropbox_content, metadata = self.download_file(f"/Nov25/{path}")
-                    if dropbox_content:
-                        file_hash = self.get_file_hash(dropbox_content)
-                        local_hash = self.get_file_hash(local_file.read_bytes())
-                        
-                        if file_hash != local_hash:
-                            # Download again to get author info
-                            dropbox_content_full, metadata_full = self.download_file(f"/Nov25/{path}")
-                            author = metadata_full.get("author", "Unknown") if metadata_full else "Unknown"
+                    try:
+                        dropbox_content, metadata = self.download_file(f"/Nov25/{path}")
+                        if dropbox_content:
+                            file_hash = self.get_file_hash(dropbox_content)
+                            local_hash = self.get_file_hash(local_file.read_bytes())
                             
-                            changes["modified"].append({
-                                "path": path,
-                                "dropbox_path": f"/Nov25/{path}",
-                                "name": info["name"],
-                                "size": info["size"],
-                                "modified": info["modified"],
-                                "rev": info["rev"],
-                                "author": author,
-                            })
+                            if file_hash != local_hash:
+                                # Download again to get author info
+                                dropbox_content_full, metadata_full = self.download_file(f"/Nov25/{path}")
+                                author = metadata_full.get("author", "Unknown") if metadata_full else "Unknown"
+                                
+                                changes["modified"].append({
+                                    "path": path,
+                                    "dropbox_path": f"/Nov25/{path}",
+                                    "name": info["name"],
+                                    "size": info["size"],
+                                    "modified": info["modified"],
+                                    "rev": info["rev"],
+                                    "author": author,
+                                })
+                    except AuthError as e:
+                        if 'expired_access_token' in str(e):
+                            # Try to refresh token
+                            if self.refresh_token and self.app_key and self.app_secret:
+                                self.log("Token expired during comparison, refreshing...", "WARN")
+                                new_token = self._refresh_access_token()
+                                if new_token:
+                                    self.dbx = dropbox.Dropbox(new_token)
+                                    # Retry download
+                                    dropbox_content, metadata = self.download_file(f"/Nov25/{path}")
+                                    if dropbox_content:
+                                        file_hash = self.get_file_hash(dropbox_content)
+                                        local_hash = self.get_file_hash(local_file.read_bytes())
+                                        if file_hash != local_hash:
+                                            dropbox_content_full, metadata_full = self.download_file(f"/Nov25/{path}")
+                                            author = metadata_full.get("author", "Unknown") if metadata_full else "Unknown"
+                                            changes["modified"].append({
+                                                "path": path,
+                                                "dropbox_path": f"/Nov25/{path}",
+                                                "name": info["name"],
+                                                "size": info["size"],
+                                                "modified": info["modified"],
+                                                "rev": info["rev"],
+                                                "author": author,
+                                            })
+                                else:
+                                    raise Exception("Failed to refresh token during file comparison")
+                            else:
+                                raise
+                        else:
+                            raise
         
         return changes
     
