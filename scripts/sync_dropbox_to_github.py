@@ -12,6 +12,7 @@ import sys
 import json
 import hashlib
 import subprocess
+import requests
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Set, Optional, Tuple
@@ -26,10 +27,13 @@ except ImportError:
 
 
 class DropboxToGitHubSync:
-    def __init__(self, dropbox_token: str, dropbox_path: str = "/Nov25", exclude_paths: List[str] = None):
-        self.dbx = dropbox.Dropbox(dropbox_token)
+    def __init__(self, dropbox_token: str, dropbox_path: str = "/Nov25", exclude_paths: List[str] = None, 
+                 app_key: Optional[str] = None, app_secret: Optional[str] = None, refresh_token: Optional[str] = None):
         self.dropbox_path = dropbox_path
         self.exclude_paths = exclude_paths or [".automation"]
+        self.app_key = app_key
+        self.app_secret = app_secret
+        self.refresh_token = refresh_token
         self.changes = {
             "added": [],
             "modified": [],
@@ -38,6 +42,51 @@ class DropboxToGitHubSync:
         }
         self.file_hashes = {}
         self.file_metadata = {}
+        
+        # Initialize Dropbox client with token refresh support
+        self.dbx = self._init_dropbox_client(dropbox_token)
+    
+    def _init_dropbox_client(self, access_token: str) -> dropbox.Dropbox:
+        """Initialize Dropbox client with automatic token refresh if refresh token is available"""
+        try:
+            return dropbox.Dropbox(access_token)
+        except Exception as e:
+            # If token is expired and we have refresh token, try to refresh
+            if self.refresh_token and self.app_key and self.app_secret:
+                self.log(f"Access token expired, attempting to refresh...", "WARN")
+                new_token = self._refresh_access_token()
+                if new_token:
+                    return dropbox.Dropbox(new_token)
+            raise e
+    
+    def _refresh_access_token(self) -> Optional[str]:
+        """Refresh access token using refresh token"""
+        if not all([self.app_key, self.app_secret, self.refresh_token]):
+            return None
+        
+        try:
+            url = "https://api.dropbox.com/oauth2/token"
+            data = {
+                "grant_type": "refresh_token",
+                "refresh_token": self.refresh_token,
+            }
+            auth = (self.app_key, self.app_secret)
+            
+            response = requests.post(url, data=data, auth=auth, timeout=30)
+            response.raise_for_status()
+            
+            result = response.json()
+            new_access_token = result.get("access_token")
+            
+            if new_access_token:
+                self.log("Successfully refreshed access token", "INFO")
+                # Note: In production, you might want to update GitHub Secret here
+                # But that requires GitHub API access, so we'll just use the new token for this session
+                return new_access_token
+        except Exception as e:
+            self.log(f"Failed to refresh token: {e}", "ERROR")
+        
+        return None
         
     def log(self, message: str, level: str = "INFO"):
         """Log message with timestamp"""
@@ -587,6 +636,9 @@ def main():
     parser.add_argument("--token", help="Dropbox access token (or set DROPBOX_ACCESS_TOKEN env var)")
     parser.add_argument("--path", default="/Nov25", help="Dropbox path to sync")
     parser.add_argument("--exclude", nargs="*", default=[".automation"], help="Paths to exclude")
+    parser.add_argument("--app-key", help="Dropbox app key (for token refresh, or set DROPBOX_APP_KEY env var)")
+    parser.add_argument("--app-secret", help="Dropbox app secret (for token refresh, or set DROPBOX_APP_SECRET env var)")
+    parser.add_argument("--refresh-token", help="Dropbox refresh token (for auto-refresh, or set DROPBOX_REFRESH_TOKEN env var)")
     
     args = parser.parse_args()
     
@@ -598,7 +650,19 @@ def main():
         print("Set DROPBOX_ACCESS_TOKEN environment variable or use --token argument")
         sys.exit(1)
     
-    syncer = DropboxToGitHubSync(access_token, args.path, args.exclude)
+    # Get refresh token credentials (optional, but recommended for long-term tokens)
+    app_key = args.app_key or os.environ.get('DROPBOX_APP_KEY')
+    app_secret = args.app_secret or os.environ.get('DROPBOX_APP_SECRET')
+    refresh_token = args.refresh_token or os.environ.get('DROPBOX_REFRESH_TOKEN')
+    
+    syncer = DropboxToGitHubSync(
+        access_token, 
+        args.path, 
+        args.exclude,
+        app_key=app_key,
+        app_secret=app_secret,
+        refresh_token=refresh_token
+    )
     changes = syncer.run_sync()
     
     if changes:
