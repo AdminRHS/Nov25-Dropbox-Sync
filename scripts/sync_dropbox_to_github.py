@@ -480,8 +480,11 @@ class DropboxToGitHubSync:
             try:
                 account = self.dbx.users_get_current_account()
                 self.log(f"Connected to Dropbox account: {account.email}")
-            except AuthError:
-                raise Exception("Invalid Dropbox access token")
+            except AuthError as e:
+                if 'expired_access_token' in str(e):
+                    raise Exception("❌ Dropbox access token has EXPIRED. Please update DROPBOX_ACCESS_TOKEN in GitHub Secrets with a new token from Dropbox App Console.")
+                else:
+                    raise Exception(f"Invalid Dropbox access token: {e}")
             
             # List all files in Dropbox
             self.log("Step 1/5: Listing files from Dropbox...")

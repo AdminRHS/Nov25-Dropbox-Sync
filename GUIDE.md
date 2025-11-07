@@ -85,12 +85,25 @@ Commits and pushes to GitHub
 
 ### Step 2: Add Dropbox Token to GitHub Secrets
 
-1. Go to: https://github.com/AdminRHS/Nov25-Dropbox-Sync/settings/secrets/actions
-2. Click **"New repository secret"**
-3. Configure:
-   - **Name**: `DROPBOX_ACCESS_TOKEN` (must match exactly)
-   - **Value**: Your Dropbox access token
-   - Click **"Add secret"**
+**IMPORTANT**: If you see "expired_access_token" error, you need to regenerate the token!
+
+1. **Get Dropbox Access Token**:
+   - Go to: https://www.dropbox.com/developers/apps
+   - Click on your app (the one you created for Employee Profile Sync)
+   - Go to **"Settings"** tab → **"OAuth 2"** section
+   - Click **"Generate"** button to create a new access token
+   - **Copy the token immediately** (it starts with `sl.u.` and is very long)
+
+2. **Add Token to GitHub Secrets**:
+   - Go to: https://github.com/AdminRHS/Nov25-Dropbox-Sync/settings/secrets/actions
+   - If `DROPBOX_ACCESS_TOKEN` already exists, click on it and **"Update"**
+   - If it doesn't exist, click **"New repository secret"**
+   - Configure:
+     - **Name**: `DROPBOX_ACCESS_TOKEN` (must match exactly, case-sensitive)
+     - **Value**: Paste your NEW Dropbox access token
+     - Click **"Add secret"** or **"Update secret"**
+
+**Note**: Dropbox access tokens can expire. If sync fails with "expired_access_token", regenerate the token and update it in GitHub Secrets.
 
 ### Step 3: Push Code to GitHub
 
