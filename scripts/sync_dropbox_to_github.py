@@ -46,9 +46,20 @@ class DropboxToGitHubSync:
     
     def should_exclude(self, path: str) -> bool:
         """Check if path should be excluded"""
+        # Exclude configured paths
         for exclude in self.exclude_paths:
             if exclude in path:
                 return True
+        
+        # Exclude paths containing .git directories (nested git repos)
+        # This prevents submodule issues
+        # Check if path contains /.git/ or is inside a folder with .git
+        path_parts = path.split('/')
+        for i, part in enumerate(path_parts):
+            # Skip if this part or any parent contains .git
+            if '.git' in part:
+                return True
+        
         return False
     
     def get_file_hash(self, content: bytes) -> str:
