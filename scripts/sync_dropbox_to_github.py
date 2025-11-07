@@ -563,7 +563,18 @@ class DropboxToGitHubSync:
                 self.log(f"Connected to Dropbox account: {account.email}")
             except AuthError as e:
                 if 'expired_access_token' in str(e):
-                    raise Exception("❌ Dropbox access token has EXPIRED. Please update DROPBOX_ACCESS_TOKEN in GitHub Secrets with a new token from Dropbox App Console.")
+                    # Try to refresh token if refresh token is available
+                    if self.refresh_token and self.app_key and self.app_secret:
+                        self.log("Access token expired, attempting automatic refresh...", "WARN")
+                        new_token = self._refresh_access_token()
+                        if new_token:
+                            self.dbx = dropbox.Dropbox(new_token)
+                            account = self.dbx.users_get_current_account()
+                            self.log(f"✅ Successfully refreshed and connected to Dropbox account: {account.email}")
+                        else:
+                            raise Exception("❌ Failed to refresh expired token. Please check DROPBOX_APP_KEY, DROPBOX_APP_SECRET, and DROPBOX_REFRESH_TOKEN in GitHub Secrets.")
+                    else:
+                        raise Exception("❌ Dropbox access token has EXPIRED. To enable automatic refresh, add DROPBOX_APP_KEY, DROPBOX_APP_SECRET, and DROPBOX_REFRESH_TOKEN to GitHub Secrets. See REFRESH_TOKEN_SETUP.md for instructions.")
                 else:
                     raise Exception(f"Invalid Dropbox access token: {e}")
             
