@@ -120,14 +120,20 @@ class DropboxToGitHubSync:
         try:
             self.log(f"Scanning Dropbox path: {self.dropbox_path}")
             result = self.dbx.files_list_folder(self.dropbox_path, recursive=True)
+            page_count = 0
+            excluded_count = 0
             
             while True:
+                page_count += 1
+                self.log(f"Processing page {page_count}... (found {len(files)} files so far)")
+                
                 for entry in result.entries:
                     if isinstance(entry, dropbox.files.FileMetadata):
                         path = entry.path_display
                         
                         # Skip excluded paths
                         if self.should_exclude(path):
+                            excluded_count += 1
                             continue
                         
                         files[path] = {
@@ -142,13 +148,14 @@ class DropboxToGitHubSync:
                 if not result.has_more:
                     break
                 
+                self.log(f"Fetching next page...")
                 result = self.dbx.files_list_folder_continue(result.cursor)
         
         except ApiError as e:
             self.log(f"Error listing files: {e}", "ERROR")
             raise
         
-        self.log(f"Found {len(files)} files in Dropbox")
+        self.log(f"Scanning complete: Found {len(files)} files, excluded {excluded_count} files")
         return files
     
     def get_git_file_status(self) -> Dict[str, str]:
@@ -279,12 +286,15 @@ class DropboxToGitHubSync:
     def sync_files(self, changes: Dict):
         """Sync files from Dropbox to local filesystem"""
         all_changes = changes["added"] + changes["modified"]
+        total = len(all_changes)
         
-        for file_info in all_changes:
+        for idx, file_info in enumerate(all_changes, 1):
             dropbox_path = file_info["dropbox_path"]
             local_path = file_info["path"]
             
-            self.log(f"Syncing: {local_path}")
+            # Log progress every 50 files or for every file if less than 50
+            if total <= 50 or idx % 50 == 0 or idx == 1:
+                self.log(f"Syncing [{idx}/{total}]: {local_path}")
             
             result = self.download_file(dropbox_path)
             if result:
@@ -294,6 +304,8 @@ class DropboxToGitHubSync:
                 self.save_file_locally(dropbox_path, content, local_path)
                 self.file_hashes[local_path] = self.get_file_hash(content)
                 self.file_metadata[local_path] = metadata
+        
+        self.log(f"Sync complete: {total} files synced")
     
     def organize_changes_by_department(self, changes: Dict) -> Dict:
         """Organize changes by department and employee"""
@@ -472,14 +484,17 @@ class DropboxToGitHubSync:
                 raise Exception("Invalid Dropbox access token")
             
             # List all files in Dropbox
+            self.log("Step 1/5: Listing files from Dropbox...")
             dropbox_files = self.list_all_files()
             
             # Get current git file status
+            self.log("Step 2/5: Getting git file status...")
             git_status = self.get_git_file_status()
             git_files = set(git_status.keys())
+            self.log(f"Found {len(git_files)} files currently in git")
             
             # Detect changes
-            self.log("Detecting changes...")
+            self.log("Step 3/5: Detecting changes...")
             changes = self.detect_changes(dropbox_files, git_files)
             
             total_changes = len(changes["added"]) + len(changes["modified"]) + len(changes["deleted"])
@@ -494,7 +509,9 @@ class DropboxToGitHubSync:
             self.log(f"  - Deleted: {len(changes['deleted'])}")
             
             # Sync files
-            self.log("Syncing files from Dropbox...")
+            self.log("Step 4/5: Syncing files from Dropbox...")
+            total_to_sync = len(changes["added"]) + len(changes["modified"])
+            self.log(f"Will sync {total_to_sync} files ({len(changes['added'])} added, {len(changes['modified'])} modified)")
             self.sync_files(changes)
             
             # Remove deleted files
