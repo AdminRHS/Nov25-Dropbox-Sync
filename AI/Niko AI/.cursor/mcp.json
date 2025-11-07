@@ -1,0 +1,48 @@
+{
+  "mcpServers": {
+    "browser-tools": {
+      "command": "npx",
+      "args": [
+        "@agentdeskai/browser-tools-mcp@1.1.0"
+      ]
+    },
+    "notion-api-mcp": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "notion-api-mcp",
+        "--key",
+        "1e9daca1-6241-4ce0-b7f9-6dcde7e08562",
+        "--profile",
+        "endless-pike-COinTx"
+      ]
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "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"
+      }
+    },
+    "lrn-mcp-service": {
+      "command": "npx",
+      "args": ["github:AdminRHS/lrn-mcp-service"],
+      "env": {
+        "APP_ENV": "dev",
+        "API_TOKEN": "7d45c995-0fcc-4a87-82cb-5d008024f4dd"
+      }
+    },
+    "oa-y-mcp-prod": {
+      "command": "npx",
+      "args": ["github:AdminRHS/oa-y-mcp-service"],
+      "env": {
+        "APP_ENV": "prod",
+        "API_TOKEN": "d383d4d1-5829-4aa1-80ce-0668d6869386"
+      }
+    }
+  }
+}

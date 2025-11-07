@@ -1,0 +1,1146 @@
+﻿[
+    {
+        "id":  1447,
+        "company_id":  "1",
+        "project_company_id":  "1",
+        "name":  "Ihor Olkhovyi",
+        "link":  "https://www.linkedin.com/in/ihorolkhovyi/",
+        "connections":  null,
+        "premium":  "1",
+        "linked_login":  "igorolkh17@gmail.com",
+        "linked_password":  "Igorolkh13111701",
+        "email_login":  "igorolkh17@gmail.com",
+        "email_password":  "Igorolkh131117",
+        "passport_link":  null,
+        "mobile":  null,
+        "comments":  "Неверный пароль.",
+        "buy_date":  null,
+        "created_date":  "2023-09-11",
+        "banned_date":  null,
+        "sold_date":  null,
+        "agent_id":  null,
+        "status_id":  "5",
+        "country_id":  null,
+        "source_id":  "13",
+        "placement_id":  "1",
+        "user_id":  null,
+        "is_approved_manager":  "1",
+        "created_at":  "2023-09-11T06:22:06.000000Z",
+        "updated_at":  "2024-05-08T12:34:02.000000Z",
+        "status":  {
+                       "id":  5,
+                       "company_id":  "1",
+                       "name":  "Problematic",
+                       "created_at":  "2020-09-04T13:03:21.000000Z",
+                       "updated_at":  "2020-09-04T13:03:21.000000Z"
+                   },
+        "country":  null,
+        "source":  {
+                       "id":  13,
+                       "company_id":  "1",
+                       "type":  "linkedin"
+                   },
+        "agent":  null,
+        "user":  null,
+        "project_company":  {
+                                "id":  1,
+                                "company_id":  "1",
+                                "name":  "Remote Helpers",
+                                "website":  "https://www.rh-s.com/",
+                                "short_name":  "rh-s.com",
+                                "created_at":  null,
+                                "updated_at":  "2024-01-05T06:56:45.000000Z"
+                            },
+        "placement":  {
+                          "id":  1,
+                          "company_id":  "1",
+                          "name":  "LinkedIn",
+                          "category_id":  "2",
+                          "created_at":  "2020-10-26T13:09:46.000000Z",
+                          "updated_at":  "2024-01-05T07:05:34.000000Z"
+                      },
+        "documents":  [
+
+                      ],
+        "account_changes":  [
+                                {
+                                    "id":  3655,
+                                    "account_id":  "1447",
+                                    "user_id":  "7784",
+                                    "value":  "Added Approved by manager",
+                                    "created_at":  "2024-05-08T12:34:02.000000Z",
+                                    "updated_at":  "2024-05-08T12:34:02.000000Z",
+                                    "user":  null
+                                }
+                            ],
+        "country_histories":  [
+
+                              ],
+        "manager_histories":  [
+
+                              ],
+        "password_histories":  [
+
+                               ],
+        "premium_histories":  [
+
+                              ]
+    },
+    {
+        "id":  1448,
+        "company_id":  "1",
+        "project_company_id":  "1",
+        "name":  "Vasyl Dontsul",
+        "link":  "https://www.linkedin.com/in/vasyl-dontsul/",
+        "connections":  "17",
+        "premium":  "1",
+        "linked_login":  "dontsul.vasyl@gmail.com",
+        "linked_password":  "mE24L627AnzVPzfic9L8",
+        "email_login":  "dontsul.vasyl@gmail.com",
+        "email_password":  "mE24L627AnzVPzfic9L8",
+        "passport_link":  null,
+        "mobile":  null,
+        "comments":  "изменен пароль \r\nне пропускает создать новій акк",
+        "buy_date":  null,
+        "created_date":  "2023-09-11",
+        "banned_date":  null,
+        "sold_date":  null,
+        "agent_id":  null,
+        "status_id":  "5",
+        "country_id":  null,
+        "source_id":  "13",
+        "placement_id":  "1",
+        "user_id":  "7825",
+        "is_approved_manager":  "1",
+        "created_at":  "2023-09-11T08:15:49.000000Z",
+        "updated_at":  "2024-03-19T10:49:00.000000Z",
+        "status":  {
+                       "id":  5,
+                       "company_id":  "1",
+                       "name":  "Problematic",
+                       "created_at":  "2020-09-04T13:03:21.000000Z",
+                       "updated_at":  "2020-09-04T13:03:21.000000Z"
+                   },
+        "country":  null,
+        "source":  {
+                       "id":  13,
+                       "company_id":  "1",
+                       "type":  "linkedin"
+                   },
+        "agent":  null,
+        "user":  null,
+        "project_company":  {
+                                "id":  1,
+                                "company_id":  "1",
+                                "name":  "Remote Helpers",
+                                "website":  "https://www.rh-s.com/",
+                                "short_name":  "rh-s.com",
+                                "created_at":  null,
+                                "updated_at":  "2024-01-05T06:56:45.000000Z"
+                            },
+        "placement":  {
+                          "id":  1,
+                          "company_id":  "1",
+                          "name":  "LinkedIn",
+                          "category_id":  "2",
+                          "created_at":  "2020-10-26T13:09:46.000000Z",
+                          "updated_at":  "2024-01-05T07:05:34.000000Z"
+                      },
+        "documents":  [
+                          {
+                              "id":  52,
+                              "account_id":  "1448",
+                              "expiration_date":  "2033-11-28",
+                              "type_id":  "1",
+                              "created_at":  "2023-11-28T13:15:14.000000Z",
+                              "updated_at":  "2023-11-28T13:15:14.000000Z",
+                              "doc_type":  {
+                                               "id":  1,
+                                               "company_id":  "1",
+                                               "name":  "Passport"
+                                           },
+                              "links":  [
+                                            {
+                                                "id":  85,
+                                                "document_id":  "52",
+                                                "url":  "https://drive.google.com/file/d/1ikLRHtY3ztyUHPJUe9v8Ncb7Tzq-ga89/view",
+                                                "created_at":  "2023-11-28T13:15:14.000000Z",
+                                                "updated_at":  "2023-11-28T13:15:14.000000Z"
+                                            },
+                                            {
+                                                "id":  86,
+                                                "document_id":  "52",
+                                                "url":  "https://drive.google.com/file/d/1eVjqqDCoqPByvUA6Rr_QeTbgrFudTXHr/view",
+                                                "created_at":  "2023-11-28T13:15:14.000000Z",
+                                                "updated_at":  "2023-11-28T13:15:14.000000Z"
+                                            }
+                                        ]
+                          }
+                      ],
+        "account_changes":  [
+                                {
+                                    "id":  62,
+                                    "account_id":  "1448",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Account Pass from Vasyl04081995$ to Ok5NvRwFYaLh7X",
+                                    "created_at":  "2023-12-06T09:07:55.000000Z",
+                                    "updated_at":  "2023-12-06T09:07:55.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  63,
+                                    "account_id":  "1448",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Email Password from Vasyl04081995$ to Ok5NvRwFYaLh7X",
+                                    "created_at":  "2023-12-06T09:07:55.000000Z",
+                                    "updated_at":  "2023-12-06T09:07:55.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  64,
+                                    "account_id":  "1448",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Lead Account Status from Change Password to Free",
+                                    "created_at":  "2023-12-06T09:07:55.000000Z",
+                                    "updated_at":  "2023-12-06T09:07:55.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  733,
+                                    "account_id":  "1448",
+                                    "user_id":  "7784",
+                                    "value":  "Changed Account Pass from Ok5NvRwFYaLh7X to mE24L627AnzVPzfic9L8",
+                                    "created_at":  "2024-01-03T16:03:11.000000Z",
+                                    "updated_at":  "2024-01-03T16:03:11.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  734,
+                                    "account_id":  "1448",
+                                    "user_id":  "7784",
+                                    "value":  "Changed Email Password from Ok5NvRwFYaLh7X to mE24L627AnzVPzfic9L8",
+                                    "created_at":  "2024-01-03T16:03:11.000000Z",
+                                    "updated_at":  "2024-01-03T16:03:11.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  735,
+                                    "account_id":  "1448",
+                                    "user_id":  "7784",
+                                    "value":  "Changed Connections from 2 to 17",
+                                    "created_at":  "2024-01-03T16:03:11.000000Z",
+                                    "updated_at":  "2024-01-03T16:03:11.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  2293,
+                                    "account_id":  "1448",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Lead Account Status from Free to Problematic",
+                                    "created_at":  "2024-03-19T10:47:58.000000Z",
+                                    "updated_at":  "2024-03-19T10:47:58.000000Z",
+                                    "user":  null
+                                }
+                            ],
+        "country_histories":  [
+
+                              ],
+        "manager_histories":  [
+
+                              ],
+        "password_histories":  [
+                                   {
+                                       "id":  309,
+                                       "account_id":  "1448",
+                                       "type":  "account",
+                                       "old_pass":  "Vasyl04081995$",
+                                       "change_date":  "2023-12-06T00:00:00.000000Z",
+                                       "created_at":  null,
+                                       "updated_at":  null
+                                   },
+                                   {
+                                       "id":  310,
+                                       "account_id":  "1448",
+                                       "type":  "email",
+                                       "old_pass":  "Vasyl04081995$",
+                                       "change_date":  "2023-12-06T00:00:00.000000Z",
+                                       "created_at":  null,
+                                       "updated_at":  null
+                                   },
+                                   {
+                                       "id":  446,
+                                       "account_id":  "1448",
+                                       "type":  "account",
+                                       "old_pass":  "Ok5NvRwFYaLh7X",
+                                       "change_date":  "2024-01-03T00:00:00.000000Z",
+                                       "created_at":  null,
+                                       "updated_at":  null
+                                   },
+                                   {
+                                       "id":  447,
+                                       "account_id":  "1448",
+                                       "type":  "email",
+                                       "old_pass":  "Ok5NvRwFYaLh7X",
+                                       "change_date":  "2024-01-03T00:00:00.000000Z",
+                                       "created_at":  null,
+                                       "updated_at":  null
+                                   }
+                               ],
+        "premium_histories":  [
+
+                              ]
+    },
+    {
+        "id":  1449,
+        "company_id":  "1",
+        "project_company_id":  "1",
+        "name":  "Anastasiia Maha",
+        "link":  "https://www.linkedin.com/feed/",
+        "connections":  null,
+        "premium":  "0",
+        "linked_login":  "anastasiiamaha@gmail.com",
+        "linked_password":  "16082008katja",
+        "email_login":  "anastasiiamaha@gmail.com",
+        "email_password":  "16082008katja",
+        "passport_link":  null,
+        "mobile":  null,
+        "comments":  "Пароль был изменен 18 дней назад.\r\nкод на телефон просит\r\nAccount Link - вставить нов когда войдет",
+        "buy_date":  null,
+        "created_date":  "2023-09-11",
+        "banned_date":  null,
+        "sold_date":  null,
+        "agent_id":  null,
+        "status_id":  "5",
+        "country_id":  null,
+        "source_id":  "13",
+        "placement_id":  "1",
+        "user_id":  null,
+        "is_approved_manager":  "1",
+        "created_at":  "2023-09-11T09:14:12.000000Z",
+        "updated_at":  "2023-12-22T09:31:35.000000Z",
+        "status":  {
+                       "id":  5,
+                       "company_id":  "1",
+                       "name":  "Problematic",
+                       "created_at":  "2020-09-04T13:03:21.000000Z",
+                       "updated_at":  "2020-09-04T13:03:21.000000Z"
+                   },
+        "country":  null,
+        "source":  {
+                       "id":  13,
+                       "company_id":  "1",
+                       "type":  "linkedin"
+                   },
+        "agent":  null,
+        "user":  null,
+        "project_company":  {
+                                "id":  1,
+                                "company_id":  "1",
+                                "name":  "Remote Helpers",
+                                "website":  "https://www.rh-s.com/",
+                                "short_name":  "rh-s.com",
+                                "created_at":  null,
+                                "updated_at":  "2024-01-05T06:56:45.000000Z"
+                            },
+        "placement":  {
+                          "id":  1,
+                          "company_id":  "1",
+                          "name":  "LinkedIn",
+                          "category_id":  "2",
+                          "created_at":  "2020-10-26T13:09:46.000000Z",
+                          "updated_at":  "2024-01-05T07:05:34.000000Z"
+                      },
+        "documents":  [
+                          {
+                              "id":  80,
+                              "account_id":  "1449",
+                              "expiration_date":  "2032-07-25",
+                              "type_id":  "3",
+                              "created_at":  "2023-12-05T08:37:42.000000Z",
+                              "updated_at":  "2023-12-05T08:37:42.000000Z",
+                              "doc_type":  {
+                                               "id":  3,
+                                               "company_id":  "1",
+                                               "name":  "International passport"
+                                           },
+                              "links":  [
+                                            {
+                                                "id":  130,
+                                                "document_id":  "80",
+                                                "url":  "https://drive.google.com/file/d/1ory-7xbmKtDHRBwvqRLL-yH0Abm8PATC/view",
+                                                "created_at":  "2023-12-05T08:37:42.000000Z",
+                                                "updated_at":  "2023-12-05T08:37:42.000000Z"
+                                            }
+                                        ]
+                          }
+                      ],
+        "account_changes":  [
+                                {
+                                    "id":  26,
+                                    "account_id":  "1449",
+                                    "user_id":  "7784",
+                                    "value":  "Changed Lead Account Status from Free to Change Password",
+                                    "created_at":  "2023-12-05T08:42:24.000000Z",
+                                    "updated_at":  "2023-12-05T08:42:24.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  27,
+                                    "account_id":  "1449",
+                                    "user_id":  "7784",
+                                    "value":  "Removed Employee Мага Анастасия Руслановна",
+                                    "created_at":  "2023-12-05T08:42:24.000000Z",
+                                    "updated_at":  "2023-12-05T08:42:24.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  28,
+                                    "account_id":  "1449",
+                                    "user_id":  "7784",
+                                    "value":  "Removed Premium",
+                                    "created_at":  "2023-12-05T08:42:24.000000Z",
+                                    "updated_at":  "2023-12-05T08:42:24.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  29,
+                                    "account_id":  "1449",
+                                    "user_id":  "7784",
+                                    "value":  "Added Approved by manager",
+                                    "created_at":  "2023-12-05T08:42:24.000000Z",
+                                    "updated_at":  "2023-12-05T08:42:24.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  30,
+                                    "account_id":  "1449",
+                                    "user_id":  "7784",
+                                    "value":  "Changed Project Company to rh-s.com",
+                                    "created_at":  "2023-12-05T08:42:24.000000Z",
+                                    "updated_at":  "2023-12-05T08:42:24.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  609,
+                                    "account_id":  "1449",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Lead Account Status from Change Password to Problematic",
+                                    "created_at":  "2023-12-22T09:31:35.000000Z",
+                                    "updated_at":  "2023-12-22T09:31:35.000000Z",
+                                    "user":  null
+                                }
+                            ],
+        "country_histories":  [
+
+                              ],
+        "manager_histories":  [
+
+                              ],
+        "password_histories":  [
+
+                               ],
+        "premium_histories":  [
+
+                              ]
+    },
+    {
+        "id":  1450,
+        "company_id":  "1",
+        "project_company_id":  "1",
+        "name":  "Andriy Drobotuk",
+        "link":  "https://www.linkedin.com/in/andriy-drobotuk/",
+        "connections":  "9",
+        "premium":  "1",
+        "linked_login":  "readrobotuk@gmail.com",
+        "linked_password":  "G@12435678",
+        "email_login":  "readrobotuk@gmail.com",
+        "email_password":  "G@12435678",
+        "passport_link":  null,
+        "mobile":  null,
+        "comments":  "17.11.2023 не удалось установить личность \r\nне смогли войти в гугл пользователья",
+        "buy_date":  null,
+        "created_date":  "2023-09-18",
+        "banned_date":  null,
+        "sold_date":  null,
+        "agent_id":  null,
+        "status_id":  "5",
+        "country_id":  null,
+        "source_id":  "13",
+        "placement_id":  "1",
+        "user_id":  "7840",
+        "is_approved_manager":  "1",
+        "created_at":  "2023-09-18T08:02:42.000000Z",
+        "updated_at":  "2023-12-08T09:03:29.000000Z",
+        "status":  {
+                       "id":  5,
+                       "company_id":  "1",
+                       "name":  "Problematic",
+                       "created_at":  "2020-09-04T13:03:21.000000Z",
+                       "updated_at":  "2020-09-04T13:03:21.000000Z"
+                   },
+        "country":  null,
+        "source":  {
+                       "id":  13,
+                       "company_id":  "1",
+                       "type":  "linkedin"
+                   },
+        "agent":  null,
+        "user":  null,
+        "project_company":  {
+                                "id":  1,
+                                "company_id":  "1",
+                                "name":  "Remote Helpers",
+                                "website":  "https://www.rh-s.com/",
+                                "short_name":  "rh-s.com",
+                                "created_at":  null,
+                                "updated_at":  "2024-01-05T06:56:45.000000Z"
+                            },
+        "placement":  {
+                          "id":  1,
+                          "company_id":  "1",
+                          "name":  "LinkedIn",
+                          "category_id":  "2",
+                          "created_at":  "2020-10-26T13:09:46.000000Z",
+                          "updated_at":  "2024-01-05T07:05:34.000000Z"
+                      },
+        "documents":  [
+
+                      ],
+        "account_changes":  [
+                                {
+                                    "id":  133,
+                                    "account_id":  "1450",
+                                    "user_id":  "7784",
+                                    "value":  "Changed Connections from 7 to 9",
+                                    "created_at":  "2023-12-08T09:03:29.000000Z",
+                                    "updated_at":  "2023-12-08T09:03:29.000000Z",
+                                    "user":  null
+                                }
+                            ],
+        "country_histories":  [
+
+                              ],
+        "manager_histories":  [
+
+                              ],
+        "password_histories":  [
+
+                               ],
+        "premium_histories":  [
+
+                              ]
+    },
+    {
+        "id":  1451,
+        "company_id":  "1",
+        "project_company_id":  "1",
+        "name":  "https://www.linkedin.com/in/example",
+        "link":  "https://www.linkedin.com/in/example",
+        "connections":  null,
+        "premium":  "1",
+        "linked_login":  "example@example.com",
+        "linked_password":  "password",
+        "email_login":  "example@example.com",
+        "email_password":  "password",
+        "passport_link":  null,
+        "mobile":  null,
+        "comments":  null,
+        "buy_date":  null,
+        "created_date":  "2023-09-18",
+        "banned_date":  null,
+        "sold_date":  null,
+        "agent_id":  null,
+        "status_id":  "5",
+        "country_id":  null,
+        "source_id":  "13",
+        "placement_id":  "1",
+        "user_id":  "7838",
+        "is_approved_manager":  "1",
+        "created_at":  "2023-09-18T09:43:46.000000Z",
+        "updated_at":  "2024-05-08T12:34:42.000000Z",
+        "status":  {
+                       "id":  5,
+                       "company_id":  "1",
+                       "name":  "Problematic",
+                       "created_at":  "2020-09-04T13:03:21.000000Z",
+                       "updated_at":  "2020-09-04T13:03:21.000000Z"
+                   },
+        "country":  null,
+        "source":  {
+                       "id":  13,
+                       "company_id":  "1",
+                       "type":  "linkedin"
+                   },
+        "agent":  null,
+        "user":  null,
+        "project_company":  {
+                                "id":  1,
+                                "company_id":  "1",
+                                "name":  "Remote Helpers",
+                                "website":  "https://www.rh-s.com/",
+                                "short_name":  "rh-s.com",
+                                "created_at":  null,
+                                "updated_at":  "2024-01-05T06:56:45.000000Z"
+                            },
+        "placement":  {
+                          "id":  1,
+                          "company_id":  "1",
+                          "name":  "LinkedIn",
+                          "category_id":  "2",
+                          "created_at":  "2020-10-26T13:09:46.000000Z",
+                          "updated_at":  "2024-01-05T07:05:34.000000Z"
+                      },
+        "documents":  [
+
+                      ],
+        "account_changes":  [
+                                {
+                                    "id":  3660,
+                                    "account_id":  "1451",
+                                    "user_id":  "7784",
+                                    "value":  "Added Approved by manager",
+                                    "created_at":  "2024-05-08T12:34:42.000000Z",
+                                    "updated_at":  "2024-05-08T12:34:42.000000Z",
+                                    "user":  null
+                                }
+                            ],
+        "country_histories":  [
+
+                              ],
+        "manager_histories":  [
+
+                              ],
+        "password_histories":  [
+
+                               ],
+        "premium_histories":  [
+
+                              ]
+    },
+    {
+        "id":  1452,
+        "company_id":  "1",
+        "project_company_id":  "1",
+        "name":  "Vasilika Alikhanidi",
+        "link":  "https://www.linkedin.com/in/vasilika-alikhanidi-492664291/",
+        "connections":  "11",
+        "premium":  "1",
+        "linked_login":  "vslk5024@gmail.com",
+        "linked_password":  "!?k8cZL#igw7njF",
+        "email_login":  "vslk5024@gmail.com",
+        "email_password":  "the984th2040",
+        "passport_link":  null,
+        "mobile":  null,
+        "comments":  null,
+        "buy_date":  null,
+        "created_date":  "2023-09-18",
+        "banned_date":  null,
+        "sold_date":  null,
+        "agent_id":  null,
+        "status_id":  "7",
+        "country_id":  null,
+        "source_id":  "13",
+        "placement_id":  "1",
+        "user_id":  null,
+        "is_approved_manager":  "1",
+        "created_at":  "2023-09-18T12:13:37.000000Z",
+        "updated_at":  "2023-11-17T22:40:32.000000Z",
+        "status":  {
+                       "id":  7,
+                       "company_id":  "1",
+                       "name":  "Sold",
+                       "created_at":  "2021-08-02T15:15:41.000000Z",
+                       "updated_at":  "2021-08-02T15:15:41.000000Z"
+                   },
+        "country":  null,
+        "source":  {
+                       "id":  13,
+                       "company_id":  "1",
+                       "type":  "linkedin"
+                   },
+        "agent":  null,
+        "user":  null,
+        "project_company":  {
+                                "id":  1,
+                                "company_id":  "1",
+                                "name":  "Remote Helpers",
+                                "website":  "https://www.rh-s.com/",
+                                "short_name":  "rh-s.com",
+                                "created_at":  null,
+                                "updated_at":  "2024-01-05T06:56:45.000000Z"
+                            },
+        "placement":  {
+                          "id":  1,
+                          "company_id":  "1",
+                          "name":  "LinkedIn",
+                          "category_id":  "2",
+                          "created_at":  "2020-10-26T13:09:46.000000Z",
+                          "updated_at":  "2024-01-05T07:05:34.000000Z"
+                      },
+        "documents":  [
+
+                      ],
+        "account_changes":  [
+
+                            ],
+        "country_histories":  [
+
+                              ],
+        "manager_histories":  [
+
+                              ],
+        "password_histories":  [
+
+                               ],
+        "premium_histories":  [
+
+                              ]
+    },
+    {
+        "id":  1453,
+        "company_id":  "1",
+        "project_company_id":  "1",
+        "name":  "Sofiya Janusz",
+        "link":  "https://www.linkedin.com/in/sofiya-janusz/",
+        "connections":  "18",
+        "premium":  "0",
+        "linked_login":  "sofiiayns.remotemployees@gmail.com",
+        "linked_password":  "3S3t4iSXAua4yR79",
+        "email_login":  "sofiiayns.remotemployees@gmail.com",
+        "email_password":  "3S3t4iSXAua4yR79",
+        "passport_link":  null,
+        "mobile":  null,
+        "comments":  "sofiayanush@gmail.com - рекавери имейл (если опять запросит, но должна быть niko@rh-s.com",
+        "buy_date":  null,
+        "created_date":  "2023-09-25",
+        "banned_date":  null,
+        "sold_date":  null,
+        "agent_id":  null,
+        "status_id":  "3",
+        "country_id":  null,
+        "source_id":  "13",
+        "placement_id":  "1",
+        "user_id":  null,
+        "is_approved_manager":  "1",
+        "created_at":  "2023-09-25T10:27:14.000000Z",
+        "updated_at":  "2023-12-05T08:29:00.000000Z",
+        "status":  {
+                       "id":  3,
+                       "company_id":  "1",
+                       "name":  "Free",
+                       "created_at":  "2020-09-04T13:03:19.000000Z",
+                       "updated_at":  "2020-09-04T13:03:19.000000Z"
+                   },
+        "country":  null,
+        "source":  {
+                       "id":  13,
+                       "company_id":  "1",
+                       "type":  "linkedin"
+                   },
+        "agent":  null,
+        "user":  null,
+        "project_company":  {
+                                "id":  1,
+                                "company_id":  "1",
+                                "name":  "Remote Helpers",
+                                "website":  "https://www.rh-s.com/",
+                                "short_name":  "rh-s.com",
+                                "created_at":  null,
+                                "updated_at":  "2024-01-05T06:56:45.000000Z"
+                            },
+        "placement":  {
+                          "id":  1,
+                          "company_id":  "1",
+                          "name":  "LinkedIn",
+                          "category_id":  "2",
+                          "created_at":  "2020-10-26T13:09:46.000000Z",
+                          "updated_at":  "2024-01-05T07:05:34.000000Z"
+                      },
+        "documents":  [
+                          {
+                              "id":  72,
+                              "account_id":  "1453",
+                              "expiration_date":  "2031-01-18",
+                              "type_id":  "4",
+                              "created_at":  "2023-11-30T08:11:54.000000Z",
+                              "updated_at":  "2023-11-30T08:11:54.000000Z",
+                              "doc_type":  {
+                                               "id":  4,
+                                               "company_id":  "1",
+                                               "name":  "ID card"
+                                           },
+                              "links":  [
+                                            {
+                                                "id":  115,
+                                                "document_id":  "72",
+                                                "url":  "https://drive.google.com/file/d/1s0ERMRMR2N1aslkDA83UxWUTKKOM0Rfb/view",
+                                                "created_at":  "2023-11-30T08:11:54.000000Z",
+                                                "updated_at":  "2023-11-30T08:11:54.000000Z"
+                                            }
+                                        ]
+                          }
+                      ],
+        "account_changes":  [
+                                {
+                                    "id":  21,
+                                    "account_id":  "1453",
+                                    "user_id":  "7784",
+                                    "value":  "Changed Account Pass from Remote123456 to 3S3t4iSXAua4yR79",
+                                    "created_at":  "2023-12-05T08:29:00.000000Z",
+                                    "updated_at":  "2023-12-05T08:29:00.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  22,
+                                    "account_id":  "1453",
+                                    "user_id":  "7784",
+                                    "value":  "Changed Email Password from Remote123456 to 3S3t4iSXAua4yR79",
+                                    "created_at":  "2023-12-05T08:29:00.000000Z",
+                                    "updated_at":  "2023-12-05T08:29:00.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  23,
+                                    "account_id":  "1453",
+                                    "user_id":  "7784",
+                                    "value":  "Changed Connections from 17 to 18",
+                                    "created_at":  "2023-12-05T08:29:00.000000Z",
+                                    "updated_at":  "2023-12-05T08:29:00.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  24,
+                                    "account_id":  "1453",
+                                    "user_id":  "7784",
+                                    "value":  "Changed Lead Account Status from Problematic to Free",
+                                    "created_at":  "2023-12-05T08:29:00.000000Z",
+                                    "updated_at":  "2023-12-05T08:29:00.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  25,
+                                    "account_id":  "1453",
+                                    "user_id":  "7784",
+                                    "value":  "Removed Premium",
+                                    "created_at":  "2023-12-05T08:29:00.000000Z",
+                                    "updated_at":  "2023-12-05T08:29:00.000000Z",
+                                    "user":  null
+                                }
+                            ],
+        "country_histories":  [
+
+                              ],
+        "manager_histories":  [
+
+                              ],
+        "password_histories":  [
+                                   {
+                                       "id":  303,
+                                       "account_id":  "1453",
+                                       "type":  "account",
+                                       "old_pass":  "Remote123456",
+                                       "change_date":  "2023-12-05T00:00:00.000000Z",
+                                       "created_at":  null,
+                                       "updated_at":  null
+                                   },
+                                   {
+                                       "id":  304,
+                                       "account_id":  "1453",
+                                       "type":  "email",
+                                       "old_pass":  "Remote123456",
+                                       "change_date":  "2023-12-05T00:00:00.000000Z",
+                                       "created_at":  null,
+                                       "updated_at":  null
+                                   }
+                               ],
+        "premium_histories":  [
+
+                              ]
+    },
+    {
+        "id":  1454,
+        "company_id":  "1",
+        "project_company_id":  "1",
+        "name":  "Anastasia Aseeva",
+        "link":  "https://www.linkedin.com/in/anastasiaaseeva/",
+        "connections":  "0",
+        "premium":  "1",
+        "linked_login":  "asvanna14@gmail.com",
+        "linked_password":  "okaasn286nishioke1",
+        "email_login":  "asvanna14@gmail.com",
+        "email_password":  "okaasn286nishioke1",
+        "passport_link":  null,
+        "mobile":  null,
+        "comments":  null,
+        "buy_date":  null,
+        "created_date":  null,
+        "banned_date":  null,
+        "sold_date":  null,
+        "agent_id":  null,
+        "status_id":  "3",
+        "country_id":  null,
+        "source_id":  "13",
+        "placement_id":  "1",
+        "user_id":  null,
+        "is_approved_manager":  "1",
+        "created_at":  "2023-10-02T06:26:31.000000Z",
+        "updated_at":  "2023-11-17T11:06:29.000000Z",
+        "status":  {
+                       "id":  3,
+                       "company_id":  "1",
+                       "name":  "Free",
+                       "created_at":  "2020-09-04T13:03:19.000000Z",
+                       "updated_at":  "2020-09-04T13:03:19.000000Z"
+                   },
+        "country":  null,
+        "source":  {
+                       "id":  13,
+                       "company_id":  "1",
+                       "type":  "linkedin"
+                   },
+        "agent":  null,
+        "user":  null,
+        "project_company":  {
+                                "id":  1,
+                                "company_id":  "1",
+                                "name":  "Remote Helpers",
+                                "website":  "https://www.rh-s.com/",
+                                "short_name":  "rh-s.com",
+                                "created_at":  null,
+                                "updated_at":  "2024-01-05T06:56:45.000000Z"
+                            },
+        "placement":  {
+                          "id":  1,
+                          "company_id":  "1",
+                          "name":  "LinkedIn",
+                          "category_id":  "2",
+                          "created_at":  "2020-10-26T13:09:46.000000Z",
+                          "updated_at":  "2024-01-05T07:05:34.000000Z"
+                      },
+        "documents":  [
+                          {
+                              "id":  20,
+                              "account_id":  "1454",
+                              "expiration_date":  "2032-12-14",
+                              "type_id":  "4",
+                              "created_at":  "2023-11-27T15:21:46.000000Z",
+                              "updated_at":  "2023-11-27T15:21:46.000000Z",
+                              "doc_type":  {
+                                               "id":  4,
+                                               "company_id":  "1",
+                                               "name":  "ID card"
+                                           },
+                              "links":  [
+                                            {
+                                                "id":  32,
+                                                "document_id":  "20",
+                                                "url":  "https://drive.google.com/file/d/1eelXgU52PVJ1Rm47TgcTpD7LLxVToKGk/view?usp=drive_link",
+                                                "created_at":  "2023-11-27T15:21:46.000000Z",
+                                                "updated_at":  "2023-11-27T15:21:46.000000Z"
+                                            }
+                                        ]
+                          }
+                      ],
+        "account_changes":  [
+
+                            ],
+        "country_histories":  [
+
+                              ],
+        "manager_histories":  [
+
+                              ],
+        "password_histories":  [
+
+                               ],
+        "premium_histories":  [
+
+                              ]
+    },
+    {
+        "id":  1455,
+        "company_id":  "1",
+        "project_company_id":  "1",
+        "name":  "Vladyslav Sapeha",
+        "link":  "https://www.linkedin.com/in/vladyslav-sapeha/",
+        "connections":  null,
+        "premium":  "1",
+        "linked_login":  "vladyslavsapeha@gmail.com",
+        "linked_password":  "!)c\u00268XH+.wD=uEw",
+        "email_login":  "vladyslavsapeha@gmail.com",
+        "email_password":  "!)c\u00268XH+.wD=uEw",
+        "passport_link":  null,
+        "mobile":  null,
+        "comments":  null,
+        "buy_date":  null,
+        "created_date":  null,
+        "banned_date":  null,
+        "sold_date":  null,
+        "agent_id":  null,
+        "status_id":  "6",
+        "country_id":  null,
+        "source_id":  "13",
+        "placement_id":  "1",
+        "user_id":  "7864",
+        "is_approved_manager":  "1",
+        "created_at":  "2023-10-02T06:27:25.000000Z",
+        "updated_at":  "2023-11-17T13:20:17.000000Z",
+        "status":  {
+                       "id":  6,
+                       "company_id":  "1",
+                       "name":  "Banned",
+                       "created_at":  "2020-09-04T13:03:22.000000Z",
+                       "updated_at":  "2020-09-04T13:03:22.000000Z"
+                   },
+        "country":  null,
+        "source":  {
+                       "id":  13,
+                       "company_id":  "1",
+                       "type":  "linkedin"
+                   },
+        "agent":  null,
+        "user":  null,
+        "project_company":  {
+                                "id":  1,
+                                "company_id":  "1",
+                                "name":  "Remote Helpers",
+                                "website":  "https://www.rh-s.com/",
+                                "short_name":  "rh-s.com",
+                                "created_at":  null,
+                                "updated_at":  "2024-01-05T06:56:45.000000Z"
+                            },
+        "placement":  {
+                          "id":  1,
+                          "company_id":  "1",
+                          "name":  "LinkedIn",
+                          "category_id":  "2",
+                          "created_at":  "2020-10-26T13:09:46.000000Z",
+                          "updated_at":  "2024-01-05T07:05:34.000000Z"
+                      },
+        "documents":  [
+
+                      ],
+        "account_changes":  [
+
+                            ],
+        "country_histories":  [
+
+                              ],
+        "manager_histories":  [
+
+                              ],
+        "password_histories":  [
+
+                               ],
+        "premium_histories":  [
+
+                              ]
+    },
+    {
+        "id":  1456,
+        "company_id":  "1",
+        "project_company_id":  "1",
+        "name":  "Sofiia Bondar",
+        "link":  "https://www.linkedin.com/in/sofiia-bondar-08400b294/",
+        "connections":  "23",
+        "premium":  "1",
+        "linked_login":  "s90595594@gmail.com",
+        "linked_password":  "C+38B%t#a$Hv`LqY",
+        "email_login":  "s90595594@gmail.com",
+        "email_password":  "C+38B%t#a$Hv`LqY",
+        "passport_link":  null,
+        "mobile":  null,
+        "comments":  null,
+        "buy_date":  null,
+        "created_date":  "2023-11-29",
+        "banned_date":  null,
+        "sold_date":  null,
+        "agent_id":  null,
+        "status_id":  "3",
+        "country_id":  null,
+        "source_id":  "13",
+        "placement_id":  "1",
+        "user_id":  "7861",
+        "is_approved_manager":  "1",
+        "created_at":  "2023-10-02T08:15:12.000000Z",
+        "updated_at":  "2023-11-29T10:27:39.000000Z",
+        "status":  {
+                       "id":  3,
+                       "company_id":  "1",
+                       "name":  "Free",
+                       "created_at":  "2020-09-04T13:03:19.000000Z",
+                       "updated_at":  "2020-09-04T13:03:19.000000Z"
+                   },
+        "country":  null,
+        "source":  {
+                       "id":  13,
+                       "company_id":  "1",
+                       "type":  "linkedin"
+                   },
+        "agent":  null,
+        "user":  null,
+        "project_company":  {
+                                "id":  1,
+                                "company_id":  "1",
+                                "name":  "Remote Helpers",
+                                "website":  "https://www.rh-s.com/",
+                                "short_name":  "rh-s.com",
+                                "created_at":  null,
+                                "updated_at":  "2024-01-05T06:56:45.000000Z"
+                            },
+        "placement":  {
+                          "id":  1,
+                          "company_id":  "1",
+                          "name":  "LinkedIn",
+                          "category_id":  "2",
+                          "created_at":  "2020-10-26T13:09:46.000000Z",
+                          "updated_at":  "2024-01-05T07:05:34.000000Z"
+                      },
+        "documents":  [
+                          {
+                              "id":  71,
+                              "account_id":  "1456",
+                              "expiration_date":  "2030-07-16",
+                              "type_id":  "4",
+                              "created_at":  "2023-11-29T10:29:51.000000Z",
+                              "updated_at":  "2023-11-29T10:29:51.000000Z",
+                              "doc_type":  {
+                                               "id":  4,
+                                               "company_id":  "1",
+                                               "name":  "ID card"
+                                           },
+                              "links":  [
+                                            {
+                                                "id":  113,
+                                                "document_id":  "71",
+                                                "url":  "https://drive.google.com/file/d/1W-rFxdQcbgL0Uue5q6_ELTI8aAnNx2lc/view",
+                                                "created_at":  "2023-11-29T10:29:51.000000Z",
+                                                "updated_at":  "2023-11-29T10:29:51.000000Z"
+                                            },
+                                            {
+                                                "id":  114,
+                                                "document_id":  "71",
+                                                "url":  "https://drive.google.com/file/d/1bEApKHu4aJt8ITjv_3-BWMSFfxme2F-j/view",
+                                                "created_at":  "2023-11-29T10:29:51.000000Z",
+                                                "updated_at":  "2023-11-29T10:29:51.000000Z"
+                                            }
+                                        ]
+                          }
+                      ],
+        "account_changes":  [
+
+                            ],
+        "country_histories":  [
+
+                              ],
+        "manager_histories":  [
+
+                              ],
+        "password_histories":  [
+
+                               ],
+        "premium_histories":  [
+
+                              ]
+    }
+]

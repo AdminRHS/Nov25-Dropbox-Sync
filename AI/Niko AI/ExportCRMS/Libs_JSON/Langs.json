@@ -1,0 +1,1022 @@
+{
+  "data": [
+    {
+      "id": 2532,
+      "language_id": 18,
+      "item_id": 18,
+      "name": "Azerbaijani",
+      "iso2": "AZ",
+      "iso3": "AZE",
+      "created_at": "2025-06-06T07:33:01.000000Z",
+      "translation": {
+        "id": 1,
+        "language_id": 1,
+        "iso2": "EN",
+        "iso3": "ENG",
+        "name": "English",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/gb.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 3,
+        "name": "Approved",
+        "color": "rgb(5, 255, 0)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": {
+        "id": 2,
+        "name": "Ezheleva Ekaterina",
+        "image": "https://api.crm-s.com/images/users/1737624069.jpg"
+      },
+      "library": {
+        "id": 2532,
+        "name": "Azerbaijani"
+      },
+      "image": "https://api.crm-s.com/flags/az.png",
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 25,
+      "language_id": 14,
+      "item_id": 14,
+      "name": "Bulgarian",
+      "iso2": "BG",
+      "iso3": "BUL",
+      "created_at": "2024-09-10T12:56:46.000000Z",
+      "translation": {
+        "id": 1,
+        "language_id": 1,
+        "iso2": "EN",
+        "iso3": "ENG",
+        "name": "English",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/gb.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": null,
+      "library": {
+        "id": 25,
+        "name": "Bulgarian"
+      },
+      "image": "https://api.crm-s.com/flags/bg.png",
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 1891,
+      "language_id": 17,
+      "item_id": 17,
+      "name": "Chinese",
+      "iso2": "ZH",
+      "iso3": "CHI",
+      "created_at": "2025-01-08T09:21:16.000000Z",
+      "translation": {
+        "id": 1,
+        "language_id": 1,
+        "iso2": "EN",
+        "iso3": "ENG",
+        "name": "English",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/gb.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": {
+        "id": 6,
+        "name": "Elena Yermakova",
+        "image": "https://api.crm-s.com/images/users/1739456973.png"
+      },
+      "library": {
+        "id": 1891,
+        "name": "Chinese"
+      },
+      "image": "https://api.crm-s.com/flags/cn.png",
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 24,
+      "language_id": 13,
+      "item_id": 13,
+      "name": "Czech",
+      "iso2": "CZ",
+      "iso3": "CZH",
+      "created_at": "2024-09-10T12:56:32.000000Z",
+      "translation": {
+        "id": 1,
+        "language_id": 1,
+        "iso2": "EN",
+        "iso3": "ENG",
+        "name": "English",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/gb.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": null,
+      "library": {
+        "id": 24,
+        "name": "Czech"
+      },
+      "image": "https://api.crm-s.com/flags/cz.png",
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 17,
+      "language_id": 10,
+      "item_id": 10,
+      "name": "Danish",
+      "iso2": "DK",
+      "iso3": "DAN",
+      "created_at": "2024-09-10T12:54:04.000000Z",
+      "translation": {
+        "id": 1,
+        "language_id": 1,
+        "iso2": "EN",
+        "iso3": "ENG",
+        "name": "English",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/gb.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": null,
+      "library": {
+        "id": 17,
+        "name": "Danish"
+      },
+      "image": "https://api.crm-s.com/flags/dk.png",
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 2782,
+      "language_id": 23,
+      "item_id": 23,
+      "name": "Deutsch",
+      "iso2": "EN",
+      "iso3": "ENG",
+      "created_at": "2025-11-04T14:13:16.000000Z",
+      "translation": {
+        "id": 10,
+        "language_id": 3,
+        "iso2": "DE",
+        "iso3": "DEU",
+        "name": "German",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/de.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": {
+        "id": 12,
+        "name": "Artemchuk Nikolay",
+        "image": null
+      },
+      "library": {
+        "id": 1,
+        "name": "English"
+      },
+      "image": null,
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 14,
+      "language_id": 7,
+      "item_id": 7,
+      "name": "Dutch",
+      "iso2": "NL",
+      "iso3": "NLD",
+      "created_at": "2024-09-10T12:51:26.000000Z",
+      "translation": {
+        "id": 1,
+        "language_id": 1,
+        "iso2": "EN",
+        "iso3": "ENG",
+        "name": "English",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/gb.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": null,
+      "library": {
+        "id": 14,
+        "name": "Dutch"
+      },
+      "image": "https://api.crm-s.com/flags/nl.png",
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 1,
+      "language_id": 1,
+      "item_id": 1,
+      "name": "English",
+      "iso2": "EN",
+      "iso3": "ENG",
+      "created_at": "2024-09-10T09:56:50.000000Z",
+      "translation": {
+        "id": 1,
+        "language_id": 1,
+        "iso2": "EN",
+        "iso3": "ENG",
+        "name": "English",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/gb.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": {
+        "id": 1,
+        "name": "Kizilova Olha",
+        "image": "https://api.crm-s.com/images/users/1730899391.png"
+      },
+      "library": {
+        "id": 1,
+        "name": "English"
+      },
+      "image": "https://api.crm-s.com/flags/gb.png",
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 2783,
+      "language_id": 24,
+      "item_id": 24,
+      "name": "Französisch",
+      "iso2": "FR",
+      "iso3": "FRA",
+      "created_at": "2025-11-04T14:13:51.000000Z",
+      "translation": {
+        "id": 10,
+        "language_id": 3,
+        "iso2": "DE",
+        "iso3": "DEU",
+        "name": "German",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/de.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": {
+        "id": 12,
+        "name": "Artemchuk Nikolay",
+        "image": null
+      },
+      "library": {
+        "id": 9,
+        "name": "French"
+      },
+      "image": null,
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 9,
+      "language_id": 2,
+      "item_id": 2,
+      "name": "French",
+      "iso2": "FR",
+      "iso3": "FRA",
+      "created_at": "2024-09-10T12:49:26.000000Z",
+      "translation": {
+        "id": 1,
+        "language_id": 1,
+        "iso2": "EN",
+        "iso3": "ENG",
+        "name": "English",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/gb.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": null,
+      "library": {
+        "id": 9,
+        "name": "French"
+      },
+      "image": "https://api.crm-s.com/flags/fr.png",
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 10,
+      "language_id": 3,
+      "item_id": 3,
+      "name": "German",
+      "iso2": "DE",
+      "iso3": "DEU",
+      "created_at": "2024-09-10T12:49:52.000000Z",
+      "translation": {
+        "id": 1,
+        "language_id": 1,
+        "iso2": "EN",
+        "iso3": "ENG",
+        "name": "English",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/gb.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": null,
+      "library": {
+        "id": 10,
+        "name": "German"
+      },
+      "image": "https://api.crm-s.com/flags/de.png",
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 12,
+      "language_id": 5,
+      "item_id": 5,
+      "name": "Italian",
+      "iso2": "IT",
+      "iso3": "ITA",
+      "created_at": "2024-09-10T12:50:53.000000Z",
+      "translation": {
+        "id": 1,
+        "language_id": 1,
+        "iso2": "EN",
+        "iso3": "ENG",
+        "name": "English",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/gb.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": null,
+      "library": {
+        "id": 12,
+        "name": "Italian"
+      },
+      "image": "https://api.crm-s.com/flags/it.png",
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 2537,
+      "language_id": 21,
+      "item_id": 21,
+      "name": "Kazakh",
+      "iso2": "KK",
+      "iso3": "KAZ",
+      "created_at": "2025-06-10T11:35:12.000000Z",
+      "translation": {
+        "id": 1,
+        "language_id": 1,
+        "iso2": "EN",
+        "iso3": "ENG",
+        "name": "English",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/gb.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 3,
+        "name": "Approved",
+        "color": "rgb(5, 255, 0)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": {
+        "id": 52,
+        "name": "Ievgeniia Nealova",
+        "image": null
+      },
+      "library": {
+        "id": 2537,
+        "name": "Kazakh"
+      },
+      "image": "https://api.crm-s.com/flags/kz.png",
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 15,
+      "language_id": 8,
+      "item_id": 8,
+      "name": "Polish",
+      "iso2": "PL",
+      "iso3": "POL",
+      "created_at": "2024-09-10T12:51:50.000000Z",
+      "translation": {
+        "id": 1,
+        "language_id": 1,
+        "iso2": "EN",
+        "iso3": "ENG",
+        "name": "English",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/gb.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": null,
+      "library": {
+        "id": 15,
+        "name": "Polish"
+      },
+      "image": "https://api.crm-s.com/flags/pl.png",
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 13,
+      "language_id": 6,
+      "item_id": 6,
+      "name": "Portuguese",
+      "iso2": "PT",
+      "iso3": "POR",
+      "created_at": "2024-09-10T12:51:08.000000Z",
+      "translation": {
+        "id": 1,
+        "language_id": 1,
+        "iso2": "EN",
+        "iso3": "ENG",
+        "name": "English",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/gb.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": null,
+      "library": {
+        "id": 13,
+        "name": "Portuguese"
+      },
+      "image": "https://api.crm-s.com/flags/pt.png",
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 21,
+      "language_id": 12,
+      "item_id": 12,
+      "name": "Romanian",
+      "iso2": "RO",
+      "iso3": "RON",
+      "created_at": "2024-09-10T12:55:51.000000Z",
+      "translation": {
+        "id": 1,
+        "language_id": 1,
+        "iso2": "EN",
+        "iso3": "ENG",
+        "name": "English",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/gb.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": null,
+      "library": {
+        "id": 21,
+        "name": "Romanian"
+      },
+      "image": "https://api.crm-s.com/flags/ro.png",
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 19,
+      "language_id": 11,
+      "item_id": 11,
+      "name": "Russian",
+      "iso2": "RU",
+      "iso3": "RUS",
+      "created_at": "2024-09-10T12:55:24.000000Z",
+      "translation": {
+        "id": 1,
+        "language_id": 1,
+        "iso2": "EN",
+        "iso3": "ENG",
+        "name": "English",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/gb.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": null,
+      "library": {
+        "id": 19,
+        "name": "Russian"
+      },
+      "image": "https://api.crm-s.com/flags/ru.png",
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 11,
+      "language_id": 4,
+      "item_id": 4,
+      "name": "Spanish",
+      "iso2": "ES",
+      "iso3": "SPA",
+      "created_at": "2024-09-10T12:50:26.000000Z",
+      "translation": {
+        "id": 1,
+        "language_id": 1,
+        "iso2": "EN",
+        "iso3": "ENG",
+        "name": "English",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/gb.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": null,
+      "library": {
+        "id": 11,
+        "name": "Spanish"
+      },
+      "image": "https://api.crm-s.com/flags/es.png",
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 16,
+      "language_id": 9,
+      "item_id": 9,
+      "name": "Swedish",
+      "iso2": "SE",
+      "iso3": "SWE",
+      "created_at": "2024-09-10T12:53:25.000000Z",
+      "translation": {
+        "id": 1,
+        "language_id": 1,
+        "iso2": "EN",
+        "iso3": "ENG",
+        "name": "English",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/gb.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": null,
+      "library": {
+        "id": 16,
+        "name": "Swedish"
+      },
+      "image": "https://api.crm-s.com/flags/se.png",
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 1879,
+      "language_id": 16,
+      "item_id": 16,
+      "name": "Turkish",
+      "iso2": "TR",
+      "iso3": "TUR",
+      "created_at": "2025-01-07T08:09:23.000000Z",
+      "translation": {
+        "id": 1,
+        "language_id": 1,
+        "iso2": "EN",
+        "iso3": "ENG",
+        "name": "English",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/gb.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": {
+        "id": 6,
+        "name": "Elena Yermakova",
+        "image": "https://api.crm-s.com/images/users/1739456973.png"
+      },
+      "library": {
+        "id": 1879,
+        "name": "Turkish"
+      },
+      "image": "https://api.crm-s.com/flags/tr.png",
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 26,
+      "language_id": 15,
+      "item_id": 15,
+      "name": "Ukrainian",
+      "iso2": "UA",
+      "iso3": "UKR",
+      "created_at": "2024-09-10T12:57:18.000000Z",
+      "translation": {
+        "id": 1,
+        "language_id": 1,
+        "iso2": "EN",
+        "iso3": "ENG",
+        "name": "English",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/gb.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": null,
+      "library": {
+        "id": 26,
+        "name": "Ukrainian"
+      },
+      "image": "https://api.crm-s.com/flags/ua.png",
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 2534,
+      "language_id": 19,
+      "item_id": 19,
+      "name": "Англійська",
+      "iso2": "EN",
+      "iso3": "ENG",
+      "created_at": "2025-06-06T09:28:02.000000Z",
+      "translation": {
+        "id": 26,
+        "language_id": 15,
+        "iso2": "UA",
+        "iso3": "UKR",
+        "name": "Ukrainian",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/ua.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": {
+        "id": 52,
+        "name": "Ievgeniia Nealova",
+        "image": null
+      },
+      "library": {
+        "id": 1,
+        "name": "English"
+      },
+      "image": null,
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 2694,
+      "language_id": 22,
+      "item_id": 22,
+      "name": "Німецька",
+      "iso2": "DE",
+      "iso3": "DEU",
+      "created_at": "2025-07-04T06:23:43.000000Z",
+      "translation": {
+        "id": 26,
+        "language_id": 15,
+        "iso2": "UA",
+        "iso3": "UKR",
+        "name": "Ukrainian",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/ua.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": {
+        "id": 52,
+        "name": "Ievgeniia Nealova",
+        "image": null
+      },
+      "library": {
+        "id": 10,
+        "name": "German"
+      },
+      "image": null,
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    },
+    {
+      "id": 2535,
+      "language_id": 20,
+      "item_id": 20,
+      "name": "Українська",
+      "iso2": "UA",
+      "iso3": "UKR",
+      "created_at": "2025-06-09T12:23:39.000000Z",
+      "translation": {
+        "id": 26,
+        "language_id": 15,
+        "iso2": "UA",
+        "iso3": "UKR",
+        "name": "Ukrainian",
+        "is_translated": 0,
+        "image": "https://api.crm-s.com/flags/ua.png",
+        "image_icon": null,
+        "description": null
+      },
+      "status": {
+        "id": 1,
+        "name": "Pending",
+        "color": "rgb(159, 64, 234)"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Primary",
+        "color": "#ff0000"
+      },
+      "description": null,
+      "image_icon": null,
+      "created_by": {
+        "id": 54,
+        "name": "Tatiana Shynkarenko",
+        "image": null
+      },
+      "library": {
+        "id": 26,
+        "name": "Ukrainian"
+      },
+      "image": null,
+      "progressable_type": "Modules\\Library\\Models\\Language",
+      "count_edits": 0
+    }
+  ],
+  "entity_block_id": 71,
+  "count_edits": 0,
+  "fields": {
+    "name": "Name",
+    "entity_id": "Entity",
+    "created_at": "Created At",
+    "actions": "Actions",
+    "description": "Description",
+    "status_id": "Status",
+    "created_by": "Created By",
+    "translation_id": "Translation",
+    "language_id": "Language",
+    "iso3": "Iso3",
+    "iso2": "Iso2",
+    "library_id": "Library",
+    "priority_id": "Priority",
+    "image_icon": "Image Icon"
+  }
+}

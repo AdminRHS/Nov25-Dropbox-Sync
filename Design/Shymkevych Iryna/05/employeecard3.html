@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Employee Card – Streaming Dot + Modals + AI Instruments</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --card-w:420px;
+    --radius:8px;
+    --cta-h:40px;
+  }
+
+  *{box-sizing:border-box}
+  body{
+    margin:0; min-height:100vh; display:grid; place-items:center;
+    background:#0f1115;
+    font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    padding:32px;
+    color:#0f172a;
+  }
+
+  .card{
+    width:var(--card-w); aspect-ratio:4/5; position:relative; overflow:hidden;
+    border-radius:var(--radius); background:#fff; box-shadow:0 10px 30px rgba(0,0,0,.08);
+  }
+
+  /* Darkened background photo */
+  .photo{position:absolute; inset:0}
+  .photo img{width:100%; height:100%; object-fit:cover; filter:saturate(.95)}
+  .photo::after{
+    content:""; position:absolute; inset:0;
+    background:linear-gradient(180deg, rgba(0,0,0,.45), rgba(0,0,0,.7));
+  }
+
+  .topbar{
+    position:absolute; top:12px; left:12px; right:12px;
+    display:flex; align-items:center; justify-content:space-between;
+  }
+
+  /* ===== Material-style top buttons (LIVE/Spectate 8px, Play round) ===== */
+  .mat-btn{
+    position:relative; display:inline-flex; align-items:center; justify-content:center; gap:8px;
+    height:var(--cta-h); padding:0 18px; border:none; border-radius:var(--radius);
+    font-weight:700; font-size:14px; color:#fff; cursor:pointer;
+    background:var(--color,#444);
+    box-shadow:0 4px 6px rgba(0,0,0,.25), inset 0 1px 1px rgba(255,255,255,.1);
+    transition:transform .15s ease, box-shadow .2s ease;
+  }
+  .mat-btn:hover{ transform:translateY(-1px); box-shadow:0 6px 10px rgba(0,0,0,.3), inset 0 1px 1px rgba(255,255,255,.12) }
+  .mat-btn svg{width:18px; height:18px; stroke:#fff; fill:none; stroke-width:1.8}
+  .live-btn{ --color:#b91c1c }
+  .spectate-btn{ --color:#15803d }
+  .play-btn{ --color:#b91c1c; width:var(--cta-h); padding:0; border-radius:50%; justify-content:center }
+
+  /* >>> Streaming ONLINE dot (inside LIVE) <<< */
+  .online-dot{
+    position:relative; width:10px; height:10px; border-radius:50%;
+    background:#22c55e;                 /* green dot = online */
+    box-shadow:0 0 8px rgba(34,197,94,.9);
+    margin-right:4px; flex:0 0 10px;
+    animation: dotBlink 1.2s infinite alternate;
+  }
+  .online-dot::after{
+    content:""; position:absolute; inset:0; border-radius:50%;
+    box-shadow:0 0 0 0 rgba(34,197,94,.6);
+    animation: dotRipple 1.6s infinite;
+  }
+  @keyframes dotBlink{
+    from{ opacity:.65; filter:brightness(1) }
+    to  { opacity:1;   filter:brightness(1.25) }
+  }
+  @keyframes dotRipple{
+    0%   { transform:scale(1);   box-shadow:0 0 0 0 rgba(34,197,94,.55) }
+    70%  { transform:scale(2.2); box-shadow:0 0 0 10px rgba(34,197,94,0) }
+    100% { transform:scale(1);   box-shadow:0 0 0 0 rgba(34,197,94,0) }
+  }
+
+  /* ===== Overlay content ===== */
+  .overlay{
+    position:absolute; left:12px; right:12px; bottom:12px;
+    background:#fff; border:1px solid #e5e7eb; border-radius:var(--radius);
+    padding:10px 12px; box-shadow:0 6px 18px rgba(17,24,39,.12);
+    display:flex; flex-direction:column; gap:10px;
+  }
+
+  .row-top{display:grid; grid-template-columns:1fr auto; align-items:center; gap:14px}
+  .role,.price{margin:0; font-size:16px; font-weight:700; color:#0f172a}
+  .name,.type{margin:4px 0 0; font-size:12px; color:#6b7280; font-weight:400}
+  .meta{display:flex; flex-direction:column; align-items:flex-end}
+
+  /* ===== LIQUID GLASS bottom buttons ===== */
+  .chips{
+    display:grid; grid-template-columns:repeat(2,1fr);
+    gap:12px; border-top:1px solid #e5e7eb; margin-top:12px; padding-top:14px;
+  }
+  .chip{
+    --accent:124,58,237;
+    position:relative; display:flex; align-items:center; justify-content:flex-start; gap:10px;
+    height:48px; padding:0 16px; border-radius:var(--radius);
+    background: rgba(255,255,255,.10);
+    border:1px solid rgba(255,255,255,.35);
+    color: rgb(var(--accent)); font-weight:700; font-size:13px; cursor:pointer;
+    backdrop-filter: blur(12px) saturate(140%); -webkit-backdrop-filter: blur(12px) saturate(140%);
+    box-shadow: 0 8px 16px rgba(0,0,0,.08);
+    overflow:hidden; transition: transform .12s ease, box-shadow .2s ease, background .2s ease, border-color .2s ease;
+  }
+  .chip::before{
+    content:""; position:absolute; inset:0;
+    background:
+      radial-gradient(180px 120px at 18% 50%, rgba(var(--accent), .28) 0%, rgba(var(--accent), .10) 45%, rgba(var(--accent), 0) 70%),
+      linear-gradient(180deg, rgba(255,255,255,.18), rgba(255,255,255,0) 40%);
+    pointer-events:none;
+  }
+  .chip:hover{ transform: translateY(-1px); background: rgba(255,255,255,.14); border-color: rgba(255,255,255,.45); box-shadow: 0 12px 22px rgba(0,0,0,.12) }
+  .chip svg{width:18px; height:18px; stroke:currentColor; fill:none; stroke-width:1.8}
+
+  .chip.ai     { --accent:124,58,237 }  /* violet */
+  .chip.resp   { --accent:20,184,166 }  /* teal */
+  .chip.tools  { --accent:249,115,22 }  /* orange */
+  .chip.skills { --accent:236,72,153 }  /* pink */
+
+  /* ====== MODALS ====== */
+  .modal { position: fixed; inset:0; display:none; place-items:center; z-index: 50; }
+  .modal[data-open="true"]{ display:grid }
+  .backdrop{ position:absolute; inset:0; background:rgba(3,7,18,.6); backdrop-filter: blur(4px) }
+  .dialog{
+    position:relative; width:min(92vw, 560px); border-radius:16px; padding:20px 18px;
+    background: rgba(17,24,39,.75); border:1px solid rgba(255,255,255,.18); color:#e5e7eb;
+    box-shadow: 0 20px 50px rgba(0,0,0,.45); overflow:hidden;
+  }
+  .dialog::before{ content:""; position:absolute; inset:0; z-index:0; pointer-events:none;
+    background: radial-gradient(400px 220px at 0% 0%, var(--wash,rgba(255,255,255,.06)) 0%, rgba(255,255,255,0) 55%); }
+  .dialog h3{ position:relative; z-index:1; margin:0 0 12px; font-size:18px; font-weight:800; color:#fff }
+  .dialog p, .dialog li{ position:relative; z-index:1; color:#e5e7eb }
+  .dialog .meta{ position:relative; z-index:1; display:flex; gap:12px; flex-wrap:wrap; margin:8px 0 0 }
+  .tag{ padding:6px 10px; border-radius:999px; font-size:12px; font-weight:700; background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.18) }
+  .close{ position:absolute; top:10px; right:10px; height:36px; width:36px; border-radius:50%; border:1px solid rgba(255,255,255,.25); background:rgba(255,255,255,.08); color:#fff; cursor:pointer; display:grid; place-items:center; z-index:2 }
+  .close:hover{ background:rgba(255,255,255,.14) }
+  .close svg{ width:18px; height:18px; stroke:#fff; fill:none; stroke-width:2 }
+
+  #modal-ai .dialog     { --wash: rgba(124,58,237,.22) }
+  #modal-resp .dialog   { --wash: rgba(20,184,166,.22) }
+  #modal-tools .dialog  { --wash: rgba(249,115,22,.22) }
+  #modal-skills .dialog { --wash: rgba(236,72,153,.22) }
+  .dialog ul{ margin:8px 0 0 18px }
+
+  /* ====== AI Instruments list styling ====== */
+  .tools-list{
+    position:relative; z-index:1;
+    display:grid; grid-template-columns:1fr; gap:10px; margin-top:6px;
+  }
+  .tool{
+    display:flex; align-items:center; gap:12px;
+    padding:10px 12px; border-radius:12px;
+    background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.14);
+  }
+  .tool-icon{
+    width:32px; height:32px; border-radius:8px;
+    display:grid; place-items:center; color:#111;
+    background:#fff;
+    box-shadow:0 2px 6px rgba(0,0,0,.15);
+  }
+  .tool h4{
+    margin:0; font-size:14px; color:#fff; font-weight:800;
+  }
+  .tool p{
+    margin:0; font-size:12px; color:#d1d5db;
+  }
+</style>
+</head>
+<body>
+  <article class="card">
+    <div class="photo">
+      <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Portrait">
+    </div>
+
+    <div class="topbar">
+      <!-- LIVE with flashing online dot -->
+      <button class="mat-btn live-btn">
+        <span class="online-dot" aria-hidden="true"></span>
+        <span>LIVE</span>
+      </button>
+
+      <div style="display:flex; gap:10px; align-items:center;">
+        <button class="mat-btn spectate-btn">
+          <svg viewBox="0 0 24 24"><path d="M2.5 12s3.5-7 9.5-7 9.5 7 9.5 7-3.5 7-9.5 7-9.5-7-9.5-7z"/><circle cx="12" cy="12" r="3.2"/></svg>
+          <span>Spectate</span>
+        </button>
+        <button class="mat-btn play-btn" aria-label="Play">
+          <svg viewBox="0 0 24 24"><path d="M8 6.5v11l10-5.5-10-5.5z"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="overlay">
+      <div class="row-top">
+        <div class="person">
+          <p class="role">Senior Backend Developer</p>
+          <p class="name">Dominik G.</p>
+        </div>
+        <div class="meta">
+          <p class="price">€40/hour</p>
+          <span class="type">Full-time</span>
+        </div>
+      </div>
+
+      <div class="chips">
+        <button class="chip ai"    data-modal="modal-ai">
+          <svg viewBox="0 0 24 24"><path d="M12 3v18M3 12h18M6 6l12 12M18 6L6 18"/></svg>
+          AI
+        </button>
+        <button class="chip resp"  data-modal="modal-resp">
+          <svg viewBox="0 0 24 24"><path d="M8 7L4 12l4 5M16 7l4 5-4 5M10 21l4-18"/></svg>
+          Responsibilities
+        </button>
+        <button class="chip tools" data-modal="modal-tools">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 010 18M12 3a15 15 0 0 0 0 18"/></svg>
+          Tools
+        </button>
+        <button class="chip skills" data-modal="modal-skills">
+          <svg viewBox="0 0 24 24"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3zM12 3v9l8 4.5M12 12L4 16.5"/></svg>
+          Skills
+        </button>
+      </div>
+    </div>
+  </article>
+
+  <!-- ===== Modals ===== -->
+  <section id="modal-ai" class="modal" aria-hidden="true" role="dialog" aria-labelledby="ai-title">
+    <div class="backdrop" data-close></div>
+    <div class="dialog">
+      <button class="close" type="button" data-close aria-label="Close">
+        <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6l-12 12"/></svg>
+      </button>
+      <h3 id="ai-title">AI Instruments</h3>
+
+      <!-- instruments list -->
+      <div class="tools-list">
+        <!-- OpenAI API -->
+        <div class="tool">
+          <div class="tool-icon" aria-hidden="true">
+            <!-- abstract knot/chat icon -->
+            <svg viewBox="0 0 24 24" width="18" height="18">
+              <path d="M12 3c-2 0-3.8 1-4.9 2.6A5.5 5.5 0 006 6a5 5 0 00-3 4.6c0 2.2 1.6 4.1 3.7 4.6a6 6 0 009.6 2.8 5.8 5.8 0 004.7-5.6c0-3-2.5-5.5-5.5-5.5h-.4A6 6 0 0012 3z" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div>
+            <h4>OpenAI API</h4>
+            <p>Chat/completions, embeddings, image tools for prototyping and production.</p>
+          </div>
+        </div>
+
+        <!-- Hugging Face -->
+        <div class="tool">
+          <div class="tool-icon" aria-hidden="true">
+            <!-- friendly face icon -->
+            <svg viewBox="0 0 24 24" width="18" height="18">
+              <circle cx="12" cy="12" r="9" fill="none" stroke="#111" stroke-width="1.6"/>
+              <circle cx="9" cy="11" r="1.2" fill="#111"/>
+              <circle cx="15" cy="11" r="1.2" fill="#111"/>
+              <path d="M8.2 14.5c1 .9 2.1 1.3 3.8 1.3s2.8-.4 3.8-1.3" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Hugging Face</h4>
+            <p>Model hub, datasets, transformers ecosystem for quick experiments.</p>
+          </div>
+        </div>
+
+        <!-- LangChain -->
+        <div class="tool">
+          <div class="tool-icon" aria-hidden="true">
+            <!-- chain links icon -->
+            <svg viewBox="0 0 24 24" width="18" height="18">
+              <path d="M7.5 12.5l2.5-2.5m4 4l2.5-2.5M9 15a3 3 0 01-4.2-4.2l3.6-3.6A3 3 0 0113 9m2 0a3 3 0 014.2 4.2l-3.6 3.6A3 3 0 0111 15" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div>
+            <h4>LangChain</h4>
+            <p>Agent/tooling orchestration, memory, and retrieval pipelines.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="meta" style="margin-top:12px">
+        <span class="tag">LLMs</span><span class="tag">Embeddings</span><span class="tag">Agents</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="modal-resp" class="modal" aria-hidden="true" role="dialog" aria-labelledby="resp-title">
+    <div class="backdrop" data-close></div>
+    <div class="dialog">
+      <button class="close" type="button" data-close aria-label="Close">
+        <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6l-12 12"/></svg>
+      </button>
+      <h3 id="resp-title">Responsibilities</h3>
+      <ul>
+        <li>Lead backend architecture & code reviews.</li>
+        <li>Design clean APIs and service contracts.</li>
+        <li>Mentor engineers and drive best practices.</li>
+        <li>Own deployment, observability, and reliability.</li>
+      </ul>
+      <div class="meta">
+        <span class="tag">Ownership</span><span class="tag">API Design</span><span class="tag">SRE</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="modal-tools" class="modal" aria-hidden="true" role="dialog" aria-labelledby="tools-title">
+    <div class="backdrop" data-close></div>
+    <div class="dialog">
+      <button class="close" type="button" data-close aria-label="Close">
+        <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6l-12 12"/></svg>
+      </button>
+      <h3 id="tools-title">Tools & Stack</h3>
+      <ul>
+        <li>Go, TypeScript/Node.js, Python</li>
+        <li>PostgreSQL, Redis, Elasticsearch</li>
+        <li>Docker, Kubernetes, Terraform, AWS</li>
+        <li>Prometheus, Grafana, OpenTelemetry</li>
+      </ul>
+      <div class="meta">
+        <span class="tag">K8s</span><span class="tag">Postgres</span><span class="tag">AWS</span><span class="tag">OTel</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="modal-skills" class="modal" aria-hidden="true" role="dialog" aria-labelledby="skills-title">
+    <div class="backdrop" data-close></div>
+    <div class="dialog">
+      <button class="close" type="button" data-close aria-label="Close">
+        <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6l-12 12"/></svg>
+      </button>
+      <h3 id="skills-title">Key Skills</h3>
+      <ul>
+        <li>Distributed systems & performance.</li>
+        <li>Secure design: authn/z, secrets, least privilege.</li>
+        <li>Data modeling & migration strategy.</li>
+        <li>Clear communication & collaboration.</li>
+      </ul>
+      <div class="meta">
+        <span class="tag">Distributed</span><span class="tag">Security</span><span class="tag">DB Design</span><span class="tag">Leadership</span>
+      </div>
+    </div>
+  </section>
+
+<script>
+  // Open modal on bottom button click
+  document.querySelectorAll('.chip[data-modal]').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      const id = btn.getAttribute('data-modal');
+      const modal = document.getElementById(id);
+      if(modal){
+        modal.setAttribute('data-open','true');
+        modal.setAttribute('aria-hidden','false');
+        const closer = modal.querySelector('.close');
+        closer && closer.focus();
+      }
+    });
+  });
+
+  // Close handlers
+  document.querySelectorAll('[data-close]').forEach(el=>{
+    el.addEventListener('click', (e)=>{
+      const modal = e.target.closest('.modal');
+      if(modal){
+        modal.removeAttribute('data-open');
+        modal.setAttribute('aria-hidden','true');
+      }
+    });
+  });
+
+  // ESC to close
+  window.addEventListener('keydown', (e)=>{
+    if(e.key === 'Escape'){
+      document.querySelectorAll('.modal[data-open="true"]').forEach(m=>{
+        m.removeAttribute('data-open');
+        m.setAttribute('aria-hidden','true');
+      });
+    }
+  });
+
+  // Click outside dialog closes modal
+  document.querySelectorAll('.modal').forEach(m=>{
+    m.addEventListener('click', (e)=>{
+      const dialog = m.querySelector('.dialog');
+      if(dialog && !dialog.contains(e.target)){
+        m.removeAttribute('data-open');
+        m.setAttribute('aria-hidden','true');
+      }
+    });
+  });
+</script>
+</body>
+</html>

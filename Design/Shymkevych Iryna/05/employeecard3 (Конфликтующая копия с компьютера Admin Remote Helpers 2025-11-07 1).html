@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Employee Card – All Modals</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --card-w:420px;
+    --radius:8px;
+    --cta-h:40px;
+  }
+
+  *{box-sizing:border-box}
+  body{
+    margin:0; min-height:100vh; display:grid; place-items:center;
+    background:#0f1115;
+    font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    padding:32px;
+    color:#0f172a;
+  }
+
+  .card{
+    width:var(--card-w); aspect-ratio:4/5; position:relative; overflow:hidden;
+    border-radius:var(--radius); background:#fff; box-shadow:0 10px 30px rgba(0,0,0,.08);
+  }
+
+  /* Darkened background photo */
+  .photo{position:absolute; inset:0}
+  .photo img{width:100%; height:100%; object-fit:cover; filter:saturate(.95)}
+  .photo::after{
+    content:""; position:absolute; inset:0;
+    background:linear-gradient(180deg, rgba(0,0,0,.45), rgba(0,0,0,.7));
+  }
+
+  .topbar{
+    position:absolute; top:12px; left:12px; right:12px;
+    display:flex; align-items:center; justify-content:space-between;
+  }
+
+  /* ===== Material-style top buttons (LIVE/Spectate 8px, Play round) ===== */
+  .mat-btn{
+    position:relative; display:inline-flex; align-items:center; justify-content:center; gap:8px;
+    height:var(--cta-h); padding:0 18px; border:none; border-radius:var(--radius);
+    font-weight:700; font-size:14px; color:#fff; cursor:pointer;
+    background:var(--color,#444);
+    box-shadow:0 4px 6px rgba(0,0,0,.25), inset 0 1px 1px rgba(255,255,255,.1);
+    transition:transform .15s ease, box-shadow .2s ease;
+  }
+  .mat-btn:hover{ transform:translateY(-1px); box-shadow:0 6px 10px rgba(0,0,0,.3), inset 0 1px 1px rgba(255,255,255,.12) }
+  .mat-btn svg{width:18px; height:18px; stroke:#fff; fill:none; stroke-width:1.8}
+  .live-btn{ --color:#b91c1c }
+  .spectate-btn{ --color:#15803d }
+  .play-btn{ --color:#b91c1c; width:var(--cta-h); padding:0; border-radius:50%; justify-content:center }
+
+  /* >>> Streaming ONLINE dot (inside LIVE) <<< */
+  .online-dot{
+    position:relative; width:10px; height:10px; border-radius:50%;
+    background:#22c55e;                 /* green dot = online */
+    box-shadow:0 0 8px rgba(34,197,94,.9);
+    margin-right:4px; flex:0 0 10px;
+    animation: dotBlink 1.2s infinite alternate;
+  }
+  .online-dot::after{
+    content:""; position:absolute; inset:0; border-radius:50%;
+    box-shadow:0 0 0 0 rgba(34,197,94,.6);
+    animation: dotRipple 1.6s infinite;
+  }
+  @keyframes dotBlink{
+    from{ opacity:.65; filter:brightness(1) }
+    to  { opacity:1;   filter:brightness(1.25) }
+  }
+  @keyframes dotRipple{
+    0%   { transform:scale(1);   box-shadow:0 0 0 0 rgba(34,197,94,.55) }
+    70%  { transform:scale(2.2); box-shadow:0 0 0 10px rgba(34,197,94,0) }
+    100% { transform:scale(1);   box-shadow:0 0 0 0 rgba(34,197,94,0) }
+  }
+
+  /* ===== Overlay content ===== */
+  .overlay{
+    position:absolute; left:12px; right:12px; bottom:12px;
+    background:#fff; border:1px solid #e5e7eb; border-radius:var(--radius);
+    padding:10px 12px; box-shadow:0 6px 18px rgba(17,24,39,.12);
+    display:flex; flex-direction:column; gap:10px;
+  }
+
+  .row-top{display:grid; grid-template-columns:1fr auto; align-items:center; gap:14px}
+  .role,.price{margin:0; font-size:16px; font-weight:700; color:#0f172a}
+  .name,.type{margin:4px 0 0; font-size:12px; color:#6b7280; font-weight:400}
+  .meta{display:flex; flex-direction:column; align-items:flex-end}
+
+  /* ===== LIQUID GLASS bottom buttons ===== */
+  .chips{
+    display:grid; grid-template-columns:repeat(2,1fr);
+    gap:12px; border-top:1px solid #e5e7eb; margin-top:12px; padding-top:14px;
+  }
+  .chip{
+    --accent:124,58,237;
+    position:relative; display:flex; align-items:center; justify-content:flex-start; gap:10px;
+    height:48px; padding:0 16px; border-radius:var(--radius);
+    background: rgba(255,255,255,.10);
+    border:1px solid rgba(255,255,255,.35);
+    color: rgb(var(--accent)); font-weight:700; font-size:13px; cursor:pointer;
+    backdrop-filter: blur(12px) saturate(140%); -webkit-backdrop-filter: blur(12px) saturate(140%);
+    box-shadow: 0 8px 16px rgba(0,0,0,.08);
+    overflow:hidden; transition: transform .12s ease, box-shadow .2s ease, background .2s ease, border-color .2s ease;
+  }
+  .chip::before{
+    content:""; position:absolute; inset:0;
+    background:
+      radial-gradient(180px 120px at 18% 50%, rgba(var(--accent), .28) 0%, rgba(var(--accent), .10) 45%, rgba(var(--accent), 0) 70%),
+      linear-gradient(180deg, rgba(255,255,255,.18), rgba(255,255,255,0) 40%);
+    pointer-events:none;
+  }
+  .chip:hover{ transform: translateY(-1px); background: rgba(255,255,255,.14); border-color: rgba(255,255,255,.45); box-shadow: 0 12px 22px rgba(0,0,0,.12) }
+  .chip svg{width:18px; height:18px; stroke:currentColor; fill:none; stroke-width:1.8}
+
+  .chip.ai     { --accent:124,58,237 }  /* violet */
+  .chip.resp   { --accent:20,184,166 }  /* teal */
+  .chip.tools  { --accent:249,115,22 }  /* orange */
+  .chip.skills { --accent:236,72,153 }  /* pink */
+
+  /* ====== MODALS ====== */
+  .modal { position: fixed; inset:0; display:none; place-items:center; z-index: 50; }
+  .modal[data-open="true"]{ display:grid }
+  .backdrop{ position:absolute; inset:0; background:rgba(3,7,18,.6); backdrop-filter: blur(4px) }
+  .dialog{
+    position:relative; width:min(92vw, 560px); border-radius:16px; padding:20px 18px;
+    background: rgba(17,24,39,.75); border:1px solid rgba(255,255,255,.18); color:#e5e7eb;
+    box-shadow: 0 20px 50px rgba(0,0,0,.45); overflow:hidden;
+  }
+  .dialog::before{ content:""; position:absolute; inset:0; z-index:0; pointer-events:none;
+    background: radial-gradient(400px 220px at 0% 0%, var(--wash,rgba(255,255,255,.06)) 0%, rgba(255,255,255,0) 55%); }
+  .dialog h3{ position:relative; z-index:1; margin:0 0 12px; font-size:18px; font-weight:800; color:#fff }
+  .dialog p, .dialog li{ position:relative; z-index:1; color:#e5e7eb }
+  .dialog .meta{ position:relative; z-index:1; display:flex; gap:12px; flex-wrap:wrap; margin:8px 0 0 }
+  .close{ position:absolute; top:10px; right:10px; height:36px; width:36px; border-radius:50%; border:1px solid rgba(255,255,255,.25); background:rgba(255,255,255,.08); color:#fff; cursor:pointer; display:grid; place-items:center; z-index:2 }
+  .close:hover{ background:rgba(255,255,255,.14) }
+  .close svg{ width:18px; height:18px; stroke:#fff; fill:none; stroke-width:2 }
+
+  #modal-ai .dialog     { --wash: rgba(124,58,237,.22) }
+  #modal-resp .dialog   { --wash: rgba(20,184,166,.22) }
+  #modal-tools .dialog  { --wash: rgba(249,115,22,.22) }
+  #modal-skills .dialog { --wash: rgba(236,72,153,.22) }
+  .dialog ul{ margin:8px 0 0 18px }
+
+  /* ====== AI Instruments list styling (frosted white tiles) ====== */
+  .tools-list{
+    position:relative; z-index:1;
+    display:grid; grid-template-columns:1fr; gap:10px; margin-top:6px;
+  }
+  .tool{
+    display:flex; align-items:center; gap:12px;
+    padding:12px; border-radius:12px;
+    background: rgba(255,255,255,.72);             /* frosted white */
+    border:1px solid rgba(255,255,255,.85);
+    backdrop-filter: blur(8px) saturate(130%);
+    -webkit-backdrop-filter: blur(8px) saturate(130%);
+    box-shadow: 0 6px 14px rgba(0,0,0,.18);
+  }
+  .tool-icon{
+    width:36px; height:36px; border-radius:10px;
+    display:grid; place-items:center;
+    background: rgba(255,255,255,.9);
+    border: 1px solid rgba(0,0,0,.05);
+    box-shadow: 0 2px 6px rgba(0,0,0,.15);
+  }
+  .tool h4{
+    margin:0; font-size:14px; color:#0b1220; font-weight:800;
+  }
+  .tool p{
+    margin:2px 0 0; font-size:12px; color:#334155;
+  }
+</style>
+</head>
+<body>
+  <article class="card">
+    <div class="photo">
+      <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Portrait">
+    </div>
+
+    <div class="topbar">
+      <!-- LIVE with flashing online dot -->
+      <button class="mat-btn live-btn">
+        <span class="online-dot" aria-hidden="true"></span>
+        <span>LIVE</span>
+      </button>
+
+      <div style="display:flex; gap:10px; align-items:center;">
+        <button class="mat-btn spectate-btn">
+          <svg viewBox="0 0 24 24"><path d="M2.5 12s3.5-7 9.5-7 9.5 7 9.5 7-3.5 7-9.5 7-9.5-7-9.5-7z"/><circle cx="12" cy="12" r="3.2"/></svg>
+          <span>Spectate</span>
+        </button>
+        <button class="mat-btn play-btn" aria-label="Play">
+          <svg viewBox="0 0 24 24"><path d="M8 6.5v11l10-5.5-10-5.5z"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="overlay">
+      <div class="row-top">
+        <div class="person">
+          <p class="role">Senior Backend Developer</p>
+          <p class="name">Dominik G.</p>
+        </div>
+        <div class="meta">
+          <p class="price">€40/hour</p>
+          <span class="type">Full-time</span>
+        </div>
+      </div>
+
+      <div class="chips">
+        <button class="chip ai"    data-modal="modal-ai">
+          <svg viewBox="0 0 24 24"><path d="M12 3v18M3 12h18M6 6l12 12M18 6L6 18"/></svg>
+          AI
+        </button>
+        <button class="chip resp"  data-modal="modal-resp">
+          <svg viewBox="0 0 24 24"><path d="M8 7L4 12l4 5M16 7l4 5-4 5M10 21l4-18"/></svg>
+          Responsibilities
+        </button>
+        <button class="chip tools" data-modal="modal-tools">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 010 18M12 3a15 15 0 0 0 0 18"/></svg>
+          Tools
+        </button>
+        <button class="chip skills" data-modal="modal-skills">
+          <svg viewBox="0 0 24 24"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3zM12 3v9l8 4.5M12 12L4 16.5"/></svg>
+          Skills
+        </button>
+      </div>
+    </div>
+  </article>
+
+  <!-- ===== Modals ===== -->
+  <section id="modal-ai" class="modal" aria-hidden="true" role="dialog" aria-labelledby="ai-title">
+    <div class="backdrop" data-close></div>
+    <div class="dialog">
+      <button class="close" type="button" data-close aria-label="Close">
+        <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6l-12 12"/></svg>
+      </button>
+      <h3 id="ai-title">AI Instruments</h3>
+
+      <!-- instruments list (ChatGPT, Claude, Gemini) -->
+      <div class="tools-list">
+        <!-- ChatGPT -->
+        <div class="tool">
+          <div class="tool-icon" aria-hidden="true" title="ChatGPT">
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <g fill="#10A37F">
+                <path d="M11.98 2.5c-1.7 0-3.2.7-4.3 1.9a4.9 4.9 0 00-2.7.4A5 5 0 002.5 9c0 1.7.9 3.2 2.2 4.1a5 5 0 003 6.1 5.7 5.7 0 006.1-1.7 5 5 0 006.6-4.7 5.1 5.1 0 00-5.1-5.1h-.3A6 6 0 0012 2.5z"/>
+                <circle cx="12" cy="12" r="3.2" fill="#0E8F6E"/>
+              </g>
+            </svg>
+          </div>
+          <div>
+            <h4>ChatGPT</h4>
+            <p>Conversational reasoning, code help & rapid prototyping.</p>
+          </div>
+        </div>
+
+        <!-- Claude -->
+        <div class="tool">
+          <div class="tool-icon" aria-hidden="true" title="Claude">
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <path d="M16 7a7 7 0 100 10" fill="none" stroke="#E0AA3E" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="18.2" cy="6.8" r="1.1" fill="#E0AA3E"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Claude</h4>
+            <p>Thoughtful writing, analysis, and long-form assistance.</p>
+          </div>
+        </div>
+
+        <!-- Gemini -->
+        <div class="tool">
+          <div class="tool-icon" aria-hidden="true" title="Gemini">
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <defs>
+                <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#4285F4"/>
+                  <stop offset="100%" stop-color="#7C3AED"/>
+                </linearGradient>
+              </defs>
+              <circle cx="9" cy="12" r="4" fill="url(#g1)"/>
+              <circle cx="15" cy="12" r="4" fill="url(#g1)" opacity=".9"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Gemini</h4>
+            <p>Multimodal reasoning (text & images) with search grounding.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal windows for other sections -->
+  <section id="modal-resp" class="modal" aria-hidden="true" role="dialog" aria-labelledby="resp-title">
+    <div class="backdrop" data-close></div>
+    <div class="dialog">
+      <button class="close" type="button" data-close aria-label="Close">
+        <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6l-12 12"/></svg>
+      </button>
+      <h3 id="resp-title">Responsibilities</h3>
+      <div class="tools-list">
+        <!-- Architecture -->
+        <div class="tool">
+          <div class="tool-icon" aria-hidden="true" title="Architecture">
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <rect x="3" y="3" width="7" height="7" rx="1" fill="none" stroke="#14B8A6" stroke-width="1.8"/>
+              <rect x="14" y="3" width="7" height="7" rx="1" fill="none" stroke="#14B8A6" stroke-width="1.8"/>
+              <rect x="3" y="14" width="7" height="7" rx="1" fill="none" stroke="#14B8A6" stroke-width="1.8"/>
+              <rect x="14" y="14" width="7" height="7" rx="1" fill="none" stroke="#14B8A6" stroke-width="1.8"/>
+              <path d="M6.5 10v4M17.5 10v4M10 6.5h4M10 17.5h4" stroke="#14B8A6" stroke-width="1.8"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Backend Architecture</h4>
+            <p>Lead system design, code reviews, and architectural decisions for scalable services.</p>
+          </div>
+        </div>
+
+        <!-- API Design -->
+        <div class="tool">
+          <div class="tool-icon" aria-hidden="true" title="API Design">
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <path d="M4 7h16M4 12h16M4 17h16" stroke="#14B8A6" stroke-width="1.8" stroke-linecap="round"/>
+              <circle cx="7" cy="7" r="1.5" fill="#14B8A6"/>
+              <circle cx="7" cy="12" r="1.5" fill="#14B8A6"/>
+              <circle cx="7" cy="17" r="1.5" fill="#14B8A6"/>
+            </svg>
+          </div>
+          <div>
+            <h4>API Development</h4>
+            <p>Design clean, RESTful APIs and service contracts with proper documentation.</p>
+          </div>
+        </div>
+
+        <!-- Mentorship -->
+        <div class="tool">
+          <div class="tool-icon" aria-hidden="true" title="Mentorship">
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <circle cx="9" cy="8" r="3" fill="none" stroke="#14B8A6" stroke-width="1.8"/>
+              <path d="M3 19c0-3 2.7-5.5 6-5.5s6 2.5 6 5.5" fill="none" stroke="#14B8A6" stroke-width="1.8"/>
+              <circle cx="17" cy="8" r="2" fill="none" stroke="#14B8A6" stroke-width="1.8"/>
+              <path d="M15 15c1.5-1 3.5-1 5 0" fill="none" stroke="#14B8A6" stroke-width="1.8"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Team Leadership</h4>
+            <p>Mentor junior engineers and drive engineering best practices across the team.</p>
+          </div>
+        </div>
+
+        <!-- Operations -->
+        <div class="tool">
+          <div class="tool-icon" aria-hidden="true" title="Operations">
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <circle cx="12" cy="12" r="9" fill="none" stroke="#14B8A6" stroke-width="1.8"/>
+              <path d="M12 6v6l4 2" stroke="#14B8A6" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div>
+            <h4>DevOps & Reliability</h4>
+            <p>Own deployment pipelines, monitoring, observability, and system reliability.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="modal-tools" class="modal" aria-hidden="true" role="dialog" aria-labelledby="tools-title">
+    <div class="backdrop" data-close></div>
+    <div class="dialog">
+      <button class="close" type="button" data-close aria-label="Close">
+        <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6l-12 12"/></svg>
+      </button>
+      <h3 id="tools-title">Tools</h3>
+      <div class="tools-list">
+        <!-- Docker -->
+        <div class="tool">
+          <div class="tool-icon" aria-hidden="true" title="Docker">
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <rect x="6" y="10" width="3" height="3" fill="#2496ED"/>
+              <rect x="10" y="10" width="3" height="3" fill="#2496ED"/>
+              <rect x="14" y="10" width="3" height="3" fill="#2496ED"/>
+              <rect x="10" y="6" width="3" height="3" fill="#2496ED"/>
+              <rect x="14" y="6" width="3" height="3" fill="#2496ED"/>
+              <path d="M18 10h2.5c1 0 2 .8 2 2s-1 2-2 2H3" stroke="#2496ED" stroke-width="1.5" fill="none"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Docker</h4>
+            <p>Containerization for consistent dev & production environments.</p>
+          </div>
+        </div>
+
+        <!-- Kubernetes -->
+        <div class="tool">
+          <div class="tool-icon" aria-hidden="true" title="Kubernetes">
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <path d="M12 3l9 5v8l-9 5-9-5V8l9-5z" fill="none" stroke="#326CE5" stroke-width="1.5"/>
+              <circle cx="12" cy="12" r="2.5" fill="#326CE5"/>
+              <path d="M12 7v3M12 14v3M8.5 9.5l2 2M13.5 13.5l2 2M7 12h3M14 12h3M8.5 14.5l2-2M13.5 10.5l2-2" stroke="#326CE5" stroke-width="1.2"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Kubernetes</h4>
+            <p>Orchestration for scaling & managing containerized apps.</p>
+          </div>
+        </div>
+
+        <!-- PostgreSQL -->
+        <div class="tool">
+          <div class="tool-icon" aria-hidden="true" title="PostgreSQL">
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <ellipse cx="12" cy="8" rx="8" ry="5" fill="none" stroke="#336791" stroke-width="1.5"/>
+              <path d="M4 8v8c0 2.8 3.6 5 8 5s8-2.2 8-5V8" fill="none" stroke="#336791" stroke-width="1.5"/>
+              <path d="M4 13c0 2.8 3.6 5 8 5s8-2.2 8-5" fill="none" stroke="#336791" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div>
+            <h4>PostgreSQL</h4>
+            <p>Advanced relational database with JSON & full-text search.</p>
+          </div>
+        </div>
+
+        <!-- Redis -->
+        <div class="tool">
+          <div class="tool-icon" aria-hidden="true" title="Redis">
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <path d="M20 9l-8 3-8-3 8-3z" fill="#DC382D"/>
+              <path d="M4 12l8 3 8-3" fill="none" stroke="#DC382D" stroke-width="1.5"/>
+              <path d="M4 15l8 3 8-3" fill="none" stroke="#DC382D" stroke-width="1.5"/>
+              <path d="M15 7l-3 1.5L9 7l3-1.5z" fill="#fff"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Redis</h4>
+            <p>In-memory cache for sessions, queues & real-time data.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="modal-skills" class="modal" aria-hidden="true" role="dialog" aria-labelledby="skills-title">
+    <div class="backdrop" data-close></div>
+    <div class="dialog">
+      <button class="close" type="button" data-close aria-label="Close">
+        <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6l-12 12"/></svg>
+      </button>
+      <h3 id="skills-title">Skills</h3>
+      <div class="tools-list">
+        <!-- Distributed Systems -->
+        <div class="tool">
+          <div class="tool-icon" aria-hidden="true" title="Distributed Systems">
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <circle cx="6" cy="6" r="3" fill="none" stroke="#EC4899" stroke-width="1.8"/>
+              <circle cx="18" cy="6" r="3" fill="none" stroke="#EC4899" stroke-width="1.8"/>
+              <circle cx="6" cy="18" r="3" fill="none" stroke="#EC4899" stroke-width="1.8"/>
+              <circle cx="18" cy="18" r="3" fill="none" stroke="#EC4899" stroke-width="1.8"/>
+              <path d="M8.5 7.5l7 0M8.5 16.5l7 0M7.5 8.5l0 7M16.5 8.5l0 7" stroke="#EC4899" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Distributed Systems</h4>
+            <p>Design high-performance, fault-tolerant systems with proper scaling strategies.</p>
+          </div>
+        </div>
+
+        <!-- Security -->
+        <div class="tool">
+          <div class="tool-icon" aria-hidden="true" title="Security">
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <path d="M12 2L4 6v6c0 5.5 3.8 10.7 8 12 4.2-1.3 8-6.5 8-12V6l-8-4z" fill="none" stroke="#EC4899" stroke-width="1.8"/>
+              <path d="M9 12l2 2 4-4" stroke="#EC4899" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Security & Auth</h4>
+            <p>Implement secure authentication, authorization, secrets management, and least privilege.</p>
+          </div>
+        </div>
+
+        <!-- Data Modeling -->
+        <div class="tool">
+          <div class="tool-icon" aria-hidden="true" title="Data Modeling">
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <rect x="3" y="3" width="8" height="5" rx="1" fill="none" stroke="#EC4899" stroke-width="1.8"/>
+              <rect x="3" y="12" width="8" height="9" rx="1" fill="none" stroke="#EC4899" stroke-width="1.8"/>
+              <rect x="13" y="3" width="8" height="9" rx="1" fill="none" stroke="#EC4899" stroke-width="1.8"/>
+              <rect x="13" y="16" width="8" height="5" rx="1" fill="none" stroke="#EC4899" stroke-width="1.8"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Data Architecture</h4>
+            <p>Expert in database modeling, optimization, and zero-downtime migration strategies.</p>
+          </div>
+        </div>
+
+        <!-- Collaboration -->
+        <div class="tool">
+          <div class="tool-icon" aria-hidden="true" title="Collaboration">
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" fill="none" stroke="#EC4899" stroke-width="1.8"/>
+              <circle cx="9" cy="7" r="4" fill="none" stroke="#EC4899" stroke-width="1.8"/>
+              <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" fill="none" stroke="#EC4899" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Communication</h4>
+            <p>Clear technical writing, effective cross-team collaboration, and stakeholder management.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<script>
+  // Open modal on bottom button click
+  document.querySelectorAll('.chip[data-modal]').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      const id = btn.getAttribute('data-modal');
+      const modal = document.getElementById(id);
+      if(modal){
+        modal.setAttribute('data-open','true');
+        modal.setAttribute('aria-hidden','false');
+        const closer = modal.querySelector('.close');
+        closer && closer.focus();
+      }
+    });
+  });
+
+  // Close handlers
+  document.querySelectorAll('[data-close]').forEach(el=>{
+    el.addEventListener('click', (e)=>{
+      const modal = e.target.closest('.modal');
+      if(modal){
+        modal.removeAttribute('data-open');
+        modal.setAttribute('aria-hidden','true');
+      }
+    });
+  });
+
+  // ESC to close
+  window.addEventListener('keydown', (e)=>{
+    if(e.key === 'Escape'){
+      document.querySelectorAll('.modal[data-open="true"]').forEach(m=>{
+        m.removeAttribute('data-open');
+        m.setAttribute('aria-hidden','true');
+      });
+    }
+  });
+
+  // Click outside dialog closes modal
+  document.querySelectorAll('.modal').forEach(m=>{
+    m.addEventListener('click', (e)=>{
+      const dialog = m.querySelector('.dialog');
+      if(dialog && !dialog.contains(e.target)){
+        m.removeAttribute('data-open');
+        m.setAttribute('aria-hidden','true');
+      }
+    });
+  });
+</script>
+</body>
+</html>

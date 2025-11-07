@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Card - Translation Specialist</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #1e3a8a 0%, #312e81 100%);
+            padding: 40px;
+        }
+
+        .card-container {
+            position: relative;
+            width: 420px;
+            height: 580px;
+            border-radius: 8px;
+            overflow: hidden;
+            background: linear-gradient(135deg, #428BF9 0%, #1976D2 100%);
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4), 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .top-badges {
+            position: absolute;
+            top: 24px;
+            left: 24px;
+            right: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 10;
+        }
+
+        .right-badges {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .live-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 18px;
+            background: rgba(244, 67, 54, 0.95);
+            backdrop-filter: blur(10px);
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-weight: 700;
+            font-size: 12px;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            line-height: 1.4;
+        }
+
+        .live-badge:hover {
+            background: rgba(244, 67, 54, 1);
+            transform: scale(1.05);
+        }
+
+        .live-dot {
+            width: 8px;
+            height: 8px;
+            background: white;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+
+        .spectate-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 18px;
+            background: rgba(76, 175, 80, 0.95);
+            backdrop-filter: blur(10px);
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-weight: 600;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            line-height: 1.4;
+        }
+
+        .spectate-btn:hover {
+            background: rgba(76, 175, 80, 1);
+            transform: scale(1.05);
+        }
+
+        .play-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            padding: 0;
+            background: rgba(244, 67, 54, 0.95);
+            backdrop-filter: blur(10px);
+            border: none;
+            border-radius: 50%;
+            color: white;
+            font-weight: 600;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .play-btn:hover {
+            background: rgba(244, 67, 54, 1);
+            transform: scale(1.05);
+        }
+
+        .play-btn svg {
+            margin-left: 2px;
+        }
+
+        .gradient-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(180deg, 
+                rgba(0, 0, 0, 0.2) 0%, 
+                rgba(0, 0, 0, 0.1) 40%, 
+                rgba(0, 0, 0, 0.8) 100%
+            );
+            z-index: 1;
+        }
+
+        .background-section {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 340px;
+            background: url('https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=800&h=600&fit=crop') center/cover;
+            filter: brightness(0.9);
+        }
+
+        .ambient-light {
+            position: absolute;
+            bottom: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 300px;
+            height: 150px;
+            background: radial-gradient(circle, rgba(168, 85, 247, 0.4) 0%, transparent 70%);
+            filter: blur(40px);
+        }
+
+        .info-section {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 28px 24px 24px;
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(20px);
+            border-radius: 8px 8px 8px 8px;
+            z-index: 2;
+        }
+
+        .profile-row {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+
+        .avatar {
+            width: 64px;
+            height: 64px;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 3px solid rgba(255, 255, 255, 0.9);
+            flex-shrink: 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .employee-details {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .job-title {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 500;
+            color: #1a1a2e;
+            margin-bottom: 4px;
+            line-height: 1.2;
+        }
+
+        .name {
+            margin: 0;
+            font-size: 14px;
+            font-weight: 400;
+            color: #6b7280;
+            line-height: 1.5;
+        }
+
+        .price-section {
+            text-align: right;
+            flex-shrink: 0;
+        }
+
+        .price-badge {
+            display: flex;
+            align-items: baseline;
+            gap: 3px;
+            justify-content: flex-end;
+            margin-bottom: 6px;
+        }
+
+        .currency {
+            font-size: 16px;
+            font-weight: 500;
+            color: #428BF9;
+            line-height: 1.2;
+        }
+
+        .amount {
+            font-size: 20px;
+            font-weight: 500;
+            color: #1a1a2e;
+            line-height: 1.2;
+        }
+
+        .employment-status {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 6px;
+            font-size: 12px;
+            font-weight: 400;
+            color: #6b7280;
+            padding-right: 4px;
+            line-height: 1.4;
+        }
+
+        .status-indicator {
+            width: 6px;
+            height: 6px;
+            background: #4CAF50;
+            border-radius: 50%;
+        }
+
+        .action-buttons {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .action-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 14px 20px;
+            background: rgba(107, 114, 128, 0.08);
+            border: 1.5px solid rgba(107, 114, 128, 0.1);
+            border-radius: 8px;
+            color: #374151;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            line-height: 1.5;
+        }
+
+        .action-btn:hover {
+            background: rgba(107, 114, 128, 0.12);
+            border-color: rgba(107, 114, 128, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .ai-btn {
+            background: rgba(126, 87, 194, 0.1);
+            border-color: rgba(126, 87, 194, 0.2);
+            color: #7E57C2;
+        }
+
+        .ai-btn:hover {
+            background: rgba(126, 87, 194, 0.15);
+            border-color: rgba(126, 87, 194, 0.3);
+        }
+
+        .action-btn:nth-child(2) {
+            background: rgba(0, 150, 136, 0.1);
+            border-color: rgba(0, 150, 136, 0.2);
+            color: #009688;
+        }
+
+        .action-btn:nth-child(2):hover {
+            background: rgba(0, 150, 136, 0.15);
+            border-color: rgba(0, 150, 136, 0.3);
+        }
+
+        .action-btn:nth-child(3) {
+            background: rgba(255, 109, 0, 0.1);
+            border-color: rgba(255, 109, 0, 0.2);
+            color: #FF6D00;
+        }
+
+        .action-btn:nth-child(3):hover {
+            background: rgba(255, 109, 0, 0.15);
+            border-color: rgba(255, 109, 0, 0.3);
+        }
+
+        .action-btn:nth-child(4) {
+            background: rgba(233, 30, 99, 0.1);
+            border-color: rgba(233, 30, 99, 0.2);
+            color: #E91E63;
+        }
+
+        .action-btn:nth-child(4):hover {
+            background: rgba(233, 30, 99, 0.15);
+            border-color: rgba(233, 30, 99, 0.3);
+        }
+
+        .action-btn svg {
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <!-- Live and Spectate badges -->
+        <div class="top-badges">
+            <button class="live-badge">
+                <span class="live-dot"></span>
+                LIVE
+            </button>
+            <div class="right-badges">
+                <button class="spectate-btn">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M8 3C4.5 3 1.73 5.11 0 8c1.73 2.89 4.5 5 8 5s6.27-2.11 8-5c-1.73-2.89-4.5-5-8-5z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                        <circle cx="8" cy="8" r="2.5" fill="currentColor"/>
+                        <circle cx="8" cy="8" r="1" fill="white"/>
+                    </svg>
+                    Spectate
+                </button>
+                <button class="play-btn">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                        <path d="M2 1L11 6L2 11V1Z" fill="white"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Background gradient overlay -->
+        <div class="gradient-overlay"></div>
+
+        <!-- Main background image area -->
+        <div class="background-section">
+            <div class="ambient-light"></div>
+        </div>
+
+        <!-- Employee info section -->
+        <div class="info-section">
+            <div class="profile-row">
+                <div class="avatar">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=120&h=120&fit=crop" alt="Profile">
+                </div>
+                <div class="employee-details">
+                    <h2 class="job-title">UX/UI Designer</h2>
+                    <p class="name">Sarah M</p>
+                </div>
+                <div class="price-section">
+                    <div class="price-badge">
+                        <span class="currency">€</span>
+                        <span class="amount">2,200</span>
+                    </div>
+                    <div class="employment-status">
+                        <span class="status-indicator"></span>
+                        Full time
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action buttons -->
+            <div class="action-buttons">
+                <button class="action-btn ai-btn" onclick="openModal('ai-modal')">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <rect x="6" y="6" width="6" height="6" rx="1" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                        <path d="M9 6V3M9 15V12M6 9H3M15 9H12M6 6L4 4M12 6L14 4M6 12L4 14M12 12L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                    AI
+                </button>
+                <button class="action-btn" onclick="openModal('responsibilities-modal')">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <path d="M6 4L2 9L6 14M12 4L16 9L12 14M11 2L7 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Responsibilities
+                </button>
+                <button class="action-btn" onclick="openModal('tools-modal')">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <rect x="2" y="3" width="14" height="12" rx="1.5" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                        <path d="M5 7L7 9L5 11M9 11H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Tools
+                </button>
+                <button class="action-btn" onclick="openModal('skills-modal')">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <path d="M9 2L11 6L15.5 6.5L12 10L13 14.5L9 12L5 14.5L6 10L2.5 6.5L7 6L9 2Z" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linejoin="round"/>
+                        <circle cx="9" cy="9" r="2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                    </svg>
+                    Skills
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Pop-ups -->
+    <!-- AI Modal -->
+    <div id="ai-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>AI Tools & Integration</h3>
+                <span class="close" onclick="closeModal('ai-modal')">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-icon" style="background: linear-gradient(135deg, #F24E1E 0%, #FF7262 100%);">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <rect x="8" y="8" width="16" height="16" rx="2" fill="white"/>
+                                <path d="M12 8V24M20 8V24M8 12H24M8 20H24" stroke="#F24E1E" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h4>Figma AI</h4>
+                        <p>Automated design suggestions and layout optimization</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon" style="background: linear-gradient(135deg, #FF0000 0%, #ED1C24 100%);">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path d="M4 16L16 4L28 16L16 28L4 16Z" fill="white"/>
+                                <circle cx="16" cy="16" r="4" fill="#FF0000"/>
+                            </svg>
+                        </div>
+                        <h4>Adobe Sensei</h4>
+                        <p>Intelligent image editing and content-aware features</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon" style="background: linear-gradient(135deg, #000000 0%, #434343 100%);">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <rect x="6" y="10" width="20" height="12" rx="2" fill="white"/>
+                                <path d="M10 14L14 18L10 22M16 22H20" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h4>Midjourney</h4>
+                        <p>AI-generated concept art and mood boards</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon" style="background: linear-gradient(135deg, #10A37F 0%, #1A7F64 100%);">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <circle cx="16" cy="16" r="10" fill="white"/>
+                                <path d="M11 16H21M16 11V21" stroke="#10A37F" stroke-width="2.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h4>ChatGPT</h4>
+                        <p>UX copywriting and microcopy generation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Responsibilities Modal -->
+    <div id="responsibilities-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Key Responsibilities</h3>
+                <span class="close" onclick="closeModal('responsibilities-modal')">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h4>Design & Research</h4>
+                    <ul>
+                        <li>Conduct user research and usability testing</li>
+                        <li>Create wireframes, prototypes, and high-fidelity mockups</li>
+                        <li>Design responsive interfaces for web and mobile</li>
+                        <li>Develop and maintain design systems</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tools Modal -->
+    <div id="tools-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Design Tools & Technologies</h3>
+                <span class="close" onclick="closeModal('tools-modal')">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-icon" style="background: linear-gradient(135deg, #F24E1E 0%, #FF7262 100%);">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <rect x="6" y="6" width="8" height="8" rx="1" fill="white"/>
+                                <rect x="18" y="6" width="8" height="8" rx="1" fill="white"/>
+                                <rect x="6" y="18" width="8" height="8" rx="1" fill="white"/>
+                                <rect x="18" y="18" width="8" height="8" rx="1" fill="white"/>
+                            </svg>
+                        </div>
+                        <h4>Figma</h4>
+                        <p>Primary design and prototyping tool</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon" style="background: linear-gradient(135deg, #FF61F6 0%, #FF26F5 100%);">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path d="M16 4L28 16L16 28L4 16L16 4Z" fill="white"/>
+                                <circle cx="16" cy="16" r="5" fill="#FF61F6"/>
+                            </svg>
+                        </div>
+                        <h4>Adobe XD</h4>
+                        <p>Interactive prototyping</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon" style="background: linear-gradient(135deg, #31A8FF 0%, #0078D4 100%);">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path d="M8 8H24V24H8V8Z" fill="white"/>
+                                <text x="16" y="20" text-anchor="middle" fill="#31A8FF" font-size="12" font-weight="bold">Ps</text>
+                            </svg>
+                        </div>
+                        <h4>Photoshop</h4>
+                        <p>Image editing and manipulation</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-icon" style="background: linear-gradient(135deg, #FF9A00 0%, #FF6600 100%);">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path d="M8 8H24V24H8V8Z" fill="white"/>
+                                <text x="16" y="20" text-anchor="middle" fill="#FF9A00" font-size="12" font-weight="bold">Ai</text>
+                            </svg>
+                        </div>
+                        <h4>Illustrator</h4>
+                        <p>Vector graphics and illustrations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Modal -->
+    <div id="skills-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Professional Skills</h3>
+                <span class="close" onclick="closeModal('skills-modal')">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h4>Design Skills</h4>
+                    <ul>
+                        <li><strong>User Interface Design:</strong> Advanced - 5 years</li>
+                        <li><strong>User Experience Design:</strong> Advanced - 5 years</li>
+                        <li><strong>Interaction Design:</strong> Advanced - 4 years</li>
+                        <li><strong>Visual Design:</strong> Expert - 6 years</li>
+                        <li><strong>Prototyping:</strong> Advanced - 5 years</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openModal(modalId) {
+            document.getElementById(modalId).style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+                event.target.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+        }
+    </script>
+
+    <style>
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(8px);
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .modal-content {
+            background: white;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            animation: slideUp 0.3s ease;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .modal-header {
+            padding: 24px 28px;
+            border-bottom: 2px solid #f0f0f0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(135deg, #428BF9 0%, #1976D2 100%);
+            border-radius: 8px 8px 0 0;
+        }
+
+        .modal-header h3 {
+            margin: 0;
+            font-size: 25px;
+            font-weight: 600;
+            color: white;
+            line-height: 1.5;
+        }
+
+        .close {
+            color: white;
+            font-size: 32px;
+            font-weight: 300;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            line-height: 1;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+        }
+
+        .close:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(1.1);
+        }
+
+        .modal-body {
+            padding: 28px;
+        }
+
+        .modal-section {
+            margin-bottom: 28px;
+        }
+
+        .modal-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .modal-section h4 {
+            margin: 0 0 16px 0;
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a1a2e;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #428BF9;
+            line-height: 1.2;
+        }
+
+        .modal-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .modal-section ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #f0f0f0;
+            color: #374151;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+
+        .modal-section ul li:last-child {
+            border-bottom: none;
+        }
+
+        .modal-section ul li strong {
+            color: #428BF9;
+            font-weight: 600;
+        }
+
+        /* Scrollbar styling */
+        .modal-content::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .modal-content::-webkit-scrollbar-track {
+            background: #f0f0f0;
+        }
+
+        .modal-content::-webkit-scrollbar-thumb {
+            background: #428BF9;
+            border-radius: 4px;
+        }
+
+        .modal-content::-webkit-scrollbar-thumb:hover {
+            background: #1976D2;
+        }
+
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .tool-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+            border-color: #428BF9;
+        }
+
+        .tool-icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .tool-card h4 {
+            margin: 0 0 8px 0;
+            font-size: 16px;
+            font-weight: 500;
+            color: #1a1a2e;
+            line-height: 1.2;
+        }
+
+        .tool-card p {
+            margin: 0;
+            font-size: 12px;
+            font-weight: 400;
+            color: #6b7280;
+            line-height: 1.4;
+        }
+
+        @media (max-width: 600px) {
+            .tools-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,17990 @@
+{
+    "data": [
+        {
+            "id": 2212,
+            "sub_industry_id": 158,
+            "item_id": 158,
+            "name": "Abrasives & Nonmetallic Minerals Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2212,
+                "name": "Abrasives & Nonmetallic Minerals Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:49.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1927,
+                "industry_id": 33,
+                "name": "Mining & Metals",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2218,
+            "sub_industry_id": 164,
+            "item_id": 164,
+            "name": "Accommodation",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2218,
+                "name": "Accommodation"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:52.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1928,
+                "industry_id": 34,
+                "name": "Hospitality",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2223,
+            "sub_industry_id": 169,
+            "item_id": 169,
+            "name": "Accounting",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2223,
+                "name": "Accounting"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:53.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1929,
+                "industry_id": 35,
+                "name": "Accounting & Audit",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2076,
+            "sub_industry_id": 22,
+            "item_id": 22,
+            "name": "Administrative & Support Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2076,
+                "name": "Administrative & Support Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:54.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1899,
+                "industry_id": 5,
+                "name": "Staffing and Recruiting",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2068,
+            "sub_industry_id": 14,
+            "item_id": 14,
+            "name": "Advertising Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2068,
+                "name": "Advertising Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:52.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1897,
+                "industry_id": 3,
+                "name": "Advertising",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2211,
+            "sub_industry_id": 157,
+            "item_id": 157,
+            "name": "Agricultural Chemical Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2211,
+                "name": "Agricultural Chemical Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:48.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1926,
+                "industry_id": 32,
+                "name": "Chemicals",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2224,
+            "sub_industry_id": 170,
+            "item_id": 170,
+            "name": "Agriculture, Construction, Mining Machinery Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2224,
+                "name": "Agriculture, Construction, Mining Machinery Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:54.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1930,
+                "industry_id": 36,
+                "name": "Machinery",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2238,
+            "sub_industry_id": 184,
+            "item_id": 184,
+            "name": "Air, Water, & Waste Program Management",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2238,
+                "name": "Air, Water, & Waste Program Management"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:59.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1931,
+                "industry_id": 37,
+                "name": "Environment",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2199,
+            "sub_industry_id": 145,
+            "item_id": 145,
+            "name": "Airlines & Aviation",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2199,
+                "name": "Airlines & Aviation"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:43.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1924,
+                "industry_id": 30,
+                "name": "Airlines/Aviation",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2243,
+            "sub_industry_id": 189,
+            "item_id": 189,
+            "name": "Alternative Dispute Resolution",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2243,
+                "name": "Alternative Dispute Resolution"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:01.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1932,
+                "industry_id": 38,
+                "name": "Legal Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2348,
+            "sub_industry_id": 294,
+            "item_id": 294,
+            "name": "Ambulance Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2348,
+                "name": "Ambulance Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:40.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1968,
+                "industry_id": 74,
+                "name": "Medical Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2197,
+            "sub_industry_id": 143,
+            "item_id": 143,
+            "name": "Amusement Parks & Arcades",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2197,
+                "name": "Amusement Parks & Arcades"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:43.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1923,
+                "industry_id": 29,
+                "name": "Gambling & Casinos",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2245,
+            "sub_industry_id": 191,
+            "item_id": 191,
+            "name": "Animal Feed Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2245,
+                "name": "Animal Feed Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:02.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1933,
+                "industry_id": 39,
+                "name": "Agriculture",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2178,
+            "sub_industry_id": 124,
+            "item_id": 124,
+            "name": "Animation & Post-production",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2178,
+                "name": "Animation & Post-production"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:34.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1920,
+                "industry_id": 26,
+                "name": "Media Production",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2126,
+            "sub_industry_id": 72,
+            "item_id": 72,
+            "name": "Apparel Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2126,
+                "name": "Apparel Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:11.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1910,
+                "industry_id": 16,
+                "name": "Apparel & Fashion",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2125,
+            "sub_industry_id": 71,
+            "item_id": 71,
+            "name": "Appliances, Electrical, and Electronics Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2125,
+                "name": "Appliances, Electrical, and Electronics Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:10.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1909,
+                "industry_id": 15,
+                "name": "Electrical & Electronic Manufacturing",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2225,
+            "sub_industry_id": 171,
+            "item_id": 171,
+            "name": "Architectural & Structural Metal Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2225,
+                "name": "Architectural & Structural Metal Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:54.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1930,
+                "industry_id": 36,
+                "name": "Machinery",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2250,
+            "sub_industry_id": 196,
+            "item_id": 196,
+            "name": "Architecture and Planning",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2250,
+                "name": "Architecture and Planning"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:03.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1934,
+                "industry_id": 40,
+                "name": "Architecture, Landscape & Interior Design",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2422,
+            "sub_industry_id": 368,
+            "item_id": 368,
+            "name": "Armed Forces",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2422,
+                "name": "Armed Forces"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:13.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2048,
+                "industry_id": 150,
+                "name": "Military",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2351,
+            "sub_industry_id": 297,
+            "item_id": 297,
+            "name": "Artificial Rubber & Synthetic Fiber Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2351,
+                "name": "Artificial Rubber & Synthetic Fiber Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:42.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1970,
+                "industry_id": 76,
+                "name": "Plastics",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2355,
+            "sub_industry_id": 301,
+            "item_id": 301,
+            "name": "Artists & Writers",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2355,
+                "name": "Artists & Writers"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:43.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1971,
+                "industry_id": 77,
+                "name": "Art & Culture",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2253,
+            "sub_industry_id": 199,
+            "item_id": 199,
+            "name": "Audio & Video Equipment Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2253,
+                "name": "Audio & Video Equipment Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:04.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1935,
+                "industry_id": 41,
+                "name": "Computers and Electronics Manufacturing",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2405,
+            "sub_industry_id": 351,
+            "item_id": 351,
+            "name": "Automation Machinery Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2405,
+                "name": "Automation Machinery Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:05.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2037,
+                "industry_id": 139,
+                "name": "Industrial Automation",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2202,
+            "sub_industry_id": 148,
+            "item_id": 148,
+            "name": "Aviation & Aerospace",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2202,
+                "name": "Aviation & Aerospace"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:44.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1924,
+                "industry_id": 30,
+                "name": "Airlines/Aviation",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2200,
+            "sub_industry_id": 146,
+            "item_id": 146,
+            "name": "Aviation & Aerospace Component Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2200,
+                "name": "Aviation & Aerospace Component Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:44.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1924,
+                "industry_id": 30,
+                "name": "Airlines/Aviation",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2254,
+            "sub_industry_id": 200,
+            "item_id": 200,
+            "name": "Baked Goods Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2254,
+                "name": "Baked Goods Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:05.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1936,
+                "industry_id": 42,
+                "name": "Food Production",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2219,
+            "sub_industry_id": 165,
+            "item_id": 165,
+            "name": "Bars, Taverns, & Nightclubs",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2219,
+                "name": "Bars, Taverns, & Nightclubs"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:52.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1928,
+                "industry_id": 34,
+                "name": "Hospitality",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2220,
+            "sub_industry_id": 166,
+            "item_id": 166,
+            "name": "Bed-and-Breakfasts, Hostels, Homestays",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2220,
+                "name": "Bed-and-Breakfasts, Hostels, Homestays"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:52.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1928,
+                "industry_id": 34,
+                "name": "Hospitality",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2260,
+            "sub_industry_id": 206,
+            "item_id": 206,
+            "name": "Beverage Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2260,
+                "name": "Beverage Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:08.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1937,
+                "industry_id": 43,
+                "name": "Food & Beverages",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2183,
+            "sub_industry_id": 129,
+            "item_id": 129,
+            "name": "Biomass Electric Power Generation",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2183,
+                "name": "Biomass Electric Power Generation"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:37.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1922,
+                "industry_id": 28,
+                "name": "Oil, Gas & Energy",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2160,
+            "sub_industry_id": 106,
+            "item_id": 106,
+            "name": "Biotechnology Research",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2160,
+                "name": "Biotechnology Research"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:23.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1915,
+                "industry_id": 21,
+                "name": "Research",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2061,
+            "sub_industry_id": 7,
+            "item_id": 7,
+            "name": "Blockchain Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2061,
+                "name": "Blockchain Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:49.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1896,
+                "industry_id": 2,
+                "name": "Information Technology & Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2116,
+            "sub_industry_id": 62,
+            "item_id": 62,
+            "name": "Blogs",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2116,
+                "name": "Blogs"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:08.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1907,
+                "industry_id": 13,
+                "name": "Online Media",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2263,
+            "sub_industry_id": 209,
+            "item_id": 209,
+            "name": "Book & Periodical Publishing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2263,
+                "name": "Book & Periodical Publishing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:09.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1938,
+                "industry_id": 44,
+                "name": "Publishing",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2264,
+            "sub_industry_id": 210,
+            "item_id": 210,
+            "name": "Book Publishing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2264,
+                "name": "Book Publishing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:09.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1938,
+                "industry_id": 44,
+                "name": "Publishing",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2261,
+            "sub_industry_id": 207,
+            "item_id": 207,
+            "name": "Breweries",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2261,
+                "name": "Breweries"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:08.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1937,
+                "industry_id": 43,
+                "name": "Food & Beverages",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2278,
+            "sub_industry_id": 224,
+            "item_id": 224,
+            "name": "Broadcast Media Production & Distribution",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2278,
+                "name": "Broadcast Media Production & Distribution"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:15.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1940,
+                "industry_id": 46,
+                "name": "Broadcast Media",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2267,
+            "sub_industry_id": 213,
+            "item_id": 213,
+            "name": "Building Construction",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2267,
+                "name": "Building Construction"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:10.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1939,
+                "industry_id": 45,
+                "name": "Construction",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2268,
+            "sub_industry_id": 214,
+            "item_id": 214,
+            "name": "Building Equipment Contractors",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2268,
+                "name": "Building Equipment Contractors"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:10.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": null,
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2269,
+            "sub_industry_id": 215,
+            "item_id": 215,
+            "name": "Building Finishing Contractors",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2269,
+                "name": "Building Finishing Contractors"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:11.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": null,
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2270,
+            "sub_industry_id": 216,
+            "item_id": 216,
+            "name": "Building Structure & Exterior Contractors",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2270,
+                "name": "Building Structure & Exterior Contractors"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:11.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": null,
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2203,
+            "sub_industry_id": 149,
+            "item_id": 149,
+            "name": "Business Consulting and Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2203,
+                "name": "Business Consulting and Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:45.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1925,
+                "industry_id": 31,
+                "name": "Business",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2206,
+            "sub_industry_id": 152,
+            "item_id": 152,
+            "name": "Business Intelligence Platforms",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2206,
+                "name": "Business Intelligence Platforms"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:47.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1925,
+                "industry_id": 31,
+                "name": "Business",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2276,
+            "sub_industry_id": 222,
+            "item_id": 222,
+            "name": "Cable & Satellite Programming",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2276,
+                "name": "Cable & Satellite Programming"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:14.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1940,
+                "industry_id": 46,
+                "name": "Broadcast Media",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2179,
+            "sub_industry_id": 125,
+            "item_id": 125,
+            "name": "Caterers",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2179,
+                "name": "Caterers"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:36.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1921,
+                "industry_id": 27,
+                "name": "Events Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2207,
+            "sub_industry_id": 153,
+            "item_id": 153,
+            "name": "Chemical Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2207,
+                "name": "Chemical Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:47.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1926,
+                "industry_id": 32,
+                "name": "Chemicals",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2209,
+            "sub_industry_id": 155,
+            "item_id": 155,
+            "name": "Chemical Raw Materials Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2209,
+                "name": "Chemical Raw Materials Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:48.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1926,
+                "industry_id": 32,
+                "name": "Chemicals",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2356,
+            "sub_industry_id": 302,
+            "item_id": 302,
+            "name": "Child Day Care Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2356,
+                "name": "Child Day Care Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:43.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": null,
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2120,
+            "sub_industry_id": 66,
+            "item_id": 66,
+            "name": "Chiropractors",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2120,
+                "name": "Chiropractors"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:09.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1908,
+                "industry_id": 14,
+                "name": "Health, Wellness & Fitness",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2359,
+            "sub_industry_id": 305,
+            "item_id": 305,
+            "name": "Circuses & Magic Shows",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2359,
+                "name": "Circuses & Magic Shows"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:44.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": null,
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2279,
+            "sub_industry_id": 225,
+            "item_id": 225,
+            "name": "Claims Adjusting, Actuarial Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2279,
+                "name": "Claims Adjusting, Actuarial Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:15.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1941,
+                "industry_id": 47,
+                "name": "Insurance",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2362,
+            "sub_industry_id": 308,
+            "item_id": 308,
+            "name": "Clay & Refractory Products Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2362,
+                "name": "Clay & Refractory Products Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:45.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1974,
+                "industry_id": 80,
+                "name": "Glass, Ceramics & Concrete",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2213,
+            "sub_industry_id": 159,
+            "item_id": 159,
+            "name": "Coal Mining",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2213,
+                "name": "Coal Mining"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:49.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1927,
+                "industry_id": 33,
+                "name": "Mining & Metals",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2169,
+            "sub_industry_id": 115,
+            "item_id": 115,
+            "name": "Collection Agencies",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2169,
+                "name": "Collection Agencies"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:27.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1918,
+                "industry_id": 24,
+                "name": "Finance",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2164,
+            "sub_industry_id": 110,
+            "item_id": 110,
+            "name": "Commercial & Industrial Equipment Rental",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2164,
+                "name": "Commercial & Industrial Equipment Rental"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:25.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1916,
+                "industry_id": 22,
+                "name": "Business Supplies & Equipment",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2406,
+            "sub_industry_id": 352,
+            "item_id": 352,
+            "name": "Commercial & Industrial Machinery Maintenance",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2406,
+                "name": "Commercial & Industrial Machinery Maintenance"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:06.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2037,
+                "industry_id": 139,
+                "name": "Industrial Automation",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2227,
+            "sub_industry_id": 173,
+            "item_id": 173,
+            "name": "Commercial & Service Industry Machinery Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2227,
+                "name": "Commercial & Service Industry Machinery Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:55.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": null,
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2283,
+            "sub_industry_id": 229,
+            "item_id": 229,
+            "name": "Communications Equipment Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2283,
+                "name": "Communications Equipment Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:17.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1942,
+                "industry_id": 48,
+                "name": "Telecommunications",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2251,
+            "sub_industry_id": 197,
+            "item_id": 197,
+            "name": "Community Development & Urban Planning",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2251,
+                "name": "Community Development & Urban Planning"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:04.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": null,
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2287,
+            "sub_industry_id": 233,
+            "item_id": 233,
+            "name": "Community Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2287,
+                "name": "Community Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:19.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1943,
+                "industry_id": 49,
+                "name": "Civic and Social Organizations",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2410,
+            "sub_industry_id": 356,
+            "item_id": 356,
+            "name": "Computer and Network Security",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2410,
+                "name": "Computer and Network Security"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:07.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2020,
+                "industry_id": 126,
+                "name": "Cybersecurity",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2239,
+            "sub_industry_id": 185,
+            "item_id": 185,
+            "name": "Conservation Programs",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2239,
+                "name": "Conservation Programs"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:00.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1931,
+                "industry_id": 37,
+                "name": "Environment",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2228,
+            "sub_industry_id": 174,
+            "item_id": 174,
+            "name": "Construction Hardware Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2228,
+                "name": "Construction Hardware Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:55.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1930,
+                "industry_id": 36,
+                "name": "Machinery",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2366,
+            "sub_industry_id": 312,
+            "item_id": 312,
+            "name": "Consumer Goods Rental",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2366,
+                "name": "Consumer Goods Rental"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:48.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1975,
+                "industry_id": 81,
+                "name": "Consumer Goods",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2180,
+            "sub_industry_id": 126,
+            "item_id": 126,
+            "name": "Convention Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2180,
+                "name": "Convention Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:36.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1921,
+                "industry_id": 27,
+                "name": "Events Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2367,
+            "sub_industry_id": 313,
+            "item_id": 313,
+            "name": "Correctional Institutions",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2367,
+                "name": "Correctional Institutions"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:48.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1976,
+                "industry_id": 82,
+                "name": "Public Safety",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2419,
+            "sub_industry_id": 365,
+            "item_id": 365,
+            "name": "Courts of Law",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2419,
+                "name": "Courts of Law"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:11.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2041,
+                "industry_id": 143,
+                "name": "Law Firms",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2170,
+            "sub_industry_id": 116,
+            "item_id": 116,
+            "name": "Credit Intermediation",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2170,
+                "name": "Credit Intermediation"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:28.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1918,
+                "industry_id": 24,
+                "name": "Finance",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2229,
+            "sub_industry_id": 175,
+            "item_id": 175,
+            "name": "Cutlery & Handtool Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2229,
+                "name": "Cutlery & Handtool Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:55.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1930,
+                "industry_id": 36,
+                "name": "Machinery",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2371,
+            "sub_industry_id": 317,
+            "item_id": 317,
+            "name": "Dairy Product Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2371,
+                "name": "Dairy Product Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:49.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1977,
+                "industry_id": 83,
+                "name": "Dairy",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2360,
+            "sub_industry_id": 306,
+            "item_id": 306,
+            "name": "Dance Companies",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2360,
+                "name": "Dance Companies"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:45.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1973,
+                "industry_id": 79,
+                "name": "Performing Arts",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2062,
+            "sub_industry_id": 8,
+            "item_id": 8,
+            "name": "Data Infrastructure & Analytics",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2062,
+                "name": "Data Infrastructure & Analytics"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:49.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1896,
+                "industry_id": 2,
+                "name": "Information Technology & Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2399,
+            "sub_industry_id": 345,
+            "item_id": 345,
+            "name": "Data Infrastructure and Analytics",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2399,
+                "name": "Data Infrastructure and Analytics"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:01.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2005,
+                "industry_id": 111,
+                "name": "Data Processing",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2411,
+            "sub_industry_id": 357,
+            "item_id": 357,
+            "name": "Data Security Software Products",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2411,
+                "name": "Data Security Software Products"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:07.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2020,
+                "industry_id": 126,
+                "name": "Cybersecurity",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2426,
+            "sub_industry_id": 372,
+            "item_id": 372,
+            "name": "Defense & Space Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2426,
+                "name": "Defense & Space Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:14.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2051,
+                "industry_id": 153,
+                "name": "Defense & Space",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2372,
+            "sub_industry_id": 318,
+            "item_id": 318,
+            "name": "Dentists",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2372,
+                "name": "Dentists"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:50.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1978,
+                "industry_id": 84,
+                "name": "Dentistry",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2080,
+            "sub_industry_id": 26,
+            "item_id": 26,
+            "name": "Design Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2080,
+                "name": "Design Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:56.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1901,
+                "industry_id": 7,
+                "name": "Design",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2072,
+            "sub_industry_id": 18,
+            "item_id": 18,
+            "name": "Desktop Computing Software Products",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2072,
+                "name": "Desktop Computing Software Products"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:53.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1898,
+                "industry_id": 4,
+                "name": "Computer Software",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2373,
+            "sub_industry_id": 319,
+            "item_id": 319,
+            "name": "Distilleries",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2373,
+                "name": "Distilleries"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:50.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1979,
+                "industry_id": 85,
+                "name": "Wine And Spirits",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2292,
+            "sub_industry_id": 238,
+            "item_id": 238,
+            "name": "E-Learning Providers",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2292,
+                "name": "E-Learning Providers"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:21.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1945,
+                "industry_id": 51,
+                "name": "Elearning",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2293,
+            "sub_industry_id": 239,
+            "item_id": 239,
+            "name": "Economic Programs",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2293,
+                "name": "Economic Programs"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:21.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1946,
+                "industry_id": 52,
+                "name": "International Trade & Development",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2294,
+            "sub_industry_id": 240,
+            "item_id": 240,
+            "name": "Education",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2294,
+                "name": "Education"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:22.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1947,
+                "industry_id": 53,
+                "name": "Education & Science",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2299,
+            "sub_industry_id": 245,
+            "item_id": 245,
+            "name": "Education Administration Programs",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2299,
+                "name": "Education Administration Programs"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:22.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1948,
+                "industry_id": 54,
+                "name": "Education Management",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2122,
+            "sub_industry_id": 68,
+            "item_id": 68,
+            "name": "Electric Lighting Equipment Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2122,
+                "name": "Electric Lighting Equipment Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:10.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1909,
+                "industry_id": 15,
+                "name": "Electrical & Electronic Manufacturing",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2184,
+            "sub_industry_id": 130,
+            "item_id": 130,
+            "name": "Electric Power Generation",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2184,
+                "name": "Electric Power Generation"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:37.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1922,
+                "industry_id": 28,
+                "name": "Oil, Gas & Energy",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2300,
+            "sub_industry_id": 246,
+            "item_id": 246,
+            "name": "Electric Power Transmission, Control, & Distribution",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2300,
+                "name": "Electric Power Transmission, Control, & Distribution"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:23.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1949,
+                "industry_id": 55,
+                "name": "Utilities",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2121,
+            "sub_industry_id": 67,
+            "item_id": 67,
+            "name": "Electrical Equipment Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2121,
+                "name": "Electrical Equipment Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:09.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1909,
+                "industry_id": 15,
+                "name": "Electrical & Electronic Manufacturing",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2375,
+            "sub_industry_id": 321,
+            "item_id": 321,
+            "name": "Electronic & Precision Equipment Maintenance",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2375,
+                "name": "Electronic & Precision Equipment Maintenance"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:51.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": null,
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2071,
+            "sub_industry_id": 17,
+            "item_id": 17,
+            "name": "Embedded Software Products",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2071,
+                "name": "Embedded Software Products"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:53.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1898,
+                "industry_id": 4,
+                "name": "Computer Software",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2368,
+            "sub_industry_id": 314,
+            "item_id": 314,
+            "name": "Emergency & Relief Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2368,
+                "name": "Emergency & Relief Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:48.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": null,
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2415,
+            "sub_industry_id": 361,
+            "item_id": 361,
+            "name": "Engineering Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2415,
+                "name": "Engineering Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:09.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2025,
+                "industry_id": 131,
+                "name": "Engineering",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2226,
+            "sub_industry_id": 172,
+            "item_id": 172,
+            "name": "Engines & Power Transmission Equipment Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2226,
+                "name": "Engines & Power Transmission Equipment Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:54.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": null,
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2173,
+            "sub_industry_id": 119,
+            "item_id": 119,
+            "name": "Entertainment Providers",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2173,
+                "name": "Entertainment Providers"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:29.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1919,
+                "industry_id": 25,
+                "name": "Entertainment",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2240,
+            "sub_industry_id": 186,
+            "item_id": 186,
+            "name": "Environmental Quality Programs",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2240,
+                "name": "Environmental Quality Programs"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:00.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1931,
+                "industry_id": 37,
+                "name": "Environment",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2241,
+            "sub_industry_id": 187,
+            "item_id": 187,
+            "name": "Environmental Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2241,
+                "name": "Environmental Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:00.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1931,
+                "industry_id": 37,
+                "name": "Environment",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2165,
+            "sub_industry_id": 111,
+            "item_id": 111,
+            "name": "Equipment Rental Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2165,
+                "name": "Equipment Rental Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:26.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1916,
+                "industry_id": 22,
+                "name": "Business Supplies & Equipment",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2306,
+            "sub_industry_id": 252,
+            "item_id": 252,
+            "name": "Executive Offices",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2306,
+                "name": "Executive Offices"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:26.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1950,
+                "industry_id": 56,
+                "name": "Executive Office",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2077,
+            "sub_industry_id": 23,
+            "item_id": 23,
+            "name": "Executive Search Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2077,
+                "name": "Executive Search Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:55.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1899,
+                "industry_id": 5,
+                "name": "Staffing and Recruiting",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2230,
+            "sub_industry_id": 176,
+            "item_id": 176,
+            "name": "Fabricated Metal Products",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2230,
+                "name": "Fabricated Metal Products"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:56.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1930,
+                "industry_id": 36,
+                "name": "Machinery",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2133,
+            "sub_industry_id": 79,
+            "item_id": 79,
+            "name": "Family Planning Centers",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2133,
+                "name": "Family Planning Centers"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:12.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1911,
+                "industry_id": 17,
+                "name": "Healthcare",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2246,
+            "sub_industry_id": 192,
+            "item_id": 192,
+            "name": "Farming",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2246,
+                "name": "Farming"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:02.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1933,
+                "industry_id": 39,
+                "name": "Agriculture",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2247,
+            "sub_industry_id": 193,
+            "item_id": 193,
+            "name": "Farming, Ranching, Forestry",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2247,
+                "name": "Farming, Ranching, Forestry"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:02.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1933,
+                "industry_id": 39,
+                "name": "Agriculture",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2127,
+            "sub_industry_id": 73,
+            "item_id": 73,
+            "name": "Fashion Accessories Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2127,
+                "name": "Fashion Accessories Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:11.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1910,
+                "industry_id": 16,
+                "name": "Apparel & Fashion",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2168,
+            "sub_industry_id": 114,
+            "item_id": 114,
+            "name": "Financial Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2168,
+                "name": "Financial Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:27.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1918,
+                "industry_id": 24,
+                "name": "Finance",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2295,
+            "sub_industry_id": 241,
+            "item_id": 241,
+            "name": "Fine Arts Schools",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2295,
+                "name": "Fine Arts Schools"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:22.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1947,
+                "industry_id": 53,
+                "name": "Education & Science",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2369,
+            "sub_industry_id": 315,
+            "item_id": 315,
+            "name": "Fire Protection",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2369,
+                "name": "Fire Protection"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:49.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1976,
+                "industry_id": 82,
+                "name": "Public Safety",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2378,
+            "sub_industry_id": 324,
+            "item_id": 324,
+            "name": "Fisheries",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2378,
+                "name": "Fisheries"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:52.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1981,
+                "industry_id": 87,
+                "name": "Fishery",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2201,
+            "sub_industry_id": 147,
+            "item_id": 147,
+            "name": "Flight Training",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2201,
+                "name": "Flight Training"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:44.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1924,
+                "industry_id": 30,
+                "name": "Airlines/Aviation",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2255,
+            "sub_industry_id": 201,
+            "item_id": 201,
+            "name": "Food & Beverage Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2255,
+                "name": "Food & Beverage Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:05.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1936,
+                "industry_id": 42,
+                "name": "Food Production",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2086,
+            "sub_industry_id": 32,
+            "item_id": 32,
+            "name": "Food and Beverage Retail",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2086,
+                "name": "Food and Beverage Retail"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:58.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1903,
+                "industry_id": 9,
+                "name": "Retail",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2262,
+            "sub_industry_id": 208,
+            "item_id": 208,
+            "name": "Food and Beverage Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2262,
+                "name": "Food and Beverage Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:08.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1937,
+                "industry_id": 43,
+                "name": "Food & Beverages",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2105,
+            "sub_industry_id": 51,
+            "item_id": 51,
+            "name": "Footwear & Leather Goods Repair",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2105,
+                "name": "Footwear & Leather Goods Repair"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:04.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1905,
+                "industry_id": 11,
+                "name": "Consumer Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2129,
+            "sub_industry_id": 75,
+            "item_id": 75,
+            "name": "Footwear Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2129,
+                "name": "Footwear Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:11.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": null,
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2248,
+            "sub_industry_id": 194,
+            "item_id": 194,
+            "name": "Forestry & Logging",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2248,
+                "name": "Forestry & Logging"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:03.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1933,
+                "industry_id": 39,
+                "name": "Agriculture",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2195,
+            "sub_industry_id": 141,
+            "item_id": 141,
+            "name": "Fossil Fuel Electric Power Generation",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2195,
+                "name": "Fossil Fuel Electric Power Generation"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:42.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1922,
+                "industry_id": 28,
+                "name": "Oil, Gas & Energy",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2140,
+            "sub_industry_id": 86,
+            "item_id": 86,
+            "name": "Freight & Package Transportation",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2140,
+                "name": "Freight & Package Transportation"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:16.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1912,
+                "industry_id": 18,
+                "name": "Logistics & Supply Chain",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2256,
+            "sub_industry_id": 202,
+            "item_id": 202,
+            "name": "Fruit & Vegetable Preserves Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2256,
+                "name": "Fruit & Vegetable Preserves Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:06.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1936,
+                "industry_id": 42,
+                "name": "Food Production",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2379,
+            "sub_industry_id": 325,
+            "item_id": 325,
+            "name": "Fundraising",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2379,
+                "name": "Fundraising"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:52.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1982,
+                "industry_id": 88,
+                "name": "Fund-Raising",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2308,
+            "sub_industry_id": 254,
+            "item_id": 254,
+            "name": "Funds & Trusts",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2308,
+                "name": "Funds & Trusts"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:26.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1951,
+                "industry_id": 57,
+                "name": "Investment Management",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2313,
+            "sub_industry_id": 259,
+            "item_id": 259,
+            "name": "Furniture & Home Furnishings Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2313,
+                "name": "Furniture & Home Furnishings Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:28.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1952,
+                "industry_id": 58,
+                "name": "Furniture",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2196,
+            "sub_industry_id": 142,
+            "item_id": 142,
+            "name": "Gambling Facilities & Casinos",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2196,
+                "name": "Gambling Facilities & Casinos"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:42.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1923,
+                "industry_id": 29,
+                "name": "Gambling & Casinos",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2185,
+            "sub_industry_id": 131,
+            "item_id": 131,
+            "name": "Geothermal Electric Power Generation",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2185,
+                "name": "Geothermal Electric Power Generation"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:38.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1922,
+                "industry_id": 28,
+                "name": "Oil, Gas & Energy",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2363,
+            "sub_industry_id": 309,
+            "item_id": 309,
+            "name": "Glass Product Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2363,
+                "name": "Glass Product Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:46.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": null,
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2364,
+            "sub_industry_id": 310,
+            "item_id": 310,
+            "name": "Glass, Ceramics & Concrete Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2364,
+                "name": "Glass, Ceramics & Concrete Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:46.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1974,
+                "industry_id": 80,
+                "name": "Glass, Ceramics & Concrete",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2316,
+            "sub_industry_id": 262,
+            "item_id": 262,
+            "name": "Golf Courses & Country Clubs",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2316,
+                "name": "Golf Courses & Country Clubs"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:30.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1953,
+                "industry_id": 59,
+                "name": "Sports",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2416,
+            "sub_industry_id": 362,
+            "item_id": 362,
+            "name": "Government Relations Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2416,
+                "name": "Government Relations Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:09.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2026,
+                "industry_id": 132,
+                "name": "Government Relations",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2081,
+            "sub_industry_id": 27,
+            "item_id": 27,
+            "name": "Graphic Design",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2081,
+                "name": "Graphic Design"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:57.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1901,
+                "industry_id": 7,
+                "name": "Design",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2322,
+            "sub_industry_id": 268,
+            "item_id": 268,
+            "name": "Ground Passenger Transportation",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2322,
+                "name": "Ground Passenger Transportation"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:32.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1954,
+                "industry_id": 60,
+                "name": "Transportation/Trucking/Railroad",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2134,
+            "sub_industry_id": 80,
+            "item_id": 80,
+            "name": "Health & Human Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2134,
+                "name": "Health & Human Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:13.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1911,
+                "industry_id": 17,
+                "name": "Healthcare",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2271,
+            "sub_industry_id": 217,
+            "item_id": 217,
+            "name": "Highway, Street, & Bridge Construction",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2271,
+                "name": "Highway, Street, & Bridge Construction"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:12.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1939,
+                "industry_id": 45,
+                "name": "Construction",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2423,
+            "sub_industry_id": 369,
+            "item_id": 369,
+            "name": "Historical Sites",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2423,
+                "name": "Historical Sites"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:13.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2049,
+                "industry_id": 151,
+                "name": "Museums",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2309,
+            "sub_industry_id": 255,
+            "item_id": 255,
+            "name": "Holding Companies",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2309,
+                "name": "Holding Companies"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:27.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1951,
+                "industry_id": 57,
+                "name": "Investment Management",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2119,
+            "sub_industry_id": 65,
+            "item_id": 65,
+            "name": "Home Health Care Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2119,
+                "name": "Home Health Care Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:09.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1908,
+                "industry_id": 14,
+                "name": "Health, Wellness & Fitness",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2249,
+            "sub_industry_id": 195,
+            "item_id": 195,
+            "name": "Horticulture",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2249,
+                "name": "Horticulture"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:03.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1933,
+                "industry_id": 39,
+                "name": "Agriculture",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2417,
+            "sub_industry_id": 363,
+            "item_id": 363,
+            "name": "Hospitals and Health Care",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2417,
+                "name": "Hospitals and Health Care"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:10.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2027,
+                "industry_id": 133,
+                "name": "Hospitals",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2380,
+            "sub_industry_id": 326,
+            "item_id": 326,
+            "name": "Hotels & Motels",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2380,
+                "name": "Hotels & Motels"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:53.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1983,
+                "industry_id": 89,
+                "name": "Hotels",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2314,
+            "sub_industry_id": 260,
+            "item_id": 260,
+            "name": "Household & Institutional Furniture Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2314,
+                "name": "Household & Institutional Furniture Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:28.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1952,
+                "industry_id": 58,
+                "name": "Furniture",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2376,
+            "sub_industry_id": 322,
+            "item_id": 322,
+            "name": "Household Appliance Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2376,
+                "name": "Household Appliance Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:51.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1980,
+                "industry_id": 86,
+                "name": "Electronics",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2113,
+            "sub_industry_id": 59,
+            "item_id": 59,
+            "name": "Household Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2113,
+                "name": "Household Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:07.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1905,
+                "industry_id": 11,
+                "name": "Consumer Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2288,
+            "sub_industry_id": 234,
+            "item_id": 234,
+            "name": "Housing & Community Development",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2288,
+                "name": "Housing & Community Development"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:19.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1943,
+                "industry_id": 49,
+                "name": "Civic and Social Organizations",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2289,
+            "sub_industry_id": 235,
+            "item_id": 235,
+            "name": "Housing Programs",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2289,
+                "name": "Housing Programs"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:19.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1943,
+                "industry_id": 49,
+                "name": "Civic and Social Organizations",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2167,
+            "sub_industry_id": 113,
+            "item_id": 113,
+            "name": "Human Resources Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2167,
+                "name": "Human Resources Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:27.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1917,
+                "industry_id": 23,
+                "name": "Human Resources",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2123,
+            "sub_industry_id": 69,
+            "item_id": 69,
+            "name": "HVAC & Refrigeration Equipment Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2123,
+                "name": "HVAC & Refrigeration Equipment Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:10.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1909,
+                "industry_id": 15,
+                "name": "Electrical & Electronic Manufacturing",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2186,
+            "sub_industry_id": 132,
+            "item_id": 132,
+            "name": "Hydroelectric Power Generation",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2186,
+                "name": "Hydroelectric Power Generation"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:38.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1922,
+                "industry_id": 28,
+                "name": "Oil, Gas & Energy",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2408,
+            "sub_industry_id": 354,
+            "item_id": 354,
+            "name": "Industrial Machinery Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2408,
+                "name": "Industrial Machinery Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:06.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2037,
+                "industry_id": 139,
+                "name": "Industrial Automation",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2290,
+            "sub_industry_id": 236,
+            "item_id": 236,
+            "name": "Industry Associations",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2290,
+                "name": "Industry Associations"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:20.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1943,
+                "industry_id": 49,
+                "name": "Civic and Social Organizations",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2204,
+            "sub_industry_id": 150,
+            "item_id": 150,
+            "name": "Information Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2204,
+                "name": "Information Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:46.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1925,
+                "industry_id": 31,
+                "name": "Business",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2280,
+            "sub_industry_id": 226,
+            "item_id": 226,
+            "name": "Insurance & Employee Benefit Funds",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2280,
+                "name": "Insurance & Employee Benefit Funds"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:15.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1941,
+                "industry_id": 47,
+                "name": "Insurance",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2282,
+            "sub_industry_id": 228,
+            "item_id": 228,
+            "name": "Insurance Agencies & Brokerages",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2282,
+                "name": "Insurance Agencies & Brokerages"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:17.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1941,
+                "industry_id": 47,
+                "name": "Insurance",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2281,
+            "sub_industry_id": 227,
+            "item_id": 227,
+            "name": "Insurance Carriers",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2281,
+                "name": "Insurance Carriers"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:17.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1941,
+                "industry_id": 47,
+                "name": "Insurance",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2082,
+            "sub_industry_id": 28,
+            "item_id": 28,
+            "name": "Interior Design",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2082,
+                "name": "Interior Design"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:57.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1901,
+                "industry_id": 7,
+                "name": "Design",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2078,
+            "sub_industry_id": 24,
+            "item_id": 24,
+            "name": "Internet Marketplace Platforms",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2078,
+                "name": "Internet Marketplace Platforms"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:55.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1900,
+                "industry_id": 6,
+                "name": "Internet",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2079,
+            "sub_industry_id": 25,
+            "item_id": 25,
+            "name": "Internet News",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2079,
+                "name": "Internet News"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:55.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1900,
+                "industry_id": 6,
+                "name": "Internet",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2324,
+            "sub_industry_id": 270,
+            "item_id": 270,
+            "name": "Interurban & Rural Bus Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2324,
+                "name": "Interurban & Rural Bus Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:33.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1954,
+                "industry_id": 60,
+                "name": "Transportation/Trucking/Railroad",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2310,
+            "sub_industry_id": 256,
+            "item_id": 256,
+            "name": "Investment Advice",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2310,
+                "name": "Investment Advice"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:27.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1951,
+                "industry_id": 57,
+                "name": "Investment Management",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2056,
+            "sub_industry_id": 2,
+            "item_id": 2,
+            "name": "IT Services and IT Consulting",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2056,
+                "name": "IT Services and IT Consulting"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:48.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1896,
+                "industry_id": 2,
+                "name": "Information Technology & Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2057,
+            "sub_industry_id": 3,
+            "item_id": 3,
+            "name": "IT System Custom Software Development",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2057,
+                "name": "IT System Custom Software Development"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:48.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1896,
+                "industry_id": 2,
+                "name": "Information Technology & Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2058,
+            "sub_industry_id": 4,
+            "item_id": 4,
+            "name": "IT System Data Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2058,
+                "name": "IT System Data Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:48.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1896,
+                "industry_id": 2,
+                "name": "Information Technology & Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2059,
+            "sub_industry_id": 5,
+            "item_id": 5,
+            "name": "IT System Design Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2059,
+                "name": "IT System Design Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:49.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1896,
+                "industry_id": 2,
+                "name": "Information Technology & Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2060,
+            "sub_industry_id": 6,
+            "item_id": 6,
+            "name": "IT System Installation & Disposal",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2060,
+                "name": "IT System Installation & Disposal"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:49.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1896,
+                "industry_id": 2,
+                "name": "Information Technology & Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2065,
+            "sub_industry_id": 11,
+            "item_id": 11,
+            "name": "IT System Operations & Maintenance",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2065,
+                "name": "IT System Operations & Maintenance"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:51.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1896,
+                "industry_id": 2,
+                "name": "Information Technology & Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2066,
+            "sub_industry_id": 12,
+            "item_id": 12,
+            "name": "IT System Testing & Evaluation",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2066,
+                "name": "IT System Testing & Evaluation"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:51.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1896,
+                "industry_id": 2,
+                "name": "Information Technology & Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2400,
+            "sub_industry_id": 346,
+            "item_id": 346,
+            "name": "IT System Testing and Evaluation",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2400,
+                "name": "IT System Testing and Evaluation"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:03.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2006,
+                "industry_id": 112,
+                "name": "QA Testing",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2067,
+            "sub_industry_id": 13,
+            "item_id": 13,
+            "name": "IT System Training & Support",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2067,
+                "name": "IT System Training & Support"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:51.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1896,
+                "industry_id": 2,
+                "name": "Information Technology & Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2409,
+            "sub_industry_id": 355,
+            "item_id": 355,
+            "name": "Janitorial Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2409,
+                "name": "Janitorial Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:07.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2038,
+                "industry_id": 140,
+                "name": "Facilities Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2347,
+            "sub_industry_id": 293,
+            "item_id": 293,
+            "name": "Judiciary",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2347,
+                "name": "Judiciary"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:39.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1967,
+                "industry_id": 73,
+                "name": "Administration of Justice",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2252,
+            "sub_industry_id": 198,
+            "item_id": 198,
+            "name": "Landscaping Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2252,
+                "name": "Landscaping Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:04.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1934,
+                "industry_id": 40,
+                "name": "Architecture, Landscape & Interior Design",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2296,
+            "sub_industry_id": 242,
+            "item_id": 242,
+            "name": "Language Schools",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2296,
+                "name": "Language Schools"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:22.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1947,
+                "industry_id": 53,
+                "name": "Education & Science",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2106,
+            "sub_industry_id": 52,
+            "item_id": 52,
+            "name": "Laundry & Drycleaning Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2106,
+                "name": "Laundry & Drycleaning Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:04.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1905,
+                "industry_id": 11,
+                "name": "Consumer Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2404,
+            "sub_industry_id": 350,
+            "item_id": 350,
+            "name": "Law Practice",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2404,
+                "name": "Law Practice"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:05.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2035,
+                "industry_id": 137,
+                "name": "Jurisprudence & Law",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2332,
+            "sub_industry_id": 278,
+            "item_id": 278,
+            "name": "Leasing Non-residential Real Estate",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2332,
+                "name": "Leasing Non-residential Real Estate"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:34.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1955,
+                "industry_id": 61,
+                "name": "Real Estate",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2333,
+            "sub_industry_id": 279,
+            "item_id": 279,
+            "name": "Leasing Residential Real Estate",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2333,
+                "name": "Leasing Residential Real Estate"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:35.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1955,
+                "industry_id": 61,
+                "name": "Real Estate",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2130,
+            "sub_industry_id": 76,
+            "item_id": 76,
+            "name": "Leather Product Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2130,
+                "name": "Leather Product Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:11.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1910,
+                "industry_id": 16,
+                "name": "Apparel & Fashion",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2365,
+            "sub_industry_id": 311,
+            "item_id": 311,
+            "name": "Lime & Gypsum Products Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2365,
+                "name": "Lime & Gypsum Products Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:46.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1974,
+                "industry_id": 80,
+                "name": "Glass, Ceramics & Concrete",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2172,
+            "sub_industry_id": 118,
+            "item_id": 118,
+            "name": "Loan Brokers",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2172,
+                "name": "Loan Brokers"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:28.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1918,
+                "industry_id": 24,
+                "name": "Finance",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2231,
+            "sub_industry_id": 177,
+            "item_id": 177,
+            "name": "Machinery Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2231,
+                "name": "Machinery Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:57.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1930,
+                "industry_id": 36,
+                "name": "Machinery",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2377,
+            "sub_industry_id": 323,
+            "item_id": 323,
+            "name": "Magnetic & Optical Media Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2377,
+                "name": "Magnetic & Optical Media Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:52.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1980,
+                "industry_id": 86,
+                "name": "Electronics",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2407,
+            "sub_industry_id": 353,
+            "item_id": 353,
+            "name": "Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2407,
+                "name": "Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:06.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2037,
+                "industry_id": 139,
+                "name": "Industrial Automation",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2336,
+            "sub_industry_id": 282,
+            "item_id": 282,
+            "name": "Maritime Transportation",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2336,
+                "name": "Maritime Transportation"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:36.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1956,
+                "industry_id": 62,
+                "name": "Maritime",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2070,
+            "sub_industry_id": 16,
+            "item_id": 16,
+            "name": "Market Research",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2070,
+                "name": "Market Research"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:52.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 27,
+                "industry_id": 1,
+                "name": "Marketing",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2069,
+            "sub_industry_id": 15,
+            "item_id": 15,
+            "name": "Marketing Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2069,
+                "name": "Marketing Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:52.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 27,
+                "industry_id": 1,
+                "name": "Marketing",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2315,
+            "sub_industry_id": 261,
+            "item_id": 261,
+            "name": "Mattress & Blinds Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2315,
+                "name": "Mattress & Blinds Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:29.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1952,
+                "industry_id": 58,
+                "name": "Furniture",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2124,
+            "sub_industry_id": 70,
+            "item_id": 70,
+            "name": "Measuring & Control Instrument Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2124,
+                "name": "Measuring & Control Instrument Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:10.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1909,
+                "industry_id": 15,
+                "name": "Electrical & Electronic Manufacturing",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2257,
+            "sub_industry_id": 203,
+            "item_id": 203,
+            "name": "Meat Products Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2257,
+                "name": "Meat Products Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:07.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1936,
+                "industry_id": 42,
+                "name": "Food Production",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2398,
+            "sub_industry_id": 344,
+            "item_id": 344,
+            "name": "Mechanical Or Industrial Engineering",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2398,
+                "name": "Mechanical Or Industrial Engineering"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:01.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2004,
+                "industry_id": 110,
+                "name": "Computer Science & Engineering",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2284,
+            "sub_industry_id": 230,
+            "item_id": 230,
+            "name": "Media & Telecommunications",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2284,
+                "name": "Media & Telecommunications"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:18.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1942,
+                "industry_id": 48,
+                "name": "Telecommunications",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2132,
+            "sub_industry_id": 78,
+            "item_id": 78,
+            "name": "Medical & Diagnostic Laboratories",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2132,
+                "name": "Medical & Diagnostic Laboratories"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:12.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1911,
+                "industry_id": 17,
+                "name": "Healthcare",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2138,
+            "sub_industry_id": 84,
+            "item_id": 84,
+            "name": "Medical Equipment Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2138,
+                "name": "Medical Equipment Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:15.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1911,
+                "industry_id": 17,
+                "name": "Healthcare",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2429,
+            "sub_industry_id": 375,
+            "item_id": 375,
+            "name": "Medical Practices",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2429,
+                "name": "Medical Practices"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:15.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2055,
+                "industry_id": 157,
+                "name": "Medical Practice",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2214,
+            "sub_industry_id": 160,
+            "item_id": 160,
+            "name": "Metal Ore Mining",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2214,
+                "name": "Metal Ore Mining"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:49.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1927,
+                "industry_id": 33,
+                "name": "Mining & Metals",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2232,
+            "sub_industry_id": 178,
+            "item_id": 178,
+            "name": "Metal Treatments",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2232,
+                "name": "Metal Treatments"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:57.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1930,
+                "industry_id": 36,
+                "name": "Machinery",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2233,
+            "sub_industry_id": 179,
+            "item_id": 179,
+            "name": "Metal Valve, Ball, & Roller Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2233,
+                "name": "Metal Valve, Ball, & Roller Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:58.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1930,
+                "industry_id": 36,
+                "name": "Machinery",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2234,
+            "sub_industry_id": 180,
+            "item_id": 180,
+            "name": "Metalworking Machinery Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2234,
+                "name": "Metalworking Machinery Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:58.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1930,
+                "industry_id": 36,
+                "name": "Machinery",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2421,
+            "sub_industry_id": 367,
+            "item_id": 367,
+            "name": "Military and International Affairs",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2421,
+                "name": "Military and International Affairs"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:12.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2048,
+                "industry_id": 150,
+                "name": "Military",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2215,
+            "sub_industry_id": 161,
+            "item_id": 161,
+            "name": "Mining",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2215,
+                "name": "Mining"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:50.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1927,
+                "industry_id": 33,
+                "name": "Mining & Metals",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2073,
+            "sub_industry_id": 19,
+            "item_id": 19,
+            "name": "Mobile Computing Software Products",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2073,
+                "name": "Mobile Computing Software Products"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:53.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1898,
+                "industry_id": 4,
+                "name": "Computer Software",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2337,
+            "sub_industry_id": 283,
+            "item_id": 283,
+            "name": "Mobile Food Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2337,
+                "name": "Mobile Food Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:36.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1958,
+                "industry_id": 64,
+                "name": "Restaurants",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2338,
+            "sub_industry_id": 284,
+            "item_id": 284,
+            "name": "Mobile Gaming Apps",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2338,
+                "name": "Mobile Gaming Apps"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:36.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1959,
+                "industry_id": 65,
+                "name": "Mobile Games",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2339,
+            "sub_industry_id": 285,
+            "item_id": 285,
+            "name": "Motor Vehicle Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2339,
+                "name": "Motor Vehicle Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:37.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1960,
+                "industry_id": 66,
+                "name": "Automotive",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2340,
+            "sub_industry_id": 286,
+            "item_id": 286,
+            "name": "Motor Vehicle Parts Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2340,
+                "name": "Motor Vehicle Parts Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:37.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1960,
+                "industry_id": 66,
+                "name": "Automotive",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2381,
+            "sub_industry_id": 327,
+            "item_id": 327,
+            "name": "Movies & Sound Recording",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2381,
+                "name": "Movies & Sound Recording"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:54.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1986,
+                "industry_id": 92,
+                "name": "Movies & Motion Pictures",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2176,
+            "sub_industry_id": 122,
+            "item_id": 122,
+            "name": "Movies, Videos, & Sound",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2176,
+                "name": "Movies, Videos, & Sound"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:34.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1920,
+                "industry_id": 26,
+                "name": "Media Production",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2424,
+            "sub_industry_id": 370,
+            "item_id": 370,
+            "name": "Museums, Historical Sites, & Zoos",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2424,
+                "name": "Museums, Historical Sites, & Zoos"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:13.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2049,
+                "industry_id": 151,
+                "name": "Museums",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2361,
+            "sub_industry_id": 307,
+            "item_id": 307,
+            "name": "Musicians",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2361,
+                "name": "Musicians"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:45.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1973,
+                "industry_id": 79,
+                "name": "Performing Arts",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2162,
+            "sub_industry_id": 108,
+            "item_id": 108,
+            "name": "Nanotechnology Research",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2162,
+                "name": "Nanotechnology Research"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:24.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1915,
+                "industry_id": 21,
+                "name": "Research",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2187,
+            "sub_industry_id": 133,
+            "item_id": 133,
+            "name": "Natural Gas Distribution",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2187,
+                "name": "Natural Gas Distribution"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:38.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1922,
+                "industry_id": 28,
+                "name": "Oil, Gas & Energy",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2188,
+            "sub_industry_id": 134,
+            "item_id": 134,
+            "name": "Natural Gas Extraction",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2188,
+                "name": "Natural Gas Extraction"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:39.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1922,
+                "industry_id": 28,
+                "name": "Oil, Gas & Energy",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2382,
+            "sub_industry_id": 328,
+            "item_id": 328,
+            "name": "Newspaper Publishing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2382,
+                "name": "Newspaper Publishing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:54.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1987,
+                "industry_id": 93,
+                "name": "Newspapers",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2083,
+            "sub_industry_id": 29,
+            "item_id": 29,
+            "name": "Non-profit Organizations",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2083,
+                "name": "Non-profit Organizations"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:58.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1902,
+                "industry_id": 8,
+                "name": "Non-profit Organizational Management",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2216,
+            "sub_industry_id": 162,
+            "item_id": 162,
+            "name": "Nonmetallic Mineral Mining",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2216,
+                "name": "Nonmetallic Mineral Mining"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:51.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1927,
+                "industry_id": 33,
+                "name": "Mining & Metals",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2272,
+            "sub_industry_id": 218,
+            "item_id": 218,
+            "name": "Nonresidential Building Construction",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2272,
+                "name": "Nonresidential Building Construction"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:13.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1939,
+                "industry_id": 45,
+                "name": "Construction",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2189,
+            "sub_industry_id": 135,
+            "item_id": 135,
+            "name": "Nuclear Electric Power Generation",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2189,
+                "name": "Nuclear Electric Power Generation"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:39.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1922,
+                "industry_id": 28,
+                "name": "Oil, Gas & Energy",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2135,
+            "sub_industry_id": 81,
+            "item_id": 81,
+            "name": "Nursing Homes & Residential Care Facilities",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2135,
+                "name": "Nursing Homes & Residential Care Facilities"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:13.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1911,
+                "industry_id": 17,
+                "name": "Healthcare",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2307,
+            "sub_industry_id": 253,
+            "item_id": 253,
+            "name": "Office Administration",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2307,
+                "name": "Office Administration"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:26.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1950,
+                "industry_id": 56,
+                "name": "Executive Office",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2163,
+            "sub_industry_id": 109,
+            "item_id": 109,
+            "name": "Office Furniture & Fixtures Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2163,
+                "name": "Office Furniture & Fixtures Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:24.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1916,
+                "industry_id": 22,
+                "name": "Business Supplies & Equipment",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2190,
+            "sub_industry_id": 136,
+            "item_id": 136,
+            "name": "Oil & Coal Product Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2190,
+                "name": "Oil & Coal Product Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:40.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1922,
+                "industry_id": 28,
+                "name": "Oil, Gas & Energy",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2181,
+            "sub_industry_id": 127,
+            "item_id": 127,
+            "name": "Oil and Gas",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2181,
+                "name": "Oil and Gas"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:36.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1922,
+                "industry_id": 28,
+                "name": "Oil, Gas & Energy",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2191,
+            "sub_industry_id": 137,
+            "item_id": 137,
+            "name": "Oil Extraction",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2191,
+                "name": "Oil Extraction"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:40.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1922,
+                "industry_id": 28,
+                "name": "Oil, Gas & Energy",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2192,
+            "sub_industry_id": 138,
+            "item_id": 138,
+            "name": "Oil, Gas, & Mining",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2192,
+                "name": "Oil, Gas, & Mining"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:41.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1922,
+                "industry_id": 28,
+                "name": "Oil, Gas & Energy",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2101,
+            "sub_industry_id": 47,
+            "item_id": 47,
+            "name": "Online & Mail Order Retail",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2101,
+                "name": "Online & Mail Order Retail"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:03.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1903,
+                "industry_id": 9,
+                "name": "Retail",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2115,
+            "sub_industry_id": 61,
+            "item_id": 61,
+            "name": "Online Audio & Video Media",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2115,
+                "name": "Online Audio & Video Media"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:07.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1907,
+                "industry_id": 13,
+                "name": "Online Media",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2104,
+            "sub_industry_id": 50,
+            "item_id": 50,
+            "name": "Operations Consulting",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2104,
+                "name": "Operations Consulting"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:04.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1904,
+                "industry_id": 10,
+                "name": "Management Consulting",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2349,
+            "sub_industry_id": 295,
+            "item_id": 295,
+            "name": "Optometrists",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2349,
+                "name": "Optometrists"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:41.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1968,
+                "industry_id": 74,
+                "name": "Medical Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2136,
+            "sub_industry_id": 82,
+            "item_id": 82,
+            "name": "Outpatient Care Centers",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2136,
+                "name": "Outpatient Care Centers"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:13.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1911,
+                "industry_id": 17,
+                "name": "Healthcare",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2383,
+            "sub_industry_id": 329,
+            "item_id": 329,
+            "name": "Outsourcing and Offshoring Consulting",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2383,
+                "name": "Outsourcing and Offshoring Consulting"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:55.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1988,
+                "industry_id": 94,
+                "name": "Outsourcing/Offshoring",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2384,
+            "sub_industry_id": 330,
+            "item_id": 330,
+            "name": "Packaging & Containers Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2384,
+                "name": "Packaging & Containers Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:55.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1989,
+                "industry_id": 95,
+                "name": "Packaging & Containers",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2210,
+            "sub_industry_id": 156,
+            "item_id": 156,
+            "name": "Paint, Coating, & Adhesive Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2210,
+                "name": "Paint, Coating, & Adhesive Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:48.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1926,
+                "industry_id": 32,
+                "name": "Chemicals",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2385,
+            "sub_industry_id": 331,
+            "item_id": 331,
+            "name": "Paper and Forest Product Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2385,
+                "name": "Paper and Forest Product Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:55.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1990,
+                "industry_id": 96,
+                "name": "Paper & Forest Products",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2311,
+            "sub_industry_id": 257,
+            "item_id": 257,
+            "name": "Pension Funds",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2311,
+                "name": "Pension Funds"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:27.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1951,
+                "industry_id": 57,
+                "name": "Investment Management",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2174,
+            "sub_industry_id": 120,
+            "item_id": 120,
+            "name": "Performing Arts & Spectator Sports",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2174,
+                "name": "Performing Arts & Spectator Sports"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:29.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1919,
+                "industry_id": 25,
+                "name": "Entertainment",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2265,
+            "sub_industry_id": 211,
+            "item_id": 211,
+            "name": "Periodical Publishing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2265,
+                "name": "Periodical Publishing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:09.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1938,
+                "industry_id": 44,
+                "name": "Publishing",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2107,
+            "sub_industry_id": 53,
+            "item_id": 53,
+            "name": "Personal & Laundry Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2107,
+                "name": "Personal & Laundry Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:05.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1905,
+                "industry_id": 11,
+                "name": "Consumer Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2386,
+            "sub_industry_id": 332,
+            "item_id": 332,
+            "name": "Personal Care Product Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2386,
+                "name": "Personal Care Product Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:56.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1991,
+                "industry_id": 97,
+                "name": "Cosmetics",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2112,
+            "sub_industry_id": 58,
+            "item_id": 58,
+            "name": "Personal Care Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2112,
+                "name": "Personal Care Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:06.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1905,
+                "industry_id": 11,
+                "name": "Consumer Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2108,
+            "sub_industry_id": 54,
+            "item_id": 54,
+            "name": "Pet Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2108,
+                "name": "Pet Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:05.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1905,
+                "industry_id": 11,
+                "name": "Consumer Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2341,
+            "sub_industry_id": 287,
+            "item_id": 287,
+            "name": "Pharmaceutical Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2341,
+                "name": "Pharmaceutical Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:38.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1961,
+                "industry_id": 67,
+                "name": "Pharmaceuticals",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2396,
+            "sub_industry_id": 342,
+            "item_id": 342,
+            "name": "Philanthropic Fundraising Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2396,
+                "name": "Philanthropic Fundraising Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:00.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2002,
+                "industry_id": 108,
+                "name": "Philanthropy",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2118,
+            "sub_industry_id": 64,
+            "item_id": 64,
+            "name": "Physical, Occupational & Speech Therapists",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2118,
+                "name": "Physical, Occupational & Speech Therapists"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:08.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1908,
+                "industry_id": 14,
+                "name": "Health, Wellness & Fitness",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2430,
+            "sub_industry_id": 376,
+            "item_id": 376,
+            "name": "Physicians",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2430,
+                "name": "Physicians"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:15.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2055,
+                "industry_id": 157,
+                "name": "Medical Practice",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2325,
+            "sub_industry_id": 271,
+            "item_id": 271,
+            "name": "Pipeline Transportation",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2325,
+                "name": "Pipeline Transportation"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:33.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1954,
+                "industry_id": 60,
+                "name": "Transportation/Trucking/Railroad",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2352,
+            "sub_industry_id": 298,
+            "item_id": 298,
+            "name": "Plastics & Rubber Product Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2352,
+                "name": "Plastics & Rubber Product Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:42.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1970,
+                "industry_id": 76,
+                "name": "Plastics",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2353,
+            "sub_industry_id": 299,
+            "item_id": 299,
+            "name": "Plastics Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2353,
+                "name": "Plastics Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:42.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1970,
+                "industry_id": 76,
+                "name": "Plastics",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2370,
+            "sub_industry_id": 316,
+            "item_id": 316,
+            "name": "Postal Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2370,
+                "name": "Postal Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:49.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1976,
+                "industry_id": 82,
+                "name": "Public Safety",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2387,
+            "sub_industry_id": 333,
+            "item_id": 333,
+            "name": "Primary & Secondary Education",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2387,
+                "name": "Primary & Secondary Education"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:56.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1992,
+                "industry_id": 98,
+                "name": "Primary/Secondary Education",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2217,
+            "sub_industry_id": 163,
+            "item_id": 163,
+            "name": "Primary Metal Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2217,
+                "name": "Primary Metal Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:51.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1927,
+                "industry_id": 33,
+                "name": "Mining & Metals",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2388,
+            "sub_industry_id": 334,
+            "item_id": 334,
+            "name": "Printing Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2388,
+                "name": "Printing Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:56.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1993,
+                "industry_id": 99,
+                "name": "Printing",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2084,
+            "sub_industry_id": 30,
+            "item_id": 30,
+            "name": "Professional Organizations",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2084,
+                "name": "Professional Organizations"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:58.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1902,
+                "industry_id": 8,
+                "name": "Non-profit Organizational Management",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2103,
+            "sub_industry_id": 49,
+            "item_id": 49,
+            "name": "Professional Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2103,
+                "name": "Professional Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:04.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1904,
+                "industry_id": 10,
+                "name": "Management Consulting",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2420,
+            "sub_industry_id": 366,
+            "item_id": 366,
+            "name": "Professional Training and Coaching",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2420,
+                "name": "Professional Training and Coaching"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:12.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2043,
+                "industry_id": 145,
+                "name": "Professional Training & Coaching",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2291,
+            "sub_industry_id": 237,
+            "item_id": 237,
+            "name": "Public Assistance Programs",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2291,
+                "name": "Public Assistance Programs"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:20.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1943,
+                "industry_id": 49,
+                "name": "Civic and Social Organizations",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2137,
+            "sub_industry_id": 83,
+            "item_id": 83,
+            "name": "Public Health",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2137,
+                "name": "Public Health"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:15.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1911,
+                "industry_id": 17,
+                "name": "Healthcare",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2427,
+            "sub_industry_id": 373,
+            "item_id": 373,
+            "name": "Public Policy Offices",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2427,
+                "name": "Public Policy Offices"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:14.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2052,
+                "industry_id": 154,
+                "name": "Public Policy Lansing",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2418,
+            "sub_industry_id": 364,
+            "item_id": 364,
+            "name": "Public Relations and Communications Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2418,
+                "name": "Public Relations and Communications Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:10.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2028,
+                "industry_id": 134,
+                "name": "Public Relations & Communications",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2198,
+            "sub_industry_id": 144,
+            "item_id": 144,
+            "name": "Racetracks",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2198,
+                "name": "Racetracks"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:43.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1923,
+                "industry_id": 29,
+                "name": "Gambling & Casinos",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2277,
+            "sub_industry_id": 223,
+            "item_id": 223,
+            "name": "Radio & Television Broadcasting",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2277,
+                "name": "Radio & Television Broadcasting"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:14.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1940,
+                "industry_id": 46,
+                "name": "Broadcast Media",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2326,
+            "sub_industry_id": 272,
+            "item_id": 272,
+            "name": "Rail Transportation",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2326,
+                "name": "Rail Transportation"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:33.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1954,
+                "industry_id": 60,
+                "name": "Transportation/Trucking/Railroad",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2428,
+            "sub_industry_id": 374,
+            "item_id": 374,
+            "name": "Railroad Equipment Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2428,
+                "name": "Railroad Equipment Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:15.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2054,
+                "industry_id": 156,
+                "name": "Railroad Manufacture",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2350,
+            "sub_industry_id": 296,
+            "item_id": 296,
+            "name": "Ranching & Fisheries",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2350,
+                "name": "Ranching & Fisheries"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:41.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1969,
+                "industry_id": 75,
+                "name": "Ranching",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2334,
+            "sub_industry_id": 280,
+            "item_id": 280,
+            "name": "Real Estate and Equipment Rental Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2334,
+                "name": "Real Estate and Equipment Rental Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:35.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1955,
+                "industry_id": 61,
+                "name": "Real Estate",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2317,
+            "sub_industry_id": 263,
+            "item_id": 263,
+            "name": "Recreational Facilities",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2317,
+                "name": "Recreational Facilities"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:30.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1953,
+                "industry_id": 59,
+                "name": "Sports",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2402,
+            "sub_industry_id": 348,
+            "item_id": 348,
+            "name": "Renewable Energy Semiconductor Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2402,
+                "name": "Renewable Energy Semiconductor Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:04.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2012,
+                "industry_id": 118,
+                "name": "Semiconductors",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2109,
+            "sub_industry_id": 55,
+            "item_id": 55,
+            "name": "Repair & Maintenance",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2109,
+                "name": "Repair & Maintenance"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:05.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1905,
+                "industry_id": 11,
+                "name": "Consumer Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2161,
+            "sub_industry_id": 107,
+            "item_id": 107,
+            "name": "Research Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2161,
+                "name": "Research Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:24.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1915,
+                "industry_id": 21,
+                "name": "Research",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2273,
+            "sub_industry_id": 219,
+            "item_id": 219,
+            "name": "Residential Building Construction",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2273,
+                "name": "Residential Building Construction"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:13.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1939,
+                "industry_id": 45,
+                "name": "Construction",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2128,
+            "sub_industry_id": 74,
+            "item_id": 74,
+            "name": "Retail Apparel & Fashion",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2128,
+                "name": "Retail Apparel & Fashion"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:11.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1910,
+                "industry_id": 16,
+                "name": "Apparel & Fashion",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2085,
+            "sub_industry_id": 31,
+            "item_id": 31,
+            "name": "Retail Apparel and Fashion",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2085,
+                "name": "Retail Apparel and Fashion"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:58.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1903,
+                "industry_id": 9,
+                "name": "Retail",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2087,
+            "sub_industry_id": 33,
+            "item_id": 33,
+            "name": "Retail Appliances, Electrical, & Electronic Equipment",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2087,
+                "name": "Retail Appliances, Electrical, & Electronic Equipment"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:58.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1903,
+                "industry_id": 9,
+                "name": "Retail",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2088,
+            "sub_industry_id": 34,
+            "item_id": 34,
+            "name": "Retail Art Dealers",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2088,
+                "name": "Retail Art Dealers"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:58.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1903,
+                "industry_id": 9,
+                "name": "Retail",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2089,
+            "sub_industry_id": 35,
+            "item_id": 35,
+            "name": "Retail Art Supplies",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2089,
+                "name": "Retail Art Supplies"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:59.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1903,
+                "industry_id": 9,
+                "name": "Retail",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2090,
+            "sub_industry_id": 36,
+            "item_id": 36,
+            "name": "Retail Books & Printed News",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2090,
+                "name": "Retail Books & Printed News"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:59.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1903,
+                "industry_id": 9,
+                "name": "Retail",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2091,
+            "sub_industry_id": 37,
+            "item_id": 37,
+            "name": "Retail Building Materials & Garden Equipment",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2091,
+                "name": "Retail Building Materials & Garden Equipment"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:00.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1903,
+                "industry_id": 9,
+                "name": "Retail",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2092,
+            "sub_industry_id": 38,
+            "item_id": 38,
+            "name": "Retail Florists",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2092,
+                "name": "Retail Florists"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:01.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1903,
+                "industry_id": 9,
+                "name": "Retail",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2100,
+            "sub_industry_id": 46,
+            "item_id": 46,
+            "name": "Retail Furniture & Home Furnishings",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2100,
+                "name": "Retail Furniture & Home Furnishings"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:03.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1903,
+                "industry_id": 9,
+                "name": "Retail",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2093,
+            "sub_industry_id": 39,
+            "item_id": 39,
+            "name": "Retail Gasoline",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2093,
+                "name": "Retail Gasoline"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:01.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1903,
+                "industry_id": 9,
+                "name": "Retail",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2389,
+            "sub_industry_id": 335,
+            "item_id": 335,
+            "name": "Retail Groceries",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2389,
+                "name": "Retail Groceries"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:57.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1994,
+                "industry_id": 100,
+                "name": "Supermarkets",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2095,
+            "sub_industry_id": 41,
+            "item_id": 41,
+            "name": "Retail Health & Personal Care Products",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2095,
+                "name": "Retail Health & Personal Care Products"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:02.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1903,
+                "industry_id": 9,
+                "name": "Retail",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2413,
+            "sub_industry_id": 359,
+            "item_id": 359,
+            "name": "Retail Luxury Goods and Jewelry",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2413,
+                "name": "Retail Luxury Goods and Jewelry"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:08.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2022,
+                "industry_id": 128,
+                "name": "Jewelry",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2096,
+            "sub_industry_id": 42,
+            "item_id": 42,
+            "name": "Retail Motor Vehicles",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2096,
+                "name": "Retail Motor Vehicles"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:02.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1903,
+                "industry_id": 9,
+                "name": "Retail",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2094,
+            "sub_industry_id": 40,
+            "item_id": 40,
+            "name": "Retail Musical Instruments",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2094,
+                "name": "Retail Musical Instruments"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:01.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1903,
+                "industry_id": 9,
+                "name": "Retail",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2097,
+            "sub_industry_id": 43,
+            "item_id": 43,
+            "name": "Retail Office Equipment",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2097,
+                "name": "Retail Office Equipment"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:02.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1903,
+                "industry_id": 9,
+                "name": "Retail",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2098,
+            "sub_industry_id": 44,
+            "item_id": 44,
+            "name": "Retail Office Supplies & Gifts",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2098,
+                "name": "Retail Office Supplies & Gifts"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:03.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1903,
+                "industry_id": 9,
+                "name": "Retail",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2099,
+            "sub_industry_id": 45,
+            "item_id": 45,
+            "name": "Retail Recyclable Materials & Used Merchandise",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2099,
+                "name": "Retail Recyclable Materials & Used Merchandise"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:03.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1903,
+                "industry_id": 9,
+                "name": "Retail",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2110,
+            "sub_industry_id": 56,
+            "item_id": 56,
+            "name": "Reupholstery & Furniture Repair",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2110,
+                "name": "Reupholstery & Furniture Repair"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:06.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1905,
+                "industry_id": 11,
+                "name": "Consumer Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2354,
+            "sub_industry_id": 300,
+            "item_id": 300,
+            "name": "Rubber Products Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2354,
+                "name": "Rubber Products Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:43.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1970,
+                "industry_id": 76,
+                "name": "Plastics",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2285,
+            "sub_industry_id": 231,
+            "item_id": 231,
+            "name": "Satellite Telecommunications",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2285,
+                "name": "Satellite Telecommunications"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:18.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1942,
+                "industry_id": 48,
+                "name": "Telecommunications",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2171,
+            "sub_industry_id": 117,
+            "item_id": 117,
+            "name": "Savings Institutions",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2171,
+                "name": "Savings Institutions"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:28.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1918,
+                "industry_id": 24,
+                "name": "Finance",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2323,
+            "sub_industry_id": 269,
+            "item_id": 269,
+            "name": "School & Employee Bus Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2323,
+                "name": "School & Employee Bus Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:32.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1954,
+                "industry_id": 60,
+                "name": "Transportation/Trucking/Railroad",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2258,
+            "sub_industry_id": 204,
+            "item_id": 204,
+            "name": "Seafood Product Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2258,
+                "name": "Seafood Product Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:07.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1936,
+                "industry_id": 42,
+                "name": "Food Production",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2297,
+            "sub_industry_id": 243,
+            "item_id": 243,
+            "name": "Secretarial Schools",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2297,
+                "name": "Secretarial Schools"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:22.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1947,
+                "industry_id": 53,
+                "name": "Education & Science",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2312,
+            "sub_industry_id": 258,
+            "item_id": 258,
+            "name": "Securities & Commodity Exchanges",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2312,
+                "name": "Securities & Commodity Exchanges"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:28.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1951,
+                "industry_id": 57,
+                "name": "Investment Management",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2342,
+            "sub_industry_id": 288,
+            "item_id": 288,
+            "name": "Security & Investigations",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2342,
+                "name": "Security & Investigations"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:38.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1962,
+                "industry_id": 68,
+                "name": "Security And Investigations",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2343,
+            "sub_industry_id": 289,
+            "item_id": 289,
+            "name": "Security Guards & Patrol Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2343,
+                "name": "Security Guards & Patrol Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:38.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1962,
+                "industry_id": 68,
+                "name": "Security And Investigations",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2344,
+            "sub_industry_id": 290,
+            "item_id": 290,
+            "name": "Security Systems Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2344,
+                "name": "Security Systems Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:38.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1962,
+                "industry_id": 68,
+                "name": "Security And Investigations",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2401,
+            "sub_industry_id": 347,
+            "item_id": 347,
+            "name": "Semiconductor Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2401,
+                "name": "Semiconductor Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:04.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2012,
+                "industry_id": 118,
+                "name": "Semiconductors",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2182,
+            "sub_industry_id": 128,
+            "item_id": 128,
+            "name": "Services for Renewable Energy",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2182,
+                "name": "Services for Renewable Energy"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:37.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1922,
+                "industry_id": 28,
+                "name": "Oil, Gas & Energy",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2357,
+            "sub_industry_id": 303,
+            "item_id": 303,
+            "name": "Services for the Elderly & Disabled",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2357,
+                "name": "Services for the Elderly & Disabled"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:44.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1972,
+                "industry_id": 78,
+                "name": "Individual & Family Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2266,
+            "sub_industry_id": 212,
+            "item_id": 212,
+            "name": "Sheet Music Publishing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2266,
+                "name": "Sheet Music Publishing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:10.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1938,
+                "industry_id": 44,
+                "name": "Publishing",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2327,
+            "sub_industry_id": 273,
+            "item_id": 273,
+            "name": "Shuttles & Special Needs Transportation Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2327,
+                "name": "Shuttles & Special Needs Transportation Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:33.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1954,
+                "industry_id": 60,
+                "name": "Transportation/Trucking/Railroad",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2221,
+            "sub_industry_id": 167,
+            "item_id": 167,
+            "name": "Sightseeing Transportation",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2221,
+                "name": "Sightseeing Transportation"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:53.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1928,
+                "industry_id": 34,
+                "name": "Hospitality",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2318,
+            "sub_industry_id": 264,
+            "item_id": 264,
+            "name": "Skiing Facilities",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2318,
+                "name": "Skiing Facilities"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:31.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1953,
+                "industry_id": 59,
+                "name": "Sports",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2208,
+            "sub_industry_id": 154,
+            "item_id": 154,
+            "name": "Soap & Cleaning Product Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2208,
+                "name": "Soap & Cleaning Product Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:47.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1926,
+                "industry_id": 32,
+                "name": "Chemicals",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 28,
+            "sub_industry_id": 1,
+            "item_id": 1,
+            "name": "Social Media",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 28,
+                "name": "Social Media"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2024-09-10T13:17:00.000000Z",
+            "created_by": {
+                "id": 2,
+                "name": "Ezheleva Ekaterina",
+                "image": "https://api.crm-s.com/images/users/1737624069.jpg"
+            },
+            "industry": null,
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2397,
+            "sub_industry_id": 343,
+            "item_id": 343,
+            "name": "Social Networking Platforms",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2397,
+                "name": "Social Networking Platforms"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:01.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2003,
+                "industry_id": 109,
+                "name": "Social media management",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2074,
+            "sub_industry_id": 20,
+            "item_id": 20,
+            "name": "Software Development",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2074,
+                "name": "Software Development"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:54.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1898,
+                "industry_id": 4,
+                "name": "Computer Software",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2193,
+            "sub_industry_id": 139,
+            "item_id": 139,
+            "name": "Solar Electric Power Generation",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2193,
+                "name": "Solar Electric Power Generation"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:41.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1922,
+                "industry_id": 28,
+                "name": "Oil, Gas & Energy",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2177,
+            "sub_industry_id": 123,
+            "item_id": 123,
+            "name": "Sound Recording",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2177,
+                "name": "Sound Recording"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:34.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1920,
+                "industry_id": 26,
+                "name": "Media Production",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2298,
+            "sub_industry_id": 244,
+            "item_id": 244,
+            "name": "Space Research & Technology",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2298,
+                "name": "Space Research & Technology"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:22.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1947,
+                "industry_id": 53,
+                "name": "Education & Science",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2274,
+            "sub_industry_id": 220,
+            "item_id": 220,
+            "name": "Specialty Trade Contractors",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2274,
+                "name": "Specialty Trade Contractors"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:13.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1939,
+                "industry_id": 45,
+                "name": "Construction",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2319,
+            "sub_industry_id": 265,
+            "item_id": 265,
+            "name": "Spectator Sports",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2319,
+                "name": "Spectator Sports"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:31.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1953,
+                "industry_id": 59,
+                "name": "Sports",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2390,
+            "sub_industry_id": 336,
+            "item_id": 336,
+            "name": "Sporting Goods Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2390,
+                "name": "Sporting Goods Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:57.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1995,
+                "industry_id": 101,
+                "name": "Sporting Goods",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2320,
+            "sub_industry_id": 266,
+            "item_id": 266,
+            "name": "Sports & Recreation Instruction",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2320,
+                "name": "Sports & Recreation Instruction"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:31.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1953,
+                "industry_id": 59,
+                "name": "Sports",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2321,
+            "sub_industry_id": 267,
+            "item_id": 267,
+            "name": "Sports Teams and Clubs",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2321,
+                "name": "Sports Teams and Clubs"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:32.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1953,
+                "industry_id": 59,
+                "name": "Sports",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2235,
+            "sub_industry_id": 181,
+            "item_id": 181,
+            "name": "Spring & Wire Product Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2235,
+                "name": "Spring & Wire Product Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:58.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1930,
+                "industry_id": 36,
+                "name": "Machinery",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2301,
+            "sub_industry_id": 247,
+            "item_id": 247,
+            "name": "Steam & Air-Conditioning Supply",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2301,
+                "name": "Steam & Air-Conditioning Supply"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:24.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1949,
+                "industry_id": 55,
+                "name": "Utilities",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2102,
+            "sub_industry_id": 48,
+            "item_id": 48,
+            "name": "Strategic Management Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2102,
+                "name": "Strategic Management Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:03.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1904,
+                "industry_id": 10,
+                "name": "Management Consulting",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2335,
+            "sub_industry_id": 281,
+            "item_id": 281,
+            "name": "Subdivision of Land",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2335,
+                "name": "Subdivision of Land"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:35.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1955,
+                "industry_id": 61,
+                "name": "Real Estate",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2259,
+            "sub_industry_id": 205,
+            "item_id": 205,
+            "name": "Sugar & Confectionery Product Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2259,
+                "name": "Sugar & Confectionery Product Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:07.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1936,
+                "industry_id": 42,
+                "name": "Food Production",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2328,
+            "sub_industry_id": 274,
+            "item_id": 274,
+            "name": "Taxi & Limousine Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2328,
+                "name": "Taxi & Limousine Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:33.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1954,
+                "industry_id": 60,
+                "name": "Transportation/Trucking/Railroad",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2114,
+            "sub_industry_id": 60,
+            "item_id": 60,
+            "name": "Technical & Vocational Training",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2114,
+                "name": "Technical & Vocational Training"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:07.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1906,
+                "industry_id": 12,
+                "name": "Training & Consulting",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2063,
+            "sub_industry_id": 9,
+            "item_id": 9,
+            "name": "Technology, Information and Internet",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2063,
+                "name": "Technology, Information and Internet"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:50.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1896,
+                "industry_id": 2,
+                "name": "Information Technology & Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2064,
+            "sub_industry_id": 10,
+            "item_id": 10,
+            "name": "Technology, Information and Media",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2064,
+                "name": "Technology, Information and Media"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:50.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1896,
+                "industry_id": 2,
+                "name": "Information Technology & Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2286,
+            "sub_industry_id": 232,
+            "item_id": 232,
+            "name": "Telecommunications Carriers",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2286,
+                "name": "Telecommunications Carriers"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:18.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1942,
+                "industry_id": 48,
+                "name": "Telecommunications",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2205,
+            "sub_industry_id": 151,
+            "item_id": 151,
+            "name": "Telephone Call Centers",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2205,
+                "name": "Telephone Call Centers"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:46.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1925,
+                "industry_id": 31,
+                "name": "Business",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2075,
+            "sub_industry_id": 21,
+            "item_id": 21,
+            "name": "Temporary Help Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2075,
+                "name": "Temporary Help Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:32:54.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1899,
+                "industry_id": 5,
+                "name": "Staffing and Recruiting",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2403,
+            "sub_industry_id": 349,
+            "item_id": 349,
+            "name": "Textile Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2403,
+                "name": "Textile Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:05.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2034,
+                "industry_id": 136,
+                "name": "Textiles",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2175,
+            "sub_industry_id": 121,
+            "item_id": 121,
+            "name": "Theater Companies",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2175,
+                "name": "Theater Companies"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:29.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1919,
+                "industry_id": 25,
+                "name": "Entertainment",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2391,
+            "sub_industry_id": 337,
+            "item_id": 337,
+            "name": "Tobacco Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2391,
+                "name": "Tobacco Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:58.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1996,
+                "industry_id": 102,
+                "name": "Tobacco",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2236,
+            "sub_industry_id": 182,
+            "item_id": 182,
+            "name": "Transportation Equipment Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2236,
+                "name": "Transportation Equipment Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:59.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1930,
+                "industry_id": 36,
+                "name": "Machinery",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2329,
+            "sub_industry_id": 275,
+            "item_id": 275,
+            "name": "Transportation Programs",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2329,
+                "name": "Transportation Programs"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:34.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1954,
+                "industry_id": 60,
+                "name": "Transportation/Trucking/Railroad",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2139,
+            "sub_industry_id": 85,
+            "item_id": 85,
+            "name": "Transportation, Logistics, Supply Chain and Storage",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2139,
+                "name": "Transportation, Logistics, Supply Chain and Storage"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:15.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1912,
+                "industry_id": 18,
+                "name": "Logistics & Supply Chain",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2222,
+            "sub_industry_id": 168,
+            "item_id": 168,
+            "name": "Travel Arrangements",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2222,
+                "name": "Travel Arrangements"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:53.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1928,
+                "industry_id": 34,
+                "name": "Hospitality",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2330,
+            "sub_industry_id": 276,
+            "item_id": 276,
+            "name": "Truck Transportation",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2330,
+                "name": "Truck Transportation"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:34.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1954,
+                "industry_id": 60,
+                "name": "Transportation/Trucking/Railroad",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2244,
+            "sub_industry_id": 190,
+            "item_id": 190,
+            "name": "Trusts & Estates",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2244,
+                "name": "Trusts & Estates"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:01.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1932,
+                "industry_id": 38,
+                "name": "Legal Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2237,
+            "sub_industry_id": 183,
+            "item_id": 183,
+            "name": "Turned Products & Fastener Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2237,
+                "name": "Turned Products & Fastener Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:59.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1930,
+                "industry_id": 36,
+                "name": "Machinery",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2331,
+            "sub_industry_id": 277,
+            "item_id": 277,
+            "name": "Urban Transit Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2331,
+                "name": "Urban Transit Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:34.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1954,
+                "industry_id": 60,
+                "name": "Transportation/Trucking/Railroad",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2302,
+            "sub_industry_id": 248,
+            "item_id": 248,
+            "name": "Utilities",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2302,
+                "name": "Utilities"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:24.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1949,
+                "industry_id": 55,
+                "name": "Utilities",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2303,
+            "sub_industry_id": 249,
+            "item_id": 249,
+            "name": "Utilities Administration",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2303,
+                "name": "Utilities Administration"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:25.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1949,
+                "industry_id": 55,
+                "name": "Utilities",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2275,
+            "sub_industry_id": 221,
+            "item_id": 221,
+            "name": "Utility System Construction",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2275,
+                "name": "Utility System Construction"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:14.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1939,
+                "industry_id": 45,
+                "name": "Construction",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2111,
+            "sub_industry_id": 57,
+            "item_id": 57,
+            "name": "Vehicle Repair & Maintenance",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2111,
+                "name": "Vehicle Repair & Maintenance"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:06.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1905,
+                "industry_id": 11,
+                "name": "Consumer Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2345,
+            "sub_industry_id": 291,
+            "item_id": 291,
+            "name": "Venture Capital and Private Equity Principals",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2345,
+                "name": "Venture Capital and Private Equity Principals"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:39.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1965,
+                "industry_id": 71,
+                "name": "Venture Capital & Private Equity",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2392,
+            "sub_industry_id": 338,
+            "item_id": 338,
+            "name": "Veterinary Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2392,
+                "name": "Veterinary Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:59.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1997,
+                "industry_id": 103,
+                "name": "Veterinary",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2358,
+            "sub_industry_id": 304,
+            "item_id": 304,
+            "name": "Vocational Rehabilitation Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2358,
+                "name": "Vocational Rehabilitation Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:44.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1972,
+                "industry_id": 78,
+                "name": "Individual & Family Services",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2395,
+            "sub_industry_id": 341,
+            "item_id": 341,
+            "name": "Warehousing & Storage",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2395,
+                "name": "Warehousing & Storage"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:00.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2001,
+                "industry_id": 107,
+                "name": "Warehousing",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2412,
+            "sub_industry_id": 358,
+            "item_id": 358,
+            "name": "Waste Collection",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2412,
+                "name": "Waste Collection"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:08.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2021,
+                "industry_id": 127,
+                "name": "Ecology",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2242,
+            "sub_industry_id": 188,
+            "item_id": 188,
+            "name": "Waste Treatment & Disposal",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2242,
+                "name": "Waste Treatment & Disposal"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:01.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1931,
+                "industry_id": 37,
+                "name": "Environment",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2304,
+            "sub_industry_id": 250,
+            "item_id": 250,
+            "name": "Water Supply & Irrigation Systems",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2304,
+                "name": "Water Supply & Irrigation Systems"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:25.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1949,
+                "industry_id": 55,
+                "name": "Utilities",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2305,
+            "sub_industry_id": 251,
+            "item_id": 251,
+            "name": "Water, Waste, Steam, & Air Conditioning Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2305,
+                "name": "Water, Waste, Steam, & Air Conditioning Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:25.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1949,
+                "industry_id": 55,
+                "name": "Utilities",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2117,
+            "sub_industry_id": 63,
+            "item_id": 63,
+            "name": "Wellness and Fitness Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2117,
+                "name": "Wellness and Fitness Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:08.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1908,
+                "industry_id": 14,
+                "name": "Health, Wellness & Fitness",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2141,
+            "sub_industry_id": 87,
+            "item_id": 87,
+            "name": "Wholesale Alcoholic Beverages",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2141,
+                "name": "Wholesale Alcoholic Beverages"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:16.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1914,
+                "industry_id": 20,
+                "name": "Wholesale",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2142,
+            "sub_industry_id": 88,
+            "item_id": 88,
+            "name": "Wholesale Apparel & Sewing Supplies",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2142,
+                "name": "Wholesale Apparel & Sewing Supplies"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:16.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1914,
+                "industry_id": 20,
+                "name": "Wholesale",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2143,
+            "sub_industry_id": 89,
+            "item_id": 89,
+            "name": "Wholesale Appliances, Electrical, & Electronics",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2143,
+                "name": "Wholesale Appliances, Electrical, & Electronics"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:17.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1914,
+                "industry_id": 20,
+                "name": "Wholesale",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2144,
+            "sub_industry_id": 90,
+            "item_id": 90,
+            "name": "Wholesale Building Materials",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2144,
+                "name": "Wholesale Building Materials"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:17.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1914,
+                "industry_id": 20,
+                "name": "Wholesale",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2159,
+            "sub_industry_id": 105,
+            "item_id": 105,
+            "name": "Wholesale Chemical & Allied Products",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2159,
+                "name": "Wholesale Chemical & Allied Products"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:23.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1914,
+                "industry_id": 20,
+                "name": "Wholesale",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2145,
+            "sub_industry_id": 91,
+            "item_id": 91,
+            "name": "Wholesale Computer Equipment",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2145,
+                "name": "Wholesale Computer Equipment"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:17.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1914,
+                "industry_id": 20,
+                "name": "Wholesale",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2146,
+            "sub_industry_id": 92,
+            "item_id": 92,
+            "name": "Wholesale Drugs & Sundries",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2146,
+                "name": "Wholesale Drugs & Sundries"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:18.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1914,
+                "industry_id": 20,
+                "name": "Wholesale",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2158,
+            "sub_industry_id": 104,
+            "item_id": 104,
+            "name": "Wholesale Food & Beverage",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2158,
+                "name": "Wholesale Food & Beverage"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:23.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1914,
+                "industry_id": 20,
+                "name": "Wholesale",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2147,
+            "sub_industry_id": 93,
+            "item_id": 93,
+            "name": "Wholesale Footwear",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2147,
+                "name": "Wholesale Footwear"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:18.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1914,
+                "industry_id": 20,
+                "name": "Wholesale",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2148,
+            "sub_industry_id": 94,
+            "item_id": 94,
+            "name": "Wholesale Furniture & Home Furnishings",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2148,
+                "name": "Wholesale Furniture & Home Furnishings"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:19.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1914,
+                "industry_id": 20,
+                "name": "Wholesale",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2149,
+            "sub_industry_id": 95,
+            "item_id": 95,
+            "name": "Wholesale Hardware, Plumbing, Heating Equipment",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2149,
+                "name": "Wholesale Hardware, Plumbing, Heating Equipment"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:19.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1914,
+                "industry_id": 20,
+                "name": "Wholesale",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2393,
+            "sub_industry_id": 339,
+            "item_id": 339,
+            "name": "Wholesale Import & Export",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2393,
+                "name": "Wholesale Import & Export"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:59.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1998,
+                "industry_id": 104,
+                "name": "Import And Export",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2414,
+            "sub_industry_id": 360,
+            "item_id": 360,
+            "name": "Wholesale Luxury Goods and Jewelry",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2414,
+                "name": "Wholesale Luxury Goods and Jewelry"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:08.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2022,
+                "industry_id": 128,
+                "name": "Jewelry",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2150,
+            "sub_industry_id": 96,
+            "item_id": 96,
+            "name": "Wholesale Machinery",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2150,
+                "name": "Wholesale Machinery"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:20.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1914,
+                "industry_id": 20,
+                "name": "Wholesale",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2151,
+            "sub_industry_id": 97,
+            "item_id": 97,
+            "name": "Wholesale Metals & Minerals",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2151,
+                "name": "Wholesale Metals & Minerals"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:20.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1914,
+                "industry_id": 20,
+                "name": "Wholesale",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2152,
+            "sub_industry_id": 98,
+            "item_id": 98,
+            "name": "Wholesale Motor Vehicles & Parts",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2152,
+                "name": "Wholesale Motor Vehicles & Parts"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:21.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1914,
+                "industry_id": 20,
+                "name": "Wholesale",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2166,
+            "sub_industry_id": 112,
+            "item_id": 112,
+            "name": "Wholesale Office Supplies & Gifts",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2166,
+                "name": "Wholesale Office Supplies & Gifts"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:26.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1916,
+                "industry_id": 22,
+                "name": "Business Supplies & Equipment",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2153,
+            "sub_industry_id": 99,
+            "item_id": 99,
+            "name": "Wholesale Paper Products",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2153,
+                "name": "Wholesale Paper Products"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:21.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1914,
+                "industry_id": 20,
+                "name": "Wholesale",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2154,
+            "sub_industry_id": 100,
+            "item_id": 100,
+            "name": "Wholesale Petroleum & Petroleum Products",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2154,
+                "name": "Wholesale Petroleum & Petroleum Products"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:21.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1914,
+                "industry_id": 20,
+                "name": "Wholesale",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2155,
+            "sub_industry_id": 101,
+            "item_id": 101,
+            "name": "Wholesale Photography Equipment & Supplies",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2155,
+                "name": "Wholesale Photography Equipment & Supplies"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:22.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1914,
+                "industry_id": 20,
+                "name": "Wholesale",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2156,
+            "sub_industry_id": 102,
+            "item_id": 102,
+            "name": "Wholesale Raw Farm Products",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2156,
+                "name": "Wholesale Raw Farm Products"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:22.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1914,
+                "industry_id": 20,
+                "name": "Wholesale",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2157,
+            "sub_industry_id": 103,
+            "item_id": 103,
+            "name": "Wholesale Recyclable Materials",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2157,
+                "name": "Wholesale Recyclable Materials"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:22.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1914,
+                "industry_id": 20,
+                "name": "Wholesale",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2194,
+            "sub_industry_id": 140,
+            "item_id": 140,
+            "name": "Wind Electric Power Generation",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2194,
+                "name": "Wind Electric Power Generation"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:42.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1922,
+                "industry_id": 28,
+                "name": "Oil, Gas & Energy",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2374,
+            "sub_industry_id": 320,
+            "item_id": 320,
+            "name": "Wineries",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2374,
+                "name": "Wineries"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:50.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1979,
+                "industry_id": 85,
+                "name": "Wine And Spirits",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2394,
+            "sub_industry_id": 340,
+            "item_id": 340,
+            "name": "Wireless Services",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2394,
+                "name": "Wireless Services"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:59.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1999,
+                "industry_id": 105,
+                "name": "Wireless",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2131,
+            "sub_industry_id": 77,
+            "item_id": 77,
+            "name": "Women's Handbag Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2131,
+                "name": "Women's Handbag Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:33:12.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1910,
+                "industry_id": 16,
+                "name": "Apparel & Fashion",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2346,
+            "sub_industry_id": 292,
+            "item_id": 292,
+            "name": "Wood Product Manufacturing",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2346,
+                "name": "Wood Product Manufacturing"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:34:39.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 1966,
+                "industry_id": 72,
+                "name": "Wood & Forest Products",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        },
+        {
+            "id": 2425,
+            "sub_industry_id": 371,
+            "item_id": 371,
+            "name": "Zoos & Botanical Gardens",
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "library": {
+                "id": 2425,
+                "name": "Zoos & Botanical Gardens"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_at": "2025-01-10T08:35:14.000000Z",
+            "created_by": {
+                "id": 1,
+                "name": "Kizilova Olha",
+                "image": "https://api.crm-s.com/images/users/1730899391.png"
+            },
+            "industry": {
+                "id": 2049,
+                "industry_id": 151,
+                "name": "Museums",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\SubIndustry",
+            "count_edits": 0
+        }
+    ],
+    "entity_block_id": 87,
+    "count_edits": 0,
+    "fields": {
+        "name": "Name",
+        "entity_id": "Entity",
+        "created_at": "Created At",
+        "actions": "Actions",
+        "description": "Description",
+        "status_id": "Status",
+        "created_by": "Created By",
+        "translation_id": "Translation",
+        "library_id": "Library",
+        "priority_id": "Priority",
+        "industry": "Industry",
+        "image_icon": "Image Icon"
+    }
+}

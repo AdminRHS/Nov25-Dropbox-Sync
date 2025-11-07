@@ -1,0 +1,2053 @@
+﻿[
+    {
+        "id":  1367,
+        "company_id":  "1",
+        "project_company_id":  "1",
+        "name":  "Mykola Sukhar",
+        "link":  "https://www.linkedin.com/in/mykola-sukhar-a16903271/",
+        "connections":  "0",
+        "premium":  "0",
+        "linked_login":  "mykola.sukhar@gmail.com",
+        "linked_password":  "R86j5jC9jB",
+        "email_login":  "mykola.sukhar@gmail.com",
+        "email_password":  "R86j5jC9jB",
+        "passport_link":  null,
+        "mobile":  null,
+        "comments":  "Driver\u0027s license - только 1 стр",
+        "buy_date":  null,
+        "created_date":  "2023-04-18",
+        "banned_date":  null,
+        "sold_date":  null,
+        "agent_id":  null,
+        "status_id":  "3",
+        "country_id":  null,
+        "source_id":  "13",
+        "placement_id":  "1",
+        "user_id":  null,
+        "is_approved_manager":  "1",
+        "created_at":  "2023-04-18T07:47:30.000000Z",
+        "updated_at":  "2024-01-29T14:57:28.000000Z",
+        "status":  {
+                       "id":  3,
+                       "company_id":  "1",
+                       "name":  "Free",
+                       "created_at":  "2020-09-04T13:03:19.000000Z",
+                       "updated_at":  "2020-09-04T13:03:19.000000Z"
+                   },
+        "country":  null,
+        "source":  {
+                       "id":  13,
+                       "company_id":  "1",
+                       "type":  "linkedin"
+                   },
+        "agent":  null,
+        "user":  null,
+        "project_company":  {
+                                "id":  1,
+                                "company_id":  "1",
+                                "name":  "Remote Helpers",
+                                "website":  "https://www.rh-s.com/",
+                                "short_name":  "rh-s.com",
+                                "created_at":  null,
+                                "updated_at":  "2024-01-05T06:56:45.000000Z"
+                            },
+        "placement":  {
+                          "id":  1,
+                          "company_id":  "1",
+                          "name":  "LinkedIn",
+                          "category_id":  "2",
+                          "created_at":  "2020-10-26T13:09:46.000000Z",
+                          "updated_at":  "2024-01-05T07:05:34.000000Z"
+                      },
+        "documents":  [
+                          {
+                              "id":  247,
+                              "account_id":  "1367",
+                              "expiration_date":  "2022-01-21",
+                              "type_id":  "2",
+                              "created_at":  "2024-01-29T14:57:10.000000Z",
+                              "updated_at":  "2024-01-29T14:57:10.000000Z",
+                              "doc_type":  {
+                                               "id":  2,
+                                               "company_id":  "1",
+                                               "name":  "Driver\u0027s license"
+                                           },
+                              "links":  [
+                                            {
+                                                "id":  390,
+                                                "document_id":  "247",
+                                                "url":  "https://drive.google.com/file/d/1EAMLMOYjGZCKo4tKXHAl_2RWVYFJFlqn/view",
+                                                "created_at":  "2024-01-29T14:57:10.000000Z",
+                                                "updated_at":  "2024-01-29T14:57:10.000000Z"
+                                            },
+                                            {
+                                                "id":  391,
+                                                "document_id":  "247",
+                                                "url":  "https://drive.google.com/file/d/1EAMLMOYjGZCKo4tKXHAl_2RWVYFJFlqn/view",
+                                                "created_at":  "2024-01-29T14:57:10.000000Z",
+                                                "updated_at":  "2024-01-29T14:57:10.000000Z"
+                                            }
+                                        ]
+                          }
+                      ],
+        "account_changes":  [
+                                {
+                                    "id":  1337,
+                                    "account_id":  "1367",
+                                    "user_id":  "7784",
+                                    "value":  "Removed Employee Сухарь Николай Николаевич",
+                                    "created_at":  "2024-01-29T14:57:28.000000Z",
+                                    "updated_at":  "2024-01-29T14:57:28.000000Z",
+                                    "user":  null
+                                }
+                            ],
+        "country_histories":  [
+
+                              ],
+        "manager_histories":  [
+
+                              ],
+        "password_histories":  [
+
+                               ],
+        "premium_histories":  [
+
+                              ]
+    },
+    {
+        "id":  1368,
+        "company_id":  "1",
+        "project_company_id":  "1",
+        "name":  "Mariia Kosa",
+        "link":  "https://www.linkedin.com/in/mariia-kosa-23ab4a272/",
+        "connections":  null,
+        "premium":  "1",
+        "linked_login":  "marmariich03@gmail.com",
+        "linked_password":  "5Ap4t8D9Ch",
+        "email_login":  "marmariich03@gmail.com",
+        "email_password":  "5Ap4t8D9Ch",
+        "passport_link":  null,
+        "mobile":  null,
+        "comments":  "нет доступа \r\n\"42\" Откройте приложение \"Gmail\" на устройстве \"iPhone\".",
+        "buy_date":  null,
+        "created_date":  "2023-04-18",
+        "banned_date":  null,
+        "sold_date":  null,
+        "agent_id":  null,
+        "status_id":  "5",
+        "country_id":  "321",
+        "source_id":  "13",
+        "placement_id":  "1",
+        "user_id":  null,
+        "is_approved_manager":  "1",
+        "created_at":  "2023-04-18T14:18:55.000000Z",
+        "updated_at":  "2024-05-02T12:55:53.000000Z",
+        "status":  {
+                       "id":  5,
+                       "company_id":  "1",
+                       "name":  "Problematic",
+                       "created_at":  "2020-09-04T13:03:21.000000Z",
+                       "updated_at":  "2020-09-04T13:03:21.000000Z"
+                   },
+        "country":  {
+                        "id":  321,
+                        "name":  "Delaware, USA",
+                        "iso":  "",
+                        "iso3":  "",
+                        "iso_numeric":  "0",
+                        "nicename":  "",
+                        "numcode":  null,
+                        "phonecode":  "0"
+                    },
+        "source":  {
+                       "id":  13,
+                       "company_id":  "1",
+                       "type":  "linkedin"
+                   },
+        "agent":  null,
+        "user":  null,
+        "project_company":  {
+                                "id":  1,
+                                "company_id":  "1",
+                                "name":  "Remote Helpers",
+                                "website":  "https://www.rh-s.com/",
+                                "short_name":  "rh-s.com",
+                                "created_at":  null,
+                                "updated_at":  "2024-01-05T06:56:45.000000Z"
+                            },
+        "placement":  {
+                          "id":  1,
+                          "company_id":  "1",
+                          "name":  "LinkedIn",
+                          "category_id":  "2",
+                          "created_at":  "2020-10-26T13:09:46.000000Z",
+                          "updated_at":  "2024-01-05T07:05:34.000000Z"
+                      },
+        "documents":  [
+
+                      ],
+        "account_changes":  [
+                                {
+                                    "id":  3512,
+                                    "account_id":  "1368",
+                                    "user_id":  "5010",
+                                    "value":  "Added Approved by manager",
+                                    "created_at":  "2024-05-02T12:55:53.000000Z",
+                                    "updated_at":  "2024-05-02T12:55:53.000000Z",
+                                    "user":  null
+                                }
+                            ],
+        "country_histories":  [
+
+                              ],
+        "manager_histories":  [
+
+                              ],
+        "password_histories":  [
+
+                               ],
+        "premium_histories":  [
+
+                              ]
+    },
+    {
+        "id":  1369,
+        "company_id":  "1",
+        "project_company_id":  "1",
+        "name":  "Polina Sukhorukova",
+        "link":  "https://www.linkedin.com/in/polina-sukhorukova-904959272/",
+        "connections":  "675",
+        "premium":  "0",
+        "linked_login":  "sukhorukova.polya@gmail.com",
+        "linked_password":  "gMD6a46k9G",
+        "email_login":  "sukhorukova.polya@gmail.com",
+        "email_password":  "gMD6a46k9G",
+        "passport_link":  null,
+        "mobile":  null,
+        "comments":  null,
+        "buy_date":  null,
+        "created_date":  "2023-04-21",
+        "banned_date":  null,
+        "sold_date":  null,
+        "agent_id":  "1049",
+        "status_id":  "2",
+        "country_id":  "19",
+        "source_id":  "13",
+        "placement_id":  "1",
+        "user_id":  null,
+        "is_approved_manager":  "1",
+        "created_at":  "2023-04-21T10:40:58.000000Z",
+        "updated_at":  "2025-06-06T11:26:47.000000Z",
+        "status":  {
+                       "id":  2,
+                       "company_id":  "1",
+                       "name":  "Project",
+                       "created_at":  "2020-09-04T13:03:19.000000Z",
+                       "updated_at":  "2020-09-04T13:03:19.000000Z"
+                   },
+        "country":  {
+                        "id":  19,
+                        "name":  "Belgium",
+                        "iso":  "BE",
+                        "iso3":  "BE",
+                        "iso_numeric":  "0",
+                        "nicename":  "",
+                        "numcode":  null,
+                        "phonecode":  "0"
+                    },
+        "source":  {
+                       "id":  13,
+                       "company_id":  "1",
+                       "type":  "linkedin"
+                   },
+        "agent":  {
+                      "id":  1049,
+                      "company_id":  "1",
+                      "user_id":  "9039",
+                      "status":  "enabled",
+                      "added_by":  null,
+                      "last_updated_by":  null,
+                      "user":  {
+                                   "id":  9039,
+                                   "company_id":  "1",
+                                   "name":  "Каменская Алина Михайловна",
+                                   "email":  "kamenskaya10alya@gmail.com",
+                                   "image":  "362873c9b0fcf60d3c596cecab4e6756.jpg",
+                                   "mobile":  "380986281261",
+                                   "gender":  "female",
+                                   "locale":  "en",
+                                   "status":  "active",
+                                   "login":  "enable",
+                                   "onesignal_player_id":  null,
+                                   "created_at":  "2025-04-24T08:58:09+00:00",
+                                   "updated_at":  "2025-09-23T16:10:26+00:00",
+                                   "super_admin":  "0",
+                                   "email_verification_code":  null,
+                                   "social_token":  null,
+                                   "email_notifications":  "1",
+                                   "two_factor_recovery_codes":  null,
+                                   "two_factor_confirmed":  "0",
+                                   "two_factor_email_confirmed":  "0",
+                                   "salutation":  null,
+                                   "dark_theme":  "0",
+                                   "rtl":  "0",
+                                   "two_fa_verify_via":  null,
+                                   "two_factor_code":  null,
+                                   "two_factor_expires_at":  null,
+                                   "admin_approval":  "1",
+                                   "permission_sync":  "1",
+                                   "google_calendar_status":  "1",
+                                   "country_id":  null,
+                                   "authorize_id":  null,
+                                   "authorize_payment_id":  null,
+                                   "card_brand":  null,
+                                   "card_last_four":  null,
+                                   "last_login":  null,
+                                   "image_url":  "https://crm-s.com/user-uploads/avatar/362873c9b0fcf60d3c596cecab4e6756.jpg",
+                                   "modules":  [
+                                                   "clients",
+                                                   "employees",
+                                                   "projects",
+                                                   "attendance",
+                                                   "tasks",
+                                                   "estimates",
+                                                   "invoices",
+                                                   "payments",
+                                                   "timelogs",
+                                                   "tickets",
+                                                   "events",
+                                                   "messages",
+                                                   "notices",
+                                                   "leaves",
+                                                   "leads",
+                                                   "holidays",
+                                                   "products",
+                                                   "expenses",
+                                                   "contracts",
+                                                   "reports",
+                                                   "leadAccount",
+                                                   "leadAgent",
+                                                   "leadReports",
+                                                   "leadActivity",
+                                                   "hr",
+                                                   "salesAnalytic",
+                                                   "hrReports",
+                                                   "hrBonus",
+                                                   "accounting",
+                                                   "changeRole",
+                                                   "translation",
+                                                   "leadBonus",
+                                                   "salesBonus",
+                                                   "financeEmployees",
+                                                   "employeesVideoEditing",
+                                                   "employeesCorrespondence",
+                                                   "hrCorrespondence",
+                                                   "exchangeRate",
+                                                   "smmEmployees",
+                                                   "contentEmployees",
+                                                   "copywriterEmployees",
+                                                   "artistEmployees",
+                                                   "employeeAnalytics",
+                                                   "employeeDashboard",
+                                                   "presales",
+                                                   "communications",
+                                                   "ticket support",
+                                                   "library",
+                                                   "sms_template",
+                                                   "send_sms"
+                                               ]
+                               }
+                  },
+        "user":  null,
+        "project_company":  {
+                                "id":  1,
+                                "company_id":  "1",
+                                "name":  "Remote Helpers",
+                                "website":  "https://www.rh-s.com/",
+                                "short_name":  "rh-s.com",
+                                "created_at":  null,
+                                "updated_at":  "2024-01-05T06:56:45.000000Z"
+                            },
+        "placement":  {
+                          "id":  1,
+                          "company_id":  "1",
+                          "name":  "LinkedIn",
+                          "category_id":  "2",
+                          "created_at":  "2020-10-26T13:09:46.000000Z",
+                          "updated_at":  "2024-01-05T07:05:34.000000Z"
+                      },
+        "documents":  [
+                          {
+                              "id":  414,
+                              "account_id":  "1369",
+                              "expiration_date":  "2034-03-19",
+                              "type_id":  "1",
+                              "created_at":  "2024-03-19T13:35:44.000000Z",
+                              "updated_at":  "2024-03-19T13:35:44.000000Z",
+                              "doc_type":  {
+                                               "id":  1,
+                                               "company_id":  "1",
+                                               "name":  "Passport"
+                                           },
+                              "links":  [
+                                            {
+                                                "id":  645,
+                                                "document_id":  "414",
+                                                "url":  "https://drive.google.com/file/d/1usOenggsQ2wTEyLaADaT5EHAq1rtqFBD/view?usp=drive_link",
+                                                "created_at":  "2024-03-19T13:35:44.000000Z",
+                                                "updated_at":  "2024-03-19T13:35:44.000000Z"
+                                            }
+                                        ]
+                          }
+                      ],
+        "account_changes":  [
+                                {
+                                    "id":  5459,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Removed LG Manager Кузина Светлана Ивановна",
+                                    "created_at":  "2024-12-09T08:16:00.000000Z",
+                                    "updated_at":  "2024-12-09T08:16:00.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  5460,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Lead Account Status from LG to Change Password",
+                                    "created_at":  "2024-12-09T08:16:00.000000Z",
+                                    "updated_at":  "2024-12-09T08:16:00.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  5461,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Removed Employee Сухорукова Полина Дмитриевна",
+                                    "created_at":  "2024-12-09T08:16:00.000000Z",
+                                    "updated_at":  "2024-12-09T08:16:00.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  5503,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Account Pass from 8uyRn37V3S to 6Lc8p3y3CS",
+                                    "created_at":  "2024-12-11T10:41:06.000000Z",
+                                    "updated_at":  "2024-12-11T10:41:06.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  5504,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Email Password from 8uyRn37V3S to 6Lc8p3y3CS",
+                                    "created_at":  "2024-12-11T10:41:06.000000Z",
+                                    "updated_at":  "2024-12-11T10:41:06.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  5505,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Lead Account Status from Change Password to Free",
+                                    "created_at":  "2024-12-11T10:41:06.000000Z",
+                                    "updated_at":  "2024-12-11T10:41:06.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  5610,
+                                    "account_id":  "1369",
+                                    "user_id":  "8514",
+                                    "value":  "Added LG Manager Неклюдова Валерия Сергеевна",
+                                    "created_at":  "2024-12-26T15:07:28.000000Z",
+                                    "updated_at":  "2024-12-26T15:07:28.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  5611,
+                                    "account_id":  "1369",
+                                    "user_id":  "8514",
+                                    "value":  "Changed Lead Account Status from Free to LG",
+                                    "created_at":  "2024-12-26T15:07:28.000000Z",
+                                    "updated_at":  "2024-12-26T15:07:28.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  5612,
+                                    "account_id":  "1369",
+                                    "user_id":  "8514",
+                                    "value":  "Changed Lead Account Country from Israel to USA",
+                                    "created_at":  "2024-12-26T15:07:28.000000Z",
+                                    "updated_at":  "2024-12-26T15:07:28.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  5877,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Lead Account Status from LG to Change Password",
+                                    "created_at":  "2025-01-16T09:56:49.000000Z",
+                                    "updated_at":  "2025-01-16T09:56:49.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  5881,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Removed LG Manager Неклюдова Валерия Сергеевна",
+                                    "created_at":  "2025-01-20T15:49:44.000000Z",
+                                    "updated_at":  "2025-01-20T15:49:44.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  5882,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Account Pass from 6Lc8p3y3CS to U45gR3x4aS",
+                                    "created_at":  "2025-01-20T15:49:44.000000Z",
+                                    "updated_at":  "2025-01-20T15:49:44.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  5883,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Email Password from 6Lc8p3y3CS to U45gR3x4aS",
+                                    "created_at":  "2025-01-20T15:49:44.000000Z",
+                                    "updated_at":  "2025-01-20T15:49:44.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  5884,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Lead Account Status from Change Password to Free",
+                                    "created_at":  "2025-01-20T15:49:44.000000Z",
+                                    "updated_at":  "2025-01-20T15:49:44.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  6103,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Added LG Manager Уши Фейвор Дэн",
+                                    "created_at":  "2025-02-27T13:43:25.000000Z",
+                                    "updated_at":  "2025-02-27T13:43:25.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  6104,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Lead Account Status from Free to LG",
+                                    "created_at":  "2025-02-27T13:43:25.000000Z",
+                                    "updated_at":  "2025-02-27T13:43:25.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  6105,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Lead Account Country from USA to Belgium",
+                                    "created_at":  "2025-02-27T13:43:25.000000Z",
+                                    "updated_at":  "2025-02-27T13:43:25.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  6120,
+                                    "account_id":  "1369",
+                                    "user_id":  "8514",
+                                    "value":  "Changed Account Pass from U45gR3x4aS to uh26KpAjxP295A",
+                                    "created_at":  "2025-03-03T14:17:43.000000Z",
+                                    "updated_at":  "2025-03-03T14:17:43.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  6360,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Lead Account Status from LG to Change Password",
+                                    "created_at":  "2025-04-14T12:46:17.000000Z",
+                                    "updated_at":  "2025-04-14T12:46:17.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  6463,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Removed LG Manager Ushie Favour Dan",
+                                    "created_at":  "2025-05-05T06:47:07.000000Z",
+                                    "updated_at":  "2025-05-05T06:47:07.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  6464,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Account Pass from uh26KpAjxP295A to 2RY2em2b3A",
+                                    "created_at":  "2025-05-05T06:47:07.000000Z",
+                                    "updated_at":  "2025-05-05T06:47:07.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  6465,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Email Password from U45gR3x4aS to 2RY2em2b3A",
+                                    "created_at":  "2025-05-05T06:47:07.000000Z",
+                                    "updated_at":  "2025-05-05T06:47:07.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  6466,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Lead Account Status from Change Password to Free",
+                                    "created_at":  "2025-05-05T06:47:07.000000Z",
+                                    "updated_at":  "2025-05-05T06:47:07.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  6467,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Added Connections 595",
+                                    "created_at":  "2025-05-05T06:47:31.000000Z",
+                                    "updated_at":  "2025-05-05T06:47:31.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  6535,
+                                    "account_id":  "1369",
+                                    "user_id":  "8514",
+                                    "value":  "Added LG Manager Азубуйке Синтия",
+                                    "created_at":  "2025-05-12T08:35:58.000000Z",
+                                    "updated_at":  "2025-05-12T08:35:58.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  6536,
+                                    "account_id":  "1369",
+                                    "user_id":  "8514",
+                                    "value":  "Changed Lead Account Status from Free to LG",
+                                    "created_at":  "2025-05-12T08:35:58.000000Z",
+                                    "updated_at":  "2025-05-12T08:35:58.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  6671,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Lead Account Status from LG to Change Password",
+                                    "created_at":  "2025-06-04T13:41:32.000000Z",
+                                    "updated_at":  "2025-06-04T13:41:32.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  6696,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Removed LG Manager Azubuike Cynthia",
+                                    "created_at":  "2025-06-05T10:05:38.000000Z",
+                                    "updated_at":  "2025-06-05T10:05:38.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  6697,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Account Pass from 2RY2em2b3A to gMD6a46k9G",
+                                    "created_at":  "2025-06-05T10:05:38.000000Z",
+                                    "updated_at":  "2025-06-05T10:05:38.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  6698,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Email Password from 2RY2em2b3A to gMD6a46k9G",
+                                    "created_at":  "2025-06-05T10:05:38.000000Z",
+                                    "updated_at":  "2025-06-05T10:05:38.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  6699,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Connections from 595 to 675",
+                                    "created_at":  "2025-06-05T10:05:38.000000Z",
+                                    "updated_at":  "2025-06-05T10:05:38.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  6700,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Lead Account Status from Change Password to Free",
+                                    "created_at":  "2025-06-05T10:05:38.000000Z",
+                                    "updated_at":  "2025-06-05T10:05:38.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  6727,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Added LG Manager Каменская Алина Михайловна",
+                                    "created_at":  "2025-06-06T11:26:47.000000Z",
+                                    "updated_at":  "2025-06-06T11:26:47.000000Z",
+                                    "user":  null
+                                },
+                                {
+                                    "id":  6728,
+                                    "account_id":  "1369",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Lead Account Status from Free to Project",
+                                    "created_at":  "2025-06-06T11:26:47.000000Z",
+                                    "updated_at":  "2025-06-06T11:26:47.000000Z",
+                                    "user":  null
+                                }
+                            ],
+        "country_histories":  [
+                                  {
+                                      "id":  605,
+                                      "account_id":  "1369",
+                                      "country_id":  "240",
+                                      "start_date":  "2024-12-26T00:00:00.000000Z",
+                                      "end_date":  "2025-02-27T00:00:00.000000Z",
+                                      "created_at":  "2024-12-26T15:07:28.000000Z",
+                                      "updated_at":  "2025-02-27T13:43:25.000000Z",
+                                      "country":  {
+                                                      "id":  240,
+                                                      "name":  "USA",
+                                                      "iso":  "US",
+                                                      "iso3":  "",
+                                                      "iso_numeric":  "0",
+                                                      "nicename":  "",
+                                                      "numcode":  null,
+                                                      "phonecode":  "0"
+                                                  }
+                                  },
+                                  {
+                                      "id":  730,
+                                      "account_id":  "1369",
+                                      "country_id":  "19",
+                                      "start_date":  "2025-02-27T00:00:00.000000Z",
+                                      "end_date":  null,
+                                      "created_at":  "2025-02-27T13:43:25.000000Z",
+                                      "updated_at":  "2025-02-27T13:43:25.000000Z",
+                                      "country":  {
+                                                      "id":  19,
+                                                      "name":  "Belgium",
+                                                      "iso":  "BE",
+                                                      "iso3":  "BE",
+                                                      "iso_numeric":  "0",
+                                                      "nicename":  "",
+                                                      "numcode":  null,
+                                                      "phonecode":  "0"
+                                                  }
+                                  }
+                              ],
+        "manager_histories":  [
+                                  {
+                                      "id":  22,
+                                      "account_id":  "1369",
+                                      "agent_id":  "1",
+                                      "project_company_id":  "1",
+                                      "start_date":  "2023-11-03T00:00:00.000000Z",
+                                      "end_date":  "2024-12-26T00:00:00.000000Z",
+                                      "created_at":  null,
+                                      "updated_at":  null,
+                                      "agent":  {
+                                                    "id":  1,
+                                                    "company_id":  "1",
+                                                    "user_id":  "2",
+                                                    "status":  "enabled",
+                                                    "added_by":  null,
+                                                    "last_updated_by":  null,
+                                                    "user":  {
+                                                                 "id":  2,
+                                                                 "company_id":  "1",
+                                                                 "name":  "Niko Kar",
+                                                                 "email":  "niko@rh-s.com",
+                                                                 "image":  "174152dedefe669b5391c8bc063f2f02.jpg",
+                                                                 "mobile":  "380997101033",
+                                                                 "gender":  "male",
+                                                                 "locale":  "en",
+                                                                 "status":  "active",
+                                                                 "login":  "enable",
+                                                                 "onesignal_player_id":  null,
+                                                                 "created_at":  "2020-06-25T20:46:02+00:00",
+                                                                 "updated_at":  "2023-10-09T10:21:56+00:00",
+                                                                 "super_admin":  "0",
+                                                                 "email_verification_code":  null,
+                                                                 "social_token":  null,
+                                                                 "email_notifications":  "1",
+                                                                 "two_factor_recovery_codes":  null,
+                                                                 "two_factor_confirmed":  "0",
+                                                                 "two_factor_email_confirmed":  "0",
+                                                                 "salutation":  null,
+                                                                 "dark_theme":  "0",
+                                                                 "rtl":  "0",
+                                                                 "two_fa_verify_via":  null,
+                                                                 "two_factor_code":  null,
+                                                                 "two_factor_expires_at":  null,
+                                                                 "admin_approval":  "1",
+                                                                 "permission_sync":  "1",
+                                                                 "google_calendar_status":  "1",
+                                                                 "country_id":  null,
+                                                                 "authorize_id":  null,
+                                                                 "authorize_payment_id":  null,
+                                                                 "card_brand":  null,
+                                                                 "card_last_four":  null,
+                                                                 "last_login":  null,
+                                                                 "image_url":  "https://crm-s.com/user-uploads/avatar/174152dedefe669b5391c8bc063f2f02.jpg",
+                                                                 "modules":  [
+                                                                                 "clients",
+                                                                                 "employees",
+                                                                                 "projects",
+                                                                                 "attendance",
+                                                                                 "tasks",
+                                                                                 "estimates",
+                                                                                 "invoices",
+                                                                                 "payments",
+                                                                                 "timelogs",
+                                                                                 "tickets",
+                                                                                 "events",
+                                                                                 "messages",
+                                                                                 "notices",
+                                                                                 "leaves",
+                                                                                 "leads",
+                                                                                 "holidays",
+                                                                                 "products",
+                                                                                 "expenses",
+                                                                                 "contracts",
+                                                                                 "reports",
+                                                                                 "leadAccount",
+                                                                                 "leadAgent",
+                                                                                 "leadReports",
+                                                                                 "leadActivity",
+                                                                                 "hr",
+                                                                                 "salesAnalytic",
+                                                                                 "hrReports",
+                                                                                 "hrBonus",
+                                                                                 "accounting",
+                                                                                 "changeRole",
+                                                                                 "translation",
+                                                                                 "leadBonus",
+                                                                                 "salesBonus",
+                                                                                 "financeEmployees",
+                                                                                 "employeesVideoEditing",
+                                                                                 "employeesCorrespondence",
+                                                                                 "hrCorrespondence",
+                                                                                 "exchangeRate",
+                                                                                 "smmEmployees",
+                                                                                 "contentEmployees",
+                                                                                 "copywriterEmployees",
+                                                                                 "artistEmployees",
+                                                                                 "employeeAnalytics",
+                                                                                 "employeeDashboard",
+                                                                                 "presales",
+                                                                                 "communications",
+                                                                                 "ticket support",
+                                                                                 "library",
+                                                                                 "sms_template",
+                                                                                 "send_sms"
+                                                                             ]
+                                                             }
+                                                },
+                                      "project_company":  {
+                                                              "id":  1,
+                                                              "company_id":  "1",
+                                                              "name":  "Remote Helpers",
+                                                              "website":  "https://www.rh-s.com/",
+                                                              "short_name":  "rh-s.com",
+                                                              "created_at":  null,
+                                                              "updated_at":  "2024-01-05T06:56:45.000000Z"
+                                                          }
+                                  },
+                                  {
+                                      "id":  543,
+                                      "account_id":  "1369",
+                                      "agent_id":  "774",
+                                      "project_company_id":  "1",
+                                      "start_date":  "2024-12-26T00:00:00.000000Z",
+                                      "end_date":  "2025-02-27T00:00:00.000000Z",
+                                      "created_at":  null,
+                                      "updated_at":  null,
+                                      "agent":  {
+                                                    "id":  774,
+                                                    "company_id":  "1",
+                                                    "user_id":  "7088",
+                                                    "status":  "enabled",
+                                                    "added_by":  null,
+                                                    "last_updated_by":  null,
+                                                    "user":  {
+                                                                 "id":  7088,
+                                                                 "company_id":  "1",
+                                                                 "name":  "Nekliudova Valeryia Serheevna",
+                                                                 "email":  "valeriyanekl555@gmail.com",
+                                                                 "image":  "530bd074fc41dbcfc14aeaeac25ce7b3.jpg",
+                                                                 "mobile":  "380672790745",
+                                                                 "gender":  "male",
+                                                                 "locale":  "en",
+                                                                 "status":  "active",
+                                                                 "login":  "enable",
+                                                                 "onesignal_player_id":  null,
+                                                                 "created_at":  "2023-01-20T18:09:18+00:00",
+                                                                 "updated_at":  "2025-11-04T15:37:56+00:00",
+                                                                 "super_admin":  "0",
+                                                                 "email_verification_code":  null,
+                                                                 "social_token":  null,
+                                                                 "email_notifications":  "1",
+                                                                 "two_factor_recovery_codes":  null,
+                                                                 "two_factor_confirmed":  "0",
+                                                                 "two_factor_email_confirmed":  "0",
+                                                                 "salutation":  null,
+                                                                 "dark_theme":  "0",
+                                                                 "rtl":  "0",
+                                                                 "two_fa_verify_via":  null,
+                                                                 "two_factor_code":  null,
+                                                                 "two_factor_expires_at":  null,
+                                                                 "admin_approval":  "1",
+                                                                 "permission_sync":  "1",
+                                                                 "google_calendar_status":  "1",
+                                                                 "country_id":  null,
+                                                                 "authorize_id":  null,
+                                                                 "authorize_payment_id":  null,
+                                                                 "card_brand":  null,
+                                                                 "card_last_four":  null,
+                                                                 "last_login":  null,
+                                                                 "image_url":  "https://crm-s.com/user-uploads/avatar/530bd074fc41dbcfc14aeaeac25ce7b3.jpg",
+                                                                 "modules":  [
+                                                                                 "clients",
+                                                                                 "employees",
+                                                                                 "projects",
+                                                                                 "attendance",
+                                                                                 "tasks",
+                                                                                 "estimates",
+                                                                                 "invoices",
+                                                                                 "payments",
+                                                                                 "timelogs",
+                                                                                 "tickets",
+                                                                                 "events",
+                                                                                 "messages",
+                                                                                 "notices",
+                                                                                 "leaves",
+                                                                                 "leads",
+                                                                                 "holidays",
+                                                                                 "products",
+                                                                                 "expenses",
+                                                                                 "contracts",
+                                                                                 "reports",
+                                                                                 "leadAccount",
+                                                                                 "leadAgent",
+                                                                                 "leadReports",
+                                                                                 "leadActivity",
+                                                                                 "hr",
+                                                                                 "salesAnalytic",
+                                                                                 "hrReports",
+                                                                                 "hrBonus",
+                                                                                 "accounting",
+                                                                                 "changeRole",
+                                                                                 "translation",
+                                                                                 "leadBonus",
+                                                                                 "salesBonus",
+                                                                                 "financeEmployees",
+                                                                                 "employeesVideoEditing",
+                                                                                 "employeesCorrespondence",
+                                                                                 "hrCorrespondence",
+                                                                                 "exchangeRate",
+                                                                                 "smmEmployees",
+                                                                                 "contentEmployees",
+                                                                                 "copywriterEmployees",
+                                                                                 "artistEmployees",
+                                                                                 "employeeAnalytics",
+                                                                                 "employeeDashboard",
+                                                                                 "presales",
+                                                                                 "communications",
+                                                                                 "ticket support",
+                                                                                 "library",
+                                                                                 "sms_template",
+                                                                                 "send_sms"
+                                                                             ]
+                                                             }
+                                                },
+                                      "project_company":  {
+                                                              "id":  1,
+                                                              "company_id":  "1",
+                                                              "name":  "Remote Helpers",
+                                                              "website":  "https://www.rh-s.com/",
+                                                              "short_name":  "rh-s.com",
+                                                              "created_at":  null,
+                                                              "updated_at":  "2024-01-05T06:56:45.000000Z"
+                                                          }
+                                  },
+                                  {
+                                      "id":  582,
+                                      "account_id":  "1369",
+                                      "agent_id":  "1046",
+                                      "project_company_id":  "1",
+                                      "start_date":  "2025-02-27T00:00:00.000000Z",
+                                      "end_date":  "2025-05-12T00:00:00.000000Z",
+                                      "created_at":  null,
+                                      "updated_at":  null,
+                                      "agent":  {
+                                                    "id":  1046,
+                                                    "company_id":  "1",
+                                                    "user_id":  "8962",
+                                                    "status":  "enabled",
+                                                    "added_by":  null,
+                                                    "last_updated_by":  null,
+                                                    "user":  {
+                                                                 "id":  8962,
+                                                                 "company_id":  "1",
+                                                                 "name":  "Ushie Favour Dan",
+                                                                 "email":  "fayvaurh@gmail.com",
+                                                                 "image":  "6b875827402e56bfae485c4f36841d04.jpg",
+                                                                 "mobile":  "2348078653319",
+                                                                 "gender":  "female",
+                                                                 "locale":  "en",
+                                                                 "status":  "deactive",
+                                                                 "login":  "enable",
+                                                                 "onesignal_player_id":  null,
+                                                                 "created_at":  "2025-02-24T07:44:08+00:00",
+                                                                 "updated_at":  "2025-04-07T06:38:01+00:00",
+                                                                 "super_admin":  "0",
+                                                                 "email_verification_code":  null,
+                                                                 "social_token":  null,
+                                                                 "email_notifications":  "1",
+                                                                 "two_factor_recovery_codes":  null,
+                                                                 "two_factor_confirmed":  "0",
+                                                                 "two_factor_email_confirmed":  "0",
+                                                                 "salutation":  null,
+                                                                 "dark_theme":  "0",
+                                                                 "rtl":  "0",
+                                                                 "two_fa_verify_via":  null,
+                                                                 "two_factor_code":  null,
+                                                                 "two_factor_expires_at":  null,
+                                                                 "admin_approval":  "1",
+                                                                 "permission_sync":  "1",
+                                                                 "google_calendar_status":  "1",
+                                                                 "country_id":  null,
+                                                                 "authorize_id":  null,
+                                                                 "authorize_payment_id":  null,
+                                                                 "card_brand":  null,
+                                                                 "card_last_four":  null,
+                                                                 "last_login":  null,
+                                                                 "image_url":  "https://crm-s.com/user-uploads/avatar/6b875827402e56bfae485c4f36841d04.jpg",
+                                                                 "modules":  [
+                                                                                 "clients",
+                                                                                 "employees",
+                                                                                 "projects",
+                                                                                 "attendance",
+                                                                                 "tasks",
+                                                                                 "estimates",
+                                                                                 "invoices",
+                                                                                 "payments",
+                                                                                 "timelogs",
+                                                                                 "tickets",
+                                                                                 "events",
+                                                                                 "messages",
+                                                                                 "notices",
+                                                                                 "leaves",
+                                                                                 "leads",
+                                                                                 "holidays",
+                                                                                 "products",
+                                                                                 "expenses",
+                                                                                 "contracts",
+                                                                                 "reports",
+                                                                                 "leadAccount",
+                                                                                 "leadAgent",
+                                                                                 "leadReports",
+                                                                                 "leadActivity",
+                                                                                 "hr",
+                                                                                 "salesAnalytic",
+                                                                                 "hrReports",
+                                                                                 "hrBonus",
+                                                                                 "accounting",
+                                                                                 "changeRole",
+                                                                                 "translation",
+                                                                                 "leadBonus",
+                                                                                 "salesBonus",
+                                                                                 "financeEmployees",
+                                                                                 "employeesVideoEditing",
+                                                                                 "employeesCorrespondence",
+                                                                                 "hrCorrespondence",
+                                                                                 "exchangeRate",
+                                                                                 "smmEmployees",
+                                                                                 "contentEmployees",
+                                                                                 "copywriterEmployees",
+                                                                                 "artistEmployees",
+                                                                                 "employeeAnalytics",
+                                                                                 "employeeDashboard",
+                                                                                 "presales",
+                                                                                 "communications",
+                                                                                 "ticket support",
+                                                                                 "library",
+                                                                                 "sms_template",
+                                                                                 "send_sms"
+                                                                             ]
+                                                             }
+                                                },
+                                      "project_company":  {
+                                                              "id":  1,
+                                                              "company_id":  "1",
+                                                              "name":  "Remote Helpers",
+                                                              "website":  "https://www.rh-s.com/",
+                                                              "short_name":  "rh-s.com",
+                                                              "created_at":  null,
+                                                              "updated_at":  "2024-01-05T06:56:45.000000Z"
+                                                          }
+                                  },
+                                  {
+                                      "id":  635,
+                                      "account_id":  "1369",
+                                      "agent_id":  "1053",
+                                      "project_company_id":  "1",
+                                      "start_date":  "2025-05-12T00:00:00.000000Z",
+                                      "end_date":  "2025-06-06T00:00:00.000000Z",
+                                      "created_at":  null,
+                                      "updated_at":  null,
+                                      "agent":  {
+                                                    "id":  1053,
+                                                    "company_id":  "1",
+                                                    "user_id":  "9034",
+                                                    "status":  "enabled",
+                                                    "added_by":  null,
+                                                    "last_updated_by":  null,
+                                                    "user":  {
+                                                                 "id":  9034,
+                                                                 "company_id":  "1",
+                                                                 "name":  "Azubuike Cynthia",
+                                                                 "email":  "azubuikec04@gmail.com",
+                                                                 "image":  "f2defb956a9179a21879db117c3cb843.jpg",
+                                                                 "mobile":  "380963456789",
+                                                                 "gender":  "female",
+                                                                 "locale":  "en",
+                                                                 "status":  "deactive",
+                                                                 "login":  "enable",
+                                                                 "onesignal_player_id":  null,
+                                                                 "created_at":  "2025-04-22T09:37:17+00:00",
+                                                                 "updated_at":  "2025-06-05T06:39:31+00:00",
+                                                                 "super_admin":  "0",
+                                                                 "email_verification_code":  null,
+                                                                 "social_token":  null,
+                                                                 "email_notifications":  "1",
+                                                                 "two_factor_recovery_codes":  null,
+                                                                 "two_factor_confirmed":  "0",
+                                                                 "two_factor_email_confirmed":  "0",
+                                                                 "salutation":  null,
+                                                                 "dark_theme":  "0",
+                                                                 "rtl":  "0",
+                                                                 "two_fa_verify_via":  null,
+                                                                 "two_factor_code":  null,
+                                                                 "two_factor_expires_at":  null,
+                                                                 "admin_approval":  "1",
+                                                                 "permission_sync":  "1",
+                                                                 "google_calendar_status":  "1",
+                                                                 "country_id":  null,
+                                                                 "authorize_id":  null,
+                                                                 "authorize_payment_id":  null,
+                                                                 "card_brand":  null,
+                                                                 "card_last_four":  null,
+                                                                 "last_login":  null,
+                                                                 "image_url":  "https://crm-s.com/user-uploads/avatar/f2defb956a9179a21879db117c3cb843.jpg",
+                                                                 "modules":  [
+                                                                                 "clients",
+                                                                                 "employees",
+                                                                                 "projects",
+                                                                                 "attendance",
+                                                                                 "tasks",
+                                                                                 "estimates",
+                                                                                 "invoices",
+                                                                                 "payments",
+                                                                                 "timelogs",
+                                                                                 "tickets",
+                                                                                 "events",
+                                                                                 "messages",
+                                                                                 "notices",
+                                                                                 "leaves",
+                                                                                 "leads",
+                                                                                 "holidays",
+                                                                                 "products",
+                                                                                 "expenses",
+                                                                                 "contracts",
+                                                                                 "reports",
+                                                                                 "leadAccount",
+                                                                                 "leadAgent",
+                                                                                 "leadReports",
+                                                                                 "leadActivity",
+                                                                                 "hr",
+                                                                                 "salesAnalytic",
+                                                                                 "hrReports",
+                                                                                 "hrBonus",
+                                                                                 "accounting",
+                                                                                 "changeRole",
+                                                                                 "translation",
+                                                                                 "leadBonus",
+                                                                                 "salesBonus",
+                                                                                 "financeEmployees",
+                                                                                 "employeesVideoEditing",
+                                                                                 "employeesCorrespondence",
+                                                                                 "hrCorrespondence",
+                                                                                 "exchangeRate",
+                                                                                 "smmEmployees",
+                                                                                 "contentEmployees",
+                                                                                 "copywriterEmployees",
+                                                                                 "artistEmployees",
+                                                                                 "employeeAnalytics",
+                                                                                 "employeeDashboard",
+                                                                                 "presales",
+                                                                                 "communications",
+                                                                                 "ticket support",
+                                                                                 "library",
+                                                                                 "sms_template",
+                                                                                 "send_sms"
+                                                                             ]
+                                                             }
+                                                },
+                                      "project_company":  {
+                                                              "id":  1,
+                                                              "company_id":  "1",
+                                                              "name":  "Remote Helpers",
+                                                              "website":  "https://www.rh-s.com/",
+                                                              "short_name":  "rh-s.com",
+                                                              "created_at":  null,
+                                                              "updated_at":  "2024-01-05T06:56:45.000000Z"
+                                                          }
+                                  },
+                                  {
+                                      "id":  651,
+                                      "account_id":  "1369",
+                                      "agent_id":  "1049",
+                                      "project_company_id":  "1",
+                                      "start_date":  "2025-06-06T00:00:00.000000Z",
+                                      "end_date":  null,
+                                      "created_at":  null,
+                                      "updated_at":  null,
+                                      "agent":  {
+                                                    "id":  1049,
+                                                    "company_id":  "1",
+                                                    "user_id":  "9039",
+                                                    "status":  "enabled",
+                                                    "added_by":  null,
+                                                    "last_updated_by":  null,
+                                                    "user":  {
+                                                                 "id":  9039,
+                                                                 "company_id":  "1",
+                                                                 "name":  "Каменская Алина Михайловна",
+                                                                 "email":  "kamenskaya10alya@gmail.com",
+                                                                 "image":  "362873c9b0fcf60d3c596cecab4e6756.jpg",
+                                                                 "mobile":  "380986281261",
+                                                                 "gender":  "female",
+                                                                 "locale":  "en",
+                                                                 "status":  "active",
+                                                                 "login":  "enable",
+                                                                 "onesignal_player_id":  null,
+                                                                 "created_at":  "2025-04-24T08:58:09+00:00",
+                                                                 "updated_at":  "2025-09-23T16:10:26+00:00",
+                                                                 "super_admin":  "0",
+                                                                 "email_verification_code":  null,
+                                                                 "social_token":  null,
+                                                                 "email_notifications":  "1",
+                                                                 "two_factor_recovery_codes":  null,
+                                                                 "two_factor_confirmed":  "0",
+                                                                 "two_factor_email_confirmed":  "0",
+                                                                 "salutation":  null,
+                                                                 "dark_theme":  "0",
+                                                                 "rtl":  "0",
+                                                                 "two_fa_verify_via":  null,
+                                                                 "two_factor_code":  null,
+                                                                 "two_factor_expires_at":  null,
+                                                                 "admin_approval":  "1",
+                                                                 "permission_sync":  "1",
+                                                                 "google_calendar_status":  "1",
+                                                                 "country_id":  null,
+                                                                 "authorize_id":  null,
+                                                                 "authorize_payment_id":  null,
+                                                                 "card_brand":  null,
+                                                                 "card_last_four":  null,
+                                                                 "last_login":  null,
+                                                                 "image_url":  "https://crm-s.com/user-uploads/avatar/362873c9b0fcf60d3c596cecab4e6756.jpg",
+                                                                 "modules":  [
+                                                                                 "clients",
+                                                                                 "employees",
+                                                                                 "projects",
+                                                                                 "attendance",
+                                                                                 "tasks",
+                                                                                 "estimates",
+                                                                                 "invoices",
+                                                                                 "payments",
+                                                                                 "timelogs",
+                                                                                 "tickets",
+                                                                                 "events",
+                                                                                 "messages",
+                                                                                 "notices",
+                                                                                 "leaves",
+                                                                                 "leads",
+                                                                                 "holidays",
+                                                                                 "products",
+                                                                                 "expenses",
+                                                                                 "contracts",
+                                                                                 "reports",
+                                                                                 "leadAccount",
+                                                                                 "leadAgent",
+                                                                                 "leadReports",
+                                                                                 "leadActivity",
+                                                                                 "hr",
+                                                                                 "salesAnalytic",
+                                                                                 "hrReports",
+                                                                                 "hrBonus",
+                                                                                 "accounting",
+                                                                                 "changeRole",
+                                                                                 "translation",
+                                                                                 "leadBonus",
+                                                                                 "salesBonus",
+                                                                                 "financeEmployees",
+                                                                                 "employeesVideoEditing",
+                                                                                 "employeesCorrespondence",
+                                                                                 "hrCorrespondence",
+                                                                                 "exchangeRate",
+                                                                                 "smmEmployees",
+                                                                                 "contentEmployees",
+                                                                                 "copywriterEmployees",
+                                                                                 "artistEmployees",
+                                                                                 "employeeAnalytics",
+                                                                                 "employeeDashboard",
+                                                                                 "presales",
+                                                                                 "communications",
+                                                                                 "ticket support",
+                                                                                 "library",
+                                                                                 "sms_template",
+                                                                                 "send_sms"
+                                                                             ]
+                                                             }
+                                                },
+                                      "project_company":  {
+                                                              "id":  1,
+                                                              "company_id":  "1",
+                                                              "name":  "Remote Helpers",
+                                                              "website":  "https://www.rh-s.com/",
+                                                              "short_name":  "rh-s.com",
+                                                              "created_at":  null,
+                                                              "updated_at":  "2024-01-05T06:56:45.000000Z"
+                                                          }
+                                  }
+                              ],
+        "password_histories":  [
+                                   {
+                                       "id":  1400,
+                                       "account_id":  "1369",
+                                       "type":  "account",
+                                       "old_pass":  "8uyRn37V3S",
+                                       "change_date":  "2024-12-11T00:00:00.000000Z",
+                                       "created_at":  null,
+                                       "updated_at":  null
+                                   },
+                                   {
+                                       "id":  1401,
+                                       "account_id":  "1369",
+                                       "type":  "email",
+                                       "old_pass":  "8uyRn37V3S",
+                                       "change_date":  "2024-12-11T00:00:00.000000Z",
+                                       "created_at":  null,
+                                       "updated_at":  null
+                                   },
+                                   {
+                                       "id":  1491,
+                                       "account_id":  "1369",
+                                       "type":  "account",
+                                       "old_pass":  "6Lc8p3y3CS",
+                                       "change_date":  "2025-01-20T00:00:00.000000Z",
+                                       "created_at":  null,
+                                       "updated_at":  null
+                                   },
+                                   {
+                                       "id":  1492,
+                                       "account_id":  "1369",
+                                       "type":  "email",
+                                       "old_pass":  "6Lc8p3y3CS",
+                                       "change_date":  "2025-01-20T00:00:00.000000Z",
+                                       "created_at":  null,
+                                       "updated_at":  null
+                                   },
+                                   {
+                                       "id":  1529,
+                                       "account_id":  "1369",
+                                       "type":  "account",
+                                       "old_pass":  "U45gR3x4aS",
+                                       "change_date":  "2025-03-03T00:00:00.000000Z",
+                                       "created_at":  null,
+                                       "updated_at":  null
+                                   },
+                                   {
+                                       "id":  1614,
+                                       "account_id":  "1369",
+                                       "type":  "account",
+                                       "old_pass":  "uh26KpAjxP295A",
+                                       "change_date":  "2025-05-05T00:00:00.000000Z",
+                                       "created_at":  null,
+                                       "updated_at":  null
+                                   },
+                                   {
+                                       "id":  1615,
+                                       "account_id":  "1369",
+                                       "type":  "email",
+                                       "old_pass":  "U45gR3x4aS",
+                                       "change_date":  "2025-05-05T00:00:00.000000Z",
+                                       "created_at":  null,
+                                       "updated_at":  null
+                                   },
+                                   {
+                                       "id":  1678,
+                                       "account_id":  "1369",
+                                       "type":  "account",
+                                       "old_pass":  "2RY2em2b3A",
+                                       "change_date":  "2025-06-05T00:00:00.000000Z",
+                                       "created_at":  null,
+                                       "updated_at":  null
+                                   },
+                                   {
+                                       "id":  1679,
+                                       "account_id":  "1369",
+                                       "type":  "email",
+                                       "old_pass":  "2RY2em2b3A",
+                                       "change_date":  "2025-06-05T00:00:00.000000Z",
+                                       "created_at":  null,
+                                       "updated_at":  null
+                                   }
+                               ],
+        "premium_histories":  [
+
+                              ]
+    },
+    {
+        "id":  1370,
+        "company_id":  "1",
+        "project_company_id":  "1",
+        "name":  "Valeriia Klochko",
+        "link":  "https://www.linkedin.com/in/valeriia-klochko-140a77272/",
+        "connections":  null,
+        "premium":  "0",
+        "linked_login":  "klovaleriia@gmail.com",
+        "linked_password":  "27s22DYehY",
+        "email_login":  "klovaleriia@gmail.com",
+        "email_password":  "27s22DYehY",
+        "passport_link":  null,
+        "mobile":  null,
+        "comments":  "28.11.2023 - отпр док на разбан стр\r\nВ связи с противоречиями, обнаруженными в Вашей учетной записи, Ваша апелляция отклонена и ограничение с учетной записи не снято.",
+        "buy_date":  null,
+        "created_date":  "2023-04-21",
+        "banned_date":  null,
+        "sold_date":  null,
+        "agent_id":  null,
+        "status_id":  "6",
+        "country_id":  null,
+        "source_id":  "13",
+        "placement_id":  "1",
+        "user_id":  null,
+        "is_approved_manager":  "1",
+        "created_at":  "2023-04-21T10:58:12.000000Z",
+        "updated_at":  "2024-01-04T15:04:03.000000Z",
+        "status":  {
+                       "id":  6,
+                       "company_id":  "1",
+                       "name":  "Banned",
+                       "created_at":  "2020-09-04T13:03:22.000000Z",
+                       "updated_at":  "2020-09-04T13:03:22.000000Z"
+                   },
+        "country":  null,
+        "source":  {
+                       "id":  13,
+                       "company_id":  "1",
+                       "type":  "linkedin"
+                   },
+        "agent":  null,
+        "user":  null,
+        "project_company":  {
+                                "id":  1,
+                                "company_id":  "1",
+                                "name":  "Remote Helpers",
+                                "website":  "https://www.rh-s.com/",
+                                "short_name":  "rh-s.com",
+                                "created_at":  null,
+                                "updated_at":  "2024-01-05T06:56:45.000000Z"
+                            },
+        "placement":  {
+                          "id":  1,
+                          "company_id":  "1",
+                          "name":  "LinkedIn",
+                          "category_id":  "2",
+                          "created_at":  "2020-10-26T13:09:46.000000Z",
+                          "updated_at":  "2024-01-05T07:05:34.000000Z"
+                      },
+        "documents":  [
+                          {
+                              "id":  53,
+                              "account_id":  "1370",
+                              "expiration_date":  "2023-07-12",
+                              "type_id":  "4",
+                              "created_at":  "2023-11-28T14:11:04.000000Z",
+                              "updated_at":  "2023-11-28T14:11:04.000000Z",
+                              "doc_type":  {
+                                               "id":  4,
+                                               "company_id":  "1",
+                                               "name":  "ID card"
+                                           },
+                              "links":  [
+                                            {
+                                                "id":  87,
+                                                "document_id":  "53",
+                                                "url":  "https://drive.google.com/file/d/1dwtKkT45vfs8XHKeboc5nrwSsTdEMmlX/view?usp=drive_link",
+                                                "created_at":  "2023-11-28T14:11:04.000000Z",
+                                                "updated_at":  "2023-11-28T14:11:04.000000Z"
+                                            },
+                                            {
+                                                "id":  88,
+                                                "document_id":  "53",
+                                                "url":  "https://drive.google.com/file/d/1pxXwf8KmrMneeI8lF3FZNBzbO0zT67Q-/view?usp=drive_link",
+                                                "created_at":  "2023-11-28T14:11:04.000000Z",
+                                                "updated_at":  "2023-11-28T14:11:04.000000Z"
+                                            }
+                                        ]
+                          }
+                      ],
+        "account_changes":  [
+                                {
+                                    "id":  722,
+                                    "account_id":  "1370",
+                                    "user_id":  "5010",
+                                    "value":  "Changed Lead Account Status from Problematic to Banned",
+                                    "created_at":  "2024-01-03T15:33:17.000000Z",
+                                    "updated_at":  "2024-01-03T15:33:17.000000Z",
+                                    "user":  null
+                                }
+                            ],
+        "country_histories":  [
+
+                              ],
+        "manager_histories":  [
+
+                              ],
+        "password_histories":  [
+
+                               ],
+        "premium_histories":  [
+
+                              ]
+    },
+    {
+        "id":  1371,
+        "company_id":  "1",
+        "project_company_id":  "1",
+        "name":  "Nataliia Popova",
+        "link":  "https://www.linkedin.com/in/nataliia-popova-86004b273/",
+        "connections":  null,
+        "premium":  "0",
+        "linked_login":  "natapopovawork09@gmail.com",
+        "linked_password":  "sgEU97G5s8",
+        "email_login":  "natapopovawork09@gmail.com",
+        "email_password":  "sgEU97G5s8",
+        "passport_link":  null,
+        "mobile":  null,
+        "comments":  null,
+        "buy_date":  null,
+        "created_date":  "2023-04-21",
+        "banned_date":  null,
+        "sold_date":  null,
+        "agent_id":  null,
+        "status_id":  "6",
+        "country_id":  "159",
+        "source_id":  "13",
+        "placement_id":  "1",
+        "user_id":  "7322",
+        "is_approved_manager":  "1",
+        "created_at":  "2023-04-21T12:03:08.000000Z",
+        "updated_at":  "2023-10-04T17:00:26.000000Z",
+        "status":  {
+                       "id":  6,
+                       "company_id":  "1",
+                       "name":  "Banned",
+                       "created_at":  "2020-09-04T13:03:22.000000Z",
+                       "updated_at":  "2020-09-04T13:03:22.000000Z"
+                   },
+        "country":  {
+                        "id":  159,
+                        "name":  "Netherlands",
+                        "iso":  "NL",
+                        "iso3":  "NL",
+                        "iso_numeric":  "0",
+                        "nicename":  "",
+                        "numcode":  null,
+                        "phonecode":  "0"
+                    },
+        "source":  {
+                       "id":  13,
+                       "company_id":  "1",
+                       "type":  "linkedin"
+                   },
+        "agent":  null,
+        "user":  null,
+        "project_company":  {
+                                "id":  1,
+                                "company_id":  "1",
+                                "name":  "Remote Helpers",
+                                "website":  "https://www.rh-s.com/",
+                                "short_name":  "rh-s.com",
+                                "created_at":  null,
+                                "updated_at":  "2024-01-05T06:56:45.000000Z"
+                            },
+        "placement":  {
+                          "id":  1,
+                          "company_id":  "1",
+                          "name":  "LinkedIn",
+                          "category_id":  "2",
+                          "created_at":  "2020-10-26T13:09:46.000000Z",
+                          "updated_at":  "2024-01-05T07:05:34.000000Z"
+                      },
+        "documents":  [
+
+                      ],
+        "account_changes":  [
+
+                            ],
+        "country_histories":  [
+
+                              ],
+        "manager_histories":  [
+
+                              ],
+        "password_histories":  [
+
+                               ],
+        "premium_histories":  [
+
+                              ]
+    },
+    {
+        "id":  1372,
+        "company_id":  "1",
+        "project_company_id":  "1",
+        "name":  "Katia Romaniuk",
+        "link":  "https://www.linkedin.com/in/katia-romaniuk-b7884a273/",
+        "connections":  null,
+        "premium":  "0",
+        "linked_login":  "katerromaniuk@gmail.com",
+        "linked_password":  "GyZX38am32",
+        "email_login":  "katerromaniuk@gmail.com",
+        "email_password":  "GyZX38am32",
+        "passport_link":  null,
+        "mobile":  null,
+        "comments":  "нет функции поменять пароль в настройках акаунта линкедин",
+        "buy_date":  null,
+        "created_date":  "2023-04-25",
+        "banned_date":  null,
+        "sold_date":  null,
+        "agent_id":  null,
+        "status_id":  "7",
+        "country_id":  null,
+        "source_id":  "13",
+        "placement_id":  "1",
+        "user_id":  null,
+        "is_approved_manager":  "1",
+        "created_at":  "2023-04-25T06:46:05.000000Z",
+        "updated_at":  "2023-10-05T09:23:47.000000Z",
+        "status":  {
+                       "id":  7,
+                       "company_id":  "1",
+                       "name":  "Sold",
+                       "created_at":  "2021-08-02T15:15:41.000000Z",
+                       "updated_at":  "2021-08-02T15:15:41.000000Z"
+                   },
+        "country":  null,
+        "source":  {
+                       "id":  13,
+                       "company_id":  "1",
+                       "type":  "linkedin"
+                   },
+        "agent":  null,
+        "user":  null,
+        "project_company":  {
+                                "id":  1,
+                                "company_id":  "1",
+                                "name":  "Remote Helpers",
+                                "website":  "https://www.rh-s.com/",
+                                "short_name":  "rh-s.com",
+                                "created_at":  null,
+                                "updated_at":  "2024-01-05T06:56:45.000000Z"
+                            },
+        "placement":  {
+                          "id":  1,
+                          "company_id":  "1",
+                          "name":  "LinkedIn",
+                          "category_id":  "2",
+                          "created_at":  "2020-10-26T13:09:46.000000Z",
+                          "updated_at":  "2024-01-05T07:05:34.000000Z"
+                      },
+        "documents":  [
+
+                      ],
+        "account_changes":  [
+
+                            ],
+        "country_histories":  [
+
+                              ],
+        "manager_histories":  [
+
+                              ],
+        "password_histories":  [
+
+                               ],
+        "premium_histories":  [
+
+                              ]
+    },
+    {
+        "id":  1373,
+        "company_id":  "1",
+        "project_company_id":  "1",
+        "name":  "Elena Panasyshyna",
+        "link":  "https://www.linkedin.com/in/elena-panasyshyna-076924273/",
+        "connections":  null,
+        "premium":  "0",
+        "linked_login":  "panae618@gmail.com",
+        "linked_password":  "8h8D37%3CgAw",
+        "email_login":  "panae618@gmail.com",
+        "email_password":  "8h8D37%3CgAw",
+        "passport_link":  null,
+        "mobile":  null,
+        "comments":  null,
+        "buy_date":  null,
+        "created_date":  "2023-04-25",
+        "banned_date":  null,
+        "sold_date":  null,
+        "agent_id":  null,
+        "status_id":  "6",
+        "country_id":  null,
+        "source_id":  "13",
+        "placement_id":  "1",
+        "user_id":  "7375",
+        "is_approved_manager":  "1",
+        "created_at":  "2023-04-25T14:38:35.000000Z",
+        "updated_at":  "2023-11-17T15:21:31.000000Z",
+        "status":  {
+                       "id":  6,
+                       "company_id":  "1",
+                       "name":  "Banned",
+                       "created_at":  "2020-09-04T13:03:22.000000Z",
+                       "updated_at":  "2020-09-04T13:03:22.000000Z"
+                   },
+        "country":  null,
+        "source":  {
+                       "id":  13,
+                       "company_id":  "1",
+                       "type":  "linkedin"
+                   },
+        "agent":  null,
+        "user":  null,
+        "project_company":  {
+                                "id":  1,
+                                "company_id":  "1",
+                                "name":  "Remote Helpers",
+                                "website":  "https://www.rh-s.com/",
+                                "short_name":  "rh-s.com",
+                                "created_at":  null,
+                                "updated_at":  "2024-01-05T06:56:45.000000Z"
+                            },
+        "placement":  {
+                          "id":  1,
+                          "company_id":  "1",
+                          "name":  "LinkedIn",
+                          "category_id":  "2",
+                          "created_at":  "2020-10-26T13:09:46.000000Z",
+                          "updated_at":  "2024-01-05T07:05:34.000000Z"
+                      },
+        "documents":  [
+
+                      ],
+        "account_changes":  [
+
+                            ],
+        "country_histories":  [
+
+                              ],
+        "manager_histories":  [
+
+                              ],
+        "password_histories":  [
+
+                               ],
+        "premium_histories":  [
+
+                              ]
+    },
+    {
+        "id":  1374,
+        "company_id":  "1",
+        "project_company_id":  "1",
+        "name":  "Olha Lemekha",
+        "link":  "https://www.linkedin.com/in/olhalemekha/",
+        "connections":  "0",
+        "premium":  "0",
+        "linked_login":  "olhalemekha23@gmail.com",
+        "linked_password":  "E9VxH558he",
+        "email_login":  "olhalemekha23@gmail.com",
+        "email_password":  "E9VxH558he",
+        "passport_link":  null,
+        "mobile":  null,
+        "comments":  null,
+        "buy_date":  null,
+        "created_date":  "2023-04-25",
+        "banned_date":  null,
+        "sold_date":  null,
+        "agent_id":  null,
+        "status_id":  "3",
+        "country_id":  null,
+        "source_id":  "13",
+        "placement_id":  "1",
+        "user_id":  "7374",
+        "is_approved_manager":  "1",
+        "created_at":  "2023-04-25T14:44:58.000000Z",
+        "updated_at":  "2023-04-25T14:44:58.000000Z",
+        "status":  {
+                       "id":  3,
+                       "company_id":  "1",
+                       "name":  "Free",
+                       "created_at":  "2020-09-04T13:03:19.000000Z",
+                       "updated_at":  "2020-09-04T13:03:19.000000Z"
+                   },
+        "country":  null,
+        "source":  {
+                       "id":  13,
+                       "company_id":  "1",
+                       "type":  "linkedin"
+                   },
+        "agent":  null,
+        "user":  null,
+        "project_company":  {
+                                "id":  1,
+                                "company_id":  "1",
+                                "name":  "Remote Helpers",
+                                "website":  "https://www.rh-s.com/",
+                                "short_name":  "rh-s.com",
+                                "created_at":  null,
+                                "updated_at":  "2024-01-05T06:56:45.000000Z"
+                            },
+        "placement":  {
+                          "id":  1,
+                          "company_id":  "1",
+                          "name":  "LinkedIn",
+                          "category_id":  "2",
+                          "created_at":  "2020-10-26T13:09:46.000000Z",
+                          "updated_at":  "2024-01-05T07:05:34.000000Z"
+                      },
+        "documents":  [
+                          {
+                              "id":  290,
+                              "account_id":  "1374",
+                              "expiration_date":  "2028-06-14",
+                              "type_id":  "3",
+                              "created_at":  "2024-01-31T12:43:02.000000Z",
+                              "updated_at":  "2024-01-31T12:43:02.000000Z",
+                              "doc_type":  {
+                                               "id":  3,
+                                               "company_id":  "1",
+                                               "name":  "International passport"
+                                           },
+                              "links":  [
+                                            {
+                                                "id":  463,
+                                                "document_id":  "290",
+                                                "url":  "https://drive.google.com/file/d/1fikxG7JfZGgLUZhTXZCEDATijRBG2vpo/view?usp=drive_link",
+                                                "created_at":  "2024-01-31T12:43:02.000000Z",
+                                                "updated_at":  "2024-01-31T12:43:02.000000Z"
+                                            }
+                                        ]
+                          }
+                      ],
+        "account_changes":  [
+
+                            ],
+        "country_histories":  [
+
+                              ],
+        "manager_histories":  [
+
+                              ],
+        "password_histories":  [
+
+                               ],
+        "premium_histories":  [
+
+                              ]
+    },
+    {
+        "id":  1375,
+        "company_id":  "1",
+        "project_company_id":  "1",
+        "name":  "Violetta Petizina",
+        "link":  "https://www.linkedin.com/in/violetta-petizina/",
+        "connections":  null,
+        "premium":  "0",
+        "linked_login":  "violetapetizina@gmail.com",
+        "linked_password":  "9tD5S7mVg2",
+        "email_login":  "violetapetizina@gmail.com",
+        "email_password":  "9tD5S7mVg2",
+        "passport_link":  null,
+        "mobile":  null,
+        "comments":  "не верный пароль",
+        "buy_date":  null,
+        "created_date":  "2023-04-25",
+        "banned_date":  null,
+        "sold_date":  null,
+        "agent_id":  null,
+        "status_id":  "5",
+        "country_id":  null,
+        "source_id":  "13",
+        "placement_id":  "1",
+        "user_id":  "7368",
+        "is_approved_manager":  "1",
+        "created_at":  "2023-04-25T15:00:32.000000Z",
+        "updated_at":  "2023-07-17T13:36:13.000000Z",
+        "status":  {
+                       "id":  5,
+                       "company_id":  "1",
+                       "name":  "Problematic",
+                       "created_at":  "2020-09-04T13:03:21.000000Z",
+                       "updated_at":  "2020-09-04T13:03:21.000000Z"
+                   },
+        "country":  null,
+        "source":  {
+                       "id":  13,
+                       "company_id":  "1",
+                       "type":  "linkedin"
+                   },
+        "agent":  null,
+        "user":  null,
+        "project_company":  {
+                                "id":  1,
+                                "company_id":  "1",
+                                "name":  "Remote Helpers",
+                                "website":  "https://www.rh-s.com/",
+                                "short_name":  "rh-s.com",
+                                "created_at":  null,
+                                "updated_at":  "2024-01-05T06:56:45.000000Z"
+                            },
+        "placement":  {
+                          "id":  1,
+                          "company_id":  "1",
+                          "name":  "LinkedIn",
+                          "category_id":  "2",
+                          "created_at":  "2020-10-26T13:09:46.000000Z",
+                          "updated_at":  "2024-01-05T07:05:34.000000Z"
+                      },
+        "documents":  [
+
+                      ],
+        "account_changes":  [
+
+                            ],
+        "country_histories":  [
+
+                              ],
+        "manager_histories":  [
+
+                              ],
+        "password_histories":  [
+
+                               ],
+        "premium_histories":  [
+
+                              ]
+    },
+    {
+        "id":  1376,
+        "company_id":  "1",
+        "project_company_id":  "1",
+        "name":  "Anton Pasnichenko",
+        "link":  "https://www.linkedin.com/in/anton-pasnichenko/",
+        "connections":  null,
+        "premium":  "0",
+        "linked_login":  "anton.pasnichenko.25@gmail.com",
+        "linked_password":  "9tD5S7mVg2",
+        "email_login":  "anton.pasnichenko.25@gmail.com",
+        "email_password":  "9tD5S7mVg2",
+        "passport_link":  null,
+        "mobile":  null,
+        "comments":  null,
+        "buy_date":  null,
+        "created_date":  "2023-04-25",
+        "banned_date":  null,
+        "sold_date":  null,
+        "agent_id":  null,
+        "status_id":  "6",
+        "country_id":  "68",
+        "source_id":  "13",
+        "placement_id":  "1",
+        "user_id":  "7376",
+        "is_approved_manager":  "1",
+        "created_at":  "2023-04-25T15:09:39.000000Z",
+        "updated_at":  "2023-11-17T13:16:40.000000Z",
+        "status":  {
+                       "id":  6,
+                       "company_id":  "1",
+                       "name":  "Banned",
+                       "created_at":  "2020-09-04T13:03:22.000000Z",
+                       "updated_at":  "2020-09-04T13:03:22.000000Z"
+                   },
+        "country":  {
+                        "id":  68,
+                        "name":  "Estonia",
+                        "iso":  "EE",
+                        "iso3":  "ES",
+                        "iso_numeric":  "0",
+                        "nicename":  "",
+                        "numcode":  null,
+                        "phonecode":  "0"
+                    },
+        "source":  {
+                       "id":  13,
+                       "company_id":  "1",
+                       "type":  "linkedin"
+                   },
+        "agent":  null,
+        "user":  null,
+        "project_company":  {
+                                "id":  1,
+                                "company_id":  "1",
+                                "name":  "Remote Helpers",
+                                "website":  "https://www.rh-s.com/",
+                                "short_name":  "rh-s.com",
+                                "created_at":  null,
+                                "updated_at":  "2024-01-05T06:56:45.000000Z"
+                            },
+        "placement":  {
+                          "id":  1,
+                          "company_id":  "1",
+                          "name":  "LinkedIn",
+                          "category_id":  "2",
+                          "created_at":  "2020-10-26T13:09:46.000000Z",
+                          "updated_at":  "2024-01-05T07:05:34.000000Z"
+                      },
+        "documents":  [
+
+                      ],
+        "account_changes":  [
+
+                            ],
+        "country_histories":  [
+
+                              ],
+        "manager_histories":  [
+
+                              ],
+        "password_histories":  [
+
+                               ],
+        "premium_histories":  [
+
+                              ]
+    }
+]

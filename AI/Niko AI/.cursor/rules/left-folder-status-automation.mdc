@@ -1,0 +1,143 @@
+---
+alwaysApply: true
+---
+ALWAYS automatically update employee profile status to "LEFT" when their folder is moved to or found in a Left/LEFT folder. This is MANDATORY for every detection.
+
+## Left Folder Status Automation Rules
+
+### When to Trigger Status Update
+- When a folder path contains `/Left/` or `/LEFT/` in any Nov25 department directory
+- When working with or editing Profile files located in Left/LEFT folders
+- When user explicitly mentions moving an employee to Left folder
+- When detecting Profile*.md files in Left/LEFT directories during any file operations
+
+### Status Update Process
+
+**Step 1: Detect Left Folder Location**
+- Check if current file path contains pattern: `Nov25/{Department}/Left/` or `Nov25/{Department}/LEFT/`
+- Departments: AI, Design, Dev, LG, Video
+- Case-insensitive matching for "Left" folder name
+
+**Step 2: Locate Profile File**
+- Search for Profile markdown files in the employee folder: `Profile*.md`
+- Profile file naming pattern: `Profile {Profession} {Employee Name}.md` or variations
+- If multiple Profile files exist, update all of them
+
+**Step 3: Update Status Field**
+- Locate the Status line in Profile file: `- **Status:** [current_value]`
+- Replace current status value with "LEFT"
+- Format: `- **Status:** LEFT`
+- Preserve all other content and formatting
+
+**Step 4: Verify Update**
+- Confirm Status field has been changed to "LEFT"
+- Ensure no other fields were modified
+- Check file formatting remains intact
+
+### File Structure Requirements
+
+**Profile File Format:**
+```markdown
+## Position
+
+- **Profession:** [profession]
+- **Shift:** [shift]
+- **Rate:** [rate]
+- **Status:** [status]  ← This line must be updated
+```
+
+**Status Field Location:**
+- Typically found in "Position" section
+- Format: `- **Status:** [value]`
+- May appear on different line numbers depending on profile structure
+
+### Automation Triggers
+
+**Automatic Detection Scenarios:**
+1. **File Path Detection**: When any file operation involves path containing `/Left/` or `/LEFT/`
+2. **Profile File Access**: When reading or editing Profile*.md files in Left folders
+3. **Folder Operations**: When listing or scanning directories that contain Left folders
+4. **User Request**: When user mentions moving employee to Left or updating Left folder status
+
+**Manual Trigger:**
+- User explicitly requests: "update status for employees in Left folder"
+- User asks: "change status to LEFT for [employee name]"
+
+### Department-Specific Paths
+
+**Base Path:** `Dropbox/Nov25/`
+
+**Department Left Folders:**
+- AI: `Nov25/AI/Left/` or `Nov25/AI/LEFT/`
+- Design: `Nov25/Design/Left/` or `Nov25/Design/LEFT/`
+- Dev: `Nov25/Dev/Left/` or `Nov25/Dev/LEFT/`
+- LG: `Nov25/LG/Left/` or `Nov25/LG/LEFT/`
+- Video: `Nov25/Video/Left/` or `Nov25/Video/LEFT/`
+
+### Status Values
+
+**Current Status Values (to be replaced):**
+- Available
+- Project
+- Work
+- Part Time
+- On Leave
+- Any other status value
+
+**Target Status Value:**
+- LEFT (all caps, as specified)
+
+### Edge Cases Handling
+
+**No Profile File Found:**
+- If employee folder in Left has no Profile*.md file, skip silently
+- Log action but do not create profile file unless explicitly requested
+
+**Multiple Profile Files:**
+- Update all Profile*.md files found in the employee folder
+- Ensure consistent status across all profile files
+
+**Status Already "LEFT":**
+- If status is already "LEFT", verify and skip update
+- No action needed if status is correct
+
+**Profile File Format Variations:**
+- Handle different markdown formatting styles
+- Preserve existing formatting while updating only Status field
+- Support both `- **Status:**` and `**Status:**` formats
+
+### Integration with Other Rules
+
+**Department Logging:**
+- After updating status, log action to appropriate department log file
+- Follow prompt-saving-rules.mdc format for logging
+- Include: Request, Details, Result sections
+
+**File Path Detection:**
+- Use department path to determine correct log file
+- Example: `Nov25/Video/Left/` → log to `Nov25/Video/Video prompt log.md`
+
+### Examples
+
+**Example 1: Automatic Detection**
+- Path: `Nov25/Video/Left/Panchenko Diana/Profile Video Editor Panchenko Diana.md`
+- Action: Update `- **Status:** Available` → `- **Status:** LEFT`
+- Log: Write to `Nov25/Video/Video prompt log.md`
+
+**Example 2: Folder Scan**
+- Scanning `Nov25/LG/Left/` directory
+- Found: `Polina Nastich/` folder (no Profile file)
+- Action: Skip (no profile file to update)
+
+**Example 3: Multiple Profiles**
+- Path: `Nov25/Design/Left/Employee Name/`
+- Found: `Profile Designer Employee Name.md` and `Profile Manager Employee Name.md`
+- Action: Update Status to "LEFT" in both files
+
+### Important Notes
+- Always verify file path contains Left/LEFT before updating
+- Preserve all other profile information unchanged
+- Update status immediately when Left folder is detected
+- Log all status updates to department log files
+- Case-sensitive for "LEFT" status value (must be uppercase)
+- Case-insensitive for folder name detection (Left/LEFT/left all match)

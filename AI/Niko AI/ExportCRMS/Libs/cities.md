@@ -1,0 +1,1931 @@
+{
+    "data": [
+        {
+            "id": 407,
+            "city_id": 9,
+            "item_id": 9,
+            "name": "Berlin",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-20T13:37:16.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": null,
+            "library": {
+                "id": 407,
+                "name": "Berlin"
+            },
+            "country": {
+                "id": 76,
+                "country_id": 3,
+                "iso2": "DE",
+                "iso3": "DEU",
+                "name": "Germany",
+                "image": "https://api.crm-s.com/flags/de.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 719,
+            "city_id": 31,
+            "item_id": 31,
+            "name": "Cherkasy",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-24T10:34:50.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 6,
+                "name": "Elena Yermakova",
+                "image": "https://api.crm-s.com/images/users/1739456973.png"
+            },
+            "library": {
+                "id": 719,
+                "name": "Cherkasy"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 724,
+            "city_id": 33,
+            "item_id": 33,
+            "name": "Chernihiv",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-24T10:35:51.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 6,
+                "name": "Elena Yermakova",
+                "image": "https://api.crm-s.com/images/users/1739456973.png"
+            },
+            "library": {
+                "id": 724,
+                "name": "Chernihiv"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 721,
+            "city_id": 32,
+            "item_id": 32,
+            "name": "Chernivtsi",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-24T10:35:19.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 6,
+                "name": "Elena Yermakova",
+                "image": "https://api.crm-s.com/images/users/1739456973.png"
+            },
+            "library": {
+                "id": 721,
+                "name": "Chernivtsi"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 411,
+            "city_id": 13,
+            "item_id": 13,
+            "name": "Dallas",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-20T16:58:30.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": null,
+            "library": {
+                "id": 411,
+                "name": "Dallas"
+            },
+            "country": {
+                "id": 85,
+                "country_id": 12,
+                "iso2": "US",
+                "iso3": "USA",
+                "name": "United States",
+                "image": "https://api.crm-s.com/flags/us.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 689,
+            "city_id": 19,
+            "item_id": 19,
+            "name": "Dnipro",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-24T10:24:04.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 6,
+                "name": "Elena Yermakova",
+                "image": "https://api.crm-s.com/images/users/1739456973.png"
+            },
+            "library": {
+                "id": 689,
+                "name": "Dnipro"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 698,
+            "city_id": 23,
+            "item_id": 23,
+            "name": "Ivano-Frankivsk",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-24T10:27:06.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 6,
+                "name": "Elena Yermakova",
+                "image": "https://api.crm-s.com/images/users/1739456973.png"
+            },
+            "library": {
+                "id": 698,
+                "name": "Ivano-Frankivsk"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 1880,
+            "city_id": 34,
+            "item_id": 34,
+            "name": "Izmir",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2025-01-07T08:11:27.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 6,
+                "name": "Elena Yermakova",
+                "image": "https://api.crm-s.com/images/users/1739456973.png"
+            },
+            "library": {
+                "id": 1880,
+                "name": "Izmir"
+            },
+            "country": {
+                "id": 91,
+                "country_id": 18,
+                "iso2": "TR",
+                "iso3": "TUR",
+                "name": "Turkey",
+                "image": "https://api.crm-s.com/flags/tr.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 22,
+            "city_id": 1,
+            "item_id": 1,
+            "name": "Kharkiv",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-10T12:56:17.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 2,
+                "name": "Ezheleva Ekaterina",
+                "image": "https://api.crm-s.com/images/users/1737624069.jpg"
+            },
+            "library": {
+                "id": 22,
+                "name": "Kharkiv"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 713,
+            "city_id": 29,
+            "item_id": 29,
+            "name": "Kherson",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-24T10:33:43.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 6,
+                "name": "Elena Yermakova",
+                "image": "https://api.crm-s.com/images/users/1739456973.png"
+            },
+            "library": {
+                "id": 713,
+                "name": "Kherson"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 716,
+            "city_id": 30,
+            "item_id": 30,
+            "name": "Khmelnytsky",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-24T10:34:20.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 6,
+                "name": "Elena Yermakova",
+                "image": "https://api.crm-s.com/images/users/1739456973.png"
+            },
+            "library": {
+                "id": 716,
+                "name": "Khmelnytsky"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 408,
+            "city_id": 10,
+            "item_id": 10,
+            "name": "Krakow",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-20T13:37:52.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": null,
+            "library": {
+                "id": 408,
+                "name": "Krakow"
+            },
+            "country": {
+                "id": 80,
+                "country_id": 7,
+                "iso2": "PL",
+                "iso3": "POL",
+                "name": "Poland",
+                "image": "https://api.crm-s.com/flags/pl.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 701,
+            "city_id": 24,
+            "item_id": 24,
+            "name": "Kropyvnytskyi",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-24T10:28:08.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 6,
+                "name": "Elena Yermakova",
+                "image": "https://api.crm-s.com/images/users/1739456973.png"
+            },
+            "library": {
+                "id": 701,
+                "name": "Kropyvnytskyi"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 23,
+            "city_id": 2,
+            "item_id": 2,
+            "name": "Kyiv",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-10T12:56:29.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 2,
+                "name": "Ezheleva Ekaterina",
+                "image": "https://api.crm-s.com/images/users/1737624069.jpg"
+            },
+            "library": {
+                "id": 23,
+                "name": "Kyiv"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 75,
+            "city_id": 3,
+            "item_id": 3,
+            "name": "London",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-10T16:41:40.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": null,
+            "library": {
+                "id": 75,
+                "name": "London"
+            },
+            "country": {
+                "id": 18,
+                "country_id": 1,
+                "iso2": "UK",
+                "iso3": "GBR",
+                "name": "United Kingdom",
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 415,
+            "city_id": 17,
+            "item_id": 17,
+            "name": "Los Angeles",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-20T17:00:22.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": null,
+            "library": {
+                "id": 415,
+                "name": "Los Angeles"
+            },
+            "country": {
+                "id": 85,
+                "country_id": 12,
+                "iso2": "US",
+                "iso3": "USA",
+                "name": "United States",
+                "image": "https://api.crm-s.com/flags/us.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 127,
+            "city_id": 6,
+            "item_id": 6,
+            "name": "Lviv",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-10T17:46:31.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": null,
+            "library": {
+                "id": 127,
+                "name": "Lviv"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 410,
+            "city_id": 12,
+            "item_id": 12,
+            "name": "Madrid",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-20T16:58:13.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": null,
+            "library": {
+                "id": 410,
+                "name": "Madrid"
+            },
+            "country": {
+                "id": 79,
+                "country_id": 6,
+                "iso2": "ES",
+                "iso3": "ESP",
+                "name": "Spain",
+                "image": "https://api.crm-s.com/flags/es.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 412,
+            "city_id": 14,
+            "item_id": 14,
+            "name": "Milan",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-20T16:58:59.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": null,
+            "library": {
+                "id": 412,
+                "name": "Milan"
+            },
+            "country": {
+                "id": 78,
+                "country_id": 5,
+                "iso2": "IT",
+                "iso3": "ITA",
+                "name": "Italy",
+                "image": "https://api.crm-s.com/flags/it.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 413,
+            "city_id": 15,
+            "item_id": 15,
+            "name": "Mykolaiv",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-20T16:59:10.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": null,
+            "library": {
+                "id": 413,
+                "name": "Mykolaiv"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 182,
+            "city_id": 7,
+            "item_id": 7,
+            "name": "New York",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-13T10:56:51.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 10,
+                "name": "Julia Kucherenko",
+                "image": null
+            },
+            "library": {
+                "id": 182,
+                "name": "New York"
+            },
+            "country": {
+                "id": 85,
+                "country_id": 12,
+                "iso2": "US",
+                "iso3": "USA",
+                "name": "United States",
+                "image": "https://api.crm-s.com/flags/us.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 125,
+            "city_id": 4,
+            "item_id": 4,
+            "name": "Odesa",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-10T17:32:15.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": null,
+            "library": {
+                "id": 125,
+                "name": "Odesa"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 126,
+            "city_id": 5,
+            "item_id": 5,
+            "name": "Oslo",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-10T17:32:43.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": null,
+            "library": {
+                "id": 126,
+                "name": "Oslo"
+            },
+            "country": {
+                "id": 117,
+                "country_id": 44,
+                "iso2": "NO",
+                "iso3": "NOR",
+                "name": "Norway",
+                "image": "https://api.crm-s.com/flags/no.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 1881,
+            "city_id": 35,
+            "item_id": 35,
+            "name": "Pavlograd",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2025-01-07T08:55:53.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 6,
+                "name": "Elena Yermakova",
+                "image": "https://api.crm-s.com/images/users/1739456973.png"
+            },
+            "library": {
+                "id": 1881,
+                "name": "Pavlograd"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 706,
+            "city_id": 25,
+            "item_id": 25,
+            "name": "Poltava",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-24T10:31:20.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 6,
+                "name": "Elena Yermakova",
+                "image": "https://api.crm-s.com/images/users/1739456973.png"
+            },
+            "library": {
+                "id": 706,
+                "name": "Poltava"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 348,
+            "city_id": 8,
+            "item_id": 8,
+            "name": "Remotely",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-17T11:34:06.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 6,
+                "name": "Elena Yermakova",
+                "image": "https://api.crm-s.com/images/users/1739456973.png"
+            },
+            "library": {
+                "id": 348,
+                "name": "Remotely"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 414,
+            "city_id": 16,
+            "item_id": 16,
+            "name": "Riga",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-20T16:59:40.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": null,
+            "library": {
+                "id": 414,
+                "name": "Riga"
+            },
+            "country": {
+                "id": 110,
+                "country_id": 37,
+                "iso2": "LV",
+                "iso3": "LVA",
+                "name": "Latvia",
+                "image": "https://api.crm-s.com/flags/lv.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 708,
+            "city_id": 26,
+            "item_id": 26,
+            "name": "Rivne",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-24T10:32:00.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 6,
+                "name": "Elena Yermakova",
+                "image": "https://api.crm-s.com/images/users/1739456973.png"
+            },
+            "library": {
+                "id": 708,
+                "name": "Rivne"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 409,
+            "city_id": 11,
+            "item_id": 11,
+            "name": "Rome",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-20T13:38:25.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": null,
+            "library": {
+                "id": 409,
+                "name": "Rome"
+            },
+            "country": {
+                "id": 78,
+                "country_id": 5,
+                "iso2": "IT",
+                "iso3": "ITA",
+                "name": "Italy",
+                "image": "https://api.crm-s.com/flags/it.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 709,
+            "city_id": 27,
+            "item_id": 27,
+            "name": "Sumy",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-24T10:32:48.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 6,
+                "name": "Elena Yermakova",
+                "image": "https://api.crm-s.com/images/users/1739456973.png"
+            },
+            "library": {
+                "id": 709,
+                "name": "Sumy"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 711,
+            "city_id": 28,
+            "item_id": 28,
+            "name": "Ternopil",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-24T10:33:15.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 6,
+                "name": "Elena Yermakova",
+                "image": "https://api.crm-s.com/images/users/1739456973.png"
+            },
+            "library": {
+                "id": 711,
+                "name": "Ternopil"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 695,
+            "city_id": 21,
+            "item_id": 21,
+            "name": "Uzhhorod",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-24T10:26:02.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 6,
+                "name": "Elena Yermakova",
+                "image": "https://api.crm-s.com/images/users/1739456973.png"
+            },
+            "library": {
+                "id": 695,
+                "name": "Uzhhorod"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 2529,
+            "city_id": 36,
+            "item_id": 36,
+            "name": "Vienna",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2025-05-29T08:31:51.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 3,
+                "name": "Approved",
+                "color": "rgb(5, 255, 0)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 2,
+                "name": "Ezheleva Ekaterina",
+                "image": "https://api.crm-s.com/images/users/1737624069.jpg"
+            },
+            "library": {
+                "id": 2529,
+                "name": "Vienna"
+            },
+            "country": {
+                "id": 99,
+                "country_id": 26,
+                "iso2": "AT",
+                "iso3": "AUT",
+                "name": "Austria",
+                "image": "https://api.crm-s.com/flags/at.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 687,
+            "city_id": 18,
+            "item_id": 18,
+            "name": "Vinnytsia",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-24T10:23:12.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 6,
+                "name": "Elena Yermakova",
+                "image": "https://api.crm-s.com/images/users/1739456973.png"
+            },
+            "library": {
+                "id": 687,
+                "name": "Vinnytsia"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 2530,
+            "city_id": 37,
+            "item_id": 37,
+            "name": "Warsaw",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2025-05-30T10:48:55.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 3,
+                "name": "Approved",
+                "color": "rgb(5, 255, 0)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 2,
+                "name": "Ezheleva Ekaterina",
+                "image": "https://api.crm-s.com/images/users/1737624069.jpg"
+            },
+            "library": {
+                "id": 2530,
+                "name": "Warsaw"
+            },
+            "country": {
+                "id": 80,
+                "country_id": 7,
+                "iso2": "PL",
+                "iso3": "POL",
+                "name": "Poland",
+                "image": "https://api.crm-s.com/flags/pl.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 696,
+            "city_id": 22,
+            "item_id": 22,
+            "name": "Zaporizhzhya",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-24T10:26:33.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 6,
+                "name": "Elena Yermakova",
+                "image": "https://api.crm-s.com/images/users/1739456973.png"
+            },
+            "library": {
+                "id": 696,
+                "name": "Zaporizhzhya"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        },
+        {
+            "id": 691,
+            "city_id": 20,
+            "item_id": 20,
+            "name": "Zhytomyr",
+            "latitude": null,
+            "longitude": null,
+            "created_at": "2024-09-24T10:24:48.000000Z",
+            "translation": {
+                "id": 1,
+                "language_id": 1,
+                "iso2": "EN",
+                "iso3": "ENG",
+                "name": "English",
+                "is_translated": 0,
+                "image": "https://api.crm-s.com/flags/gb.png",
+                "image_icon": null,
+                "description": null
+            },
+            "status": {
+                "id": 1,
+                "name": "Pending",
+                "color": "rgb(159, 64, 234)"
+            },
+            "priority": {
+                "id": 1,
+                "name": "Primary",
+                "color": "#ff0000"
+            },
+            "description": null,
+            "image_icon": null,
+            "created_by": {
+                "id": 6,
+                "name": "Elena Yermakova",
+                "image": "https://api.crm-s.com/images/users/1739456973.png"
+            },
+            "library": {
+                "id": 691,
+                "name": "Zhytomyr"
+            },
+            "country": {
+                "id": 20,
+                "country_id": 2,
+                "iso2": "UA",
+                "iso3": "UKR",
+                "name": "Ukraine",
+                "image": "https://api.crm-s.com/flags/ua.png",
+                "image_icon": null,
+                "description": null
+            },
+            "progressable_type": "Modules\\Library\\Models\\City",
+            "count_edits": 0
+        }
+    ],
+    "entity_block_id": 69,
+    "count_edits": 0,
+    "fields": {
+        "name": "Name",
+        "entity_id": "Entity",
+        "created_at": "Created At",
+        "actions": "Actions",
+        "description": "Description",
+        "status_id": "Status",
+        "created_by": "Created By",
+        "translation_id": "Translation",
+        "library_id": "Library",
+        "latitude": "Latitude",
+        "longitude": "Longitude",
+        "priority_id": "Priority",
+        "country": "Country",
+        "image_icon": "Image Icon"
+    }
+}

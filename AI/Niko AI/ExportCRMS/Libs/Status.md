@@ -1,0 +1,104 @@
+{
+    "data": [
+        {
+            "id": 6,
+            "name": "Application",
+            "color": "rgb(184, 9, 246)"
+        },
+        {
+            "id": 3,
+            "name": "Approved",
+            "color": "rgb(5, 255, 0)"
+        },
+        {
+            "id": 12,
+            "name": "Black list",
+            "color": "rgb(25, 22, 22)"
+        },
+        {
+            "id": 19,
+            "name": "Closed",
+            "color": "rgb(191, 92, 92)"
+        },
+        {
+            "id": 10,
+            "name": "Denied",
+            "color": "rgb(248, 57, 57)"
+        },
+        {
+            "id": 20,
+            "name": "Didn't start",
+            "color": "rgb(186, 176, 176)"
+        },
+        {
+            "id": 14,
+            "name": "Follow up",
+            "color": "rgb(227, 224, 158)"
+        },
+        {
+            "id": 18,
+            "name": "Hired",
+            "color": "rgb(185, 228, 92)"
+        },
+        {
+            "id": 11,
+            "name": "Interview",
+            "color": "rgb(194, 244, 144)"
+        },
+        {
+            "id": 4,
+            "name": "New",
+            "color": "rgb(235, 0, 255)"
+        },
+        {
+            "id": 8,
+            "name": "No answer",
+            "color": "rgb(51, 40, 182)"
+        },
+        {
+            "id": 2,
+            "name": "Not approved",
+            "color": "rgb(242, 0, 0)"
+        },
+        {
+            "id": 16,
+            "name": "Not interested",
+            "color": "rgb(118, 30, 30)"
+        },
+        {
+            "id": 17,
+            "name": "Not looking",
+            "color": "rgb(150, 125, 125)"
+        },
+        {
+            "id": 7,
+            "name": "Not relevant",
+            "color": "rgb(193, 97, 97)"
+        },
+        {
+            "id": 1,
+            "name": "Pending",
+            "color": "rgb(159, 64, 234)"
+        },
+        {
+            "id": 5,
+            "name": "Published",
+            "color": "rgb(11, 113, 232)"
+        },
+        {
+            "id": 15,
+            "name": "Refused",
+            "color": "rgb(218, 127, 143)"
+        },
+        {
+            "id": 13,
+            "name": "Started",
+            "color": "rgb(242, 114, 59)"
+        },
+        {
+            "id": 9,
+            "name": "Video",
+            "color": "rgb(14, 227, 214)"
+        }
+    ]
+}
