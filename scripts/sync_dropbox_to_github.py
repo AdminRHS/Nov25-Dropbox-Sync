@@ -509,6 +509,24 @@ class DropboxToGitHubSync:
             self.log("Staging changes...")
             subprocess.run(["git", "add", "-A"], check=True, cwd=os.getcwd())
             
+            # Remove any nested .git directories from staging to prevent submodule issues
+            self.log("Cleaning up nested git repositories...")
+            try:
+                result = subprocess.run(
+                    ["git", "ls-files", "--cached"],
+                    capture_output=True,
+                    text=True,
+                    cwd=os.getcwd()
+                )
+                if result.returncode == 0:
+                    for line in result.stdout.strip().split('\n'):
+                        if line and '/.git/' in line:
+                            # Remove file from staging if it's inside a .git directory
+                            subprocess.run(["git", "rm", "--cached", "--ignore-unmatch", line], cwd=os.getcwd())
+                            self.log(f"Removed nested .git file from staging: {line}")
+            except Exception as e:
+                self.log(f"Warning: Could not clean nested git repos: {e}", "WARN")
+            
             self.log("=" * 80)
             self.log("Sync Complete")
             self.log("=" * 80)
