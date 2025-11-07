@@ -19,16 +19,17 @@
 ## Prioritized Action Items
 
 ### High Priority
-1. **[Task Name]**
-   - Goal:
-   - Expected outcome:
+1. **[Create a main page]**
+   - Goal: create an acceptable version of website
+   - Expected outcome: create an acceptable version of website what can be used 
    - Deadline:
 
 ### Medium Priority
-1. **[Task Name]**
-   - Goal:
-   - Expected outcome:
+1. **[Make the 3d variant of the employee card]**
+   - Goal:create an acceptable version of employee card 
+   - Expected outcome: create an acceptable version of employee card what can be used 
    - Deadline:
+
 
 ### Low Priority
 1. **[Task Name]**

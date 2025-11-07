@@ -35,9 +35,14 @@
 
 ---
 
-### [Time] - [Activity Name]
+### 10:20 a.m. – 2:00 p.m., 3:00 p.m. – 6:00 p.m. - Job Sites Task
 **What I worked on:**
--
+- Started working on Job Sites Task
+- Reviewed and selected relevant companies
+- Added companies to CRM system using Re-E extension (new version - previously tested and works efficiently)
+- Used SalesQL extension to collect contact information from leads' LinkedIn profiles
+- Added collected contact details to CRM system
+- Used ChatGPT and DeepL translation tools to verify job titles and company roles for accuracy
 
 **Whisper Flow Transcript:**
 
@@ -45,7 +50,11 @@
 
 
 **Outcomes:**
--
+- Successfully reviewed and selected relevant companies
+- Contact information collected and verified using multiple tools
+- All leads added to CRM system with accurate position information
+- Efficient use of Re-E extension for CRM management
+- Productive day managing Job Sites Task
 
 ---
 

@@ -12,12 +12,12 @@
 ## Task 1: [Task Name from plans.md]
 
 ### Steps:
-1. [Specific step 1]
-2. [Specific step 2]
+1. [Use the AI to help with the code]
+2. [AI gave the instructions how to change code]
 3. [Specific step 3]
 
 ### Resources and Links:
-- [Resource name](URL)
+- [Google disk](https://docs.google.com/document/d/19_zVA4f2pvxLXwF560pw1oDGfKvkN7uVgDa-k7f8lBk/edit?tab=t.0#heading=h.x8d3iiniallo)
 - [Tool or Document](URL)
 
 ### Instructions:
@@ -30,13 +30,13 @@ Detailed instructions for execution...
 ## Task 2: [Task Name from plans.md]
 
 ### Steps:
-1. [Specific step 1]
-2. [Specific step 2]
-3. [Specific step 3]
+1. [Find references]
+2. [Use an AI to create a promt ]
+3. [Make changes until you make an accptable variant]
 
 ### Resources and Links:
 - [Resource name](URL)
-- [Tool or Document](URL)
+- [Figma](https://docs.google.com/document/d/18CUtUWT2yoqMem2S9Oy_RuQubtZfKk9862RPi6b1A0c/edit?tab=t.0)
 
 ### Instructions:
 
@@ -48,17 +48,35 @@ Detailed instructions for execution...
 ## Task 3: [Task Name from plans.md]
 
 ### Steps:
-1. [Specific step 1]
-2. [Specific step 2]
+1. [Use the AI to help with the code]
+2. [Make changes manually]
 3. [Specific step 3]
 
 ### Resources and Links:
-- [Resource name](URL)
+- [Google Disk](https://docs.google.com/document/d/1Wn8DJquejx8Mjm5tVkYmG-ZfTaMGnao7DZHwHCwzq50/edit?usp=drive_link)
 - [Tool or Document](URL)
 
 ### Instructions:
 
 Detailed instructions for execution...
+
+---
+
+## Task 4: [Task Name from plans.md]
+
+### Steps:
+1. [Use two codes to implement the right employee card]
+2. [Use AI instructions]
+3. [Download to google disk]
+
+### Resources and Links:
+- [Google disk](https://docs.google.com/document/d/15wM1YcvVBq9HWsxe6IgsGOfKs612_AHMYtRTev8nwVA/edit?tab=t.0#heading=h.8qlp6p6klz5)
+- [Tool or Document](URL)
+
+### Instructions:
+
+Detailed instructions for execution...
+
 
 
 ---
