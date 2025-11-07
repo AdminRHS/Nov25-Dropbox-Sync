@@ -62,18 +62,24 @@ jobs:
         # Remove submodule entries if they exist without .gitmodules
         git rm --cached --ignore-unmatch 'Design/Safonova Eleonora/AdminRHS-AI-Catalog-4' || true
         
-        # Remove entire directories that contain .git
-        find . -type d -name '.git' -not -path './.git' | while read dir; do
+        # Remove entire directories that contain .git (but be careful not to remove everything)
+        find . -type d -name '.git' -not -path './.git' -not -path './.git/*' | while read dir; do
           parent_dir=$(dirname "$dir")
-          git rm -r --cached --ignore-unmatch "$parent_dir" || true
+          # Only remove if parent_dir is not root
+          if [ "$parent_dir" != "." ]; then
+            git rm -r --cached --ignore-unmatch "$parent_dir" || true
+          fi
         done
         
-        git commit -m "Sync from Dropbox - $(date '+%Y-%m-%d %H:%M:%S UTC')" || true
+        # If there are staged changes, commit them
+        if ! git diff --staged --quiet; then
+          git commit -m "Sync from Dropbox - $(date '+%Y-%m-%d %H:%M:%S UTC')" || true
+        fi
         
-        # Pull with rebase to handle conflicts
+        # Pull with rebase to handle conflicts, but abort if it fails
         git pull origin main --rebase || git rebase --abort || true
         
-        # Push changes
+        # Push changes (use force-with-lease only if needed)
         git push origin main || git push origin main --force-with-lease
     
     - name: Upload sync logs
