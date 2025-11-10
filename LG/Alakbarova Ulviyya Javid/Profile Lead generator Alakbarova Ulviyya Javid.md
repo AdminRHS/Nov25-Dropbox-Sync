@@ -19,7 +19,7 @@
 - **Profession:** lead generator
 - **Shift:** Day
 - **Rate:** 1
-- **Status:** Part Project + Part Time
+- **Status:** Available
 
 ## Skills
 

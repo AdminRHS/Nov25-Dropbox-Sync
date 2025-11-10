@@ -29,7 +29,7 @@
 ### [Time] - [Activity Name]
 **What I worked on:**
 -Job sites
-
+no meetings were held today, hence there was no need to use wihisper flow.
 **Whisper Flow Transcript:**
 
 [Paste transcript here]
@@ -37,7 +37,7 @@
 
 **Outcomes:**
 -
-
+Worked with job sites and met my goals set.
 ---
 
 ## Notes

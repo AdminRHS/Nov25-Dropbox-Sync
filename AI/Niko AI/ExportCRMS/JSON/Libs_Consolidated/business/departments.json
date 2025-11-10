@@ -1,0 +1,1629 @@
+{
+  "version": "1.0",
+  "source": "Libs_JSON_old/Department.json",
+  "consolidated_date": "2025-11-07",
+  "total_departments": 15,
+  "total_professions": 230,
+  "data": [
+    {
+      "id": 4,
+      "name": "Designers",
+      "color": "rgb(151, 71, 255)",
+      "translation": {
+        "language": "English",
+        "iso2": "EN"
+      },
+      "professions": [
+        {
+          "id": 1,
+          "name": "3d designer",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 2,
+          "name": "Graphic designer",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 3,
+          "name": "Illustrator",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 4,
+          "name": "Interior designer",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 5,
+          "name": "UI UX designer",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 6,
+          "name": "Web designer",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 7,
+          "name": "Wordpress designer",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 8,
+          "name": "Vizualizer",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 97,
+          "name": "Visual Designer",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 98,
+          "name": "Brand Identity Designer",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 99,
+          "name": "Creative Designer",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 100,
+          "name": "Marketing Designer",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 101,
+          "name": "Digital Media Designer",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 102,
+          "name": "Character Designer",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 103,
+          "name": "Concept Artist",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 104,
+          "name": "Digital Painter",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 105,
+          "name": "Comic Artist",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 106,
+          "name": "Storyboard Artist",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 107,
+          "name": "Website Designer",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 108,
+          "name": "Visual Web Designer",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 109,
+          "name": "Web Interface Designer",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 110,
+          "name": "Online Content Designer",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 111,
+          "name": "Wall Design Specialist",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 112,
+          "name": "Surface Design Consultant",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 113,
+          "name": "Decorative Solutions Designer",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 114,
+          "name": "Interior Styling Expert",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 115,
+          "name": "Wall Aesthetics Specialist",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 116,
+          "name": "Interaction Designer",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 117,
+          "name": "Product Designer",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 118,
+          "name": "User Interface Designer",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 119,
+          "name": "UX Architect",
+          "is_translated": false,
+          "department_id": 4
+        },
+        {
+          "id": 120,
+          "name": "Lead User Experience Designer.",
+          "is_translated": false,
+          "department_id": 4
+        }
+      ],
+      "profession_count": 32,
+      "metadata": {
+        "created_at": "2024-09-10T15:22:37.000000Z",
+        "created_by": null
+      }
+    },
+    {
+      "id": 2,
+      "name": "Developers",
+      "color": "rgb(61, 183, 124)",
+      "translation": {
+        "language": "English",
+        "iso2": "EN"
+      },
+      "professions": [
+        {
+          "id": 9,
+          "name": "Back end developer",
+          "is_translated": false,
+          "department_id": 2
+        },
+        {
+          "id": 10,
+          "name": "Front end developer",
+          "is_translated": false,
+          "department_id": 2
+        },
+        {
+          "id": 11,
+          "name": "Full stack developer",
+          "is_translated": false,
+          "department_id": 2
+        },
+        {
+          "id": 12,
+          "name": "Mobile developer",
+          "is_translated": false,
+          "department_id": 2
+        },
+        {
+          "id": 13,
+          "name": "QA",
+          "is_translated": false,
+          "department_id": 2
+        },
+        {
+          "id": 14,
+          "name": "System administrator",
+          "is_translated": false,
+          "department_id": 2
+        },
+        {
+          "id": 53,
+          "name": "UI developer",
+          "is_translated": false,
+          "department_id": 2
+        },
+        {
+          "id": 54,
+          "name": "Client-Side Developer",
+          "is_translated": false,
+          "department_id": 2
+        },
+        {
+          "id": 55,
+          "name": "User Interface Developer",
+          "is_translated": false,
+          "department_id": 2
+        },
+        {
+          "id": 56,
+          "name": "Interface Engineer",
+          "is_translated": false,
+          "department_id": 2
+        },
+        {
+          "id": 57,
+          "name": "Frontend Engineer",
+          "is_translated": false,
+          "department_id": 2
+        }
+      ],
+      "profession_count": 11,
+      "metadata": {
+        "created_at": "2024-09-10T15:22:22.000000Z",
+        "created_by": null
+      }
+    },
+    {
+      "id": 1,
+      "name": "Managers",
+      "color": "rgb(255, 87, 87)",
+      "translation": {
+        "language": "English",
+        "iso2": "EN"
+      },
+      "professions": [
+        {
+          "id": 15,
+          "name": "Project manager",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 16,
+          "name": "Product manager",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 17,
+          "name": "Financial manager",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 18,
+          "name": "Analyst",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 19,
+          "name": "Chat operator",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 20,
+          "name": "Lead generator",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 21,
+          "name": "Personal assistant",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 22,
+          "name": "HR manager",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 23,
+          "name": "Recruiter",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 24,
+          "name": "Account manager",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 25,
+          "name": "Sales manager",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 26,
+          "name": "Investment manager",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 27,
+          "name": "Event manager",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 28,
+          "name": "Tourism manager",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 43,
+          "name": "Prompt engineer",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 58,
+          "name": "Account executive",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 59,
+          "name": "Business development manager",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 60,
+          "name": "Data entry specialist",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 61,
+          "name": "Lead qualification specialist",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 62,
+          "name": "Lead researcher",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 63,
+          "name": "Scrum master",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 64,
+          "name": "Agile coach",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 65,
+          "name": "Project coordinator",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 66,
+          "name": "Project specialist",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 67,
+          "name": "Workflow manager",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 78,
+          "name": "Bookkeeper",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 79,
+          "name": "Accountant",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 80,
+          "name": "Finance officer",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 81,
+          "name": "Financier",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 82,
+          "name": "Financial controller",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 92,
+          "name": "Secretary",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 93,
+          "name": "Executive assistant",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 94,
+          "name": "Administrative assistant",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 95,
+          "name": "Schedule manager",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 96,
+          "name": "Shift manager",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 217,
+          "name": "Contact manager",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 218,
+          "name": "Спеціаліст із залучення потенційних партнерів",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 219,
+          "name": "Фахівець по внесенню даних",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 220,
+          "name": "Оператор відео чату",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 221,
+          "name": "Менеджер із пошуку бізнес-партнерів",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 222,
+          "name": "Оператор чату",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 223,
+          "name": "Менеджер з підтримки клієнтів",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 224,
+          "name": "Менеджер із розвитку бази контактів",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 225,
+          "name": "Спеціаліст пошуку кадрів",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 226,
+          "name": "Менеджер з найму",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 227,
+          "name": "Консультант з підбору персоналу",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 228,
+          "name": "Фахівець з пошуку талантів",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 229,
+          "name": "Спеціаліст з ресурсів",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 230,
+          "name": "Стратег з найму персоналу",
+          "is_translated": false,
+          "department_id": 1
+        },
+        {
+          "id": 233,
+          "name": "Administrator",
+          "is_translated": false,
+          "department_id": 1
+        }
+      ],
+      "profession_count": 50,
+      "metadata": {
+        "created_at": "2024-09-10T15:22:14.000000Z",
+        "created_by": null
+      }
+    },
+    {
+      "id": 3,
+      "name": "Marketers",
+      "color": "rgb(255, 64, 129)",
+      "translation": {
+        "language": "English",
+        "iso2": "EN"
+      },
+      "professions": [
+        {
+          "id": 29,
+          "name": "Translator",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 30,
+          "name": "Affiliate manager",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 31,
+          "name": "Content manager",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 32,
+          "name": "Copywriter",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 33,
+          "name": "Email marketer",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 34,
+          "name": "Influencer manager",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 35,
+          "name": "Linkbuilder",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 36,
+          "name": "Media buyer",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 37,
+          "name": "PPC specialist",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 38,
+          "name": "PR manager",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 39,
+          "name": "Proofreader",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 40,
+          "name": "SEO manager",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 41,
+          "name": "Social media manager",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 42,
+          "name": "Targetologist",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 47,
+          "name": "Direct manager",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 48,
+          "name": "SEO Specialist",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 49,
+          "name": "SEO strategist",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 50,
+          "name": "Search optimization specialit",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 51,
+          "name": "Search marketing manager",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 52,
+          "name": "Search engine marketer",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 68,
+          "name": "Media buying specialist",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 69,
+          "name": "Digital media planner",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 70,
+          "name": "Ad buying manager",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 71,
+          "name": "Media strategist",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 72,
+          "name": "Traffic buyer",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 73,
+          "name": "Campaign strategist",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 74,
+          "name": "Targeting Strategist",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 75,
+          "name": "Digital ads manager",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 76,
+          "name": "Ad operations specialist",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 77,
+          "name": "Ads targeting manager",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 87,
+          "name": "SMM Manager",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 88,
+          "name": "Social media marketer",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 89,
+          "name": "Content strategist",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 90,
+          "name": "Social media specialist",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 91,
+          "name": "Social media campaign manager",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 213,
+          "name": "Instagram Ad Specialist",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 214,
+          "name": "Facebook Ad Specialist",
+          "is_translated": false,
+          "department_id": 3
+        },
+        {
+          "id": 215,
+          "name": "LinkedIn Ad Specialist",
+          "is_translated": false,
+          "department_id": 3
+        }
+      ],
+      "profession_count": 38,
+      "metadata": {
+        "created_at": "2024-09-10T15:22:29.000000Z",
+        "created_by": null
+      }
+    },
+    {
+      "id": 13,
+      "name": "Marketingowcy",
+      "color": "rgb(255, 64, 129)",
+      "translation": {
+        "language": "Polish",
+        "iso2": "PL"
+      },
+      "professions": [
+        {
+          "id": 1413,
+          "name": "Tłumacz",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1425,
+          "name": "Menedżer SMM",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1424,
+          "name": "Menedżer SEO",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1423,
+          "name": "Redaktor",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1422,
+          "name": "Menedżer PR",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1421,
+          "name": "Specjalista PPC",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1420,
+          "name": "Media buyer",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1419,
+          "name": "Link builder",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1418,
+          "name": "Specjalista ds. marketingu influencerskiego",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1417,
+          "name": "Specjalista ds. e-mail marketingu",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1416,
+          "name": "Copywriter",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1415,
+          "name": "Menedżer treści",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1414,
+          "name": "Menedżer afiliacyjny",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1426,
+          "name": "Specjalista ds. targetowania",
+          "is_translated": 1,
+          "department_id": null
+        }
+      ],
+      "profession_count": 14,
+      "metadata": {
+        "created_at": "2024-11-22T14:29:31.000000Z",
+        "created_by": "Artemchuk Nikolay"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Menedżerowie",
+      "color": "rgb(255, 87, 87)",
+      "translation": {
+        "language": "Polish",
+        "iso2": "PL"
+      },
+      "professions": [
+        {
+          "id": 1399,
+          "name": "Kierownik projektów",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1412,
+          "name": "Menedżer turystyki",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1411,
+          "name": "Menedżer eventów",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1410,
+          "name": "Menedżer inwestycyjny",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1409,
+          "name": "Menedżer sprzedaży",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1408,
+          "name": "Menedżer klienta",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1407,
+          "name": "Rekruter",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1406,
+          "name": "Menedżer HR",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1405,
+          "name": "Asystent osobisty",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1404,
+          "name": "Specjalista ds. generowania leadów",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1403,
+          "name": "Operator czatu",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1402,
+          "name": "Analityk",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1401,
+          "name": "Menedżer finansowy",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1400,
+          "name": "Menedżer produktu",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1427,
+          "name": "Inżynier AI",
+          "is_translated": 1,
+          "department_id": null
+        }
+      ],
+      "profession_count": 15,
+      "metadata": {
+        "created_at": "2024-11-22T14:29:31.000000Z",
+        "created_by": "Artemchuk Nikolay"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Programiści",
+      "color": "rgb(61, 183, 124)",
+      "translation": {
+        "language": "Polish",
+        "iso2": "PL"
+      },
+      "professions": [
+        {
+          "id": 1393,
+          "name": "Programista backend",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1394,
+          "name": "Programista frontend",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1395,
+          "name": "Programista full-stack",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1396,
+          "name": "Programista aplikacji mobilnych",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1397,
+          "name": "Specjalista QA",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1398,
+          "name": "Administrator systemów",
+          "is_translated": 1,
+          "department_id": null
+        }
+      ],
+      "profession_count": 6,
+      "metadata": {
+        "created_at": "2024-11-22T14:29:31.000000Z",
+        "created_by": "Artemchuk Nikolay"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Projektanci",
+      "color": "rgb(151, 71, 255)",
+      "translation": {
+        "language": "Polish",
+        "iso2": "PL"
+      },
+      "professions": [
+        {
+          "id": 1385,
+          "name": "Projektant 3D",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1386,
+          "name": "Grafik",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1387,
+          "name": "Ilustrator",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1388,
+          "name": "Projektant wnętrz",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1389,
+          "name": "Projektant UI/UX",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1390,
+          "name": "Projektant stron internetowych",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1391,
+          "name": "Projektant Wordpress",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1392,
+          "name": "Wizualizator",
+          "is_translated": 1,
+          "department_id": null
+        }
+      ],
+      "profession_count": 8,
+      "metadata": {
+        "created_at": "2024-11-22T14:29:32.000000Z",
+        "created_by": "Artemchuk Nikolay"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Videographers",
+      "color": "rgb(126, 207, 203)",
+      "translation": {
+        "language": "English",
+        "iso2": "EN"
+      },
+      "professions": [
+        {
+          "id": 44,
+          "name": "Mobile video editor",
+          "is_translated": false,
+          "department_id": 5
+        },
+        {
+          "id": 45,
+          "name": "Video editor",
+          "is_translated": false,
+          "department_id": 5
+        },
+        {
+          "id": 46,
+          "name": "Motion designer",
+          "is_translated": false,
+          "department_id": 5
+        },
+        {
+          "id": 83,
+          "name": "Reels\\Shorts creator",
+          "is_translated": false,
+          "department_id": 5
+        },
+        {
+          "id": 84,
+          "name": "Video content creator",
+          "is_translated": false,
+          "department_id": 5
+        },
+        {
+          "id": 85,
+          "name": "Mobile content editor",
+          "is_translated": false,
+          "department_id": 5
+        },
+        {
+          "id": 86,
+          "name": "Mobilograph",
+          "is_translated": false,
+          "department_id": 5
+        }
+      ],
+      "profession_count": 7,
+      "metadata": {
+        "created_at": "2024-09-16T10:23:13.000000Z",
+        "created_by": null
+      }
+    },
+    {
+      "id": 15,
+      "name": "Wideografowie",
+      "color": "rgb(126, 207, 203)",
+      "translation": {
+        "language": "Polish",
+        "iso2": "PL"
+      },
+      "professions": [
+        {
+          "id": 1428,
+          "name": "Mobilograf",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1429,
+          "name": "Wideograf",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1430,
+          "name": "Motion designer",
+          "is_translated": 1,
+          "department_id": null
+        }
+      ],
+      "profession_count": 3,
+      "metadata": {
+        "created_at": "2024-11-22T14:29:32.000000Z",
+        "created_by": "Artemchuk Nikolay"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Відеографери",
+      "color": "rgb(126, 207, 203)",
+      "translation": {
+        "language": "Ukrainian",
+        "iso2": "UA"
+      },
+      "professions": [
+        {
+          "id": 1164,
+          "name": "Мобілограф",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1165,
+          "name": "Відеограф",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1166,
+          "name": "Моушн дизайнер",
+          "is_translated": 1,
+          "department_id": null
+        }
+      ],
+      "profession_count": 3,
+      "metadata": {
+        "created_at": "2024-11-08T11:46:09.000000Z",
+        "created_by": "Artemchuk Nikolay"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Дизайнери",
+      "color": "rgb(151, 71, 255)",
+      "translation": {
+        "language": "Ukrainian",
+        "iso2": "UA"
+      },
+      "professions": [
+        {
+          "id": 1121,
+          "name": "3D дизайнер",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1122,
+          "name": "Графічний дизайнер",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1123,
+          "name": "Ілюстратор",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1124,
+          "name": "Дизайнер інтер'єру",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1125,
+          "name": "UI/UX дизайнер",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1126,
+          "name": "Веб дизайнер",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1127,
+          "name": "Wordpress дизайнер",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1128,
+          "name": "Візуалізатор",
+          "is_translated": 1,
+          "department_id": null
+        }
+      ],
+      "profession_count": 8,
+      "metadata": {
+        "created_at": "2024-11-08T11:46:09.000000Z",
+        "created_by": "Artemchuk Nikolay"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Маркетери",
+      "color": "rgb(255, 64, 129)",
+      "translation": {
+        "language": "Ukrainian",
+        "iso2": "UA"
+      },
+      "professions": [
+        {
+          "id": 1149,
+          "name": "Перекладач",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1161,
+          "name": "SMM менеджер",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1160,
+          "name": "SEO менеджер",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1159,
+          "name": "Редактор",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1158,
+          "name": "PR менеджер",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1157,
+          "name": "PPC спеціаліст",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1156,
+          "name": "Медіабаєр",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1155,
+          "name": "Лінкбілдер",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1154,
+          "name": "Інфлюенс маркетолог",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1153,
+          "name": "Email маркетолог",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1152,
+          "name": "Копірайтер",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1151,
+          "name": "Контент менеджер",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1150,
+          "name": "Афіліат менеджер",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1162,
+          "name": "Таргетолог",
+          "is_translated": 1,
+          "department_id": null
+        }
+      ],
+      "profession_count": 14,
+      "metadata": {
+        "created_at": "2024-11-08T11:46:09.000000Z",
+        "created_by": "Artemchuk Nikolay"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Менеджери",
+      "color": "rgb(255, 87, 87)",
+      "translation": {
+        "language": "Ukrainian",
+        "iso2": "UA"
+      },
+      "professions": [
+        {
+          "id": 1135,
+          "name": "Менеджер проєктів",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1148,
+          "name": "Менеджер з туризму",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1147,
+          "name": "Івент-менеджер",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1146,
+          "name": "Інвестиційний менеджер",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1145,
+          "name": "Менеджер з продажу",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1144,
+          "name": "Акаунт менеджер",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1143,
+          "name": "Рекрутер",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1142,
+          "name": "HR менеджер",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1141,
+          "name": "Персональний асистент",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1140,
+          "name": "Лідогенератор",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1139,
+          "name": "Оператор чату",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1138,
+          "name": "Аналітик",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1137,
+          "name": "Фінансовий менеджер",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1136,
+          "name": "Менеджер продукту",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1163,
+          "name": "ШІ-інженер",
+          "is_translated": 1,
+          "department_id": null
+        }
+      ],
+      "profession_count": 15,
+      "metadata": {
+        "created_at": "2024-11-08T11:46:08.000000Z",
+        "created_by": "Artemchuk Nikolay"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Розробники",
+      "color": "rgb(61, 183, 124)",
+      "translation": {
+        "language": "Ukrainian",
+        "iso2": "UA"
+      },
+      "professions": [
+        {
+          "id": 1129,
+          "name": "Бекенд розробник",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1130,
+          "name": "Фронтенд розробник",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1131,
+          "name": "Фулстек розробник",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1132,
+          "name": "Мобільний розробник",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1133,
+          "name": "QA спеціаліст",
+          "is_translated": 1,
+          "department_id": null
+        },
+        {
+          "id": 1134,
+          "name": "Системний адміністратор",
+          "is_translated": 1,
+          "department_id": null
+        }
+      ],
+      "profession_count": 6,
+      "metadata": {
+        "created_at": "2024-11-08T11:46:09.000000Z",
+        "created_by": "Artemchuk Nikolay"
+      }
+    }
+  ]
+}

@@ -60,8 +60,8 @@ Detailed instructions for execution...
 
 Detailed instructions for execution...
 
-
----
+I have accomplished task 2
+---I have accomplished all set task today.
 
 ## Reminder
 - Break down each plan into steps

@@ -1,0 +1,1669 @@
+{
+  "version": "1.0",
+  "source": "Libs_JSON_old/industry.json",
+  "consolidated_date": "2025-11-07",
+  "total_industries": 151,
+  "data": [
+    {
+      "id": 35,
+      "name": "Accounting & Audit",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:05:41.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 73,
+      "name": "Administration of Justice",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:44:15.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Advertising",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T07:47:18.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 155,
+      "name": "Aerospace",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:32:01.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 39,
+      "name": "Agriculture",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:07:02.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 30,
+      "name": "Airlines/Aviation",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:03:32.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 147,
+      "name": "Alternative Medicine",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:31:58.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 117,
+      "name": "Animation",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:48:33.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Apparel & Fashion",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T07:57:02.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 40,
+      "name": "Architecture, Landscape & Interior Design",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:07:26.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 77,
+      "name": "Art & Culture",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:45:33.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 66,
+      "name": "Automotive",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:41:00.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 141,
+      "name": "Banking",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:31:53.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 46,
+      "name": "Broadcast Media",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:31:27.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 138,
+      "name": "Building Materials",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:31:51.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 31,
+      "name": "Business",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:03:48.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Business Supplies & Equipment",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:00:19.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 113,
+      "name": "Capital Markets",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:47:13.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 32,
+      "name": "Chemicals",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:04:06.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 49,
+      "name": "Civic and Social Organizations",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:32:30.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 129,
+      "name": "Civil Engineering",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:52:25.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 50,
+      "name": "Computer Games",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:33:01.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 110,
+      "name": "Computer Science & Engineering",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:46:05.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Computer Software",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T07:48:11.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 41,
+      "name": "Computers and Electronics Manufacturing",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:07:45.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 45,
+      "name": "Construction",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:31:07.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 81,
+      "name": "Consumer Goods",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:29:40.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Consumer Services",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T07:52:36.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 97,
+      "name": "Cosmetics",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:35:08.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 126,
+      "name": "Cybersecurity",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:51:36.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 83,
+      "name": "Dairy",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:30:17.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 111,
+      "name": "Data Processing",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:46:31.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 153,
+      "name": "Defense & Space",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:32:00.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 84,
+      "name": "Dentistry",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:30:38.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Design",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T07:50:06.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 127,
+      "name": "Ecology",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:51:53.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 115,
+      "name": "Ecommerce",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:48:00.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 53,
+      "name": "Education & Science",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:34:13.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 54,
+      "name": "Education Management",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:35:01.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 51,
+      "name": "Elearning",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:33:30.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Electrical & Electronic Manufacturing",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T07:54:11.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 86,
+      "name": "Electronics",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:31:14.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 131,
+      "name": "Engineering",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:52:57.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Entertainment",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:01:57.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 37,
+      "name": "Environment",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:06:22.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 27,
+      "name": "Events Services",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:02:32.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 56,
+      "name": "Executive Office",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:35:36.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 140,
+      "name": "Facilities Services",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:31:52.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Finance",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:00:58.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 87,
+      "name": "Fishery",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:31:36.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 43,
+      "name": "Food & Beverages",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:25:21.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 42,
+      "name": "Food Production",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:24:50.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 88,
+      "name": "Fund-Raising",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:32:08.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 58,
+      "name": "Furniture",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:36:34.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 29,
+      "name": "Gambling & Casinos",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:03:16.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 80,
+      "name": "Glass, Ceramics & Concrete",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:29:17.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 132,
+      "name": "Government Relations",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:53:21.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Health, Wellness & Fitness",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T07:53:45.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Healthcare",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T07:57:57.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 130,
+      "name": "Higher Education",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:52:42.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 34,
+      "name": "Hospitality",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:05:20.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 133,
+      "name": "Hospitals",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:53:37.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 89,
+      "name": "Hotels",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:32:34.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Human Resources",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:00:38.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 104,
+      "name": "Import And Export",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:41:47.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 78,
+      "name": "Individual & Family Services",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:45:50.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 139,
+      "name": "Industrial Automation",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:31:52.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Information Technology & Services",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T07:46:25.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 47,
+      "name": "Insurance",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:31:50.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 90,
+      "name": "International Affairs",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:32:53.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 52,
+      "name": "International Trade & Development",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:33:51.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Internet",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T07:49:02.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 116,
+      "name": "Investment Banking",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:48:18.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 57,
+      "name": "Investment Management",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:36:15.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 128,
+      "name": "Jewelry",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:52:08.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 137,
+      "name": "Jurisprudence & Law",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:31:50.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 144,
+      "name": "Law Enforcement",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:31:57.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 143,
+      "name": "Law Firms",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:31:56.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 38,
+      "name": "Legal Services",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:06:44.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 91,
+      "name": "Legislative Office",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:33:16.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 142,
+      "name": "Leisure, Travel & Tourism",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:31:56.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 148,
+      "name": "Libraries",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:31:58.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Logistics & Supply Chain",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T07:58:46.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 36,
+      "name": "Machinery",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:06:01.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Management Consulting",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T07:52:15.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 62,
+      "name": "Maritime",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:37:56.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 1,
+      "name": "Marketing",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2024-09-10T13:16:29.000000Z",
+        "created_by": "Ezheleva Ekaterina",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Media Production",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:02:15.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Medical Devices",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T07:59:16.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 157,
+      "name": "Medical Practice",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:32:02.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 74,
+      "name": "Medical Services",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:44:36.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 63,
+      "name": "Mental Health Care",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:38:13.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 150,
+      "name": "Military",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:31:59.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 33,
+      "name": "Mining & Metals",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:05:04.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 65,
+      "name": "Mobile Games",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:38:54.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 92,
+      "name": "Movies & Motion Pictures",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:33:33.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 151,
+      "name": "Museums",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:31:59.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 114,
+      "name": "Nanotechnology",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:47:36.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 93,
+      "name": "Newspapers",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:33:52.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Non-profit Organizational Management",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T07:51:25.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Oil, Gas & Energy",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:02:54.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Online Media",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T07:53:22.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 94,
+      "name": "Outsourcing/Offshoring",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:34:11.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 95,
+      "name": "Packaging & Containers",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:34:31.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 96,
+      "name": "Paper & Forest Products",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:34:50.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 79,
+      "name": "Performing Arts",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:46:28.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 67,
+      "name": "Pharmaceuticals",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:41:42.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 108,
+      "name": "Philanthropy",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:45:17.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 135,
+      "name": "Photography",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:31:50.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 76,
+      "name": "Plastics",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:45:10.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 152,
+      "name": "Political Organizations",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:32:00.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 98,
+      "name": "Primary/Secondary Education",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:36:36.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 99,
+      "name": "Printing",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:37:14.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 145,
+      "name": "Professional Training & Coaching",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:31:57.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 154,
+      "name": "Public Policy Lansing",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:32:01.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 134,
+      "name": "Public Relations & Communications",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:53:58.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 82,
+      "name": "Public Safety",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:30:00.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 44,
+      "name": "Publishing",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:30:35.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 112,
+      "name": "QA Testing",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:46:52.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 156,
+      "name": "Railroad Manufacture",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:32:02.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 75,
+      "name": "Ranching",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:44:51.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 61,
+      "name": "Real Estate",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:37:39.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 149,
+      "name": "Religious Institutions",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:31:58.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Research",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:00:01.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 64,
+      "name": "Restaurants",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:38:35.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Retail",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T07:51:48.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 158,
+      "name": "Sales",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T12:45:24.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 68,
+      "name": "Security And Investigations",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:41:59.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 118,
+      "name": "Semiconductors",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:49:03.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 146,
+      "name": "Shipbuilding",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:31:57.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 109,
+      "name": "Social media management",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:45:47.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 101,
+      "name": "Sporting Goods",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:40:00.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 59,
+      "name": "Sports",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:36:53.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Staffing and Recruiting",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T07:48:34.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 100,
+      "name": "Supermarkets",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:37:59.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 48,
+      "name": "Telecommunications",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:32:10.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 136,
+      "name": "Textiles",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-10T08:31:50.000000Z",
+        "created_by": "Kizilova Olha",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 69,
+      "name": "Think Tanks",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:42:30.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 102,
+      "name": "Tobacco",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:40:28.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Training & Consulting",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T07:53:02.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 70,
+      "name": "Translation and Localization",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:43:05.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 60,
+      "name": "Transportation/Trucking/Railroad",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:37:16.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 55,
+      "name": "Utilities",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:35:17.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 71,
+      "name": "Venture Capital & Private Equity",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:43:40.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 103,
+      "name": "Veterinary",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:40:57.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 107,
+      "name": "Warehousing",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:45:02.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Wholesale",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T07:59:36.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 85,
+      "name": "Wine And Spirits",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:30:54.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 105,
+      "name": "Wireless",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:43:34.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 72,
+      "name": "Wood & Forest Products",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T08:43:59.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    },
+    {
+      "id": 106,
+      "name": "Writing & Editing",
+      "description": null,
+      "color": null,
+      "metadata": {
+        "created_at": "2025-01-09T09:44:45.000000Z",
+        "created_by": "Elena Yermakova",
+        "status": "Pending"
+      }
+    }
+  ]
+}

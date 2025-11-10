@@ -4,49 +4,29 @@
     "client_id": "989513",
     "company_id": "1",
     "user_id": "8539",
-    "created_by": null,
-    "affiliate_promo_code_id": null,
-    "from_affiliate_promo_code_id": null,
-    "affiliate_contract_url": null,
     "name": "Peyton He",
     "email": "peytonhe@creekwearable.com",
-    "image": null,
-    "mobile": null,
     "company_name": "Creek Wearable Technology Co., Ltd.",
     "countries_id": "42",
-    "address": null,
     "size_id": "12",
     "account_id": "23",
     "industry_id": "1080",
-    "shipping_address": null,
     "website": "http://www.creekwearable.com",
     "note": "Company Industry: Appliances, Electrical, and Electronics Manufacturing",
-    "settings_module": null,
-    "linkedin": null,
-    "facebook": null,
-    "skype": null,
-    "gst_number": null,
     "email_notifications": "0",
     "lead_status_id": "21",
     "type_id": "2",
-    "lead_source_id": null,
     "placement_id": "76",
     "verified": "0",
     "sales_manager": "8010",
-    "sales_manager_assistant": null,
     "lg_manager_id": "920",
     "status_id": "5",
-    "category_id": null,
-    "sub_category_id": null,
-    "added_by": null,
-    "last_updated_by": null,
     "image_url": "https://crm-s.com/img/default-profile-2.png",
     "user": {
       "id": 8539,
       "name": "Peyton He",
       "email": "peytonhe@creekwearable.com",
-      "image_url": "https://crm-s.com/img/default-profile-3.png",
-      "modules": []
+      "image_url": "https://crm-s.com/img/default-profile-3.png"
     },
     "project_companies": [
       {
@@ -55,7 +35,6 @@
         "name": "Remote Helpers",
         "website": "https://www.rh-s.com/",
         "short_name": "rh-s.com",
-        "created_at": null,
         "updated_at": "2024-01-05T06:56:45.000000Z",
         "pivot": {
           "client_details_id": "6546",
@@ -67,7 +46,6 @@
         "company_id": "1",
         "name": "1.rh-s.com",
         "website": "1.rh-s.com",
-        "short_name": null,
         "created_at": "2022-07-28T12:29:08.000000Z",
         "updated_at": "2022-07-28T12:29:08.000000Z",
         "pivot": {
@@ -80,11 +58,9 @@
       {
         "id": 5032,
         "user_id": "3881",
-        "presale_id": null,
         "client_detail_id": "6546",
         "status_id": "4",
         "employment_status_id": "2",
-        "hours": null,
         "interview_date": "2024-05-22",
         "time_interview": "2024-06-07T16:00:00.000000Z",
         "start_date": "2024-05-31",
@@ -99,8 +75,6 @@
         "is_payment_vacancy": "0",
         "approved_bonus": "1",
         "approved_bonus_interview": "1",
-        "added_by": null,
-        "last_updated_by": null,
         "created_at": "2024-05-23T09:27:29.000000Z",
         "updated_at": "2024-06-07T15:26:31.000000Z",
         "time": "16:00"
@@ -108,27 +82,16 @@
       {
         "id": 5037,
         "user_id": "7282",
-        "presale_id": null,
         "client_detail_id": "6546",
         "status_id": "1",
-        "employment_status_id": null,
-        "hours": null,
         "interview_date": "2024-05-22",
         "time_interview": "2024-05-28T16:00:00.000000Z",
-        "start_date": null,
-        "fire_date": null,
-        "service_agreement": null,
-        "end_date_agreement": null,
-        "price": null,
-        "currency_id": null,
         "comment": "Responsibilities:\n\nPowerpoint presentations and materials to create landings pages for their sales to help in advertising of their products with nice visually. Like in Amazon.\n\nMain product: is waterproof resistant watch",
         "department_id": "13",
         "position_id": "29",
         "is_payment_vacancy": "0",
         "approved_bonus": "1",
         "approved_bonus_interview": "1",
-        "added_by": null,
-        "last_updated_by": null,
         "created_at": "2024-05-27T07:26:32.000000Z",
         "updated_at": "2024-05-28T12:54:50.000000Z",
         "time": "16:00"
@@ -136,17 +99,10 @@
       {
         "id": 5050,
         "user_id": "7920",
-        "presale_id": null,
         "client_detail_id": "6546",
         "status_id": "1",
-        "employment_status_id": null,
-        "hours": null,
         "interview_date": "2024-06-07",
         "time_interview": "2024-06-11T14:00:00.000000Z",
-        "start_date": null,
-        "fire_date": null,
-        "service_agreement": null,
-        "end_date_agreement": null,
         "price": "750",
         "currency_id": "3",
         "comment": "Responsibilities:\n\nDesigning marketing and technical materials for smartwatches.\nCreating visual content that highlights product features and appeals to the middle-premium market.\nDeveloping brand-aligned visual materials for business-to-business marketing to branding companies (e.g., Nike, Reebok).\nDesigning slide presentations for new product launches, including graphics, typography, and layout.\nEnsuring designs are adaptable for different cultural contexts and market needs.\nPotentially creating marketing banners, website content, and social media materials.",
@@ -155,8 +111,6 @@
         "is_payment_vacancy": "0",
         "approved_bonus": "1",
         "approved_bonus_interview": "1",
-        "added_by": null,
-        "last_updated_by": null,
         "created_at": "2024-06-07T15:20:56.000000Z",
         "updated_at": "2024-06-11T08:16:28.000000Z",
         "time": "14:00"
@@ -164,7 +118,6 @@
       {
         "id": 5051,
         "user_id": "7775",
-        "presale_id": null,
         "client_detail_id": "6546",
         "status_id": "3",
         "employment_status_id": "2",
@@ -183,7 +136,6 @@
         "is_payment_vacancy": "0",
         "approved_bonus": "1",
         "approved_bonus_interview": "1",
-        "added_by": null,
         "last_updated_by": "8279",
         "created_at": "2024-06-07T15:25:57.000000Z",
         "updated_at": "2024-08-01T09:21:30.000000Z",
@@ -192,7 +144,6 @@
       {
         "id": 5065,
         "user_id": "7775",
-        "presale_id": null,
         "client_detail_id": "6546",
         "status_id": "3",
         "employment_status_id": "2",
@@ -211,14 +162,12 @@
         "is_payment_vacancy": "0",
         "approved_bonus": "1",
         "approved_bonus_interview": "1",
-        "added_by": null,
         "last_updated_by": "8279",
         "created_at": "2024-06-21T12:56:15.000000Z",
         "updated_at": "2024-08-01T09:23:18.000000Z",
         "time": "00:30"
       }
     ],
-    "client_contacts": [],
     "lead_source": {
       "id": 76,
       "company_id": "1",
@@ -232,14 +181,11 @@
       "company_id": "1",
       "user_id": "7947",
       "status": "enabled",
-      "added_by": null,
-      "last_updated_by": null,
       "user": {
         "id": 7947,
         "name": "Нижиборская Лилия Анатольевна",
         "email": "leejay.ua@gmail.com",
-        "image_url": "https://crm-s.com/img/default-profile-3.png",
-        "modules": []
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
       }
     },
     "lead_status": {
@@ -267,7 +213,6 @@
       "created_at": "2021-05-31T07:59:03.000000Z",
       "updated_at": "2024-12-31T06:04:06.000000Z"
     },
-    "sub_industries": [],
     "lead_account": {
       "id": 23,
       "company_id": "1",
@@ -281,18 +226,13 @@
       "email_login": "ksvetlichnayafomina@gmail.com",
       "email_password": "gnHH4s929C",
       "passport_link": "https://drive.google.com/file/d/1lGy4f326huilFgZU6PqPJG57S-yE1Zyq/view?usp=sharing",
-      "mobile": null,
       "comments": "сейлзнавигатор 28.05.2024 док просрочен",
-      "buy_date": null,
       "created_date": "2020-09-04",
-      "banned_date": null,
-      "sold_date": null,
       "agent_id": "1071",
       "status_id": "4",
       "country_id": "73",
       "source_id": "13",
       "placement_id": "1",
-      "user_id": null,
       "is_approved_manager": "1",
       "created_at": "2020-09-04T13:03:19.000000Z",
       "updated_at": "2025-07-30T09:26:27.000000Z",
@@ -309,8 +249,6 @@
         "iso": "FR",
         "iso3": "FR",
         "iso_numeric": "0",
-        "nicename": "",
-        "numcode": null,
         "phonecode": "0"
       },
       "source": {
@@ -323,14 +261,11 @@
         "company_id": "1",
         "user_id": "9085",
         "status": "enabled",
-        "added_by": null,
-        "last_updated_by": null,
         "user": {
           "id": 9085,
           "name": "Передермй Владислав Викторович",
           "email": "vladyslav.perederii@nure.ua",
-          "image_url": "https://crm-s.com/img/default-profile-3.png",
-          "modules": []
+          "image_url": "https://crm-s.com/img/default-profile-3.png"
         }
       }
     },
@@ -372,16 +307,13 @@
       "iso": "CN",
       "iso3": "CH",
       "iso_numeric": "0",
-      "nicename": "",
-      "numcode": null,
       "phonecode": "0"
     },
     "sales_managers": {
       "id": 8010,
       "name": "Гасанова Сабина Ахлимановна",
       "email": "sabina@a.krok.edu.ua",
-      "image_url": "https://crm-s.com/img/default-profile-3.png",
-      "modules": []
+      "image_url": "https://crm-s.com/img/default-profile-3.png"
     },
     "status": {
       "id": 5,
@@ -390,7 +322,6 @@
       "created_at": "2020-10-26T13:09:46.000000Z",
       "updated_at": "2020-10-26T13:09:46.000000Z"
     },
-    "project_company": null,
     "need_candidates": [
       {
         "id": 4734,
@@ -399,19 +330,15 @@
         "is_lead": "1",
         "department_id": "13",
         "demand_date": "2024-06-04T00:00:00.000000Z",
-        "date_needed": null,
         "date_open_sales": "2024-05-22T00:00:00.000000Z",
         "date_close_sales": "2024-05-22T00:00:00.000000Z",
-        "date_close_hr": null,
         "comment_requirements": "Responsibilities:\n\nDesigning marketing and technical materials for smartwatches.\nCreating visual content that highlights product features and appeals to the middle-premium market.\nDeveloping brand-aligned visual materials for business-to-business marketing to branding companies (e.g., Nike, Reebok).\nDesigning slide presentations for new product launches, including graphics, typography, and layout.\nEnsuring designs are adaptable for different cultural contexts and market needs.\nPotentially creating marketing banners, website content, and social media materials.",
         "count_employees": "1",
         "status_id": "4",
         "employment_status_id": "2",
-        "added_by": null,
         "last_updated_by": "8279",
         "created_at": "2024-05-21T13:33:49.000000Z",
         "updated_at": "2024-08-01T09:21:30.000000Z",
-        "skills": [],
         "positions": [
           {
             "id": 25,
@@ -456,50 +383,30 @@
             }
           }
         ],
-        "added": null,
-        "last_updated": null,
-        "languages": [],
         "client_detail": {
           "id": 6546,
           "client_id": "989513",
           "company_id": "1",
           "user_id": "8539",
           "created_by": "8279",
-          "affiliate_promo_code_id": null,
-          "from_affiliate_promo_code_id": null,
-          "affiliate_contract_url": null,
           "name": "Peyton He",
           "email": "peytonhe@creekwearable.com",
-          "image": null,
-          "mobile": null,
           "company_name": "Creek Wearable Technology Co., Ltd.",
           "countries_id": "42",
-          "address": null,
           "size_id": "12",
           "account_id": "23",
           "industry_id": "1080",
-          "shipping_address": null,
           "website": "http://www.creekwearable.com",
           "note": "Company Industry: Appliances, Electrical, and Electronics Manufacturing",
-          "settings_module": null,
-          "linkedin": null,
-          "facebook": null,
-          "skype": null,
-          "gst_number": null,
           "email_notifications": "0",
           "lead_status_id": "21",
           "type_id": "2",
-          "lead_source_id": null,
           "placement_id": "76",
           "verified": "0",
           "sales_manager": "8010",
           "sales_manager_assistant": "8709",
           "lg_manager_id": "920",
           "status_id": "5",
-          "category_id": null,
-          "sub_category_id": null,
-          "added_by": null,
-          "last_updated_by": null,
           "image_url": "https://crm-s.com/img/default-profile-2.png"
         },
         "teams": {
@@ -517,14 +424,11 @@
           "created_at": "2021-08-24T07:51:55.000000Z",
           "updated_at": "2021-08-24T07:51:55.000000Z"
         },
-        "employee_users": [],
         "employment_statuses": {
           "id": 2,
           "company_id": "1",
           "name": "Part Time",
-          "hours": null,
           "description": "(80 hours) 5 days per week,  4 hours per day",
-          "details": null,
           "created_at": "2021-08-24T05:38:53.000000Z",
           "updated_at": "2024-02-07T11:19:57.000000Z"
         },
@@ -534,9 +438,7 @@
             "client_needed_id": "4734",
             "sent_date": "2024-06-06",
             "user_id": "7775",
-            "presale_id": null,
             "status_id": "2",
-            "comment_client": "",
             "is_interview_candidate": "1",
             "created_at": "2024-08-01T09:21:30.000000Z",
             "updated_at": "2024-08-01T09:21:30.000000Z"
@@ -544,16 +446,12 @@
         ]
       }
     ],
-    "client_communications": [],
-    "communication": [],
     "lead_id": {
       "id": 989513,
       "company_id": "1",
       "created_by": "7947",
       "client_id": "8539",
       "client_details_id": "6546",
-      "promo_code_id": null,
-      "source_id": null,
       "placement_id": "76",
       "status_id": "21",
       "column_priority": "0",
@@ -562,61 +460,33 @@
       "company_name": "Creek Wearable Technology Co., Ltd.",
       "countries_id": "42",
       "website": "http://www.creekwearable.com",
-      "address": null,
       "size_id": "12",
       "account_id": "23",
       "industry_id": "1080",
-      "client_name": null,
-      "mobile": null,
       "note": "Company Industry: Appliances, Electrical, and Electronics Manufacturing",
-      "settings_module": null,
       "next_follow_up": "yes",
-      "client_email": null,
-      "year_establishment_company": null,
-      "value": "0",
-      "currency_id": null,
-      "category_id": null
+      "value": "0"
     },
-    "promo_code_from_affiliate": null,
-    "promo_code_affiliate": null,
-    "client_accounting_note": [],
-    "affiliate_details": [],
     "lead_type": {
       "id": 2,
       "company_id": "1",
-      "name": "Customer",
-      "created_at": null,
-      "updated_at": null
-    },
-    "send_email": []
+      "name": "Customer"
+    }
   },
   {
     "id": 5923,
     "client_id": "838603",
     "company_id": "1",
     "user_id": "7615",
-    "created_by": null,
-    "affiliate_promo_code_id": null,
-    "from_affiliate_promo_code_id": null,
-    "affiliate_contract_url": null,
     "name": "Marcus Förster",
     "email": "m.foerster@xerc.de",
-    "image": null,
-    "mobile": null,
     "company_name": "xerc UG",
     "countries_id": "57",
-    "address": null,
     "size_id": "1",
     "account_id": "836",
     "industry_id": "17",
-    "shipping_address": null,
     "website": "https://xerc.de/",
     "note": "Marcus is looking for a DEV. Клієнт обрав спеціаліста  #63406P (бекенд), я запропонувала ID:51327 (Murad M.) і наших HR. Розмова відбулась перед самим дзвінком, тому клієнт ще не встиг відповісти",
-    "settings_module": null,
-    "linkedin": null,
-    "facebook": null,
-    "skype": null,
-    "gst_number": null,
     "email_notifications": "0",
     "lead_status_id": "20",
     "type_id": "2",
@@ -624,20 +494,14 @@
     "placement_id": "1",
     "verified": "0",
     "sales_manager": "8010",
-    "sales_manager_assistant": null,
     "lg_manager_id": "769",
     "status_id": "5",
-    "category_id": null,
-    "sub_category_id": null,
-    "added_by": null,
-    "last_updated_by": null,
     "image_url": "https://crm-s.com/img/default-profile-2.png",
     "user": {
       "id": 7615,
       "name": "Marcus Förster",
       "email": "m.foerster@xerc.de",
-      "image_url": "https://crm-s.com/img/default-profile-3.png",
-      "modules": []
+      "image_url": "https://crm-s.com/img/default-profile-3.png"
     },
     "project_companies": [
       {
@@ -646,7 +510,6 @@
         "name": "Remote Helpers",
         "website": "https://www.rh-s.com/",
         "short_name": "rh-s.com",
-        "created_at": null,
         "updated_at": "2024-01-05T06:56:45.000000Z",
         "pivot": {
           "client_details_id": "5923",
@@ -659,7 +522,6 @@
         "name": "Social media marketers",
         "website": "https://smm-s.com",
         "short_name": "SMMS",
-        "created_at": null,
         "updated_at": "2024-02-16T08:17:53.000000Z",
         "pivot": {
           "client_details_id": "5923",
@@ -671,7 +533,6 @@
       {
         "id": 5055,
         "user_id": "6471",
-        "presale_id": null,
         "client_detail_id": "5923",
         "status_id": "3",
         "employment_status_id": "1",
@@ -680,8 +541,6 @@
         "time_interview": "2024-07-16T12:30:00.000000Z",
         "start_date": "2024-07-09",
         "fire_date": "2024-07-10",
-        "service_agreement": null,
-        "end_date_agreement": null,
         "price": "1920",
         "currency_id": "3",
         "comment": "Front-end development with expertise in WordPress and general web development.\nUnderstanding and ability to work with templating engines and managing content management systems (CMS).\nFamiliarity with templating engines like Blade, and experience with tools such as Composer and NPM for Type O3 development.",
@@ -690,7 +549,6 @@
         "is_payment_vacancy": "0",
         "approved_bonus": "1",
         "approved_bonus_interview": "1",
-        "added_by": null,
         "last_updated_by": "97",
         "created_at": "2024-06-11T11:01:07.000000Z",
         "updated_at": "2024-07-16T08:50:59.000000Z",
@@ -699,7 +557,6 @@
       {
         "id": 5056,
         "user_id": "7352",
-        "presale_id": null,
         "client_detail_id": "5923",
         "status_id": "3",
         "employment_status_id": "1",
@@ -708,8 +565,6 @@
         "time_interview": "2024-07-09T12:30:00.000000Z",
         "start_date": "2024-06-23",
         "fire_date": "2024-07-05",
-        "service_agreement": null,
-        "end_date_agreement": null,
         "price": "2400",
         "currency_id": "3",
         "comment": "Front-end development with expertise in  WordPress and general web development. Understanding and ability to work with templating engines and managing content management systems (CMS). Familiarity with templating engines like Blade, and experience with tools such as Composer and NPM for Type O3 development.",
@@ -718,14 +573,12 @@
         "is_payment_vacancy": "0",
         "approved_bonus": "1",
         "approved_bonus_interview": "1",
-        "added_by": null,
         "last_updated_by": "97",
         "created_at": "2024-06-11T11:07:14.000000Z",
         "updated_at": "2024-07-09T10:37:04.000000Z",
         "time": "12:30"
       }
     ],
-    "client_contacts": [],
     "lead_source": {
       "id": 1,
       "company_id": "1",
@@ -739,14 +592,11 @@
       "company_id": "1",
       "user_id": "7064",
       "status": "enabled",
-      "added_by": null,
-      "last_updated_by": null,
       "user": {
         "id": 7064,
         "name": "Каминская Снежана Игоревна",
         "email": "snezhana.kaminskaya1@gmail.com",
-        "image_url": "https://crm-s.com/img/default-profile-3.png",
-        "modules": []
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
       }
     },
     "lead_status": {
@@ -774,7 +624,6 @@
       "created_at": "2020-09-04T08:45:50.000000Z",
       "updated_at": "2020-09-04T08:45:50.000000Z"
     },
-    "sub_industries": [],
     "lead_account": {
       "id": 836,
       "company_id": "1",
@@ -787,19 +636,12 @@
       "linked_password": "h46y5GAej75YsJM",
       "email_login": "tetiana.skopik.remote@gmail.com",
       "email_password": "h46y5GAej75YsJM",
-      "passport_link": null,
-      "mobile": null,
       "comments": "на СММ-с,\r\nНет документов",
-      "buy_date": null,
       "created_date": "2021-06-07",
-      "banned_date": null,
-      "sold_date": null,
-      "agent_id": null,
       "status_id": "3",
       "country_id": "16",
       "source_id": "13",
       "placement_id": "1",
-      "user_id": null,
       "is_approved_manager": "1",
       "created_at": "2021-06-07T17:27:45.000000Z",
       "updated_at": "2023-11-29T08:04:38.000000Z",
@@ -816,16 +658,13 @@
         "iso": "AT",
         "iso3": "AU",
         "iso_numeric": "0",
-        "nicename": "",
-        "numcode": null,
         "phonecode": "0"
       },
       "source": {
         "id": 13,
         "company_id": "1",
         "type": "linkedin"
-      },
-      "agent": null
+      }
     },
     "lead_corporation_details": [
       {
@@ -834,9 +673,7 @@
         "lead_id": "838603",
         "client_details_id": "5923",
         "contact_type_id": "1",
-        "value": "https://www.linkedin.com/company/xerc/",
-        "created_at": null,
-        "updated_at": null
+        "value": "https://www.linkedin.com/company/xerc/"
       }
     ],
     "country": {
@@ -845,16 +682,13 @@
       "iso": "DE",
       "iso3": "DE",
       "iso_numeric": "0",
-      "nicename": "",
-      "numcode": null,
       "phonecode": "0"
     },
     "sales_managers": {
       "id": 8010,
       "name": "Гасанова Сабина Ахлимановна",
       "email": "sabina@a.krok.edu.ua",
-      "image_url": "https://crm-s.com/img/default-profile-3.png",
-      "modules": []
+      "image_url": "https://crm-s.com/img/default-profile-3.png"
     },
     "status": {
       "id": 5,
@@ -863,7 +697,6 @@
       "created_at": "2020-10-26T13:09:46.000000Z",
       "updated_at": "2020-10-26T13:09:46.000000Z"
     },
-    "project_company": null,
     "need_candidates": [
       {
         "id": 3940,
@@ -871,16 +704,9 @@
         "lead_id": "838603",
         "is_lead": "0",
         "department_id": "36",
-        "demand_date": null,
-        "date_needed": null,
         "date_open_sales": "2023-06-26T00:00:00.000000Z",
-        "date_close_sales": null,
-        "date_close_hr": null,
-        "comment_requirements": "",
         "count_employees": "1",
         "status_id": "4",
-        "employment_status_id": null,
-        "added_by": null,
         "last_updated_by": "97",
         "created_at": "2023-06-26T11:18:34.000000Z",
         "updated_at": "2024-07-09T10:31:43.000000Z",
@@ -898,37 +724,21 @@
             "status_addition": "pending"
           }
         ],
-        "positions": [],
-        "added": null,
-        "last_updated": null,
-        "languages": [],
         "client_detail": {
           "id": 5923,
           "client_id": "838603",
           "company_id": "1",
           "user_id": "7615",
           "created_by": "5222",
-          "affiliate_promo_code_id": null,
-          "from_affiliate_promo_code_id": null,
-          "affiliate_contract_url": null,
           "name": "Marcus Förster",
           "email": "m.foerster@xerc.de",
-          "image": null,
-          "mobile": null,
           "company_name": "xerc UG",
           "countries_id": "57",
-          "address": null,
           "size_id": "1",
           "account_id": "836",
           "industry_id": "17",
-          "shipping_address": null,
           "website": "https://xerc.de/",
           "note": "Marcus is looking for a DEV. Клієнт обрав спеціаліста  #63406P (бекенд), я запропонувала ID:51327 (Murad M.) і наших HR. Розмова відбулась перед самим дзвінком, тому клієнт ще не встиг відповісти",
-          "settings_module": null,
-          "linkedin": null,
-          "facebook": null,
-          "skype": null,
-          "gst_number": null,
           "email_notifications": "0",
           "lead_status_id": "20",
           "type_id": "2",
@@ -939,10 +749,6 @@
           "sales_manager_assistant": "8709",
           "lg_manager_id": "769",
           "status_id": "5",
-          "category_id": null,
-          "sub_category_id": null,
-          "added_by": null,
-          "last_updated_by": null,
           "image_url": "https://crm-s.com/img/default-profile-2.png"
         },
         "teams": {
@@ -960,15 +766,12 @@
           "created_at": "2021-08-24T07:51:55.000000Z",
           "updated_at": "2021-08-24T07:51:55.000000Z"
         },
-        "employee_users": [],
-        "employment_statuses": null,
         "send_employee": [
           {
             "id": 20,
             "client_needed_id": "3940",
             "sent_date": "2024-06-10",
             "user_id": "6471",
-            "presale_id": null,
             "status_id": "2",
             "comment_client": "<p>replacement</p>",
             "is_interview_candidate": "1",
@@ -983,16 +786,11 @@
         "lead_id": "838603",
         "is_lead": "0",
         "department_id": "36",
-        "demand_date": null,
-        "date_needed": null,
         "date_open_sales": "2024-06-04T00:00:00.000000Z",
-        "date_close_sales": null,
-        "date_close_hr": null,
         "comment_requirements": "e have a `typo3` project an need CSS/JS support\nfollowing the xD link so you/your team can have a preview ..\n\nhttps://xd.adobe.com/spec/cb4dad3a-39d5-4629-b1df-dc7ed6e4524d-9e1e/\n\nwould be good to have someone which also is fit with `PHP`",
         "count_employees": "1",
         "status_id": "4",
         "employment_status_id": "1",
-        "added_by": null,
         "last_updated_by": "97",
         "created_at": "2024-06-06T11:58:51.000000Z",
         "updated_at": "2024-07-09T10:37:04.000000Z",
@@ -1027,36 +825,21 @@
             }
           }
         ],
-        "added": null,
-        "last_updated": null,
-        "languages": [],
         "client_detail": {
           "id": 5923,
           "client_id": "838603",
           "company_id": "1",
           "user_id": "7615",
           "created_by": "5222",
-          "affiliate_promo_code_id": null,
-          "from_affiliate_promo_code_id": null,
-          "affiliate_contract_url": null,
           "name": "Marcus Förster",
           "email": "m.foerster@xerc.de",
-          "image": null,
-          "mobile": null,
           "company_name": "xerc UG",
           "countries_id": "57",
-          "address": null,
           "size_id": "1",
           "account_id": "836",
           "industry_id": "17",
-          "shipping_address": null,
           "website": "https://xerc.de/",
           "note": "Marcus is looking for a DEV. Клієнт обрав спеціаліста  #63406P (бекенд), я запропонувала ID:51327 (Murad M.) і наших HR. Розмова відбулась перед самим дзвінком, тому клієнт ще не встиг відповісти",
-          "settings_module": null,
-          "linkedin": null,
-          "facebook": null,
-          "skype": null,
-          "gst_number": null,
           "email_notifications": "0",
           "lead_status_id": "20",
           "type_id": "2",
@@ -1067,10 +850,6 @@
           "sales_manager_assistant": "8709",
           "lg_manager_id": "769",
           "status_id": "5",
-          "category_id": null,
-          "sub_category_id": null,
-          "added_by": null,
-          "last_updated_by": null,
           "image_url": "https://crm-s.com/img/default-profile-2.png"
         },
         "teams": {
@@ -1088,14 +867,11 @@
           "created_at": "2021-08-24T07:51:55.000000Z",
           "updated_at": "2021-08-24T07:51:55.000000Z"
         },
-        "employee_users": [],
         "employment_statuses": {
           "id": 1,
           "company_id": "1",
           "name": "Full Time",
-          "hours": null,
           "description": "(160 hours) 5 days per week,  8 hours per day+1 hour lunch",
-          "details": null,
           "created_at": "2021-08-24T05:38:53.000000Z",
           "updated_at": "2024-02-07T11:19:25.000000Z"
         },
@@ -1105,7 +881,6 @@
             "client_needed_id": "4758",
             "sent_date": "2024-06-03",
             "user_id": "7352",
-            "presale_id": null,
             "status_id": "2",
             "comment_client": "<p><span style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\">We interviewed candidates for Xerc UG company: </span><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><span style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\">Candidates :</span><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><span style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\">Front end developers :</span><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><span style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\">Maxim </span><a href=\"https://www.google.com/url?q=https://www.rh-s.com/app/developers/front-end-developer/maxim-s&amp;sa=D&amp;source=calendar&amp;ust=1720942530941000&amp;usg=AOvVaw36lMCCjqSLySvXXf6nrLw4\" target=\"_blank\" style=\"text-decoration-line: underline; color: rgb(26, 115, 232); outline-style: none; outline-width: initial; font-family: Roboto, Arial, sans-serif; font-size: 14px; font-weight: 400; letter-spacing: 0.2px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);\">https://www.rh-s.com/app/developers/front-end-developer/maxim-s</a><span style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"> </span><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><span style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\">Dmitry </span><a href=\"https://www.google.com/url?q=https://www.rh-s.com/app/developers/front-end-developer/dmitry-k&amp;sa=D&amp;source=calendar&amp;ust=1720942530941000&amp;usg=AOvVaw2j2a6z50An_cGJgdUSdPSf\" target=\"_blank\" style=\"text-decoration-line: underline; color: rgb(26, 115, 232); outline-style: none; outline-width: initial; font-family: Roboto, Arial, sans-serif; font-size: 14px; font-weight: 400; letter-spacing: 0.2px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);\">https://www.rh-s.com/app/developers/front-end-developer/dmitry-k</a><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><span style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\">Technical Requirements:</span><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><span style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\">Technologies: Type O3, Laravel, Symphony, WordPress, PHP, JavaScript, CSS</span><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><span style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\">Specializations: Front-end development with expertise in WordPress and general web development.</span><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><span style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\">Back-end development, primarily with PHP and Type O3.</span><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><span style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\">Understanding and ability to work with templating engines and managing content management systems (CMS).</span><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><span style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\">Frameworks/Tools: Familiarity with templating engines like Blade, and experience with tools such as Composer and NPM for Type O3 development.</span><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><span style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\">Project Details:</span><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><span style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\">Current Projects: The main project involves integration and immigration services for NGOs, requiring redesign and implementation in Type O3.</span><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><span style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\">Task Nature: Includes front-end and back-end development, CSS, JavaScript integration, and ensuring accessibility and usability for people with disabilities.</span><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><span style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\">Design Requirements: Understanding of layout, responsiveness, and CSS frameworks. Ability to work with SVGs and ensure a clean, maintainable codebase.</span><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><span style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\">Project Duration: Estimated time for the project is approximately three weeks.</span><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><span style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\">Preference for developers with a mix of practical experience in coding and theoretical knowledge. Practical problem-solving and the ability to work with existing codebases are crucial.</span><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><span style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\">Following the interview, Marcus has decided to begin working with Dmitry for full time.</span><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><span style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\">We will set up an introductory call on June, 20th at 1 p.m.</span><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><span style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\">Start Date : June, 24th.</span><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"><br style=\"color: rgb(60, 64, 67); font-family: Roboto, Arial, sans-serif; font-size: 14px; letter-spacing: 0.2px; white-space-collapse: preserve;\"></p>",
             "is_interview_candidate": "1",
@@ -1115,15 +890,12 @@
         ]
       }
     ],
-    "client_communications": [],
-    "communication": [],
     "lead_id": {
       "id": 838603,
       "company_id": "1",
       "created_by": "7064",
       "client_id": "7615",
       "client_details_id": "5923",
-      "promo_code_id": null,
       "source_id": "13",
       "placement_id": "1",
       "status_id": "20",
@@ -1133,82 +905,47 @@
       "company_name": "xerc UG",
       "countries_id": "57",
       "website": "https://xerc.de/",
-      "address": null,
       "size_id": "1",
       "account_id": "836",
       "industry_id": "17",
-      "client_name": null,
-      "mobile": null,
       "note": "Marcus is looking for a DEV. Клієнт обрав спеціаліста  #63406P (бекенд), я запропонувала ID:51327 (Murad M.) і наших HR. Розмова відбулась перед самим дзвінком, тому клієнт ще не встиг відповісти",
-      "settings_module": null,
       "next_follow_up": "yes",
-      "client_email": null,
-      "year_establishment_company": null,
-      "value": "0",
-      "currency_id": null,
-      "category_id": null
+      "value": "0"
     },
-    "promo_code_from_affiliate": null,
-    "promo_code_affiliate": null,
-    "client_accounting_note": [],
-    "affiliate_details": [],
     "lead_type": {
       "id": 2,
       "company_id": "1",
-      "name": "Customer",
-      "created_at": null,
-      "updated_at": null
-    },
-    "send_email": []
+      "name": "Customer"
+    }
   },
   {
     "id": 6581,
     "client_id": "1036549",
     "company_id": "1",
     "user_id": "8584",
-    "created_by": null,
-    "affiliate_promo_code_id": null,
-    "from_affiliate_promo_code_id": null,
-    "affiliate_contract_url": null,
     "name": "Genesis Research Group",
     "email": "genesis_research_group@mail.com",
-    "image": null,
-    "mobile": null,
     "company_name": "Genesis Research Group",
     "countries_id": "272",
-    "address": null,
     "size_id": "15",
     "account_id": "1059",
     "industry_id": "49",
-    "shipping_address": null,
     "website": "http://genesisrg.com",
     "note": "Google tags, analytics ads. remarketing.",
-    "settings_module": null,
-    "linkedin": null,
-    "facebook": null,
-    "skype": null,
-    "gst_number": null,
     "email_notifications": "0",
     "lead_status_id": "20",
     "type_id": "2",
-    "lead_source_id": null,
     "placement_id": "1",
     "verified": "0",
     "sales_manager": "8010",
-    "sales_manager_assistant": null,
     "lg_manager_id": "1001",
     "status_id": "5",
-    "category_id": null,
-    "sub_category_id": null,
-    "added_by": null,
-    "last_updated_by": null,
     "image_url": "https://crm-s.com/img/default-profile-2.png",
     "user": {
       "id": 8584,
       "name": "Genesis Research Group",
       "email": "genesis_research_group@mail.com",
-      "image_url": "https://crm-s.com/img/default-profile-3.png",
-      "modules": []
+      "image_url": "https://crm-s.com/img/default-profile-3.png"
     },
     "project_companies": [
       {
@@ -1217,7 +954,6 @@
         "name": "Remote Helpers",
         "website": "https://www.rh-s.com/",
         "short_name": "rh-s.com",
-        "created_at": null,
         "updated_at": "2024-01-05T06:56:45.000000Z",
         "pivot": {
           "client_details_id": "6581",
@@ -1229,7 +965,6 @@
         "company_id": "1",
         "name": "1.rh-s.com",
         "website": "1.rh-s.com",
-        "short_name": null,
         "created_at": "2022-07-28T12:29:08.000000Z",
         "updated_at": "2022-07-28T12:29:08.000000Z",
         "pivot": {
@@ -1242,7 +977,6 @@
       {
         "id": 5064,
         "user_id": "5649",
-        "presale_id": null,
         "client_detail_id": "6581",
         "status_id": "3",
         "employment_status_id": "3",
@@ -1252,23 +986,19 @@
         "start_date": "2024-07-03",
         "fire_date": "2024-08-03",
         "service_agreement": "https://crm-s.com/admin/clients/candidates/6581",
-        "end_date_agreement": null,
         "price": "700",
         "currency_id": "3",
-        "comment": null,
         "department_id": "14",
         "position_id": "32",
         "is_payment_vacancy": "0",
         "approved_bonus": "1",
         "approved_bonus_interview": "1",
-        "added_by": null,
         "last_updated_by": "74",
         "created_at": "2024-06-21T09:09:53.000000Z",
         "updated_at": "2024-10-30T04:58:50.000000Z",
         "time": "11:00"
       }
     ],
-    "client_contacts": [],
     "lead_source": {
       "id": 1,
       "company_id": "1",
@@ -1282,14 +1012,11 @@
       "company_id": "1",
       "user_id": "8519",
       "status": "enabled",
-      "added_by": null,
-      "last_updated_by": null,
       "user": {
         "id": 8519,
         "name": "Дженжера Маргарита Валериевна",
         "email": "margoway42@gmail.com",
-        "image_url": "https://crm-s.com/img/default-profile-3.png",
-        "modules": []
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
       }
     },
     "lead_status": {
@@ -1317,7 +1044,6 @@
       "created_at": "2020-09-04T08:45:50.000000Z",
       "updated_at": "2020-09-04T08:45:50.000000Z"
     },
-    "sub_industries": [],
     "lead_account": {
       "id": 1059,
       "company_id": "1",
@@ -1330,13 +1056,7 @@
       "linked_password": "brX77S86Zg",
       "email_login": "dariachelpanova9@gmail.com",
       "email_password": "brX77S86Zg",
-      "passport_link": null,
-      "mobile": null,
-      "comments": null,
-      "buy_date": null,
       "created_date": "2022-03-14",
-      "banned_date": null,
-      "sold_date": null,
       "agent_id": "1039",
       "status_id": "4",
       "country_id": "272",
@@ -1357,10 +1077,7 @@
         "id": 272,
         "name": "United Kingdom",
         "iso": "GB",
-        "iso3": "",
         "iso_numeric": "0",
-        "nicename": "",
-        "numcode": null,
         "phonecode": "0"
       },
       "source": {
@@ -1373,14 +1090,11 @@
         "company_id": "1",
         "user_id": "8942",
         "status": "enabled",
-        "added_by": null,
-        "last_updated_by": null,
         "user": {
           "id": 8942,
           "name": "Бурда Анна Михайловна",
           "email": "burdaanna8@gmail.com",
-          "image_url": "https://crm-s.com/img/default-profile-3.png",
-          "modules": []
+          "image_url": "https://crm-s.com/img/default-profile-3.png"
         }
       }
     },
@@ -1410,18 +1124,14 @@
       "id": 272,
       "name": "United Kingdom",
       "iso": "GB",
-      "iso3": "",
       "iso_numeric": "0",
-      "nicename": "",
-      "numcode": null,
       "phonecode": "0"
     },
     "sales_managers": {
       "id": 8010,
       "name": "Гасанова Сабина Ахлимановна",
       "email": "sabina@a.krok.edu.ua",
-      "image_url": "https://crm-s.com/img/default-profile-3.png",
-      "modules": []
+      "image_url": "https://crm-s.com/img/default-profile-3.png"
     },
     "status": {
       "id": 5,
@@ -1430,7 +1140,6 @@
       "created_at": "2020-10-26T13:09:46.000000Z",
       "updated_at": "2020-10-26T13:09:46.000000Z"
     },
-    "project_company": null,
     "need_candidates": [
       {
         "id": 4775,
@@ -1438,16 +1147,10 @@
         "lead_id": "1036549",
         "is_lead": "0",
         "department_id": "14",
-        "demand_date": null,
-        "date_needed": null,
         "date_open_sales": "2024-06-18T00:00:00.000000Z",
-        "date_close_sales": null,
-        "date_close_hr": null,
         "comment_requirements": "Google ads, google tags, remarketing, tracking.",
         "count_employees": "1",
         "status_id": "4",
-        "employment_status_id": null,
-        "added_by": null,
         "last_updated_by": "7953",
         "created_at": "2024-06-18T14:27:52.000000Z",
         "updated_at": "2024-11-27T12:49:46.000000Z",
@@ -1482,50 +1185,30 @@
             }
           }
         ],
-        "added": null,
-        "last_updated": null,
-        "languages": [],
         "client_detail": {
           "id": 6581,
           "client_id": "1036549",
           "company_id": "1",
           "user_id": "8584",
           "created_by": "7953",
-          "affiliate_promo_code_id": null,
-          "from_affiliate_promo_code_id": null,
-          "affiliate_contract_url": null,
           "name": "Genesis Research Group",
           "email": "genesis_research_group@mail.com",
-          "image": null,
-          "mobile": null,
           "company_name": "Genesis Research Group",
           "countries_id": "272",
-          "address": null,
           "size_id": "15",
           "account_id": "1059",
           "industry_id": "49",
-          "shipping_address": null,
           "website": "http://genesisrg.com",
           "note": "Google tags, analytics ads. remarketing.",
-          "settings_module": null,
-          "linkedin": null,
-          "facebook": null,
-          "skype": null,
-          "gst_number": null,
           "email_notifications": "0",
           "lead_status_id": "20",
           "type_id": "2",
-          "lead_source_id": null,
           "placement_id": "1",
           "verified": "0",
           "sales_manager": "8010",
           "sales_manager_assistant": "8709",
           "lg_manager_id": "1001",
           "status_id": "5",
-          "category_id": null,
-          "sub_category_id": null,
-          "added_by": null,
-          "last_updated_by": null,
           "image_url": "https://crm-s.com/img/default-profile-2.png"
         },
         "teams": {
@@ -1542,10 +1225,7 @@
           "name": "Closed",
           "created_at": "2021-08-24T07:51:55.000000Z",
           "updated_at": "2021-08-24T07:51:55.000000Z"
-        },
-        "employee_users": [],
-        "employment_statuses": null,
-        "send_employee": []
+        }
       },
       {
         "id": 4777,
@@ -1553,20 +1233,14 @@
         "lead_id": "1036549",
         "is_lead": "0",
         "department_id": "14",
-        "demand_date": null,
-        "date_needed": null,
         "date_open_sales": "2024-06-21T00:00:00.000000Z",
         "date_close_sales": "2024-08-03T00:00:00.000000Z",
-        "date_close_hr": null,
-        "comment_requirements": "",
         "count_employees": "1",
         "status_id": "4",
         "employment_status_id": "3",
-        "added_by": null,
         "last_updated_by": "74",
         "created_at": "2024-06-21T08:37:14.000000Z",
         "updated_at": "2024-10-30T04:58:50.000000Z",
-        "skills": [],
         "positions": [
           {
             "id": 32,
@@ -1590,50 +1264,30 @@
             }
           }
         ],
-        "added": null,
-        "last_updated": null,
-        "languages": [],
         "client_detail": {
           "id": 6581,
           "client_id": "1036549",
           "company_id": "1",
           "user_id": "8584",
           "created_by": "7953",
-          "affiliate_promo_code_id": null,
-          "from_affiliate_promo_code_id": null,
-          "affiliate_contract_url": null,
           "name": "Genesis Research Group",
           "email": "genesis_research_group@mail.com",
-          "image": null,
-          "mobile": null,
           "company_name": "Genesis Research Group",
           "countries_id": "272",
-          "address": null,
           "size_id": "15",
           "account_id": "1059",
           "industry_id": "49",
-          "shipping_address": null,
           "website": "http://genesisrg.com",
           "note": "Google tags, analytics ads. remarketing.",
-          "settings_module": null,
-          "linkedin": null,
-          "facebook": null,
-          "skype": null,
-          "gst_number": null,
           "email_notifications": "0",
           "lead_status_id": "20",
           "type_id": "2",
-          "lead_source_id": null,
           "placement_id": "1",
           "verified": "0",
           "sales_manager": "8010",
           "sales_manager_assistant": "8709",
           "lg_manager_id": "1001",
           "status_id": "5",
-          "category_id": null,
-          "sub_category_id": null,
-          "added_by": null,
-          "last_updated_by": null,
           "image_url": "https://crm-s.com/img/default-profile-2.png"
         },
         "teams": {
@@ -1651,14 +1305,11 @@
           "created_at": "2021-08-24T07:51:55.000000Z",
           "updated_at": "2021-08-24T07:51:55.000000Z"
         },
-        "employee_users": [],
         "employment_statuses": {
           "id": 3,
           "company_id": "1",
           "name": "40h",
-          "hours": null,
           "description": "(40 hours) 5 days per week,  2 hours per day",
-          "details": null,
           "created_at": "2022-03-25T15:10:19.000000Z",
           "updated_at": "2024-02-07T11:20:33.000000Z"
         },
@@ -1668,9 +1319,7 @@
             "client_needed_id": "4777",
             "sent_date": "2024-07-26",
             "user_id": "5649",
-            "presale_id": null,
             "status_id": "2",
-            "comment_client": "",
             "is_interview_candidate": "1",
             "created_at": "2024-08-07T14:34:52.000000Z",
             "updated_at": "2024-08-07T14:34:52.000000Z"
@@ -1678,16 +1327,12 @@
         ]
       }
     ],
-    "client_communications": [],
-    "communication": [],
     "lead_id": {
       "id": 1036549,
       "company_id": "1",
       "created_by": "8519",
       "client_id": "8584",
       "client_details_id": "6581",
-      "promo_code_id": null,
-      "source_id": null,
       "placement_id": "1",
       "status_id": "20",
       "column_priority": "0",
@@ -1696,82 +1341,48 @@
       "company_name": "Genesis Research Group",
       "countries_id": "272",
       "website": "http://genesisrg.com",
-      "address": null,
       "size_id": "15",
       "account_id": "1059",
       "industry_id": "49",
-      "client_name": null,
-      "mobile": null,
       "note": "Google tags, analytics ads. remarketing.",
-      "settings_module": null,
       "next_follow_up": "yes",
-      "client_email": null,
       "year_establishment_company": "2009",
-      "value": "0",
-      "currency_id": null,
-      "category_id": null
+      "value": "0"
     },
-    "promo_code_from_affiliate": null,
-    "promo_code_affiliate": null,
-    "client_accounting_note": [],
-    "affiliate_details": [],
     "lead_type": {
       "id": 2,
       "company_id": "1",
-      "name": "Customer",
-      "created_at": null,
-      "updated_at": null
-    },
-    "send_email": []
+      "name": "Customer"
+    }
   },
   {
     "id": 6836,
     "client_id": "1096325",
     "company_id": "1",
     "user_id": "8886",
-    "created_by": null,
-    "affiliate_promo_code_id": null,
-    "from_affiliate_promo_code_id": null,
-    "affiliate_contract_url": null,
     "name": "infrasolute",
     "email": "infrasolute@mail.com",
-    "image": null,
-    "mobile": null,
     "company_name": "infrasolute",
     "countries_id": "57",
-    "address": null,
     "size_id": "5",
     "account_id": "1240",
     "industry_id": "17",
-    "shipping_address": null,
     "website": "https://www.infrasolute.com",
     "note": "Roman Koch  4:34 PM\nHi Andrew\nPlease apologise my late return. Currently, I'm extremely busy. If I need some help, I'll let you know. I like your idea with the remote staffing. Let's have a discussion maybe next week, f.e. Monday, 16.12. afternoon would work for me. Just let me know. You could also send me an email to roman.koch@rko-consulting.ch. Looking forward speeking to you.\nBest, Roman",
-    "settings_module": null,
-    "linkedin": null,
-    "facebook": null,
-    "skype": null,
-    "gst_number": null,
     "email_notifications": "0",
     "lead_status_id": "20",
     "type_id": "2",
-    "lead_source_id": null,
     "placement_id": "76",
     "verified": "0",
     "sales_manager": "8010",
-    "sales_manager_assistant": null,
     "lg_manager_id": "998",
     "status_id": "20",
-    "category_id": null,
-    "sub_category_id": null,
-    "added_by": null,
-    "last_updated_by": null,
     "image_url": "https://crm-s.com/img/default-profile-2.png",
     "user": {
       "id": 8886,
       "name": "infrasolute",
       "email": "infrasolute@mail.com",
-      "image_url": "https://crm-s.com/img/default-profile-3.png",
-      "modules": []
+      "image_url": "https://crm-s.com/img/default-profile-3.png"
     },
     "project_companies": [
       {
@@ -1780,7 +1391,6 @@
         "name": "Remote Helpers",
         "website": "https://www.rh-s.com/",
         "short_name": "rh-s.com",
-        "created_at": null,
         "updated_at": "2024-01-05T06:56:45.000000Z",
         "pivot": {
           "client_details_id": "6836",
@@ -1788,8 +1398,6 @@
         }
       }
     ],
-    "client_candidates": [],
-    "client_contacts": [],
     "lead_source": {
       "id": 76,
       "company_id": "1",
@@ -1803,14 +1411,11 @@
       "company_id": "1",
       "user_id": "8517",
       "status": "enabled",
-      "added_by": null,
-      "last_updated_by": null,
       "user": {
         "id": 8517,
         "name": "Северин Максим Васильевич",
         "email": "max.severinw@gmail.com",
-        "image_url": "https://crm-s.com/img/default-profile-3.png",
-        "modules": []
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
       }
     },
     "lead_status": {
@@ -1838,7 +1443,6 @@
       "created_at": "2020-09-04T08:45:50.000000Z",
       "updated_at": "2020-09-04T08:45:50.000000Z"
     },
-    "sub_industries": [],
     "lead_account": {
       "id": 1240,
       "company_id": "1",
@@ -1851,19 +1455,11 @@
       "linked_password": "U5vd56DUv5",
       "email_login": "and.denysevych@gmail.com",
       "email_password": "U5vd56DUv5",
-      "passport_link": null,
-      "mobile": null,
-      "comments": null,
-      "buy_date": null,
       "created_date": "2022-05-19",
-      "banned_date": null,
-      "sold_date": null,
-      "agent_id": null,
       "status_id": "3",
       "country_id": "40",
       "source_id": "13",
       "placement_id": "1",
-      "user_id": null,
       "is_approved_manager": "1",
       "created_at": "2022-05-19T13:06:23.000000Z",
       "updated_at": "2025-07-22T15:33:04.000000Z",
@@ -1880,16 +1476,13 @@
         "iso": "CH",
         "iso3": "CH",
         "iso_numeric": "0",
-        "nicename": "",
-        "numcode": null,
         "phonecode": "0"
       },
       "source": {
         "id": 13,
         "company_id": "1",
         "type": "linkedin"
-      },
-      "agent": null
+      }
     },
     "lead_corporation_details": [
       {
@@ -1929,16 +1522,13 @@
       "iso": "DE",
       "iso3": "DE",
       "iso_numeric": "0",
-      "nicename": "",
-      "numcode": null,
       "phonecode": "0"
     },
     "sales_managers": {
       "id": 8010,
       "name": "Гасанова Сабина Ахлимановна",
       "email": "sabina@a.krok.edu.ua",
-      "image_url": "https://crm-s.com/img/default-profile-3.png",
-      "modules": []
+      "image_url": "https://crm-s.com/img/default-profile-3.png"
     },
     "status": {
       "id": 20,
@@ -1947,7 +1537,6 @@
       "created_at": "2024-05-02T12:22:22.000000Z",
       "updated_at": "2024-05-02T12:22:22.000000Z"
     },
-    "project_company": null,
     "need_candidates": [
       {
         "id": 5226,
@@ -1955,20 +1544,13 @@
         "lead_id": "1096325",
         "is_lead": "0",
         "department_id": "23",
-        "demand_date": null,
-        "date_needed": null,
         "date_open_sales": "2025-01-10T00:00:00.000000Z",
-        "date_close_sales": null,
-        "date_close_hr": null,
-        "comment_requirements": null,
         "count_employees": "1",
         "status_id": "23",
-        "employment_status_id": null,
         "added_by": "5222",
         "last_updated_by": "5222",
         "created_at": "2025-01-10T14:24:31.000000Z",
         "updated_at": "2025-01-10T14:24:31.000000Z",
-        "skills": [],
         "positions": [
           {
             "id": 17,
@@ -1992,50 +1574,30 @@
             }
           }
         ],
-        "added": null,
-        "last_updated": null,
-        "languages": [],
         "client_detail": {
           "id": 6836,
           "client_id": "1096325",
           "company_id": "1",
           "user_id": "8886",
           "created_by": "5222",
-          "affiliate_promo_code_id": null,
-          "from_affiliate_promo_code_id": null,
-          "affiliate_contract_url": null,
           "name": "infrasolute",
           "email": "infrasolute@mail.com",
-          "image": null,
-          "mobile": null,
           "company_name": "infrasolute",
           "countries_id": "57",
-          "address": null,
           "size_id": "5",
           "account_id": "1240",
           "industry_id": "17",
-          "shipping_address": null,
           "website": "https://www.infrasolute.com",
           "note": "Roman Koch  4:34 PM\nHi Andrew\nPlease apologise my late return. Currently, I'm extremely busy. If I need some help, I'll let you know. I like your idea with the remote staffing. Let's have a discussion maybe next week, f.e. Monday, 16.12. afternoon would work for me. Just let me know. You could also send me an email to roman.koch@rko-consulting.ch. Looking forward speeking to you.\nBest, Roman",
-          "settings_module": null,
-          "linkedin": null,
-          "facebook": null,
-          "skype": null,
-          "gst_number": null,
           "email_notifications": "0",
           "lead_status_id": "20",
           "type_id": "2",
-          "lead_source_id": null,
           "placement_id": "76",
           "verified": "0",
           "sales_manager": "8010",
           "sales_manager_assistant": "8709",
           "lg_manager_id": "998",
           "status_id": "20",
-          "category_id": null,
-          "sub_category_id": null,
-          "added_by": null,
-          "last_updated_by": null,
           "image_url": "https://crm-s.com/img/default-profile-2.png"
         },
         "teams": {
@@ -2052,22 +1614,15 @@
           "name": "Pending",
           "created_at": "2024-09-10T10:45:10.000000Z",
           "updated_at": "2024-09-10T10:45:10.000000Z"
-        },
-        "employee_users": [],
-        "employment_statuses": null,
-        "send_employee": []
+        }
       }
     ],
-    "client_communications": [],
-    "communication": [],
     "lead_id": {
       "id": 1096325,
       "company_id": "1",
       "created_by": "8517",
       "client_id": "8886",
       "client_details_id": "6836",
-      "promo_code_id": null,
-      "source_id": null,
       "placement_id": "76",
       "status_id": "20",
       "column_priority": "0",
@@ -2076,82 +1631,45 @@
       "company_name": "infrasolute",
       "countries_id": "57",
       "website": "https://www.infrasolute.com",
-      "address": null,
       "size_id": "5",
       "account_id": "1240",
       "industry_id": "17",
-      "client_name": null,
-      "mobile": null,
       "note": "Roman Koch  4:34 PM\nHi Andrew\nPlease apologise my late return. Currently, I'm extremely busy. If I need some help, I'll let you know. I like your idea with the remote staffing. Let's have a discussion maybe next week, f.e. Monday, 16.12. afternoon would work for me. Just let me know. You could also send me an email to roman.koch@rko-consulting.ch. Looking forward speeking to you.\nBest, Roman",
-      "settings_module": null,
       "next_follow_up": "yes",
-      "client_email": null,
-      "year_establishment_company": null,
-      "value": "0",
-      "currency_id": null,
-      "category_id": null
+      "value": "0"
     },
-    "promo_code_from_affiliate": null,
-    "promo_code_affiliate": null,
-    "client_accounting_note": [],
-    "affiliate_details": [],
     "lead_type": {
       "id": 2,
       "company_id": "1",
-      "name": "Customer",
-      "created_at": null,
-      "updated_at": null
-    },
-    "send_email": []
+      "name": "Customer"
+    }
   },
   {
     "id": 6837,
     "client_id": "1102739",
     "company_id": "1",
     "user_id": "8887",
-    "created_by": null,
-    "affiliate_promo_code_id": null,
-    "from_affiliate_promo_code_id": null,
-    "affiliate_contract_url": null,
     "name": "Dominating Keywords",
     "email": "dominating_keywords@mail.com",
-    "image": null,
-    "mobile": null,
     "company_name": "Dominating Keywords",
     "countries_id": "40",
-    "address": null,
     "size_id": "12",
-    "account_id": null,
     "industry_id": "1134",
-    "shipping_address": null,
     "website": "https://dominatingkeywords.com/",
     "note": "▷ IP: 170.247.220.131 \n        Device: WebKit Desktop: true Mobile: false Tablet: false\n        Platform: Windows Windows: true IPhone: false Android: false\n        Browser: Chrome Firefox: false OSX: false Nexus: false Safari: true",
-    "settings_module": null,
-    "linkedin": null,
-    "facebook": null,
-    "skype": null,
-    "gst_number": null,
     "email_notifications": "0",
-    "lead_status_id": null,
     "type_id": "2",
-    "lead_source_id": null,
     "placement_id": "37",
     "verified": "0",
     "sales_manager": "8010",
-    "sales_manager_assistant": null,
     "lg_manager_id": "442",
     "status_id": "8",
-    "category_id": null,
-    "sub_category_id": null,
-    "added_by": null,
-    "last_updated_by": null,
     "image_url": "https://crm-s.com/img/default-profile-2.png",
     "user": {
       "id": 8887,
       "name": "Dominating Keywords",
       "email": "dominating_keywords@mail.com",
-      "image_url": "https://crm-s.com/img/default-profile-3.png",
-      "modules": []
+      "image_url": "https://crm-s.com/img/default-profile-3.png"
     },
     "project_companies": [
       {
@@ -2160,7 +1678,6 @@
         "name": "Remote Helpers",
         "website": "https://www.rh-s.com/",
         "short_name": "rh-s.com",
-        "created_at": null,
         "updated_at": "2024-01-05T06:56:45.000000Z",
         "pivot": {
           "client_details_id": "6837",
@@ -2172,7 +1689,6 @@
         "company_id": "1",
         "name": "Freelance Video Editors",
         "website": "https://fv-e.com/",
-        "short_name": null,
         "created_at": "2024-02-16T08:22:51.000000Z",
         "updated_at": "2024-02-16T08:22:51.000000Z",
         "pivot": {
@@ -2181,14 +1697,11 @@
         }
       }
     ],
-    "client_candidates": [],
-    "client_contacts": [],
     "lead_source": {
       "id": 37,
       "company_id": "1",
       "name": "Website",
       "category_id": "5",
-      "created_at": null,
       "updated_at": "2024-06-27T11:34:57.000000Z"
     },
     "lead_agent": {
@@ -2196,17 +1709,13 @@
       "company_id": "1",
       "user_id": "5222",
       "status": "enabled",
-      "added_by": null,
-      "last_updated_by": null,
       "user": {
         "id": 5222,
         "name": "Кушниренко Инна Игоревна",
         "email": "kushnirenkoinka@gmail.com",
-        "image_url": "https://crm-s.com/img/default-profile-3.png",
-        "modules": []
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
       }
     },
-    "lead_status": null,
     "lead_company_size": {
       "id": 12,
       "company_id": "1",
@@ -2224,8 +1733,6 @@
       "created_at": "2021-08-27T10:55:58.000000Z",
       "updated_at": "2021-08-27T10:55:58.000000Z"
     },
-    "sub_industries": [],
-    "lead_account": null,
     "lead_corporation_details": [
       {
         "id": 14749134,
@@ -2244,16 +1751,13 @@
       "iso": "CH",
       "iso3": "CH",
       "iso_numeric": "0",
-      "nicename": "",
-      "numcode": null,
       "phonecode": "0"
     },
     "sales_managers": {
       "id": 8010,
       "name": "Гасанова Сабина Ахлимановна",
       "email": "sabina@a.krok.edu.ua",
-      "image_url": "https://crm-s.com/img/default-profile-3.png",
-      "modules": []
+      "image_url": "https://crm-s.com/img/default-profile-3.png"
     },
     "status": {
       "id": 8,
@@ -2262,102 +1766,60 @@
       "created_at": "2020-10-27T10:25:50.000000Z",
       "updated_at": "2020-10-27T10:25:50.000000Z"
     },
-    "project_company": null,
-    "need_candidates": [],
-    "client_communications": [],
-    "communication": [],
     "lead_id": {
       "id": 1102739,
       "company_id": "1",
-      "created_by": null,
       "client_id": "8887",
       "client_details_id": "6837",
-      "promo_code_id": null,
-      "source_id": null,
       "placement_id": "37",
-      "status_id": null,
       "column_priority": "0",
       "type_id": "2",
       "agent_id": "442",
       "company_name": "Dominating Keywords",
       "countries_id": "40",
       "website": "https://dominatingkeywords.com/",
-      "address": null,
       "size_id": "12",
-      "account_id": null,
       "industry_id": "1134",
       "client_name": "G",
-      "mobile": null,
       "note": "▷ IP: 170.247.220.131 \n        Device: WebKit Desktop: true Mobile: false Tablet: false\n        Platform: Windows Windows: true IPhone: false Android: false\n        Browser: Chrome Firefox: false OSX: false Nexus: false Safari: true",
-      "settings_module": null,
       "next_follow_up": "yes",
       "client_email": "g",
-      "year_establishment_company": null,
-      "value": "0",
-      "currency_id": null,
-      "category_id": null
+      "value": "0"
     },
-    "promo_code_from_affiliate": null,
-    "promo_code_affiliate": null,
-    "client_accounting_note": [],
-    "affiliate_details": [],
     "lead_type": {
       "id": 2,
       "company_id": "1",
-      "name": "Customer",
-      "created_at": null,
-      "updated_at": null
-    },
-    "send_email": []
+      "name": "Customer"
+    }
   },
   {
     "id": 6839,
     "client_id": "1096288",
     "company_id": "1",
     "user_id": "8890",
-    "created_by": null,
-    "affiliate_promo_code_id": null,
-    "from_affiliate_promo_code_id": null,
-    "affiliate_contract_url": null,
     "name": "GrowthA",
     "email": "growtha@mail.com",
-    "image": null,
-    "mobile": null,
     "company_name": "GrowthA",
     "countries_id": "73",
-    "address": null,
     "size_id": "5",
     "account_id": "1240",
     "industry_id": "2",
-    "shipping_address": null,
     "website": "https://www.growth-a.com",
     "note": "Andrew Denysevych  9:35 AM\nHi Walid,\n\nIt's great connecting with you!\n\nI represent an outstaffing company Remote Helpers.\nWe provide our clients all over the world with remote employees. We would like to offer you our candidates for hire who are available to work in the following positions: Lead Generation Managers, Designers, Illustrators, Video Editors, Project Managers, Personal Assistants, Financiers, Recruiters, and more.\n\nWe can set a call to see if we can find a fit for you and of course explain our model if you are interested.",
-    "settings_module": null,
-    "linkedin": null,
-    "facebook": null,
-    "skype": null,
-    "gst_number": null,
     "email_notifications": "0",
     "lead_status_id": "20",
     "type_id": "2",
-    "lead_source_id": null,
     "placement_id": "76",
     "verified": "0",
     "sales_manager": "8010",
-    "sales_manager_assistant": null,
     "lg_manager_id": "998",
     "status_id": "20",
-    "category_id": null,
-    "sub_category_id": null,
-    "added_by": null,
-    "last_updated_by": null,
     "image_url": "https://crm-s.com/img/default-profile-2.png",
     "user": {
       "id": 8890,
       "name": "GrowthA",
       "email": "growtha@mail.com",
-      "image_url": "https://crm-s.com/img/default-profile-3.png",
-      "modules": []
+      "image_url": "https://crm-s.com/img/default-profile-3.png"
     },
     "project_companies": [
       {
@@ -2366,7 +1828,6 @@
         "name": "Remote Helpers",
         "website": "https://www.rh-s.com/",
         "short_name": "rh-s.com",
-        "created_at": null,
         "updated_at": "2024-01-05T06:56:45.000000Z",
         "pivot": {
           "client_details_id": "6839",
@@ -2378,19 +1839,10 @@
       {
         "id": 5291,
         "user_id": "8709",
-        "presale_id": null,
         "client_detail_id": "6839",
         "status_id": "1",
-        "employment_status_id": null,
-        "hours": null,
         "interview_date": "2025-01-14",
         "time_interview": "2025-01-17T17:00:00.000000Z",
-        "start_date": null,
-        "fire_date": null,
-        "service_agreement": null,
-        "end_date_agreement": null,
-        "price": null,
-        "currency_id": null,
         "comment": "<div>1) selling remote developers to clients in England, the US, and Europe.</div><div>2) selling the client's marketing services, including cold mailing, growth, and lead generation.</div>",
         "department_id": "23",
         "position_id": "18",
@@ -2404,7 +1856,6 @@
         "time": "17:00"
       }
     ],
-    "client_contacts": [],
     "lead_source": {
       "id": 76,
       "company_id": "1",
@@ -2418,14 +1869,11 @@
       "company_id": "1",
       "user_id": "8517",
       "status": "enabled",
-      "added_by": null,
-      "last_updated_by": null,
       "user": {
         "id": 8517,
         "name": "Северин Максим Васильевич",
         "email": "max.severinw@gmail.com",
-        "image_url": "https://crm-s.com/img/default-profile-3.png",
-        "modules": []
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
       }
     },
     "lead_status": {
@@ -2453,7 +1901,6 @@
       "created_at": "2020-09-04T08:45:50.000000Z",
       "updated_at": "2024-03-13T11:06:55.000000Z"
     },
-    "sub_industries": [],
     "lead_account": {
       "id": 1240,
       "company_id": "1",
@@ -2466,19 +1913,11 @@
       "linked_password": "U5vd56DUv5",
       "email_login": "and.denysevych@gmail.com",
       "email_password": "U5vd56DUv5",
-      "passport_link": null,
-      "mobile": null,
-      "comments": null,
-      "buy_date": null,
       "created_date": "2022-05-19",
-      "banned_date": null,
-      "sold_date": null,
-      "agent_id": null,
       "status_id": "3",
       "country_id": "40",
       "source_id": "13",
       "placement_id": "1",
-      "user_id": null,
       "is_approved_manager": "1",
       "created_at": "2022-05-19T13:06:23.000000Z",
       "updated_at": "2025-07-22T15:33:04.000000Z",
@@ -2495,16 +1934,13 @@
         "iso": "CH",
         "iso3": "CH",
         "iso_numeric": "0",
-        "nicename": "",
-        "numcode": null,
         "phonecode": "0"
       },
       "source": {
         "id": 13,
         "company_id": "1",
         "type": "linkedin"
-      },
-      "agent": null
+      }
     },
     "lead_corporation_details": [
       {
@@ -2524,16 +1960,13 @@
       "iso": "FR",
       "iso3": "FR",
       "iso_numeric": "0",
-      "nicename": "",
-      "numcode": null,
       "phonecode": "0"
     },
     "sales_managers": {
       "id": 8010,
       "name": "Гасанова Сабина Ахлимановна",
       "email": "sabina@a.krok.edu.ua",
-      "image_url": "https://crm-s.com/img/default-profile-3.png",
-      "modules": []
+      "image_url": "https://crm-s.com/img/default-profile-3.png"
     },
     "status": {
       "id": 20,
@@ -2542,7 +1975,6 @@
       "created_at": "2024-05-02T12:22:22.000000Z",
       "updated_at": "2024-05-02T12:22:22.000000Z"
     },
-    "project_company": null,
     "need_candidates": [
       {
         "id": 5230,
@@ -2550,20 +1982,14 @@
         "lead_id": "1096288",
         "is_lead": "0",
         "department_id": "23",
-        "demand_date": null,
-        "date_needed": null,
         "date_open_sales": "2025-01-13T00:00:00.000000Z",
-        "date_close_sales": null,
-        "date_close_hr": null,
         "comment_requirements": "<p>1) selling remote developers to clients in England, the US, and Europe.</p><p><br></p><p>2) selling the client's marketing services, including cold mailing, growth, and lead generation.</p>",
         "count_employees": "1",
         "status_id": "3",
-        "employment_status_id": null,
         "added_by": "5222",
         "last_updated_by": "5222",
         "created_at": "2025-01-13T18:18:11.000000Z",
         "updated_at": "2025-01-13T18:18:11.000000Z",
-        "skills": [],
         "positions": [
           {
             "id": 18,
@@ -2587,50 +2013,30 @@
             }
           }
         ],
-        "added": null,
-        "last_updated": null,
-        "languages": [],
         "client_detail": {
           "id": 6839,
           "client_id": "1096288",
           "company_id": "1",
           "user_id": "8890",
           "created_by": "5222",
-          "affiliate_promo_code_id": null,
-          "from_affiliate_promo_code_id": null,
-          "affiliate_contract_url": null,
           "name": "GrowthA",
           "email": "growtha@mail.com",
-          "image": null,
-          "mobile": null,
           "company_name": "GrowthA",
           "countries_id": "73",
-          "address": null,
           "size_id": "5",
           "account_id": "1240",
           "industry_id": "2",
-          "shipping_address": null,
           "website": "https://www.growth-a.com",
           "note": "Andrew Denysevych  9:35 AM\nHi Walid,\n\nIt's great connecting with you!\n\nI represent an outstaffing company Remote Helpers.\nWe provide our clients all over the world with remote employees. We would like to offer you our candidates for hire who are available to work in the following positions: Lead Generation Managers, Designers, Illustrators, Video Editors, Project Managers, Personal Assistants, Financiers, Recruiters, and more.\n\nWe can set a call to see if we can find a fit for you and of course explain our model if you are interested.",
-          "settings_module": null,
-          "linkedin": null,
-          "facebook": null,
-          "skype": null,
-          "gst_number": null,
           "email_notifications": "0",
           "lead_status_id": "20",
           "type_id": "2",
-          "lead_source_id": null,
           "placement_id": "76",
           "verified": "0",
           "sales_manager": "8010",
           "sales_manager_assistant": "8709",
           "lg_manager_id": "998",
           "status_id": "20",
-          "category_id": null,
-          "sub_category_id": null,
-          "added_by": null,
-          "last_updated_by": null,
           "image_url": "https://crm-s.com/img/default-profile-2.png"
         },
         "teams": {
@@ -2648,17 +2054,13 @@
           "created_at": "2021-08-24T07:51:55.000000Z",
           "updated_at": "2021-08-24T07:51:55.000000Z"
         },
-        "employee_users": [],
-        "employment_statuses": null,
         "send_employee": [
           {
             "id": 407,
             "client_needed_id": "5230",
             "sent_date": "2025-01-13",
             "user_id": "8709",
-            "presale_id": null,
             "status_id": "1",
-            "comment_client": "",
             "is_interview_candidate": "1",
             "created_at": "2025-01-13T18:18:11.000000Z",
             "updated_at": "2025-01-13T18:18:11.000000Z"
@@ -2668,9 +2070,7 @@
             "client_needed_id": "5230",
             "sent_date": "2025-01-13",
             "user_id": "7088",
-            "presale_id": null,
             "status_id": "1",
-            "comment_client": "",
             "is_interview_candidate": "1",
             "created_at": "2025-01-13T18:18:11.000000Z",
             "updated_at": "2025-01-13T18:18:11.000000Z"
@@ -2678,16 +2078,12 @@
         ]
       }
     ],
-    "client_communications": [],
-    "communication": [],
     "lead_id": {
       "id": 1096288,
       "company_id": "1",
       "created_by": "8517",
       "client_id": "8890",
       "client_details_id": "6839",
-      "promo_code_id": null,
-      "source_id": null,
       "placement_id": "76",
       "status_id": "20",
       "column_priority": "0",
@@ -2696,82 +2092,47 @@
       "company_name": "GrowthA",
       "countries_id": "73",
       "website": "https://www.growth-a.com",
-      "address": null,
       "size_id": "5",
       "account_id": "1240",
       "industry_id": "2",
-      "client_name": null,
-      "mobile": null,
       "note": "Andrew Denysevych  9:35 AM\nHi Walid,\n\nIt's great connecting with you!\n\nI represent an outstaffing company Remote Helpers.\nWe provide our clients all over the world with remote employees. We would like to offer you our candidates for hire who are available to work in the following positions: Lead Generation Managers, Designers, Illustrators, Video Editors, Project Managers, Personal Assistants, Financiers, Recruiters, and more.\n\nWe can set a call to see if we can find a fit for you and of course explain our model if you are interested.",
-      "settings_module": null,
       "next_follow_up": "yes",
-      "client_email": null,
-      "year_establishment_company": null,
-      "value": "0",
-      "currency_id": null,
-      "category_id": null
+      "value": "0"
     },
-    "promo_code_from_affiliate": null,
-    "promo_code_affiliate": null,
-    "client_accounting_note": [],
-    "affiliate_details": [],
     "lead_type": {
       "id": 2,
       "company_id": "1",
-      "name": "Customer",
-      "created_at": null,
-      "updated_at": null
-    },
-    "send_email": []
+      "name": "Customer"
+    }
   },
   {
     "id": 6722,
     "client_id": "1067045",
     "company_id": "1",
     "user_id": "8740",
-    "created_by": null,
-    "affiliate_promo_code_id": null,
-    "from_affiliate_promo_code_id": null,
-    "affiliate_contract_url": null,
     "name": "Shade-Space / Mass Reach",
     "email": "shade-space@mail.com",
-    "image": null,
-    "mobile": null,
     "company_name": "Shade-Space",
     "countries_id": "272",
-    "address": null,
     "size_id": "5",
     "account_id": "790",
     "industry_id": "1109",
-    "shipping_address": null,
     "website": "https://www.shade-space.co.uk",
     "note": "updated smm sales",
-    "settings_module": null,
-    "linkedin": null,
-    "facebook": null,
-    "skype": null,
-    "gst_number": null,
     "email_notifications": "0",
     "lead_status_id": "20",
     "type_id": "2",
-    "lead_source_id": null,
     "placement_id": "76",
     "verified": "0",
     "sales_manager": "8010",
-    "sales_manager_assistant": null,
     "lg_manager_id": "920",
     "status_id": "12",
-    "category_id": null,
-    "sub_category_id": null,
-    "added_by": null,
-    "last_updated_by": null,
     "image_url": "https://crm-s.com/img/default-profile-2.png",
     "user": {
       "id": 8740,
       "name": "Shade-Space / Mass Reach",
       "email": "shade-space@mail.com",
-      "image_url": "https://crm-s.com/img/default-profile-3.png",
-      "modules": []
+      "image_url": "https://crm-s.com/img/default-profile-3.png"
     },
     "project_companies": [
       {
@@ -2780,7 +2141,6 @@
         "name": "Remote Helpers",
         "website": "https://www.rh-s.com/",
         "short_name": "rh-s.com",
-        "created_at": null,
         "updated_at": "2024-01-05T06:56:45.000000Z",
         "pivot": {
           "client_details_id": "6722",
@@ -2792,7 +2152,6 @@
         "company_id": "1",
         "name": "1.rh-s.com",
         "website": "1.rh-s.com",
-        "short_name": null,
         "created_at": "2022-07-28T12:29:08.000000Z",
         "updated_at": "2022-07-28T12:29:08.000000Z",
         "pivot": {
@@ -2805,20 +2164,10 @@
       {
         "id": 5217,
         "user_id": "8491",
-        "presale_id": null,
         "client_detail_id": "6722",
         "status_id": "1",
-        "employment_status_id": null,
-        "hours": null,
         "interview_date": "2024-10-11",
         "time_interview": "2024-11-25T16:30:00.000000Z",
-        "start_date": null,
-        "fire_date": null,
-        "service_agreement": null,
-        "end_date_agreement": null,
-        "price": null,
-        "currency_id": null,
-        "comment": null,
         "department_id": "14",
         "position_id": "4",
         "is_payment_vacancy": "0",
@@ -2832,21 +2181,11 @@
       },
       {
         "id": 5235,
-        "user_id": null,
         "presale_id": "191",
         "client_detail_id": "6722",
         "status_id": "1",
-        "employment_status_id": null,
-        "hours": null,
         "interview_date": "2024-10-25",
         "time_interview": "2024-11-25T13:00:00.000000Z",
-        "start_date": null,
-        "fire_date": null,
-        "service_agreement": null,
-        "end_date_agreement": null,
-        "price": null,
-        "currency_id": null,
-        "comment": null,
         "department_id": "14",
         "position_id": "2",
         "is_payment_vacancy": "0",
@@ -2861,20 +2200,10 @@
       {
         "id": 5236,
         "user_id": "7376",
-        "presale_id": null,
         "client_detail_id": "6722",
         "status_id": "1",
-        "employment_status_id": null,
-        "hours": null,
         "interview_date": "2024-10-26",
         "time_interview": "2024-11-25T16:00:00.000000Z",
-        "start_date": null,
-        "fire_date": null,
-        "service_agreement": null,
-        "end_date_agreement": null,
-        "price": null,
-        "currency_id": null,
-        "comment": null,
         "department_id": "23",
         "position_id": "17",
         "is_payment_vacancy": "0",
@@ -2889,20 +2218,10 @@
       {
         "id": 5237,
         "user_id": "8233",
-        "presale_id": null,
         "client_detail_id": "6722",
         "status_id": "1",
-        "employment_status_id": null,
-        "hours": null,
         "interview_date": "2024-10-26",
         "time_interview": "2024-11-25T16:00:00.000000Z",
-        "start_date": null,
-        "fire_date": null,
-        "service_agreement": null,
-        "end_date_agreement": null,
-        "price": null,
-        "currency_id": null,
-        "comment": null,
         "department_id": "23",
         "position_id": "17",
         "is_payment_vacancy": "0",
@@ -2916,21 +2235,11 @@
       },
       {
         "id": 5238,
-        "user_id": null,
         "presale_id": "223",
         "client_detail_id": "6722",
         "status_id": "1",
-        "employment_status_id": null,
-        "hours": null,
         "interview_date": "2024-10-26",
         "time_interview": "2024-11-25T00:00:00.000000Z",
-        "start_date": null,
-        "fire_date": null,
-        "service_agreement": null,
-        "end_date_agreement": null,
-        "price": null,
-        "currency_id": null,
-        "comment": null,
         "department_id": "23",
         "position_id": "17",
         "is_payment_vacancy": "0",
@@ -2943,7 +2252,6 @@
         "time": "00:00"
       }
     ],
-    "client_contacts": [],
     "lead_source": {
       "id": 76,
       "company_id": "1",
@@ -2957,14 +2265,11 @@
       "company_id": "1",
       "user_id": "7947",
       "status": "enabled",
-      "added_by": null,
-      "last_updated_by": null,
       "user": {
         "id": 7947,
         "name": "Нижиборская Лилия Анатольевна",
         "email": "leejay.ua@gmail.com",
-        "image_url": "https://crm-s.com/img/default-profile-3.png",
-        "modules": []
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
       }
     },
     "lead_status": {
@@ -2992,7 +2297,6 @@
       "created_at": "2021-08-27T10:45:23.000000Z",
       "updated_at": "2021-08-27T10:45:23.000000Z"
     },
-    "sub_industries": [],
     "lead_account": {
       "id": 790,
       "company_id": "1",
@@ -3005,19 +2309,13 @@
       "linked_password": "RTBCes68XhsztWz9",
       "email_login": "nadiia.omelchenko.remote@gmail.com",
       "email_password": "RTBCes68XhsztWz9",
-      "passport_link": null,
-      "mobile": null,
       "comments": "нет документов",
-      "buy_date": null,
       "created_date": "2021-06-03",
-      "banned_date": null,
-      "sold_date": null,
       "agent_id": "1067",
       "status_id": "4",
       "country_id": "60",
       "source_id": "13",
       "placement_id": "1",
-      "user_id": null,
       "is_approved_manager": "1",
       "created_at": "2021-06-03T09:19:00.000000Z",
       "updated_at": "2025-09-16T09:04:40.000000Z",
@@ -3034,8 +2332,6 @@
         "iso": "DK",
         "iso3": "DN",
         "iso_numeric": "0",
-        "nicename": "",
-        "numcode": null,
         "phonecode": "0"
       },
       "source": {
@@ -3048,14 +2344,11 @@
         "company_id": "1",
         "user_id": "9119",
         "status": "enabled",
-        "added_by": null,
-        "last_updated_by": null,
         "user": {
           "id": 9119,
           "name": "Пенева Пламена Владимировна",
           "email": "plamsi1206@gmail.com",
-          "image_url": "https://crm-s.com/img/default-profile-3.png",
-          "modules": []
+          "image_url": "https://crm-s.com/img/default-profile-3.png"
         }
       }
     },
@@ -3095,18 +2388,14 @@
       "id": 272,
       "name": "United Kingdom",
       "iso": "GB",
-      "iso3": "",
       "iso_numeric": "0",
-      "nicename": "",
-      "numcode": null,
       "phonecode": "0"
     },
     "sales_managers": {
       "id": 8010,
       "name": "Гасанова Сабина Ахлимановна",
       "email": "sabina@a.krok.edu.ua",
-      "image_url": "https://crm-s.com/img/default-profile-3.png",
-      "modules": []
+      "image_url": "https://crm-s.com/img/default-profile-3.png"
     },
     "status": {
       "id": 12,
@@ -3115,7 +2404,6 @@
       "created_at": "2020-11-05T10:37:50.000000Z",
       "updated_at": "2020-11-05T10:37:50.000000Z"
     },
-    "project_company": null,
     "need_candidates": [
       {
         "id": 5067,
@@ -3123,20 +2411,14 @@
         "lead_id": "1067045",
         "is_lead": "0",
         "department_id": "14",
-        "demand_date": null,
         "date_needed": "2024-10-11",
         "date_open_sales": "2024-10-04T00:00:00.000000Z",
-        "date_close_sales": null,
-        "date_close_hr": null,
-        "comment_requirements": null,
         "count_employees": "1",
         "status_id": "7",
-        "employment_status_id": null,
         "added_by": "7953",
         "last_updated_by": "5222",
         "created_at": "2024-10-04T14:17:41.000000Z",
         "updated_at": "2024-11-27T14:07:57.000000Z",
-        "skills": [],
         "positions": [
           {
             "id": 4,
@@ -3160,50 +2442,30 @@
             }
           }
         ],
-        "added": null,
-        "last_updated": null,
-        "languages": [],
         "client_detail": {
           "id": 6722,
           "client_id": "1067045",
           "company_id": "1",
           "user_id": "8740",
           "created_by": "7953",
-          "affiliate_promo_code_id": null,
-          "from_affiliate_promo_code_id": null,
-          "affiliate_contract_url": null,
           "name": "Shade-Space / Mass Reach",
           "email": "shade-space@mail.com",
-          "image": null,
-          "mobile": null,
           "company_name": "Shade-Space",
           "countries_id": "272",
-          "address": null,
           "size_id": "5",
           "account_id": "790",
           "industry_id": "1109",
-          "shipping_address": null,
           "website": "https://www.shade-space.co.uk",
           "note": "updated smm sales",
-          "settings_module": null,
-          "linkedin": null,
-          "facebook": null,
-          "skype": null,
-          "gst_number": null,
           "email_notifications": "0",
           "lead_status_id": "20",
           "type_id": "2",
-          "lead_source_id": null,
           "placement_id": "76",
           "verified": "0",
           "sales_manager": "8010",
           "sales_manager_assistant": "8709",
           "lg_manager_id": "920",
           "status_id": "12",
-          "category_id": null,
-          "sub_category_id": null,
-          "added_by": null,
-          "last_updated_by": null,
           "image_url": "https://crm-s.com/img/default-profile-2.png"
         },
         "teams": {
@@ -3218,20 +2480,15 @@
           "id": 7,
           "company_id": "1",
           "name": "Demand",
-          "created_at": null,
           "updated_at": "2022-09-23T14:09:33.000000Z"
         },
-        "employee_users": [],
-        "employment_statuses": null,
         "send_employee": [
           {
             "id": 268,
             "client_needed_id": "5067",
             "sent_date": "2024-10-07",
             "user_id": "8491",
-            "presale_id": null,
             "status_id": "1",
-            "comment_client": "",
             "is_interview_candidate": "1",
             "created_at": "2024-10-11T13:37:03.000000Z",
             "updated_at": "2024-10-11T13:37:03.000000Z"
@@ -3244,20 +2501,13 @@
         "lead_id": "1067045",
         "is_lead": "0",
         "department_id": "23",
-        "demand_date": null,
-        "date_needed": null,
         "date_open_sales": "2024-10-04T00:00:00.000000Z",
-        "date_close_sales": null,
-        "date_close_hr": null,
-        "comment_requirements": null,
         "count_employees": "1",
         "status_id": "23",
-        "employment_status_id": null,
         "added_by": "7953",
         "last_updated_by": "5222",
         "created_at": "2024-10-04T14:18:02.000000Z",
         "updated_at": "2024-11-27T14:13:14.000000Z",
-        "skills": [],
         "positions": [
           {
             "id": 18,
@@ -3281,50 +2531,30 @@
             }
           }
         ],
-        "added": null,
-        "last_updated": null,
-        "languages": [],
         "client_detail": {
           "id": 6722,
           "client_id": "1067045",
           "company_id": "1",
           "user_id": "8740",
           "created_by": "7953",
-          "affiliate_promo_code_id": null,
-          "from_affiliate_promo_code_id": null,
-          "affiliate_contract_url": null,
           "name": "Shade-Space / Mass Reach",
           "email": "shade-space@mail.com",
-          "image": null,
-          "mobile": null,
           "company_name": "Shade-Space",
           "countries_id": "272",
-          "address": null,
           "size_id": "5",
           "account_id": "790",
           "industry_id": "1109",
-          "shipping_address": null,
           "website": "https://www.shade-space.co.uk",
           "note": "updated smm sales",
-          "settings_module": null,
-          "linkedin": null,
-          "facebook": null,
-          "skype": null,
-          "gst_number": null,
           "email_notifications": "0",
           "lead_status_id": "20",
           "type_id": "2",
-          "lead_source_id": null,
           "placement_id": "76",
           "verified": "0",
           "sales_manager": "8010",
           "sales_manager_assistant": "8709",
           "lg_manager_id": "920",
           "status_id": "12",
-          "category_id": null,
-          "sub_category_id": null,
-          "added_by": null,
-          "last_updated_by": null,
           "image_url": "https://crm-s.com/img/default-profile-2.png"
         },
         "teams": {
@@ -3341,10 +2571,7 @@
           "name": "Pending",
           "created_at": "2024-09-10T10:45:10.000000Z",
           "updated_at": "2024-09-10T10:45:10.000000Z"
-        },
-        "employee_users": [],
-        "employment_statuses": null,
-        "send_employee": []
+        }
       },
       {
         "id": 5069,
@@ -3352,20 +2579,14 @@
         "lead_id": "1067045",
         "is_lead": "0",
         "department_id": "37",
-        "demand_date": null,
-        "date_needed": null,
         "date_open_sales": "2024-10-04T00:00:00.000000Z",
-        "date_close_sales": null,
-        "date_close_hr": null,
         "comment_requirements": "<p>with CGI</p>",
         "count_employees": "1",
         "status_id": "7",
-        "employment_status_id": null,
         "added_by": "7953",
         "last_updated_by": "5222",
         "created_at": "2024-10-04T14:18:24.000000Z",
         "updated_at": "2024-11-25T10:26:18.000000Z",
-        "skills": [],
         "positions": [
           {
             "id": 10,
@@ -3389,50 +2610,30 @@
             }
           }
         ],
-        "added": null,
-        "last_updated": null,
-        "languages": [],
         "client_detail": {
           "id": 6722,
           "client_id": "1067045",
           "company_id": "1",
           "user_id": "8740",
           "created_by": "7953",
-          "affiliate_promo_code_id": null,
-          "from_affiliate_promo_code_id": null,
-          "affiliate_contract_url": null,
           "name": "Shade-Space / Mass Reach",
           "email": "shade-space@mail.com",
-          "image": null,
-          "mobile": null,
           "company_name": "Shade-Space",
           "countries_id": "272",
-          "address": null,
           "size_id": "5",
           "account_id": "790",
           "industry_id": "1109",
-          "shipping_address": null,
           "website": "https://www.shade-space.co.uk",
           "note": "updated smm sales",
-          "settings_module": null,
-          "linkedin": null,
-          "facebook": null,
-          "skype": null,
-          "gst_number": null,
           "email_notifications": "0",
           "lead_status_id": "20",
           "type_id": "2",
-          "lead_source_id": null,
           "placement_id": "76",
           "verified": "0",
           "sales_manager": "8010",
           "sales_manager_assistant": "8709",
           "lg_manager_id": "920",
           "status_id": "12",
-          "category_id": null,
-          "sub_category_id": null,
-          "added_by": null,
-          "last_updated_by": null,
           "image_url": "https://crm-s.com/img/default-profile-2.png"
         },
         "teams": {
@@ -3447,12 +2648,8 @@
           "id": 7,
           "company_id": "1",
           "name": "Demand",
-          "created_at": null,
           "updated_at": "2022-09-23T14:09:33.000000Z"
-        },
-        "employee_users": [],
-        "employment_statuses": null,
-        "send_employee": []
+        }
       },
       {
         "id": 5126,
@@ -3460,20 +2657,13 @@
         "lead_id": "1067045",
         "is_lead": "0",
         "department_id": "14",
-        "demand_date": null,
-        "date_needed": null,
         "date_open_sales": "2024-10-25T00:00:00.000000Z",
-        "date_close_sales": null,
-        "date_close_hr": null,
-        "comment_requirements": null,
         "count_employees": "1",
         "status_id": "23",
-        "employment_status_id": null,
         "added_by": "5222",
         "last_updated_by": "5222",
         "created_at": "2024-10-25T10:29:53.000000Z",
         "updated_at": "2024-11-27T14:13:11.000000Z",
-        "skills": [],
         "positions": [
           {
             "id": 2,
@@ -3497,50 +2687,30 @@
             }
           }
         ],
-        "added": null,
-        "last_updated": null,
-        "languages": [],
         "client_detail": {
           "id": 6722,
           "client_id": "1067045",
           "company_id": "1",
           "user_id": "8740",
           "created_by": "7953",
-          "affiliate_promo_code_id": null,
-          "from_affiliate_promo_code_id": null,
-          "affiliate_contract_url": null,
           "name": "Shade-Space / Mass Reach",
           "email": "shade-space@mail.com",
-          "image": null,
-          "mobile": null,
           "company_name": "Shade-Space",
           "countries_id": "272",
-          "address": null,
           "size_id": "5",
           "account_id": "790",
           "industry_id": "1109",
-          "shipping_address": null,
           "website": "https://www.shade-space.co.uk",
           "note": "updated smm sales",
-          "settings_module": null,
-          "linkedin": null,
-          "facebook": null,
-          "skype": null,
-          "gst_number": null,
           "email_notifications": "0",
           "lead_status_id": "20",
           "type_id": "2",
-          "lead_source_id": null,
           "placement_id": "76",
           "verified": "0",
           "sales_manager": "8010",
           "sales_manager_assistant": "8709",
           "lg_manager_id": "920",
           "status_id": "12",
-          "category_id": null,
-          "sub_category_id": null,
-          "added_by": null,
-          "last_updated_by": null,
           "image_url": "https://crm-s.com/img/default-profile-2.png"
         },
         "teams": {
@@ -3558,17 +2728,13 @@
           "created_at": "2024-09-10T10:45:10.000000Z",
           "updated_at": "2024-09-10T10:45:10.000000Z"
         },
-        "employee_users": [],
-        "employment_statuses": null,
         "send_employee": [
           {
             "id": 302,
             "client_needed_id": "5126",
             "sent_date": "2024-10-21",
-            "user_id": null,
             "presale_id": "191",
             "status_id": "1",
-            "comment_client": "",
             "is_interview_candidate": "1",
             "created_at": "2024-10-25T10:29:53.000000Z",
             "updated_at": "2024-10-25T10:29:53.000000Z"
@@ -3581,20 +2747,13 @@
         "lead_id": "1067045",
         "is_lead": "0",
         "department_id": "23",
-        "demand_date": null,
-        "date_needed": null,
         "date_open_sales": "2024-10-25T00:00:00.000000Z",
-        "date_close_sales": null,
-        "date_close_hr": null,
-        "comment_requirements": null,
         "count_employees": "1",
         "status_id": "23",
-        "employment_status_id": null,
         "added_by": "5222",
         "last_updated_by": "5222",
         "created_at": "2024-10-25T10:31:32.000000Z",
         "updated_at": "2024-11-27T14:13:07.000000Z",
-        "skills": [],
         "positions": [
           {
             "id": 17,
@@ -3618,50 +2777,30 @@
             }
           }
         ],
-        "added": null,
-        "last_updated": null,
-        "languages": [],
         "client_detail": {
           "id": 6722,
           "client_id": "1067045",
           "company_id": "1",
           "user_id": "8740",
           "created_by": "7953",
-          "affiliate_promo_code_id": null,
-          "from_affiliate_promo_code_id": null,
-          "affiliate_contract_url": null,
           "name": "Shade-Space / Mass Reach",
           "email": "shade-space@mail.com",
-          "image": null,
-          "mobile": null,
           "company_name": "Shade-Space",
           "countries_id": "272",
-          "address": null,
           "size_id": "5",
           "account_id": "790",
           "industry_id": "1109",
-          "shipping_address": null,
           "website": "https://www.shade-space.co.uk",
           "note": "updated smm sales",
-          "settings_module": null,
-          "linkedin": null,
-          "facebook": null,
-          "skype": null,
-          "gst_number": null,
           "email_notifications": "0",
           "lead_status_id": "20",
           "type_id": "2",
-          "lead_source_id": null,
           "placement_id": "76",
           "verified": "0",
           "sales_manager": "8010",
           "sales_manager_assistant": "8709",
           "lg_manager_id": "920",
           "status_id": "12",
-          "category_id": null,
-          "sub_category_id": null,
-          "added_by": null,
-          "last_updated_by": null,
           "image_url": "https://crm-s.com/img/default-profile-2.png"
         },
         "teams": {
@@ -3679,17 +2818,13 @@
           "created_at": "2024-09-10T10:45:10.000000Z",
           "updated_at": "2024-09-10T10:45:10.000000Z"
         },
-        "employee_users": [],
-        "employment_statuses": null,
         "send_employee": [
           {
             "id": 303,
             "client_needed_id": "5127",
             "sent_date": "2024-10-25",
             "user_id": "8233",
-            "presale_id": null,
             "status_id": "1",
-            "comment_client": "",
             "is_interview_candidate": "1",
             "created_at": "2024-10-25T10:31:32.000000Z",
             "updated_at": "2024-10-25T10:31:32.000000Z"
@@ -3699,9 +2834,7 @@
             "client_needed_id": "5127",
             "sent_date": "2024-10-25",
             "user_id": "7376",
-            "presale_id": null,
             "status_id": "1",
-            "comment_client": "",
             "is_interview_candidate": "1",
             "created_at": "2024-10-25T10:31:32.000000Z",
             "updated_at": "2024-10-25T10:31:32.000000Z"
@@ -3710,10 +2843,8 @@
             "id": 305,
             "client_needed_id": "5127",
             "sent_date": "2024-10-25",
-            "user_id": null,
             "presale_id": "223",
             "status_id": "1",
-            "comment_client": "",
             "is_interview_candidate": "1",
             "created_at": "2024-10-25T10:31:32.000000Z",
             "updated_at": "2024-10-25T10:31:32.000000Z"
@@ -3726,65 +2857,37 @@
         "lead_id": "1067045",
         "is_lead": "0",
         "department_id": "23",
-        "demand_date": null,
-        "date_needed": null,
         "date_open_sales": "2024-10-23T00:00:00.000000Z",
-        "date_close_sales": null,
-        "date_close_hr": null,
-        "comment_requirements": null,
         "count_employees": "1",
         "status_id": "23",
-        "employment_status_id": null,
         "added_by": "7953",
         "last_updated_by": "5222",
         "created_at": "2024-10-25T14:16:18.000000Z",
         "updated_at": "2024-11-27T14:13:06.000000Z",
-        "skills": [],
-        "positions": [],
-        "added": null,
-        "last_updated": null,
-        "languages": [],
         "client_detail": {
           "id": 6722,
           "client_id": "1067045",
           "company_id": "1",
           "user_id": "8740",
           "created_by": "7953",
-          "affiliate_promo_code_id": null,
-          "from_affiliate_promo_code_id": null,
-          "affiliate_contract_url": null,
           "name": "Shade-Space / Mass Reach",
           "email": "shade-space@mail.com",
-          "image": null,
-          "mobile": null,
           "company_name": "Shade-Space",
           "countries_id": "272",
-          "address": null,
           "size_id": "5",
           "account_id": "790",
           "industry_id": "1109",
-          "shipping_address": null,
           "website": "https://www.shade-space.co.uk",
           "note": "updated smm sales",
-          "settings_module": null,
-          "linkedin": null,
-          "facebook": null,
-          "skype": null,
-          "gst_number": null,
           "email_notifications": "0",
           "lead_status_id": "20",
           "type_id": "2",
-          "lead_source_id": null,
           "placement_id": "76",
           "verified": "0",
           "sales_manager": "8010",
           "sales_manager_assistant": "8709",
           "lg_manager_id": "920",
           "status_id": "12",
-          "category_id": null,
-          "sub_category_id": null,
-          "added_by": null,
-          "last_updated_by": null,
           "image_url": "https://crm-s.com/img/default-profile-2.png"
         },
         "teams": {
@@ -3802,17 +2905,13 @@
           "created_at": "2024-09-10T10:45:10.000000Z",
           "updated_at": "2024-09-10T10:45:10.000000Z"
         },
-        "employee_users": [],
-        "employment_statuses": null,
         "send_employee": [
           {
             "id": 306,
             "client_needed_id": "5128",
             "sent_date": "2024-10-23",
-            "user_id": null,
             "presale_id": "223",
             "status_id": "2",
-            "comment_client": "",
             "is_interview_candidate": "1",
             "created_at": "2024-10-25T14:16:18.000000Z",
             "updated_at": "2024-10-25T14:16:18.000000Z"
@@ -3820,16 +2919,12 @@
         ]
       }
     ],
-    "client_communications": [],
-    "communication": [],
     "lead_id": {
       "id": 1067045,
       "company_id": "1",
       "created_by": "7947",
       "client_id": "8740",
       "client_details_id": "6722",
-      "promo_code_id": null,
-      "source_id": null,
       "placement_id": "76",
       "status_id": "20",
       "column_priority": "0",
@@ -3838,82 +2933,48 @@
       "company_name": "Shade-Space",
       "countries_id": "272",
       "website": "https://www.shade-space.co.uk",
-      "address": null,
       "size_id": "5",
       "account_id": "790",
       "industry_id": "1109",
-      "client_name": null,
-      "mobile": null,
       "note": "updated smm sales",
-      "settings_module": null,
       "next_follow_up": "yes",
-      "client_email": null,
       "year_establishment_company": "2020",
-      "value": "0",
-      "currency_id": null,
-      "category_id": null
+      "value": "0"
     },
-    "promo_code_from_affiliate": null,
-    "promo_code_affiliate": null,
-    "client_accounting_note": [],
-    "affiliate_details": [],
     "lead_type": {
       "id": 2,
       "company_id": "1",
-      "name": "Customer",
-      "created_at": null,
-      "updated_at": null
-    },
-    "send_email": []
+      "name": "Customer"
+    }
   },
   {
     "id": 6355,
     "client_id": "9806079",
     "company_id": "1",
     "user_id": "8266",
-    "created_by": null,
-    "affiliate_promo_code_id": null,
-    "from_affiliate_promo_code_id": null,
-    "affiliate_contract_url": null,
     "name": "EOPSA - European Onshore Power Supply Association",
     "email": "eopsa_-_european_onshore_power_supply_association@mail.com",
-    "image": null,
-    "mobile": null,
     "company_name": "EOPSA - European Onshore Power Supply Association.",
     "countries_id": "19",
-    "address": null,
     "size_id": "1",
     "account_id": "800",
     "industry_id": "1135",
-    "shipping_address": null,
     "website": "http://www.eopsa.eu.",
     "note": "Hi, can we have a discussion later this week please. I would like to understand your business model. \nCan you work in French too? \nHow are you fixed for a teams call on Friday 16th at 09:00 am CET? \nPlease can you provide me with your email and I can send you a meeting invite. Thanks\nJoin the online meeting with Remote Helpers in Ukraine to uncover new pathways for maximizing the potential of  EOPSA   team and resources.\n\nWebsite: rh-s.com\n\nCompany website: https://www.eopsa.eu/\n\nComments: Roland Teixeira de Mattos\n\n(https://www.linkedin.com/in/rolandteixeirademattos/)\n\nI would like to understand your business model.  Can you work in French too?  How are you fixed for a teams call on Friday 16th at 09:00 am CET?  Please can you provide me with your email and I can send you a meeting invite. Thanks\nNeed to tell more about us.\n\nCountry-Location: Brussels, Brussels Region, Belgium\n\nManager: Korzhova Liudmyla",
-    "settings_module": null,
-    "linkedin": null,
-    "facebook": null,
-    "skype": null,
-    "gst_number": null,
     "email_notifications": "0",
     "lead_status_id": "20",
     "type_id": "2",
-    "lead_source_id": null,
     "placement_id": "1",
     "verified": "0",
     "sales_manager": "8010",
-    "sales_manager_assistant": null,
     "lg_manager_id": "574",
     "status_id": "8",
-    "category_id": null,
-    "sub_category_id": null,
-    "added_by": null,
-    "last_updated_by": null,
     "image_url": "https://crm-s.com/img/default-profile-2.png",
     "user": {
       "id": 8266,
       "name": "EOPSA - European Onshore Power Supply Association",
       "email": "eopsa_-_european_onshore_power_supply_association@mail.com",
-      "image_url": "https://crm-s.com/img/default-profile-3.png",
-      "modules": []
+      "image_url": "https://crm-s.com/img/default-profile-3.png"
     },
     "project_companies": [
       {
@@ -3922,7 +2983,6 @@
         "name": "Remote Helpers",
         "website": "https://www.rh-s.com/",
         "short_name": "rh-s.com",
-        "created_at": null,
         "updated_at": "2024-01-05T06:56:45.000000Z",
         "pivot": {
           "client_details_id": "6355",
@@ -3930,8 +2990,6 @@
         }
       }
     ],
-    "client_candidates": [],
-    "client_contacts": [],
     "lead_source": {
       "id": 1,
       "company_id": "1",
@@ -3945,14 +3003,11 @@
       "company_id": "1",
       "user_id": "5972",
       "status": "enabled",
-      "added_by": null,
-      "last_updated_by": null,
       "user": {
         "id": 5972,
         "name": "Коржова Людмила Сергеевна",
         "email": "ludakorzova@gmail.com",
-        "image_url": "https://crm-s.com/img/default-profile-3.png",
-        "modules": []
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
       }
     },
     "lead_status": {
@@ -3980,7 +3035,6 @@
       "created_at": "2021-08-27T10:56:04.000000Z",
       "updated_at": "2021-08-27T10:56:04.000000Z"
     },
-    "sub_industries": [],
     "lead_account": {
       "id": 800,
       "company_id": "1",
@@ -3993,19 +3047,13 @@
       "linked_password": "IhBCkEplRQS4LOKQ",
       "email_login": "olena.statsenko.remote@gmail.com",
       "email_password": "IhBCkEplRQS4LOKQ",
-      "passport_link": null,
-      "mobile": null,
       "comments": "нет документов",
-      "buy_date": null,
       "created_date": "2021-06-03",
-      "banned_date": null,
-      "sold_date": null,
       "agent_id": "1082",
       "status_id": "4",
       "country_id": "19",
       "source_id": "13",
       "placement_id": "1",
-      "user_id": null,
       "is_approved_manager": "1",
       "created_at": "2021-06-03T10:51:07.000000Z",
       "updated_at": "2025-11-03T07:09:23.000000Z",
@@ -4022,8 +3070,6 @@
         "iso": "BE",
         "iso3": "BE",
         "iso_numeric": "0",
-        "nicename": "",
-        "numcode": null,
         "phonecode": "0"
       },
       "source": {
@@ -4036,14 +3082,11 @@
         "company_id": "1",
         "user_id": "9217",
         "status": "enabled",
-        "added_by": null,
-        "last_updated_by": null,
         "user": {
           "id": 9217,
           "name": "Алакбарова Ульвия Джавид",
           "email": "ulviyyelekberova@gmail.com",
-          "image_url": "https://crm-s.com/img/default-profile-3.png",
-          "modules": []
+          "image_url": "https://crm-s.com/img/default-profile-3.png"
         }
       }
     },
@@ -4095,16 +3138,13 @@
       "iso": "BE",
       "iso3": "BE",
       "iso_numeric": "0",
-      "nicename": "",
-      "numcode": null,
       "phonecode": "0"
     },
     "sales_managers": {
       "id": 8010,
       "name": "Гасанова Сабина Ахлимановна",
       "email": "sabina@a.krok.edu.ua",
-      "image_url": "https://crm-s.com/img/default-profile-3.png",
-      "modules": []
+      "image_url": "https://crm-s.com/img/default-profile-3.png"
     },
     "status": {
       "id": 8,
@@ -4113,7 +3153,6 @@
       "created_at": "2020-10-27T10:25:50.000000Z",
       "updated_at": "2020-10-27T10:25:50.000000Z"
     },
-    "project_company": null,
     "need_candidates": [
       {
         "id": 4448,
@@ -4121,20 +3160,12 @@
         "lead_id": "980607",
         "is_lead": "0",
         "department_id": "13",
-        "demand_date": null,
-        "date_needed": null,
         "date_open_sales": "2024-04-01T00:00:00.000000Z",
-        "date_close_sales": null,
-        "date_close_hr": null,
         "comment_requirements": "Web designer with French",
         "count_employees": "1",
         "status_id": "1",
-        "employment_status_id": null,
-        "added_by": null,
-        "last_updated_by": null,
         "created_at": "2024-02-15T09:14:05.000000Z",
         "updated_at": "2024-02-15T09:14:05.000000Z",
-        "skills": [],
         "positions": [
           {
             "id": 26,
@@ -4158,50 +3189,30 @@
             }
           }
         ],
-        "added": null,
-        "last_updated": null,
-        "languages": [],
         "client_detail": {
           "id": 6355,
           "client_id": "9806079",
           "company_id": "1",
           "user_id": "8266",
           "created_by": "6209",
-          "affiliate_promo_code_id": null,
-          "from_affiliate_promo_code_id": null,
-          "affiliate_contract_url": null,
           "name": "EOPSA - European Onshore Power Supply Association",
           "email": "eopsa_-_european_onshore_power_supply_association@mail.com",
-          "image": null,
-          "mobile": null,
           "company_name": "EOPSA - European Onshore Power Supply Association.",
           "countries_id": "19",
-          "address": null,
           "size_id": "1",
           "account_id": "800",
           "industry_id": "1135",
-          "shipping_address": null,
           "website": "http://www.eopsa.eu.",
           "note": "Hi, can we have a discussion later this week please. I would like to understand your business model. \nCan you work in French too? \nHow are you fixed for a teams call on Friday 16th at 09:00 am CET? \nPlease can you provide me with your email and I can send you a meeting invite. Thanks\nJoin the online meeting with Remote Helpers in Ukraine to uncover new pathways for maximizing the potential of  EOPSA   team and resources.\n\nWebsite: rh-s.com\n\nCompany website: https://www.eopsa.eu/\n\nComments: Roland Teixeira de Mattos\n\n(https://www.linkedin.com/in/rolandteixeirademattos/)\n\nI would like to understand your business model.  Can you work in French too?  How are you fixed for a teams call on Friday 16th at 09:00 am CET?  Please can you provide me with your email and I can send you a meeting invite. Thanks\nNeed to tell more about us.\n\nCountry-Location: Brussels, Brussels Region, Belgium\n\nManager: Korzhova Liudmyla",
-          "settings_module": null,
-          "linkedin": null,
-          "facebook": null,
-          "skype": null,
-          "gst_number": null,
           "email_notifications": "0",
           "lead_status_id": "20",
           "type_id": "2",
-          "lead_source_id": null,
           "placement_id": "1",
           "verified": "0",
           "sales_manager": "8010",
           "sales_manager_assistant": "5222",
           "lg_manager_id": "574",
           "status_id": "8",
-          "category_id": null,
-          "sub_category_id": null,
-          "added_by": null,
-          "last_updated_by": null,
           "image_url": "https://crm-s.com/img/default-profile-2.png"
         },
         "teams": {
@@ -4218,10 +3229,7 @@
           "name": "Hunting",
           "created_at": "2021-08-24T07:51:55.000000Z",
           "updated_at": "2021-08-24T07:51:55.000000Z"
-        },
-        "employee_users": [],
-        "employment_statuses": null,
-        "send_employee": []
+        }
       },
       {
         "id": 4449,
@@ -4229,20 +3237,12 @@
         "lead_id": "980607",
         "is_lead": "0",
         "department_id": "23",
-        "demand_date": null,
-        "date_needed": null,
         "date_open_sales": "2024-03-11T00:00:00.000000Z",
-        "date_close_sales": null,
-        "date_close_hr": null,
         "comment_requirements": "Personal assistant with French",
         "count_employees": "1",
         "status_id": "1",
-        "employment_status_id": null,
-        "added_by": null,
-        "last_updated_by": null,
         "created_at": "2024-02-15T09:14:48.000000Z",
         "updated_at": "2024-02-15T09:14:48.000000Z",
-        "skills": [],
         "positions": [
           {
             "id": 20,
@@ -4266,50 +3266,30 @@
             }
           }
         ],
-        "added": null,
-        "last_updated": null,
-        "languages": [],
         "client_detail": {
           "id": 6355,
           "client_id": "9806079",
           "company_id": "1",
           "user_id": "8266",
           "created_by": "6209",
-          "affiliate_promo_code_id": null,
-          "from_affiliate_promo_code_id": null,
-          "affiliate_contract_url": null,
           "name": "EOPSA - European Onshore Power Supply Association",
           "email": "eopsa_-_european_onshore_power_supply_association@mail.com",
-          "image": null,
-          "mobile": null,
           "company_name": "EOPSA - European Onshore Power Supply Association.",
           "countries_id": "19",
-          "address": null,
           "size_id": "1",
           "account_id": "800",
           "industry_id": "1135",
-          "shipping_address": null,
           "website": "http://www.eopsa.eu.",
           "note": "Hi, can we have a discussion later this week please. I would like to understand your business model. \nCan you work in French too? \nHow are you fixed for a teams call on Friday 16th at 09:00 am CET? \nPlease can you provide me with your email and I can send you a meeting invite. Thanks\nJoin the online meeting with Remote Helpers in Ukraine to uncover new pathways for maximizing the potential of  EOPSA   team and resources.\n\nWebsite: rh-s.com\n\nCompany website: https://www.eopsa.eu/\n\nComments: Roland Teixeira de Mattos\n\n(https://www.linkedin.com/in/rolandteixeirademattos/)\n\nI would like to understand your business model.  Can you work in French too?  How are you fixed for a teams call on Friday 16th at 09:00 am CET?  Please can you provide me with your email and I can send you a meeting invite. Thanks\nNeed to tell more about us.\n\nCountry-Location: Brussels, Brussels Region, Belgium\n\nManager: Korzhova Liudmyla",
-          "settings_module": null,
-          "linkedin": null,
-          "facebook": null,
-          "skype": null,
-          "gst_number": null,
           "email_notifications": "0",
           "lead_status_id": "20",
           "type_id": "2",
-          "lead_source_id": null,
           "placement_id": "1",
           "verified": "0",
           "sales_manager": "8010",
           "sales_manager_assistant": "5222",
           "lg_manager_id": "574",
           "status_id": "8",
-          "category_id": null,
-          "sub_category_id": null,
-          "added_by": null,
-          "last_updated_by": null,
           "image_url": "https://crm-s.com/img/default-profile-2.png"
         },
         "teams": {
@@ -4326,22 +3306,15 @@
           "name": "Hunting",
           "created_at": "2021-08-24T07:51:55.000000Z",
           "updated_at": "2021-08-24T07:51:55.000000Z"
-        },
-        "employee_users": [],
-        "employment_statuses": null,
-        "send_employee": []
+        }
       }
     ],
-    "client_communications": [],
-    "communication": [],
     "lead_id": {
       "id": 980607,
       "company_id": "1",
       "created_by": "5972",
       "client_id": "8266",
       "client_details_id": "6355",
-      "promo_code_id": null,
-      "source_id": null,
       "placement_id": "1",
       "status_id": "20",
       "column_priority": "0",
@@ -4350,82 +3323,47 @@
       "company_name": "EOPSA - European Onshore Power Supply Association.",
       "countries_id": "19",
       "website": "http://www.eopsa.eu.",
-      "address": null,
       "size_id": "1",
       "account_id": "800",
       "industry_id": "1135",
-      "client_name": null,
-      "mobile": null,
       "note": "Hi, can we have a discussion later this week please. I would like to understand your business model. \nCan you work in French too? \nHow are you fixed for a teams call on Friday 16th at 09:00 am CET? \nPlease can you provide me with your email and I can send you a meeting invite. Thanks\nJoin the online meeting with Remote Helpers in Ukraine to uncover new pathways for maximizing the potential of  EOPSA   team and resources.\n\nWebsite: rh-s.com\n\nCompany website: https://www.eopsa.eu/\n\nComments: Roland Teixeira de Mattos\n\n(https://www.linkedin.com/in/rolandteixeirademattos/)\n\nI would like to understand your business model.  Can you work in French too?  How are you fixed for a teams call on Friday 16th at 09:00 am CET?  Please can you provide me with your email and I can send you a meeting invite. Thanks\nNeed to tell more about us.\n\nCountry-Location: Brussels, Brussels Region, Belgium\n\nManager: Korzhova Liudmyla",
-      "settings_module": null,
       "next_follow_up": "yes",
-      "client_email": null,
-      "year_establishment_company": null,
-      "value": "0",
-      "currency_id": null,
-      "category_id": null
+      "value": "0"
     },
-    "promo_code_from_affiliate": null,
-    "promo_code_affiliate": null,
-    "client_accounting_note": [],
-    "affiliate_details": [],
     "lead_type": {
       "id": 2,
       "company_id": "1",
-      "name": "Customer",
-      "created_at": null,
-      "updated_at": null
-    },
-    "send_email": []
+      "name": "Customer"
+    }
   },
   {
     "id": 6844,
     "client_id": "1099458",
     "company_id": "1",
     "user_id": "8895",
-    "created_by": null,
-    "affiliate_promo_code_id": null,
-    "from_affiliate_promo_code_id": null,
-    "affiliate_contract_url": null,
     "name": "SharedEasy",
     "email": "sharedeasy@mail.com",
-    "image": null,
-    "mobile": null,
     "company_name": "SharedEasy",
     "countries_id": "240",
-    "address": null,
     "size_id": "1",
     "account_id": "1139",
     "industry_id": "1076",
-    "shipping_address": null,
     "website": "https://www.sharedeasy.club",
     "note": "updated",
-    "settings_module": null,
-    "linkedin": null,
-    "facebook": null,
-    "skype": null,
-    "gst_number": null,
     "email_notifications": "0",
     "lead_status_id": "20",
     "type_id": "2",
-    "lead_source_id": null,
     "placement_id": "76",
     "verified": "0",
     "sales_manager": "8010",
-    "sales_manager_assistant": null,
     "lg_manager_id": "920",
     "status_id": "20",
-    "category_id": null,
-    "sub_category_id": null,
-    "added_by": null,
-    "last_updated_by": null,
     "image_url": "https://crm-s.com/img/default-profile-2.png",
     "user": {
       "id": 8895,
       "name": "SharedEasy",
       "email": "sharedeasy@mail.com",
-      "image_url": "https://crm-s.com/img/default-profile-3.png",
-      "modules": []
+      "image_url": "https://crm-s.com/img/default-profile-3.png"
     },
     "project_companies": [
       {
@@ -4434,7 +3372,6 @@
         "name": "Remote Helpers",
         "website": "https://www.rh-s.com/",
         "short_name": "rh-s.com",
-        "created_at": null,
         "updated_at": "2024-01-05T06:56:45.000000Z",
         "pivot": {
           "client_details_id": "6844",
@@ -4442,8 +3379,6 @@
         }
       }
     ],
-    "client_candidates": [],
-    "client_contacts": [],
     "lead_source": {
       "id": 76,
       "company_id": "1",
@@ -4457,14 +3392,11 @@
       "company_id": "1",
       "user_id": "7947",
       "status": "enabled",
-      "added_by": null,
-      "last_updated_by": null,
       "user": {
         "id": 7947,
         "name": "Нижиборская Лилия Анатольевна",
         "email": "leejay.ua@gmail.com",
-        "image_url": "https://crm-s.com/img/default-profile-3.png",
-        "modules": []
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
       }
     },
     "lead_status": {
@@ -4492,7 +3424,6 @@
       "created_at": "2020-12-28T10:32:24.000000Z",
       "updated_at": "2023-06-19T14:10:50.000000Z"
     },
-    "sub_industries": [],
     "lead_account": {
       "id": 1139,
       "company_id": "1",
@@ -4505,19 +3436,11 @@
       "linked_password": "B48tZMea53fgt",
       "email_login": "katerina.solo2022@gmail.com",
       "email_password": "B48tZMea53fgt",
-      "passport_link": null,
-      "mobile": null,
-      "comments": null,
-      "buy_date": null,
       "created_date": "2022-04-11",
-      "banned_date": null,
-      "sold_date": null,
-      "agent_id": null,
       "status_id": "3",
       "country_id": "107",
       "source_id": "13",
       "placement_id": "1",
-      "user_id": null,
       "is_approved_manager": "1",
       "created_at": "2022-04-11T08:55:17.000000Z",
       "updated_at": "2025-08-20T18:16:20.000000Z",
@@ -4534,16 +3457,13 @@
         "iso": "IT",
         "iso3": "IT",
         "iso_numeric": "0",
-        "nicename": "",
-        "numcode": null,
         "phonecode": "0"
       },
       "source": {
         "id": 13,
         "company_id": "1",
         "type": "linkedin"
-      },
-      "agent": null
+      }
     },
     "lead_corporation_details": [
       {
@@ -4601,18 +3521,14 @@
       "id": 240,
       "name": "USA",
       "iso": "US",
-      "iso3": "",
       "iso_numeric": "0",
-      "nicename": "",
-      "numcode": null,
       "phonecode": "0"
     },
     "sales_managers": {
       "id": 8010,
       "name": "Гасанова Сабина Ахлимановна",
       "email": "sabina@a.krok.edu.ua",
-      "image_url": "https://crm-s.com/img/default-profile-3.png",
-      "modules": []
+      "image_url": "https://crm-s.com/img/default-profile-3.png"
     },
     "status": {
       "id": 20,
@@ -4621,18 +3537,12 @@
       "created_at": "2024-05-02T12:22:22.000000Z",
       "updated_at": "2024-05-02T12:22:22.000000Z"
     },
-    "project_company": null,
-    "need_candidates": [],
-    "client_communications": [],
-    "communication": [],
     "lead_id": {
       "id": 1099458,
       "company_id": "1",
       "created_by": "7947",
       "client_id": "8895",
       "client_details_id": "6844",
-      "promo_code_id": null,
-      "source_id": null,
       "placement_id": "76",
       "status_id": "20",
       "column_priority": "0",
@@ -4641,82 +3551,48 @@
       "company_name": "SharedEasy",
       "countries_id": "240",
       "website": "https://www.sharedeasy.club",
-      "address": null,
       "size_id": "1",
       "account_id": "1139",
       "industry_id": "1076",
-      "client_name": null,
-      "mobile": null,
       "note": "updated",
-      "settings_module": null,
       "next_follow_up": "yes",
-      "client_email": null,
       "year_establishment_company": "2019",
-      "value": "0",
-      "currency_id": null,
-      "category_id": null
+      "value": "0"
     },
-    "promo_code_from_affiliate": null,
-    "promo_code_affiliate": null,
-    "client_accounting_note": [],
-    "affiliate_details": [],
     "lead_type": {
       "id": 2,
       "company_id": "1",
-      "name": "Customer",
-      "created_at": null,
-      "updated_at": null
-    },
-    "send_email": []
+      "name": "Customer"
+    }
   },
   {
     "id": 6845,
     "client_id": "1103198",
     "company_id": "1",
     "user_id": "8896",
-    "created_by": null,
-    "affiliate_promo_code_id": null,
-    "from_affiliate_promo_code_id": null,
-    "affiliate_contract_url": null,
     "name": "KR Communications, Inc.",
     "email": "dawnberit@gmail.com",
-    "image": null,
-    "mobile": null,
     "company_name": "KR Communications, Inc.",
     "countries_id": "240",
-    "address": null,
     "size_id": "1",
     "account_id": "1139",
     "industry_id": "17",
-    "shipping_address": null,
     "website": "https://www.kr-com.com",
     "note": "updated",
-    "settings_module": null,
-    "linkedin": null,
-    "facebook": null,
-    "skype": null,
-    "gst_number": null,
     "email_notifications": "0",
     "lead_status_id": "20",
     "type_id": "2",
-    "lead_source_id": null,
     "placement_id": "76",
     "verified": "0",
     "sales_manager": "8010",
-    "sales_manager_assistant": null,
     "lg_manager_id": "920",
     "status_id": "20",
-    "category_id": null,
-    "sub_category_id": null,
-    "added_by": null,
-    "last_updated_by": null,
     "image_url": "https://crm-s.com/img/default-profile-2.png",
     "user": {
       "id": 8896,
       "name": "KR Communications, Inc.",
       "email": "dawnberit@gmail.com",
-      "image_url": "https://crm-s.com/img/default-profile-3.png",
-      "modules": []
+      "image_url": "https://crm-s.com/img/default-profile-3.png"
     },
     "project_companies": [
       {
@@ -4725,7 +3601,6 @@
         "name": "Remote Helpers",
         "website": "https://www.rh-s.com/",
         "short_name": "rh-s.com",
-        "created_at": null,
         "updated_at": "2024-01-05T06:56:45.000000Z",
         "pivot": {
           "client_details_id": "6845",
@@ -4733,8 +3608,6 @@
         }
       }
     ],
-    "client_candidates": [],
-    "client_contacts": [],
     "lead_source": {
       "id": 76,
       "company_id": "1",
@@ -4748,14 +3621,11 @@
       "company_id": "1",
       "user_id": "7947",
       "status": "enabled",
-      "added_by": null,
-      "last_updated_by": null,
       "user": {
         "id": 7947,
         "name": "Нижиборская Лилия Анатольевна",
         "email": "leejay.ua@gmail.com",
-        "image_url": "https://crm-s.com/img/default-profile-3.png",
-        "modules": []
+        "image_url": "https://crm-s.com/img/default-profile-3.png"
       }
     },
     "lead_status": {
@@ -4809,19 +3679,11 @@
       "linked_password": "B48tZMea53fgt",
       "email_login": "katerina.solo2022@gmail.com",
       "email_password": "B48tZMea53fgt",
-      "passport_link": null,
-      "mobile": null,
-      "comments": null,
-      "buy_date": null,
       "created_date": "2022-04-11",
-      "banned_date": null,
-      "sold_date": null,
-      "agent_id": null,
       "status_id": "3",
       "country_id": "107",
       "source_id": "13",
       "placement_id": "1",
-      "user_id": null,
       "is_approved_manager": "1",
       "created_at": "2022-04-11T08:55:17.000000Z",
       "updated_at": "2025-08-20T18:16:20.000000Z",
@@ -4838,16 +3700,13 @@
         "iso": "IT",
         "iso3": "IT",
         "iso_numeric": "0",
-        "nicename": "",
-        "numcode": null,
         "phonecode": "0"
       },
       "source": {
         "id": 13,
         "company_id": "1",
         "type": "linkedin"
-      },
-      "agent": null
+      }
     },
     "lead_corporation_details": [
       {
@@ -4875,18 +3734,14 @@
       "id": 240,
       "name": "USA",
       "iso": "US",
-      "iso3": "",
       "iso_numeric": "0",
-      "nicename": "",
-      "numcode": null,
       "phonecode": "0"
     },
     "sales_managers": {
       "id": 8010,
       "name": "Гасанова Сабина Ахлимановна",
       "email": "sabina@a.krok.edu.ua",
-      "image_url": "https://crm-s.com/img/default-profile-3.png",
-      "modules": []
+      "image_url": "https://crm-s.com/img/default-profile-3.png"
     },
     "status": {
       "id": 20,
@@ -4895,7 +3750,6 @@
       "created_at": "2024-05-02T12:22:22.000000Z",
       "updated_at": "2024-05-02T12:22:22.000000Z"
     },
-    "project_company": null,
     "need_candidates": [
       {
         "id": 5234,
@@ -4903,20 +3757,13 @@
         "lead_id": "1103198",
         "is_lead": "0",
         "department_id": "23",
-        "demand_date": null,
-        "date_needed": null,
         "date_open_sales": "2025-01-17T00:00:00.000000Z",
-        "date_close_sales": null,
-        "date_close_hr": null,
-        "comment_requirements": null,
         "count_employees": "2",
         "status_id": "23",
-        "employment_status_id": null,
         "added_by": "5222",
         "last_updated_by": "5222",
         "created_at": "2025-01-17T17:32:33.000000Z",
         "updated_at": "2025-01-17T17:32:33.000000Z",
-        "skills": [],
         "positions": [
           {
             "id": 17,
@@ -4961,50 +3808,30 @@
             }
           }
         ],
-        "added": null,
-        "last_updated": null,
-        "languages": [],
         "client_detail": {
           "id": 6845,
           "client_id": "1103198",
           "company_id": "1",
           "user_id": "8896",
           "created_by": "5222",
-          "affiliate_promo_code_id": null,
-          "from_affiliate_promo_code_id": null,
-          "affiliate_contract_url": null,
           "name": "KR Communications, Inc.",
           "email": "dawnberit@gmail.com",
-          "image": null,
-          "mobile": null,
           "company_name": "KR Communications, Inc.",
           "countries_id": "240",
-          "address": null,
           "size_id": "1",
           "account_id": "1139",
           "industry_id": "17",
-          "shipping_address": null,
           "website": "https://www.kr-com.com",
           "note": "updated",
-          "settings_module": null,
-          "linkedin": null,
-          "facebook": null,
-          "skype": null,
-          "gst_number": null,
           "email_notifications": "0",
           "lead_status_id": "20",
           "type_id": "2",
-          "lead_source_id": null,
           "placement_id": "76",
           "verified": "0",
           "sales_manager": "8010",
           "sales_manager_assistant": "8709",
           "lg_manager_id": "920",
           "status_id": "20",
-          "category_id": null,
-          "sub_category_id": null,
-          "added_by": null,
-          "last_updated_by": null,
           "image_url": "https://crm-s.com/img/default-profile-2.png"
         },
         "teams": {
@@ -5021,22 +3848,15 @@
           "name": "Pending",
           "created_at": "2024-09-10T10:45:10.000000Z",
           "updated_at": "2024-09-10T10:45:10.000000Z"
-        },
-        "employee_users": [],
-        "employment_statuses": null,
-        "send_employee": []
+        }
       }
     ],
-    "client_communications": [],
-    "communication": [],
     "lead_id": {
       "id": 1103198,
       "company_id": "1",
       "created_by": "7947",
       "client_id": "8896",
       "client_details_id": "6845",
-      "promo_code_id": null,
-      "source_id": null,
       "placement_id": "76",
       "status_id": "20",
       "column_priority": "0",
@@ -5045,32 +3865,18 @@
       "company_name": "KR Communications, Inc.",
       "countries_id": "240",
       "website": "https://www.kr-com.com",
-      "address": null,
       "size_id": "1",
       "account_id": "1139",
       "industry_id": "17",
-      "client_name": null,
-      "mobile": null,
       "note": "updated",
-      "settings_module": null,
       "next_follow_up": "yes",
-      "client_email": null,
       "year_establishment_company": "2016",
-      "value": "0",
-      "currency_id": null,
-      "category_id": null
+      "value": "0"
     },
-    "promo_code_from_affiliate": null,
-    "promo_code_affiliate": null,
-    "client_accounting_note": [],
-    "affiliate_details": [],
     "lead_type": {
       "id": 2,
       "company_id": "1",
-      "name": "Customer",
-      "created_at": null,
-      "updated_at": null
-    },
-    "send_email": []
+      "name": "Customer"
+    }
   }
 ]

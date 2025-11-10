@@ -128,3 +128,4 @@ if __name__ == "__main__":
     
     convert_candidates_to_json_clusters(str(input_file), str(output_dir), candidates_per_file=1000)
 
+

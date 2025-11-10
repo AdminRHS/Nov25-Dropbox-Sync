@@ -1,3 +1,871 @@
+# Changelog - 2025-11-10
+
+**Sync Date:** 2025-11-10 08:15:15 UTC
+**Total Changes:** 344 files
+
+## Summary
+
+- **Added:** 111 files
+- **Modified:** 134 files
+- **Deleted:** 99 files
+
+## Changes by Department
+
+### "Design
+
+**Total changes:** 3 files
+
+#### Shymkevych Iryna
+
+**Deleted (3 files):**
+- `employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07).html"`
+- `employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07 1).html"`
+- `daily (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-06).md"`
+
+
+### "Video
+
+**Total changes:** 20 files
+
+#### Azanova Dar\312\274ya
+
+**Deleted (20 files):**
+- `daily.md"`
+- `plans.md"`
+- `plans.md"`
+- `plans.md"`
+- `daily.md"`
+- `daily.md"`
+- `plans.md"`
+- `task.md"`
+- `task.md"`
+- `README.md"`
+- `task.md"`
+- `task.md"`
+- `daily.md"`
+- `daily.md"`
+- `plans.md"`
+- `task.md"`
+- `plans.md"`
+- `daily.md"`
+- `Profile Video Editor Azanova Dar\312\274ya.md"`
+- `task.md"`
+
+
+### AI
+
+**Total changes:** 246 files
+
+#### Niko AI
+
+**Added (78 files):**
+- `convert_to_json_clusters.cpython-313.pyc` → `ExportCRMS/scripts/__pycache__/convert_to_json_clusters.cpython-313.pyc` (5.32 KB, modified: 2025-11-07T13:49:16, by: Dropbox User)
+- `split_candidates_clusters.cpython-313.pyc` → `ExportCRMS/scripts/__pycache__/split_candidates_clusters.cpython-313.pyc` (5.09 KB, modified: 2025-11-07T13:49:45, by: Dropbox User)
+- `convert_job_account_to_json.ps1` → `ExportCRMS/scripts/convert_job_account_to_json.ps1` (993 bytes, modified: 2025-11-07T16:30:16, by: Dropbox User)
+- `clean_client_clusters.py` → `ExportCRMS/scripts/clean_client_clusters.py` (2.29 KB, modified: 2025-11-07T18:17:21, by: Dropbox User)
+- `convert_job_account_to_json.py` → `ExportCRMS/scripts/convert_job_account_to_json.py` (2.58 KB, modified: 2025-11-07T16:30:16, by: Dropbox User)
+- `README.md` → `ExportCRMS/JSON/Libs_JSON_v1/README.md` (6.05 KB, modified: 2025-11-07T18:16:03, by: Dropbox User)
+- `CONSOLIDATION_SUMMARY.md` → `ExportCRMS/JSON/Libs_Consolidated/CONSOLIDATION_SUMMARY.md` (12.43 KB, modified: 2025-11-07T18:52:32, by: Dropbox User)
+- `consolidate_libraries.py` → `ExportCRMS/scripts/consolidate_libraries.py` (12.52 KB, modified: 2025-11-07T18:43:55, by: Dropbox User)
+- `cities.json` → `ExportCRMS/JSON/Libs_Consolidated/locations/cities.json` (13.13 KB, modified: 2025-11-07T18:48:13, by: Dropbox User)
+- `MIGRATION_GUIDE.md` → `ExportCRMS/JSON/Libs_Consolidated/MIGRATION_GUIDE.md` (17.92 KB, modified: 2025-11-07T18:51:12, by: Dropbox User)
+- `README.md` → `ExportCRMS/JSON/Libs_Consolidated/README.md` (15.86 KB, modified: 2025-11-07T18:49:49, by: Dropbox User)
+- `library_index.json` → `ExportCRMS/JSON/Libs_Consolidated/library_index.json` (16.92 KB, modified: 2025-11-07T18:48:13, by: Dropbox User)
+- `departments.json` → `ExportCRMS/JSON/Libs_Consolidated/business/departments.json` (40.12 KB, modified: 2025-11-07T18:48:13, by: Dropbox User)
+- `industries.json` → `ExportCRMS/JSON/Libs_Consolidated/business/industries.json` (40.24 KB, modified: 2025-11-07T18:48:13, by: Dropbox User)
+- `sub_industries.json` → `ExportCRMS/JSON/Libs_Consolidated/business/sub_industries.json` (97.31 KB, modified: 2025-11-07T18:48:13, by: Dropbox User)
+- `countries.json` → `ExportCRMS/JSON/Libs_Consolidated/locations/countries.json` (18.20 KB, modified: 2025-11-07T18:48:13, by: Dropbox User)
+- `PROMPT_Daily_Report_Collection.md` → `Prompts/PROMPT_Daily_Report_Collection/PROMPT_Daily_Report_Collection.md` (10.32 KB, modified: 2025-11-06T07:44:02, by: Dropbox User)
+- `PROMPT_HR_Daily_Report.md` → `Prompts/PROMPT_Daily_Report_Collection/PROMPT_HR_Daily_Report.md` (9.46 KB, modified: 2025-11-07T11:36:01, by: Dropbox User)
+- `PROMPT_AI_Daily_Report.md` → `Prompts/PROMPT_Daily_Report_Collection/PROMPT_AI_Daily_Report.md` (10.03 KB, modified: 2025-11-07T11:36:11, by: Dropbox User)
+- `PROMPT_Video_Daily_Report.md` → `Prompts/PROMPT_Daily_Report_Collection/PROMPT_Video_Daily_Report.md` (9.01 KB, modified: 2025-11-07T11:36:20, by: Dropbox User)
+- `PROMPT_Sales_Daily_Report.md` → `Prompts/PROMPT_Daily_Report_Collection/PROMPT_Sales_Daily_Report.md` (8.45 KB, modified: 2025-11-07T11:36:29, by: Dropbox User)
+- `PROMPT_Design_Daily_Report.md` → `Prompts/PROMPT_Daily_Report_Collection/PROMPT_Design_Daily_Report.md` (10.05 KB, modified: 2025-11-07T11:36:40, by: Dropbox User)
+- `PROMPT_LG_Daily_Report.md` → `Prompts/PROMPT_Daily_Report_Collection/PROMPT_LG_Daily_Report.md` (9.87 KB, modified: 2025-11-07T11:36:58, by: Dropbox User)
+- `README.md` → `Prompts/PROMPT_Daily_Report_Collection/README.md` (7.53 KB, modified: 2025-11-07T11:37:07, by: Dropbox User)
+- `prompt_parts_structure.json` → `Prompts/PROMPT_Daily_Report_Collection/constructor/prompt_parts_structure.json` (24.27 KB, modified: 2025-11-07T12:18:03, by: Dropbox User)
+- `README.md` → `Prompts/PROMPT_Daily_Report_Collection/constructor/README.md` (6.80 KB, modified: 2025-11-07T12:18:09, by: Dropbox User)
+- `01_employee_directory_guidance.md` → `Prompts/PROMPT_Daily_Report_Collection/constructor/docs/01_employee_directory_guidance.md` (7.44 KB, modified: 2025-11-07T12:38:44, by: Dropbox User)
+- `02_project_directory_guidance.md` → `Prompts/PROMPT_Daily_Report_Collection/constructor/docs/02_project_directory_guidance.md` (9.89 KB, modified: 2025-11-07T12:56:27, by: Dropbox User)
+- `03_vocabulary_standards.md` → `Prompts/PROMPT_Daily_Report_Collection/constructor/docs/03_vocabulary_standards.md` (11.60 KB, modified: 2025-11-07T13:02:53, by: Dropbox User)
+- `04_task_object_framework.md` → `Prompts/PROMPT_Daily_Report_Collection/constructor/docs/04_task_object_framework.md` (16.97 KB, modified: 2025-11-07T13:22:40, by: Dropbox User)
+- `05_21_section_framework.md` → `Prompts/PROMPT_Daily_Report_Collection/constructor/docs/05_21_section_framework.md` (16.87 KB, modified: 2025-11-07T13:27:57, by: Dropbox User)
+- `06_department_specific_patterns.md` → `Prompts/PROMPT_Daily_Report_Collection/constructor/docs/06_department_specific_patterns.md` (16.86 KB, modified: 2025-11-07T13:49:56, by: Dropbox User)
+- `README.md` → `Prompts/PROMPT_Daily_Report_Collection/constructor/docs/README.md` (11.10 KB, modified: 2025-11-07T13:51:03, by: Dropbox User)
+- `classification_summary.md` → `Prompts/PROMPT_Daily_Report_Collection/constructor/classification_summary.md` (21.92 KB, modified: 2025-11-07T13:52:18, by: Dropbox User)
+- `TEMPLATE_Enhanced_Department_Prompt.md` → `Prompts/PROMPT_Daily_Report_Collection/constructor/TEMPLATE_Enhanced_Department_Prompt.md` (17.74 KB, modified: 2025-11-07T13:59:09, by: Dropbox User)
+- `TEMPLATE_VARIABLE_MAPPING.md` → `Prompts/PROMPT_Daily_Report_Collection/constructor/TEMPLATE_VARIABLE_MAPPING.md` (16.85 KB, modified: 2025-11-07T14:00:57, by: Dropbox User)
+- `README_Enhanced_v2.md` → `Prompts/PROMPT_Daily_Report_Collection/constructor/README_Enhanced_v2.md` (18.87 KB, modified: 2025-11-07T14:03:09, by: Dropbox User)
+- `IMPLEMENTATION_SUMMARY.md` → `Prompts/PROMPT_Daily_Report_Collection/constructor/IMPLEMENTATION_SUMMARY.md` (15.84 KB, modified: 2025-11-07T14:04:40, by: Dropbox User)
+- `PROMPT_Dev_Daily_Report.md` → `Prompts/PROMPT_Daily_Report_Collection/PROMPT_Dev_Daily_Report.md` (9.65 KB, modified: 2025-11-07T12:27:17, by: Dropbox User)
+- `PROMPT_Finance_Daily_Report.md` → `Prompts/PROMPT_Daily_Report_Collection/PROMPT_Finance_Daily_Report.md` (11.27 KB, modified: 2025-11-07T16:49:37, by: Dropbox User)
+- `PROMPT_Version_Control_Automation.md` → `Prompts/PROMPT_Version_Control_Automation.md` (7.83 KB, modified: 2025-11-06T08:17:28, by: Dropbox User)
+- `VC MAIN PROMPT.md` → `Prompts/Version Control/VC MAIN PROMPT.md` (8.65 KB, modified: 2025-11-06T08:05:43, by: Dropbox User)
+- `Rules automation.md` → `Prompts/Prompts to run/Rules automation.md` (1.13 KB, modified: 2025-11-06T09:28:18, by: Dropbox User)
+- `DropBox Migration Announcement.md` → `Prompts/Prompts to run/DropBox Migration Announcement.md` (6.91 KB, modified: 2025-11-06T15:57:52, by: Dropbox User)
+- `action.json` → `ExportCRMS/JSON/Libs_JSON_old/action.json` (490.44 KB, modified: 2025-11-07T13:49:40, by: Dropbox User)
+- `Department.json` → `ExportCRMS/JSON/Libs_JSON_old/Department.json` (57.79 KB, modified: 2025-11-07T13:49:56, by: Dropbox User)
+- `Langs.json` → `ExportCRMS/JSON/Libs_JSON_old/Langs.json` (25.26 KB, modified: 2025-11-07T13:49:56, by: Dropbox User)
+- `Proffessions.json` → `ExportCRMS/JSON/Libs_JSON_old/Proffessions.json` (467.39 KB, modified: 2025-11-07T13:49:56, by: Dropbox User)
+- `Status.json` → `ExportCRMS/JSON/Libs_JSON_old/Status.json` (1.87 KB, modified: 2025-11-07T13:49:56, by: Dropbox User)
+- `cities.json` → `ExportCRMS/JSON/Libs_JSON_old/cities.json` (47.98 KB, modified: 2025-11-07T13:49:56, by: Dropbox User)
+- `countries.json` → `ExportCRMS/JSON/Libs_JSON_old/countries.json` (64.95 KB, modified: 2025-11-07T13:49:56, by: Dropbox User)
+- `objects.json` → `ExportCRMS/JSON/Libs_JSON_old/objects.json` (1148.65 KB, modified: 2025-11-07T13:49:56, by: Dropbox User)
+- `tools.json` → `ExportCRMS/JSON/Libs_JSON_old/tools.json` (79.96 KB, modified: 2025-11-07T13:49:56, by: Dropbox User)
+- `formats.json` → `ExportCRMS/JSON/Libs_JSON_old/formats.json` (11.20 KB, modified: 2025-11-07T13:49:56, by: Dropbox User)
+- `industry.json` → `ExportCRMS/JSON/Libs_JSON_old/industry.json` (232.02 KB, modified: 2025-11-07T13:49:56, by: Dropbox User)
+- `sub-industry.json` → `ExportCRMS/JSON/Libs_JSON_old/sub-industry.json` (467.02 KB, modified: 2025-11-07T13:49:56, by: Dropbox User)
+- `tool-type.json` → `ExportCRMS/JSON/Libs_JSON_old/tool-type.json` (2.38 KB, modified: 2025-11-07T13:49:56, by: Dropbox User)
+- `Sample_LeadAccount_Profile.json` → `ExportCRMS/JSON/Libs_JSON_old/Sample_LeadAccount_Profile.json` (6.67 KB, modified: 2025-11-07T14:20:10, by: Dropbox User)
+- `Sample_Candidate_Profile.json` → `ExportCRMS/JSON/Libs_JSON_old/Sample_Candidate_Profile.json` (6.22 KB, modified: 2025-11-07T15:32:27, by: Dropbox User)
+- `MAIN PROMPT v2.md` → `Prompts/MAIN PROMPT v2.md` (49.83 KB, modified: 2025-11-06T07:57:41, by: Dropbox User)
+- `MAIN PROMPT v3.md` → `Prompts/MAIN PROMPT v3.md` (61.96 KB, modified: 2025-11-06T08:05:33, by: Dropbox User)
+- `Job_Account_prod.json` → `ExportCRMS/JSON/Job_Account_prod.json` (248.57 KB, modified: 2025-11-07T15:34:15, by: Dropbox User)
+- `LOCATION_UPDATES_NEEDED.md` → `ExportCRMS/JSON/Libs_Consolidated/LOCATION_UPDATES_NEEDED.md` (11.41 KB, modified: 2025-11-09T14:09:50, by: Dropbox User)
+- `verify_consolidation.py` → `ExportCRMS/scripts/verify_consolidation.py` (13.47 KB, modified: 2025-11-09T14:11:00, by: Dropbox User)
+- `INDEX.md` → `ExportCRMS/JSON/Libs_Consolidated/INDEX.md` (13.33 KB, modified: 2025-11-09T14:17:29, by: Dropbox User)
+- `Status.md` → `ExportCRMS/Libs CRM/Status.md` (2.38 KB, modified: 2025-11-07T11:00:34, by: Dropbox User)
+- `Langs.md` → `ExportCRMS/Libs CRM/Langs.md` (31.95 KB, modified: 2025-11-07T11:01:22, by: Dropbox User)
+- `Department.md` → `ExportCRMS/Libs CRM/Department.md` (77.02 KB, modified: 2025-11-07T11:02:03, by: Dropbox User)
+- `Proffessions.md` → `ExportCRMS/Libs CRM/Proffessions.md` (586.01 KB, modified: 2025-11-07T11:02:50, by: Dropbox User)
+- `tool-type.md` → `ExportCRMS/Libs CRM/tool-type.md` (3.13 KB, modified: 2025-11-07T11:04:47, by: Dropbox User)
+- `tools.md` → `ExportCRMS/Libs CRM/tools.md` (106.67 KB, modified: 2025-11-07T11:06:03, by: Dropbox User)
+- `action.md` → `ExportCRMS/Libs CRM/action.md` (626.81 KB, modified: 2025-11-07T11:07:01, by: Dropbox User)
+- `formats.md` → `ExportCRMS/Libs CRM/formats.md` (17.06 KB, modified: 2025-11-07T11:07:42, by: Dropbox User)
+- `objects.md` → `ExportCRMS/Libs CRM/objects.md` (1502.29 KB, modified: 2025-11-07T11:08:34, by: Dropbox User)
+- `countries.md` → `ExportCRMS/Libs CRM/countries.md` (82.81 KB, modified: 2025-11-07T11:09:03, by: Dropbox User)
+- `cities.md` → `ExportCRMS/Libs CRM/cities.md` (61.03 KB, modified: 2025-11-07T11:09:32, by: Dropbox User)
+- `industry.md` → `ExportCRMS/Libs CRM/industry.md` (298.67 KB, modified: 2025-11-07T11:10:07, by: Dropbox User)
+- `sub-industry.md` → `ExportCRMS/Libs CRM/sub-industry.md` (589.13 KB, modified: 2025-11-07T11:10:38, by: Dropbox User)
+
+**Modified (106 files):**
+- `Client_cluster_0033.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0033.json` (92.29 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0030.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0030.json` (89.58 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0010.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0010.json` (96.30 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0006.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0006.json` (67.74 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0003.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0003.json` (69.86 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0016.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0016.json` (72.39 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0013.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0013.json` (87.42 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0008.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0008.json` (74.03 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0004.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0004.json` (89.55 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0001.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0001.json` (91.25 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0005.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0005.json` (69.21 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0007.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0007.json` (65.02 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0002.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0002.json` (87.61 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0031.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0031.json` (85.02 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0028.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0028.json` (79.67 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0029.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0029.json` (78.58 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0053.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0053.json` (95.49 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0047.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0047.json` (96.08 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0050.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0050.json` (95.57 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0044.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0044.json` (98.44 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0088.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0088.json` (89.54 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0084.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0084.json` (93.14 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0075.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0075.json` (84.34 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0066.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0066.json` (89.13 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0073.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0073.json` (95.12 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0092.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0092.json` (90.50 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0097.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0097.json` (99.58 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0091.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0091.json` (101.66 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0095.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0095.json` (96.88 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0094.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0094.json` (97.12 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0011.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0011.json` (66.94 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0026.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0026.json` (83.14 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0024.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0024.json` (85.09 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0089.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0089.json` (101.69 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0076.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0076.json` (102.23 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0077.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0077.json` (101.96 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0017.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0017.json` (115.32 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0014.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0014.json` (115.71 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0012.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0012.json` (109.72 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0009.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0009.json` (116.54 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0015.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0015.json` (121.11 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0020.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0020.json` (141.00 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0021.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0021.json` (109.56 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0018.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0018.json` (114.97 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0019.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0019.json` (142.42 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0035.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0035.json` (125.97 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0023.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0023.json` (114.91 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0032.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0032.json` (102.98 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0034.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0034.json` (115.39 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0036.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0036.json` (115.31 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0027.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0027.json` (111.02 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0022.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0022.json` (105.96 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0039.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0039.json` (185.14 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0041.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0041.json` (161.31 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0048.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0048.json` (112.95 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0059.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0059.json` (122.01 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0054.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0054.json` (142.42 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0051.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0051.json` (107.67 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0038.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0038.json` (124.09 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0056.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0056.json` (120.80 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0046.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0046.json` (125.07 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0045.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0045.json` (122.61 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0042.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0042.json` (108.33 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0058.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0058.json` (119.28 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0086.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0086.json` (118.74 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0090.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0090.json` (103.62 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0055.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0055.json` (109.96 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0057.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0057.json` (129.80 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0049.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0049.json` (130.91 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0072.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0072.json` (106.26 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0064.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0064.json` (138.73 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0078.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0078.json` (129.65 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0081.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0081.json` (121.00 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0068.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0068.json` (110.20 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0080.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0080.json` (120.85 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0087.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0087.json` (121.95 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0082.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0082.json` (110.86 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0069.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0069.json` (118.31 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0061.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0061.json` (132.16 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0079.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0079.json` (123.48 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0070.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0070.json` (138.54 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0071.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0071.json` (113.96 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0065.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0065.json` (109.03 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0074.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0074.json` (118.13 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0062.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0062.json` (155.16 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0096.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0096.json` (119.46 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0100.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0100.json` (194.62 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0099.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0099.json` (130.15 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0043.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0043.json` (120.16 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0025.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0025.json` (226.03 KB, rev: 0164313d..., modified: 2025-11-07T18:17:27, by: Dropbox User)
+- `Client_cluster_0052.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0052.json` (179.00 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0037.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0037.json` (152.29 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0040.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0040.json` (231.15 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0085.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0085.json` (146.58 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0067.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0067.json` (149.47 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0083.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0083.json` (166.56 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0063.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0063.json` (170.84 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0060.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0060.json` (282.32 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0093.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0093.json` (205.85 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `Client_cluster_0098.json` → `ExportCRMS/Client_JSON_Clusters/Client_cluster_0098.json` (153.60 KB, rev: 0164313d..., modified: 2025-11-07T18:17:28, by: Dropbox User)
+- `convert_to_json_clusters.py` → `ExportCRMS/scripts/convert_to_json_clusters.py` (5.84 KB, rev: 01643195..., modified: 2025-11-08T18:18:47, by: Dropbox User)
+- `convert_to_json_clusters.ps1` → `ExportCRMS/scripts/convert_to_json_clusters.ps1` (3.60 KB, rev: 01643195..., modified: 2025-11-08T18:18:47, by: Dropbox User)
+- `split_candidates_clusters.py` → `ExportCRMS/scripts/split_candidates_clusters.py` (5.33 KB, rev: 01643195..., modified: 2025-11-08T18:18:48, by: Dropbox User)
+- `clean_candidates_and_create_template.py` → `ExportCRMS/scripts/clean_candidates_and_create_template.py` (6.62 KB, rev: 01643195..., modified: 2025-11-08T18:18:48, by: Dropbox User)
+- `clean_candidates_and_create_template.ps1` → `ExportCRMS/scripts/clean_candidates_and_create_template.ps1` (5.02 KB, rev: 01643195..., modified: 2025-11-08T18:18:48, by: Dropbox User)
+- `clean_json.ps1` → `ExportCRMS/Candidates_JSON_Clusters/scripts/clean_json.ps1` (2.12 KB, rev: 01643195..., modified: 2025-11-08T18:18:49, by: Dropbox User)
+
+**Deleted (56 files):**
+- `README_Enhanced_v2.md`
+- `Langs.md`
+- `Proffessions.md`
+- `TEMPLATE_Enhanced_Department_Prompt.md`
+- `industry.json`
+- `TEMPLATE_VARIABLE_MAPPING.md`
+- `classification_summary.md`
+- `tools.md`
+- `03_vocabulary_standards.md`
+- `MAIN PROMPT v3.md`
+- `cities.json`
+- `Sample_LeadAccount_Profile.json`
+- `prompt_parts_structure.json`
+- `PROMPT_AI_Daily_Report.md`
+- `PROMPT_Dev_Daily_Report.md`
+- `PROMPT_Video_Daily_Report.md`
+- `Proffessions.json`
+- `formats.md`
+- `PROMPT_Daily_Report_Collection.md`
+- `Langs.json`
+- `PROMPT_LG_Daily_Report.md`
+- `PROMPT_HR_Daily_Report.md`
+- `01_employee_directory_guidance.md`
+- `Department.md`
+- `tool-type.json`
+- `sub-industry.json`
+- `IMPLEMENTATION_SUMMARY.md`
+- `04_task_object_framework.md`
+- `countries.md`
+- `DropBox Migration Announcement.md`
+- `Status.json`
+- `02_project_directory_guidance.md`
+- `formats.json`
+- `Department.json`
+- `06_department_specific_patterns.md`
+- `PROMPT_Design_Daily_Report.md`
+- `industry.md`
+- `Status.md`
+- `action.json`
+- `VC MAIN PROMPT.md`
+- `README.md`
+- `objects.md`
+- `objects.json`
+- `README.md`
+- `tools.json`
+- `README.md`
+- `action.md`
+- `tool-type.md`
+- `sub-industry.md`
+- `cities.md`
+- `Rules automation.md`
+- `countries.json`
+- `PROMPT_Sales_Daily_Report.md`
+- `05_21_section_framework.md`
+- `PROMPT_Version_Control_Automation.md`
+- `MAIN PROMPT v2.md`
+
+#### Perederii Vladislav
+
+**Deleted (3 files):**
+- `task.md`
+- `daily.md`
+- `plans.md`
+
+#### Reports
+
+**Added (3 files):**
+- `Daily_Activity_Report_Nov06_2025.md` → `06/Daily_Activity_Report_Nov06_2025.md` (21.82 KB, modified: 2025-11-07T16:25:45, by: Dropbox User)
+- `Daily_Activity_Report_Nov07_2025.md` → `07/Daily_Activity_Report_Nov07_2025.md` (25.01 KB, modified: 2025-11-07T17:06:55, by: Dropbox User)
+- `Daily_Activity_Report_Nov07_2025_architecture.md` → `07/Daily_Activity_Report_Nov07_2025_architecture.md` (6.49 KB, modified: 2025-11-09T23:14:36, by: Dropbox User)
+
+
+### Design
+
+**Total changes:** 17 files
+
+#### Bogun Polina
+
+**Modified (1 files):**
+- `daily.md` → `07/daily.md` (6.16 KB, rev: 0164303a..., modified: 2025-11-07T16:27:10, by: Dropbox User)
+
+#### Bykova Anastasiia
+
+**Modified (3 files):**
+- `plans.md` → `07/plans.md` (1.24 KB, rev: 0164333c..., modified: 2025-11-10T01:52:59, by: Dropbox User)
+- `daily.md` → `07/daily.md` (7.93 KB, rev: 0164333c..., modified: 2025-11-10T01:53:18, by: Dropbox User)
+- `task.md` → `07/task.md` (6.29 KB, rev: 0164333c..., modified: 2025-11-10T01:54:24, by: Dropbox User)
+
+#### Chobotar Yuliia
+
+**Modified (3 files):**
+- `task.md` → `07/task.md` (4.73 KB, rev: 0164303e..., modified: 2025-11-07T16:45:47, by: Dropbox User)
+- `daily.md` → `07/daily.md` (25.47 KB, rev: 0164303e..., modified: 2025-11-07T16:46:41, by: Dropbox User)
+- `plans.md` → `07/plans.md` (3.77 KB, rev: 0164303e..., modified: 2025-11-07T16:46:57, by: Dropbox User)
+
+#### Kucherenko Iuliia
+
+**Modified (3 files):**
+- `plans.md` → `08/plans.md` (782 bytes, rev: 01643384..., modified: 2025-11-10T07:14:57, by: Dropbox User)
+- `task.md` → `08/task.md` (1.17 KB, rev: 01643384..., modified: 2025-11-10T07:15:33, by: Dropbox User)
+- `daily.md` → `08/daily.md` (30.99 KB, rev: 0164338a..., modified: 2025-11-10T07:42:07, by: Dropbox User)
+
+#### Reports
+
+**Added (2 files):**
+- `Daily_Activity_Report_Nov06_2025.md` → `06/Daily_Activity_Report_Nov06_2025.md` (22.02 KB, modified: 2025-11-07T16:27:44, by: Dropbox User)
+- `Daily_Activity_Report_Nov07_2025.md` → `07/Daily_Activity_Report_Nov07_2025.md` (19.09 KB, modified: 2025-11-07T17:10:26, by: Dropbox User)
+
+#### Shymkevych Iryna
+
+**Added (2 files):**
+- `daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md` → `06/daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md` (13.51 KB, modified: 2025-11-06T16:13:37, by: Dropbox User)
+- `employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html` → `05/employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html` (24.40 KB, modified: 2025-11-07T14:02:58, by: Dropbox User)
+
+#### Skrypkar Vilhelm
+
+**Modified (3 files):**
+- `daily.md` → `07/daily.md` (7.78 KB, rev: 01643047..., modified: 2025-11-07T17:27:01, by: Dropbox User)
+- `plans.md` → `07/plans.md` (3.77 KB, rev: 01643048..., modified: 2025-11-07T17:28:15, by: Dropbox User)
+- `task.md` → `07/task.md` (6.26 KB, rev: 01643048..., modified: 2025-11-07T17:29:44, by: Dropbox User)
+
+
+### Dev
+
+**Total changes:** 14 files
+
+#### Danylenko Liliia
+
+**Modified (1 files):**
+- `daily.md` → `07/daily.md` (7.18 KB, rev: 01643048..., modified: 2025-11-07T17:29:36, by: Dropbox User)
+
+**Deleted (3 files):**
+- `daily.md`
+- `task.md`
+- `plans.md`
+
+#### Dev prompt log.md
+
+**Modified (1 files):**
+- `Dev prompt log.md` (16.49 KB, rev: 01643385..., modified: 2025-11-10T07:19:59, by: Dropbox User)
+
+#### Kizilova Olha
+
+**Modified (1 files):**
+- `task.md` → `07/task.md` (48.33 KB, rev: 0164337d..., modified: 2025-11-10T06:39:55, by: Dropbox User)
+
+**Deleted (3 files):**
+- `plans.md`
+- `task.md`
+- `daily.md`
+
+#### Klimenko Yaroslav
+
+**Deleted (3 files):**
+- `daily.md`
+- `plans.md`
+- `task.md`
+
+#### Reports
+
+**Added (2 files):**
+- `Daily_Activity_Report_Nov07_2025.md` → `07/Daily_Activity_Report_Nov07_2025.md` (16.24 KB, modified: 2025-11-07T17:12:07, by: Dropbox User)
+- `Daily_Activity_Report_Nov06_2025.md` → `06/Daily_Activity_Report_Nov06_2025.md` (20.09 KB, modified: 2025-11-07T16:29:40, by: Dropbox User)
+
+
+### LG
+
+**Total changes:** 11 files
+
+#### Adesina Oluwamayomiposi Elizabeth
+
+**Modified (3 files):**
+- `plans.md` → `07/plans.md` (1,008 bytes, rev: 01643038..., modified: 2025-11-07T16:16:19, by: Dropbox User)
+- `daily.md` → `07/daily.md` (875 bytes, rev: 01643038..., modified: 2025-11-07T16:16:19, by: Dropbox User)
+- `task.md` → `07/task.md` (1.32 KB, rev: 01643038..., modified: 2025-11-07T16:16:19, by: Dropbox User)
+
+#### Alakbarova Ulviyya Javid
+
+**Modified (1 files):**
+- `Profile Lead generator Alakbarova Ulviyya Javid.md` (1.69 KB, rev: 01642fe4..., modified: 2025-11-07T10:02:41, by: Dropbox User)
+
+#### Cynthia Aninwezi
+
+**Modified (3 files):**
+- `daily.md` → `07/daily.md` (1.82 KB, rev: 01643151..., modified: 2025-11-08T13:16:22, by: Dropbox User)
+- `task.md` → `07/task.md` (2.72 KB, rev: 01643165..., modified: 2025-11-08T14:43:47, by: Dropbox User)
+- `plans.md` → `07/plans.md` (1.23 KB, rev: 01643165..., modified: 2025-11-08T14:43:52, by: Dropbox User)
+
+#### Peneva Plamena
+
+**Modified (1 files):**
+- `task.md` → `07/task.md` (3.41 KB, rev: 0164303c..., modified: 2025-11-07T16:36:12, by: Dropbox User)
+
+#### Reports
+
+**Added (2 files):**
+- `Daily_Activity_Report_Nov07_2025.md` → `07/Daily_Activity_Report_Nov07_2025.md` (9.21 KB, modified: 2025-11-07T18:20:40, by: Dropbox User)
+- `Daily_Activity_Report_Nov06_2025.md` → `06/Daily_Activity_Report_Nov06_2025.md` (23.94 KB, modified: 2025-11-07T16:33:50, by: Dropbox User)
+
+#### Shkinder Kseniia
+
+**Modified (1 files):**
+- `daily.md` → `08/daily.md` (3.72 KB, rev: 0164338c..., modified: 2025-11-10T07:50:35, by: Dropbox User)
+
+
+### Video
+
+**Total changes:** 31 files
+
+#### Azanova Dar'ya
+
+**Deleted (3 files):**
+- `plans.md`
+- `daily.md`
+- `task.md`
+
+#### Azanova Darʼya
+
+**Added (20 files):**
+- `daily.md` → `03/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `03/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `03/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `04/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `04/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `daily.md` → `04/daily.md` (11.84 KB, modified: 2025-11-04T18:15:17, by: Dropbox User)
+- `daily.md` → `05/daily.md` (59.02 KB, modified: 2025-11-05T18:00:45, by: Dropbox User)
+- `plans.md` → `05/plans.md` (4.01 KB, modified: 2025-11-05T18:01:19, by: Dropbox User)
+- `task.md` → `05/task.md` (14.98 KB, modified: 2025-11-05T18:02:50, by: Dropbox User)
+- `daily.md` → `06/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `06/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `06/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `daily.md` → `07/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `07/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `07/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `README.md` (1.58 KB, modified: 2025-10-23T15:13:48, by: Dropbox User)
+- `task.md` → `08/task.md` (0 bytes, modified: 2025-11-07T10:38:46, by: Dropbox User)
+- `plans.md` → `08/plans.md` (0 bytes, modified: 2025-11-07T10:38:46, by: Dropbox User)
+- `daily.md` → `08/daily.md` (0 bytes, modified: 2025-11-07T10:38:47, by: Dropbox User)
+- `Profile Video Editor Azanova Darʼya.md` (1.36 KB, modified: 2025-11-07T10:02:41, by: Dropbox User)
+
+#### Podolskyi Sviatoslav
+
+**Modified (3 files):**
+- `daily.md` → `07/daily.md` (16.35 KB, rev: 016431bf..., modified: 2025-11-08T21:27:30, by: Dropbox User)
+- `plans.md` → `07/plans.md` (4.16 KB, rev: 016431bf..., modified: 2025-11-08T21:28:06, by: Dropbox User)
+- `task.md` → `07/task.md` (20.86 KB, rev: 016431c0..., modified: 2025-11-08T21:30:18, by: Dropbox User)
+
+**Deleted (3 files):**
+- `task.md`
+- `daily.md`
+- `plans.md`
+
+#### Reports
+
+**Added (2 files):**
+- `Daily_Activity_Report_Nov07_2025.md` → `07/Daily_Activity_Report_Nov07_2025.md` (10.77 KB, modified: 2025-11-07T18:22:16, by: Dropbox User)
+- `Daily_Activity_Report_Nov06_2025.md` → `06/Daily_Activity_Report_Nov06_2025.md` (14.67 KB, modified: 2025-11-07T16:35:18, by: Dropbox User)
+
+
+## All Changes
+
+### Added Files
+
+- `Design/Shymkevych Iryna/06/daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md`
+- `AI/Niko AI/ExportCRMS/scripts/__pycache__/convert_to_json_clusters.cpython-313.pyc`
+- `AI/Niko AI/ExportCRMS/scripts/__pycache__/split_candidates_clusters.cpython-313.pyc`
+- `AI/Niko AI/ExportCRMS/scripts/convert_job_account_to_json.ps1`
+- `AI/Niko AI/ExportCRMS/scripts/clean_client_clusters.py`
+- `AI/Niko AI/ExportCRMS/scripts/convert_job_account_to_json.py`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_v1/README.md`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/CONSOLIDATION_SUMMARY.md`
+- `AI/Niko AI/ExportCRMS/scripts/consolidate_libraries.py`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/locations/cities.json`
+- `AI/Reports/06/Daily_Activity_Report_Nov06_2025.md`
+- `AI/Reports/07/Daily_Activity_Report_Nov07_2025.md`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/MIGRATION_GUIDE.md`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/README.md`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/library_index.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/business/departments.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/business/industries.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/business/sub_industries.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/locations/countries.json`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/PROMPT_Daily_Report_Collection.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/PROMPT_HR_Daily_Report.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/PROMPT_AI_Daily_Report.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/PROMPT_Video_Daily_Report.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/PROMPT_Sales_Daily_Report.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/PROMPT_Design_Daily_Report.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/PROMPT_LG_Daily_Report.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/README.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/prompt_parts_structure.json`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/README.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/docs/01_employee_directory_guidance.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/docs/02_project_directory_guidance.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/docs/03_vocabulary_standards.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/docs/04_task_object_framework.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/docs/05_21_section_framework.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/docs/06_department_specific_patterns.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/docs/README.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/classification_summary.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/TEMPLATE_Enhanced_Department_Prompt.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/TEMPLATE_VARIABLE_MAPPING.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/README_Enhanced_v2.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/IMPLEMENTATION_SUMMARY.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/PROMPT_Dev_Daily_Report.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/PROMPT_Finance_Daily_Report.md`
+- `AI/Niko AI/Prompts/PROMPT_Version_Control_Automation.md`
+- `AI/Niko AI/Prompts/Version Control/VC MAIN PROMPT.md`
+- `AI/Niko AI/Prompts/Prompts to run/Rules automation.md`
+- `AI/Niko AI/Prompts/Prompts to run/DropBox Migration Announcement.md`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/action.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/Department.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/Langs.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/Proffessions.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/Status.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/cities.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/countries.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/objects.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/tools.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/formats.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/industry.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/sub-industry.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/tool-type.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/Sample_LeadAccount_Profile.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/Sample_Candidate_Profile.json`
+- `AI/Niko AI/Prompts/MAIN PROMPT v2.md`
+- `AI/Niko AI/Prompts/MAIN PROMPT v3.md`
+- `AI/Niko AI/ExportCRMS/JSON/Job_Account_prod.json`
+- `Video/Azanova Darʼya/03/daily.md`
+- `Video/Azanova Darʼya/03/plans.md`
+- `Video/Azanova Darʼya/03/task.md`
+- `Video/Azanova Darʼya/04/plans.md`
+- `Video/Azanova Darʼya/04/task.md`
+- `Video/Azanova Darʼya/04/daily.md`
+- `Video/Azanova Darʼya/05/daily.md`
+- `Video/Azanova Darʼya/05/plans.md`
+- `Video/Azanova Darʼya/05/task.md`
+- `Video/Azanova Darʼya/06/daily.md`
+- `Video/Azanova Darʼya/06/plans.md`
+- `Video/Azanova Darʼya/06/task.md`
+- `Video/Azanova Darʼya/07/daily.md`
+- `Video/Azanova Darʼya/07/plans.md`
+- `Video/Azanova Darʼya/07/task.md`
+- `Video/Azanova Darʼya/README.md`
+- `Video/Azanova Darʼya/08/task.md`
+- `Video/Azanova Darʼya/08/plans.md`
+- `Video/Azanova Darʼya/08/daily.md`
+- `Video/Azanova Darʼya/Profile Video Editor Azanova Darʼya.md`
+- `Video/Reports/07/Daily_Activity_Report_Nov07_2025.md`
+- `Video/Reports/06/Daily_Activity_Report_Nov06_2025.md`
+- `Dev/Reports/07/Daily_Activity_Report_Nov07_2025.md`
+- `Dev/Reports/06/Daily_Activity_Report_Nov06_2025.md`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/LOCATION_UPDATES_NEEDED.md`
+- `AI/Niko AI/ExportCRMS/scripts/verify_consolidation.py`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/INDEX.md`
+- `AI/Niko AI/ExportCRMS/Libs CRM/Status.md`
+- `AI/Niko AI/ExportCRMS/Libs CRM/Langs.md`
+- `AI/Niko AI/ExportCRMS/Libs CRM/Department.md`
+- `AI/Niko AI/ExportCRMS/Libs CRM/Proffessions.md`
+- `AI/Niko AI/ExportCRMS/Libs CRM/tool-type.md`
+- `AI/Niko AI/ExportCRMS/Libs CRM/tools.md`
+- `AI/Niko AI/ExportCRMS/Libs CRM/action.md`
+- `AI/Niko AI/ExportCRMS/Libs CRM/formats.md`
+- `AI/Niko AI/ExportCRMS/Libs CRM/objects.md`
+- `AI/Niko AI/ExportCRMS/Libs CRM/countries.md`
+- `AI/Niko AI/ExportCRMS/Libs CRM/cities.md`
+- `AI/Niko AI/ExportCRMS/Libs CRM/industry.md`
+- `AI/Niko AI/ExportCRMS/Libs CRM/sub-industry.md`
+- `AI/Reports/07/Daily_Activity_Report_Nov07_2025_architecture.md`
+- `Design/Shymkevych Iryna/05/employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html`
+- `Design/Reports/06/Daily_Activity_Report_Nov06_2025.md`
+- `Design/Reports/07/Daily_Activity_Report_Nov07_2025.md`
+- `LG/Reports/07/Daily_Activity_Report_Nov07_2025.md`
+- `LG/Reports/06/Daily_Activity_Report_Nov06_2025.md`
+
+### Modified Files
+
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0033.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0030.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0010.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0006.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0003.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0016.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0013.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0008.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0004.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0001.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0005.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0007.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0002.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0031.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0028.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0029.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0053.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0047.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0050.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0044.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0088.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0084.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0075.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0066.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0073.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0092.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0097.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0091.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0095.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0094.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0011.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0026.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0024.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0089.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0076.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0077.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0017.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0014.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0012.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0009.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0015.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0020.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0021.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0018.json`
+- `Video/Podolskyi Sviatoslav/07/daily.md`
+- `Video/Podolskyi Sviatoslav/07/plans.md`
+- `Video/Podolskyi Sviatoslav/07/task.md`
+- `Dev/Danylenko Liliia/07/daily.md`
+- `Dev/Kizilova Olha/07/task.md`
+- `Dev/Dev prompt log.md`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0019.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0035.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0023.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0032.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0034.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0036.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0027.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0022.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0039.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0041.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0048.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0059.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0054.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0051.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0038.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0056.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0046.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0045.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0042.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0058.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0086.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0090.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0055.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0057.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0049.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0072.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0064.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0078.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0081.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0068.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0080.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0087.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0082.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0069.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0061.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0079.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0070.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0071.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0065.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0074.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0062.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0096.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0100.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0099.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0043.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0025.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0052.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0037.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0040.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0085.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0067.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0083.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0063.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0060.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0093.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0098.json`
+- `AI/Niko AI/ExportCRMS/scripts/convert_to_json_clusters.py`
+- `AI/Niko AI/ExportCRMS/scripts/convert_to_json_clusters.ps1`
+- `AI/Niko AI/ExportCRMS/scripts/split_candidates_clusters.py`
+- `AI/Niko AI/ExportCRMS/scripts/clean_candidates_and_create_template.py`
+- `AI/Niko AI/ExportCRMS/scripts/clean_candidates_and_create_template.ps1`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/scripts/clean_json.ps1`
+- `LG/Alakbarova Ulviyya Javid/Profile Lead generator Alakbarova Ulviyya Javid.md`
+- `Design/Bogun Polina/07/daily.md`
+- `Design/Chobotar Yuliia/07/task.md`
+- `Design/Chobotar Yuliia/07/daily.md`
+- `Design/Chobotar Yuliia/07/plans.md`
+- `Design/Skrypkar Vilhelm/07/daily.md`
+- `Design/Skrypkar Vilhelm/07/plans.md`
+- `Design/Skrypkar Vilhelm/07/task.md`
+- `Design/Bykova Anastasiia/07/plans.md`
+- `Design/Bykova Anastasiia/07/daily.md`
+- `Design/Bykova Anastasiia/07/task.md`
+- `Design/Kucherenko Iuliia/08/plans.md`
+- `Design/Kucherenko Iuliia/08/task.md`
+- `Design/Kucherenko Iuliia/08/daily.md`
+- `LG/Adesina Oluwamayomiposi Elizabeth/07/plans.md`
+- `LG/Adesina Oluwamayomiposi Elizabeth/07/daily.md`
+- `LG/Adesina Oluwamayomiposi Elizabeth/07/task.md`
+- `LG/Peneva Plamena/07/task.md`
+- `LG/Cynthia Aninwezi/07/daily.md`
+- `LG/Cynthia Aninwezi/07/task.md`
+- `LG/Cynthia Aninwezi/07/plans.md`
+- `LG/Shkinder Kseniia/08/daily.md`
+
+### Deleted Files
+
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/constructor/README_Enhanced_v2.md`
+- `Video/Podolskyi Sviatoslav/10/task.md`
+- `Dev/Danylenko Liliia/10/daily.md`
+- `AI/Niko AI/ExportCRMS/Libs/Langs.md`
+- `AI/Niko AI/ExportCRMS/Libs/Proffessions.md`
+- `"Video/Azanova Dar\312\274ya/07/daily.md"`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/constructor/TEMPLATE_Enhanced_Department_Prompt.md`
+- `AI/Niko AI/ExportCRMS/Libs_JSON/industry.json`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/constructor/TEMPLATE_VARIABLE_MAPPING.md`
+- `Dev/Danylenko Liliia/10/task.md`
+- `Dev/Kizilova Olha/10/plans.md`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/constructor/classification_summary.md`
+- `"Video/Azanova Dar\312\274ya/04/plans.md"`
+- `AI/Niko AI/ExportCRMS/Libs/tools.md`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/constructor/docs/03_vocabulary_standards.md`
+- `AI/Niko AI/MAIN PROMPT v3.md`
+- `"Video/Azanova Dar\312\274ya/03/plans.md"`
+- `AI/Niko AI/ExportCRMS/Libs_JSON/cities.json`
+- `AI/Niko AI/ExportCRMS/Libs_JSON/Sample_LeadAccount_Profile.json`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/constructor/prompt_parts_structure.json`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/PROMPT_AI_Daily_Report.md`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/PROMPT_Dev_Daily_Report.md`
+- `AI/Perederii Vladislav/10/task.md`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/PROMPT_Video_Daily_Report.md`
+- `Dev/Kizilova Olha/10/task.md`
+- `"Video/Azanova Dar\312\274ya/05/plans.md"`
+- `AI/Niko AI/ExportCRMS/Libs_JSON/Proffessions.json`
+- `AI/Niko AI/ExportCRMS/Libs/formats.md`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/PROMPT_Daily_Report_Collection.md`
+- `Dev/Klimenko Yaroslav/10/daily.md`
+- `AI/Niko AI/ExportCRMS/Libs_JSON/Langs.json`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/PROMPT_LG_Daily_Report.md`
+- `Dev/Danylenko Liliia/10/plans.md`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/PROMPT_HR_Daily_Report.md`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/constructor/docs/01_employee_directory_guidance.md`
+- `AI/Niko AI/ExportCRMS/Libs/Department.md`
+- `"Video/Azanova Dar\312\274ya/05/daily.md"`
+- `AI/Perederii Vladislav/10/daily.md`
+- `AI/Niko AI/ExportCRMS/Libs_JSON/tool-type.json`
+- `AI/Niko AI/ExportCRMS/Libs_JSON/sub-industry.json`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/constructor/IMPLEMENTATION_SUMMARY.md`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/constructor/docs/04_task_object_framework.md`
+- `"Video/Azanova Dar\312\274ya/06/daily.md"`
+- `AI/Niko AI/ExportCRMS/Libs/countries.md`
+- `Video/Podolskyi Sviatoslav/10/daily.md`
+- `AI/Niko AI/Prompts to run/DropBox Migration Announcement.md`
+- `AI/Niko AI/ExportCRMS/Libs_JSON/Status.json`
+- `get_refresh_token.py`
+- `Dev/Klimenko Yaroslav/10/plans.md`
+- `"Video/Azanova Dar\312\274ya/06/plans.md"`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/constructor/docs/02_project_directory_guidance.md`
+- `"Video/Azanova Dar\312\274ya/06/task.md"`
+- `"Video/Azanova Dar\312\274ya/05/task.md"`
+- `AI/Niko AI/ExportCRMS/Libs_JSON/formats.json`
+- `AI/Perederii Vladislav/10/plans.md`
+- `AI/Niko AI/ExportCRMS/Libs_JSON/Department.json`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/constructor/docs/06_department_specific_patterns.md`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/PROMPT_Design_Daily_Report.md`
+- `AI/Niko AI/ExportCRMS/Libs/industry.md`
+- `AI/Niko AI/ExportCRMS/Libs/Status.md`
+- `AI/Niko AI/ExportCRMS/Libs_JSON/action.json`
+- `AI/Niko AI/Version Control/VC MAIN PROMPT.md`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/constructor/README.md`
+- `"Video/Azanova Dar\312\274ya/README.md"`
+- `"Design/Shymkevych Iryna/05/employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07).html"`
+- `AI/Niko AI/ExportCRMS/Libs/objects.md`
+- `"Video/Azanova Dar\312\274ya/07/task.md"`
+- `AI/Niko AI/ExportCRMS/Libs_JSON/objects.json`
+- `"Video/Azanova Dar\312\274ya/04/task.md"`
+- `"Video/Azanova Dar\312\274ya/03/daily.md"`
+- `REFRESH_TOKEN_SETUP.md`
+- `"Design/Shymkevych Iryna/05/employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07 1).html"`
+- `"Video/Azanova Dar\312\274ya/04/daily.md"`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/constructor/docs/README.md`
+- `AI/Niko AI/ExportCRMS/Libs_JSON/tools.json`
+- `"Video/Azanova Dar\312\274ya/07/plans.md"`
+- `Video/Azanova Dar'ya/10/plans.md`
+- `Dev/Klimenko Yaroslav/10/task.md`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/README.md`
+- `AI/Niko AI/ExportCRMS/Libs/action.md`
+- `Video/Podolskyi Sviatoslav/10/plans.md`
+- `Video/Azanova Dar'ya/10/daily.md`
+- `AI/Niko AI/ExportCRMS/Libs/tool-type.md`
+- `AI/Niko AI/ExportCRMS/Libs/sub-industry.md`
+- `AI/Niko AI/ExportCRMS/Libs/cities.md`
+- `AI/Niko AI/Prompts to run/Rules automation.md`
+- `"Video/Azanova Dar\312\274ya/03/task.md"`
+- `AI/Niko AI/ExportCRMS/Libs_JSON/countries.json`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/PROMPT_Sales_Daily_Report.md`
+- `Video/Azanova Dar'ya/10/task.md`
+- `"Video/Azanova Dar\312\274ya/08/plans.md"`
+- `AI/Niko AI/PROMPT_Daily_Report_Collection/constructor/docs/05_21_section_framework.md`
+- `"Video/Azanova Dar\312\274ya/08/daily.md"`
+- `"Video/Azanova Dar\312\274ya/Profile Video Editor Azanova Dar\312\274ya.md"`
+- `AI/Niko AI/PROMPT_Version_Control_Automation.md`
+- `Dev/Kizilova Olha/10/daily.md`
+- `AI/Niko AI/MAIN PROMPT v2.md`
+- `"Video/Azanova Dar\312\274ya/08/task.md"`
+- `"Design/Shymkevych Iryna/06/daily (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-06).md"`
+
+
+---
+*Generated automatically by Dropbox to GitHub sync*
+
+
 # Changelog - 2025-11-07
 
 **Sync Date:** 2025-11-07 16:19:15 UTC
