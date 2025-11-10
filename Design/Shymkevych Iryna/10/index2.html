@@ -1,0 +1,3355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remote Employees - Professional Talent Network</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            /* Primary Colors - from Color System */
+            --color-primary-main: #4299e1;
+            --color-primary-light: #63b3ed;
+            --color-primary-dark: #3182ce;
+            
+            /* Secondary */
+            --color-secondary-main: #ed8936;
+            
+            /* Semantic Colors */
+            --color-success-main: #10B981;
+            --color-error-main: #EF4444;
+            --color-info-main: #3B82F6;
+            --color-warning-main: #F59E0B;
+            
+            /* Text Colors */
+            --color-text-primary: #2d3748;
+            --color-text-secondary: #718096;
+            
+            /* Department Colors */
+            --color-designers: #9333EA;
+            --color-developers: #14B8A6;
+            --color-managers: #DC2626;
+            --color-marketers: #EC4899;
+            --color-videographers: #F97316;
+            --color-general: #4B5563;
+            
+            /* Typography Scale */
+            --font-h1-size: 42px;
+            --font-h1-weight: 700;
+            --font-h1-line-height: 1.2;
+            
+            --font-h2-size: 32px;
+            --font-h2-weight: 600;
+            --font-h2-line-height: 1.3;
+            
+            --font-h3-size: 24px;
+            --font-h3-weight: 600;
+            --font-h3-line-height: 1.4;
+            
+            --font-h4-size: 20px;
+            --font-h4-weight: 500;
+            --font-h4-line-height: 1.5;
+            
+            --font-body-large-size: 18px;
+            --font-body-large-weight: 400;
+            --font-body-large-line-height: 1.6;
+            
+            --font-body-regular-size: 16px;
+            --font-body-regular-weight: 400;
+            --font-body-regular-line-height: 1.6;
+            
+            --font-body-small-size: 14px;
+            --font-body-small-weight: 400;
+            --font-body-small-line-height: 1.5;
+            
+            --font-caption-size: 12px;
+            --font-caption-weight: 400;
+            --font-caption-line-height: 1.3;
+            
+            /* Font Weights */
+            --font-weight-light: 300;
+            --font-weight-regular: 400;
+            --font-weight-medium: 500;
+            --font-weight-semibold: 600;
+            --font-weight-bold: 700;
+            
+            /* Spacing System (4px baseline grid) */
+            --spacing-xs: 4px;      /* Extra Small - Minimal spacing */
+            --spacing-sm: 8px;      /* Small - Tight spacing */
+            --spacing-md: 12px;     /* Medium - Default spacing */
+            --spacing-lg: 24px;     /* Large - Comfortable spacing */
+            --spacing-xl: 32px;     /* Extra Large - Large spacing */
+            --spacing-2xl: 48px;    /* 2X Large - Extra large spacing */
+            --spacing-3xl: 64px;    /* 3X Large - Section spacing */
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            background: #ffffff;
+            color: #000000;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        /* Dark Mode Variables and Styles */
+        body.dark-mode {
+            background: #0f172a;
+            color: #f1f5f9;
+        }
+
+        body.dark-mode .bg-white {
+            background-color: #1e293b !important;
+        }
+
+        body.dark-mode .bg-gray-50 {
+            background-color: #0f172a !important;
+        }
+
+        body.dark-mode .bg-gray-100 {
+            background-color: #1e293b !important;
+        }
+
+        body.dark-mode .text-gray-900 {
+            color: #f1f5f9 !important;
+        }
+
+        body.dark-mode .text-gray-800 {
+            color: #e2e8f0 !important;
+        }
+
+        body.dark-mode .text-gray-700 {
+            color: #cbd5e1 !important;
+        }
+
+        body.dark-mode .text-gray-600 {
+            color: #94a3b8 !important;
+        }
+
+        body.dark-mode .text-gray-500 {
+            color: #64748b !important;
+        }
+
+        body.dark-mode .text-gray-400 {
+            color: #475569 !important;
+        }
+
+        body.dark-mode .border-gray-200 {
+            border-color: #334155 !important;
+        }
+
+        body.dark-mode .border-gray-100 {
+            border-color: #1e293b !important;
+        }
+
+        body.dark-mode .border-gray-300 {
+            border-color: #475569 !important;
+        }
+
+        body.dark-mode .border-gray-800 {
+            border-color: #334155 !important;
+        }
+
+        body.dark-mode .shadow-sm,
+        body.dark-mode .shadow-md,
+        body.dark-mode .shadow-lg,
+        body.dark-mode .shadow-xl,
+        body.dark-mode .shadow-2xl {
+            box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+        }
+
+        body.dark-mode .card {
+            background: #1e293b;
+            border-color: #334155;
+        }
+
+        body.dark-mode .category-btn {
+            background: #1e293b;
+            color: #cbd5e1;
+            border-color: #334155;
+        }
+
+        body.dark-mode .category-btn:hover {
+            background: #334155;
+        }
+
+        body.dark-mode .category-btn.active {
+            background: #4299e1;
+            color: white;
+        }
+
+        /* Dark Mode - Designers (Purple) */
+        body.dark-mode .category-btn-designers {
+            background: rgba(168, 85, 247, 0.15);
+            color: #E9D5FF;
+            border-color: rgba(168, 85, 247, 0.4);
+        }
+
+        body.dark-mode .category-btn-designers.active,
+        body.dark-mode .category-btn-designers:hover {
+            background: rgba(168, 85, 247, 0.25);
+            border-color: #A855F7;
+            box-shadow: 0 0 20px rgba(168, 85, 247, 0.3), inset 0 0 12px rgba(168, 85, 247, 0.2);
+            color: #F3E8FF;
+        }
+
+        /* Dark Mode - Developers (Teal) */
+        body.dark-mode .category-btn-developers {
+            background: rgba(45, 212, 191, 0.15);
+            color: #CCFBF1;
+            border-color: rgba(45, 212, 191, 0.4);
+        }
+
+        body.dark-mode .category-btn-developers.active,
+        body.dark-mode .category-btn-developers:hover {
+            background: rgba(45, 212, 191, 0.25);
+            border-color: #2DD4BF;
+            box-shadow: 0 0 20px rgba(45, 212, 191, 0.3), inset 0 0 12px rgba(45, 212, 191, 0.2);
+            color: #F0FDFA;
+        }
+
+        /* Dark Mode - Managers (Red) */
+        body.dark-mode .category-btn-managers {
+            background: rgba(248, 113, 113, 0.15);
+            color: #FECACA;
+            border-color: rgba(248, 113, 113, 0.4);
+        }
+
+        body.dark-mode .category-btn-managers.active,
+        body.dark-mode .category-btn-managers:hover {
+            background: rgba(248, 113, 113, 0.25);
+            border-color: #F87171;
+            box-shadow: 0 0 20px rgba(248, 113, 113, 0.3), inset 0 0 12px rgba(248, 113, 113, 0.2);
+            color: #FEE2E2;
+        }
+
+        /* Dark Mode - Marketers (Pink) */
+        body.dark-mode .category-btn-marketers {
+            background: rgba(244, 114, 182, 0.15);
+            color: #FBCFE8;
+            border-color: rgba(244, 114, 182, 0.4);
+        }
+
+        body.dark-mode .category-btn-marketers.active,
+        body.dark-mode .category-btn-marketers:hover {
+            background: rgba(244, 114, 182, 0.25);
+            border-color: #F472B6;
+            box-shadow: 0 0 20px rgba(244, 114, 182, 0.3), inset 0 0 12px rgba(244, 114, 182, 0.2);
+            color: #FCE7F3;
+        }
+
+        /* Dark Mode - Teachers (Blue) */
+        body.dark-mode .category-btn-teachers {
+            background: rgba(96, 165, 250, 0.15);
+            color: #DBEAFE;
+            border-color: rgba(96, 165, 250, 0.4);
+        }
+
+        body.dark-mode .category-btn-teachers.active,
+        body.dark-mode .category-btn-teachers:hover {
+            background: rgba(96, 165, 250, 0.25);
+            border-color: #60A5FA;
+            box-shadow: 0 0 20px rgba(96, 165, 250, 0.3), inset 0 0 12px rgba(96, 165, 250, 0.2);
+            color: #EFF6FF;
+        }
+
+        /* Dark Mode - Videographers (Orange) */
+        body.dark-mode .category-btn-videographers {
+            background: rgba(251, 146, 60, 0.15);
+            color: #FED7AA;
+            border-color: rgba(251, 146, 60, 0.4);
+        }
+
+        body.dark-mode .category-btn-videographers.active,
+        body.dark-mode .category-btn-videographers:hover {
+            background: rgba(251, 146, 60, 0.25);
+            border-color: #FB923C;
+            box-shadow: 0 0 20px rgba(251, 146, 60, 0.3), inset 0 0 12px rgba(251, 146, 60, 0.2);
+            color: #FFEDD5;
+        }
+
+        /* Dark Mode - All Categories */
+        body.dark-mode .category-btn-all {
+            background: rgba(148, 163, 184, 0.15);
+            color: #CBD5E1;
+            border-color: rgba(148, 163, 184, 0.4);
+        }
+
+        body.dark-mode .category-btn-all.active,
+        body.dark-mode .category-btn-all:hover {
+            background: rgba(148, 163, 184, 0.25);
+            border-color: #94A3B8;
+            box-shadow: 0 0 20px rgba(148, 163, 184, 0.3), inset 0 0 12px rgba(148, 163, 184, 0.2);
+            color: #F1F5F9;
+        }
+
+        body.dark-mode .header-icon-btn,
+        body.dark-mode .header-cta-btn {
+            background: #1e293b;
+            color: #cbd5e1;
+            border-color: #334155;
+        }
+
+        body.dark-mode .header-icon-btn:hover,
+        body.dark-mode .header-cta-btn:hover {
+            background: #334155;
+        }
+
+        body.dark-mode footer {
+            background: #0f172a !important;
+            border-color: #334155 !important;
+        }
+
+        body.dark-mode .modal-content {
+            background: #1e293b;
+            border-color: #334155;
+        }
+
+        body.dark-mode .modal-title {
+            color: #f1f5f9 !important;
+        }
+
+        body.dark-mode .modal-close {
+            color: #94a3b8 !important;
+        }
+
+        body.dark-mode .modal-close:hover {
+            color: #f1f5f9 !important;
+            background: rgba(255, 255, 255, 0.1) !important;
+        }
+
+        body.dark-mode .modal-item {
+            color: #cbd5e1;
+            background: rgba(255, 255, 255, 0.05);
+            border-color: #334155;
+        }
+
+        body.dark-mode .modal-item:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: #475569;
+        }
+
+        body.dark-mode .modal-item-title {
+            color: #f1f5f9 !important;
+        }
+
+        body.dark-mode .modal-item-subtitle {
+            color: #94a3b8 !important;
+        }
+
+        body.dark-mode .modal-item-arrow {
+            color: #64748b !important;
+        }
+
+        body.dark-mode .modal-item:hover .modal-item-arrow {
+            color: #94a3b8 !important;
+        }
+
+        body.dark-mode .modal-item-icon {
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        body.dark-mode .modal-description {
+            color: #94a3b8 !important;
+        }
+
+        body.dark-mode .task-item,
+        body.dark-mode .tool-item {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: #334155;
+        }
+
+        body.dark-mode .task-title,
+        body.dark-mode .tool-title {
+            color: #f1f5f9;
+        }
+
+        body.dark-mode .task-description,
+        body.dark-mode .tool-description {
+            color: #94a3b8;
+        }
+
+        body.dark-mode .skill-name {
+            color: #f1f5f9 !important;
+        }
+
+        body.dark-mode .skill-details {
+            color: #94a3b8 !important;
+        }
+
+        body.dark-mode .skill-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: #334155;
+        }
+
+        body.dark-mode .tool-name {
+            color: #f1f5f9 !important;
+        }
+
+        body.dark-mode .tool-details {
+            color: #94a3b8 !important;
+        }
+
+        body.dark-mode .tool-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: #334155;
+        }
+
+        /* Typography Classes */
+        h1, .h1 {
+            font-size: var(--font-h1-size);
+            font-weight: var(--font-h1-weight);
+            line-height: var(--font-h1-line-height);
+        }
+        
+        h2, .h2 {
+            font-size: var(--font-h2-size);
+            font-weight: var(--font-h2-weight);
+            line-height: var(--font-h2-line-height);
+        }
+        
+        h3, .h3 {
+            font-size: var(--font-h3-size);
+            font-weight: var(--font-h3-weight);
+            line-height: var(--font-h3-line-height);
+        }
+        
+        h4, .h4 {
+            font-size: var(--font-h4-size);
+            font-weight: var(--font-h4-weight);
+            line-height: var(--font-h4-line-height);
+        }
+        
+        .body-large {
+            font-size: var(--font-body-large-size);
+            font-weight: var(--font-body-large-weight);
+            line-height: var(--font-body-large-line-height);
+        }
+        
+        .body-regular {
+            font-size: var(--font-body-regular-size);
+            font-weight: var(--font-body-regular-weight);
+            line-height: var(--font-body-regular-line-height);
+        }
+        
+        .body-small {
+            font-size: var(--font-body-small-size);
+            font-weight: var(--font-body-small-weight);
+            line-height: var(--font-body-small-line-height);
+        }
+        
+        .caption {
+            font-size: var(--font-caption-size);
+            font-weight: var(--font-caption-weight);
+            line-height: var(--font-caption-line-height);
+        }
+
+        /* Spacing Utility Classes */
+        /* Padding */
+        .p-xs { padding: var(--spacing-xs); }
+        .p-sm { padding: var(--spacing-sm); }
+        .p-md { padding: var(--spacing-md); }
+        .p-lg { padding: var(--spacing-lg); }
+        .p-xl { padding: var(--spacing-xl); }
+        .p-2xl { padding: var(--spacing-2xl); }
+        .p-3xl { padding: var(--spacing-3xl); }
+        
+        /* Padding Top */
+        .pt-xs { padding-top: var(--spacing-xs); }
+        .pt-sm { padding-top: var(--spacing-sm); }
+        .pt-md { padding-top: var(--spacing-md); }
+        .pt-lg { padding-top: var(--spacing-lg); }
+        .pt-xl { padding-top: var(--spacing-xl); }
+        .pt-2xl { padding-top: var(--spacing-2xl); }
+        .pt-3xl { padding-top: var(--spacing-3xl); }
+        
+        /* Padding Bottom */
+        .pb-xs { padding-bottom: var(--spacing-xs); }
+        .pb-sm { padding-bottom: var(--spacing-sm); }
+        .pb-md { padding-bottom: var(--spacing-md); }
+        .pb-lg { padding-bottom: var(--spacing-lg); }
+        .pb-xl { padding-bottom: var(--spacing-xl); }
+        .pb-2xl { padding-bottom: var(--spacing-2xl); }
+        .pb-3xl { padding-bottom: var(--spacing-3xl); }
+        
+        /* Padding Left */
+        .pl-xs { padding-left: var(--spacing-xs); }
+        .pl-sm { padding-left: var(--spacing-sm); }
+        .pl-md { padding-left: var(--spacing-md); }
+        .pl-lg { padding-left: var(--spacing-lg); }
+        .pl-xl { padding-left: var(--spacing-xl); }
+        .pl-2xl { padding-left: var(--spacing-2xl); }
+        .pl-3xl { padding-left: var(--spacing-3xl); }
+        
+        /* Padding Right */
+        .pr-xs { padding-right: var(--spacing-xs); }
+        .pr-sm { padding-right: var(--spacing-sm); }
+        .pr-md { padding-right: var(--spacing-md); }
+        .pr-lg { padding-right: var(--spacing-lg); }
+        .pr-xl { padding-right: var(--spacing-xl); }
+        .pr-2xl { padding-right: var(--spacing-2xl); }
+        .pr-3xl { padding-right: var(--spacing-3xl); }
+        
+        /* Margin */
+        .m-xs { margin: var(--spacing-xs); }
+        .m-sm { margin: var(--spacing-sm); }
+        .m-md { margin: var(--spacing-md); }
+        .m-lg { margin: var(--spacing-lg); }
+        .m-xl { margin: var(--spacing-xl); }
+        .m-2xl { margin: var(--spacing-2xl); }
+        .m-3xl { margin: var(--spacing-3xl); }
+        
+        /* Margin Top */
+        .mt-xs { margin-top: var(--spacing-xs); }
+        .mt-sm { margin-top: var(--spacing-sm); }
+        .mt-md { margin-top: var(--spacing-md); }
+        .mt-lg { margin-top: var(--spacing-lg); }
+        .mt-xl { margin-top: var(--spacing-xl); }
+        .mt-2xl { margin-top: var(--spacing-2xl); }
+        .mt-3xl { margin-top: var(--spacing-3xl); }
+        
+        /* Margin Bottom */
+        .mb-xs { margin-bottom: var(--spacing-xs); }
+        .mb-sm { margin-bottom: var(--spacing-sm); }
+        .mb-md { margin-bottom: var(--spacing-md); }
+        .mb-lg { margin-bottom: var(--spacing-lg); }
+        .mb-xl { margin-bottom: var(--spacing-xl); }
+        .mb-2xl { margin-bottom: var(--spacing-2xl); }
+        .mb-3xl { margin-bottom: var(--spacing-3xl); }
+        
+        /* Margin Left */
+        .ml-xs { margin-left: var(--spacing-xs); }
+        .ml-sm { margin-left: var(--spacing-sm); }
+        .ml-md { margin-left: var(--spacing-md); }
+        .ml-lg { margin-left: var(--spacing-lg); }
+        .ml-xl { margin-left: var(--spacing-xl); }
+        .ml-2xl { margin-left: var(--spacing-2xl); }
+        .ml-3xl { margin-left: var(--spacing-3xl); }
+        
+        /* Margin Right */
+        .mr-xs { margin-right: var(--spacing-xs); }
+        .mr-sm { margin-right: var(--spacing-sm); }
+        .mr-md { margin-right: var(--spacing-md); }
+        .mr-lg { margin-right: var(--spacing-lg); }
+        .mr-xl { margin-right: var(--spacing-xl); }
+        .mr-2xl { margin-right: var(--spacing-2xl); }
+        .mr-3xl { margin-right: var(--spacing-3xl); }
+        
+        /* Gap (for flexbox/grid) */
+        .gap-xs { gap: var(--spacing-xs); }
+        .gap-sm { gap: var(--spacing-sm); }
+        .gap-md { gap: var(--spacing-md); }
+        .gap-lg { gap: var(--spacing-lg); }
+        .gap-xl { gap: var(--spacing-xl); }
+        .gap-2xl { gap: var(--spacing-2xl); }
+        .gap-3xl { gap: var(--spacing-3xl); }
+
+        .smooth-transition {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Header Button Styles */
+        .text-primary-gradient {
+            background: linear-gradient(135deg, #4299e1 0%, #3182ce 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+            animation: fadeIn 0.6s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        header h1 {
+            animation: fadeIn 0.6s ease-in;
+        }
+
+        .header-icon-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            background: transparent;
+            border: 1px solid #e5e7eb;
+            color: #6b7280;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .header-icon-btn:hover {
+            background: #f3f4f6;
+            border-color: #4299e1;
+            color: #4299e1;
+            transform: translateY(-1px);
+        }
+
+        .header-icon-btn:active {
+            transform: translateY(0);
+        }
+
+        .header-cta-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            border-radius: 8px;
+            background: white;
+            border: 1px solid #e5e7eb;
+            color: #374151;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        }
+
+        .header-cta-btn:hover {
+            background: #4299e1;
+            border-color: #4299e1;
+            color: white;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(66, 153, 225, 0.3);
+        }
+
+        .header-cta-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 1px 2px rgba(66, 153, 225, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            .header-cta-btn {
+                padding: 10px 16px;
+                font-size: 13px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .header-cta-btn {
+                width: 40px;
+                height: 40px;
+                padding: 0;
+                justify-content: center;
+                gap: 0;
+            }
+            
+            .header-cta-btn span {
+                display: none;
+            }
+            
+            h1 {
+                font-size: 20px;
+            }
+        }
+
+        /* Glass Card */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+        }
+
+        /* Mesh Gradient Background */
+        .mesh-gradient {
+            background: linear-gradient(135deg, 
+                rgba(66, 153, 225, 0.02) 0%, 
+                rgba(237, 137, 54, 0.02) 50%, 
+                rgba(2, 136, 209, 0.02) 100%
+            );
+            position: relative;
+        }
+
+        /* Base Button Styles */
+        .btn {
+            position: relative;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            text-align: center;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            user-select: none;
+        }
+
+        /* Button Sizes */
+        .btn-small {
+            padding: 8px 16px;
+            font-size: 14px;
+            line-height: 1.5;
+            border-radius: 8px;
+        }
+
+        .btn-medium {
+            padding: 12px 24px;
+            font-size: 16px;
+            line-height: 1.5;
+            border-radius: 10px;
+        }
+
+        .btn-large {
+            padding: 12px 32px;
+            font-size: 16px;
+            line-height: 1.5;
+            border-radius: 10px;
+        }
+
+        /* Primary Button */
+        .btn-primary {
+            background: linear-gradient(135deg, #4299e1 0%, #3182ce 100%);
+            color: white;
+            box-shadow: 0 4px 12px rgba(66, 153, 225, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(66, 153, 225, 0.4);
+            background: linear-gradient(135deg, #63b3ed 0%, #4299e1 100%);
+        }
+
+        .btn-primary:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 8px rgba(66, 153, 225, 0.3);
+        }
+
+        /* Secondary Button */
+        .btn-secondary {
+            background: #ed8936;
+            color: white;
+            box-shadow: 0 4px 12px rgba(237, 137, 54, 0.3);
+        }
+
+        .btn-secondary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(237, 137, 54, 0.4);
+            background: #e78428;
+        }
+
+        /* Outlined Button */
+        .btn-outlined {
+            background: transparent;
+            color: #4299e1;
+            border: 2px solid #4299e1;
+        }
+
+        .btn-outlined:hover {
+            background: rgba(66, 153, 225, 0.05);
+            border-color: #3182ce;
+            color: #3182ce;
+        }
+
+        /* Text Button */
+        .btn-text {
+            background: transparent;
+            color: #4299e1;
+        }
+
+        .btn-text:hover {
+            background: rgba(66, 153, 225, 0.05);
+            color: #3182ce;
+        }
+
+        /* Button Block */
+        .btn-block {
+            width: 100%;
+        }
+
+        /* Form Inputs */
+        .form-input {
+            width: 100%;
+            padding: 12px 16px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #2d3748;
+            background-color: white;
+            border: 1px solid #cbd5e0;
+            border-radius: 8px;
+            outline: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .form-input:focus {
+            border-color: #4299e1;
+            box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.1);
+        }
+
+        .form-input::placeholder {
+            color: #a0aec0;
+        }
+
+        .form-input-small {
+            padding: 8px 12px;
+            font-size: 14px;
+            border-radius: 6px;
+        }
+
+        .form-input-medium {
+            padding: 12px 16px;
+            font-size: 16px;
+            border-radius: 8px;
+        }
+
+        .form-input-large {
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 10px;
+        }
+
+        /* Profile Cards */
+        .card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-overlay {
+            position: relative;
+        }
+
+        .overlay-gradient {
+            background: linear-gradient(
+                to top,
+                rgba(0, 0, 0, 0.98) 0%,
+                rgba(0, 0, 0, 0.85) 35%,
+                rgba(0, 0, 0, 0.5) 60%,
+                rgba(0, 0, 0, 0.2) 80%,
+                transparent 100%
+            );
+        }
+
+        /* Category Buttons */
+        .category-btn {
+            padding: 12px 50px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            border: 2px solid transparent;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            background: rgba(255, 255, 255, 0.8);
+            color: #64748b;
+        }
+
+        .category-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        /* All Categories - Neutral gray with inner glow */
+        .category-btn-all {
+            background: rgba(248, 250, 252, 0.8);
+            color: #475569;
+            border-color: #CBD5E1;
+        }
+
+        .category-btn-all.active,
+        .category-btn-all:hover {
+            background: rgba(248, 250, 252, 1);
+            border-color: #94A3B8;
+            box-shadow: inset 0 0 12px rgba(148, 163, 184, 0.15);
+        }
+
+        /* Designers - Purple with inner glow */
+        .category-btn-designers {
+            background: rgba(243, 232, 255, 0.2);
+            color: #6D28D9;
+            border-color: #C084FC;
+        }
+
+        .category-btn-designers.active,
+        .category-btn-designers:hover {
+            background: rgba(243, 232, 255, 0.35);
+            border-color: #A855F7;
+            box-shadow: inset 0 0 12px rgba(168, 85, 247, 0.15);
+        }
+
+        /* Developers - Teal/Emerald with inner glow */
+        .category-btn-developers {
+            background: rgba(204, 251, 241, 0.2);
+            color: #0D9488;
+            border-color: #5EEAD4;
+        }
+
+        .category-btn-developers.active,
+        .category-btn-developers:hover {
+            background: rgba(204, 251, 241, 0.35);
+            border-color: #2DD4BF;
+            box-shadow: inset 0 0 12px rgba(45, 212, 191, 0.15);
+        }
+
+        /* Managers - Red with inner glow */
+        .category-btn-managers {
+            background: rgba(254, 226, 226, 0.2);
+            color: #B91C1C;
+            border-color: #FCA5A5;
+        }
+
+        .category-btn-managers.active,
+        .category-btn-managers:hover {
+            background: rgba(254, 226, 226, 0.35);
+            border-color: #F87171;
+            box-shadow: inset 0 0 12px rgba(248, 113, 113, 0.15);
+        }
+
+        /* Marketers - Pink with inner glow */
+        .category-btn-marketers {
+            background: rgba(252, 231, 243, 0.2);
+            color: #BE185D;
+            border-color: #F9A8D4;
+        }
+
+        .category-btn-marketers.active,
+        .category-btn-marketers:hover {
+            background: rgba(252, 231, 243, 0.35);
+            border-color: #F472B6;
+            box-shadow: inset 0 0 12px rgba(244, 114, 182, 0.15);
+        }
+
+        /* Teachers - Blue with inner glow */
+        .category-btn-teachers {
+            background: rgba(219, 234, 254, 0.2);
+            color: #1E40AF;
+            border-color: #93C5FD;
+        }
+
+        .category-btn-teachers.active,
+        .category-btn-teachers:hover {
+            background: rgba(219, 234, 254, 0.35);
+            border-color: #60A5FA;
+            box-shadow: inset 0 0 12px rgba(96, 165, 250, 0.15);
+        }
+
+        /* Videographers - Orange with inner glow */
+        .category-btn-videographers {
+            background: rgba(255, 237, 213, 0.2);
+            color: #C2410C;
+            border-color: #FDBA74;
+        }
+
+        .category-btn-videographers.active,
+        .category-btn-videographers:hover {
+            background: rgba(255, 237, 213, 0.35);
+            border-color: #FB923C;
+            box-shadow: inset 0 0 12px rgba(251, 146, 60, 0.15);
+        }
+
+        /* Profile card hover */
+        .profile-card {
+            transition: transform 0.3s ease;
+        }
+
+        .profile-card:hover {
+            transform: translateY(-4px);
+        }
+
+        /* Purple accent */
+        .accent-purple {
+            color: #4299e1;
+        }
+
+        .bg-blue-500 {
+            background-color: #4299e1;
+        }
+
+        /* Artistic gradient blobs */
+        .gradient-blob-1 {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            background: linear-gradient(135deg, #4299e1 0%, #3182ce 100%);
+            border-radius: 50% 60% 70% 40%;
+            filter: blur(60px);
+            opacity: 0.3;
+            animation: blob-float 8s ease-in-out infinite;
+        }
+
+        .gradient-blob-2 {
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background: linear-gradient(135deg, #ed8936 0%, #DC2626 100%);
+            border-radius: 60% 40% 50% 70%;
+            filter: blur(60px);
+            opacity: 0.25;
+            animation: blob-float 10s ease-in-out infinite reverse;
+        }
+
+        .gradient-blob-3 {
+            position: absolute;
+            width: 350px;
+            height: 350px;
+            background: linear-gradient(135deg, #0288d1 0%, #0277bd 100%);
+            border-radius: 40% 70% 60% 50%;
+            filter: blur(60px);
+            opacity: 0.2;
+            animation: blob-float 12s ease-in-out infinite;
+        }
+
+        @keyframes blob-float {
+            0%, 100% {
+                transform: translate(0, 0) scale(1);
+            }
+            33% {
+                transform: translate(30px, -30px) scale(1.05);
+            }
+            66% {
+                transform: translate(-20px, 20px) scale(0.95);
+            }
+        }
+
+        /* 3D Geometric Shape */
+        .geometric-shape {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(135deg, rgba(66, 153, 225, 0.15) 0%, rgba(49, 130, 206, 0.15) 100%);
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            animation: rotate-3d 20s linear infinite;
+        }
+
+        @keyframes rotate-3d {
+            0% {
+                transform: rotate(0deg) scale(1);
+            }
+            50% {
+                transform: rotate(180deg) scale(1.1);
+            }
+            100% {
+                transform: rotate(360deg) scale(1);
+            }
+        }
+
+        /* Flowing ribbon effect */
+        .ribbon-wave {
+            position: absolute;
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(90deg, 
+                rgba(66, 153, 225, 0.1) 0%,
+                rgba(237, 137, 54, 0.1) 25%,
+                rgba(245, 158, 11, 0.1) 50%,
+                rgba(2, 136, 209, 0.1) 75%,
+                rgba(66, 153, 225, 0.1) 100%
+            );
+            clip-path: path('M0,50 Q250,0 500,50 T1000,50 L1000,200 L0,200 Z');
+            animation: wave-flow 15s ease-in-out infinite;
+        }
+
+        @keyframes wave-flow {
+            0%, 100% {
+                opacity: 0.3;
+                transform: translateX(0);
+            }
+            50% {
+                opacity: 0.5;
+                transform: translateX(20px);
+            }
+        }
+
+        /* Particle Elements */
+        .float-animation {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        /* LIQUID GLASS BUTTON EFFECT - FOR MODAL BUTTONS AND TAGS */
+        .liquid-glass-btn {
+            position: relative;
+            padding: 10px 8px;
+            background: linear-gradient(
+                135deg,
+                rgba(255, 255, 255, 0.15) 0%,
+                rgba(255, 255, 255, 0.05) 100%
+            );
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 8px;
+            color: white;
+            font-size: 12px;
+            font-weight: 700;
+            text-align: center;
+            cursor: pointer;
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+            box-shadow: 
+                0 8px 32px rgba(0, 0, 0, 0.15),
+                inset 0 1px 0 rgba(255, 255, 255, 0.3),
+                inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Liquid glass tag variant for smaller tags */
+        .liquid-glass-tag {
+            position: relative;
+            padding: 8px 16px;
+            background: linear-gradient(
+                135deg,
+                rgba(255, 255, 255, 0.15) 0%,
+                rgba(255, 255, 255, 0.05) 100%
+            );
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 8px;
+            color: white;
+            font-size: 13px;
+            font-weight: 700;
+            text-align: center;
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+            box-shadow: 
+                0 8px 32px rgba(0, 0, 0, 0.15),
+                inset 0 1px 0 rgba(255, 255, 255, 0.3),
+                inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            letter-spacing: 0.05em;
+        }
+
+        /* Liquid shine overlay for tags */
+        .liquid-glass-tag::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                90deg,
+                transparent 0%,
+                rgba(255, 255, 255, 0.3) 50%,
+                transparent 100%
+            );
+            transition: left 0.6s ease;
+        }
+
+        .liquid-glass-tag:hover::before {
+            left: 100%;
+        }
+
+        /* Glass reflection effect for tags */
+        .liquid-glass-tag::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 50%;
+            background: linear-gradient(
+                180deg,
+                rgba(255, 255, 255, 0.2) 0%,
+                transparent 100%
+            );
+            pointer-events: none;
+        }
+
+        /* Liquid shine overlay */
+        .liquid-glass-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                90deg,
+                transparent 0%,
+                rgba(255, 255, 255, 0.3) 50%,
+                transparent 100%
+            );
+            transition: left 0.6s ease;
+        }
+
+        .liquid-glass-btn:hover::before {
+            left: 100%;
+        }
+
+        /* Glass reflection effect */
+        .liquid-glass-btn::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 50%;
+            background: linear-gradient(
+                180deg,
+                rgba(255, 255, 255, 0.2) 0%,
+                transparent 100%
+            );
+            pointer-events: none;
+        }
+
+        .liquid-glass-btn:hover {
+            transform: translateY(-2px) scale(1.02);
+            background: linear-gradient(
+                135deg,
+                rgba(255, 255, 255, 0.25) 0%,
+                rgba(255, 255, 255, 0.1) 100%
+            );
+            border-color: rgba(255, 255, 255, 0.4);
+            box-shadow: 
+                0 12px 40px rgba(0, 0, 0, 0.2),
+                inset 0 1px 0 rgba(255, 255, 255, 0.4),
+                inset 0 -1px 0 rgba(0, 0, 0, 0.1),
+                0 0 20px rgba(255, 255, 255, 0.15);
+        }
+
+        .liquid-glass-btn:active {
+            transform: translateY(0) scale(0.98);
+            box-shadow: 
+                0 4px 16px rgba(0, 0, 0, 0.15),
+                inset 0 1px 0 rgba(255, 255, 255, 0.2),
+                inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        /* Ripple effect on click */
+        .liquid-glass-btn:active::after {
+            animation: ripple 0.6s ease-out;
+        }
+
+        @keyframes ripple {
+            0% {
+                transform: scale(0);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(4);
+                opacity: 0;
+            }
+        }
+
+        /* Modal Styles */
+        .modal-backdrop {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(4px);
+            z-index: 9998;
+            transition: opacity 0.3s ease;
+        }
+
+        .modal-backdrop.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .modal {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .modal.hidden {
+            opacity: 0;
+            transform: translate(-50%, -48%);
+            pointer-events: none;
+        }
+
+        .modal-content {
+            background: linear-gradient(135deg, #ffffff 0%, #f7fafc 100%);
+            border-radius: 16px;
+            width: 90vw;
+            max-width: 420px;
+            padding: 0;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+        }
+
+        .modal-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1a202c;
+            margin: 0;
+        }
+
+        .modal-close {
+            background: transparent;
+            border: none;
+            color: #718096;
+            cursor: pointer;
+            padding: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.2s ease;
+            border-radius: 8px;
+        }
+
+        .modal-close:hover {
+            color: #1a202c;
+            background: rgba(0, 0, 0, 0.05);
+        }
+
+        .modal-body {
+            padding: 14px 20px 20px 20px;
+        }
+
+        .modal-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px;
+            background: rgba(0, 0, 0, 0.02);
+            border-radius: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(0, 0, 0, 0.06);
+        }
+
+        .modal-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .modal-item:hover {
+            background: rgba(0, 0, 0, 0.04);
+            border-color: rgba(0, 0, 0, 0.1);
+            transform: translateX(4px);
+        }
+
+        .modal-item-icon {
+            width: 48px;
+            height: 48px;
+            background: rgba(0, 0, 0, 0.04);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .modal-item-content {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .modal-item-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a202c;
+            margin: 0 0 4px 0;
+        }
+
+        .modal-item-subtitle {
+            font-size: 13px;
+            color: #718096;
+            margin: 0;
+        }
+
+        .modal-item-arrow {
+            color: #a0aec0;
+            flex-shrink: 0;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .modal-item:hover .modal-item-arrow {
+            color: #4a5568;
+            transform: translateX(4px);
+        }
+
+        /* Custom grid for buttons with more space for Responsibilities */
+        .buttons-grid {
+            display: grid;
+            grid-template-columns: 0.85fr 1.7fr 0.85fr 0.85fr;
+            gap: 8px;
+            margin-bottom: 0;
+        }
+
+        /* Task Item Styles - UPDATED TO MATCH SKILLS STYLE */
+        .task-item {
+            padding: 14px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .task-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .task-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 8px;
+        }
+
+        .task-icon {
+            width: 42px;
+            height: 42px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .task-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .task-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a202c;
+            margin: 0 0 3px 0;
+        }
+
+        .task-description {
+            font-size: 12px;
+            color: rgba(26, 32, 44, 0.7);
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        /* Tool Card Styles - MATCHING SKILLS */
+        .tool-card {
+            padding: 14px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .tool-card:last-child {
+            margin-bottom: 0;
+        }
+
+        .tool-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .tool-icon {
+            width: 42px;
+            height: 42px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .tool-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .tool-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a202c;
+            margin: 0 0 3px 0;
+        }
+
+        .tool-details {
+            font-size: 12px;
+            color: rgba(26, 32, 44, 0.7);
+            margin: 0;
+        }
+
+        /* Skill Card Styles */
+        .skill-card {
+            padding: 14px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .skill-card:last-child {
+            margin-bottom: 0;
+        }
+
+        .skill-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .skill-icon {
+            width: 42px;
+            height: 42px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .skill-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .skill-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a202c;
+            margin: 0 0 3px 0;
+        }
+
+        .skill-details {
+            font-size: 12px;
+            color: rgba(26, 32, 44, 0.7);
+            margin: 0;
+        }
+    
+        /* New Employee Card Styles */
+        .card-container {
+            position: relative;
+            width: 100%;
+            height: 580px;
+            border-radius: 16px;
+            overflow: hidden;
+            background: linear-gradient(135deg, #428BF9 0%, #1976D2 100%);
+            box-shadow: 
+                0 4px 6px rgba(0, 0, 0, 0.07),
+                0 10px 20px rgba(66, 139, 249, 0.15),
+                0 1px 3px rgba(0, 0, 0, 0.06);
+            transform: perspective(1000px) rotateX(0deg);
+            transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        .card-container:hover {
+            transform: perspective(1000px) rotateX(2deg) translateY(-8px);
+            box-shadow: 
+                0 12px 24px rgba(0, 0, 0, 0.1),
+                0 20px 40px rgba(66, 139, 249, 0.2),
+                0 2px 6px rgba(0, 0, 0, 0.08);
+        }
+
+        .card-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 50%;
+            background: linear-gradient(
+                180deg,
+                rgba(255, 255, 255, 0.1) 0%,
+                rgba(255, 255, 255, 0.05) 30%,
+                transparent 100%
+            );
+            z-index: 3;
+            pointer-events: none;
+            border-radius: 16px 16px 0 0;
+            opacity: 0.6;
+        }
+
+        .top-badges {
+            position: absolute;
+            top: 24px;
+            left: 24px;
+            right: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 10;
+        }
+
+        .right-badges {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .live-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 18px;
+            background: rgba(244, 67, 54, 0.95);
+            backdrop-filter: blur(10px);
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-weight: 700;
+            font-size: 12px;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            line-height: 1.4;
+            box-shadow: 
+                0 2px 8px rgba(244, 67, 54, 0.3),
+                0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .live-badge:hover {
+            background: rgba(244, 67, 54, 1);
+            transform: translateY(-2px);
+            box-shadow: 
+                0 4px 12px rgba(244, 67, 54, 0.4),
+                0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .live-dot {
+            width: 8px;
+            height: 8px;
+            background: white;
+            border-radius: 50%;
+            animation: pulse-dot 2s infinite;
+        }
+
+        @keyframes pulse-dot {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+
+        .spectate-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 18px;
+            background: rgba(76, 175, 80, 0.95);
+            backdrop-filter: blur(10px);
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-weight: 600;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            line-height: 1.4;
+            box-shadow: 
+                0 2px 8px rgba(76, 175, 80, 0.3),
+                0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .spectate-btn:hover {
+            background: rgba(76, 175, 80, 1);
+            transform: translateY(-2px);
+            box-shadow: 
+                0 4px 12px rgba(76, 175, 80, 0.4),
+                0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .play-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            padding: 0;
+            background: rgba(244, 67, 54, 0.95);
+            backdrop-filter: blur(10px);
+            border: none;
+            border-radius: 50%;
+            color: white;
+            font-weight: 600;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 
+                0 2px 8px rgba(244, 67, 54, 0.3),
+                0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .play-btn:hover {
+            background: rgba(244, 67, 54, 1);
+            transform: translateY(-2px);
+            box-shadow: 
+                0 4px 12px rgba(244, 67, 54, 0.4),
+                0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .play-btn svg {
+            margin-left: 2px;
+        }
+
+        .gradient-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(180deg, 
+                rgba(0, 0, 0, 0.1) 0%, 
+                rgba(0, 0, 0, 0.05) 40%, 
+                rgba(0, 0, 0, 0.7) 100%
+            );
+            z-index: 1;
+        }
+
+        .background-section {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 340px;
+            background-size: cover;
+            background-position: center;
+            filter: brightness(0.9);
+        }
+
+
+
+        .info-section {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 28px 24px 24px;
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(20px);
+            border-radius: 16px 16px 16px 16px;
+            z-index: 2;
+        }
+
+        .profile-row {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+
+        .avatar {
+            width: 64px;
+            height: 64px;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 3px solid rgba(255, 255, 255, 0.9);
+            flex-shrink: 0;
+            box-shadow: 
+                0 1px 4px rgba(0, 0, 0, 0.04),
+                0 2px 6px rgba(66, 139, 249, 0.06);
+        }
+
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .employee-details {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .job-title {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 500;
+            color: #1a1a2e;
+            margin-bottom: 4px;
+            line-height: 1.2;
+        }
+
+        .name {
+            margin: 0;
+            font-size: 14px;
+            font-weight: 400;
+            color: #6b7280;
+            line-height: 1.5;
+        }
+
+        .price-section {
+            text-align: right;
+            flex-shrink: 0;
+        }
+
+        .price-badge {
+            display: flex;
+            align-items: baseline;
+            gap: 3px;
+            justify-content: flex-end;
+            margin-bottom: 6px;
+            
+        }
+
+        .currency {
+            font-size: 16px;
+            font-weight: 500;
+            color: #1a1a2e;
+            line-height: 1.2;
+        }
+
+        .amount {
+            font-size: 20px;
+            font-weight: 500;
+            color: #1a1a2e;
+            line-height: 1.2;
+        }
+
+        .employment-status {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 6px;
+            font-size: 12px;
+            font-weight: 400;
+            color: #6b7280;
+            padding-right: 4px;
+            line-height: 1.4;
+        }
+
+        .status-indicator {
+            width: 6px;
+            height: 6px;
+            background: #4CAF50;
+            border-radius: 50%;
+        }
+
+        .action-buttons {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .action-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 14px 20px;
+            background: rgba(107, 114, 128, 0.08);
+            border: 1.5px solid rgba(107, 114, 128, 0.1);
+            border-radius: 12px;
+            color: #374151;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+            line-height: 1.5;
+            box-shadow: 
+                0 1px 2px rgba(0, 0, 0, 0.02),
+                0 1px 3px rgba(0, 0, 0, 0.01);
+        }
+
+        .action-btn:hover {
+            background: rgba(107, 114, 128, 0.12);
+            border-color: rgba(107, 114, 128, 0.2);
+            transform: translateY(-3px);
+            box-shadow: 
+                0 4px 12px rgba(0, 0, 0, 0.05),
+                0 8px 20px rgba(0, 0, 0, 0.03);
+        }
+
+        .ai-btn {
+            background: rgba(126, 87, 194, 0.1);
+            border-color: rgba(126, 87, 194, 0.2);
+            color: #7E57C2;
+            box-shadow: 
+                0 1px 3px rgba(126, 87, 194, 0.08),
+                0 1px 2px rgba(0, 0, 0, 0.02);
+        }
+
+        .ai-btn:hover {
+            background: rgba(126, 87, 194, 0.15);
+            border-color: rgba(126, 87, 194, 0.3);
+            box-shadow: 
+                0 4px 12px rgba(126, 87, 194, 0.15),
+                0 8px 20px rgba(126, 87, 194, 0.08);
+        }
+
+        .action-btn:nth-child(2) {
+            background: rgba(0, 150, 136, 0.1);
+            border-color: rgba(0, 150, 136, 0.2);
+            color: #009688;
+            box-shadow: 
+                0 1px 3px rgba(0, 150, 136, 0.08),
+                0 1px 2px rgba(0, 0, 0, 0.02);
+        }
+
+        .action-btn:nth-child(2):hover {
+            background: rgba(0, 150, 136, 0.15);
+            border-color: rgba(0, 150, 136, 0.3);
+            box-shadow: 
+                0 4px 12px rgba(0, 150, 136, 0.15),
+                0 8px 20px rgba(0, 150, 136, 0.08);
+        }
+
+        .action-btn:nth-child(3) {
+            background: rgba(255, 109, 0, 0.1);
+            border-color: rgba(255, 109, 0, 0.2);
+            color: #FF6D00;
+            box-shadow: 
+                0 1px 3px rgba(255, 109, 0, 0.08),
+                0 1px 2px rgba(0, 0, 0, 0.02);
+        }
+
+        .action-btn:nth-child(3):hover {
+            background: rgba(255, 109, 0, 0.15);
+            border-color: rgba(255, 109, 0, 0.3);
+            box-shadow: 
+                0 4px 12px rgba(255, 109, 0, 0.15),
+                0 8px 20px rgba(255, 109, 0, 0.08);
+        }
+
+        .action-btn:nth-child(4) {
+            background: rgba(233, 30, 99, 0.1);
+            border-color: rgba(233, 30, 99, 0.2);
+            color: #E91E63;
+            box-shadow: 
+                0 1px 3px rgba(233, 30, 99, 0.08),
+                0 1px 2px rgba(0, 0, 0, 0.02);
+        }
+
+        .action-btn:nth-child(4):hover {
+            background: rgba(233, 30, 99, 0.15);
+            border-color: rgba(233, 30, 99, 0.3);
+            box-shadow: 
+                0 4px 12px rgba(233, 30, 99, 0.15),
+                0 8px 20px rgba(233, 30, 99, 0.08);
+        }
+
+        .action-btn svg {
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Enhanced Header with Better Navigation -->
+    <header class="py-4 bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm" style="border-top: 3px solid #4299e1;">
+        <div class="max-w-[1800px] mx-auto px-4 md:px-6 lg:px-8">
+            <div class="flex items-center justify-between">
+                <!-- Logo - Left -->
+                <div class="flex items-center">
+                    <img src="../Layer_1.png" alt="Remote Employees Logo" class="h-11 w-auto">
+                </div>
+
+                <!-- Centered Title -->
+                <div class="absolute left-1/2 transform -translate-x-1/2 hidden lg:block">
+                    <h1 class="text-3xl font-bold text-gray-900" style="letter-spacing: -0.02em;">
+                        Hire <span class="text-primary-gradient">live</span> professionals
+                    </h1>
+                </div>
+
+                <!-- Right Side Actions -->
+                <div class="flex items-center gap-3">
+                    <!-- Search Button -->
+                    <button class="header-icon-btn" aria-label="Search">
+                        <i data-lucide="search" class="h-5 w-5"></i>
+                    </button>
+
+                    <!-- Share Button -->
+                    <button class="header-icon-btn" aria-label="Share">
+                        <i data-lucide="share-2" class="h-5 w-5"></i>
+                    </button>
+
+                    <!-- Book a Call Button -->
+                    <button class="header-cta-btn">
+                        <span>Book a call</span>
+                        <i data-lucide="phone" class="h-4 w-4"></i>
+                    </button>
+
+                    <!-- Dark/Light Mode Toggle -->
+                    <button class="header-icon-btn" id="theme-toggle" aria-label="Toggle theme">
+                        <i data-lucide="sun" class="h-5 w-5"></i>
+                    </button>
+
+                    <!-- Mobile Menu -->
+                    <button id="mobile-menu-btn" class="header-icon-btn lg:hidden">
+                        <i data-lucide="menu" class="h-5 w-5"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile/Tablet Title -->
+            <div class="flex justify-center mt-3 lg:hidden">
+                <h1 class="text-2xl md:text-3xl font-bold text-gray-900" style="letter-spacing: -0.02em;">
+                    Hire <span class="text-primary-gradient">live</span> professionals
+                </h1>
+            </div>
+
+            <!-- Mobile Menu Dropdown -->
+            <div id="mobile-menu" class="hidden lg:hidden mt-4 pb-2">
+                <!-- Mobile menu content if needed -->
+            </div>
+        </div>
+    </header>
+
+    <!-- Category Filter -->
+    <section class="py-6 bg-gray-50 border-y border-gray-100">
+        <div class="px-4 md:px-6 lg:px-8 max-w-[1800px] mx-auto">
+            <div class="flex items-center justify-between gap-0.5">
+                <button class="category-btn category-btn-all active" data-category="all">All Categories</button>
+                <button class="category-btn category-btn-designers" data-category="designers">Designers</button>
+                <button class="category-btn category-btn-developers" data-category="developers">Developers</button>
+                <button class="category-btn category-btn-managers" data-category="managers">Managers</button>
+                <button class="category-btn category-btn-marketers" data-category="marketers">Marketers</button>
+                <button class="category-btn category-btn-teachers" data-category="teachers">Teachers</button>
+                <button class="category-btn category-btn-videographers" data-category="videographers">Videographers</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="pt-8 pb-16 px-4 md:px-6 lg:px-8">
+        <div class="max-w-[1800px] mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Employee Card -->
+                <div class="card-container">
+                    <!-- Live and Spectate badges -->
+                    <div class="top-badges">
+                        <button class="live-badge">
+                            <span class="live-dot"></span>
+                            LIVE
+                        </button>
+                        <div class="right-badges">
+                            <button class="spectate-btn">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M8 3C4.5 3 1.73 5.11 0 8c1.73 2.89 4.5 5 8 5s6.27-2.11 8-5c-1.73-2.89-4.5-5-8-5z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <circle cx="8" cy="8" r="2.5" fill="currentColor"/>
+                                    <circle cx="8" cy="8" r="1" fill="white"/>
+                                </svg>
+                                Spectate
+                            </button>
+                            <button class="play-btn">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <path d="M2 1L11 6L2 11V1Z" fill="white"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Background gradient overlay -->
+                    <div class="gradient-overlay"></div>
+
+                    <!-- Main background image area -->
+                    <div class="background-section" style="background-image: url('https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600&h=800&fit=crop');">
+                        
+                    </div>
+
+                    <!-- Employee info section -->
+                    <div class="info-section">
+                        <div class="profile-row">
+                            <div class="avatar">
+                                <img src="https://i.pravatar.cc/100?img=45" alt="Sofia R.">
+                            </div>
+                            <div class="employee-details">
+                                <h2 class="job-title">Product Designer</h2>
+                                <p class="name">Sofia R.</p>
+                            </div>
+                            <div class="price-section">
+                                <div class="price-badge">
+                                    <span class="currency">€</span>
+                                    <span class="amount">2,500</span>
+                                </div>
+                                <div class="employment-status">
+                                    <span class="status-indicator"></span>
+                                    Full time
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Action buttons -->
+                        <div class="action-buttons">
+                            <button class="action-btn ai-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <rect x="6" y="6" width="6" height="6" rx="1" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <path d="M9 6V3M9 15V12M6 9H3M15 9H12M6 6L4 4M12 6L14 4M6 12L4 14M12 12L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                                AI
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M6 4L2 9L6 14M12 4L16 9L12 14M11 2L7 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Responsibilities
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M9 2L9 16M2 9L16 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                    <circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                </svg>
+                                Tools
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M15 6L9 2L3 6V13L9 17L15 13V6Z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <path d="M9 2V9M3 6L9 9M15 6L9 9" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                                Skills
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Employee Card -->
+                <div class="card-container">
+                    <!-- Live and Spectate badges -->
+                    <div class="top-badges">
+                        <button class="live-badge">
+                            <span class="live-dot"></span>
+                            LIVE
+                        </button>
+                        <div class="right-badges">
+                            <button class="spectate-btn">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M8 3C4.5 3 1.73 5.11 0 8c1.73 2.89 4.5 5 8 5s6.27-2.11 8-5c-1.73-2.89-4.5-5-8-5z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <circle cx="8" cy="8" r="2.5" fill="currentColor"/>
+                                    <circle cx="8" cy="8" r="1" fill="white"/>
+                                </svg>
+                                Spectate
+                            </button>
+                            <button class="play-btn">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <path d="M2 1L11 6L2 11V1Z" fill="white"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Background gradient overlay -->
+                    <div class="gradient-overlay"></div>
+
+                    <!-- Main background image area -->
+                    <div class="background-section" style="background-image: url('https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&h=800&fit=crop');">
+                        
+                    </div>
+
+                    <!-- Employee info section -->
+                    <div class="info-section">
+                        <div class="profile-row">
+                            <div class="avatar">
+                                <img src="https://i.pravatar.cc/100?img=12" alt="Michael C.">
+                            </div>
+                            <div class="employee-details">
+                                <h2 class="job-title">Full-Stack Developer</h2>
+                                <p class="name">Michael C.</p>
+                            </div>
+                            <div class="price-section">
+                                <div class="price-badge">
+                                    <span class="currency">€</span>
+                                    <span class="amount">2,800</span>
+                                </div>
+                                <div class="employment-status">
+                                    <span class="status-indicator"></span>
+                                    Full time
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Action buttons -->
+                        <div class="action-buttons">
+                            <button class="action-btn ai-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <rect x="6" y="6" width="6" height="6" rx="1" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <path d="M9 6V3M9 15V12M6 9H3M15 9H12M6 6L4 4M12 6L14 4M6 12L4 14M12 12L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                                AI
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M6 4L2 9L6 14M12 4L16 9L12 14M11 2L7 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Responsibilities
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M9 2L9 16M2 9L16 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                    <circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                </svg>
+                                Tools
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M15 6L9 2L3 6V13L9 17L15 13V6Z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <path d="M9 2V9M3 6L9 9M15 6L9 9" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                                Skills
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Employee Card -->
+                <div class="card-container">
+                    <!-- Live and Spectate badges -->
+                    <div class="top-badges">
+                        <button class="live-badge">
+                            <span class="live-dot"></span>
+                            LIVE
+                        </button>
+                        <div class="right-badges">
+                            <button class="spectate-btn">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M8 3C4.5 3 1.73 5.11 0 8c1.73 2.89 4.5 5 8 5s6.27-2.11 8-5c-1.73-2.89-4.5-5-8-5z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <circle cx="8" cy="8" r="2.5" fill="currentColor"/>
+                                    <circle cx="8" cy="8" r="1" fill="white"/>
+                                </svg>
+                                Spectate
+                            </button>
+                            <button class="play-btn">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <path d="M2 1L11 6L2 11V1Z" fill="white"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Background gradient overlay -->
+                    <div class="gradient-overlay"></div>
+
+                    <!-- Main background image area -->
+                    <div class="background-section" style="background-image: url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=800&fit=crop');">
+                        
+                    </div>
+
+                    <!-- Employee info section -->
+                    <div class="info-section">
+                        <div class="profile-row">
+                            <div class="avatar">
+                                <img src="https://i.pravatar.cc/100?img=47" alt="Emma W.">
+                            </div>
+                            <div class="employee-details">
+                                <h2 class="job-title">Marketing Manager</h2>
+                                <p class="name">Emma W.</p>
+                            </div>
+                            <div class="price-section">
+                                <div class="price-badge">
+                                    <span class="currency">€</span>
+                                    <span class="amount">2,700</span>
+                                </div>
+                                <div class="employment-status">
+                                    <span class="status-indicator"></span>
+                                    Full time
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Action buttons -->
+                        <div class="action-buttons">
+                            <button class="action-btn ai-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <rect x="6" y="6" width="6" height="6" rx="1" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <path d="M9 6V3M9 15V12M6 9H3M15 9H12M6 6L4 4M12 6L14 4M6 12L4 14M12 12L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                                AI
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M6 4L2 9L6 14M12 4L16 9L12 14M11 2L7 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Responsibilities
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M9 2L9 16M2 9L16 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                    <circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                </svg>
+                                Tools
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M15 6L9 2L3 6V13L9 17L15 13V6Z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <path d="M9 2V9M3 6L9 9M15 6L9 9" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                                Skills
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Employee Card -->
+                <div class="card-container">
+                    <!-- Live and Spectate badges -->
+                    <div class="top-badges">
+                        <button class="live-badge">
+                            <span class="live-dot"></span>
+                            LIVE
+                        </button>
+                        <div class="right-badges">
+                            <button class="spectate-btn">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M8 3C4.5 3 1.73 5.11 0 8c1.73 2.89 4.5 5 8 5s6.27-2.11 8-5c-1.73-2.89-4.5-5-8-5z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <circle cx="8" cy="8" r="2.5" fill="currentColor"/>
+                                    <circle cx="8" cy="8" r="1" fill="white"/>
+                                </svg>
+                                Spectate
+                            </button>
+                            <button class="play-btn">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <path d="M2 1L11 6L2 11V1Z" fill="white"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Background gradient overlay -->
+                    <div class="gradient-overlay"></div>
+
+                    <!-- Main background image area -->
+                    <div class="background-section" style="background-image: url('https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&h=800&fit=crop');">
+                        
+                    </div>
+
+                    <!-- Employee info section -->
+                    <div class="info-section">
+                        <div class="profile-row">
+                            <div class="avatar">
+                                <img src="https://i.pravatar.cc/100?img=52" alt="James L.">
+                            </div>
+                            <div class="employee-details">
+                                <h2 class="job-title">Creative Director</h2>
+                                <p class="name">James L.</p>
+                            </div>
+                            <div class="price-section">
+                                <div class="price-badge">
+                                    <span class="currency">€</span>
+                                    <span class="amount">3,200</span>
+                                </div>
+                                <div class="employment-status">
+                                    <span class="status-indicator"></span>
+                                    Full time
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Action buttons -->
+                        <div class="action-buttons">
+                            <button class="action-btn ai-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <rect x="6" y="6" width="6" height="6" rx="1" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <path d="M9 6V3M9 15V12M6 9H3M15 9H12M6 6L4 4M12 6L14 4M6 12L4 14M12 12L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                                AI
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M6 4L2 9L6 14M12 4L16 9L12 14M11 2L7 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Responsibilities
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M9 2L9 16M2 9L16 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                    <circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                </svg>
+                                Tools
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M15 6L9 2L3 6V13L9 17L15 13V6Z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <path d="M9 2V9M3 6L9 9M15 6L9 9" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                                Skills
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Employee Card -->
+                <div class="card-container">
+                    <!-- Live and Spectate badges -->
+                    <div class="top-badges">
+                        <button class="live-badge">
+                            <span class="live-dot"></span>
+                            LIVE
+                        </button>
+                        <div class="right-badges">
+                            <button class="spectate-btn">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M8 3C4.5 3 1.73 5.11 0 8c1.73 2.89 4.5 5 8 5s6.27-2.11 8-5c-1.73-2.89-4.5-5-8-5z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <circle cx="8" cy="8" r="2.5" fill="currentColor"/>
+                                    <circle cx="8" cy="8" r="1" fill="white"/>
+                                </svg>
+                                Spectate
+                            </button>
+                            <button class="play-btn">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <path d="M2 1L11 6L2 11V1Z" fill="white"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Background gradient overlay -->
+                    <div class="gradient-overlay"></div>
+
+                    <!-- Main background image area -->
+                    <div class="background-section" style="background-image: url('https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&h=800&fit=crop');">
+                        
+                    </div>
+
+                    <!-- Employee info section -->
+                    <div class="info-section">
+                        <div class="profile-row">
+                            <div class="avatar">
+                                <img src="https://i.pravatar.cc/100?img=23" alt="Laura P.">
+                            </div>
+                            <div class="employee-details">
+                                <h2 class="job-title">Data Analyst</h2>
+                                <p class="name">Laura P.</p>
+                            </div>
+                            <div class="price-section">
+                                <div class="price-badge">
+                                    <span class="currency">€</span>
+                                    <span class="amount">2,600</span>
+                                </div>
+                                <div class="employment-status">
+                                    <span class="status-indicator"></span>
+                                    Full time
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Action buttons -->
+                        <div class="action-buttons">
+                            <button class="action-btn ai-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <rect x="6" y="6" width="6" height="6" rx="1" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <path d="M9 6V3M9 15V12M6 9H3M15 9H12M6 6L4 4M12 6L14 4M6 12L4 14M12 12L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                                AI
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M6 4L2 9L6 14M12 4L16 9L12 14M11 2L7 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Responsibilities
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M9 2L9 16M2 9L16 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                    <circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                </svg>
+                                Tools
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M15 6L9 2L3 6V13L9 17L15 13V6Z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <path d="M9 2V9M3 6L9 9M15 6L9 9" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                                Skills
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Employee Card -->
+                <div class="card-container">
+                    <!-- Live and Spectate badges -->
+                    <div class="top-badges">
+                        <button class="live-badge">
+                            <span class="live-dot"></span>
+                            LIVE
+                        </button>
+                        <div class="right-badges">
+                            <button class="spectate-btn">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M8 3C4.5 3 1.73 5.11 0 8c1.73 2.89 4.5 5 8 5s6.27-2.11 8-5c-1.73-2.89-4.5-5-8-5z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <circle cx="8" cy="8" r="2.5" fill="currentColor"/>
+                                    <circle cx="8" cy="8" r="1" fill="white"/>
+                                </svg>
+                                Spectate
+                            </button>
+                            <button class="play-btn">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <path d="M2 1L11 6L2 11V1Z" fill="white"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Background gradient overlay -->
+                    <div class="gradient-overlay"></div>
+
+                    <!-- Main background image area -->
+                    <div class="background-section" style="background-image: url('https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=600&h=800&fit=crop');">
+                        
+                    </div>
+
+                    <!-- Employee info section -->
+                    <div class="info-section">
+                        <div class="profile-row">
+                            <div class="avatar">
+                                <img src="https://i.pravatar.cc/100?img=33" alt="Alexes K.">
+                            </div>
+                            <div class="employee-details">
+                                <h2 class="job-title">Video Editor</h2>
+                                <p class="name">Alexes K.</p>
+                            </div>
+                            <div class="price-section">
+                                <div class="price-badge">
+                                    <span class="currency">€</span>
+                                    <span class="amount">2,400</span>
+                                </div>
+                                <div class="employment-status">
+                                    <span class="status-indicator"></span>
+                                    Full time
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Action buttons -->
+                        <div class="action-buttons">
+                            <button class="action-btn ai-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <rect x="6" y="6" width="6" height="6" rx="1" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <path d="M9 6V3M9 15V12M6 9H3M15 9H12M6 6L4 4M12 6L14 4M6 12L4 14M12 12L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                                AI
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M6 4L2 9L6 14M12 4L16 9L12 14M11 2L7 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Responsibilities
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M9 2L9 16M2 9L16 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                    <circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                </svg>
+                                Tools
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M15 6L9 2L3 6V13L9 17L15 13V6Z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <path d="M9 2V9M3 6L9 9M15 6L9 9" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                                Skills
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Employee Card -->
+                <div class="card-container">
+                    <!-- Live and Spectate badges -->
+                    <div class="top-badges">
+                        <button class="live-badge">
+                            <span class="live-dot"></span>
+                            LIVE
+                        </button>
+                        <div class="right-badges">
+                            <button class="spectate-btn">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M8 3C4.5 3 1.73 5.11 0 8c1.73 2.89 4.5 5 8 5s6.27-2.11 8-5c-1.73-2.89-4.5-5-8-5z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <circle cx="8" cy="8" r="2.5" fill="currentColor"/>
+                                    <circle cx="8" cy="8" r="1" fill="white"/>
+                                </svg>
+                                Spectate
+                            </button>
+                            <button class="play-btn">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <path d="M2 1L11 6L2 11V1Z" fill="white"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Background gradient overlay -->
+                    <div class="gradient-overlay"></div>
+
+                    <!-- Main background image area -->
+                    <div class="background-section" style="background-image: url('https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&h=800&fit=crop');">
+                        
+                    </div>
+
+                    <!-- Employee info section -->
+                    <div class="info-section">
+                        <div class="profile-row">
+                            <div class="avatar">
+                                <img src="https://i.pravatar.cc/100?img=16" alt="Maria G.">
+                            </div>
+                            <div class="employee-details">
+                                <h2 class="job-title">Content Writer</h2>
+                                <p class="name">Maria G.</p>
+                            </div>
+                            <div class="price-section">
+                                <div class="price-badge">
+                                    <span class="currency">€</span>
+                                    <span class="amount">2,300</span>
+                                </div>
+                                <div class="employment-status">
+                                    <span class="status-indicator"></span>
+                                    Full time
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Action buttons -->
+                        <div class="action-buttons">
+                            <button class="action-btn ai-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <rect x="6" y="6" width="6" height="6" rx="1" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <path d="M9 6V3M9 15V12M6 9H3M15 9H12M6 6L4 4M12 6L14 4M6 12L4 14M12 12L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                                AI
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M6 4L2 9L6 14M12 4L16 9L12 14M11 2L7 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Responsibilities
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M9 2L9 16M2 9L16 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                    <circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                </svg>
+                                Tools
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M15 6L9 2L3 6V13L9 17L15 13V6Z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <path d="M9 2V9M3 6L9 9M15 6L9 9" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                                Skills
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Employee Card -->
+                <div class="card-container">
+                    <!-- Live and Spectate badges -->
+                    <div class="top-badges">
+                        <button class="live-badge">
+                            <span class="live-dot"></span>
+                            LIVE
+                        </button>
+                        <div class="right-badges">
+                            <button class="spectate-btn">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M8 3C4.5 3 1.73 5.11 0 8c1.73 2.89 4.5 5 8 5s6.27-2.11 8-5c-1.73-2.89-4.5-5-8-5z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <circle cx="8" cy="8" r="2.5" fill="currentColor"/>
+                                    <circle cx="8" cy="8" r="1" fill="white"/>
+                                </svg>
+                                Spectate
+                            </button>
+                            <button class="play-btn">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <path d="M2 1L11 6L2 11V1Z" fill="white"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Background gradient overlay -->
+                    <div class="gradient-overlay"></div>
+
+                    <!-- Main background image area -->
+                    <div class="background-section" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=800&fit=crop');">
+                        
+                    </div>
+
+                    <!-- Employee info section -->
+                    <div class="info-section">
+                        <div class="profile-row">
+                            <div class="avatar">
+                                <img src="https://i.pravatar.cc/100?img=59" alt="Robert T.">
+                            </div>
+                            <div class="employee-details">
+                                <h2 class="job-title">DevOps Engineer</h2>
+                                <p class="name">Robert T.</p>
+                            </div>
+                            <div class="price-section">
+                                <div class="price-badge">
+                                    <span class="currency">€</span>
+                                    <span class="amount">3,000</span>
+                                </div>
+                                <div class="employment-status">
+                                    <span class="status-indicator"></span>
+                                    Full time
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Action buttons -->
+                        <div class="action-buttons">
+                            <button class="action-btn ai-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <rect x="6" y="6" width="6" height="6" rx="1" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <path d="M9 6V3M9 15V12M6 9H3M15 9H12M6 6L4 4M12 6L14 4M6 12L4 14M12 12L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                                AI
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M6 4L2 9L6 14M12 4L16 9L12 14M11 2L7 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Responsibilities
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M9 2L9 16M2 9L16 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                    <circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                </svg>
+                                Tools
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M15 6L9 2L3 6V13L9 17L15 13V6Z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <path d="M9 2V9M3 6L9 9M15 6L9 9" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                                Skills
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Employee Card -->
+                <div class="card-container">
+                    <!-- Live and Spectate badges -->
+                    <div class="top-badges">
+                        <button class="live-badge">
+                            <span class="live-dot"></span>
+                            LIVE
+                        </button>
+                        <div class="right-badges">
+                            <button class="spectate-btn">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M8 3C4.5 3 1.73 5.11 0 8c1.73 2.89 4.5 5 8 5s6.27-2.11 8-5c-1.73-2.89-4.5-5-8-5z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <circle cx="8" cy="8" r="2.5" fill="currentColor"/>
+                                    <circle cx="8" cy="8" r="1" fill="white"/>
+                                </svg>
+                                Spectate
+                            </button>
+                            <button class="play-btn">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <path d="M2 1L11 6L2 11V1Z" fill="white"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Background gradient overlay -->
+                    <div class="gradient-overlay"></div>
+
+                    <!-- Main background image area -->
+                    <div class="background-section" style="background-image: url('https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&h=800&fit=crop');">
+                        
+                    </div>
+
+                    <!-- Employee info section -->
+                    <div class="info-section">
+                        <div class="profile-row">
+                            <div class="avatar">
+                                <img src="https://i.pravatar.cc/100?img=29" alt="Sophie C.">
+                            </div>
+                            <div class="employee-details">
+                                <h2 class="job-title">Social Media Manager</h2>
+                                <p class="name">Sophie C.</p>
+                            </div>
+                            <div class="price-section">
+                                <div class="price-badge">
+                                    <span class="currency">€</span>
+                                    <span class="amount">2,450</span>
+                                </div>
+                                <div class="employment-status">
+                                    <span class="status-indicator"></span>
+                                    Full time
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Action buttons -->
+                        <div class="action-buttons">
+                            <button class="action-btn ai-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <rect x="6" y="6" width="6" height="6" rx="1" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <path d="M9 6V3M9 15V12M6 9H3M15 9H12M6 6L4 4M12 6L14 4M6 12L4 14M12 12L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                                AI
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M6 4L2 9L6 14M12 4L16 9L12 14M11 2L7 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Responsibilities
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M9 2L9 16M2 9L16 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                    <circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                </svg>
+                                Tools
+                            </button>
+                            <button class="action-btn liquid-glass-btn">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M15 6L9 2L3 6V13L9 17L15 13V6Z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                    <path d="M9 2V9M3 6L9 9M15 6L9 9" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                                Skills
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal Backdrop -->
+    <div id="modalBackdrop" class="modal-backdrop hidden"></div>
+
+    <!-- AI Tools Modal -->
+    <div id="aiModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">AI Tools</h2>
+                <button id="closeModal" class="modal-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="tool-card" style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(16, 185, 129, 0.05) 100%); border: 1px solid rgba(16, 185, 129, 0.2);">
+                    <div class="tool-header">
+                        <div class="tool-icon" style="background: #10B981;">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="ChatGPT" style="width: 32px; height: 32px;">
+                        </div>
+                        <div class="tool-info">
+                            <h3 class="tool-name">ChatGPT</h3>
+                            <p class="tool-details">AI conversation & code assistance</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tool-card" style="background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(168, 85, 247, 0.05) 100%); border: 1px solid rgba(168, 85, 247, 0.2);">
+                    <div class="tool-header">
+                        <div class="tool-icon" style="background: #a855f7;">
+                            <img src="https://images.seeklogo.com/logo-png/50/1/midjourney-logo-png_seeklogo-501203.png" alt="Midjourney" style="width: 32px; height: 32px; object-fit: contain; border-radius: 8px;">
+                        </div>
+                        <div class="tool-info">
+                            <h3 class="tool-name">Midjourney</h3>
+                            <p class="tool-details">AI image generation & design</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tasks Modal - UPDATED TO MATCH SKILLS STYLE -->
+    <div id="tasksModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Responsibilities</h2>
+                <button class="modal-close close-tasks-modal">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Task 1 - Blue gradient -->
+                <div class="task-item" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(59, 130, 246, 0.05) 100%); border: 1px solid rgba(59, 130, 246, 0.2);">
+                    <div class="task-header">
+                        <div class="task-icon" style="background: #3b82f6;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                <line x1="9" y1="9" x2="15" y2="9"/>
+                                <line x1="9" y1="13" x2="15" y2="13"/>
+                                <line x1="9" y1="17" x2="13" y2="17"/>
+                            </svg>
+                        </div>
+                        <div class="task-info">
+                            <h3 class="task-title">Build Landing Pages</h3>
+                            <p class="task-description">Create responsive and modern landing pages with animations and interactive elements</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Task 2 - Purple gradient -->
+                <div class="task-item" style="background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(168, 85, 247, 0.05) 100%); border: 1px solid rgba(168, 85, 247, 0.2);">
+                    <div class="task-header">
+                        <div class="task-icon" style="background: #a855f7;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"/>
+                            </svg>
+                        </div>
+                        <div class="task-info">
+                            <h3 class="task-title">Build Prototypes</h3>
+                            <p class="task-description">Develop interactive prototypes and wireframes for user testing and client presentations</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Task 3 - Pink gradient -->
+                <div class="task-item" style="background: linear-gradient(135deg, rgba(236, 72, 153, 0.1) 0%, rgba(236, 72, 153, 0.05) 100%); border: 1px solid rgba(236, 72, 153, 0.2);">
+                    <div class="task-header">
+                        <div class="task-icon" style="background: #ec4899;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"/>
+                                <circle cx="12" cy="8" r="1.5" fill="white"/>
+                                <circle cx="8.5" cy="13.5" r="1.5" fill="white"/>
+                                <circle cx="15.5" cy="13.5" r="1.5" fill="white"/>
+                                <path d="M12 16c-1.5 0-2.5 1-2.5 2.5h5c0-1.5-1-2.5-2.5-2.5z"/>
+                            </svg>
+                        </div>
+                        <div class="task-info">
+                            <h3 class="task-title">Create Logo Designs</h3>
+                            <p class="task-description">Design brand identities and logos that represent company values and vision</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tools Modal - MATCHING SKILLS STYLE -->
+    <div id="toolsModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Design Tools</h2>
+                <button class="modal-close close-tools-modal">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Photoshop - Dark Blue/Navy gradient -->
+                <div class="tool-card" style="background: linear-gradient(135deg, rgba(0, 30, 54, 0.15) 0%, rgba(0, 30, 54, 0.08) 100%); border: 1px solid rgba(0, 30, 54, 0.3);">
+                    <div class="tool-header">
+                        <div class="tool-icon" style="background: #001e36;">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" alt="Photoshop" style="width: 32px; height: 32px;">
+                        </div>
+                        <div class="tool-info">
+                            <h3 class="tool-name">Photoshop</h3>
+                            <p class="tool-details">Image editing & compositing</p>
+</div>
+</div>
+</div>
+<!-- Figma - Purple/Magenta gradient -->
+            <div class="tool-card" style="background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(168, 85, 247, 0.05) 100%); border: 1px solid rgba(168, 85, 247, 0.2);">
+                <div class="tool-header">
+                    <div class="tool-icon" style="background: #a855f7;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" style="width: 32px; height: 32px;">
+                    </div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Figma</h3>
+                        <p class="tool-details">UI/UX design & prototyping</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- After Effects - Deep Purple/Blue gradient -->
+            <div class="tool-card" style="background: linear-gradient(135deg, rgba(0, 0, 91, 0.15) 0%, rgba(0, 0, 91, 0.08) 100%); border: 1px solid rgba(0, 0, 91, 0.3);">
+                <div class="tool-header">
+                    <div class="tool-icon" style="background: #00005b;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Adobe_After_Effects_CC_icon.svg" alt="After Effects" style="width: 32px; height: 32px;">
+                    </div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">After Effects</h3>
+                        <p class="tool-details">Motion graphics & animation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Skills Modal -->
+<div id="skillsModal" class="modal hidden">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 class="modal-title">Technical Skills</h2>
+            <button class="modal-close close-skills-modal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+        <div class="modal-body">
+            <!-- JavaScript -->
+            <div class="skill-card" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(59, 130, 246, 0.05) 100%); border: 1px solid rgba(59, 130, 246, 0.2);">
+                <div class="skill-header">
+                    <div class="skill-icon" style="background: #3b82f6;">
+                        <span style="color: white; font-weight: 700; font-size: 18px;">JS</span>
+                    </div>
+                    <div class="skill-info">
+                        <h3 class="skill-name">JavaScript</h3>
+                        <p class="skill-details">ES6+, TypeScript</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- React -->
+            <div class="skill-card" style="background: linear-gradient(135deg, rgba(6, 182, 212, 0.1) 0%, rgba(6, 182, 212, 0.05) 100%); border: 1px solid rgba(6, 182, 212, 0.2);">
+                <div class="skill-header">
+                    <div class="skill-icon" style="background: #06b6d4;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <ellipse cx="12" cy="12" rx="10" ry="4"></ellipse>
+                            <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(60 12 12)"></ellipse>
+                            <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(120 12 12)"></ellipse>
+                        </svg>
+                    </div>
+                    <div class="skill-info">
+                        <h3 class="skill-name">React</h3>
+                        <p class="skill-details">Hooks, Context, Redux</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UI/UX Design -->
+            <div class="skill-card" style="background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(168, 85, 247, 0.05) 100%); border: 1px solid rgba(168, 85, 247, 0.2);">
+                <div class="skill-header">
+                    <div class="skill-icon" style="background: #a855f7;">
+                        <span style="color: white; font-weight: 700; font-size: 18px;">UI</span>
+                    </div>
+                    <div class="skill-info">
+                        <h3 class="skill-name">UI/UX Design</h3>
+                        <p class="skill-details">Wireframes, Prototypes</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- HTML/CSS -->
+            <div class="skill-card" style="background: linear-gradient(135deg, rgba(249, 115, 22, 0.1) 0%, rgba(249, 115, 22, 0.05) 100%); border: 1px solid rgba(249, 115, 22, 0.2);">
+                <div class="skill-header">
+                    <div class="skill-icon" style="background: #f97316;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                    </div>
+                    <div class="skill-info">
+                        <h3 class="skill-name">HTML/CSS</h3>
+                        <p class="skill-details">Responsive, Tailwind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Muted Sophisticated Footer -->
+<footer class="py-10 bg-gray-900 border-t border-gray-800">
+    <div class="max-w-[1800px] mx-auto px-4 md:px-6 lg:px-8">
+        <!-- Main Footer Content -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-12 mb-8">
+            
+            <!-- Brand Column - Spans 2 columns -->
+            <div class="lg:col-span-2">
+                <div class="flex items-center gap-3 mb-6">
+                    <img src="../Layer_1.png" alt="Remote Employees Logo" class="h-11 w-auto">
+                    <span class="text-lg font-bold tracking-tight text-gray-100">REMOTE EMPLOYEES</span>
+                </div>
+                <p class="text-sm text-gray-400 mb-8 max-w-xs font-light leading-relaxed">
+                    Connecting exceptional remote talent with forward-thinking companies. Building the future of work, one connection at a time.
+                </p>
+                
+                <!-- Newsletter -->
+                <div class="mb-8">
+                    <h4 class="text-sm font-medium mb-3 text-gray-300">Stay Updated</h4>
+                    <div class="flex gap-3">
+                        <input 
+                            type="email" 
+                            placeholder="Enter your email" 
+                            class="form-input form-input-medium flex-1"
+                        />
+                        <button class="btn btn-primary btn-medium">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Social Links -->
+                <div class="flex items-center gap-3">
+                    <a href="#" class="w-10 h-10 bg-gray-800 border border-gray-700 rounded-lg flex items-center justify-center hover:bg-gray-700 hover:border-gray-600 smooth-transition">
+                        <i data-lucide="twitter" class="h-4 w-4 text-gray-400"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 bg-gray-800 border border-gray-700 rounded-lg flex items-center justify-center hover:bg-gray-700 hover:border-gray-600 smooth-transition">
+                        <i data-lucide="linkedin" class="h-4 w-4 text-gray-400"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 bg-gray-800 border border-gray-700 rounded-lg flex items-center justify-center hover:bg-gray-700 hover:border-gray-600 smooth-transition">
+                        <i data-lucide="github" class="h-4 w-4 text-gray-400"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 bg-gray-800 border border-gray-700 rounded-lg flex items-center justify-center hover:bg-gray-700 hover:border-gray-600 smooth-transition">
+                        <i data-lucide="instagram" class="h-4 w-4 text-gray-400"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Platform Column -->
+            <div>
+                <h3 class="text-sm font-medium mb-6 text-gray-300">Platform</h3>
+                <ul class="space-y-3">
+                    <li><a href="#" class="text-sm text-gray-400 hover:text-gray-200 smooth-transition">Browse Talent</a></li>
+                    <li><a href="#" class="text-sm text-gray-400 hover:text-gray-200 smooth-transition">How It Works</a></li>
+                    <li><a href="#" class="text-sm text-gray-400 hover:text-gray-200 smooth-transition">Pricing Plans</a></li>
+                    <li><a href="#" class="text-sm text-gray-400 hover:text-gray-200 smooth-transition">Enterprise</a></li>
+                    <li><a href="#" class="text-sm text-gray-400 hover:text-gray-200 smooth-transition">Success Stories</a></li>
+                </ul>
+            </div>
+
+            <!-- Resources Column -->
+            <div>
+                <h3 class="text-sm font-medium mb-6 text-gray-300">Resources</h3>
+                <ul class="space-y-3">
+                    <li><a href="#" class="text-sm text-gray-400 hover:text-gray-200 smooth-transition">Blog</a></li>
+                    <li><a href="#" class="text-sm text-gray-400 hover:text-gray-200 smooth-transition">Help Center</a></li>
+                    <li><a href="#" class="text-sm text-gray-400 hover:text-gray-200 smooth-transition">Guides</a></li>
+                    <li><a href="#" class="text-sm text-gray-400 hover:text-gray-200 smooth-transition">Webinars</a></li>
+                    <li><a href="#" class="text-sm text-gray-400 hover:text-gray-200 smooth-transition">Community</a></li>
+                </ul>
+            </div>
+
+            <!-- Company Column -->
+            <div>
+                <h3 class="text-sm font-medium mb-6 text-gray-300">Company</h3>
+                <ul class="space-y-3">
+                    <li><a href="#" class="text-sm text-gray-400 hover:text-gray-200 smooth-transition">About Us</a></li>
+                    <li><a href="#" class="text-sm text-gray-400 hover:text-gray-200 smooth-transition">Careers</a></li>
+                    <li><a href="#" class="text-sm text-gray-400 hover:text-gray-200 smooth-transition">Press Kit</a></li>
+                    <li><a href="#" class="text-sm text-gray-400 hover:text-gray-200 smooth-transition">Contact</a></li>
+                    <li><a href="#" class="text-sm text-gray-400 hover:text-gray-200 smooth-transition">Partners</a></li>
+                </ul>
+            </div>
+
+            <!-- Legal Column -->
+            <div>
+                <h3 class="text-sm font-medium mb-6 text-gray-300">Legal</h3>
+                <ul class="space-y-3">
+                    <li><a href="#" class="text-sm text-gray-400 hover:text-gray-200 smooth-transition">Privacy Policy</a></li>
+                    <li><a href="#" class="text-sm text-gray-400 hover:text-gray-200 smooth-transition">Terms of Service</a></li>
+                    <li><a href="#" class="text-sm text-gray-400 hover:text-gray-200 smooth-transition">Cookie Policy</a></li>
+                    <li><a href="#" class="text-sm text-gray-400 hover:text-gray-200 smooth-transition">GDPR</a></li>
+                    <li><a href="#" class="text-sm text-gray-400 hover:text-gray-200 smooth-transition">Licenses</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="pt-6 border-t border-gray-800">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                <div class="text-xs text-gray-500">
+                    © 2025 Remote Employees. All rights reserved.
+                </div>
+                <div class="flex items-center gap-8">
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="shield-check" class="h-4 w-4 text-gray-500"></i>
+                        <span class="text-xs text-gray-500">SSL Secured</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="award" class="h-4 w-4 text-gray-500"></i>
+                        <span class="text-xs text-gra-500">ISO Certified</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+
+    // Category filter functionality
+    const categoryBtns = document.querySelectorAll('.category-btn');
+    categoryBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            categoryBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
+
+    // Mobile menu toggle
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    if (mobileMenuBtn && mobileMenu) {
+        mobileMenuBtn.addEventListener('click', function() {
+            mobileMenu.classList.toggle('hidden');
+        });
+    }
+
+    // Modal functionality
+    const aiButtons = document.querySelectorAll('.liquid-glass-btn');
+    const aiModal = document.getElementById('aiModal');
+    const tasksModal = document.getElementById('tasksModal');
+    const toolsModal = document.getElementById('toolsModal');
+    const skillsModal = document.getElementById('skillsModal');
+    const modalBackdrop = document.getElementById('modalBackdrop');
+    const closeModalBtn = document.getElementById('closeModal');
+    const closeTasksModalBtn = document.querySelector('.close-tasks-modal');
+    const closeToolsModalBtn = document.querySelector('.close-tools-modal');
+    const closeSkillsModalBtn = document.querySelector('.close-skills-modal');
+
+    // Open AI modal when AI button is clicked
+    aiButtons.forEach(button => {
+        if (button.textContent.trim() === 'AI') {
+            button.addEventListener('click', function() {
+                aiModal.classList.remove('hidden');
+                modalBackdrop.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            });
+        }
+    });
+
+    // Open Tasks modal when Responsibilities button is clicked
+    aiButtons.forEach(button => {
+        if (button.textContent.trim() === 'Responsibilities') {
+            button.addEventListener('click', function() {
+                tasksModal.classList.remove('hidden');
+                modalBackdrop.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            });
+        }
+    });
+
+    // Open Tools modal when Tools button is clicked
+    aiButtons.forEach(button => {
+        if (button.textContent.trim() === 'Tools') {
+            button.addEventListener('click', function() {
+                toolsModal.classList.remove('hidden');
+                modalBackdrop.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            });
+        }
+    });
+
+    // Open Skills modal when Skills button is clicked
+    aiButtons.forEach(button => {
+        if (button.textContent.trim() === 'Skills') {
+            button.addEventListener('click', function() {
+                skillsModal.classList.remove('hidden');
+                modalBackdrop.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            });
+        }
+    });
+
+    // Close AI modal when close button is clicked
+    closeModalBtn.addEventListener('click', function() {
+        aiModal.classList.add('hidden');
+        modalBackdrop.classList.add('hidden');
+        document.body.style.overflow = '';
+    });
+
+    // Close Tasks modal when close button is clicked
+    closeTasksModalBtn.addEventListener('click', function() {
+        tasksModal.classList.add('hidden');
+        modalBackdrop.classList.add('hidden');
+        document.body.style.overflow = '';
+    });
+
+    // Close Tools modal when close button is clicked
+    closeToolsModalBtn.addEventListener('click', function() {
+        toolsModal.classList.add('hidden');
+        modalBackdrop.classList.add('hidden');
+        document.body.style.overflow = '';
+    });
+
+    // Close Skills modal when close button is clicked
+    closeSkillsModalBtn.addEventListener('click', function() {
+        skillsModal.classList.add('hidden');
+        modalBackdrop.classList.add('hidden');
+        document.body.style.overflow = '';
+    });
+
+    // Close modal when backdrop is clicked
+    modalBackdrop.addEventListener('click', function() {
+        aiModal.classList.add('hidden');
+        tasksModal.classList.add('hidden');
+        toolsModal.classList.add('hidden');
+        skillsModal.classList.add('hidden');
+        modalBackdrop.classList.add('hidden');
+        document.body.style.overflow = '';
+    });
+
+    // Close modal when Escape key is pressed
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            if (!aiModal.classList.contains('hidden') || !tasksModal.classList.contains('hidden') || !toolsModal.classList.contains('hidden') || !skillsModal.classList.contains('hidden')) {
+                aiModal.classList.add('hidden');
+                tasksModal.classList.add('hidden');
+                toolsModal.classList.add('hidden');
+                skillsModal.classList.add('hidden');
+                modalBackdrop.classList.add('hidden');
+                document.body.style.overflow = '';
+            }
+        }
+    });
+
+    // Theme toggle functionality
+    const themeToggle = document.getElementById('theme-toggle');
+    let isDark = localStorage.getItem('darkMode') === 'true';
+    
+    // Apply saved theme on load
+    if (isDark) {
+        document.body.classList.add('dark-mode');
+        if (themeToggle) {
+            const icon = themeToggle.querySelector('i');
+            icon.setAttribute('data-lucide', 'moon');
+            lucide.createIcons();
+        }
+    }
+    
+    if (themeToggle) {
+        themeToggle.addEventListener('click', function() {
+            isDark = !isDark;
+            const icon = this.querySelector('i');
+            
+            if (isDark) {
+                document.body.classList.add('dark-mode');
+                icon.setAttribute('data-lucide', 'moon');
+                localStorage.setItem('darkMode', 'true');
+            } else {
+                document.body.classList.remove('dark-mode');
+                icon.setAttribute('data-lucide', 'sun');
+                localStorage.setItem('darkMode', 'false');
+            }
+            
+            lucide.createIcons();
+        });
+    }
+</script>
+</body>
+</html>
