@@ -1,5 +1,245 @@
 # Changelog - 2025-11-10
 
+**Sync Date:** 2025-11-10 10:34:55 UTC
+**Total Changes:** 66 files
+
+## Summary
+
+- **Added:** 37 files
+- **Modified:** 6 files
+- **Deleted:** 23 files
+
+## Changes by Department
+
+### "Design
+
+**Total changes:** 3 files
+
+#### Shymkevych Iryna
+
+**Deleted (3 files):**
+- `employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07).html"`
+- `daily (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-06).md"`
+- `employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07 1).html"`
+
+
+### "Video
+
+**Total changes:** 20 files
+
+#### Azanova Dar\312\274ya
+
+**Deleted (20 files):**
+- `task.md"`
+- `task.md"`
+- `daily.md"`
+- `plans.md"`
+- `daily.md"`
+- `plans.md"`
+- `README.md"`
+- `daily.md"`
+- `plans.md"`
+- `plans.md"`
+- `task.md"`
+- `task.md"`
+- `task.md"`
+- `plans.md"`
+- `plans.md"`
+- `daily.md"`
+- `daily.md"`
+- `daily.md"`
+- `task.md"`
+- `Profile Video Editor Azanova Dar\312\274ya.md"`
+
+
+### AI
+
+**Total changes:** 7 files
+
+#### Niko AI
+
+**Added (7 files):**
+- `convert_to_json_clusters.cpython-313.pyc` → `ExportCRMS/scripts/__pycache__/convert_to_json_clusters.cpython-313.pyc` (5.32 KB, modified: 2025-11-07T13:49:16, by: Dropbox User)
+- `split_candidates_clusters.cpython-313.pyc` → `ExportCRMS/scripts/__pycache__/split_candidates_clusters.cpython-313.pyc` (5.09 KB, modified: 2025-11-07T13:49:45, by: Dropbox User)
+- `Employees.json` → `ExportCRMS/Employees.json` (12181.35 KB, modified: 2025-11-10T09:16:02, by: Dropbox User)
+- `Employee_Unit_Template.json` → `Employees/Employee_Unit_Template.json` (10.88 KB, modified: 2025-11-10T09:44:55, by: Dropbox User)
+- `Cleaning_Prompt.md` → `Employees/Cleaning_Prompt.md` (15.13 KB, modified: 2025-11-10T09:46:31, by: Dropbox User)
+- `Fields_To_Remove.json` → `Employees/Fields_To_Remove.json` (14.14 KB, modified: 2025-11-10T09:47:49, by: Dropbox User)
+- `Cleaning_Script_Instructions.md` → `Employees/Cleaning_Script_Instructions.md` (17.72 KB, modified: 2025-11-10T09:49:34, by: Dropbox User)
+
+
+### Design
+
+**Total changes:** 5 files
+
+#### Bogun Polina
+
+**Modified (3 files):**
+- `daily.md` → `07/daily.md` (5.88 KB, rev: 016433a6..., modified: 2025-11-10T09:48:10, by: Dropbox User)
+- `plans.md` → `07/plans.md` (2.96 KB, rev: 016433a6..., modified: 2025-11-10T09:48:39, by: Dropbox User)
+- `task.md` → `07/task.md` (9.13 KB, rev: 016433a7..., modified: 2025-11-10T09:49:47, by: Dropbox User)
+
+#### Shymkevych Iryna
+
+**Added (2 files):**
+- `daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md` → `06/daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md` (13.51 KB, modified: 2025-11-06T16:13:37, by: Dropbox User)
+- `employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html` → `05/employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html` (24.40 KB, modified: 2025-11-07T14:02:58, by: Dropbox User)
+
+
+### Dev
+
+**Total changes:** 6 files
+
+#### Danylenko Liliia
+
+**Added (1 files):**
+- `daily.md` → `10/daily.md` (1.54 KB, modified: 2025-11-10T10:16:52, by: Dropbox User)
+
+**Modified (2 files):**
+- `plans.md` → `07/plans.md` (708 bytes, rev: 01642e9e..., modified: 2025-11-03T15:31:57, by: Dropbox User)
+- `task.md` → `07/task.md` (1.06 KB, rev: 01642e9e..., modified: 2025-11-03T15:31:57, by: Dropbox User)
+
+#### Klimenko Yaroslav
+
+**Added (3 files):**
+- `task.md` → `11/task.md` (0 bytes, modified: 2025-11-10T10:14:27, by: Dropbox User)
+- `plans.md` → `11/plans.md` (0 bytes, modified: 2025-11-10T10:14:29, by: Dropbox User)
+- `daily.md` → `11/daily.md` (0 bytes, modified: 2025-11-10T10:14:31, by: Dropbox User)
+
+
+### LG
+
+**Total changes:** 5 files
+
+#### Cynthia Uzoh
+
+**Added (1 files):**
+- `daily.md` → `10/daily.md` (0 bytes, modified: 2025-11-07T10:21:07, by: Dropbox User)
+
+#### Shkinder Kseniia
+
+**Added (3 files):**
+- `task.md` → `11/task.md` (0 bytes, modified: 2025-11-10T09:58:19, by: Dropbox User)
+- `plans.md` → `11/plans.md` (0 bytes, modified: 2025-11-10T09:58:20, by: Dropbox User)
+- `daily.md` → `11/daily.md` (0 bytes, modified: 2025-11-10T09:58:22, by: Dropbox User)
+
+**Modified (1 files):**
+- `task.md` → `10/task.md` (3.73 KB, rev: 01643399..., modified: 2025-11-10T08:48:31, by: Dropbox User)
+
+
+### Video
+
+**Total changes:** 20 files
+
+#### Azanova Darʼya
+
+**Added (20 files):**
+- `daily.md` → `03/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `03/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `03/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `04/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `04/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `daily.md` → `04/daily.md` (11.84 KB, modified: 2025-11-04T18:15:17, by: Dropbox User)
+- `daily.md` → `05/daily.md` (59.02 KB, modified: 2025-11-05T18:00:45, by: Dropbox User)
+- `plans.md` → `05/plans.md` (4.01 KB, modified: 2025-11-05T18:01:19, by: Dropbox User)
+- `task.md` → `05/task.md` (14.98 KB, modified: 2025-11-05T18:02:50, by: Dropbox User)
+- `daily.md` → `06/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `06/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `06/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `daily.md` → `07/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `07/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `07/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `README.md` (1.58 KB, modified: 2025-10-23T15:13:48, by: Dropbox User)
+- `task.md` → `08/task.md` (0 bytes, modified: 2025-11-07T10:38:46, by: Dropbox User)
+- `plans.md` → `08/plans.md` (0 bytes, modified: 2025-11-07T10:38:46, by: Dropbox User)
+- `daily.md` → `08/daily.md` (0 bytes, modified: 2025-11-07T10:38:47, by: Dropbox User)
+- `Profile Video Editor Azanova Darʼya.md` (1.36 KB, modified: 2025-11-07T10:02:41, by: Dropbox User)
+
+
+## All Changes
+
+### Added Files
+
+- `Design/Shymkevych Iryna/06/daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md`
+- `Video/Azanova Darʼya/03/daily.md`
+- `Video/Azanova Darʼya/03/plans.md`
+- `Video/Azanova Darʼya/03/task.md`
+- `Video/Azanova Darʼya/04/plans.md`
+- `Video/Azanova Darʼya/04/task.md`
+- `Video/Azanova Darʼya/04/daily.md`
+- `Video/Azanova Darʼya/05/daily.md`
+- `Video/Azanova Darʼya/05/plans.md`
+- `Video/Azanova Darʼya/05/task.md`
+- `Video/Azanova Darʼya/06/daily.md`
+- `Video/Azanova Darʼya/06/plans.md`
+- `Video/Azanova Darʼya/06/task.md`
+- `Video/Azanova Darʼya/07/daily.md`
+- `Video/Azanova Darʼya/07/plans.md`
+- `Video/Azanova Darʼya/07/task.md`
+- `Video/Azanova Darʼya/README.md`
+- `Video/Azanova Darʼya/08/task.md`
+- `Video/Azanova Darʼya/08/plans.md`
+- `Video/Azanova Darʼya/08/daily.md`
+- `Video/Azanova Darʼya/Profile Video Editor Azanova Darʼya.md`
+- `Design/Shymkevych Iryna/05/employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html`
+- `AI/Niko AI/ExportCRMS/scripts/__pycache__/convert_to_json_clusters.cpython-313.pyc`
+- `AI/Niko AI/ExportCRMS/scripts/__pycache__/split_candidates_clusters.cpython-313.pyc`
+- `LG/Shkinder Kseniia/11/task.md`
+- `LG/Shkinder Kseniia/11/plans.md`
+- `LG/Shkinder Kseniia/11/daily.md`
+- `LG/Cynthia Uzoh/10/daily.md`
+- `Dev/Klimenko Yaroslav/11/task.md`
+- `Dev/Klimenko Yaroslav/11/plans.md`
+- `Dev/Klimenko Yaroslav/11/daily.md`
+- `Dev/Danylenko Liliia/10/daily.md`
+- `AI/Niko AI/ExportCRMS/Employees.json`
+- `AI/Niko AI/Employees/Employee_Unit_Template.json`
+- `AI/Niko AI/Employees/Cleaning_Prompt.md`
+- `AI/Niko AI/Employees/Fields_To_Remove.json`
+- `AI/Niko AI/Employees/Cleaning_Script_Instructions.md`
+
+### Modified Files
+
+- `Design/Bogun Polina/07/daily.md`
+- `Design/Bogun Polina/07/plans.md`
+- `Design/Bogun Polina/07/task.md`
+- `LG/Shkinder Kseniia/10/task.md`
+- `Dev/Danylenko Liliia/07/plans.md`
+- `Dev/Danylenko Liliia/07/task.md`
+
+### Deleted Files
+
+- `"Video/Azanova Dar\312\274ya/06/task.md"`
+- `"Video/Azanova Dar\312\274ya/08/task.md"`
+- `"Video/Azanova Dar\312\274ya/07/daily.md"`
+- `"Video/Azanova Dar\312\274ya/08/plans.md"`
+- `"Video/Azanova Dar\312\274ya/08/daily.md"`
+- `"Video/Azanova Dar\312\274ya/06/plans.md"`
+- `"Video/Azanova Dar\312\274ya/README.md"`
+- `"Design/Shymkevych Iryna/05/employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07).html"`
+- `"Video/Azanova Dar\312\274ya/04/daily.md"`
+- `"Design/Shymkevych Iryna/06/daily (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-06).md"`
+- `"Video/Azanova Dar\312\274ya/03/plans.md"`
+- `"Design/Shymkevych Iryna/05/employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07 1).html"`
+- `"Video/Azanova Dar\312\274ya/05/plans.md"`
+- `"Video/Azanova Dar\312\274ya/05/task.md"`
+- `"Video/Azanova Dar\312\274ya/03/task.md"`
+- `"Video/Azanova Dar\312\274ya/07/task.md"`
+- `"Video/Azanova Dar\312\274ya/07/plans.md"`
+- `"Video/Azanova Dar\312\274ya/04/plans.md"`
+- `"Video/Azanova Dar\312\274ya/06/daily.md"`
+- `"Video/Azanova Dar\312\274ya/03/daily.md"`
+- `"Video/Azanova Dar\312\274ya/05/daily.md"`
+- `"Video/Azanova Dar\312\274ya/04/task.md"`
+- `"Video/Azanova Dar\312\274ya/Profile Video Editor Azanova Dar\312\274ya.md"`
+
+
+---
+*Generated automatically by Dropbox to GitHub sync*
+
+
+# Changelog - 2025-11-10
+
 **Sync Date:** 2025-11-10 08:38:59 UTC
 **Total Changes:** 54 files
 

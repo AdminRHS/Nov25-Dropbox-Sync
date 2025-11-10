@@ -19,11 +19,13 @@
 
 **Whisper Flow Transcript:**
 
-[Я закончила редизайн чертырех обложек, с помошью ChatGPT. После этого добавила их в папку с остальными квадратными обложками. во время этой работы я поговорила с team leads поповоду того же о чем мы вчера разговаривали, о том кто будет делать сайт и что еще я должна сделать на том проекте. Также уточнила что мне делать после того как я закнчю с обложками. Мне сказали чтобы я попробывала каким то образом увеличить обложки до нужных размеров.]
-
+I finished redesigning four covers with the help of ChatGPT. After that, I added them to the folder with the rest of the square covers. During this work, I talked with team leads about the same thing we discussed yesterday - about who will be making the website and what else I need to do on that project. I also clarified what I should do after I finish with the covers. They told me to try to somehow enlarge the covers to the required dimensions.
 
 **Outcomes:**
--
+- Completed redesign of 4 course covers using ChatGPT
+- Added redesigned covers to the square covers folder
+- Clarified next steps with team leads: need to enlarge covers to required dimensions
+- Confirmed ongoing discussion about website development responsibilities
 
 ---
 
@@ -33,11 +35,13 @@
 
 **Whisper Flow Transcript:**
 
-[ Я попробывала найти где я могу увеличить размер обложек, а точнее расширить их. Так как у меня нету подписки на фотошоп с фаерфлай, поэтому я решила поискать нету ли гдето пробной версии или какой то альтернативы. По итогу нашла веб версию фаерфлай и смогла изменить около 7 картинок с одного аккаунта, после этого бесплатные промпты закончились и я решила использовать другой аккаунт для того что бы продолжить работу, и так в конце концов у меня получилось изменить около 14 обложек. После чего я написала Тимлиду о том что это максимум что я могу сделать без подписки. Спустя пару минут мне дали задание в котором я должна буду найти tools or AI в котором можно будет это делать, и также нужно паралельно заполнить таблицу для этого, в таблице должно быть название, ссылка на сайт, инструкция как это делать с помощью этого tools or AI, описания, плюсы и минусы, а также платно или бесплатно ]
-
+I tried to find where I can increase the size of the covers, or more precisely, extend them. Since I don't have a Photoshop subscription with Firefly, I decided to search if there's a trial version or some alternative somewhere. Eventually I found a web version of Firefly and was able to modify about 7 images from one account. After that, the free prompts ran out and I decided to use another account to continue the work. In the end, I managed to change about 14 covers. After that, I wrote to the Team Lead that this is the maximum I can do without a subscription. A few minutes later, I was given a task where I need to find tools or AI that can do this, and I also need to fill out a table in parallel. The table should include: name, website link, instructions on how to do it with this tool or AI, description, pros and cons, and whether it's paid or free.
 
 **Outcomes:**
--
+- Found web version of Adobe Firefly as alternative to paid subscription
+- Successfully extended 14 covers using multiple free accounts
+- Communicated subscription limitations to Team Lead
+- Received new task: research AI tools for image extension and fill out comparison table with: name, link, instructions, description, pros/cons, pricing
 
 ### [11:50 - 13:00] - [Find methods of changing image size deliberately using AI]
 **What I worked on:**
@@ -45,20 +49,16 @@
 
 **Whisper Flow Transcript:**
 
-[я получила вот такое задание In some cases we need to change size of an existing picture (photo, drawing, etc). We may have specific requirements. For example, changing square pictures to exactly 1280*720 by extending that existing picture canvas to the left and filling the rest with plain background. In the future we may have versatile demands to size and contents of the filling of edited images.
+I received this task: "In some cases we need to change size of an existing picture (photo, drawing, etc). We may have specific requirements. For example, changing square pictures to exactly 1280*720 by extending that existing picture canvas to the left and filling the rest with plain background. In the future we may have versatile demands to size and contents of the filling of edited images. Currently we're only aware that it can be done in Adobe Photoshop (extend canvas to the left) with generative filling the extended area (via Adobe Firefly). Find a few AI services, or any methods of using non-AI tools with AI additions/components for that purpose. Fill up this tab of the AI research spreadsheet. First test methods that require AIs that we have subscriptions. Review other methods too."
 
-Currently we’re only aware that it can be done in Adobe Photoshop (extend canvas to the left) with generative filling the extended area (via Adobe Firefly). 
-
-Find a few AI servises, or any methods of using non-AI tools with AI additions/components for that purpose. 
-
-Fill up this tab of the AI research spreadsheet 
-First test methods that require AIs that we have subscriptions
-
-Review other methods too.    я решила начать с того что дала ChatGPT промпт на то чтобы он сделал дип рисерч о том какие ии для этого существуют, он выдал мне три которые мы и так уже используем Фаерфлай канва и еще чтото, после чего я попросила его сделать еще раз только уже найти другие ии и также что бы он сразу расписал мне информацию о них чтобы я могла сразу вставить это в таблицу. Я протестировала одно из них это был Pixelcut с помощью него я изменила еще около пяти обложек. Добавила их в нужную папку а также заполнила таблицу]
-
+I decided to start by giving ChatGPT a prompt to do deep research on what AI tools exist for this purpose. It gave me three that we already use - Firefly, Canva, and something else. After that, I asked it to do it again but to find other AI tools and also to write out the information about them right away so I could immediately paste it into the table. I tested one of them - Pixelcut - and with it I modified about 5 more covers. I added them to the appropriate folder and also filled out the table.
 
 **Outcomes:**
--
+- Conducted AI tools research using ChatGPT for deep research
+- Discovered and tested Pixelcut as new tool for image extension
+- Successfully modified 5 additional covers using Pixelcut
+- Completed AI research spreadsheet with tool comparisons (name, link, instructions, pros/cons, pricing)
+- Added modified covers to appropriate folder
 
 ---
 ### [14:00 - 18:00] - [Data Mining]
@@ -69,15 +69,22 @@ Review other methods too.    я решила начать с того что д�
 
 **Whisper Flow Transcript:**
 
-[я начала икать картинки для вебсайта,но так как мне не всегда удавалось найти то что мне нужно то я решила сгенерировать мне нужные картинки с помощью ии. И так я попросила ChatGPT написать мне более детальные промпты и адаптировать их под MidJourney, после этого пошла их там генерировать, процесс очень долгий но пока получается с первого раза и не нужно тратить время на перегенерацию. Мне еще сегодня написала Алина, она уже рабртает с Ариелем полгода вроде и у них должен был быть созвон и она спросила как у меня дела с сайтом и как идет работа на каком я этапе. я ей все рассказала и все]
-
+I started searching for images for the website, but since I wasn't always able to find what I needed, I decided to generate the images I needed using AI. So I asked ChatGPT to write more detailed prompts for me and adapt them for MidJourney. After that, I went to generate them there. The process is very long, but so far it's working on the first try and I don't need to spend time on regeneration. Alina also wrote to me today - she's been working with Ariel for about six months and they were supposed to have a call. She asked how things were going with the website and how the work was progressing, what stage I'm at. I told her everything.
 
 **Outcomes:**
--
+- Started data mining for website images
+- Generated custom images using MidJourney with ChatGPT-optimized prompts
+- Successfully generated images on first try, avoiding regeneration time
+- Updated Alina on website project progress and current work stage
 
 ---
 ## Notes
--
+- Successfully completed 19+ cover modifications using multiple AI tools (Firefly, Pixelcut)
+- Discovered workaround for subscription limitations by using multiple free accounts
+- Completed comprehensive AI tools research and documentation in spreadsheet
+- Productive collaboration and communication with team leads and Alina
+- Efficient workflow using ChatGPT for prompt optimization before MidJourney generation
+- Website project progressing with image generation phase
 
 ## Reminder
 - Whisper Flow ON during all activities
