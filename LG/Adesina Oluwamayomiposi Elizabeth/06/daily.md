@@ -12,9 +12,8 @@
 
 ## Activities
 
-### [Time] - [Activity Name]
+### [Time] - [Job sites
 **What I worked on:**
--
 
 **Whisper Flow Transcript:**
 
@@ -23,12 +22,10 @@
 
 **Outcomes:**
 -
-
 ---
 
-### [Time] - [Activity Name]
+### [Time] - [Old connections
 **What I worked on:**
--
 
 **Whisper Flow Transcript:**
 
@@ -36,7 +33,7 @@
 
 
 **Outcomes:**
--
+
 
 ---
 
