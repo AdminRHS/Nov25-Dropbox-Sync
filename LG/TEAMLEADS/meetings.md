@@ -514,3 +514,433 @@ Especially for warm leads - better to send 10 highly personalized messages than 
 **Status:** Action items assigned and tracked
 **Follow-up Required:** Yes - multiple owners with specific deadlines
 
+---
+
+## Meeting: Team Performance Review and Restructuring Discussion
+**Date & Time:** November 10, 2025
+**Attendees:** Team Lead, Manager Discussion
+
+### Meeting Summary
+Critical performance review discussion addressing team member productivity issues, strategic shift timing challenges, personnel decisions for end of week, internet connectivity verification needs, and departmental restructuring from Lead Generation to Sales focus.
+
+---
+
+## KEY DISCUSSION POINTS
+
+### 1. SHIFT WORK CHALLENGES AND TIMING ISSUES
+
+**Problem Identified:**
+Second shift operations are problematic due to constant daily updates and changes occurring during evening hours, making it difficult for second shift workers to stay current and aligned with day-shift decisions.
+
+**Impact:**
+- Team members working evenings miss real-time updates
+- Constant changes create confusion and misalignment
+- Difficult to maintain consistent communication across shifts
+
+**Recommendation:**
+- Consider restructuring to eliminate second shift
+- Consolidate team to single shift for better coordination
+- Implement better handoff procedures if second shift must continue
+
+---
+
+### 2. INDIVIDUAL PERFORMANCE ASSESSMENTS
+
+#### **Hanan - RETAIN (Strong Performer)**
+
+**Performance Assessment:**
+- "Working normally" - meeting expectations consistently
+- No performance concerns raised
+- Solid, reliable team member
+
+**Decision:** Keep on team, strong retention candidate
+
+**Rationale:** Stable performer with no issues identified
+
+---
+
+#### **Bridget - UNDER REVIEW (Concerns Raised)**
+
+**Performance Assessment:**
+- Performance concerns mentioned but not detailed in this conversation
+- Flagged as potential issue
+- Requires closer evaluation
+
+**Decision:** Requires additional review and monitoring
+
+**Next Steps:** Conduct detailed performance evaluation to determine retention vs. termination
+
+---
+
+#### **Kybrio - TERMINATE OR TRANSFER (Critical Performance Issues)**
+
+**Performance Problems Documented:**
+- Extremely low productivity: approximately 5 cards per day
+- "Very difficult to work with"
+- "Doesn't do much" - minimal work output
+- KPI far below acceptable standards
+- No improvement despite feedback
+
+**Alternative Option Discussed:**
+- Nastya wants to try Kybrio on an SMM (Social Media Marketing) project
+- Project involves understanding target audience analysis
+- If project doesn't work out, proceed with termination
+
+**Decision Framework:**
+- **Option A:** Give one final chance on SMM project with Nastya
+  - Project focus: Target audience research and analysis
+  - Clear metrics and timeline must be established
+  - If unsuccessful, immediate termination
+- **Option B:** Proceed with termination by end of week
+  - Low productivity documented (5 cards/day vs. standard)
+  - Performance issues well-documented
+  - Team impact from retaining underperformer
+
+**Action Required:**
+1. Clarify project details with Nastya (timeline, deliverables, success metrics)
+2. Make final decision: project trial vs. immediate termination
+3. If proceeding with termination: prepare for end of week execution
+
+---
+
+#### **Cynthia Uzoh - INTERNET CONNECTIVITY VERIFICATION NEEDED**
+
+**Background:**
+- Previously released due to poor internet connectivity
+- Has returned to work
+- Concern: Internet quality may still be inadequate
+
+**Current Status:**
+- HR conducted internet verification process
+- Speed tests were performed
+- Assessment: Internet still appears problematic ("still not normal")
+
+**Concerns:**
+- Can she perform job duties with current internet quality?
+- Will connectivity issues affect work quality and team operations?
+- Is this a recurring problem that will continue?
+
+**Action Required:**
+1. Review HR internet verification test results
+2. Conduct own connectivity assessment (video call test, speed test observation)
+3. Compare results to minimum requirements
+4. Make determination: acceptable, needs improvement with timeline, or release
+
+**Decision Deadline:** This week
+
+**Note:** Described as "persistent girl, good for her" - showing determination to resolve issues and return to work
+
+---
+
+### 3. END OF WEEK TERMINATION PLANNING
+
+**Timeline:** End of this week (Friday)
+
+**Candidates Identified:**
+- Need to provide additional termination candidates by end of week
+- Current discussions focus on Kybrio and potentially Bridget
+- Coordinating with broader team restructuring plan
+
+**Process:**
+- Identify underperformers systematically
+- Document performance issues thoroughly
+- Coordinate timing with HR and leadership
+- Prepare for multiple potential terminations Friday
+
+---
+
+### 4. STRATEGIC DEPARTMENT RESTRUCTURING: LEAD GENERATION → SALES
+
+**Major Strategic Shift Announced:**
+
+**Current State:**
+- Team focused on lead generation (cold leads, prospecting)
+- Volume-based approach
+- Lower conversion rates
+
+**Future State:**
+- Transition to Sales focus with warm leads
+- Work with contacts who have previously engaged (past calls, event attendees, expressed interest)
+- Higher-quality conversations with pre-qualified prospects
+- Sales-oriented approach vs. lead generation approach
+
+**New Lead Generation Strategy:**
+Instead of cold lead prospecting, generate inbound leads through:
+- Social media presence and content
+- Advertising campaigns
+- Regular posting and engagement
+- Inbound message generation
+- Building social media following
+
+**Timeline:**
+- "Long-term global goal" - not immediate
+- "Maybe not too distant" - sooner than initially thought
+- Gradual transition: "slowly, slowly keep the best ones and move them to Nastya's team"
+
+**Team Selection Strategy:**
+- Keep only the best performers
+- Gradually transition strong performers to Sales (Nastya's team)
+- Release underperformers as part of restructuring
+- Smaller, higher-quality team focused on sales vs. large lead gen team
+
+---
+
+### 5. DASHA BESSARAB - SALES TRANSFER CANDIDATE
+
+**Transfer Opportunity:**
+- Candidate for transfer from Lead Generation to Sales department
+- Would move to Sales team if she agrees
+
+**Approach Required:**
+- "Diplomatic" conversation needed
+- Ask about her interests and department fit
+- Explore if she wants to join Sales team
+- Frame as opportunity, not mandate
+
+**Conversation Framework:**
+- Ask what she wants in terms of department/role
+- Discuss Sales opportunity and what it entails
+- If positive response: facilitate transfer to Sales team immediately ("move right there")
+- If negative or uncertain: explore alternatives
+
+**Action Required:**
+- Schedule one-on-one conversation with Dasha Bessarab
+- Conduct diplomatic discussion about Sales transfer opportunity
+- Get her perspective and preferences
+- Make decision based on her interest and fit
+
+**Urgency:** This week - coordinate with end-of-week restructuring decisions
+
+---
+
+### 6. TEAM OBSERVATION AND INTEGRATION
+
+**Recommendation Made:**
+- Team lead should observe and integrate with Sales team operations
+- "Go see and listen if you want" to Nastya's team
+- "Get involved, of course"
+- Learn Sales approaches and methodologies
+- Understand what the transition will entail
+
+**Purpose:**
+- Understand Sales team culture and processes
+- Prepare for managing team members who transition
+- Learn effective warm lead sales techniques
+- Facilitate smoother transition when restructuring occurs
+
+---
+
+## DETAILED ACTION ITEMS & OWNERS
+
+### Immediate Actions (This Week)
+
+**1. Make Final Decision on Kybrio**
+- **Owner:** Team Lead + Nastya
+- **Deadline:** By Wednesday (November 12)
+- **Action Steps:**
+  - Meet with Nastya to discuss SMM project details
+  - Clarify: project scope, timeline, success metrics, deliverables
+  - Assess: is this viable opportunity or delaying inevitable?
+  - Decide: project trial vs. immediate termination
+  - If termination: coordinate with Friday execution plan
+  - If project: establish clear expectations, metrics, and failure criteria
+
+**2. Verify Cynthia Uzoh Internet Connectivity**
+- **Owner:** Team Lead
+- **Deadline:** By Thursday (November 13)
+- **Action Steps:**
+  - Review HR's internet verification test results
+  - Conduct live video call assessment
+  - Have Cynthia run supervised speed test
+  - Document results and compare to requirements
+  - Make determination: continue, improve with deadline, or release
+  - Communicate decision clearly to Cynthia
+
+**3. Conduct Diplomatic Conversation with Dasha Bessarab**
+- **Owner:** Team Lead
+- **Deadline:** By Wednesday (November 12)
+- **Action Steps:**
+  - Schedule private one-on-one meeting
+  - Explain departmental restructuring context
+  - Present Sales transfer opportunity
+  - Ask about her preferences and interests
+  - Discuss what Sales role would involve
+  - If interested: facilitate immediate transfer to Sales team
+  - If not interested: discuss alternatives
+  - Document outcome and next steps
+
+**4. Observe Sales Team Operations**
+- **Owner:** Team Lead
+- **Deadline:** Ongoing this week
+- **Action Steps:**
+  - Schedule time to observe Nastya's Sales team
+  - Attend team meetings or shadow sales activities
+  - Learn warm lead sales approaches
+  - Understand team culture and processes
+  - Take notes on methodologies and best practices
+  - Identify how Lead Gen members can successfully transition
+
+**5. Identify Additional Termination Candidates**
+- **Owner:** Team Lead
+- **Deadline:** By Thursday (November 13) for Friday execution
+- **Action Steps:**
+  - Review performance data for all team members
+  - Identify underperformers with documented issues
+  - Prepare termination rationale and documentation
+  - Coordinate with HR on process and timing
+  - Align with broader restructuring strategy
+  - Provide list to leadership for approval
+
+**6. Friday Termination Execution Preparation**
+- **Owner:** Team Lead + HR
+- **Deadline:** All prep by Thursday EOD, execution Friday
+- **Action Steps:**
+  - Finalize list of terminations
+  - Prepare all documentation
+  - Coordinate with HR on legal compliance
+  - Plan termination conversations
+  - Prepare access revocation procedures
+  - Arrange final paperwork and payments
+  - Plan communication to remaining team
+
+---
+
+### Short-term Actions (Next 2 Weeks)
+
+**7. Begin Systematic Lead Gen → Sales Transition**
+- **Owner:** Team Lead + Nastya
+- **Deadline:** Ongoing, starting next week
+- **Deliverable:**
+  - Identify top performers for Sales transition
+  - Create transition timeline for each person
+  - Develop training plan for warm lead sales
+  - Begin moving best performers to Nastya's team
+  - Reduce Lead Gen team size gradually
+  - Focus remaining Lead Gen on social media inbound strategy
+
+**8. Develop Social Media Inbound Lead Strategy**
+- **Owner:** Team Lead + Marketing
+- **Deadline:** November 20
+- **Deliverable:**
+  - Strategy document for social media lead generation
+  - Content calendar and posting schedule
+  - Advertising campaign plan
+  - Metrics for measuring inbound lead quality
+  - Team roles for social media management
+  - Transition plan from cold prospecting to inbound
+
+---
+
+## CRITICAL DECISIONS MADE
+
+**1. Shift Work Structure**
+- Decision: Second shift is problematic and should be reconsidered
+- Rationale: Daily changes and updates don't align with evening shift timing
+- Next Steps: Evaluate eliminating second shift or improving coordination
+
+**2. Performance-Based Retention**
+- Decision: Keep only best performers during restructuring
+- Rationale: Transition to Sales requires higher-quality, skilled team
+- Next Steps: Systematic performance review, retention of top performers only
+
+**3. End of Week Terminations**
+- Decision: Proceed with planned Friday terminations
+- Rationale: Part of broader restructuring and performance management
+- Next Steps: Finalize candidate list, prepare documentation, coordinate execution
+
+**4. Kybrio Final Opportunity**
+- Decision: Pending - either final project chance or immediate termination
+- Rationale: Extremely poor performance (5 cards/day), but potential alternative role exists
+- Next Steps: Clarify project details with Nastya, make final decision by Wednesday
+
+**5. Dasha Sales Transfer**
+- Decision: Offer Sales transfer opportunity diplomatically
+- Rationale: Part of Lead Gen → Sales transition strategy
+- Next Steps: Conduct conversation this week, facilitate transfer if interested
+
+---
+
+## RISKS AND CONCERNS IDENTIFIED
+
+**1. Internet Connectivity Reliability**
+- Cynthia Uzoh's internet may still be inadequate despite HR verification
+- Risk of ongoing performance issues if connectivity insufficient
+- Need clear standards and enforcement
+
+**2. Project Assignment as Termination Delay**
+- Kybrio SMM project could be delaying inevitable termination
+- Risk: wasting time and resources if she's not viable in any role
+- Mitigation: Establish very clear metrics and short timeline for project evaluation
+
+**3. Team Morale During Restructuring**
+- Multiple terminations and department changes can create anxiety
+- Remaining team members may worry about their own positions
+- Mitigation: Clear communication, transparent criteria, focus on opportunities for top performers
+
+**4. Transition Timeline Uncertainty**
+- "Long-term goal" but "maybe not too distant" - unclear timeline
+- Team needs clearer understanding of restructuring pace
+- Mitigation: Develop specific milestones and communication plan
+
+**5. Sales Skills Gap**
+- Lead Gen team members may lack sales skills for warm lead conversations
+- Training and development needed for successful transition
+- Mitigation: Observation of Sales team, training program, gradual transition with support
+
+---
+
+## SUCCESS METRICS FOR RESTRUCTURING
+
+**Performance Standards:**
+- Minimum productivity thresholds clearly defined (Kybrio's 5 cards/day obviously insufficient)
+- Quality of work and team collaboration
+- Ability to adapt to new Sales-focused approach
+- Coachability and responsiveness to feedback
+
+**Transition Success Indicators:**
+- Top performers successfully moving to Sales team
+- Smooth integration into Nastya's team operations
+- Improved conversion rates from warm lead focus
+- Reduced team size with maintained or improved output
+- Successful inbound lead generation from social media
+
+**Timeline Markers:**
+- End of week: Initial terminations complete
+- 2 weeks: First performers transitioned to Sales
+- 1 month: Social media inbound strategy launched
+- 3 months: Full transition to warm lead Sales focus
+
+---
+
+## FOLLOW-UP REQUIRED
+
+**Next Meeting:** End of week (Friday after terminations) or Monday following
+
+**Agenda for Next Meeting:**
+- Review Friday termination outcomes
+- Assess team morale and remaining team status
+- Finalize Kybrio decision outcome
+- Review Dasha conversation result
+- Discuss Cynthia internet verification findings
+- Plan next phase of Lead Gen → Sales transition
+- Identify next group of performers for Sales team transition
+
+---
+
+## KEY TAKEAWAYS
+
+1. **Performance standards matter** - 5 cards/day productivity is unacceptable and must be addressed
+2. **Strategic pivot happening** - Lead Gen transforming to Sales focus with warm leads
+3. **Quality over quantity** - Keep best performers, release underperformers
+4. **Clear communication needed** - Diplomatic conversations about transfers and changes
+5. **Technical requirements must be met** - Internet connectivity is non-negotiable for remote work
+6. **End of week action required** - Multiple terminations planned for Friday
+7. **Gradual transition approach** - "Slowly, slowly" move best people to Sales
+8. **Alternative opportunities explored** - SMM project for Kybrio before final termination decision
+
+---
+
+**Meeting Notes Compiled By:** AI Analysis of Conversation Transcript
+**Status:** Critical action items identified with this-week deadlines
+**Follow-up Required:** Yes - multiple urgent decisions and actions before Friday
+
