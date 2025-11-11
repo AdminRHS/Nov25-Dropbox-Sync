@@ -1552,7 +1552,997 @@
             color: rgba(26, 32, 44, 0.7);
             margin: 0;
         }
+        /* === SEARCH button style (header-icon-btn) === */
+.header-icon-btn[aria-label="Search"] {
+  position: relative;
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.45));
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(12px) saturate(160%);
+  -webkit-backdrop-filter: blur(12px) saturate(160%);
+  box-shadow: 0 6px 18px rgba(31, 38, 135, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #374151;
+  transition: all 0.25s ease;
+}
+
+/* Shine sweep effect */
+.header-icon-btn[aria-label="Search"]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.4) 50%, transparent 100%);
+  transform: translateX(-120%);
+  transition: transform 0.6s ease;
+  pointer-events: none;
+}
+.header-icon-btn[aria-label="Search"]:hover::before {
+  transform: translateX(120%);
+}
+
+/* Hover and focus states */
+.header-icon-btn[aria-label="Search"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  border-color: rgba(37, 99, 235, 0.3);
+}
+.header-icon-btn[aria-label="Search"]:active {
+  transform: translateY(0);
+}
+.header-icon-btn[aria-label="Search"]:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15), 0 0 0 1px rgba(37, 99, 235, 0.4);
+}
+
+/* Dark mode variant */
+body.dark-mode .header-icon-btn[aria-label="Search"] {
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.75), rgba(15, 23, 42, 0.75));
+  border-color: rgba(148, 163, 184, 0.2);
+  color: #e2e8f0;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+body.dark-mode .header-icon-btn[aria-label="Search"]:hover {
+  border-color: rgba(99, 102, 241, 0.5);
+}
+
+/* === SHARE button style (header-icon-btn) === */
+.header-icon-btn[aria-label="Share"] {
+  position: relative;
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.45));
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(12px) saturate(160%);
+  -webkit-backdrop-filter: blur(12px) saturate(160%);
+  box-shadow: 0 6px 18px rgba(31, 38, 135, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #374151;
+  transition: all 0.25s ease;
+}
+
+/* Shine sweep */
+.header-icon-btn[aria-label="Share"]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.4) 50%, transparent 100%);
+  transform: translateX(-120%);
+  transition: transform 0.6s ease;
+  pointer-events: none;
+}
+.header-icon-btn[aria-label="Share"]:hover::before {
+  transform: translateX(120%);
+}
+
+/* Hover / active / focus */
+.header-icon-btn[aria-label="Share"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  border-color: rgba(99, 102, 241, 0.35); /* indigo edge */
+}
+.header-icon-btn[aria-label="Share"]:active { transform: translateY(0); }
+.header-icon-btn[aria-label="Share"]:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.16), 0 0 0 1px rgba(99, 102, 241, 0.45);
+}
+
+/* Dark mode variant */
+body.dark-mode .header-icon-btn[aria-label="Share"] {
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.75), rgba(15, 23, 42, 0.75));
+  border-color: rgba(148, 163, 184, 0.2);
+  color: #cbd5e1;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+body.dark-mode .header-icon-btn[aria-label="Share"]:hover {
+  border-color: rgba(99, 102, 241, 0.5);
+}
+
+/* === BOOK A CALL (CTA) === */
+.header-cta-btn,
+.header-cta-btn[aria-label="Book a call"] {
+  position: relative;
+  border-radius: 10px;
+  background: linear-gradient(
+    135deg,
+    var(--color-primary-main, #3b82f6) 0%,
+    var(--color-primary-dark, #2563eb) 100%
+  );
+  color: #fff;
+  border: 1px solid transparent;
+  backdrop-filter: blur(10px) saturate(140%);
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
+  box-shadow:
+    0 10px 28px rgba(37, 99, 235, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  transition: transform .2s ease, box-shadow .2s ease, background .2s ease, border-color .2s ease;
+}
+
+/* Shine sweep */
+.header-cta-btn::before,
+.header-cta-btn[aria-label="Book a call"]::before {
+  content: "";
+  position: absolute; inset: 0;
+  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,.35) 50%, transparent 100%);
+  transform: translateX(-120%);
+  transition: transform .6s ease;
+  pointer-events: none;
+}
+.header-cta-btn:hover::before,
+.header-cta-btn[aria-label="Book a call"]:hover::before { transform: translateX(120%); }
+
+/* Hover / active */
+.header-cta-btn:hover,
+.header-cta-btn[aria-label="Book a call"]:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(
+    135deg,
+    var(--color-primary-light, #60a5fa) 0%,
+    var(--color-primary-main, #3b82f6) 100%
+  );
+  box-shadow:
+    0 14px 36px rgba(37, 99, 235, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+.header-cta-btn:active,
+.header-cta-btn[aria-label="Book a call"]:active { transform: translateY(0); }
+
+/* Focus ring */
+.header-cta-btn:focus-visible,
+.header-cta-btn[aria-label="Book a call"]:focus-visible {
+  outline: none;
+  box-shadow:
+    0 0 0 3px rgba(37,99,235,.18),
+    0 0 0 1px rgba(37,99,235,.45);
+}
+
+/* Dark mode */
+body.dark-mode .header-cta-btn,
+body.dark-mode .header-cta-btn[aria-label="Book a call"] {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%) !important;
+  color: #eaf2ff !important;
+  border-color: rgba(148,163,184,0.18) !important;
+  box-shadow:
+    0 10px 28px rgba(37,99,235,.35),
+    inset 0 1px 0 rgba(255,255,255,.06);
+}
+body.dark-mode .header-cta-btn:hover,
+body.dark-mode .header-cta-btn[aria-label="Book a call"]:hover {
+  filter: brightness(1.02);
+}
+
+/* --- Dark-mode fix for header buttons (Search / Share / Theme / CTA) --- */
+/* 1) Clip the shine and gradients to the button shape */
+.header-icon-btn,
+.header-cta-btn {
+  position: relative;         
+  overflow: hidden;           
+  isolation: isolate;         
+  border-radius: 10px;        
+}
+.header-icon-btn::before,
+.header-cta-btn::before {
+  border-radius: inherit;     
+}
+
+/* 2) Tweak dark-mode glass so it’s subtler */
+body.dark-mode .header-icon-btn,
+body.dark-mode .header-cta-btn {
+  /* darker, less milky glass */
+  background: linear-gradient(135deg,
+    rgba(17, 24, 39, 0.72) 0%,
+    rgba(15, 23, 42, 0.68) 100%
+  ) !important;
+  border-color: rgba(148, 163, 184, 0.18) !important;
+  color: #e2e8f0 !important;
+  backdrop-filter: blur(8px) saturate(120%);
+  -webkit-backdrop-filter: blur(8px) saturate(120%);
+  box-shadow:
+    0 6px 18px rgba(2, 6, 23, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* 3) Dim the shine sweep in dark mode */
+body.dark-mode .header-icon-btn::before,
+body.dark-mode .header-cta-btn::before {
+  /* softer, shorter highlight so it doesn't look like a band */
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.18) 42%,
+    transparent 84%
+  );
+  transform: translateX(-120%);
+  transition: transform .6s ease;
+  opacity: .9; /* keep visible but subtle */
+}
+
+/* optional: slightly reduce hover intensity in dark mode */
+body.dark-mode .header-icon-btn:hover,
+body.dark-mode .header-cta-btn:hover {
+  border-color: rgba(99, 102, 241, 0.35) !important;
+  box-shadow:
+    0 10px 24px rgba(2, 6, 23, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+/* 4) Performance niceties for the moving shine */
+.header-icon-btn::before,
+.header-cta-btn::before {
+  will-change: transform;
+}
+
+/* === BOOK A CALL — animation + hover lift === */
+/* Works as long as the button has class="header-cta-btn" */
+.header-cta-btn {
+  position: relative;
+  overflow: hidden;          /* keep shine inside the rounded corners */
+  isolation: isolate;        /* prevent blending with header bg */
+  border-radius: 10px;
+  transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+}
+
+/* Shine sweep layer */
+.header-cta-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,.38) 50%, transparent 100%);
+  transform: translateX(-120%);         /* start off-left */
+  transition: transform .65s ease;       /* the sweep */
+  will-change: transform;
+}
+
+/* Hover: lift + run the sweep */
+.header-cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 14px 36px rgba(37,99,235,.34),
+    inset 0 1px 0 rgba(255,255,255,.35);
+}
+.header-cta-btn:hover::before {
+  transform: translateX(120%);           /* sweep across */
+}
+
+/* Focus ring (keyboard) */
+.header-cta-btn:focus-visible {
+  outline: none;
+  box-shadow:
+    0 0 0 3px rgba(37,99,235,.18),
+    0 0 0 1px rgba(37,99,235,.45);
+}
+
+/* Dark mode tuning (subtler shine) */
+body.dark-mode .header-cta-btn::before {
+  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,.20) 46%, transparent 100%);
+}
+
+/* OPTIONAL: idle pulse glow — add class="header-cta-btn call-pulse" to enable */
+.call-pulse {
+  animation: callGlow 2.6s ease-in-out infinite;
+}
+@keyframes callGlow {
+  0%, 100% {
+    box-shadow:
+      0 10px 28px rgba(37,99,235,.28),
+      inset 0 1px 0 rgba(255,255,255,.25);
+    transform: translateY(0);
+  }
+  50% {
+    box-shadow:
+      0 16px 40px rgba(37,99,235,.38),
+      inset 0 1px 0 rgba(255,255,255,.35);
+    transform: translateY(-1px);
+  }
+}
+
+/* === DARK MODE: animated Book a call button === */
+body.dark-mode .header-cta-btn {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  border-radius: 10px;
+  color: #eaf2ff;
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  border: 1px solid rgba(148,163,184,0.25);
+  box-shadow:
+    0 10px 28px rgba(37,99,235,0.35),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+  backdrop-filter: blur(10px) saturate(140%);
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+}
+
+/* Shine sweep */
+body.dark-mode .header-cta-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.2) 45%,
+    transparent 90%
+  );
+  transform: translateX(-120%);
+  transition: transform 0.65s ease;
+  will-change: transform;
+}
+body.dark-mode .header-cta-btn:hover::before {
+  transform: translateX(120%);
+}
+
+/* Hover / active depth */
+body.dark-mode .header-cta-btn:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  box-shadow:
+    0 16px 40px rgba(37,99,235,0.4),
+    inset 0 1px 0 rgba(255,255,255,0.08);
+}
+body.dark-mode .header-cta-btn:active {
+  transform: translateY(0);
+}
+
+/* Subtle idle glow animation */
+body.dark-mode .header-cta-btn.call-pulse {
+  animation: darkCallGlow 2.6s ease-in-out infinite;
+}
+@keyframes darkCallGlow {
+  0%, 100% {
+    box-shadow:
+      0 10px 28px rgba(37,99,235,0.35),
+      inset 0 1px 0 rgba(255,255,255,0.06);
+    filter: brightness(1);
+  }
+  50% {
+    box-shadow:
+      0 18px 46px rgba(37,99,235,0.55),
+      inset 0 1px 0 rgba(255,255,255,0.08);
+    filter: brightness(1.05);
+  }
+}
+
+/* =========================
+   HEADER BUTTONS — LIGHT & DARK
+   ========================= */
+
+/* Fallback tokens (use your existing custom props if present) */
+:root{
+  --btnRadius: 10px;
+  --glassLightA: rgba(255,255,255,.72);
+  --glassLightB: rgba(255,255,255,.55);
+  --glassDarkA: rgba(17,24,39,.72);
+  --glassDarkB: rgba(15,23,42,.68);
+  --indigo: #6366f1;
+  --primaryLight: #60a5fa;
+  --primaryMain: #3b82f6;
+  --primaryDark: #2563eb;
+}
+
+/* Base: shared behavior + shine clipping */
+.header-icon-btn,
+.header-cta-btn{
+  position: relative;
+  overflow: hidden;         /* keeps shine inside corners */
+  isolation: isolate;       /* prevents blending with header */
+  border-radius: var(--btnRadius);
+  transition: transform .2s ease, box-shadow .2s ease, background .2s ease, border-color .2s ease;
+}
+.header-icon-btn::before,
+.header-cta-btn::before{
+  content:"";
+  position:absolute; inset:0;
+  border-radius: inherit;
+  pointer-events:none;
+  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,.38) 50%, transparent 100%);
+  transform: translateX(-120%);
+  transition: transform .65s ease;
+  will-change: transform;
+}
+.header-icon-btn:hover::before,
+.header-cta-btn:hover::before{ transform: translateX(120%); }
+
+/* -------- Light mode -------- */
+.header-icon-btn{
+  background: linear-gradient(135deg, var(--glassLightA), var(--glassLightB));
+  border:1px solid rgba(0,0,0,.08);
+  color:#374151;
+  backdrop-filter: blur(12px) saturate(160%);
+  -webkit-backdrop-filter: blur(12px) saturate(160%);
+  box-shadow: 0 6px 18px rgba(31,38,135,.10), inset 0 1px 0 rgba(255,255,255,.5);
+}
+.header-icon-btn:hover{
+  transform: translateY(-2px);
+  border-color: rgba(99,102,241,.30);
+  box-shadow: 0 10px 25px rgba(99,102,241,.22), inset 0 1px 0 rgba(255,255,255,.6);
+}
+.header-icon-btn:active{ transform: translateY(0); }
+.header-icon-btn:focus-visible{
+  outline:none;
+  box-shadow: 0 0 0 3px rgba(99,102,241,.16), 0 0 0 1px rgba(99,102,241,.45);
+}
+
+/* CTA — Book a call (blue gradient in light mode) */
+.header-cta-btn{
+  background: linear-gradient(135deg, var(--primaryMain) 0%, var(--primaryDark) 100%);
+  color:#fff;
+  border:1px solid transparent;
+  backdrop-filter: blur(10px) saturate(140%);
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
+  box-shadow: 0 10px 28px rgba(37,99,235,.28), inset 0 1px 0 rgba(255,255,255,.25);
+}
+.header-cta-btn:hover{
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, var(--primaryLight) 0%, var(--primaryMain) 100%);
+  box-shadow: 0 14px 36px rgba(37,99,235,.35), inset 0 1px 0 rgba(255,255,255,.35);
+}
+.header-cta-btn:active{ transform: translateY(0); }
+.header-cta-btn:focus-visible{
+  outline:none;
+  box-shadow: 0 0 0 3px rgba(37,99,235,.18), 0 0 0 1px rgba(37,99,235,.45);
+}
+
+/* -------- Dark mode overrides -------- */
+body.dark-mode .header-icon-btn,
+body.dark-mode .header-cta-btn{
+  background: linear-gradient(135deg, var(--glassDarkA), var(--glassDarkB)) !important;
+  border:1px solid rgba(148,163,184,.18) !important;
+  color:#cbd5e1 !important;
+  backdrop-filter: blur(8px) saturate(120%);
+  -webkit-backdrop-filter: blur(8px) saturate(120%);
+  box-shadow: 0 6px 18px rgba(2,6,23,.40), inset 0 1px 0 rgba(255,255,255,.06);
+}
+
+/* Dimmer shine in dark mode so it doesn't band across the header */
+body.dark-mode .header-icon-btn::before,
+body.dark-mode .header-cta-btn::before{
+  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,.20) 46%, transparent 100%);
+}
+
+/* Dark hover adjustments */
+body.dark-mode .header-icon-btn:hover,
+body.dark-mode .header-cta-btn:hover{
+  border-color: rgba(99,102,241,.45) !important;
+  box-shadow: 0 10px 24px rgba(2,6,23,.45), inset 0 1px 0 rgba(255,255,255,.06);
+}
+
+/* CTA stays blue in dark mode too (match light mode tone) */
+body.dark-mode .header-cta-btn{
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important;
+  color:#eaf2ff !important;
+  box-shadow: 0 10px 28px rgba(37,99,235,.35), inset 0 1px 0 rgba(255,255,255,.06);
+}
+body.dark-mode .header-cta-btn:hover{
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%) !important;
+}
+
+/* Optional idle pulse for CTA in both modes — add class="call-pulse" to enable */
+.header-cta-btn.call-pulse{ animation: callGlow 2.6s ease-in-out infinite; }
+@keyframes callGlow{
+  0%,100%{
+    box-shadow:
+      0 10px 28px rgba(37,99,235,.28),
+      inset 0 1px 0 rgba(255,255,255,.25);
+    transform: translateY(0);
+  }
+  50%{
+    box-shadow:
+      0 16px 40px rgba(37,99,235,.38),
+      inset 0 1px 0 rgba(255,255,255,.35);
+    transform: translateY(-1px);
+  }
+}
+
+/* =====================
+   SPECTATE & PLAY BUTTONS
+   ===================== */
+
+/* Common base */
+.spectate-btn,
+.play-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  border-radius: 9999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  backdrop-filter: blur(12px) saturate(140%);
+  -webkit-backdrop-filter: blur(12px) saturate(140%);
+}
+
+/* --- SPECTATE BUTTON (glassy) --- */
+.spectate-btn {
+  padding: 0 16px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.65), rgba(255,255,255,0.45));
+  border: 1px solid rgba(0,0,0,0.08);
+  color: #065f46; /* emerald-800 */
+  box-shadow: 0 6px 18px rgba(16,185,129,0.1), inset 0 1px 0 rgba(255,255,255,0.5);
+}
+.spectate-btn:hover {
+  transform: translateY(-2px);
+  border-color: rgba(16,185,129,0.3);
+  box-shadow: 0 10px 25px rgba(16,185,129,0.25), inset 0 1px 0 rgba(255,255,255,0.6);
+}
+.spectate-btn:active {
+  transform: translateY(0);
+}
+
+/* Shine sweep */
+.spectate-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.4) 50%, transparent 100%);
+  transform: translateX(-120%);
+  transition: transform 0.6s ease;
+}
+.spectate-btn:hover::before { transform: translateX(120%); }
+
+/* --- PLAY BUTTON (solid blue gradient) --- */
+.play-btn {
+  width: 36px;
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  color: #fff;
+  box-shadow: 0 8px 24px rgba(239,68,68,0.35);
+  border: none;
+}
+.play-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 32px rgba(239,68,68,0.45);
+}
+.play-btn:active { transform: scale(0.98); }
+
+/* --- Dark Mode Adjustments --- */
+body.dark-mode .spectate-btn {
+  background: linear-gradient(135deg, rgba(30,41,59,0.75), rgba(15,23,42,0.75));
+  border-color: rgba(148,163,184,0.2);
+  color: #10b981; /* emerald accent */
+  box-shadow: 0 6px 18px rgba(2,6,23,0.4), inset 0 1px 0 rgba(255,255,255,0.05);
+}
+body.dark-mode .spectate-btn:hover {
+  border-color: rgba(16,185,129,0.4);
+  box-shadow: 0 10px 25px rgba(16,185,129,0.4);
+}
+
+body.dark-mode .play-btn {
+  background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);
+  box-shadow: 0 8px 24px rgba(239,68,68,0.35);
+}
+body.dark-mode .play-btn:hover {
+  box-shadow: 0 10px 32px rgba(239,68,68,0.5);
+}
+
+/* ============================
+   LIVE STATUS BADGE (non-button)
+   ============================ */
+
+.live-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #dc2626; /* red-600 text */
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px) saturate(160%);
+  -webkit-backdrop-filter: blur(10px) saturate(160%);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08),
+              inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+/* Red dot that pulses softly */
+.live-badge::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ef4444; /* red-500 */
+  box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.6);
+  animation: livePulse 1.6s ease-in-out infinite;
+}
+
+/* Pulse animation */
+@keyframes livePulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.6);
+  }
+  70% {
+    transform: scale(1.15);
+    box-shadow: 0 0 0 6px rgba(239, 68, 68, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
+  }
+}
+
+/* --- Dark mode --- */
+body.dark-mode .live-badge {
+  background: rgba(30, 41, 59, 0.7);
+  border-color: rgba(148, 163, 184, 0.25);
+  color: #f87171; /* lighter red text */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4),
+              inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+body.dark-mode .live-badge::before {
+  background-color: #f87171; /* soft red */
+  box-shadow: 0 0 0 0 rgba(248, 113, 113, 0.6);
+}
+
+/* ==============================
+   AI Tools Modal — List Layout
+   ============================== */
+
+/* Modal body as a vertical list */
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* Each tool-card becomes a list item */
+.tool-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 18px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 6px 18px rgba(31, 38, 135, 0.08);
+  transition: all 0.25s ease;
+  backdrop-filter: blur(10px) saturate(140%);
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
+}
+
+/* Hover state */
+.tool-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(37, 99, 235, 0.15);
+}
+
+/* Icon or logo */
+.tool-card img {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+/* Text content */
+.tool-card-info {
+  display: flex;
+  flex-direction: column;
+}
+.tool-card-info h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111827;
+}
+.tool-card-info p {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin-top: 2px;
+}
+
+/* --- Dark mode --- */
+body.dark-mode .tool-card {
+  background: rgba(30, 41, 59, 0.65);
+  border-color: rgba(148, 163, 184, 0.2);
+  color: #e5e7eb;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.4);
+}
+body.dark-mode .tool-card:hover {
+  box-shadow: 0 12px 24px rgba(99, 102, 241, 0.35);
+}
+body.dark-mode .tool-card-info h3 {
+  color: #f3f4f6;
+}
+body.dark-mode .tool-card-info p {
+  color: #9ca3af;
+}
+
+/* ==============================
+   Responsibilities Modal — List style (match AI)
+   ============================== */
+
+/* Make the body a vertical list like AI */
+#tasksModal .modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* tight spacing like your latest AI list */
+}
+
+/* Each responsibility row (same look as .tool-card) */
+#tasksModal .task-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;                /* same padding scale as AI */
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.70);
+  border: 1px solid rgba(255, 255, 255, 0.40);
+  box-shadow: 0 6px 18px rgba(31, 38, 135, 0.08);
+  backdrop-filter: blur(10px) saturate(140%);
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
+  transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+}
+#tasksModal .task-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(37, 99, 235, 0.18);
+}
+
+/* Optional left icon badge (if you have an icon span/img) */
+#tasksModal .task-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;               /* same 8–10px corner language */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(59,130,246,.12);  /* soft primary tint */
+  border: 1px solid rgba(59,130,246,.25);
+  flex-shrink: 0;
+}
+#tasksModal .task-icon i,
+#tasksModal .task-icon svg {
+  width: 20px; height: 20px;
+}
+
+/* Text block */
+#tasksModal .task-info {
+  display: flex;
+  flex-direction: column;
+}
+#tasksModal .task-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111827;
+}
+#tasksModal .task-desc {
+  margin-top: 2px;
+  font-size: .9rem;
+  color: #4b5563;
+}
+
+/* ---- Dark mode to match AI ---- */
+body.dark-mode #tasksModal .task-item {
+  background: rgba(30, 41, 59, 0.65);
+  border-color: rgba(148, 163, 184, 0.20);
+  color: #e5e7eb;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.40);
+}
+body.dark-mode #tasksModal .task-item:hover {
+  box-shadow: 0 12px 24px rgba(99, 102, 241, 0.32);
+}
+body.dark-mode #tasksModal .task-title { color: #f3f4f6; }
+body.dark-mode #tasksModal .task-desc  { color: #9ca3af; }
+body.dark-mode #tasksModal .task-icon {
+  background: rgba(59,130,246,.14);
+  border-color: rgba(99,102,241,.28);
+}
+
+/* ==============================
+   Tools Modal — List style (match AI/Responsibilities)
+   ============================== */
+
+#toolsModal .modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;                 /* same tight spacing */
+}
+
+/* Each tool row */
+#toolsModal .tool-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.70);
+  border: 1px solid rgba(255, 255, 255, 0.40);
+  box-shadow: 0 6px 18px rgba(31, 38, 135, 0.08);
+  backdrop-filter: blur(10px) saturate(140%);
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
+  transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+}
+#toolsModal .tool-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(251, 191, 36, 0.24); /* amber glow */
+  border-color: rgba(251, 191, 36, 0.35);
+}
+
+/* Left icon badge (optional, for brand/tool icons) */
+#toolsModal .tool-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(251, 191, 36, .12);  /* amber tint */
+  border: 1px solid rgba(251, 191, 36, .28);
+  flex-shrink: 0;
+}
+#toolsModal .tool-icon i,
+#toolsModal .tool-icon svg,
+#toolsModal .tool-icon img {
+  width: 20px; height: 20px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+/* Text block */
+#toolsModal .tool-info {
+  display: flex;
+  flex-direction: column;
+}
+#toolsModal .tool-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111827;
+}
+#toolsModal .tool-desc {
+  margin-top: 2px;
+  font-size: .9rem;
+  color: #4b5563;
+}
+
+/* ---- Dark mode to match the rest ---- */
+body.dark-mode #toolsModal .tool-item {
+  background: rgba(30, 41, 59, 0.65);
+  border-color: rgba(148, 163, 184, 0.20);
+  color: #e5e7eb;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.40);
+}
+body.dark-mode #toolsModal .tool-item:hover {
+  box-shadow: 0 12px 24px rgba(251, 191, 36, 0.30);
+  border-color: rgba(251, 191, 36, 0.40);
+}
+body.dark-mode #toolsModal .tool-title { color: #f3f4f6; }
+body.dark-mode #toolsModal .tool-desc  { color: #9ca3af; }
+body.dark-mode #toolsModal .tool-icon {
+  background: rgba(251, 191, 36, .14);
+  border-color: rgba(251, 191, 36, .32);
+}
+
+/* ==============================
+   SKILLS MODAL — FULL CSS (list + amber accent)
+   ============================== */
+
+/* Make the body a vertical list with tight spacing */
+#skillsModal .modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* distance between items */
+}
+
+/* Each skill item as a glassy list card */
+#skillsModal .skill-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;
+  border-radius: 14px;
+
+  /* neutral glass base + warm edge */
+  background: linear-gradient(135deg, rgba(255,255,255,0.80), rgba(255,255,255,0.68));
+  border: 1px solid rgba(234,179,8,0.20);           /* amber edge */
+  box-shadow:
+    0 6px 18px rgba(31,38,135,0.08),
+    0 8px 30px rgba(234,179,8,0.10);                /* gentle warm glow */
+
+  backdrop-filter: blur(10px) saturate(140%);
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
+  transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+}
+
+/* Hover interaction */
+#skillsModal .skill-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(234,179,8,0.35);
+  box-shadow:
+    0 12px 24px rgba(234,179,8,0.22),
+    0 18px 42px rgba(234,179,8,0.18);
+}
+
+/* Left icon chip (tinted in amber) */
+#skillsModal .skill-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(135deg, #fde68a, #fcd34d); /* amber-200 → 300 */
+  border: 1px solid rgba(234,179,8,0.45);
+  color: #854d0e;                                        /* amber-800 glyphs */
+  flex-shrink: 0;
+}
+#skillsModal .skill-icon i,
+#skillsModal .skill-icon svg,
+#skillsModal .skill-icon img {
+  width: 20px; height: 20px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+/* Text block */
+#skillsModal .skill-info {
+  display: flex;
+  flex-direction: column;
+}
+#skillsModal .skill-info h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0f172a; /* slate-900 */
+}
+#skillsModal .skill-info p {
+  margin-top: 2px;
+  font-size: .9rem;
+  color: #475569; /* slate-600 */
+}
+
+/* -------- Dark mode -------- */
+body.dark-mode #skillsModal .skill-card {
+  background: linear-gradient(135deg, rgba(30,41,59,0.78), rgba(15,23,42,0.72));
+  border-color: rgba(234,179,8,0.25);
+  color: #e5e7eb;
+  box-shadow:
+    0 6px 18px rgba(2,6,23,0.45),
+    0 8px 28px rgba(234,179,8,0.14);
+}
+body.dark-mode #skillsModal .skill-card:hover {
+  border-color: rgba(234,179,8,0.40);
+  box-shadow:
+    0 12px 26px rgba(2,6,23,0.55),
+    0 18px 42px rgba(234,179,8,0.24);
+}
+
+body.dark-mode #skillsModal .skill-icon {
+  background: linear-gradient(135deg, #facc15, #eab308);  /* amber-400 → 500 */
+  border-color: rgba(234,179,8,0.45);
+  color: #1f2937;                                        /* slate-800 for contrast */
+}
+
+body.dark-mode #skillsModal .skill-info h3 { color: #f8fafc; }  /* slate-50 */
+body.dark-mode #skillsModal .skill-info p  { color: #cbd5e1; }  /* slate-300 */
+
+
+
     </style>
+    
 </head>
 
 <body>
@@ -1572,6 +2562,7 @@
                         Hire <span class="text-primary-gradient">live</span> professionals
                     </h1>
                 </div>
+                
 
                 <!-- Right Side Actions -->
                 <div class="flex items-center gap-3">
@@ -1645,10 +2636,9 @@
                              class="w-full h-full object-cover" />
                         
                         <div class="absolute top-6 left-6 right-6 flex items-center justify-between">
-                            <div class="flex items-center gap-2 bg-red-500 text-white px-4 py-2 text-xs font-bold shadow-lg" style="border-radius: 8px;">
-                                <div class="w-2 h-2 bg-white rounded-full animate-pulse"></div>
-                                LIVE
-                            </div>
+                            <div class="live-badge">LIVE</div>
+
+
 
                             <div class="flex gap-3">
                                 <button class="bg-emerald-500 hover:bg-emerald-600 text-white px-3 py-1.5 font-bold transition-all shadow-lg text-sm flex items-center gap-1" style="border-radius: 6px;">
@@ -1714,10 +2704,8 @@
                         <!-- Top Bar with LIVE Badge and Action Buttons -->
                         <div class="absolute top-6 left-6 right-6 flex items-center justify-between">
                             <!-- LIVE Badge -->
-                            <div class="flex items-center gap-2 bg-red-500 text-white px-4 py-2 text-xs font-bold shadow-lg" style="border-radius: 8px;">
-                                <div class="w-2 h-2 bg-white rounded-full animate-pulse"></div>
-                                LIVE
-                            </div>
+                            <div class="live-badge">LIVE</div>
+
 
                             <!-- Action Buttons -->
                             <div class="flex gap-3">
@@ -1786,10 +2774,8 @@
                         <!-- Top Bar with LIVE Badge and Action Buttons -->
                         <div class="absolute top-6 left-6 right-6 flex items-center justify-between">
                             <!-- LIVE Badge -->
-                            <div class="flex items-center gap-2 bg-red-500 text-white px-4 py-2 text-xs font-bold shadow-lg" style="border-radius: 8px;">
-                                <div class="w-2 h-2 bg-white rounded-full animate-pulse"></div>
-                                LIVE
-                            </div>
+                            <div class="live-badge">LIVE</div>
+
 
                             <!-- Action Buttons -->
                             <div class="flex gap-3">
@@ -1858,10 +2844,8 @@
                         <!-- Top Bar with LIVE Badge and Action Buttons -->
                         <div class="absolute top-6 left-6 right-6 flex items-center justify-between">
                             <!-- LIVE Badge -->
-                            <div class="flex items-center gap-2 bg-red-500 text-white px-4 py-2 text-xs font-bold shadow-lg" style="border-radius: 8px;">
-                                <div class="w-2 h-2 bg-white rounded-full animate-pulse"></div>
-                                LIVE
-                            </div>
+                            <div class="live-badge">LIVE</div>
+
 
                             <!-- Action Buttons -->
                             <div class="flex gap-3">
@@ -1929,10 +2913,8 @@
                         <!-- Top Bar with LIVE Badge and Action Buttons -->
                         <div class="absolute top-6 left-6 right-6 flex items-center justify-between">
                             <!-- LIVE Badge -->
-                            <div class="flex items-center gap-2 bg-red-500 text-white px-4 py-2 text-xs font-bold shadow-lg" style="border-radius: 8px;">
-                                <div class="w-2 h-2 bg-white rounded-full animate-pulse"></div>
-                                LIVE
-                            </div>
+                            <div class="live-badge">LIVE</div>
+
 
                             <!-- Action Buttons -->
                             <div class="flex gap-3">
@@ -2000,10 +2982,8 @@
                         <!-- Top Bar with LIVE Badge and Action Buttons -->
                         <div class="absolute top-6 left-6 right-6 flex items-center justify-between">
                             <!-- LIVE Badge -->
-                            <div class="flex items-center gap-2 bg-red-500 text-white px-4 py-2 text-xs font-bold shadow-lg" style="border-radius: 8px;">
-                                <div class="w-2 h-2 bg-white rounded-full animate-pulse"></div>
-                                LIVE
-                            </div>
+                            <div class="live-badge">LIVE</div>
+
 
                             <!-- Action Buttons -->
                             <div class="flex gap-3">
@@ -2071,10 +3051,8 @@
                         <!-- Top Bar with LIVE Badge and Action Buttons -->
                         <div class="absolute top-6 left-6 right-6 flex items-center justify-between">
                             <!-- LIVE Badge -->
-                            <div class="flex items-center gap-2 bg-red-500 text-white px-4 py-2 text-xs font-bold shadow-lg" style="border-radius: 8px;">
-                                <div class="w-2 h-2 bg-white rounded-full animate-pulse"></div>
-                                LIVE
-                            </div>
+                            <div class="live-badge">LIVE</div>
+
 
                             <!-- Action Buttons -->
                             <div class="flex gap-3">
@@ -2142,10 +3120,8 @@
                         <!-- Top Bar with LIVE Badge and Action Buttons -->
                         <div class="absolute top-6 left-6 right-6 flex items-center justify-between">
                             <!-- LIVE Badge -->
-                            <div class="flex items-center gap-2 bg-red-500 text-white px-4 py-2 text-xs font-bold shadow-lg" style="border-radius: 8px;">
-                                <div class="w-2 h-2 bg-white rounded-full animate-pulse"></div>
-                                LIVE
-                            </div>
+                            <div class="live-badge">LIVE</div>
+
 
                             <!-- Action Buttons -->
                             <div class="flex gap-3">
@@ -2213,10 +3189,8 @@
                         <!-- Top Bar with LIVE Badge and Action Buttons -->
                         <div class="absolute top-6 left-6 right-6 flex items-center justify-between">
                             <!-- LIVE Badge -->
-                            <div class="flex items-center gap-2 bg-red-500 text-white px-4 py-2 text-xs font-bold shadow-lg" style="border-radius: 8px;">
-                                <div class="w-2 h-2 bg-white rounded-full animate-pulse"></div>
-                                LIVE
-                            </div>
+                           <div class="live-badge">LIVE</div>
+
 
                             <!-- Action Buttons -->
                             <div class="flex gap-3">

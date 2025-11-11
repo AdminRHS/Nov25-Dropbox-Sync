@@ -43,7 +43,6 @@
 
 3. **Pricing Negotiations:**
    - Multiple clients requesting price reductions
-   - "Marta's client" negotiation: wants 900€ instead of 1000€ for full-time work
    - LinkedIn subscriber services pricing discussion - held firm on rates
    - Storyboard project pricing challenges
 

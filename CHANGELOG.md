@@ -1,5 +1,1265 @@
 # Changelog - 2025-11-11
 
+**Sync Date:** 2025-11-11 14:30:45 UTC
+**Total Changes:** 528 files
+
+## Summary
+
+- **Added:** 73 files
+- **Modified:** 11 files
+- **Deleted:** 444 files
+
+## Changes by Department
+
+### "Design
+
+**Total changes:** 3 files
+
+#### Shymkevych Iryna
+
+**Deleted (3 files):**
+- `daily (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-06).md"`
+- `employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07).html"`
+- `employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07 1).html"`
+
+
+### "Video
+
+**Total changes:** 23 files
+
+#### Azanova Dar\312\274ya
+
+**Deleted (23 files):**
+- `daily.md"`
+- `README.md"`
+- `task.md"`
+- `plans.md"`
+- `task.md"`
+- `task.md"`
+- `plans.md"`
+- `task.md"`
+- `plans.md"`
+- `task.md"`
+- `plans.md"`
+- `plans.md"`
+- `daily.md"`
+- `task.md"`
+- `daily.md"`
+- `daily.md"`
+- `plans.md"`
+- `task.md"`
+- `plans.md"`
+- `daily.md"`
+- `daily.md"`
+- `daily.md"`
+- `Profile Video Editor Azanova Dar\312\274ya.md"`
+
+
+### AI
+
+**Total changes:** 445 files
+
+#### AI prompt log.md
+
+**Modified (1 files):**
+- `AI prompt log.md` (50.06 KB, rev: 0164350a..., modified: 2025-11-11T12:20:38, by: Dropbox User)
+
+#### Artemchuk Nikolay
+
+**Added (17 files):**
+- `daily_processed.md` → `11/daily_processed.md` (82.62 KB, modified: 2025-11-11T11:03:37, by: Dropbox User)
+- `Task_01_Upgrade_Entities_Libraries.md` → `11/Task_01_Upgrade_Entities_Libraries.md` (3.44 KB, modified: 2025-11-11T12:07:37, by: Dropbox User)
+- `Task_03_Create_Employee_Folder_Structure.md` → `11/Task_03_Create_Employee_Folder_Structure.md` (3.30 KB, modified: 2025-11-11T12:07:44, by: Dropbox User)
+- `Task_04_Develop_Department_Specific_Daily_Prompts.md` → `11/Task_04_Develop_Department_Specific_Daily_Prompts.md` (3.32 KB, modified: 2025-11-11T12:07:47, by: Dropbox User)
+- `Task_05_Create_Research_Knowledge_Base_Process.md` → `11/Task_05_Create_Research_Knowledge_Base_Process.md` (3.44 KB, modified: 2025-11-11T12:07:51, by: Dropbox User)
+- `Task_06_Develop_Scripts_Large_File_Processing.md` → `11/Task_06_Develop_Scripts_Large_File_Processing.md` (3.41 KB, modified: 2025-11-11T12:08:00, by: Dropbox User)
+- `Task_07_Set_Up_GitHub_Actions_Repositories.md` → `11/Task_07_Set_Up_GitHub_Actions_Repositories.md` (3.01 KB, modified: 2025-11-11T12:08:05, by: Dropbox User)
+- `Task_08_Create_Mini_Frameworks_Individual_Employees.md` → `11/Task_08_Create_Mini_Frameworks_Individual_Employees.md` (3.12 KB, modified: 2025-11-11T12:08:10, by: Dropbox User)
+- `Task_09_Process_Agent_Transcription_Summaries.md` → `11/Task_09_Process_Agent_Transcription_Summaries.md` (2.79 KB, modified: 2025-11-11T12:08:15, by: Dropbox User)
+- `Task_10_Enhance_Daily_Prompt_Research_Recommendations.md` → `11/Task_10_Enhance_Daily_Prompt_Research_Recommendations.md` (2.90 KB, modified: 2025-11-11T12:08:19, by: Dropbox User)
+- `process_employee_export.py` → `11/process_employee_export.py` (7.18 KB, modified: 2025-11-11T12:20:19, by: Dropbox User)
+- `processing_report.md` → `11/processing_report.md` (2.35 KB, modified: 2025-11-11T12:20:19, by: Dropbox User)
+- `employees_filtered_for_talent.json` → `11/employees_filtered_for_talent.json` (2450.21 KB, modified: 2025-11-11T12:20:19, by: Dropbox User)
+- `Task_02_Process_CRM_Employee_Export.md` → `11/Task_02_Process_CRM_Employee_Export.md` (5.31 KB, modified: 2025-11-11T12:20:32, by: Dropbox User)
+- `Events sources.md` → `11/Events sources.md` (3.68 KB, modified: 2025-11-11T12:35:04, by: Dropbox User)
+- `Chronicle bot setup.md` → `11/Chronicle bot setup.md` (4.36 KB, modified: 2025-11-11T13:11:48, by: Dropbox User)
+- `Calendar_Event_Descriptions_Nov10.md` → `11/Calendar_Event_Descriptions_Nov10.md` (14.57 KB, modified: 2025-11-11T14:10:25, by: Unknown)
+
+#### Niko AI
+
+**Deleted (417 files):**
+- `action.json`
+- `LeadAccount_cluster_0009.json`
+- `LeadAccount_cluster_0146.json`
+- `Client_cluster_0034.json`
+- `LeadAccount_cluster_0038.json`
+- `consolidate_libraries.py`
+- `LeadAccount_cluster_0136.json`
+- `LeadAccount_cluster_0066.json`
+- `Client_cluster_0005.json`
+- `README.md`
+- `Interview_Information.json`
+- `Client_cluster_0053.json`
+- `metadata.json`
+- `LeadAccount_cluster_0125.json`
+- `Client_cluster_0041.json`
+- `Client_cluster_0008.json`
+- `LeadAccount_cluster_0015.json`
+- `Client_cluster_0060.json`
+- `Client_cluster_0068.json`
+- `cities.md`
+- `clean_candidates_and_create_template.ps1`
+- `LeadAccount_cluster_0068.json`
+- `LeadAccount_cluster_0099.json`
+- `06_department_specific_patterns.md`
+- `LeadAccount_cluster_0047.json`
+- `empaddress.json`
+- `LeadAccount_cluster_0070.json`
+- `LeadAccount_cluster_0161.json`
+- `Communication.json`
+- `cities.json`
+- `objects.md`
+- `Client_cluster_0046.json`
+- `PROMPT_Finance_Daily_Report.md`
+- `Client_cluster_0026.json`
+- `LeadAccount_cluster_0115.json`
+- `Client_cluster_0025.json`
+- `Client_cluster_0066.json`
+- `Client_cluster_0074.json`
+- `LeadAccount_cluster_0157.json`
+- `Client_cluster_0095.json`
+- `LeadAccount_cluster_0147.json`
+- `LeadAccount_cluster_0084.json`
+- `README.md`
+- `LeadAccount_cluster_0143.json`
+- `LeadAccount_cluster_0130.json`
+- `Client_cluster_0071.json`
+- `Client_cluster_0019.json`
+- `LeadAccount_cluster_0163.json`
+- `PROMPT_Dev_Daily_Report.md`
+- `clean_candidates_and_create_template.py`
+- `00-SPLITTING_PLAN.md`
+- `LeadAccount_cluster_0078.json`
+- `Client_cluster_0028.json`
+- `LeadAccount_cluster_0148.json`
+- `Client_cluster_0047.json`
+- `countries.json`
+- `Client_cluster_0014.json`
+- `convert_job_account_to_json.ps1`
+- `LeadAccount_cluster_0051.json`
+- `LeadAccount_cluster_0056.json`
+- `split_candidates_clusters.ps1`
+- `Client_cluster_0089.json`
+- `LeadAccount_cluster_0032.json`
+- `LeadAccount_cluster_0129.json`
+- `industry.json`
+- `LeadAccount_cluster_0153.json`
+- `LeadAccount_cluster_0106.json`
+- `left-folder-status-automation.mdc`
+- `Client_cluster_0006.json`
+- `Client_cluster_0016.json`
+- `Client_cluster_0098.json`
+- `Candidate_Salaries.json`
+- `Cleaning_Prompt.md`
+- `LeadAccount_cluster_0127.json`
+- `library_index.json`
+- `LeadAccount_cluster_0094.json`
+- `LeadAccount_cluster_0006.json`
+- `LeadAccount_cluster_0170.json`
+- `LeadAccount_cluster_0105.json`
+- `LeadAccount_cluster_0166.json`
+- `LeadAccount_cluster_0083.json`
+- `MIGRATION_GUIDE.md`
+- `emplstatus.json`
+- `LeadAccount_cluster_0036.json`
+- `LeadAccount_cluster_0011.json`
+- `split_candidates_clusters.py`
+- `05_21_section_framework.md`
+- `Client_cluster_0050.json`
+- `Status_Information.json`
+- `Client_cluster_0064.json`
+- `LeadAccount_cluster_0034.json`
+- `03_vocabulary_standards.md`
+- `LeadAccount_cluster_0073.json`
+- `Client_cluster_0036.json`
+- `Client_cluster_0044.json`
+- `Client_cluster_0030.json`
+- `README.md`
+- `LeadAccount_cluster_0007.json`
+- `LeadAccount_cluster_0095.json`
+- `LeadAccount_cluster_0074.json`
+- `Candidates_Test_Data_10.json`
+- `Sample_LeadAccount_Profile.json`
+- `Client_cluster_0083.json`
+- `LeadAccount_cluster_0154.json`
+- `tool-type.json`
+- `Client_cluster_0085.json`
+- `Client_cluster_0011.json`
+- `classification_summary.md`
+- `Client_cluster_0088.json`
+- `PROMPT_Video_Daily_Report.md`
+- `designation.json`
+- `LeadAccount_cluster_0155.json`
+- `Client_cluster_0043.json`
+- `Client_cluster_0023.json`
+- `LeadAccount_cluster_0012.json`
+- `LeadAccount_cluster_0079.json`
+- `Client_last_1000_old_crm.md`
+- `LeadAccount_cluster_0089.json`
+- `Candidate_Basic_Info.json`
+- `LeadAccount_cluster_0093.json`
+- `LOCATION_UPDATES_NEEDED.md`
+- `LeadAccount_cluster_0052.json`
+- `convert_job_account_to_json.py`
+- `LeadAccount_cluster_0065.json`
+- `LeadAccount_cluster_0167.json`
+- `LeadAccount_cluster_0031.json`
+- `02_project_directory_guidance.md`
+- `LeadAccount_cluster_0090.json`
+- `LeadAccount_cluster_0103.json`
+- `LeadAccount_cluster_0088.json`
+- `version-control-automation.mdc`
+- `LeadAccount_cluster_0160.json`
+- `LeadAccount_cluster_0168.json`
+- `Client_cluster_0061.json`
+- `README_Enhanced_v2.md`
+- `Candidates_cluster_0001_cleaned_v2.json`
+- `Candidates_Listing.json`
+- `LeadAccount_cluster_0112.json`
+- `Client_cluster_0045.json`
+- `industries.json`
+- `TEMPLATE_Enhanced_Department_Prompt.md`
+- `Client_cluster_0001.json`
+- `LeadAccount_cluster_0071.json`
+- `Client_cluster_0029.json`
+- `Status.json`
+- `LeadAccount_cluster_0133.json`
+- `Client_cluster_0003.json`
+- `Client_cluster_0048.json`
+- `prompt-saving-rules.mdc`
+- `LeadAccount_cluster_0100.json`
+- `Proffessions.md`
+- `Client_cluster_0051.json`
+- `Client_cluster_0067.json`
+- `LeadAccount_cluster_0135.json`
+- `LeadAccount_cluster_0082.json`
+- `Education.json`
+- `LeadAccount_cluster_0169.json`
+- `LeadAccount_cluster_0141.json`
+- `LeadAccount_cluster_0108.json`
+- `Department_Position.json`
+- `SUMMARY_REVIEW_PROMPT.md`
+- `Status.md`
+- `verify_consolidation.py`
+- `empl_content.json`
+- `LeadAccount_cluster_0008.json`
+- `LeadAccount_cluster_0022.json`
+- `LeadAccount_cluster_0101.json`
+- `Account_prod.md`
+- `work_experiance.json`
+- `Candidates_Last_1000_old_crm.md`
+- `Client_cluster_0033.json`
+- `LeadAccount_cluster_0026.json`
+- `LeadAccount_cluster_0110.json`
+- `formats.md`
+- `LeadAccount_cluster_0018.json`
+- `video_editing.json`
+- `LeadAccount_cluster_0058.json`
+- `countries.json`
+- `LeadAccount_cluster_0077.json`
+- `LeadAccount_cluster_0020.json`
+- `LeadAccount_cluster_0062.json`
+- `LeadAccount_cluster_0158.json`
+- `PROMPT_Sales_Daily_Report.md`
+- `LeadAccount_cluster_0152.json`
+- `position.json`
+- `LeadAccount_cluster_0042.json`
+- `PROMPT_LG_Daily_Report.md`
+- `Client_cluster_0056.json`
+- `Client_cluster_0062.json`
+- `sub-industry.md`
+- `optional_arrays.json`
+- `LeadAccount_cluster_0104.json`
+- `candidate.json`
+- `sub-industry.json`
+- `LeadAccount_cluster_0111.json`
+- `PROMPT_Daily_Report_Collection.md`
+- `PROMPT_AI_Daily_Report.md`
+- `Work_Experience.json`
+- `Client_cluster_0058.json`
+- `Fields_To_Remove.json`
+- `LeadAccount_cluster_0033.json`
+- `Client_cluster_0092.json`
+- `PROMPT_Design_Daily_Report.md`
+- `LeadAccount_cluster_0144.json`
+- `action.md`
+- `LeadAccount_cluster_0164.json`
+- `LeadAccount_cluster_0045.json`
+- `LeadAccount_cluster_0061.json`
+- `department.json`
+- `LeadAccount_cluster_0081.json`
+- `Client_cluster_0052.json`
+- `candidate_fields_template.json`
+- `LeadAccount_cluster_0024.json`
+- `sub_industries.json`
+- `Job_Account_prod.json`
+- `README.md`
+- `LeadAccount_cluster_0165.json`
+- `Client_cluster_0049.json`
+- `Client_cluster_0079.json`
+- `Client_cluster_0013.json`
+- `LeadAccount_cluster_0055.json`
+- `Client_cluster_0073.json`
+- `LeadAccount_cluster_0096.json`
+- `LeadAccount_cluster_0016.json`
+- `countries.md`
+- `user.json`
+- `LeadAccount_cluster_0053.json`
+- `LeadAccount_cluster_0076.json`
+- `LeadAccount_cluster_0010.json`
+- `Notes_And_Additional.json`
+- `Client_cluster_0084.json`
+- `Client_cluster_0035.json`
+- `Client_cluster_0055.json`
+- `LeadAccount_cluster_0067.json`
+- `01_employee_directory_guidance.md`
+- `Client_cluster_0063.json`
+- `Client_cluster_0031.json`
+- `CONSOLIDATION_SUMMARY.md`
+- `LeadAccount_cluster_0060.json`
+- `LeadAccount_cluster_0059.json`
+- `LeadAccount_cluster_0134.json`
+- `Client_cluster_0017.json`
+- `LeadAccount_cluster_0131.json`
+- `LeadAccount_cluster_0005.json`
+- `LeadAccount_cluster_0116.json`
+- `Client_cluster_0021.json`
+- `LeadAccount_cluster_0151.json`
+- `Client_cluster_0070.json`
+- `Client_cluster_0100.json`
+- `Candidates_cluster_0001_cleaned.json`
+- `Client_cluster_0024.json`
+- `Employees.json`
+- `LeadAccount_cluster_0003.json`
+- `LeadAccount_cluster_0124.json`
+- `LeadAccount_cluster_0069.json`
+- `departments.json`
+- `Client_cluster_0096.json`
+- `Source.json`
+- `Client_cluster_0099.json`
+- `LeadAccount_cluster_0029.json`
+- `Skills.json`
+- `LeadAccount_cluster_0048.json`
+- `Client_cluster_0042.json`
+- `Client_cluster_0090.json`
+- `nullable_fields.json`
+- `LeadAccount_cluster_0044.json`
+- `LeadAccount_cluster_0075.json`
+- `Job_Account_prod.md`
+- `LeadAccount_cluster_0050.json`
+- `LeadAccount_cluster_0107.json`
+- `LeadAccount_cluster_0128.json`
+- `LeadAccount_cluster_0109.json`
+- `cities.json`
+- `Client_cluster_0037.json`
+- `LeadAccount_cluster_0139.json`
+- `Client_cluster_0022.json`
+- `clean_json.ps1`
+- `Client_cluster_0059.json`
+- `Department.md`
+- `LeadAccount_cluster_0002.json`
+- `URLs_And_Documents.json`
+- `Contact_Information.json`
+- `LeadAccount_cluster_0080.json`
+- `tools.json`
+- `Client_cluster_0094.json`
+- `Langs.md`
+- `LeadAccount_cluster_0014.json`
+- `Client_cluster_0091.json`
+- `MAIN PROMPT v3.md`
+- `LeadAccount_old_crm.md`
+- `clean_client_clusters.py`
+- `LeadAccount_cluster_0017.json`
+- `LeadAccount_cluster_0091.json`
+- `convert_libs_to_json.ps1`
+- `Client_cluster_0065.json`
+- `LeadAccount_cluster_0054.json`
+- `Client_cluster_0039.json`
+- `PROMPT_Version_Control_Automation.md`
+- `LeadAccount_cluster_0132.json`
+- `LeadAccount_cluster_0004.json`
+- `Client_cluster_0077.json`
+- `MAIN PROMPT v2.md`
+- `LeadAccount_cluster_0023.json`
+- `LeadAccount_cluster_0162.json`
+- `LeadAccount_cluster_0019.json`
+- `Client_cluster_0009.json`
+- `mcp.json`
+- `Client_cluster_0093.json`
+- `Address.json`
+- `prompt_parts_structure.json`
+- `LeadAccount_cluster_0041.json`
+- `LeadAccount_cluster_0156.json`
+- `tool-type.md`
+- `LeadAccount_cluster_0035.json`
+- `Client_cluster_0086.json`
+- `tools.md`
+- `LeadAccount_cluster_0057.json`
+- `TEMPLATE_VARIABLE_MAPPING.md`
+- `LeadAccount_cluster_0028.json`
+- `LeadAccount_cluster_0030.json`
+- `Dates_And_Times.json`
+- `Client_cluster_0054.json`
+- `Client_cluster_0007.json`
+- `empl_artist.json`
+- `Client_cluster_0080.json`
+- `Client_cluster_0075.json`
+- `Client_cluster_0018.json`
+- `Client_cluster_0040.json`
+- `INDEX.md`
+- `Client_cluster_0082.json`
+- `Client_cluster_0032.json`
+- `Department.json`
+- `LeadAccount_cluster_0039.json`
+- `Client_cluster_0097.json`
+- `LeadAccount_cluster_0085.json`
+- `convert_libs_to_json.py`
+- `IMPLEMENTATION_SUMMARY.md`
+- `LeadAccount_cluster_0118.json`
+- `LeadAccount_cluster_0145.json`
+- `Cleaning_Script_Instructions.md`
+- `LeadAccount_cluster_0040.json`
+- `LeadAccount_cluster_0113.json`
+- `Client_cluster_0087.json`
+- `LeadAccount_cluster_0119.json`
+- `LeadAccount_cluster_0037.json`
+- `LeadAccount_cluster_0063.json`
+- `Client_cluster_0027.json`
+- `Lead_last_1000_old_crm.md`
+- `LeadAccount_cluster_0021.json`
+- `README.md`
+- `HR_Manager.json`
+- `LeadAccount_cluster_0140.json`
+- `Candidates_Simple_Listing.json`
+- `industry.md`
+- `Client_cluster_0038.json`
+- `LeadAccount_cluster_0092.json`
+- `LeadAccount_cluster_0086.json`
+- `LeadAccount_cluster_0121.json`
+- `LeadAccount_cluster_0150.json`
+- `Employee_Unit_Template.json`
+- `formats.json`
+- `DropBox Migration Announcement.md`
+- `Client_cluster_0010.json`
+- `Client_cluster_0057.json`
+- `LeadAccount_cluster_0126.json`
+- `LeadAccount_cluster_0159.json`
+- `LeadAccount_cluster_0120.json`
+- `LeadAccount_cluster_0013.json`
+- `Client_cluster_0076.json`
+- `LeadAccount_cluster_0049.json`
+- `LeadAccount_cluster_0046.json`
+- `Candidates_cluster_0001.json`
+- `Rules automation.md`
+- `Client_cluster_0004.json`
+- `LeadAccount_cluster_0123.json`
+- `LeadAccount_cluster_0171.json`
+- `LeadAccount_cluster_0097.json`
+- `convert_to_json_clusters.ps1`
+- `employee_unit_core.json`
+- `LeadAccount_cluster_0117.json`
+- `LeadAccount_cluster_0025.json`
+- `LeadAccount_cluster_0142.json`
+- `Client_cluster_0012.json`
+- `LeadAccount_cluster_0072.json`
+- `Client_cluster_0078.json`
+- `Client_cluster_0002.json`
+- `LeadAccount_cluster_0064.json`
+- `00-SPLITTING_SUMMARY.md`
+- `Proffessions.json`
+- `LeadAccount_cluster_0001.json`
+- `Sample_Candidate_Profile.json`
+- `LeadAccount_cluster_0114.json`
+- `LeadAccount_cluster_0138.json`
+- `LeadAccount_cluster_0043.json`
+- `README.md`
+- `PROMPT_HR_Daily_Report.md`
+- `Team_Lead.json`
+- `LeadAccount_cluster_0027.json`
+- `Client_cluster_0069.json`
+- `LeadAccount_cluster_0087.json`
+- `Client_cluster_0020.json`
+- `HR_Departments.json`
+- `04_task_object_framework.md`
+- `convert_to_json_clusters.py`
+- `Languages.json`
+- `LeadAccount_cluster_0098.json`
+- `Client_cluster_0081.json`
+- `LeadAccount_cluster_0149.json`
+- `LeadAccount_cluster_0137.json`
+- `VC MAIN PROMPT.md`
+- `LeadAccount_cluster_0102.json`
+- `objects.json`
+- `LeadAccount_cluster_0122.json`
+- `manifest.json`
+- `Client_cluster_0015.json`
+- `Langs.json`
+- `Client_cluster_0072.json`
+
+#### salesnov25
+
+**Added (10 files):**
+- `Quick_Reference_Guide.md` → `documentation/Quick_Reference_Guide.md` (10.34 KB, modified: 2025-11-11T12:49:28, by: Dropbox User)
+- `Enrichment_Tools_Comparison.md` → `research/Enrichment_Tools_Comparison.md` (20.26 KB, modified: 2025-11-11T12:51:39, by: Dropbox User)
+- `1_CRM_Export_Normalizer.md` → `templates/1_CRM_Export_Normalizer.md` (17.09 KB, modified: 2025-11-11T12:30:18, by: Dropbox User)
+- `2_14Day_Action_Plan_Generator.md` → `templates/2_14Day_Action_Plan_Generator.md` (27.71 KB, modified: 2025-11-11T12:33:29, by: Dropbox User)
+- `3_Personalized_Outreach_Writer.md` → `templates/3_Personalized_Outreach_Writer.md` (22.48 KB, modified: 2025-11-11T12:36:08, by: Dropbox User)
+- `4_3Touch_Sequence_Builder.md` → `templates/4_3Touch_Sequence_Builder.md` (28.92 KB, modified: 2025-11-11T12:39:33, by: Dropbox User)
+- `5_PreSend_QA_RiskCheck.md` → `templates/5_PreSend_QA_RiskCheck.md` (23.44 KB, modified: 2025-11-11T12:42:08, by: Dropbox User)
+- `6_Data_Enrichment_Plan.md` → `templates/6_Data_Enrichment_Plan.md` (29.70 KB, modified: 2025-11-11T12:45:13, by: Dropbox User)
+- `README.md` (27.71 KB, modified: 2025-11-11T12:48:11, by: Dropbox User)
+- `PROJECT_SUMMARY.md` (23.14 KB, modified: 2025-11-11T12:54:40, by: Dropbox User)
+
+
+### Design
+
+**Total changes:** 10 files
+
+#### Birook Melese
+
+**Added (1 files):**
+- `Profile Ui Ux Designer Birook Melese.md` (516 bytes, modified: 2025-11-11T11:55:31, by: Dropbox User)
+
+#### Bykova Anastasiia
+
+**Added (1 files):**
+- `Profile Ui Ux Designer Bykova Anastasiia.md` (520 bytes, modified: 2025-11-11T11:55:24, by: Dropbox User)
+
+#### Hlushko Mariia
+
+**Deleted (1 files):**
+- `12.00_call_transcript.md`
+
+#### Mazyickevych Maryna
+
+**Added (1 files):**
+- `Profile Ui Ux Designer Mazyickevych Maryna.md` (520 bytes, modified: 2025-11-11T11:55:15, by: Dropbox User)
+
+#### Potapchuk Anastasiya
+
+**Added (1 files):**
+- `Profile Graphic Designer Potapchuk Anastasiya.md` (525 bytes, modified: 2025-11-11T11:55:21, by: Dropbox User)
+
+#### Reports
+
+**Modified (1 files):**
+- `Daily_Activity_Report_Nov07_2025.md` → `07/Daily_Activity_Report_Nov07_2025.md` (19.00 KB, rev: 016434f1..., modified: 2025-11-11T10:27:10, by: Dropbox User)
+
+#### Safonova Eleonora
+
+**Modified (1 files):**
+- `daily.md` → `11/daily.md` (17.32 KB, rev: 016434ff..., modified: 2025-11-11T11:31:11, by: Dropbox User)
+
+#### Shymkevych Iryna
+
+**Added (2 files):**
+- `daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md` → `06/daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md` (13.51 KB, modified: 2025-11-06T16:13:37, by: Dropbox User)
+- `employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html` → `05/employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html` (24.40 KB, modified: 2025-11-07T14:02:58, by: Dropbox User)
+
+**Modified (1 files):**
+- `index.html` → `10/index.html` (145.02 KB, rev: 01643523..., modified: 2025-11-11T14:12:13, by: Dropbox User)
+
+
+### Dev
+
+**Total changes:** 8 files
+
+#### Artem Skichko
+
+**Added (1 files):**
+- `Profile Front End Developer Artem Skichko.md` (523 bytes, modified: 2025-11-11T11:55:28, by: Dropbox User)
+
+#### Azar Imranov
+
+**Added (1 files):**
+- `Profile Full Stack Developer Azar Imranov.md` (523 bytes, modified: 2025-11-11T11:55:30, by: Dropbox User)
+
+#### Danylenko Liliia
+
+**Added (2 files):**
+- `commet.md` → `11/commet.md` (9.88 KB, modified: 2025-11-11T11:15:58, by: Dropbox User)
+- `Profile Full Stack Developer Danylenko Liliia.md` (522 bytes, modified: 2025-11-11T11:55:25, by: Dropbox User)
+
+**Modified (1 files):**
+- `daily.md` → `11/daily.md` (25.50 KB, rev: 0164351c..., modified: 2025-11-11T13:38:30, by: Dropbox User)
+
+#### Klimenko Yaroslav
+
+**Modified (1 files):**
+- `daily.md` → `11/daily.md` (7.14 KB, rev: 01643523..., modified: 2025-11-11T14:09:45, by: Dropbox User)
+
+#### Lychagin Roman
+
+**Added (1 files):**
+- `Profile Full Stack Developer Lychagin Roman.md` (525 bytes, modified: 2025-11-11T11:55:12, by: Dropbox User)
+
+#### Okunievskyi Volodymyr
+
+**Added (1 files):**
+- `Profile Front End Developer Okunievskyi Volodymyr.md` (529 bytes, modified: 2025-11-11T11:55:20, by: Dropbox User)
+
+
+### LG
+
+**Total changes:** 16 files
+
+#### Berdychevska Anastasiia
+
+**Added (1 files):**
+- `Profile Lead Generator Berdychevska Anastasiia.md` (524 bytes, modified: 2025-11-11T11:55:14, by: Dropbox User)
+
+#### Bessarab Valeriia
+
+**Modified (1 files):**
+- `Profile Lead generator Bessarab Valeriia.md` (2.98 KB, rev: 01643505..., modified: 2025-11-11T11:54:58, by: Dropbox User)
+
+#### Bindiak Dana
+
+**Modified (1 files):**
+- `daily.md` → `11/daily.md` (1.43 KB, rev: 016434c9..., modified: 2025-11-11T07:29:08, by: Dropbox User)
+
+#### Burda Anna
+
+**Modified (1 files):**
+- `daily.md` → `11/daily.md` (13.47 KB, rev: 01643522..., modified: 2025-11-11T14:06:51, by: Dropbox User)
+
+#### Cynthia Chinemerem Uzoh
+
+**Added (1 files):**
+- `Profile Lead Generator Cynthia Chinemerem Uzoh.md` (528 bytes, modified: 2025-11-11T11:55:27, by: Dropbox User)
+
+#### Davlatdodova Kibriyo
+
+**Modified (1 files):**
+- `Profile Lead generator Davlatdodova Kibriyo.md` (2.49 KB, rev: 01643505..., modified: 2025-11-11T11:54:56, by: Dropbox User)
+
+#### Kamenskaya Alina
+
+**Added (1 files):**
+- `Profile Lead Generator Kamenskaya Alina.md` (519 bytes, modified: 2025-11-11T11:55:23, by: Dropbox User)
+
+#### LG prompt log.md
+
+**Modified (1 files):**
+- `LG prompt log.md` (7.48 KB, rev: 01643524..., modified: 2025-11-11T14:13:23, by: Dropbox User)
+
+#### Lead Generation Department
+
+**Added (4 files):**
+- `replies.md` (142.38 KB, modified: 2025-11-11T14:11:03, by: Dropbox User)
+- `prompts.md` (12.98 KB, modified: 2025-11-11T14:11:32, by: Dropbox User)
+- `messages_history.md` (0 bytes, modified: 2025-11-11T14:11:57, by: Dropbox User)
+- `Copy of PROMPT for LG custom projects - September 26, 3_21 PM.md` (13.11 KB, modified: 2025-11-11T14:12:23, by: Dropbox User)
+
+#### Peneva Plamena
+
+**Added (1 files):**
+- `daily.md` → `11/daily.md` (0 bytes, modified: 2025-11-11T11:31:43, by: Dropbox User)
+
+#### Petrova Evelina
+
+**Added (1 files):**
+- `Profile Lead Generator Petrova Evelina.md` (520 bytes, modified: 2025-11-11T11:55:18, by: Dropbox User)
+
+#### Polina Nastich
+
+**Added (1 files):**
+- `Profile Lead Generator Polina Nastich.md` (515 bytes, modified: 2025-11-11T11:55:33, by: Dropbox User)
+
+#### Tsyupko Myroslava
+
+**Added (1 files):**
+- `Profile Lead Generator Tsyupko Myroslava.md` (518 bytes, modified: 2025-11-11T11:55:34, by: Dropbox User)
+
+
+### Video
+
+**Total changes:** 23 files
+
+#### Azanova Darʼya
+
+**Added (23 files):**
+- `daily.md` → `03/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `03/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `03/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `04/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `04/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `daily.md` → `04/daily.md` (11.84 KB, modified: 2025-11-04T18:15:17, by: Dropbox User)
+- `daily.md` → `05/daily.md` (59.02 KB, modified: 2025-11-05T18:00:45, by: Dropbox User)
+- `plans.md` → `05/plans.md` (4.01 KB, modified: 2025-11-05T18:01:19, by: Dropbox User)
+- `task.md` → `05/task.md` (14.98 KB, modified: 2025-11-05T18:02:50, by: Dropbox User)
+- `daily.md` → `06/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `06/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `06/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `daily.md` → `07/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `07/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `07/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `README.md` (1.58 KB, modified: 2025-10-23T15:13:48, by: Dropbox User)
+- `task.md` → `08/task.md` (0 bytes, modified: 2025-11-07T10:38:46, by: Dropbox User)
+- `plans.md` → `08/plans.md` (0 bytes, modified: 2025-11-07T10:38:46, by: Dropbox User)
+- `daily.md` → `08/daily.md` (0 bytes, modified: 2025-11-07T10:38:47, by: Dropbox User)
+- `Profile Video Editor Azanova Darʼya.md` (1.36 KB, modified: 2025-11-07T10:02:41, by: Dropbox User)
+- `daily.md` → `10/daily.md` (36.02 KB, modified: 2025-11-10T15:57:12, by: Dropbox User)
+- `plans.md` → `10/plans.md` (4.79 KB, modified: 2025-11-10T15:57:54, by: Dropbox User)
+- `task.md` → `10/task.md` (30.54 KB, modified: 2025-11-10T16:01:19, by: Dropbox User)
+
+
+## All Changes
+
+### Added Files
+
+- `Design/Shymkevych Iryna/06/daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md`
+- `Design/Shymkevych Iryna/05/employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html`
+- `Dev/Danylenko Liliia/11/commet.md`
+- `Dev/Lychagin Roman/Profile Full Stack Developer Lychagin Roman.md`
+- `Dev/Okunievskyi Volodymyr/Profile Front End Developer Okunievskyi Volodymyr.md`
+- `Dev/Danylenko Liliia/Profile Full Stack Developer Danylenko Liliia.md`
+- `Dev/Artem Skichko/Profile Front End Developer Artem Skichko.md`
+- `Dev/Azar Imranov/Profile Full Stack Developer Azar Imranov.md`
+- `LG/Peneva Plamena/11/daily.md`
+- `LG/Berdychevska Anastasiia/Profile Lead Generator Berdychevska Anastasiia.md`
+- `LG/Petrova Evelina/Profile Lead Generator Petrova Evelina.md`
+- `LG/Kamenskaya Alina/Profile Lead Generator Kamenskaya Alina.md`
+- `LG/Cynthia Chinemerem Uzoh/Profile Lead Generator Cynthia Chinemerem Uzoh.md`
+- `LG/Polina Nastich/Profile Lead Generator Polina Nastich.md`
+- `LG/Tsyupko Myroslava/Profile Lead Generator Tsyupko Myroslava.md`
+- `LG/Lead Generation Department/replies.md`
+- `LG/Lead Generation Department/prompts.md`
+- `LG/Lead Generation Department/messages_history.md`
+- `LG/Lead Generation Department/Copy of PROMPT for LG custom projects - September 26, 3_21 PM.md`
+- `Video/Azanova Darʼya/03/daily.md`
+- `Video/Azanova Darʼya/03/plans.md`
+- `Video/Azanova Darʼya/03/task.md`
+- `Video/Azanova Darʼya/04/plans.md`
+- `Video/Azanova Darʼya/04/task.md`
+- `Video/Azanova Darʼya/04/daily.md`
+- `Video/Azanova Darʼya/05/daily.md`
+- `Video/Azanova Darʼya/05/plans.md`
+- `Video/Azanova Darʼya/05/task.md`
+- `Video/Azanova Darʼya/06/daily.md`
+- `Video/Azanova Darʼya/06/plans.md`
+- `Video/Azanova Darʼya/06/task.md`
+- `Video/Azanova Darʼya/07/daily.md`
+- `Video/Azanova Darʼya/07/plans.md`
+- `Video/Azanova Darʼya/07/task.md`
+- `Video/Azanova Darʼya/README.md`
+- `Video/Azanova Darʼya/08/task.md`
+- `Video/Azanova Darʼya/08/plans.md`
+- `Video/Azanova Darʼya/08/daily.md`
+- `Video/Azanova Darʼya/Profile Video Editor Azanova Darʼya.md`
+- `Video/Azanova Darʼya/10/daily.md`
+- `Video/Azanova Darʼya/10/plans.md`
+- `Video/Azanova Darʼya/10/task.md`
+- `AI/Artemchuk Nikolay/11/daily_processed.md`
+- `AI/Artemchuk Nikolay/11/Task_01_Upgrade_Entities_Libraries.md`
+- `AI/Artemchuk Nikolay/11/Task_03_Create_Employee_Folder_Structure.md`
+- `AI/Artemchuk Nikolay/11/Task_04_Develop_Department_Specific_Daily_Prompts.md`
+- `AI/Artemchuk Nikolay/11/Task_05_Create_Research_Knowledge_Base_Process.md`
+- `AI/Artemchuk Nikolay/11/Task_06_Develop_Scripts_Large_File_Processing.md`
+- `AI/Artemchuk Nikolay/11/Task_07_Set_Up_GitHub_Actions_Repositories.md`
+- `AI/Artemchuk Nikolay/11/Task_08_Create_Mini_Frameworks_Individual_Employees.md`
+- `AI/Artemchuk Nikolay/11/Task_09_Process_Agent_Transcription_Summaries.md`
+- `AI/Artemchuk Nikolay/11/Task_10_Enhance_Daily_Prompt_Research_Recommendations.md`
+- `AI/Artemchuk Nikolay/11/process_employee_export.py`
+- `AI/Artemchuk Nikolay/11/processing_report.md`
+- `AI/Artemchuk Nikolay/11/employees_filtered_for_talent.json`
+- `AI/Artemchuk Nikolay/11/Task_02_Process_CRM_Employee_Export.md`
+- `AI/Artemchuk Nikolay/11/Events sources.md`
+- `AI/salesnov25/documentation/Quick_Reference_Guide.md`
+- `AI/salesnov25/research/Enrichment_Tools_Comparison.md`
+- `AI/salesnov25/templates/1_CRM_Export_Normalizer.md`
+- `AI/salesnov25/templates/2_14Day_Action_Plan_Generator.md`
+- `AI/salesnov25/templates/3_Personalized_Outreach_Writer.md`
+- `AI/salesnov25/templates/4_3Touch_Sequence_Builder.md`
+- `AI/salesnov25/templates/5_PreSend_QA_RiskCheck.md`
+- `AI/salesnov25/templates/6_Data_Enrichment_Plan.md`
+- `AI/salesnov25/README.md`
+- `AI/salesnov25/PROJECT_SUMMARY.md`
+- `AI/Artemchuk Nikolay/11/Chronicle bot setup.md`
+- `AI/Artemchuk Nikolay/11/Calendar_Event_Descriptions_Nov10.md`
+- `Design/Mazyickevych Maryna/Profile Ui Ux Designer Mazyickevych Maryna.md`
+- `Design/Potapchuk Anastasiya/Profile Graphic Designer Potapchuk Anastasiya.md`
+- `Design/Bykova Anastasiia/Profile Ui Ux Designer Bykova Anastasiia.md`
+- `Design/Birook Melese/Profile Ui Ux Designer Birook Melese.md`
+
+### Modified Files
+
+- `Dev/Danylenko Liliia/11/daily.md`
+- `Dev/Klimenko Yaroslav/11/daily.md`
+- `LG/Bindiak Dana/11/daily.md`
+- `LG/Davlatdodova Kibriyo/Profile Lead generator Davlatdodova Kibriyo.md`
+- `LG/Bessarab Valeriia/Profile Lead generator Bessarab Valeriia.md`
+- `LG/Burda Anna/11/daily.md`
+- `LG/LG prompt log.md`
+- `AI/AI prompt log.md`
+- `Design/Reports/07/Daily_Activity_Report_Nov07_2025.md`
+- `Design/Safonova Eleonora/11/daily.md`
+- `Design/Shymkevych Iryna/10/index.html`
+
+### Deleted Files
+
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/action.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0009.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0146.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0034.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0038.json`
+- `AI/Niko AI/ExportCRMS/scripts/consolidate_libraries.py`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0136.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0066.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0005.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_v1/README.md`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/Interview_Information.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0053.json`
+- `AI/Niko AI/Employees/units/metadata.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0125.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0041.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0008.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0015.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0060.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0068.json`
+- `AI/Niko AI/ExportCRMS/Libs CRM/cities.md`
+- `AI/Niko AI/ExportCRMS/scripts/clean_candidates_and_create_template.ps1`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0068.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0099.json`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/docs/06_department_specific_patterns.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0047.json`
+- `"Design/Shymkevych Iryna/06/daily (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-06).md"`
+- `AI/Niko AI/Employees/units/empaddress.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0070.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0161.json`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/Communication.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/locations/cities.json`
+- `AI/Niko AI/ExportCRMS/Libs CRM/objects.md`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0046.json`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/PROMPT_Finance_Daily_Report.md`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0026.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0115.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0025.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0066.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0074.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0157.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0095.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0147.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0084.json`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/README.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0143.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0130.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0071.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0019.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0163.json`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/PROMPT_Dev_Daily_Report.md`
+- `AI/Niko AI/ExportCRMS/scripts/clean_candidates_and_create_template.py`
+- `AI/Niko AI/00-SPLITTING_PLAN.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0078.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0028.json`
+- `"Video/Azanova Dar\312\274ya/10/daily.md"`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0148.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0047.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/countries.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0014.json`
+- `AI/Niko AI/ExportCRMS/scripts/convert_job_account_to_json.ps1`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0051.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0056.json`
+- `AI/Niko AI/ExportCRMS/scripts/split_candidates_clusters.ps1`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0089.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0032.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0129.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/industry.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0153.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0106.json`
+- `AI/Niko AI/.cursor/rules/left-folder-status-automation.mdc`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0006.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0016.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0098.json`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/Candidate_Salaries.json`
+- `AI/Niko AI/Employees/Cleaning_Prompt.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0127.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/library_index.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0094.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0006.json`
+- `"Video/Azanova Dar\312\274ya/README.md"`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0170.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0105.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0166.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0083.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/MIGRATION_GUIDE.md`
+- `AI/Niko AI/Employees/units/emplstatus.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0036.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0011.json`
+- `AI/Niko AI/ExportCRMS/scripts/split_candidates_clusters.py`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/docs/05_21_section_framework.md`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0050.json`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/Status_Information.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0064.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0034.json`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/docs/03_vocabulary_standards.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0073.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0036.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0044.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0030.json`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/README.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0007.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0095.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0074.json`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/Candidates_Test_Data_10.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/Sample_LeadAccount_Profile.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0083.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0154.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/tool-type.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0085.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0011.json`
+- `"Video/Azanova Dar\312\274ya/07/task.md"`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/classification_summary.md`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0088.json`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/PROMPT_Video_Daily_Report.md`
+- `AI/Niko AI/Employees/units/designation.json`
+- `"Video/Azanova Dar\312\274ya/06/plans.md"`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0155.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0043.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0023.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0012.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0079.json`
+- `AI/Niko AI/ExportCRMS/Client_last_1000_old_crm.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0089.json`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/Candidate_Basic_Info.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0093.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/LOCATION_UPDATES_NEEDED.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0052.json`
+- `AI/Niko AI/ExportCRMS/scripts/convert_job_account_to_json.py`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0065.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0167.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0031.json`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/docs/02_project_directory_guidance.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0090.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0103.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0088.json`
+- `AI/Niko AI/.cursor/rules/version-control-automation.mdc`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0160.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0168.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0061.json`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/README_Enhanced_v2.md`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidates_cluster_0001_cleaned_v2.json`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/Candidates_Listing.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0112.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0045.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/business/industries.json`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/TEMPLATE_Enhanced_Department_Prompt.md`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0001.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0071.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0029.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/Status.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0133.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0003.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0048.json`
+- `"Video/Azanova Dar\312\274ya/05/task.md"`
+- `AI/Niko AI/.cursor/rules/prompt-saving-rules.mdc`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0100.json`
+- `AI/Niko AI/ExportCRMS/Libs CRM/Proffessions.md`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0051.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0067.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0135.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0082.json`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/Education.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0169.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0141.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0108.json`
+- `"Design/Shymkevych Iryna/05/employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07).html"`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/Department_Position.json`
+- `AI/Niko AI/SUMMARY_REVIEW_PROMPT.md`
+- `AI/Niko AI/ExportCRMS/Libs CRM/Status.md`
+- `AI/Niko AI/ExportCRMS/scripts/verify_consolidation.py`
+- `"Video/Azanova Dar\312\274ya/03/task.md"`
+- `AI/Niko AI/Employees/units/empl_content.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0008.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0022.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0101.json`
+- `AI/Niko AI/ExportCRMS/Account_prod.md`
+- `AI/Niko AI/Employees/units/work_experiance.json`
+- `AI/Niko AI/ExportCRMS/Candidates_Last_1000_old_crm.md`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0033.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0026.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0110.json`
+- `AI/Niko AI/ExportCRMS/Libs CRM/formats.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0018.json`
+- `AI/Niko AI/Employees/units/video_editing.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0058.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/locations/countries.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0077.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0020.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0062.json`
+- `"Video/Azanova Dar\312\274ya/07/plans.md"`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0158.json`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/PROMPT_Sales_Daily_Report.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0152.json`
+- `AI/Niko AI/Employees/units/position.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0042.json`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/PROMPT_LG_Daily_Report.md`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0056.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0062.json`
+- `AI/Niko AI/ExportCRMS/Libs CRM/sub-industry.md`
+- `AI/Niko AI/Employees/units/optional_arrays.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0104.json`
+- `"Video/Azanova Dar\312\274ya/10/task.md"`
+- `AI/Niko AI/Employees/units/candidate.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/sub-industry.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0111.json`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/PROMPT_Daily_Report_Collection.md`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/PROMPT_AI_Daily_Report.md`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/Work_Experience.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0058.json`
+- `AI/Niko AI/Employees/Fields_To_Remove.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0033.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0092.json`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/PROMPT_Design_Daily_Report.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0144.json`
+- `AI/Niko AI/ExportCRMS/Libs CRM/action.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0164.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0045.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0061.json`
+- `AI/Niko AI/Employees/units/department.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0081.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0052.json`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/candidate_fields_template.json`
+- `"Video/Azanova Dar\312\274ya/03/plans.md"`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0024.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/business/sub_industries.json`
+- `AI/Niko AI/ExportCRMS/JSON/Job_Account_prod.json`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/docs/README.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0165.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0049.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0079.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0013.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0055.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0073.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0096.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0016.json`
+- `AI/Niko AI/ExportCRMS/Libs CRM/countries.md`
+- `AI/Niko AI/Employees/units/user.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0053.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0076.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0010.json`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/Notes_And_Additional.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0084.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0035.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0055.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0067.json`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/docs/01_employee_directory_guidance.md`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0063.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0031.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/CONSOLIDATION_SUMMARY.md`
+- `"Video/Azanova Dar\312\274ya/08/task.md"`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0060.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0059.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0134.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0017.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0131.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0005.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0116.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0021.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0151.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0070.json`
+- `"Video/Azanova Dar\312\274ya/10/plans.md"`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0100.json`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidates_cluster_0001_cleaned.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0024.json`
+- `AI/Niko AI/ExportCRMS/Employees.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0003.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0124.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0069.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/business/departments.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0096.json`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/Source.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0099.json`
+- `"Video/Azanova Dar\312\274ya/04/plans.md"`
+- `"Video/Azanova Dar\312\274ya/05/daily.md"`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0029.json`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/Skills.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0048.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0042.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0090.json`
+- `AI/Niko AI/Employees/units/nullable_fields.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0044.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0075.json`
+- `AI/Niko AI/ExportCRMS/Job_Account_prod.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0050.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0107.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0128.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0109.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/cities.json`
+- `"Video/Azanova Dar\312\274ya/06/task.md"`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0037.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0139.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0022.json`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/scripts/clean_json.ps1`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0059.json`
+- `AI/Niko AI/ExportCRMS/Libs CRM/Department.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0002.json`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/URLs_And_Documents.json`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/Contact_Information.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0080.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/tools.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0094.json`
+- `AI/Niko AI/ExportCRMS/Libs CRM/Langs.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0014.json`
+- `"Video/Azanova Dar\312\274ya/03/daily.md"`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0091.json`
+- `AI/Niko AI/Prompts/MAIN PROMPT v3.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_old_crm.md`
+- `AI/Niko AI/ExportCRMS/scripts/clean_client_clusters.py`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0017.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0091.json`
+- `AI/Niko AI/ExportCRMS/scripts/convert_libs_to_json.ps1`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0065.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0054.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0039.json`
+- `AI/Niko AI/Prompts/PROMPT_Version_Control_Automation.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0132.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0004.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0077.json`
+- `AI/Niko AI/Prompts/MAIN PROMPT v2.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0023.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0162.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0019.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0009.json`
+- `AI/Niko AI/.cursor/mcp.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0093.json`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/Address.json`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/prompt_parts_structure.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0041.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0156.json`
+- `AI/Niko AI/ExportCRMS/Libs CRM/tool-type.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0035.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0086.json`
+- `AI/Niko AI/ExportCRMS/Libs CRM/tools.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0057.json`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/TEMPLATE_VARIABLE_MAPPING.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0028.json`
+- `"Video/Azanova Dar\312\274ya/07/daily.md"`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0030.json`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/Dates_And_Times.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0054.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0007.json`
+- `AI/Niko AI/Employees/units/empl_artist.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0080.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0075.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0018.json`
+- `"Video/Azanova Dar\312\274ya/08/plans.md"`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0040.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/INDEX.md`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0082.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0032.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/Department.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0039.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0097.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0085.json`
+- `"Video/Azanova Dar\312\274ya/04/task.md"`
+- `AI/Niko AI/ExportCRMS/scripts/convert_libs_to_json.py`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/IMPLEMENTATION_SUMMARY.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0118.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0145.json`
+- `AI/Niko AI/Employees/Cleaning_Script_Instructions.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0040.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0113.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0087.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0119.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0037.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0063.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0027.json`
+- `AI/Niko AI/ExportCRMS/Lead_last_1000_old_crm.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0021.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_Consolidated/README.md`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/HR_Manager.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0140.json`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidates_Simple_Listing.json`
+- `AI/Niko AI/ExportCRMS/Libs CRM/industry.md`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0038.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0092.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0086.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0121.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0150.json`
+- `AI/Niko AI/Employees/Employee_Unit_Template.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/formats.json`
+- `AI/Niko AI/Prompts/Prompts to run/DropBox Migration Announcement.md`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0010.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0057.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0126.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0159.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0120.json`
+- `Design/Hlushko Mariia/11/12.00_call_transcript.md`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0013.json`
+- `"Video/Azanova Dar\312\274ya/05/plans.md"`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0076.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0049.json`
+- `"Video/Azanova Dar\312\274ya/08/daily.md"`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0046.json`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidates_cluster_0001.json`
+- `AI/Niko AI/Prompts/Prompts to run/Rules automation.md`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0004.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0123.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0171.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0097.json`
+- `AI/Niko AI/ExportCRMS/scripts/convert_to_json_clusters.ps1`
+- `"Video/Azanova Dar\312\274ya/06/daily.md"`
+- `AI/Niko AI/Employees/units/employee_unit_core.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0117.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0025.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0142.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0012.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0072.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0078.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0002.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0064.json`
+- `AI/Niko AI/00-SPLITTING_SUMMARY.md`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/Proffessions.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0001.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/Sample_Candidate_Profile.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0114.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0138.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0043.json`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/README.md`
+- `"Video/Azanova Dar\312\274ya/04/daily.md"`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/PROMPT_HR_Daily_Report.md`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/Team_Lead.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0027.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0069.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0087.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0020.json`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/HR_Departments.json`
+- `AI/Niko AI/Prompts/PROMPT_Daily_Report_Collection/constructor/docs/04_task_object_framework.md`
+- `AI/Niko AI/ExportCRMS/scripts/convert_to_json_clusters.py`
+- `"Design/Shymkevych Iryna/05/employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07 1).html"`
+- `AI/Niko AI/ExportCRMS/Candidates_JSON_Clusters/Candidate Info/Languages.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0098.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0081.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0149.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0137.json`
+- `AI/Niko AI/Prompts/Version Control/VC MAIN PROMPT.md`
+- `"Video/Azanova Dar\312\274ya/Profile Video Editor Azanova Dar\312\274ya.md"`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0102.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/objects.json`
+- `AI/Niko AI/ExportCRMS/LeadAccount_JSON_Clusters/LeadAccount_cluster_0122.json`
+- `AI/Niko AI/Employees/units/manifest.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0015.json`
+- `AI/Niko AI/ExportCRMS/JSON/Libs_JSON_old/Langs.json`
+- `AI/Niko AI/ExportCRMS/Client_JSON_Clusters/Client_cluster_0072.json`
+
+
+---
+*Generated automatically by Dropbox to GitHub sync*
+
+
+# Changelog - 2025-11-11
+
 **Sync Date:** 2025-11-11 10:36:16 UTC
 **Total Changes:** 148 files
 

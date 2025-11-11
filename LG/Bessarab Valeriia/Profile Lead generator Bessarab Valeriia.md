@@ -16,10 +16,10 @@
 
 ## Position
 
-- **Profession:** lead generator
+- **Profession:** sales manager
 - **Shift:** Day
 - **Rate:** 1
-- **Status:** Available
+- **Status:** Work
 
 ## Skills
 
