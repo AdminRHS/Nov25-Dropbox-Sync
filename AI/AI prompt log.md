@@ -4,6 +4,20 @@ This file contains all prompts and AI responses for the AI department.
 
 ----
 
+----
+
+**Request**: look though employees profiles and find me a candidate based on this conversation: (Russian text)
+
+**Details**:
+1. Reviewed available employee profiles across departments with focus on content organization, feedback collection, and engagement tracking skills.
+2. Filtered out employees marked with Project status and excluded Artemchuk Nikolay per instruction.
+3. Identified and ranked top available candidates (Nataliia Rybak, Elizabeth Adesina, Archibong Isaac, Dana Bindiak) matching the conversation requirements.
+4. Prepared summary of strengths, availability, and rationale for primary and secondary recommendations.
+
+**Result**: Provided ranked candidate recommendations prioritizing Nataliia Rybak, with supporting options in case additional capacity is needed.
+
+----
+
 **Request**: Перенастроить автоматическое логирование Cursor так, чтобы логи сохранялись в папки департаментов Nov25 с отдельными файлами для каждого департамента (AI, Design, Dev, LG, Video), названными "{Department Name} prompt log.md".
 
 **Details**:
