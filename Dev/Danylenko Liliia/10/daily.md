@@ -1,4 +1,4 @@
-# Daily Log - November 10, 2025
+﻿# Daily Log - November 10, 2025
 
 ## Instructions
 
