@@ -1299,14 +1299,10 @@
         }
 
         .modal-content {
-            background: linear-gradient(135deg, #ffffff 0%, #f7fafc 100%);
-            border-radius: 16px;
-            width: 90vw;
-            max-width: 420px;
-            padding: 0;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
-            border: 1px solid rgba(0, 0, 0, 0.1);
-        }
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
 
         .modal-header {
             display: flex;
@@ -1956,7 +1952,465 @@
         .action-btn svg {
             flex-shrink: 0;
         }
+
+/* ==========================
+   AI POPUP WINDOW — refined design
+   ========================== */
+
+#aiModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  width: 90%;
+  max-width: 560px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, rgba(250, 250, 255, 0.32), rgba(255, 255, 255, 0.18));
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(30px) saturate(180%);
+  -webkit-backdrop-filter: blur(30px) saturate(180%);
+  box-shadow:
+    0 4px 25px rgba(31, 38, 135, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.45);
+  padding: 26px 32px 30px;
+  opacity: 1;
+  pointer-events: auto;
+  color: #0f172a;
+}
+
+/* Header */
+#aiModal .modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+#aiModal .modal-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #3b82f6, #6366f1, #22d3ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#aiModal .modal-close {
+  border: none;
+  background: none;
+  color: #475569;
+  cursor: pointer;
+  font-size: 1.25rem;
+  transition: color 0.2s ease;
+}
+#aiModal .modal-close:hover {
+  color: #2563eb;
+}
+
+/* Body */
+#aiModal .modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+/* Tool Card */
+#aiModal .tool-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-radius: 16px;
+  padding: 14px 18px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.7), rgba(255,255,255,0.6));
+  border: 1px solid rgba(255,255,255,0.4);
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  transition: all 0.25s ease;
+  cursor: default;
+}
+#aiModal .tool-card:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0 10px 25px rgba(59,130,246,0.15),
+    inset 0 1px 0 rgba(255,255,255,0.5);
+}
+
+/* Individual accent colors */
+#aiModal .tool-card:nth-child(1) {
+  background: linear-gradient(135deg, rgba(236,253,245,0.85), rgba(209,250,229,0.65));
+  border-color: rgba(16,185,129,0.3);
+}
+#aiModal .tool-card:nth-child(2) {
+  background: linear-gradient(135deg, rgba(245,243,255,0.85), rgba(237,233,254,0.65));
+  border-color: rgba(139,92,246,0.3);
+}
+
+/* Icon boxes */
+#aiModal .tool-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+#aiModal .tool-card:nth-child(1) .tool-icon {
+  background: #10b981;
+}
+#aiModal .tool-card:nth-child(2) .tool-icon {
+  background: #8b5cf6;
+}
+#aiModal .tool-icon img {
+  width: 28px;
+  height: 28px;
+}
+
+/* Text */
+#aiModal .tool-info h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+#aiModal .tool-info p {
+  font-size: 0.88rem;
+  color: #475569;
+  margin-top: 2px;
+}
+
+/* Dark Mode */
+body.dark-mode #aiModal {
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.75), rgba(17, 24, 39, 0.65));
+  border-color: rgba(148, 163, 184, 0.25);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
+}
+body.dark-mode #aiModal .tool-card {
+  background: rgba(30, 41, 59, 0.7);
+  border-color: rgba(148, 163, 184, 0.2);
+}
+body.dark-mode #aiModal .tool-card:hover {
+  box-shadow: 0 12px 26px rgba(99, 102, 241, 0.3);
+}
+body.dark-mode #aiModal .tool-card:nth-child(1) {
+  background: rgba(20, 83, 45, 0.4);
+  border-color: rgba(16,185,129,0.4);
+}
+body.dark-mode #aiModal .tool-card:nth-child(2) {
+  background: rgba(88, 28, 135, 0.35);
+  border-color: rgba(139,92,246,0.4);
+}
+body.dark-mode #aiModal .tool-info h3 {
+  color: #f9fafb;
+}
+body.dark-mode #aiModal .tool-info p {
+  color: #9ca3af;
+}
+
+/* ==========================================
+   RESPONSIBILITIES MODAL — MATCH AI STYLE
+   ========================================== */
+
+#tasksModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 560px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.32), rgba(255, 255, 255, 0.18));
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(25px) saturate(180%);
+  -webkit-backdrop-filter: blur(25px) saturate(180%);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.25);
+  padding: 26px 32px 30px;
+  color: #0f172a;
+}
+
+/* Remove inner white background */
+#tasksModal .modal-content {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+/* Header */
+#tasksModal .modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+#tasksModal .modal-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #8b5cf6, #a855f7, #c084fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#tasksModal .modal-close {
+  border: none;
+  background: none;
+  color: #475569;
+  cursor: pointer;
+  font-size: 1.25rem;
+  transition: color 0.2s ease;
+}
+#tasksModal .modal-close:hover {
+  color: #8b5cf6;
+}
+
+/* Body */
+#tasksModal .modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Task items — same layout as AI cards */
+#tasksModal .task-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-radius: 16px;
+  padding: 14px 18px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(240, 240, 255, 0.6));
+  border: 1px solid rgba(167, 139, 250, 0.3);
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  transition: all 0.25s ease;
+}
+#tasksModal .task-item:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0 10px 25px rgba(139, 92, 246, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+/* Different accent per item (just like AI Tools modal) */
+#tasksModal .task-item:nth-child(1) {
+  background: linear-gradient(135deg, rgba(219,234,254,0.85), rgba(191,219,254,0.7));
+  border-color: rgba(59,130,246,0.3);
+}
+#tasksModal .task-item:nth-child(2) {
+  background: linear-gradient(135deg, rgba(243,232,255,0.85), rgba(233,213,255,0.7));
+  border-color: rgba(167,139,250,0.3);
+}
+#tasksModal .task-item:nth-child(3) {
+  background: linear-gradient(135deg, rgba(254,226,226,0.85), rgba(254,202,202,0.7));
+  border-color: rgba(239,68,68,0.3);
+}
+
+/* Icon box */
+#tasksModal .task-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+#tasksModal .task-item:nth-child(1) .task-icon {
+  background: #3b82f6;
+}
+#tasksModal .task-item:nth-child(2) .task-icon {
+  background: #8b5cf6;
+}
+#tasksModal .task-item:nth-child(3) .task-icon {
+  background: #ef4444;
+}
+#tasksModal .task-icon svg {
+  width: 24px;
+  height: 24px;
+  color: #fff;
+}
+
+/* Text */
+#tasksModal .task-info h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+#tasksModal .task-info p {
+  font-size: 0.88rem;
+  color: #475569;
+  margin-top: 2px;
+}
+
+/* Dark Mode */
+body.dark-mode #tasksModal {
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.75), rgba(17, 24, 39, 0.65));
+  border-color: rgba(148, 163, 184, 0.25);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
+}
+body.dark-mode #tasksModal .task-item {
+  background: rgba(30, 41, 59, 0.7);
+  border-color: rgba(148, 163, 184, 0.2);
+}
+body.dark-mode #tasksModal .task-item:hover {
+  box-shadow: 0 12px 26px rgba(139, 92, 246, 0.3);
+}
+body.dark-mode #tasksModal .task-info h3 {
+  color: #f9fafb;
+}
+body.dark-mode #tasksModal .task-info p {
+  color: #9ca3af;
+}
+
+/* ==========================================
+   TOOLS POPUP WINDOW — SAME AS AI POPUP
+   ========================================== */
+
+#toolsModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 580px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.08));
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(25px) saturate(180%);
+  -webkit-backdrop-filter: blur(25px) saturate(180%);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.25);
+  padding: 0;
+  z-index: 60;
+  color: #0f172a;
+}
+
+/* White inner panel */
+#toolsModal .modal-content {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow:
+    0 6px 24px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  padding: 26px 32px 30px;
+  border: none;
+}
+
+/* Header */
+#toolsModal .modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.7);
+}
+#toolsModal .modal-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #f59e0b, #fbbf24, #fcd34d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#toolsModal .modal-close {
+  border: none;
+  background: none;
+  color: #475569;
+  cursor: pointer;
+  font-size: 1.25rem;
+  transition: color 0.2s ease;
+}
+#toolsModal .modal-close:hover {
+  color: #f59e0b;
+}
+
+/* Body */
+#toolsModal .modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Tool cards (same layout as AI cards) */
+#toolsModal .tool-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-radius: 14px;
+  padding: 14px 18px;
+  background: #f9fafb;
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  box-shadow:
+    0 3px 8px rgba(0, 0, 0, 0.05),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  transition: all 0.25s ease;
+}
+#toolsModal .tool-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(251, 191, 36, 0.15);
+}
+
+/* Icon box */
+#toolsModal .tool-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+  background: linear-gradient(135deg, #f59e0b, #fbbf24);
+}
+#toolsModal .tool-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* Text */
+#toolsModal .tool-info h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111827;
+}
+#toolsModal .tool-info p {
+  font-size: 0.88rem;
+  color: #475569;
+  margin-top: 2px;
+}
+
+/* --- Dark Mode --- */
+body.dark-mode #toolsModal {
+  background: linear-gradient(135deg, rgba(17,24,39,0.7), rgba(15,23,42,0.6));
+  border-color: rgba(148,163,184,0.25);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+}
+body.dark-mode #toolsModal .modal-content {
+  background: rgba(30,41,59,0.95);
+  box-shadow:
+    0 6px 24px rgba(0,0,0,0.25),
+    inset 0 1px 0 rgba(255,255,255,0.05);
+}
+body.dark-mode #toolsModal .tool-card {
+  background: rgba(30,41,59,0.85);
+  border-color: rgba(148,163,184,0.2);
+}
+body.dark-mode #toolsModal .tool-card:hover {
+  box-shadow: 0 12px 26px rgba(251,191,36,0.25);
+}
+body.dark-mode #toolsModal .tool-info h3 {
+  color: #f8fafc;
+}
+body.dark-mode #toolsModal .tool-info p {
+  color: #cbd5e1;
+}
+
+
+        
     </style>
+
+
+
 </head>
 
 <body>
@@ -1967,7 +2421,7 @@
             <div class="flex items-center justify-between">
                 <!-- Logo - Left -->
                 <div class="flex items-center">
-                    <img src="../Layer_1.png" alt="Remote Employees Logo" class="h-11 w-auto">
+                    <img src="../10/Layer_1.png" alt="Remote Employees Logo" class="h-11 w-auto">
                 </div>
 
                 <!-- Centered Title -->
@@ -3079,7 +3533,7 @@
             <!-- Brand Column - Spans 2 columns -->
             <div class="lg:col-span-2">
                 <div class="flex items-center gap-3 mb-6">
-                    <img src="../Layer_1.png" alt="Remote Employees Logo" class="h-11 w-auto">
+                    <img src="../10/Layer_1.png" alt="Remote Employees Logo" class="h-11 w-auto">
                     <span class="text-lg font-bold tracking-tight text-gray-100">REMOTE EMPLOYEES</span>
                 </div>
                 <p class="text-sm text-gray-400 mb-8 max-w-xs font-light leading-relaxed">

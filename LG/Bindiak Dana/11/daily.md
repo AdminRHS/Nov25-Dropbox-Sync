@@ -37,7 +37,7 @@
 
 ---
 
-### 9:15 a.m. - 11:00 a.m. - Job Sites Task
+### 9:15 a.m. - 11:00 a.m., 11:15 a.m. - 1:10 p.m. - Job Sites Task
 **What I worked on:**
 - Started working on Job Sites Task
 - Reviewed and selected relevant companies from job sites
@@ -164,6 +164,124 @@ Me: "Can you open please in new tab and open the GPT Chat. Can you see under the
 - Different response scenarios covered ("interested" vs "not interested")
 - Spreadsheet filling process mastered
 - ChatGPT usage for message generation shown
+
+---
+
+### 3:00 p.m. - 3:40 p.m. - New Networks and Messages Checking
+**What I worked on:**
+- Reviewed and accepted new connection requests across all working LinkedIn accounts
+- Added new contacts who accepted my connection requests
+- Sent First Message Templates to newly connected contacts
+- Checked and sent second follow-up messages scheduled for today
+- Managed message queue across multiple LinkedIn accounts
+- Maintained consistent outreach strategy across all accounts
+
+**Outcomes:**
+- All new connection requests processed and accepted
+- First Message Templates sent to all new contacts
+- Second messages sent to contacts as scheduled
+- Message tracking updated across all working accounts
+- Consistent communication flow maintained
+
+---
+
+### 3:40 p.m. - 5:00 p.m. - Old Connection Messages
+**What I worked on:**
+- Worked with existing connections in LinkedIn network
+- Sent Old Connection Message template to contacts from previous connections
+- Scrolled through network connections to identify contacts for re-engagement
+- Applied systematic approach to reconnecting with old contacts
+
+**Outcomes:**
+- Old Connection Message templates sent to existing contacts
+- Re-engagement campaign progressed
+- Network relationships maintained and renewed
+
+---
+
+### 5:00 p.m. - 6:00 p.m. - Training Session with Team Lead
+**What I worked on:**
+- Had training session with team lead regarding transition to new role and responsibilities
+- Discussed shift from active lead generation to administrative tasks
+- Learned about new AI automation project using VS Code and Cursor
+- Reviewed Claude AI and ChatGPT integration in VS Code
+- Discussed upcoming tasks:
+  - Downloading instructions from LG Academy
+  - Working with LinkedIn account history and statistics
+  - Setting up AI prompts for automated analysis
+  - Managing team statistics and reporting
+- Clarified new workflow and project structure
+- Discussed team reorganization and task redistribution
+
+**Whisper Flow Transcript:**
+
+**Introduction to new role and responsibilities**
+Team Lead: "По-перше, ти не будеш лід-гени тим більше, по-першу, по крайній мірі точно або будеш мало. У тебе буде більш адміністративне задання. Так що з себе знімається вся оця мішура заповнити в кінці post-it replies і так далі."
+
+Team Lead: "Поки що якщо в тебе немає якихось повідомлень прям 'су не спосібл', тіпа якщі люди не зацікавлені і так далі — поки це все забудь. Там хіба що писать коннекты і все. Пока что ты забудь, я их заберу у тебя."
+
+**AI tools discussion**
+Team Lead: "Я говорила з Колею, і ти як вообще з кодом, курсором, Клод там стоїть. Ти розібралася плюс-мінус?"
+
+Me: "Честно? Пока что це саме большее, що мені понравилось в нашій работі. З курсором я вообще ну, я там ні разу не... Знаю, працювала, але в VS-коді я коли заходжу, я з тою аішкою прям тусуюсь. Мені нравиться командувати ним."
+
+Team Lead: "А це хорошо. Курсор в принципі все те саме дєлає. Ми завтра уже більш детально будем розбират-- розбирать, розбивать."
+
+**Project overview and setup**
+Team Lead: "Весь код має виглядати плюс-мінус так. Тут має бути дві аішки, це по-перше. У тебе є ChatGPT?"
+
+Me: "Немає, тільки Claude."
+
+Team Lead: "Хорошо, ChatGPT можешь установить, в принципе, тот же самый путь extensions, установить GPT, или просто иконку ты можешь передвинуть. У тебя будет встроенная AI и добавишь Claude."
+
+**Main project tasks**
+Team Lead: "Что нам вообще надо будет делать? Я тебе скину про жену. Я про жену через AI-шку і скину що ми вообще там говорили. Но в основном там очень много всего, завтра мы уже утром будем разбирать."
+
+Team Lead: "З LG нужно будет скачать все інструкції які несуть якій-либо смисл. Скачать сюда в instructions. Нам надо буде все скачать з академії."
+
+**LinkedIn account history project**
+Team Lead: "Пам'ятаєш, ми скачували всі LinkedIn-акаунти? Оцю типу історію, да? У нас буде промт для цього, і ми будемо його вставляти для кожного LinkedIn-акаунта, який у нас є, для повідомлень, і він буде делать файл."
+
+Team Lead: "Статистика — коли, літ відповідав на яке повідомлення, на яке ні. От це вся статистика і так далі."
+
+**Project goals and AI capabilities**
+Team Lead: "Потім треба буде нам скачати всі інструкції, які взагалі є в LG і на курсах. Це не те щоб ми все в понеділок будемо одразу робити все підряд. Ні, ми це будемо поступово робити."
+
+Me: "Тобто у нас там і VSCode, і Cursor. Я так розумію, Аішка мала мозки, і я так розумію що там можна було генерувати повідомлення або їх типу покращувати. Це взагалі було б супер. Ну і просто статистика у нас була, яка більше відповідає, а яка менше."
+
+Team Lead: "Так. Я тобі скину промт. Поки що все, можеш поки тут бути."
+
+**Schedule and next steps**
+Team Lead: "У нас завтра буде час хоча б щось зробити, а бажано побільше, до двох дня."
+
+**Team reorganization discussion**
+Me: "І ще треба буде з Анею завтра мені сказати все."
+
+Team Lead: "Я взагалі думаю, Аня і так парт-тайм. Типу просто її здвинуть в адміністративну роботу по перевірці карток і по обговоренню там з менеджером. А ми з тобою будемо чисто по АІшки їбашити. Я думаю з'ялити так, тому що у нас фул-тайм, а Аня просто не встигне, навіть якщо ми її візьмемо."
+
+Team Lead: "Сьогодні ти ще запам'ятовуєш оці positive reply статистика і так далі, завтра у нас буде взагалі інше. Завтра ти не лідгениш."
+
+**Statistics clarification**
+Me: "Раз ми вже заговорили про статистику, я якраз хотіла написати тобі. Там вроді теж є розділ 'Old Connections', якщо я не помиляюся. То ми туди типу вписуємо кількість тих повідомлень, які ми відправили, чи ті, хто відповіли на них?"
+
+Team Lead: "Так, скільки відправили."
+
+**Closing**
+Team Lead: "Ну я ж кажу, година лишається. Ми в принципі, окей, ознайомлюємося."
+
+
+**Outcomes:**
+- Clear understanding of role transition from lead generation to administrative AI project work
+- VS Code environment set up with Claude AI and ChatGPT extensions
+- Overview of upcoming project scope:
+  - Downloading and organizing LG Academy instructions
+  - Creating AI prompts for LinkedIn account history analysis
+  - Building automated statistics and reporting system
+  - Generating and optimizing messages using AI
+- Understanding of team restructuring with Anya focusing on administrative tasks
+- Confirmed tomorrow's focus on AI project work instead of lead generation
+- Statistics reporting clarification for Old Connections tracking
+- Ready to begin collaborative work on AI automation project
 
 ---
 

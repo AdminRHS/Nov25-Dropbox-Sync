@@ -1,5 +1,597 @@
 # Changelog - 2025-11-11
 
+**Sync Date:** 2025-11-11 16:33:32 UTC
+**Total Changes:** 222 files
+
+## Summary
+
+- **Added:** 104 files
+- **Modified:** 11 files
+- **Deleted:** 107 files
+
+## Changes by Department
+
+### "Design
+
+**Total changes:** 3 files
+
+#### Shymkevych Iryna
+
+**Deleted (3 files):**
+- `daily (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-06).md"`
+- `employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07 1).html"`
+- `employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07).html"`
+
+
+### "LG
+
+**Total changes:** 1 files
+
+#### Lead Generation Department
+
+**Deleted (1 files):**
+- `Copy of PROMPT for LG custom projects - September 26, 3_21\342\200\257PM.md"`
+
+
+### "Video
+
+**Total changes:** 23 files
+
+#### Azanova Dar\312\274ya
+
+**Deleted (23 files):**
+- `daily.md"`
+- `daily.md"`
+- `README.md"`
+- `task.md"`
+- `plans.md"`
+- `task.md"`
+- `plans.md"`
+- `daily.md"`
+- `task.md"`
+- `task.md"`
+- `task.md"`
+- `task.md"`
+- `plans.md"`
+- `Profile Video Editor Azanova Dar\312\274ya.md"`
+- `daily.md"`
+- `task.md"`
+- `daily.md"`
+- `daily.md"`
+- `plans.md"`
+- `plans.md"`
+- `daily.md"`
+- `plans.md"`
+- `plans.md"`
+
+
+### AI
+
+**Total changes:** 1 files
+
+#### Artemchuk Nikolay
+
+**Added (1 files):**
+- `Calendar_Event_Descriptions_Nov12.md` → `11/Calendar_Event_Descriptions_Nov12.md` (28.21 KB, modified: 2025-11-11T15:39:03, by: Dropbox User)
+
+
+### Design
+
+**Total changes:** 16 files
+
+#### Bykova Anastasiia
+
+**Added (3 files):**
+- `plans.md` → `10/plans.md` (1.46 KB, modified: 2025-11-11T15:49:55, by: Dropbox User)
+- `daily.md` → `10/daily.md` (7.82 KB, modified: 2025-11-11T15:49:56, by: Dropbox User)
+- `task.md` → `10/task.md` (5.97 KB, modified: 2025-11-11T15:49:56, by: Dropbox User)
+
+#### Hlushko Mariia
+
+**Modified (1 files):**
+- `11.11.2025.md` → `11/11.11.2025.md` (1.03 KB, rev: 0164353a..., modified: 2025-11-11T15:54:13, by: Dropbox User)
+
+#### Shymkevych Iryna
+
+**Added (6 files):**
+- `daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md` → `06/daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md` (13.51 KB, modified: 2025-11-06T16:13:37, by: Dropbox User)
+- `employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html` → `05/employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html` (24.40 KB, modified: 2025-11-07T14:02:58, by: Dropbox User)
+- `Layer_1.png` → `10/Layer_1.png` (103.86 KB, modified: 2025-11-05T08:00:26, by: Dropbox User)
+- `plans.md` → `11/plans.md` (1.05 KB, modified: 2025-11-10T16:02:53, by: Dropbox User)
+- `task.md` → `11/task.md` (1.71 KB, modified: 2025-11-11T15:50:47, by: Dropbox User)
+- `daily.md` → `11/daily.md` (1.75 KB, modified: 2025-11-11T15:50:47, by: Dropbox User)
+
+**Modified (2 files):**
+- `index.html` → `10/index.html` (149.96 KB, rev: 0164352a..., modified: 2025-11-11T14:42:45, by: Dropbox User)
+- `index2.html` → `10/index2.html` (147.16 KB, rev: 01643535..., modified: 2025-11-11T15:31:25, by: Dropbox User)
+
+#### Skrypkar Vilhelm
+
+**Added (3 files):**
+- `daily.md` → `11/daily.md` (10.31 KB, modified: 2025-11-11T16:13:19, by: Dropbox User)
+- `task.md` → `11/task.md` (22.58 KB, modified: 2025-11-11T16:13:22, by: Dropbox User)
+- `plans.md` → `11/plans.md` (3.19 KB, modified: 2025-11-11T16:13:23, by: Dropbox User)
+
+**Modified (1 files):**
+- `To Do and Plans.md` (553 bytes, rev: 0164352a..., modified: 2025-11-11T14:40:45, by: Dropbox User)
+
+
+### LG
+
+**Total changes:** 152 files
+
+#### Bessarab Valeriia
+
+**Deleted (20 files):**
+- `task.md`
+- `plans.md`
+- `task.md`
+- `task.md`
+- `daily.md`
+- `plans.md`
+- `task.md`
+- `plans.md`
+- `daily.md`
+- `Profile Lead generator Bessarab Valeriia.md`
+- `daily.md`
+- `task.md`
+- `task.md`
+- `plans.md`
+- `daily.md`
+- `plans.md`
+- `daily.md`
+- `daily.md`
+- `README.md`
+- `plans.md`
+
+#### Bindiak Dana
+
+**Modified (2 files):**
+- `daily.md` → `11/daily.md` (16.68 KB, rev: 0164353d..., modified: 2025-11-11T16:07:43, by: Dropbox User)
+- `task.md` → `11/task.md` (9.48 KB, rev: 0164353e..., modified: 2025-11-11T16:14:32, by: Dropbox User)
+
+#### Burda Anna
+
+**Modified (1 files):**
+- `daily.md` → `11/daily.md` (21.24 KB, rev: 0164352a..., modified: 2025-11-11T14:42:46, by: Dropbox User)
+
+#### Davlatdodova Kibriyo
+
+**Deleted (20 files):**
+- `plans.md`
+- `README.md`
+- `daily.md`
+- `daily.md`
+- `daily.md`
+- `task.md`
+- `plans.md`
+- `daily.md`
+- `task.md`
+- `plans.md`
+- `plans.md`
+- `task.md`
+- `task.md`
+- `plans.md`
+- `task.md`
+- `plans.md`
+- `task.md`
+- `Profile Lead generator Davlatdodova Kibriyo.md`
+- `daily.md`
+- `daily.md`
+
+#### Joy Edem Asuquo
+
+**Deleted (23 files):**
+- `task.md`
+- `daily.md`
+- `plans.md`
+- `daily.md`
+- `task.md`
+- `README.md`
+- `task.md`
+- `task.md`
+- `plans.md`
+- `task.md`
+- `task.md`
+- `daily.md`
+- `Profile Lead generator Joy Edem Asuquo.md`
+- `daily.md`
+- `plans.md`
+- `task.md`
+- `plans.md`
+- `daily.md`
+- `plans.md`
+- `daily.md`
+- `daily.md`
+- `plans.md`
+- `plans.md`
+
+#### Lead Generation Department
+
+**Added (3 files):**
+- `Copy of PROMPT for LG custom projects - September 26, 3_21 PM.md` (13.11 KB, modified: 2025-11-11T14:12:23, by: Dropbox User)
+- `Add New Lead.md` → `instructions/Add New Lead.md` (3944.11 KB, modified: 2025-11-11T14:39:45, by: Dropbox User)
+- `analyze_linkedin_messages_prompt.md` (13.27 KB, modified: 2025-11-11T14:51:39, by: Dropbox User)
+
+#### Left
+
+**Added (64 files):**
+- `daily.md` → `Davlatdodova Kibriyo/03/daily.md` (658 bytes, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `plans.md` → `Davlatdodova Kibriyo/03/plans.md` (704 bytes, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `task.md` → `Davlatdodova Kibriyo/03/task.md` (1.05 KB, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `daily.md` → `Davlatdodova Kibriyo/04/daily.md` (658 bytes, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `plans.md` → `Davlatdodova Kibriyo/04/plans.md` (704 bytes, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `task.md` → `Davlatdodova Kibriyo/04/task.md` (1.05 KB, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `daily.md` → `Davlatdodova Kibriyo/05/daily.md` (658 bytes, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `plans.md` → `Davlatdodova Kibriyo/05/plans.md` (704 bytes, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `task.md` → `Davlatdodova Kibriyo/05/task.md` (1.05 KB, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `daily.md` → `Davlatdodova Kibriyo/06/daily.md` (1.85 KB, modified: 2025-11-06T15:20:40, by: Dropbox User)
+- `plans.md` → `Davlatdodova Kibriyo/06/plans.md` (1.95 KB, modified: 2025-11-06T15:20:40, by: Dropbox User)
+- `task.md` → `Davlatdodova Kibriyo/06/task.md` (3.48 KB, modified: 2025-11-06T15:20:40, by: Dropbox User)
+- `daily.md` → `Davlatdodova Kibriyo/07/daily.md` (658 bytes, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `task.md` → `Davlatdodova Kibriyo/07/task.md` (2.86 KB, modified: 2025-11-07T16:02:02, by: Dropbox User)
+- `plans.md` → `Davlatdodova Kibriyo/07/plans.md` (2.87 KB, modified: 2025-11-07T16:02:02, by: Dropbox User)
+- `README.md` → `Davlatdodova Kibriyo/README.md` (1.58 KB, modified: 2025-11-06T10:21:17, by: Dropbox User)
+- `task.md` → `Davlatdodova Kibriyo/08/task.md` (0 bytes, modified: 2025-11-07T10:21:59, by: Dropbox User)
+- `plans.md` → `Davlatdodova Kibriyo/08/plans.md` (0 bytes, modified: 2025-11-07T10:22:00, by: Dropbox User)
+- `daily.md` → `Davlatdodova Kibriyo/08/daily.md` (0 bytes, modified: 2025-11-07T10:22:01, by: Dropbox User)
+- `Profile Lead generator Davlatdodova Kibriyo.md` → `Davlatdodova Kibriyo/Profile Lead generator Davlatdodova Kibriyo.md` (2.49 KB, modified: 2025-11-11T11:54:56, by: Dropbox User)
+- `daily.md` → `Joy Edem Asuquo/03/daily.md` (658 bytes, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `plans.md` → `Joy Edem Asuquo/03/plans.md` (704 bytes, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `task.md` → `Joy Edem Asuquo/03/task.md` (1.05 KB, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `daily.md` → `Joy Edem Asuquo/04/daily.md` (658 bytes, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `plans.md` → `Joy Edem Asuquo/04/plans.md` (704 bytes, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `task.md` → `Joy Edem Asuquo/04/task.md` (1.05 KB, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `plans.md` → `Joy Edem Asuquo/05/plans.md` (704 bytes, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `task.md` → `Joy Edem Asuquo/05/task.md` (1.05 KB, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `daily.md` → `Joy Edem Asuquo/05/daily.md` (1.01 KB, modified: 2025-11-05T17:01:44, by: Dropbox User)
+- `daily.md` → `Joy Edem Asuquo/06/daily.md` (1.37 KB, modified: 2025-11-06T14:03:51, by: Dropbox User)
+- `plans.md` → `Joy Edem Asuquo/06/plans.md` (2.31 KB, modified: 2025-11-06T14:15:57, by: Dropbox User)
+- `task.md` → `Joy Edem Asuquo/06/task.md` (4.66 KB, modified: 2025-11-06T14:23:24, by: Dropbox User)
+- `daily.md` → `Joy Edem Asuquo/07/daily.md` (2.33 KB, modified: 2025-11-07T15:47:06, by: Dropbox User)
+- `plans.md` → `Joy Edem Asuquo/07/plans.md` (2.63 KB, modified: 2025-11-07T15:47:32, by: Dropbox User)
+- `task.md` → `Joy Edem Asuquo/07/task.md` (7.55 KB, modified: 2025-11-07T15:48:37, by: Dropbox User)
+- `README.md` → `Joy Edem Asuquo/README.md` (1.58 KB, modified: 2025-11-06T10:21:19, by: Dropbox User)
+- `Profile Lead generator Joy Edem Asuquo.md` → `Joy Edem Asuquo/Profile Lead generator Joy Edem Asuquo.md` (1.92 KB, modified: 2025-11-07T10:02:41, by: Dropbox User)
+- `task.md` → `Joy Edem Asuquo/08/task.md` (0 bytes, modified: 2025-11-07T10:21:53, by: Dropbox User)
+- `plans.md` → `Joy Edem Asuquo/08/plans.md` (0 bytes, modified: 2025-11-07T10:21:54, by: Dropbox User)
+- `daily.md` → `Joy Edem Asuquo/08/daily.md` (0 bytes, modified: 2025-11-07T10:21:55, by: Dropbox User)
+- `task.md` → `Joy Edem Asuquo/10/task.md` (7.98 KB, modified: 2025-11-10T16:20:39, by: Dropbox User)
+- `plans.md` → `Joy Edem Asuquo/10/plans.md` (2.65 KB, modified: 2025-11-10T16:21:39, by: Dropbox User)
+- `daily.md` → `Joy Edem Asuquo/10/daily.md` (2.35 KB, modified: 2025-11-10T16:23:35, by: Dropbox User)
+- `daily.md` → `Bessarab Valeriia/04/daily.md` (658 bytes, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `plans.md` → `Bessarab Valeriia/04/plans.md` (704 bytes, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `task.md` → `Bessarab Valeriia/04/task.md` (1.05 KB, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `daily.md` → `Bessarab Valeriia/03/daily.md` (658 bytes, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `plans.md` → `Bessarab Valeriia/03/plans.md` (704 bytes, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `task.md` → `Bessarab Valeriia/03/task.md` (1.05 KB, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `daily.md` → `Bessarab Valeriia/05/daily.md` (658 bytes, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `plans.md` → `Bessarab Valeriia/05/plans.md` (704 bytes, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `task.md` → `Bessarab Valeriia/05/task.md` (1.05 KB, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `daily.md` → `Bessarab Valeriia/06/daily.md` (658 bytes, modified: 2025-11-04T16:00:04, by: Dropbox User)
+- `plans.md` → `Bessarab Valeriia/06/plans.md` (8.39 KB, modified: 2025-11-06T16:25:39, by: Dropbox User)
+- `task.md` → `Bessarab Valeriia/06/task.md` (19.60 KB, modified: 2025-11-06T16:30:22, by: Dropbox User)
+- `daily.md` → `Bessarab Valeriia/07/daily.md` (3.52 KB, modified: 2025-11-07T15:53:19, by: Dropbox User)
+- `plans.md` → `Bessarab Valeriia/07/plans.md` (26.03 KB, modified: 2025-11-07T15:56:43, by: Dropbox User)
+- `task.md` → `Bessarab Valeriia/07/task.md` (26.75 KB, modified: 2025-11-07T16:00:20, by: Dropbox User)
+- `README.md` → `Bessarab Valeriia/README.md` (1.58 KB, modified: 2025-11-06T10:21:15, by: Dropbox User)
+- `task.md` → `Bessarab Valeriia/08/task.md` (0 bytes, modified: 2025-11-07T10:22:25, by: Dropbox User)
+- `plans.md` → `Bessarab Valeriia/08/plans.md` (0 bytes, modified: 2025-11-07T10:22:25, by: Dropbox User)
+- `daily.md` → `Bessarab Valeriia/08/daily.md` (0 bytes, modified: 2025-11-07T10:22:26, by: Dropbox User)
+- `Profile Lead generator Bessarab Valeriia.md` → `Bessarab Valeriia/Profile Lead generator Bessarab Valeriia.md` (2.98 KB, modified: 2025-11-11T11:54:58, by: Dropbox User)
+- `Profile Lead Generator Polina Nastich.md` → `Polina Nastich/Profile Lead Generator Polina Nastich.md` (515 bytes, modified: 2025-11-11T11:55:33, by: Dropbox User)
+
+**Deleted (16 files):**
+- `plans.md`
+- `plans.md`
+- `plans.md`
+- `task.md`
+- `daily.md`
+- `task.md`
+- `task.md`
+- `daily.md`
+- `plans.md`
+- `daily.md`
+- `plans.md`
+- `README.md`
+- `task.md`
+- `daily.md`
+- `task.md`
+- `daily.md`
+
+#### Polina Nastich
+
+**Deleted (1 files):**
+- `Profile Lead Generator Polina Nastich.md`
+
+#### Shkinder Kseniia
+
+**Added (1 files):**
+- `projectlg.md` → `11/projectlg.md` (34.04 KB, modified: 2025-11-11T15:19:42, by: Dropbox User)
+
+**Modified (1 files):**
+- `daily.md` → `11/daily.md` (28.21 KB, rev: 01643535..., modified: 2025-11-11T15:10:43, by: Dropbox User)
+
+
+### Video
+
+**Total changes:** 26 files
+
+#### Azanova Darʼya
+
+**Added (23 files):**
+- `daily.md` → `03/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `03/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `03/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `04/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `04/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `daily.md` → `04/daily.md` (11.84 KB, modified: 2025-11-04T18:15:17, by: Dropbox User)
+- `daily.md` → `05/daily.md` (59.02 KB, modified: 2025-11-05T18:00:45, by: Dropbox User)
+- `plans.md` → `05/plans.md` (4.01 KB, modified: 2025-11-05T18:01:19, by: Dropbox User)
+- `task.md` → `05/task.md` (14.98 KB, modified: 2025-11-05T18:02:50, by: Dropbox User)
+- `daily.md` → `06/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `06/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `06/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `daily.md` → `07/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `07/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `07/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `README.md` (1.58 KB, modified: 2025-10-23T15:13:48, by: Dropbox User)
+- `task.md` → `08/task.md` (0 bytes, modified: 2025-11-07T10:38:46, by: Dropbox User)
+- `plans.md` → `08/plans.md` (0 bytes, modified: 2025-11-07T10:38:46, by: Dropbox User)
+- `daily.md` → `08/daily.md` (0 bytes, modified: 2025-11-07T10:38:47, by: Dropbox User)
+- `Profile Video Editor Azanova Darʼya.md` (1.36 KB, modified: 2025-11-07T10:02:41, by: Dropbox User)
+- `daily.md` → `10/daily.md` (36.02 KB, modified: 2025-11-10T15:57:12, by: Dropbox User)
+- `plans.md` → `10/plans.md` (4.79 KB, modified: 2025-11-10T15:57:54, by: Dropbox User)
+- `task.md` → `10/task.md` (30.54 KB, modified: 2025-11-10T16:01:19, by: Dropbox User)
+
+#### Podolskyi Sviatoslav
+
+**Modified (3 files):**
+- `daily.md` → `11/daily.md` (15.18 KB, rev: 0164353c..., modified: 2025-11-11T16:04:27, by: Dropbox User)
+- `plans.md` → `11/plans.md` (5.14 KB, rev: 0164353d..., modified: 2025-11-11T16:05:12, by: Dropbox User)
+- `task.md` → `11/task.md` (31.33 KB, rev: 0164353d..., modified: 2025-11-11T16:08:39, by: Dropbox User)
+
+
+## All Changes
+
+### Added Files
+
+- `AI/Artemchuk Nikolay/11/Calendar_Event_Descriptions_Nov12.md`
+- `Design/Shymkevych Iryna/06/daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md`
+- `Design/Shymkevych Iryna/05/employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html`
+- `Design/Shymkevych Iryna/10/Layer_1.png`
+- `Design/Shymkevych Iryna/11/plans.md`
+- `Design/Bykova Anastasiia/10/plans.md`
+- `Design/Bykova Anastasiia/10/daily.md`
+- `Design/Bykova Anastasiia/10/task.md`
+- `Design/Shymkevych Iryna/11/task.md`
+- `Design/Shymkevych Iryna/11/daily.md`
+- `Design/Skrypkar Vilhelm/11/daily.md`
+- `Design/Skrypkar Vilhelm/11/task.md`
+- `Design/Skrypkar Vilhelm/11/plans.md`
+- `LG/Lead Generation Department/Copy of PROMPT for LG custom projects - September 26, 3_21 PM.md`
+- `LG/Lead Generation Department/instructions/Add New Lead.md`
+- `LG/Lead Generation Department/analyze_linkedin_messages_prompt.md`
+- `LG/Left/Davlatdodova Kibriyo/03/daily.md`
+- `LG/Left/Davlatdodova Kibriyo/03/plans.md`
+- `LG/Left/Davlatdodova Kibriyo/03/task.md`
+- `LG/Left/Davlatdodova Kibriyo/04/daily.md`
+- `LG/Left/Davlatdodova Kibriyo/04/plans.md`
+- `LG/Left/Davlatdodova Kibriyo/04/task.md`
+- `LG/Left/Davlatdodova Kibriyo/05/daily.md`
+- `LG/Left/Davlatdodova Kibriyo/05/plans.md`
+- `LG/Left/Davlatdodova Kibriyo/05/task.md`
+- `LG/Left/Davlatdodova Kibriyo/06/daily.md`
+- `LG/Left/Davlatdodova Kibriyo/06/plans.md`
+- `LG/Left/Davlatdodova Kibriyo/06/task.md`
+- `LG/Left/Davlatdodova Kibriyo/07/daily.md`
+- `LG/Left/Davlatdodova Kibriyo/07/task.md`
+- `LG/Left/Davlatdodova Kibriyo/07/plans.md`
+- `LG/Left/Davlatdodova Kibriyo/README.md`
+- `LG/Left/Davlatdodova Kibriyo/08/task.md`
+- `LG/Left/Davlatdodova Kibriyo/08/plans.md`
+- `LG/Left/Davlatdodova Kibriyo/08/daily.md`
+- `LG/Left/Davlatdodova Kibriyo/Profile Lead generator Davlatdodova Kibriyo.md`
+- `LG/Left/Joy Edem Asuquo/03/daily.md`
+- `LG/Left/Joy Edem Asuquo/03/plans.md`
+- `LG/Left/Joy Edem Asuquo/03/task.md`
+- `LG/Left/Joy Edem Asuquo/04/daily.md`
+- `LG/Left/Joy Edem Asuquo/04/plans.md`
+- `LG/Left/Joy Edem Asuquo/04/task.md`
+- `LG/Left/Joy Edem Asuquo/05/plans.md`
+- `LG/Left/Joy Edem Asuquo/05/task.md`
+- `LG/Left/Joy Edem Asuquo/05/daily.md`
+- `LG/Left/Joy Edem Asuquo/06/daily.md`
+- `LG/Left/Joy Edem Asuquo/06/plans.md`
+- `LG/Left/Joy Edem Asuquo/06/task.md`
+- `LG/Left/Joy Edem Asuquo/07/daily.md`
+- `LG/Left/Joy Edem Asuquo/07/plans.md`
+- `LG/Left/Joy Edem Asuquo/07/task.md`
+- `LG/Left/Joy Edem Asuquo/README.md`
+- `LG/Left/Joy Edem Asuquo/Profile Lead generator Joy Edem Asuquo.md`
+- `LG/Left/Joy Edem Asuquo/08/task.md`
+- `LG/Left/Joy Edem Asuquo/08/plans.md`
+- `LG/Left/Joy Edem Asuquo/08/daily.md`
+- `LG/Left/Joy Edem Asuquo/10/task.md`
+- `LG/Left/Joy Edem Asuquo/10/plans.md`
+- `LG/Left/Joy Edem Asuquo/10/daily.md`
+- `LG/Left/Bessarab Valeriia/04/daily.md`
+- `LG/Left/Bessarab Valeriia/04/plans.md`
+- `LG/Left/Bessarab Valeriia/04/task.md`
+- `LG/Left/Bessarab Valeriia/03/daily.md`
+- `LG/Left/Bessarab Valeriia/03/plans.md`
+- `LG/Left/Bessarab Valeriia/03/task.md`
+- `LG/Left/Bessarab Valeriia/05/daily.md`
+- `LG/Left/Bessarab Valeriia/05/plans.md`
+- `LG/Left/Bessarab Valeriia/05/task.md`
+- `LG/Left/Bessarab Valeriia/06/daily.md`
+- `LG/Left/Bessarab Valeriia/06/plans.md`
+- `LG/Left/Bessarab Valeriia/06/task.md`
+- `LG/Left/Bessarab Valeriia/07/daily.md`
+- `LG/Left/Bessarab Valeriia/07/plans.md`
+- `LG/Left/Bessarab Valeriia/07/task.md`
+- `LG/Left/Bessarab Valeriia/README.md`
+- `LG/Left/Bessarab Valeriia/08/task.md`
+- `LG/Left/Bessarab Valeriia/08/plans.md`
+- `LG/Left/Bessarab Valeriia/08/daily.md`
+- `LG/Left/Bessarab Valeriia/Profile Lead generator Bessarab Valeriia.md`
+- `LG/Left/Polina Nastich/Profile Lead Generator Polina Nastich.md`
+- `LG/Shkinder Kseniia/11/projectlg.md`
+- `Video/Azanova Darʼya/03/daily.md`
+- `Video/Azanova Darʼya/03/plans.md`
+- `Video/Azanova Darʼya/03/task.md`
+- `Video/Azanova Darʼya/04/plans.md`
+- `Video/Azanova Darʼya/04/task.md`
+- `Video/Azanova Darʼya/04/daily.md`
+- `Video/Azanova Darʼya/05/daily.md`
+- `Video/Azanova Darʼya/05/plans.md`
+- `Video/Azanova Darʼya/05/task.md`
+- `Video/Azanova Darʼya/06/daily.md`
+- `Video/Azanova Darʼya/06/plans.md`
+- `Video/Azanova Darʼya/06/task.md`
+- `Video/Azanova Darʼya/07/daily.md`
+- `Video/Azanova Darʼya/07/plans.md`
+- `Video/Azanova Darʼya/07/task.md`
+- `Video/Azanova Darʼya/README.md`
+- `Video/Azanova Darʼya/08/task.md`
+- `Video/Azanova Darʼya/08/plans.md`
+- `Video/Azanova Darʼya/08/daily.md`
+- `Video/Azanova Darʼya/Profile Video Editor Azanova Darʼya.md`
+- `Video/Azanova Darʼya/10/daily.md`
+- `Video/Azanova Darʼya/10/plans.md`
+- `Video/Azanova Darʼya/10/task.md`
+
+### Modified Files
+
+- `Design/Skrypkar Vilhelm/To Do and Plans.md`
+- `Design/Shymkevych Iryna/10/index.html`
+- `Design/Shymkevych Iryna/10/index2.html`
+- `Design/Hlushko Mariia/11/11.11.2025.md`
+- `LG/Burda Anna/11/daily.md`
+- `LG/Shkinder Kseniia/11/daily.md`
+- `LG/Bindiak Dana/11/daily.md`
+- `LG/Bindiak Dana/11/task.md`
+- `Video/Podolskyi Sviatoslav/11/daily.md`
+- `Video/Podolskyi Sviatoslav/11/plans.md`
+- `Video/Podolskyi Sviatoslav/11/task.md`
+
+### Deleted Files
+
+- `LG/Bessarab Valeriia/07/task.md`
+- `LG/Left/Polina Nastich/07/plans.md`
+- `LG/Bessarab Valeriia/06/plans.md`
+- `LG/Davlatdodova Kibriyo/07/plans.md`
+- `"Video/Azanova Dar\312\274ya/06/daily.md"`
+- `LG/Left/Polina Nastich/03/plans.md`
+- `LG/Joy Edem Asuquo/03/task.md`
+- `LG/Left/Polina Nastich/06/plans.md`
+- `LG/Left/Polina Nastich/07/task.md`
+- `LG/Joy Edem Asuquo/03/daily.md`
+- `LG/Bessarab Valeriia/08/task.md`
+- `"Video/Azanova Dar\312\274ya/04/daily.md"`
+- `"Video/Azanova Dar\312\274ya/README.md"`
+- `LG/Joy Edem Asuquo/08/plans.md`
+- `LG/Bessarab Valeriia/06/task.md`
+- `LG/Joy Edem Asuquo/08/daily.md`
+- `"Video/Azanova Dar\312\274ya/03/task.md"`
+- `LG/Bessarab Valeriia/07/daily.md`
+- `LG/Davlatdodova Kibriyo/README.md`
+- `"Design/Shymkevych Iryna/06/daily (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-06).md"`
+- `LG/Left/Polina Nastich/05/daily.md`
+- `LG/Joy Edem Asuquo/07/task.md`
+- `LG/Davlatdodova Kibriyo/05/daily.md`
+- `LG/Davlatdodova Kibriyo/04/daily.md`
+- `LG/Davlatdodova Kibriyo/08/daily.md`
+- `LG/Davlatdodova Kibriyo/08/task.md`
+- `LG/Davlatdodova Kibriyo/04/plans.md`
+- `LG/Bessarab Valeriia/05/plans.md`
+- `"Video/Azanova Dar\312\274ya/10/plans.md"`
+- `LG/Bessarab Valeriia/05/task.md`
+- `LG/Joy Edem Asuquo/README.md`
+- `LG/Bessarab Valeriia/08/plans.md`
+- `LG/Davlatdodova Kibriyo/03/daily.md`
+- `LG/Bessarab Valeriia/06/daily.md`
+- `LG/Left/Polina Nastich/03/task.md`
+- `LG/Left/Polina Nastich/05/task.md`
+- `LG/Joy Edem Asuquo/08/task.md`
+- `LG/Left/Polina Nastich/07/daily.md`
+- `LG/Joy Edem Asuquo/05/task.md`
+- `"Video/Azanova Dar\312\274ya/07/task.md"`
+- `LG/Davlatdodova Kibriyo/03/task.md`
+- `LG/Left/Polina Nastich/05/plans.md`
+- `LG/Joy Edem Asuquo/06/plans.md`
+- `LG/Joy Edem Asuquo/04/task.md`
+- `LG/Joy Edem Asuquo/10/task.md`
+- `LG/Bessarab Valeriia/Profile Lead generator Bessarab Valeriia.md`
+- `LG/Left/Polina Nastich/03/daily.md`
+- `LG/Left/Polina Nastich/04/plans.md`
+- `"Design/Shymkevych Iryna/05/employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07 1).html"`
+- `LG/Bessarab Valeriia/05/daily.md`
+- `"Video/Azanova Dar\312\274ya/03/plans.md"`
+- `LG/Davlatdodova Kibriyo/03/plans.md`
+- `LG/Davlatdodova Kibriyo/06/plans.md`
+- `LG/Bessarab Valeriia/04/task.md`
+- `"Video/Azanova Dar\312\274ya/08/daily.md"`
+- `LG/Polina Nastich/Profile Lead Generator Polina Nastich.md`
+- `LG/Bessarab Valeriia/03/task.md`
+- `"Video/Azanova Dar\312\274ya/05/task.md"`
+- `LG/Joy Edem Asuquo/10/daily.md`
+- `LG/Bessarab Valeriia/04/plans.md`
+- `LG/Left/Polina Nastich/README.md`
+- `LG/Davlatdodova Kibriyo/05/task.md`
+- `LG/Bessarab Valeriia/08/daily.md`
+- `"Video/Azanova Dar\312\274ya/10/task.md"`
+- `LG/Davlatdodova Kibriyo/07/task.md`
+- `"Video/Azanova Dar\312\274ya/04/task.md"`
+- `"Video/Azanova Dar\312\274ya/08/task.md"`
+- `"Video/Azanova Dar\312\274ya/08/plans.md"`
+- `LG/Bessarab Valeriia/03/plans.md`
+- `LG/Left/Polina Nastich/04/task.md`
+- `LG/Joy Edem Asuquo/Profile Lead generator Joy Edem Asuquo.md`
+- `LG/Left/Polina Nastich/06/daily.md`
+- `LG/Joy Edem Asuquo/06/daily.md`
+- `"Video/Azanova Dar\312\274ya/Profile Video Editor Azanova Dar\312\274ya.md"`
+- `LG/Joy Edem Asuquo/04/plans.md`
+- `LG/Davlatdodova Kibriyo/08/plans.md`
+- `LG/Joy Edem Asuquo/06/task.md`
+- `LG/Bessarab Valeriia/03/daily.md`
+- `LG/Davlatdodova Kibriyo/04/task.md`
+- `LG/Davlatdodova Kibriyo/05/plans.md`
+- `LG/Davlatdodova Kibriyo/06/task.md`
+- `LG/Left/Polina Nastich/06/task.md`
+- `LG/Bessarab Valeriia/04/daily.md`
+- `"Video/Azanova Dar\312\274ya/10/daily.md"`
+- `"Video/Azanova Dar\312\274ya/06/task.md"`
+- `LG/Left/Polina Nastich/04/daily.md`
+- `LG/Bessarab Valeriia/README.md`
+- `"Design/Shymkevych Iryna/05/employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07).html"`
+- `"Video/Azanova Dar\312\274ya/07/daily.md"`
+- `LG/Joy Edem Asuquo/05/plans.md`
+- `LG/Joy Edem Asuquo/04/daily.md`
+- `LG/Davlatdodova Kibriyo/Profile Lead generator Davlatdodova Kibriyo.md`
+- `"Video/Azanova Dar\312\274ya/03/daily.md"`
+- `"Video/Azanova Dar\312\274ya/07/plans.md"`
+- `LG/Davlatdodova Kibriyo/06/daily.md`
+- `"Video/Azanova Dar\312\274ya/05/plans.md"`
+- `LG/Bessarab Valeriia/07/plans.md`
+- `LG/Joy Edem Asuquo/03/plans.md`
+- `LG/Joy Edem Asuquo/05/daily.md`
+- `LG/Davlatdodova Kibriyo/07/daily.md`
+- `"LG/Lead Generation Department/Copy of PROMPT for LG custom projects - September 26, 3_21\342\200\257PM.md"`
+- `"Video/Azanova Dar\312\274ya/05/daily.md"`
+- `"Video/Azanova Dar\312\274ya/06/plans.md"`
+- `LG/Joy Edem Asuquo/07/daily.md`
+- `LG/Joy Edem Asuquo/07/plans.md`
+- `LG/Joy Edem Asuquo/10/plans.md`
+- `"Video/Azanova Dar\312\274ya/04/plans.md"`
+
+
+---
+*Generated automatically by Dropbox to GitHub sync*
+
+
+# Changelog - 2025-11-11
+
 **Sync Date:** 2025-11-11 14:30:45 UTC
 **Total Changes:** 528 files
 

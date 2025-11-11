@@ -2436,108 +2436,182 @@ body.dark-mode #toolsModal .tool-icon {
   border-color: rgba(251, 191, 36, .32);
 }
 
-/* ==============================
-   SKILLS MODAL — FULL CSS (list + amber accent)
-   ============================== */
-
-/* Make the body a vertical list with tight spacing */
+/* === SKILLS MODAL (Amber Accent - Light & Dark) === */
 #skillsModal .modal-body {
   display: flex;
   flex-direction: column;
-  gap: 8px; /* distance between items */
+  gap: 8px;
 }
 
-/* Each skill item as a glassy list card */
+/* Base Card */
 #skillsModal .skill-card {
   display: flex;
   align-items: center;
   gap: 14px;
-  padding: 12px 16px;
-  border-radius: 14px;
-
-  /* neutral glass base + warm edge */
-  background: linear-gradient(135deg, rgba(255,255,255,0.80), rgba(255,255,255,0.68));
-  border: 1px solid rgba(234,179,8,0.20);           /* amber edge */
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #fffef7, #fffbea); /* warm light gradient */
+  border: 1px solid rgba(234, 179, 8, 0.25);
   box-shadow:
-    0 6px 18px rgba(31,38,135,0.08),
-    0 8px 30px rgba(234,179,8,0.10);                /* gentle warm glow */
-
-  backdrop-filter: blur(10px) saturate(140%);
-  -webkit-backdrop-filter: blur(10px) saturate(140%);
-  transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+    0 4px 12px rgba(234, 179, 8, 0.08),
+    0 8px 20px rgba(234, 179, 8, 0.06);
+  transition: all 0.25s ease;
 }
 
-/* Hover interaction */
 #skillsModal .skill-card:hover {
   transform: translateY(-2px);
-  border-color: rgba(234,179,8,0.35);
   box-shadow:
-    0 12px 24px rgba(234,179,8,0.22),
-    0 18px 42px rgba(234,179,8,0.18);
+    0 8px 20px rgba(234, 179, 8, 0.18),
+    0 12px 28px rgba(234, 179, 8, 0.14);
+  border-color: rgba(234, 179, 8, 0.4);
 }
 
-/* Left icon chip (tinted in amber) */
+/* Icon box */
 #skillsModal .skill-icon {
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 42px;
   border-radius: 10px;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-
-  background: linear-gradient(135deg, #fde68a, #fcd34d); /* amber-200 → 300 */
-  border: 1px solid rgba(234,179,8,0.45);
-  color: #854d0e;                                        /* amber-800 glyphs */
+  background: linear-gradient(135deg, #fef9c3, #fde68a); /* amber-100→200 */
+  border: 1px solid rgba(234, 179, 8, 0.45);
+  color: #854d0e;
   flex-shrink: 0;
 }
+
 #skillsModal .skill-icon i,
-#skillsModal .skill-icon svg,
-#skillsModal .skill-icon img {
-  width: 20px; height: 20px;
-  object-fit: contain;
-  border-radius: 4px;
+#skillsModal .skill-icon svg {
+  width: 20px;
+  height: 20px;
 }
 
-/* Text block */
-#skillsModal .skill-info {
-  display: flex;
-  flex-direction: column;
-}
+/* Text styling */
 #skillsModal .skill-info h3 {
   font-size: 1rem;
   font-weight: 600;
-  color: #0f172a; /* slate-900 */
-}
-#skillsModal .skill-info p {
-  margin-top: 2px;
-  font-size: .9rem;
-  color: #475569; /* slate-600 */
+  color: #0f172a;
 }
 
-/* -------- Dark mode -------- */
-body.dark-mode #skillsModal .skill-card {
-  background: linear-gradient(135deg, rgba(30,41,59,0.78), rgba(15,23,42,0.72));
-  border-color: rgba(234,179,8,0.25);
-  color: #e5e7eb;
-  box-shadow:
-    0 6px 18px rgba(2,6,23,0.45),
-    0 8px 28px rgba(234,179,8,0.14);
+#skillsModal .skill-info p {
+  font-size: 0.88rem;
+  color: #475569;
+  margin-top: 2px;
 }
-body.dark-mode #skillsModal .skill-card:hover {
-  border-color: rgba(234,179,8,0.40);
+
+/* === DARK MODE === */
+body.dark-mode #skillsModal .skill-card {
+  background: linear-gradient(135deg, rgba(34, 34, 24, 0.85), rgba(20, 20, 10, 0.8));
+  border-color: rgba(234, 179, 8, 0.3);
   box-shadow:
-    0 12px 26px rgba(2,6,23,0.55),
-    0 18px 42px rgba(234,179,8,0.24);
+    0 6px 18px rgba(0, 0, 0, 0.5),
+    0 10px 30px rgba(234, 179, 8, 0.15);
+}
+
+body.dark-mode #skillsModal .skill-card:hover {
+  box-shadow:
+    0 10px 28px rgba(234, 179, 8, 0.25),
+    0 18px 40px rgba(234, 179, 8, 0.2);
 }
 
 body.dark-mode #skillsModal .skill-icon {
-  background: linear-gradient(135deg, #facc15, #eab308);  /* amber-400 → 500 */
-  border-color: rgba(234,179,8,0.45);
-  color: #1f2937;                                        /* slate-800 for contrast */
+  background: linear-gradient(135deg, #facc15, #eab308); /* amber-400→500 */
+  border-color: rgba(234, 179, 8, 0.5);
+  color: #1f2937;
 }
 
-body.dark-mode #skillsModal .skill-info h3 { color: #f8fafc; }  /* slate-50 */
-body.dark-mode #skillsModal .skill-info p  { color: #cbd5e1; }  /* slate-300 */
+body.dark-mode #skillsModal .skill-info h3 {
+  color: #f8fafc;
+}
+
+body.dark-mode #skillsModal .skill-info p {
+  color: #d1d5db;
+}
+
+/* ==============================
+   Header title — glass + gradient accent
+   Matches: header h1 ... Hire <span class="text-primary-gradient">live</span> professionals
+   ============================== */
+
+/* Gradient text for the word "live" */
+.text-primary-gradient {
+  background: linear-gradient(90deg, #3b82f6 0%, #6366f1 45%, #22d3ee 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Title pill: subtle glass, rounded, consistent with header buttons */
+header h1 {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .5rem .875rem;                 /* pill padding */
+  border-radius: 14px;                     /* same corner language */
+  letter-spacing: -0.02em;                 /* keep your current tracking */
+  background: linear-gradient(135deg, rgba(255,255,255,.72), rgba(255,255,255,.48));
+  border: 1px solid rgba(0,0,0,.06);
+  backdrop-filter: blur(10px) saturate(140%);
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
+  box-shadow:
+    0 8px 24px rgba(31,38,135,.08),
+    inset 0 1px 0 rgba(255,255,255,.55);
+  color: #0f172a;                          /* slate-900 */
+  font-weight: 700;                        /* stronger, hero feel */
+}
+
+/* Soft underline glow to anchor the title */
+header h1::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -8px;
+  width: 60%;
+  height: 6px;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, rgba(59,130,246,.30), rgba(99,102,241,.25), rgba(34,211,238,.25));
+  filter: blur(6px);
+  pointer-events: none;
+}
+
+/* Prevent overlap since the h1 is inside an absolutely centered wrapper */
+header .absolute h1 { position: relative; }
+
+/* Responsive type scale for the hero line (desktop/mobile blocks both exist) */
+header h1 { font-size: clamp(1.375rem, 2vw + 1rem, 1.875rem); } /* ~22px–30px */
+
+/* Hover: tiny lift on desktop-only */
+@media (hover:hover) {
+  header .absolute h1:hover {
+    transform: translateY(-1px);
+    box-shadow:
+      0 12px 30px rgba(31,38,135,.12),
+      inset 0 1px 0 rgba(255,255,255,.6);
+  }
+}
+
+/* Dark mode: cooler glass + brighter gradient text */
+body.dark-mode header h1 {
+  background: linear-gradient(135deg, rgba(17,24,39,.75), rgba(15,23,42,.68));
+  border-color: rgba(148,163,184,.20);
+  color: #e5e7eb;
+  box-shadow:
+    0 8px 24px rgba(2,6,23,.45),
+    inset 0 1px 0 rgba(255,255,255,.06);
+}
+body.dark-mode header h1::after {
+  background: linear-gradient(90deg, rgba(59,130,246,.35), rgba(99,102,241,.35), rgba(34,211,238,.3));
+  filter: blur(8px);
+}
+
+/* Keep the mobile title consistent (the lg:hidden variant) */
+.lg\\:hidden + h1,
+.lg\\:hidden h1,
+header .lg\\:hidden h1 {
+  font-weight: 700;
+  border-radius: 12px;
+}
 
 
 
@@ -2553,7 +2627,7 @@ body.dark-mode #skillsModal .skill-info p  { color: #cbd5e1; }  /* slate-300 */
             <div class="flex items-center justify-between">
                 <!-- Logo - Left -->
                 <div class="flex items-center">
-                    <img src="../Layer_1.png" alt="Remote Employees Logo" class="h-11 w-auto">
+                    <img src="../10/Layer_1.png" alt="Remote Employees Logo" class="h-11 w-auto">
                 </div>
 
                 <!-- Centered Title -->
@@ -3519,7 +3593,7 @@ body.dark-mode #skillsModal .skill-info p  { color: #cbd5e1; }  /* slate-300 */
             <!-- Brand Column - Spans 2 columns -->
             <div class="lg:col-span-2">
                 <div class="flex items-center gap-3 mb-6">
-                    <img src="../Layer_1.png" alt="Remote Employees Logo" class="h-11 w-auto">
+                    <img src="../10/Layer_1.png" alt="Remote Employees Logo" class="h-11 w-auto">
                     <span class="text-lg font-bold tracking-tight text-gray-100">REMOTE EMPLOYEES</span>
                 </div>
                 <p class="text-sm text-gray-400 mb-8 max-w-xs font-light leading-relaxed">
