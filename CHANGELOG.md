@@ -1,5 +1,453 @@
 # Changelog - 2025-11-11
 
+**Sync Date:** 2025-11-11 10:36:16 UTC
+**Total Changes:** 148 files
+
+## Summary
+
+- **Added:** 103 files
+- **Modified:** 12 files
+- **Deleted:** 33 files
+
+## Changes by Department
+
+### "Design
+
+**Total changes:** 3 files
+
+#### Shymkevych Iryna
+
+**Deleted (3 files):**
+- `daily (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-06).md"`
+- `employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07).html"`
+- `employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07 1).html"`
+
+
+### "Video
+
+**Total changes:** 23 files
+
+#### Azanova Dar\312\274ya
+
+**Deleted (23 files):**
+- `task.md"`
+- `plans.md"`
+- `task.md"`
+- `task.md"`
+- `plans.md"`
+- `daily.md"`
+- `task.md"`
+- `task.md"`
+- `daily.md"`
+- `plans.md"`
+- `Profile Video Editor Azanova Dar\312\274ya.md"`
+- `task.md"`
+- `daily.md"`
+- `daily.md"`
+- `plans.md"`
+- `daily.md"`
+- `daily.md"`
+- `task.md"`
+- `plans.md"`
+- `README.md"`
+- `plans.md"`
+- `plans.md"`
+- `daily.md"`
+
+
+### AI
+
+**Total changes:** 7 files
+
+#### Artemchuk Nikolay
+
+**Modified (1 files):**
+- `daily.md` → `11/daily.md` (19.05 KB, rev: 016434ee..., modified: 2025-11-11T10:16:01, by: Dropbox User)
+
+#### Niko AI
+
+**Added (3 files):**
+- `convert_to_json_clusters.cpython-313.pyc` → `ExportCRMS/scripts/__pycache__/convert_to_json_clusters.cpython-313.pyc` (5.32 KB, modified: 2025-11-07T13:49:16, by: Dropbox User)
+- `split_candidates_clusters.cpython-313.pyc` → `ExportCRMS/scripts/__pycache__/split_candidates_clusters.cpython-313.pyc` (5.09 KB, modified: 2025-11-07T13:49:45, by: Dropbox User)
+- `work_experiance.json` → `Employees/units/work_experiance.json` (386 bytes, modified: 2025-11-11T10:02:41, by: Dropbox User)
+
+#### Perederii Vladislav
+
+**Modified (3 files):**
+- `daily.md` → `11/daily.md` (3.63 KB, rev: 016434ca..., modified: 2025-11-11T07:32:12, by: Dropbox User)
+- `plans.md` → `11/plans.md` (4.61 KB, rev: 016434ca..., modified: 2025-11-11T07:32:29, by: Dropbox User)
+- `task.md` → `11/task.md` (7.25 KB, rev: 016434ca..., modified: 2025-11-11T07:34:07, by: Dropbox User)
+
+
+### Design
+
+**Total changes:** 65 files
+
+#### Hlushko Mariia
+
+**Added (2 files):**
+- `11.11.2025.md` → `11/11.11.2025.md` (0 bytes, modified: 2025-11-11T08:13:04, by: Dropbox User)
+- `12.00_call_transcript.md` → `11/12.00_call_transcript.md` (0 bytes, modified: 2025-11-11T10:07:04, by: Dropbox User)
+
+#### Kucherenko Iuliia
+
+**Added (3 files):**
+- `daily.md` → `11/daily.md` (5.29 KB, modified: 2025-11-11T10:12:24, by: Dropbox User)
+- `plans.md` → `11/plans.md` (3.44 KB, modified: 2025-11-11T10:12:32, by: Dropbox User)
+- `task.md` → `11/task.md` (7.99 KB, modified: 2025-11-11T10:12:48, by: Dropbox User)
+
+#### Safonova Eleonora
+
+**Added (54 files):**
+- `13-10-2025_claude_prompt_refinement (1).md` → `Safonova Eleonora/Prompt Library/13-10-2025_claude_prompt_refinement (1).md` (4.86 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `13-10-2025_claude_rewrite_insta (1).md` → `Safonova Eleonora/Prompt Library/13-10-2025_claude_rewrite_insta (1).md` (2.92 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `13-10-2025_cv_extraction_prompt.md` → `Safonova Eleonora/Prompt Library/13-10-2025_cv_extraction_prompt.md` (2.16 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `13-10-2025_gemini_cv_extraction.md` → `Safonova Eleonora/Prompt Library/13-10-2025_gemini_cv_extraction.md` (2.01 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `13-10-2025_insta_strategy.md` → `Safonova Eleonora/Prompt Library/13-10-2025_insta_strategy.md` (1.49 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `13.10.2025_claude_prompt_refinement.md` → `Safonova Eleonora/Prompt Library/13.10.2025_claude_prompt_refinement.md` (2.87 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `13.10.2025_claude_rewrite_insta.md` → `Safonova Eleonora/Prompt Library/13.10.2025_claude_rewrite_insta.md` (1.93 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `13.10.2025_cv_extraction_prompt.md` → `Safonova Eleonora/Prompt Library/13.10.2025_cv_extraction_prompt.md` (3.51 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `13.10.2025_gemini_cv_extraction.md` → `Safonova Eleonora/Prompt Library/13.10.2025_gemini_cv_extraction.md` (381 bytes, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `13.10.2025_gemini_story_concept.md` → `Safonova Eleonora/Prompt Library/13.10.2025_gemini_story_concept.md` (4.62 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `13.10.25_insta_strategy.md` → `Safonova Eleonora/Prompt Library/13.10.25_insta_strategy.md` (3.56 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `gemini_story_concept.md.txt` → `Safonova Eleonora/Prompt Library/gemini_story_concept.md.txt` (3.34 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `prompts 03.11.2025.md` → `Safonova Eleonora/Prompt Library/prompts 03.11.2025.md` (8.69 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `prompts 04.11.2025.md` → `Safonova Eleonora/Prompt Library/prompts 04.11.2025.md` (11.91 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `index.html` → `Safonova Eleonora/Cards for RH/index.html` (31.32 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `03.11.2025.md` → `Safonova Eleonora/Reports/03.11.2025.md` (13.38 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `04.11.2025.md` → `Safonova Eleonora/Reports/04.11.2025.md` (33 bytes, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `13.10.2025_cursor_summary.md` → `Safonova Eleonora/Reports/13.10.2025_cursor_summary.md` (2.00 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `21.10.2025.md` → `Safonova Eleonora/Reports/21.10.2025.md` (2.98 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `22.10.2025.md` → `Safonova Eleonora/Reports/22.10.2025.md` (965 bytes, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `23.10.2025.md` → `Safonova Eleonora/Reports/23.10.2025.md` (932 bytes, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `27.10.2025.md` → `Safonova Eleonora/Reports/27.10.2025.md` (1.37 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `28.10.2025.md` → `Safonova Eleonora/Reports/28.10.2025.md` (960 bytes, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `29.10.2025.md` → `Safonova Eleonora/Reports/29.10.2025.md` (1.57 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `30.10.2025.md` → `Safonova Eleonora/Reports/30.10.2025.md` (1.38 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `31.10.2025.md` → `Safonova Eleonora/Reports/31.10.2025.md` (1.65 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `Plans.md` → `Safonova Eleonora/Reports/Plans.md` (4.52 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `{13.10.25}.md` → `Safonova Eleonora/Reports/{13.10.25}.md` (76 bytes, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `any emploee logo.png` → `Safonova Eleonora/Cards for RH/logo/any emploee logo.png` (63.18 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `remote.png` → `Safonova Eleonora/Cards for RH/logo/remote.png` (178.63 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `Claude_AL_symbol.svg.png` → `Safonova Eleonora/Cards for RH/photo/Claude_AL_symbol.svg.png` (142.84 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `Dropbox_Icon.svg.png` → `Safonova Eleonora/Cards for RH/photo/Dropbox_Icon.svg.png` (20.99 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `Envato.png` → `Safonova Eleonora/Cards for RH/photo/Envato.png` (2.94 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `Lovable.png` → `Safonova Eleonora/Cards for RH/photo/Lovable.png` (1.56 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `aistudio.png` → `Safonova Eleonora/Cards for RH/photo/aistudio.png` (2.14 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `bolts.png` → `Safonova Eleonora/Cards for RH/photo/bolts.png` (1.97 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `chatgpt.png` → `Safonova Eleonora/Cards for RH/photo/chatgpt.png` (6.14 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `deepsite.png` → `Safonova Eleonora/Cards for RH/photo/deepsite.png` (92.76 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `faviconV2(1).png` → `Safonova Eleonora/Cards for RH/photo/faviconV2(1).png` (3.04 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `faviconV2.png` → `Safonova Eleonora/Cards for RH/photo/faviconV2.png` (1.66 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `gammai.png` → `Safonova Eleonora/Cards for RH/photo/gammai.png` (1.95 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `gemini.png` → `Safonova Eleonora/Cards for RH/photo/gemini.png` (328.10 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `genspark-icon.png` → `Safonova Eleonora/Cards for RH/photo/genspark-icon.png` (89.09 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `github_logo_icon.png` → `Safonova Eleonora/Cards for RH/photo/github_logo_icon.png` (11.40 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `grok.png` → `Safonova Eleonora/Cards for RH/photo/grok.png` (2.56 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `midjourney.png` → `Safonova Eleonora/Cards for RH/photo/midjourney.png` (4.00 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `n8n-color.png` → `Safonova Eleonora/Cards for RH/photo/n8n-color.png` (30.46 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `notebook.png` → `Safonova Eleonora/Cards for RH/photo/notebook.png` (42.08 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `notion.png` → `Safonova Eleonora/Cards for RH/photo/notion.png` (25.40 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `replit.png` → `Safonova Eleonora/Cards for RH/photo/replit.png` (234 bytes, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `sharkwindow.png` → `Safonova Eleonora/Cards for RH/photo/sharkwindow.png` (251.66 KB, modified: 2025-11-11T07:12:42, by: Dropbox User)
+- `plans.md` → `11/plans.md` (3.50 KB, modified: 2025-11-11T07:18:28, by: Dropbox User)
+- `task.md` → `11/task.md` (15.78 KB, modified: 2025-11-11T07:18:28, by: Dropbox User)
+- `daily.md` → `11/daily.md` (16.19 KB, modified: 2025-11-11T09:31:48, by: Dropbox User)
+
+**Deleted (3 files):**
+- `daily.md`
+- `task.md`
+- `plans.md`
+
+#### Shymkevych Iryna
+
+**Added (2 files):**
+- `daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md` → `06/daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md` (13.51 KB, modified: 2025-11-06T16:13:37, by: Dropbox User)
+- `employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html` → `05/employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html` (24.40 KB, modified: 2025-11-07T14:02:58, by: Dropbox User)
+
+**Modified (1 files):**
+- `index.html` → `05/index.html` (118.14 KB, rev: 016434de..., modified: 2025-11-11T09:03:10, by: Dropbox User)
+
+
+### Dev
+
+**Total changes:** 9 files
+
+#### Danylenko Liliia
+
+**Added (3 files):**
+- `task.md` → `11/task.md` (7.16 KB, modified: 2025-11-11T09:22:27, by: Dropbox User)
+- `plans.md` → `11/plans.md` (7.90 KB, modified: 2025-11-11T09:22:33, by: Dropbox User)
+- `daily.md` → `11/daily.md` (15.38 KB, modified: 2025-11-11T10:12:45, by: Dropbox User)
+
+**Modified (2 files):**
+- `task.md` → `10/task.md` (11.00 KB, rev: 016434de..., modified: 2025-11-11T09:02:33, by: Dropbox User)
+- `plans.md` → `10/plans.md` (10.94 KB, rev: 016434de..., modified: 2025-11-11T09:02:45, by: Dropbox User)
+
+#### Dev prompt log.md
+
+**Modified (1 files):**
+- `Dev prompt log.md` (19.15 KB, rev: 016434bd..., modified: 2025-11-11T06:35:59, by: Dropbox User)
+
+#### Kizilova Olha
+
+**Added (1 files):**
+- `task.md` → `11/task.md` (32.82 KB, modified: 2025-11-11T06:35:53, by: Dropbox User)
+
+**Modified (1 files):**
+- `task.md` → `07/task.md` (48.37 KB, rev: 016434bd..., modified: 2025-11-11T06:32:45, by: Dropbox User)
+
+#### Klimenko Yaroslav
+
+**Modified (1 files):**
+- `daily.md` → `11/daily.md` (6.25 KB, rev: 016434d9..., modified: 2025-11-11T08:38:22, by: Dropbox User)
+
+
+### LG
+
+**Total changes:** 18 files
+
+#### Adesina Oluwamayomiposi Elizabeth
+
+**Added (3 files):**
+- `task.md` → `11/task.md` (173 bytes, modified: 2025-11-11T08:31:57, by: Dropbox User)
+- `plans.md` → `11/plans.md` (94 bytes, modified: 2025-11-11T08:32:05, by: Dropbox User)
+- `daily.md` → `11/daily.md` (83 bytes, modified: 2025-11-11T08:32:11, by: Dropbox User)
+
+**Deleted (1 files):**
+- `README.md`
+
+#### Bindiak Dana
+
+**Added (3 files):**
+- `plans.md` → `11/plans.md` (2.34 KB, modified: 2025-11-11T07:22:42, by: Dropbox User)
+- `task.md` → `11/task.md` (1.91 KB, modified: 2025-11-11T07:28:52, by: Dropbox User)
+- `daily.md` → `11/daily.md` (1.43 KB, modified: 2025-11-11T07:29:08, by: Dropbox User)
+
+#### Burda Anna
+
+**Added (3 files):**
+- `daily.md` → `11/daily.md` (2.93 KB, modified: 2025-11-11T08:23:33, by: Dropbox User)
+- `plans.md` → `11/plans.md` (336 bytes, modified: 2025-11-11T08:27:00, by: Dropbox User)
+- `task.md` → `11/task.md` (392 bytes, modified: 2025-11-11T08:27:48, by: Dropbox User)
+
+**Deleted (3 files):**
+- `task.md`
+- `daily.md`
+- `plans.md`
+
+#### Cynthia Uzoh
+
+**Added (3 files):**
+- `daily.md` → `11/daily.md` (0 bytes, modified: 2025-11-11T07:16:27, by: Dropbox User)
+- `Plans.md` → `11/Plans.md` (0 bytes, modified: 2025-11-11T07:16:47, by: Dropbox User)
+- `task.md` → `11/task.md` (0 bytes, modified: 2025-11-11T07:17:09, by: Dropbox User)
+
+#### Shkinder Kseniia
+
+**Modified (2 files):**
+- `daily.md` → `11/daily.md` (2.96 KB, rev: 016434ce..., modified: 2025-11-11T07:50:56, by: Dropbox User)
+- `plans.md` → `11/plans.md` (6.47 KB, rev: 016434d2..., modified: 2025-11-11T08:08:50, by: Dropbox User)
+
+
+### Video
+
+**Total changes:** 23 files
+
+#### Azanova Darʼya
+
+**Added (23 files):**
+- `daily.md` → `03/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `03/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `03/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `04/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `04/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `daily.md` → `04/daily.md` (11.84 KB, modified: 2025-11-04T18:15:17, by: Dropbox User)
+- `daily.md` → `05/daily.md` (59.02 KB, modified: 2025-11-05T18:00:45, by: Dropbox User)
+- `plans.md` → `05/plans.md` (4.01 KB, modified: 2025-11-05T18:01:19, by: Dropbox User)
+- `task.md` → `05/task.md` (14.98 KB, modified: 2025-11-05T18:02:50, by: Dropbox User)
+- `daily.md` → `06/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `06/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `06/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `daily.md` → `07/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `07/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `07/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `README.md` (1.58 KB, modified: 2025-10-23T15:13:48, by: Dropbox User)
+- `task.md` → `08/task.md` (0 bytes, modified: 2025-11-07T10:38:46, by: Dropbox User)
+- `plans.md` → `08/plans.md` (0 bytes, modified: 2025-11-07T10:38:46, by: Dropbox User)
+- `daily.md` → `08/daily.md` (0 bytes, modified: 2025-11-07T10:38:47, by: Dropbox User)
+- `Profile Video Editor Azanova Darʼya.md` (1.36 KB, modified: 2025-11-07T10:02:41, by: Dropbox User)
+- `daily.md` → `10/daily.md` (36.02 KB, modified: 2025-11-10T15:57:12, by: Dropbox User)
+- `plans.md` → `10/plans.md` (4.79 KB, modified: 2025-11-10T15:57:54, by: Dropbox User)
+- `task.md` → `10/task.md` (30.54 KB, modified: 2025-11-10T16:01:19, by: Dropbox User)
+
+
+## All Changes
+
+### Added Files
+
+- `Design/Shymkevych Iryna/06/daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md`
+- `Design/Shymkevych Iryna/05/employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html`
+- `Dev/Kizilova Olha/11/task.md`
+- `Dev/Danylenko Liliia/11/task.md`
+- `Dev/Danylenko Liliia/11/plans.md`
+- `Dev/Danylenko Liliia/11/daily.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Prompt Library/13-10-2025_claude_prompt_refinement (1).md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Prompt Library/13-10-2025_claude_rewrite_insta (1).md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Prompt Library/13-10-2025_cv_extraction_prompt.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Prompt Library/13-10-2025_gemini_cv_extraction.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Prompt Library/13-10-2025_insta_strategy.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Prompt Library/13.10.2025_claude_prompt_refinement.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Prompt Library/13.10.2025_claude_rewrite_insta.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Prompt Library/13.10.2025_cv_extraction_prompt.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Prompt Library/13.10.2025_gemini_cv_extraction.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Prompt Library/13.10.2025_gemini_story_concept.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Prompt Library/13.10.25_insta_strategy.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Prompt Library/gemini_story_concept.md.txt`
+- `Design/Safonova Eleonora/Safonova Eleonora/Prompt Library/prompts 03.11.2025.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Prompt Library/prompts 04.11.2025.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/index.html`
+- `Design/Safonova Eleonora/Safonova Eleonora/Reports/03.11.2025.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Reports/04.11.2025.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Reports/13.10.2025_cursor_summary.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Reports/21.10.2025.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Reports/22.10.2025.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Reports/23.10.2025.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Reports/27.10.2025.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Reports/28.10.2025.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Reports/29.10.2025.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Reports/30.10.2025.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Reports/31.10.2025.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Reports/Plans.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Reports/{13.10.25}.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/logo/any emploee logo.png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/logo/remote.png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/photo/Claude_AL_symbol.svg.png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/photo/Dropbox_Icon.svg.png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/photo/Envato.png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/photo/Lovable.png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/photo/aistudio.png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/photo/bolts.png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/photo/chatgpt.png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/photo/deepsite.png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/photo/faviconV2(1).png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/photo/faviconV2.png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/photo/gammai.png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/photo/gemini.png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/photo/genspark-icon.png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/photo/github_logo_icon.png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/photo/grok.png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/photo/midjourney.png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/photo/n8n-color.png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/photo/notebook.png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/photo/notion.png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/photo/replit.png`
+- `Design/Safonova Eleonora/Safonova Eleonora/Cards for RH/photo/sharkwindow.png`
+- `Design/Safonova Eleonora/11/plans.md`
+- `Design/Safonova Eleonora/11/task.md`
+- `Video/Azanova Darʼya/03/daily.md`
+- `Video/Azanova Darʼya/03/plans.md`
+- `Video/Azanova Darʼya/03/task.md`
+- `Video/Azanova Darʼya/04/plans.md`
+- `Video/Azanova Darʼya/04/task.md`
+- `Video/Azanova Darʼya/04/daily.md`
+- `Video/Azanova Darʼya/05/daily.md`
+- `Video/Azanova Darʼya/05/plans.md`
+- `Video/Azanova Darʼya/05/task.md`
+- `Video/Azanova Darʼya/06/daily.md`
+- `Video/Azanova Darʼya/06/plans.md`
+- `Video/Azanova Darʼya/06/task.md`
+- `Video/Azanova Darʼya/07/daily.md`
+- `Video/Azanova Darʼya/07/plans.md`
+- `Video/Azanova Darʼya/07/task.md`
+- `Video/Azanova Darʼya/README.md`
+- `Video/Azanova Darʼya/08/task.md`
+- `Video/Azanova Darʼya/08/plans.md`
+- `Video/Azanova Darʼya/08/daily.md`
+- `Video/Azanova Darʼya/Profile Video Editor Azanova Darʼya.md`
+- `Video/Azanova Darʼya/10/daily.md`
+- `Video/Azanova Darʼya/10/plans.md`
+- `Video/Azanova Darʼya/10/task.md`
+- `Design/Hlushko Mariia/11/11.11.2025.md`
+- `Design/Safonova Eleonora/11/daily.md`
+- `Design/Hlushko Mariia/11/12.00_call_transcript.md`
+- `Design/Kucherenko Iuliia/11/daily.md`
+- `Design/Kucherenko Iuliia/11/plans.md`
+- `Design/Kucherenko Iuliia/11/task.md`
+- `AI/Niko AI/ExportCRMS/scripts/__pycache__/convert_to_json_clusters.cpython-313.pyc`
+- `AI/Niko AI/ExportCRMS/scripts/__pycache__/split_candidates_clusters.cpython-313.pyc`
+- `LG/Cynthia Uzoh/11/daily.md`
+- `LG/Cynthia Uzoh/11/Plans.md`
+- `LG/Cynthia Uzoh/11/task.md`
+- `LG/Bindiak Dana/11/plans.md`
+- `LG/Bindiak Dana/11/task.md`
+- `LG/Bindiak Dana/11/daily.md`
+- `LG/Burda Anna/11/daily.md`
+- `LG/Burda Anna/11/plans.md`
+- `LG/Burda Anna/11/task.md`
+- `LG/Adesina Oluwamayomiposi Elizabeth/11/task.md`
+- `LG/Adesina Oluwamayomiposi Elizabeth/11/plans.md`
+- `LG/Adesina Oluwamayomiposi Elizabeth/11/daily.md`
+- `AI/Niko AI/Employees/units/work_experiance.json`
+
+### Modified Files
+
+- `Dev/Kizilova Olha/07/task.md`
+- `Dev/Dev prompt log.md`
+- `Dev/Klimenko Yaroslav/11/daily.md`
+- `Dev/Danylenko Liliia/10/task.md`
+- `Dev/Danylenko Liliia/10/plans.md`
+- `Design/Shymkevych Iryna/05/index.html`
+- `LG/Shkinder Kseniia/11/daily.md`
+- `LG/Shkinder Kseniia/11/plans.md`
+- `AI/Perederii Vladislav/11/daily.md`
+- `AI/Perederii Vladislav/11/plans.md`
+- `AI/Perederii Vladislav/11/task.md`
+- `AI/Artemchuk Nikolay/11/daily.md`
+
+### Deleted Files
+
+- `"Video/Azanova Dar\312\274ya/05/task.md"`
+- `LG/Burda Anna/08/task.md`
+- `"Video/Azanova Dar\312\274ya/07/plans.md"`
+- `Design/Safonova Eleonora/08/daily.md`
+- `"Video/Azanova Dar\312\274ya/07/task.md"`
+- `"Design/Shymkevych Iryna/06/daily (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-06).md"`
+- `"Video/Azanova Dar\312\274ya/08/task.md"`
+- `"Video/Azanova Dar\312\274ya/05/plans.md"`
+- `"Video/Azanova Dar\312\274ya/05/daily.md"`
+- `"Video/Azanova Dar\312\274ya/06/task.md"`
+- `"Video/Azanova Dar\312\274ya/10/task.md"`
+- `"Video/Azanova Dar\312\274ya/10/daily.md"`
+- `"Video/Azanova Dar\312\274ya/08/plans.md"`
+- `"Video/Azanova Dar\312\274ya/Profile Video Editor Azanova Dar\312\274ya.md"`
+- `"Video/Azanova Dar\312\274ya/04/task.md"`
+- `"Video/Azanova Dar\312\274ya/07/daily.md"`
+- `LG/Burda Anna/08/daily.md`
+- `"Design/Shymkevych Iryna/05/employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07).html"`
+- `"Video/Azanova Dar\312\274ya/06/daily.md"`
+- `"Video/Azanova Dar\312\274ya/06/plans.md"`
+- `Design/Safonova Eleonora/08/task.md`
+- `"Video/Azanova Dar\312\274ya/04/daily.md"`
+- `"Video/Azanova Dar\312\274ya/08/daily.md"`
+- `"Video/Azanova Dar\312\274ya/03/task.md"`
+- `"Video/Azanova Dar\312\274ya/10/plans.md"`
+- `"Video/Azanova Dar\312\274ya/README.md"`
+- `LG/Adesina Oluwamayomiposi Elizabeth/README.md`
+- `"Design/Shymkevych Iryna/05/employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07 1).html"`
+- `"Video/Azanova Dar\312\274ya/04/plans.md"`
+- `"Video/Azanova Dar\312\274ya/03/plans.md"`
+- `Design/Safonova Eleonora/08/plans.md`
+- `"Video/Azanova Dar\312\274ya/03/daily.md"`
+- `LG/Burda Anna/08/plans.md`
+
+
+---
+*Generated automatically by Dropbox to GitHub sync*
+
+
+# Changelog - 2025-11-11
+
 **Sync Date:** 2025-11-11 06:38:43 UTC
 **Total Changes:** 53 files
 
