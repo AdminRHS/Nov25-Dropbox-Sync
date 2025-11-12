@@ -669,3 +669,81 @@ Warning: The process '/usr/bin/git' failed with exit code 128
 
 ----
 
+**Request**: process /Users/nikolay/Library/CloudStorage/Dropbox/Nov25/AI/Artemchuk Nikolay/12/daily.md with /Users/nikolay/Library/CloudStorage/Dropbox/Niko Nov25/Prompts/MAIN PROMPT v3.md
+
+**Details**:
+1. Read and analyzed raw call transcript from daily.md (Russian/Ukrainian/English mixed)
+2. Applied MAIN PROMPT v3.md comprehensive instructions to extract structured information
+3. Matched participants to Employee Directory (32 employees) with confidence levels:
+   - High confidence: Artemchuk Nikolay, Azanova Darya, Podolskyi Sviatoslav
+   - Medium confidence: Olya (needs identification), Danylenko Liliia
+   - Low confidence: Stas, Danya, Jimmy (external/unknown)
+4. Matched projects to Project Directory:
+   - High confidence: l-gn (Lead Generation), MAIN PROMPT v3
+   - Medium confidence: Video Transcription Workflow (new, requires mapping)
+5. Extracted and organized information into all 21 sections:
+   - Meeting metadata with participant/project matching
+   - Executive summary
+   - 10 action items with owners, departments, priorities, timelines
+   - 3 projects documented (l-gn, Video Transcription Workflow, MAIN PROMPT Development)
+   - 2 workflows documented (Video Transcription to Lead Generation, Daily Report Processing)
+   - 4 rules/best practices extracted
+   - 4 problems with solutions documented
+   - 8 tools/resources catalogued
+   - Technical architecture documented
+   - 4 decisions logged
+   - 5 documentation gaps identified
+   - 4 communication needs tracked
+   - 4 blockers/dependencies listed
+   - 5 key insights extracted
+   - Employee context captured
+   - Lead generation context documented
+   - Development context documented
+   - Follow-up items organized
+6. Created comprehensive structured markdown document following MAIN PROMPT v3.md format
+7. Saved processed document as daily_processed.md in same directory
+8. Preserved original daily.md file unchanged
+
+**Result**: Successfully processed daily.md transcript using MAIN PROMPT v3.md:
+- ✅ Created comprehensive structured document with all 21 sections populated
+- ✅ Matched 5 participants to Employee Directory with confidence levels
+- ✅ Matched 3 projects (2 to directory, 1 new workflow identified)
+- ✅ Extracted 10 actionable tasks with full details
+- ✅ Documented 2 complete workflows
+- ✅ Identified 4 problems with solutions
+- ✅ Catalogued 8 tools and resources
+- ✅ Logged 4 key decisions
+- ✅ Identified 5 documentation gaps
+- ✅ Extracted 5 strategic insights
+- ✅ Documented all follow-up items
+- ✅ Saved as daily_processed.md in Nov25/AI/Artemchuk Nikolay/12/
+- ✅ Original daily.md preserved unchanged
+- Document ready for team use and RAC integration
+
+----
+
+**Request**: take /Users/nikolay/Library/CloudStorage/Dropbox/Nov25/AI/Artemchuk Nikolay/12/daily_processed.md and /Users/nikolay/Library/CloudStorage/Dropbox/Nov25/AI/Artemchuk Nikolay/12/daily.md - define process of video transcript, processing it with prompt and collecting processed tools data and filling libraries with it for designers. separate it to new *.md file
+
+**Details**: 
+1. Analyzed daily_processed.md and daily.md files to understand video transcript processing workflow
+2. Reviewed Video_Analysis_Prompt.md to understand processing methodology
+3. Examined Cursor.json to understand tool JSON structure
+4. Created high-level process overview document specifically for designers
+5. Documented 4-step process flow: Video Transcription → Prompt Processing → Tool Data Collection → Library Population
+6. Focused on designer-specific benefits and use cases
+7. Included key concepts, process benefits, and related resources
+8. Saved document as Video_Transcript_Processing_Workflow_Designers.md in Taxonomy/Entities/LIBRARIES/Prompts/Video_Transcription/
+
+**Result**: Successfully created high-level process overview document for designers:
+- ✅ Document explains how video transcripts become structured tool data in libraries
+- ✅ 4-step process flow clearly documented (Transcription → Processing → Collection → Population)
+- ✅ Designer-specific focus section explains benefits and use cases
+- ✅ Key concepts and process benefits documented
+- ✅ Saved in appropriate location: Taxonomy/Entities/LIBRARIES/Prompts/Video_Transcription/
+- ✅ High-level format (not detailed SOP) as requested
+- ✅ Clear, accessible language for designer audience
+- ✅ No linting errors
+- Document ready for designers to understand the video transcript processing workflow
+
+----
+

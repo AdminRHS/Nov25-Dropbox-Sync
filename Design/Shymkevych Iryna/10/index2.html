@@ -1952,30 +1952,39 @@
         .action-btn svg {
             flex-shrink: 0;
         }
+       
+/* ==========================================
+   AI POPUP WINDOW — FIX FOGGY OVERLAY ISSUE
+   ========================================== */
 
-/* ==========================
-   AI POPUP WINDOW — refined design
-   ========================== */
-
+/* Outer modal shell (liquid-glass border only) */
 #aiModal {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%);
   width: 90%;
-  max-width: 560px;
+  max-width: 580px;
   border-radius: 24px;
-  background: linear-gradient(135deg, rgba(250, 250, 255, 0.32), rgba(255, 255, 255, 0.18));
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  backdrop-filter: blur(30px) saturate(180%);
-  -webkit-backdrop-filter: blur(30px) saturate(180%);
-  box-shadow:
-    0 4px 25px rgba(31, 38, 135, 0.15),
-    inset 0 1px 0 rgba(255, 255, 255, 0.45);
-  padding: 26px 32px 30px;
-  opacity: 1;
-  pointer-events: auto;
+  background: rgba(255, 255, 255, 0.06); /* lighter blur */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(25px) saturate(180%);
+  -webkit-backdrop-filter: blur(25px) saturate(180%);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.25);
+  padding: 0;
+  z-index: 60;
   color: #0f172a;
+}
+
+/* Inner content panel — solid white, removes double opacity */
+#aiModal .modal-content {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  padding: 26px 32px 30px;
+  border: none;
 }
 
 /* Header */
@@ -1983,17 +1992,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
   padding-bottom: 10px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid #e5e7eb;
 }
-#aiModal .modal-title {
-  font-size: 1.3rem;
-  font-weight: 700;
+/* Gradient title text */
+.modal-title,
+.text-gradient {
   background: linear-gradient(90deg, #3b82f6, #6366f1, #22d3ee);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background-clip: text;              /* standard */
+  -webkit-background-clip: text;      /* Safari/Chrome */
+  color: transparent;                 /* standard */
+  -webkit-text-fill-color: transparent;/* Safari */
 }
+
 #aiModal .modal-close {
   border: none;
   background: none;
@@ -2003,47 +2015,31 @@
   transition: color 0.2s ease;
 }
 #aiModal .modal-close:hover {
-  color: #2563eb;
+  color: #3b82f6;
 }
 
-/* Body */
+/* Body and cards */
 #aiModal .modal-body {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin-top: 6px;
+  gap: 12px;
 }
 
-/* Tool Card */
+/* AI cards */
 #aiModal .tool-card {
   display: flex;
   align-items: center;
   gap: 16px;
-  border-radius: 16px;
+  border-radius: 14px;
   padding: 14px 18px;
-  background: linear-gradient(135deg, rgba(255,255,255,0.7), rgba(255,255,255,0.6));
-  border: 1px solid rgba(255,255,255,0.4);
-  box-shadow:
-    0 8px 24px rgba(0, 0, 0, 0.06),
-    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   transition: all 0.25s ease;
-  cursor: default;
 }
 #aiModal .tool-card:hover {
   transform: translateY(-1px);
-  box-shadow:
-    0 10px 25px rgba(59,130,246,0.15),
-    inset 0 1px 0 rgba(255,255,255,0.5);
-}
-
-/* Individual accent colors */
-#aiModal .tool-card:nth-child(1) {
-  background: linear-gradient(135deg, rgba(236,253,245,0.85), rgba(209,250,229,0.65));
-  border-color: rgba(16,185,129,0.3);
-}
-#aiModal .tool-card:nth-child(2) {
-  background: linear-gradient(135deg, rgba(245,243,255,0.85), rgba(237,233,254,0.65));
-  border-color: rgba(139,92,246,0.3);
+  box-shadow: 0 10px 22px rgba(99, 102, 241, 0.15);
 }
 
 /* Icon boxes */
@@ -2054,24 +2050,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
+  color: #fff;
 }
 #aiModal .tool-card:nth-child(1) .tool-icon {
-  background: #10b981;
+  background: #10b981; /* ChatGPT green */
 }
 #aiModal .tool-card:nth-child(2) .tool-icon {
-  background: #8b5cf6;
-}
-#aiModal .tool-icon img {
-  width: 28px;
-  height: 28px;
+  background: #8b5cf6; /* Midjourney purple */
 }
 
 /* Text */
 #aiModal .tool-info h3 {
   font-size: 1rem;
   font-weight: 600;
-  color: #0f172a;
+  color: #111827;
 }
 #aiModal .tool-info p {
   font-size: 0.88rem;
@@ -2081,75 +2073,125 @@
 
 /* Dark Mode */
 body.dark-mode #aiModal {
-  background: linear-gradient(135deg, rgba(15, 23, 42, 0.75), rgba(17, 24, 39, 0.65));
-  border-color: rgba(148, 163, 184, 0.25);
+  background: rgba(17, 24, 39, 0.6);
+  border-color: rgba(148, 163, 184, 0.2);
   box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
 }
+body.dark-mode #aiModal .modal-content {
+  background: #1e293b;
+  box-shadow:
+    0 6px 24px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
 body.dark-mode #aiModal .tool-card {
-  background: rgba(30, 41, 59, 0.7);
-  border-color: rgba(148, 163, 184, 0.2);
+  background: rgba(30, 41, 59, 0.9);
+  border-color: rgba(148, 163, 184, 0.25);
 }
 body.dark-mode #aiModal .tool-card:hover {
-  box-shadow: 0 12px 26px rgba(99, 102, 241, 0.3);
-}
-body.dark-mode #aiModal .tool-card:nth-child(1) {
-  background: rgba(20, 83, 45, 0.4);
-  border-color: rgba(16,185,129,0.4);
-}
-body.dark-mode #aiModal .tool-card:nth-child(2) {
-  background: rgba(88, 28, 135, 0.35);
-  border-color: rgba(139,92,246,0.4);
+  box-shadow: 0 12px 26px rgba(99, 102, 241, 0.25);
 }
 body.dark-mode #aiModal .tool-info h3 {
-  color: #f9fafb;
+  color: #f8fafc;
 }
 body.dark-mode #aiModal .tool-info p {
-  color: #9ca3af;
+  color: #cbd5e1;
+}
+
+/* ===== Softer, cleaner modal backdrop (no heavy fog) ===== */
+#modalBackdrop {
+  position: fixed;
+  inset: 0;
+  /* softer darkness with a subtle radial vignette */
+  background:
+    radial-gradient(120% 120% at 50% 10%,
+      rgba(15, 23, 42, 0.06) 0%,
+      rgba(15, 23, 42, 0.14) 35%,
+      rgba(15, 23, 42, 0.26) 100%);
+  backdrop-filter: blur(10px) saturate(140%);   /* less blur than before */
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .25s ease, visibility .25s ease, background .25s ease;
+  z-index: 50;
+}
+
+/* show state (keep your JS toggling .hidden) */
+#modalBackdrop:not(.hidden) {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Dark mode: a touch stronger, but still readable */
+body.dark-mode #modalBackdrop {
+  background:
+    radial-gradient(120% 120% at 50% 10%,
+      rgba(2, 6, 23, 0.10) 0%,
+      rgba(2, 6, 23, 0.22) 35%,
+      rgba(2, 6, 23, 0.36) 100%);
+  backdrop-filter: blur(12px) saturate(160%);
+  -webkit-backdrop-filter: blur(12px) saturate(160%);
+}
+
+/* Optional: make the modal itself pop a bit more on lighter backdrop */
+#aiModal .modal-content,
+#tasksModal .modal-content,
+#toolsModal .modal-content,
+#skillsModal .modal-content {
+  box-shadow:
+    0 10px 28px rgba(0, 0, 0, 0.10),
+    inset 0 1px 0 rgba(255, 255, 255, 0.80);
 }
 
 /* ==========================================
-   RESPONSIBILITIES MODAL — MATCH AI STYLE
+   RESPONSIBILITIES POPUP — SAME AS AI POPUP
    ========================================== */
 
 #tasksModal {
+  /* liquid-glass outer shell (same as AI) */
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 90%;
-  max-width: 560px;
-  border-radius: 20px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.32), rgba(255, 255, 255, 0.18));
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  max-width: 580px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   backdrop-filter: blur(25px) saturate(180%);
   -webkit-backdrop-filter: blur(25px) saturate(180%);
-  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.25);
-  padding: 26px 32px 30px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.25);
+  padding: 0;
+  z-index: 60;
   color: #0f172a;
 }
 
-/* Remove inner white background */
+/* solid white inner panel (same structure as AI) */
 #tasksModal .modal-content {
-  background: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
-  padding: 0 !important;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.80);
+  padding: 26px 32px 30px;
+  border: none;
 }
 
-/* Header */
+/* header (violet accent to distinguish section) */
 #tasksModal .modal-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
   padding-bottom: 10px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid #e5e7eb;
 }
 #tasksModal .modal-title {
-  font-size: 1.3rem;
+  font-size: 1.35rem;
   font-weight: 700;
   background: linear-gradient(90deg, #8b5cf6, #a855f7, #c084fc);
+  background-clip: text;
   -webkit-background-clip: text;
+  color: transparent;
   -webkit-text-fill-color: transparent;
 }
 #tasksModal .modal-close {
@@ -2158,55 +2200,35 @@ body.dark-mode #aiModal .tool-info p {
   color: #475569;
   cursor: pointer;
   font-size: 1.25rem;
-  transition: color 0.2s ease;
+  transition: color .2s ease;
 }
-#tasksModal .modal-close:hover {
-  color: #8b5cf6;
-}
+#tasksModal .modal-close:hover { color: #8b5cf6; }
 
-/* Body */
+/* body + list */
 #tasksModal .modal-body {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 }
 
-/* Task items — same layout as AI cards */
+/* responsibility cards — same layout as AI cards */
 #tasksModal .task-item {
   display: flex;
   align-items: center;
   gap: 16px;
-  border-radius: 16px;
+  border-radius: 14px;
   padding: 14px 18px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(240, 240, 255, 0.6));
-  border: 1px solid rgba(167, 139, 250, 0.3);
-  box-shadow:
-    0 8px 24px rgba(0, 0, 0, 0.06),
-    inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  transition: all 0.25s ease;
+  background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: all .25s ease;
 }
 #tasksModal .task-item:hover {
   transform: translateY(-1px);
-  box-shadow:
-    0 10px 25px rgba(139, 92, 246, 0.15),
-    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  box-shadow: 0 10px 22px rgba(139, 92, 246, 0.15);
 }
 
-/* Different accent per item (just like AI Tools modal) */
-#tasksModal .task-item:nth-child(1) {
-  background: linear-gradient(135deg, rgba(219,234,254,0.85), rgba(191,219,254,0.7));
-  border-color: rgba(59,130,246,0.3);
-}
-#tasksModal .task-item:nth-child(2) {
-  background: linear-gradient(135deg, rgba(243,232,255,0.85), rgba(233,213,255,0.7));
-  border-color: rgba(167,139,250,0.3);
-}
-#tasksModal .task-item:nth-child(3) {
-  background: linear-gradient(135deg, rgba(254,226,226,0.85), rgba(254,202,202,0.7));
-  border-color: rgba(239,68,68,0.3);
-}
-
-/* Icon box */
+/* icon chip */
 #tasksModal .task-icon {
   width: 48px;
   height: 48px;
@@ -2214,57 +2236,49 @@ body.dark-mode #aiModal .tool-info p {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
-}
-#tasksModal .task-item:nth-child(1) .task-icon {
-  background: #3b82f6;
-}
-#tasksModal .task-item:nth-child(2) .task-icon {
-  background: #8b5cf6;
-}
-#tasksModal .task-item:nth-child(3) .task-icon {
-  background: #ef4444;
-}
-#tasksModal .task-icon svg {
-  width: 24px;
-  height: 24px;
   color: #fff;
+  background: linear-gradient(135deg, #8b5cf6, #a855f7);
+  flex-shrink: 0;
+  border: 1px solid rgba(167,139,250,0.45);
 }
+#tasksModal .task-icon svg { width: 24px; height: 24px; }
 
-/* Text */
+/* text */
 #tasksModal .task-info h3 {
   font-size: 1rem;
   font-weight: 600;
-  color: #0f172a;
+  color: #111827;
 }
 #tasksModal .task-info p {
-  font-size: 0.88rem;
+  font-size: .88rem;
   color: #475569;
   margin-top: 2px;
 }
 
-/* Dark Mode */
+/* ------------ Dark mode (matches AI) ------------ */
 body.dark-mode #tasksModal {
-  background: linear-gradient(135deg, rgba(15, 23, 42, 0.75), rgba(17, 24, 39, 0.65));
-  border-color: rgba(148, 163, 184, 0.25);
-  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
+  background: rgba(17, 24, 39, 0.60);
+  border-color: rgba(148,163,184,0.20);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+}
+body.dark-mode #tasksModal .modal-content {
+  background: #1e293b;
+  box-shadow:
+    0 6px 24px rgba(0,0,0,0.25),
+    inset 0 1px 0 rgba(255,255,255,0.05);
 }
 body.dark-mode #tasksModal .task-item {
-  background: rgba(30, 41, 59, 0.7);
-  border-color: rgba(148, 163, 184, 0.2);
+  background: rgba(30,41,59,0.90);
+  border-color: rgba(148,163,184,0.25);
 }
 body.dark-mode #tasksModal .task-item:hover {
-  box-shadow: 0 12px 26px rgba(139, 92, 246, 0.3);
+  box-shadow: 0 12px 26px rgba(139, 92, 246, 0.25);
 }
-body.dark-mode #tasksModal .task-info h3 {
-  color: #f9fafb;
-}
-body.dark-mode #tasksModal .task-info p {
-  color: #9ca3af;
-}
+body.dark-mode #tasksModal .task-info h3 { color: #f8fafc; }
+body.dark-mode #tasksModal .task-info p  { color: #cbd5e1; }
 
 /* ==========================================
-   TOOLS POPUP WINDOW — SAME AS AI POPUP
+   TOOLS POPUP — SAME AS AI POPUP
    ========================================== */
 
 #toolsModal {
@@ -2275,41 +2289,44 @@ body.dark-mode #tasksModal .task-info p {
   width: 90%;
   max-width: 580px;
   border-radius: 24px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.08));
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  /* liquid-glass outer shell */
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   backdrop-filter: blur(25px) saturate(180%);
   -webkit-backdrop-filter: blur(25px) saturate(180%);
-  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.25);
   padding: 0;
   z-index: 60;
   color: #0f172a;
 }
 
-/* White inner panel */
+/* solid white inner panel (same as AI) */
 #toolsModal .modal-content {
-  background: #ffffff;
+  background: #fff;
   border-radius: 20px;
   box-shadow:
-    0 6px 24px rgba(0, 0, 0, 0.08),
-    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+    0 8px 24px rgba(0,0,0,0.08),
+    inset 0 1px 0 rgba(255,255,255,0.80);
   padding: 26px 32px 30px;
   border: none;
 }
 
-/* Header */
+/* header */
 #toolsModal .modal-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
   padding-bottom: 10px;
-  border-bottom: 1px solid rgba(226, 232, 240, 0.7);
+  border-bottom: 1px solid #e5e7eb;
 }
 #toolsModal .modal-title {
   font-size: 1.35rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #f59e0b, #fbbf24, #fcd34d);
+  background: linear-gradient(90deg, #f59e0b, #fbbf24, #fde047); /* amber accent */
+  background-clip: text;
   -webkit-background-clip: text;
+  color: transparent;
   -webkit-text-fill-color: transparent;
 }
 #toolsModal .modal-close {
@@ -2318,39 +2335,35 @@ body.dark-mode #tasksModal .task-info p {
   color: #475569;
   cursor: pointer;
   font-size: 1.25rem;
-  transition: color 0.2s ease;
+  transition: color .2s ease;
 }
-#toolsModal .modal-close:hover {
-  color: #f59e0b;
-}
+#toolsModal .modal-close:hover { color: #f59e0b; }
 
-/* Body */
+/* body + list */
 #toolsModal .modal-body {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 }
 
-/* Tool cards (same layout as AI cards) */
+/* tool cards — identical layout to AI cards */
 #toolsModal .tool-card {
   display: flex;
   align-items: center;
   gap: 16px;
   border-radius: 14px;
   padding: 14px 18px;
-  background: #f9fafb;
-  border: 1px solid rgba(226, 232, 240, 0.9);
-  box-shadow:
-    0 3px 8px rgba(0, 0, 0, 0.05),
-    inset 0 1px 0 rgba(255, 255, 255, 0.7);
-  transition: all 0.25s ease;
+  background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: all .25s ease;
 }
 #toolsModal .tool-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 22px rgba(251, 191, 36, 0.15);
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(251,191,36,0.15);
 }
 
-/* Icon box */
+/* icon chip */
 #toolsModal .tool-icon {
   width: 48px;
   height: 48px;
@@ -2358,55 +2371,286 @@ body.dark-mode #tasksModal .task-info p {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #1f2937;
+  background: linear-gradient(135deg, #facc15, #eab308); /* amber 400–500 */
+  border: 1px solid rgba(234,179,8,0.45);
   flex-shrink: 0;
-  color: #fff;
-  background: linear-gradient(135deg, #f59e0b, #fbbf24);
 }
-#toolsModal .tool-icon svg {
-  width: 24px;
-  height: 24px;
-}
+#toolsModal .tool-icon svg { width: 24px; height: 24px; }
 
-/* Text */
+/* text */
 #toolsModal .tool-info h3 {
   font-size: 1rem;
   font-weight: 600;
   color: #111827;
 }
 #toolsModal .tool-info p {
-  font-size: 0.88rem;
+  font-size: .88rem;
   color: #475569;
   margin-top: 2px;
 }
 
-/* --- Dark Mode --- */
+/* ------------ Dark mode (mirrors AI) ------------ */
 body.dark-mode #toolsModal {
-  background: linear-gradient(135deg, rgba(17,24,39,0.7), rgba(15,23,42,0.6));
-  border-color: rgba(148,163,184,0.25);
+  background: rgba(17,24,39,0.60);
+  border-color: rgba(148,163,184,0.20);
   box-shadow: 0 8px 40px rgba(0,0,0,0.5);
 }
 body.dark-mode #toolsModal .modal-content {
-  background: rgba(30,41,59,0.95);
+  background: #1e293b;
   box-shadow:
     0 6px 24px rgba(0,0,0,0.25),
     inset 0 1px 0 rgba(255,255,255,0.05);
 }
 body.dark-mode #toolsModal .tool-card {
-  background: rgba(30,41,59,0.85);
-  border-color: rgba(148,163,184,0.2);
+  background: rgba(30,41,59,0.90);
+  border-color: rgba(148,163,184,0.25);
 }
 body.dark-mode #toolsModal .tool-card:hover {
   box-shadow: 0 12px 26px rgba(251,191,36,0.25);
 }
-body.dark-mode #toolsModal .tool-info h3 {
-  color: #f8fafc;
+body.dark-mode #toolsModal .tool-info h3 { color: #f8fafc; }
+body.dark-mode #toolsModal .tool-info p  { color: #cbd5e1; }
+
+/* ==========================================
+   SKILLS POPUP — SAME AS AI POPUP
+   ========================================== */
+
+#skillsModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 580px;
+  border-radius: 24px;
+  /* liquid-glass outer shell */
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(25px) saturate(180%);
+  -webkit-backdrop-filter: blur(25px) saturate(180%);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.25);
+  padding: 0;
+  z-index: 60;
+  color: #0f172a;
 }
-body.dark-mode #toolsModal .tool-info p {
-  color: #cbd5e1;
+
+/* solid white inner panel (same as AI) */
+#skillsModal .modal-content {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow:
+    0 8px 24px rgba(0,0,0,0.08),
+    inset 0 1px 0 rgba(255,255,255,0.80);
+  padding: 26px 32px 30px;
+  border: none;
+}
+
+/* header */
+#skillsModal .modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e7eb;
+}
+#skillsModal .modal-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #f59e0b, #fbbf24, #fde047); /* golden accent */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+#skillsModal .modal-close {
+  border: none;
+  background: none;
+  color: #475569;
+  cursor: pointer;
+  font-size: 1.25rem;
+  transition: color .2s ease;
+}
+#skillsModal .modal-close:hover { color: #f59e0b; }
+
+/* body + list */
+#skillsModal .modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* skill cards — identical layout to AI cards */
+#skillsModal .skill-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-radius: 14px;
+  padding: 14px 18px;
+  background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: all .25s ease;
+}
+#skillsModal .skill-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(250,204,21,0.15); /* warm glow */
+}
+
+/* icon chip */
+#skillsModal .skill-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1f2937;
+  background: linear-gradient(135deg, #facc15, #eab308); /* amber 400–500 */
+  border: 1px solid rgba(234,179,8,0.45);
+  flex-shrink: 0;
+}
+#skillsModal .skill-icon svg { width: 24px; height: 24px; }
+
+/* text */
+#skillsModal .skill-info h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111827;
+}
+#skillsModal .skill-info p {
+  font-size: .88rem;
+  color: #475569;
+  margin-top: 2px;
+}
+
+/* ------------ Dark mode (mirrors AI) ------------ */
+body.dark-mode #skillsModal {
+  background: rgba(17,24,39,0.60);
+  border-color: rgba(148,163,184,0.20);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+}
+body.dark-mode #skillsModal .modal-content {
+  background: #1e293b;
+  box-shadow:
+    0 6px 24px rgba(0,0,0,0.25),
+    inset 0 1px 0 rgba(255,255,255,0.05);
+}
+body.dark-mode #skillsModal .skill-card {
+  background: rgba(30,41,59,0.90);
+  border-color: rgba(148,163,184,0.25);
+}
+body.dark-mode #skillsModal .skill-card:hover {
+  box-shadow: 0 12px 26px rgba(250,204,21,0.25);
+}
+body.dark-mode #skillsModal .skill-info h3 { color: #f8fafc; }
+body.dark-mode #skillsModal .skill-info p  { color: #cbd5e1; }
+
+/* =========================================
+   OVERRIDES: Spectate (green) & Play (red)
+   ========================================= */
+
+/* Base sizing (keeps both matched) */
+.spectate-btn,
+.play-btn {
+  --btn-h: 40px;
+  --btn-pad-x: 14px;
+  --btn-radius: 12px;
+  height: var(--btn-h);
+  padding: 0 var(--btn-pad-x);
+  border-radius: var(--btn-radius);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  border: 1px solid rgba(255,255,255,0.28);
+  backdrop-filter: blur(10px) saturate(140%);
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease, background .18s ease;
+}
+.spectate-btn svg, .play-btn svg,
+.spectate-btn i,   .play-btn i {
+  width: 18px; height: 18px;
+}
+
+/* === Spectate = GREEN glass pill === */
+.spectate-btn {
+  background: linear-gradient(135deg, rgba(236,253,245,0.92), rgba(209,250,229,0.76));
+  border-color: rgba(16,185,129,0.40);
+  color: #065f46;
+  box-shadow:
+    0 8px 22px rgba(16,185,129,0.15),
+    inset 0 1px 0 rgba(255,255,255,0.80);
+}
+.spectate-btn svg { color: #10b981; }
+.spectate-btn:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0 12px 28px rgba(16,185,129,0.22),
+    inset 0 1px 0 rgba(255,255,255,0.9);
+  border-color: rgba(16,185,129,0.55);
+}
+
+/* === Play = RED and ROUND === */
+/* If your Play button has text, this makes it a fully rounded pill. */
+.play-btn {
+  background: linear-gradient(135deg, rgba(254,242,242,0.92), rgba(254,226,226,0.76));
+  border-color: rgba(239,68,68,0.40);
+  color: #7f1d1d;
+  border-radius: 9999px; /* round pill */
+  box-shadow:
+    0 8px 22px rgba(239,68,68,0.15),
+    inset 0 1px 0 rgba(255,255,255,0.80);
+}
+.play-btn svg { color: #ef4444; }
+.play-btn:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0 12px 28px rgba(239,68,68,0.22),
+    inset 0 1px 0 rgba(255,255,255,0.9);
+  border-color: rgba(239,68,68,0.55);
+}
+
+/* --- Optional: make Play a perfect circular icon button (no text) ---
+   Add class 'play-btn--icon' to the Play button if you want a true circle. */
+.play-btn.play-btn--icon {
+  width: 40px; height: 40px; padding: 0;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+/* Dark mode */
+body.dark-mode .spectate-btn {
+  color: #ecfdf5;
+  background: linear-gradient(135deg, rgba(20,83,45,0.42), rgba(5,68,46,0.35));
+  border-color: rgba(16,185,129,0.45);
+  box-shadow:
+    0 8px 24px rgba(2,6,23,0.45),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+}
+body.dark-mode .spectate-btn svg { color: #34d399; }
+
+body.dark-mode .play-btn {
+  color: #fee2e2;
+  background: linear-gradient(135deg, rgba(127,29,29,0.42), rgba(69,10,10,0.35));
+  border-color: rgba(239,68,68,0.50);
+  box-shadow:
+    0 8px 24px rgba(2,6,23,0.45),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+}
+body.dark-mode .play-btn svg { color: #f87171; }
+
+/* Focus ring for accessibility */
+.spectate-btn:focus-visible, .play-btn:focus-visible {
+  outline: none;
+  box-shadow:
+    0 0 0 3px rgba(99,102,241,0.25),
+    0 10px 24px rgba(31,38,135,0.18),
+    inset 0 1px 0 rgba(255,255,255,0.85);
 }
 
 
-        
     </style>
 
 

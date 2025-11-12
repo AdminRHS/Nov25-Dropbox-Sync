@@ -19,7 +19,7 @@
 - **Profession:** lead generator
 - **Shift:** Day
 - **Rate:** 1
-- **Status:** Available
+- **Status:** Fired
 
 ## Skills
 
