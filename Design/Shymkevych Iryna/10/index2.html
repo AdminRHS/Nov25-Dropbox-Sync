@@ -2814,6 +2814,176 @@ body.dark-mode .share-btn {
 }
 body.dark-mode .share-btn svg { color: #cbd5e1; }
 
+/* =====================================
+   BOOK A CALL — GLASS CTA (radius 8px)
+   ===================================== */
+.call-btn {
+  --h: 40px;
+  --px: 14px;
+  --r: 8px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  height: var(--h);
+  padding: 0 var(--px);
+  border-radius: var(--r);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: .1px;
+  cursor: pointer;
+
+  /* liquid glass + subtle primary tint */
+  background: linear-gradient(135deg, rgba(255,255,255,0.78), rgba(255,255,255,0.6));
+  border: 1px solid rgba(59,130,246,0.30); /* blue edge */
+  color: #0f172a;
+
+  box-shadow:
+    0 8px 22px rgba(31,38,135,0.12),
+    inset 0 1px 0 rgba(255,255,255,0.85);
+  backdrop-filter: blur(10px) saturate(140%);
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
+
+  transition:
+    transform .18s ease,
+    box-shadow .18s ease,
+    border-color .18s ease,
+    background .18s ease,
+    color .18s ease;
+}
+
+.call-btn i,
+.call-btn svg {
+  width: 18px; height: 18px;
+  color: #2563eb; /* icon blue */
+}
+
+/* Hover / Active */
+.call-btn:hover {
+  transform: translateY(-1px);
+  border-color: rgba(59,130,246,0.48);
+  box-shadow:
+    0 12px 28px rgba(31,38,135,0.18),
+    inset 0 1px 0 rgba(255,255,255,0.95);
+}
+.call-btn:active {
+  transform: translateY(0);
+  box-shadow:
+    0 6px 16px rgba(31,38,135,0.14),
+    inset 0 1px 0 rgba(255,255,255,0.8);
+}
+
+/* Focus ring */
+.call-btn:focus-visible {
+  outline: none;
+  box-shadow:
+    0 0 0 3px rgba(99,102,241,0.22),
+    0 10px 24px rgba(31,38,135,0.18),
+    inset 0 1px 0 rgba(255,255,255,0.95);
+}
+
+/* Dark mode */
+body.dark-mode .call-btn {
+  background: linear-gradient(135deg, rgba(30,41,59,0.72), rgba(15,23,42,0.68));
+  border-color: rgba(96,165,250,0.35);
+  color: #e5e7eb;
+  box-shadow:
+    0 8px 24px rgba(2,6,23,0.45),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+}
+body.dark-mode .call-btn i,
+body.dark-mode .call-btn svg { color: #60a5fa; }
+
+body.dark-mode .call-btn:hover {
+  border-color: rgba(96,165,250,0.55);
+  box-shadow:
+    0 12px 28px rgba(2,6,23,0.55),
+    0 0 0 0 rgba(0,0,0,0),
+    inset 0 1px 0 rgba(255,255,255,0.08);
+}
+
+/* Compact on small screens */
+@media (max-width: 480px) {
+  .call-btn { --h: 38px; --px: 12px; font-size: 13px; }
+}
+
+/* =====================================
+   THEME TOGGLE — GLASS (radius 8px)
+   ===================================== */
+.theme-toggle-btn {
+  --size: 40px;
+  --radius: 8px;
+
+  width: var(--size);
+  height: var(--size);
+  border-radius: var(--radius);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  /* liquid-glass */
+  background: linear-gradient(135deg, rgba(255,255,255,0.75), rgba(255,255,255,0.55));
+  border: 1px solid rgba(148,163,184,0.35);
+  box-shadow:
+    0 8px 22px rgba(31,38,135,0.12),
+    inset 0 1px 0 rgba(255,255,255,0.8);
+  backdrop-filter: blur(10px) saturate(140%);
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
+
+  color: #0f172a;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease, background .18s ease;
+  cursor: pointer;
+}
+
+.theme-toggle-btn svg,
+.theme-toggle-btn i {
+  width: 18px;
+  height: 18px;
+  color: #64748b; /* slate-500 */
+  opacity: .95;
+}
+
+/* Hover/active/focus */
+.theme-toggle-btn:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0 12px 28px rgba(31,38,135,0.18),
+    inset 0 1px 0 rgba(255,255,255,0.9);
+  border-color: rgba(148,163,184,0.5);
+}
+.theme-toggle-btn:active {
+  transform: translateY(0);
+  box-shadow:
+    0 6px 16px rgba(31,38,135,0.14),
+    inset 0 1px 0 rgba(255,255,255,0.75);
+}
+.theme-toggle-btn:focus-visible {
+  outline: none;
+  box-shadow:
+    0 0 0 3px rgba(99,102,241,0.22),
+    0 10px 24px rgba(31,38,135,0.18),
+    inset 0 1px 0 rgba(255,255,255,0.9);
+}
+
+/* Dark mode surface */
+body.dark-mode .theme-toggle-btn {
+  background: linear-gradient(135deg, rgba(30,41,59,0.72), rgba(15,23,42,0.68));
+  border-color: rgba(148,163,184,0.28);
+  box-shadow:
+    0 8px 24px rgba(2,6,23,0.45),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+  color: #e5e7eb;
+}
+body.dark-mode .theme-toggle-btn svg { color: #cbd5e1; }
+
+/* Compact */
+@media (max-width: 480px) {
+  .theme-toggle-btn { --size: 36px; --radius: 8px; }
+}
+
+
 
     </style>
 
@@ -2853,15 +3023,16 @@ body.dark-mode .share-btn svg { color: #cbd5e1; }
 
 
                     <!-- Book a Call Button -->
-                    <button class="header-cta-btn">
-                        <span>Book a call</span>
-                        <i data-lucide="phone" class="h-4 w-4"></i>
-                    </button>
+                    <button class="call-btn" aria-label="Book a call">
+  <i data-lucide="phone"></i>
+  <span>Book a call</span>
+</button>
+
 
                     <!-- Dark/Light Mode Toggle -->
-                    <button class="header-icon-btn" id="theme-toggle" aria-label="Toggle theme">
-                        <i data-lucide="sun" class="h-5 w-5"></i>
-                    </button>
+                    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme">
+  <i data-lucide="sun"></i>
+</button>
 
                     <!-- Mobile Menu -->
                     <button id="mobile-menu-btn" class="header-icon-btn lg:hidden">

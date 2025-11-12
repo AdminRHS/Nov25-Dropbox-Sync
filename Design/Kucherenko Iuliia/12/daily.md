@@ -16,22 +16,101 @@
 ## Activities
 
 
-### [Time] - [Activity Name]
-**What I worked on:**
--
+### 09:00 - Morning Admin Call - File Management & Workflows
+**Participants:** Admin team, Design department managers
 
+**What I worked on:**
+- Discussed new folder organization system in Discord/Dropbox
+- Reviewed staff scheduling challenges due to electricity outages
+- Addressed employee list reconciliation issues with HR/Recruiters
+- Discussed new screenshot tracking bot implementation
 
 **Whisper Flow Transcript:**
 
+**English Translation:**
+"Folders inside Discord are not just Dropbox folders - they are created independently, and basically these three template files need to be added each day. We create our own folder and add our three reports in this format.
+
+Regarding flexible schedules - some people are okay, but mostly in the eastern regions everyone has problems with electricity. It's really tough for them, and the main thing is that I'm waiting for work to be completed and screenshots to be attached. Now, if new bots are introduced, there will either be more screenshots or another bot in Discord that will track who worked how much, when they logged in, when they logged out, and so on. Yes, you'll say we need to spend time both in Discord and in the time tracker - okay, we're informing you.
+
+New client - some woman from America who needs videos. She has her own company, and she does email newsletters. Most likely she'll need to insert some videos into the email newsletter. We might call you for an interview if needed. We don't know exactly what she wants in the videos, but a video editor is necessary.
+
+Did you finish the video interview? Yesterday I finished the one for that non-Russian girl. Ah, Lizigu. The HR wrote to me. What did they write? They've been waiting since August. We've been asking them for employee lists since September when we were compiling this. They kept asking us 'give us the lists, give us the lists,' but even until November they never provided the lists. She's supposedly been in the queue since August, first in line - how could we have missed her?
+
+Recruiters complained yesterday in the chat - 'we've been waiting since August for the sniper video.' We apparently missed it. We went through the table and made all the videos. But we can't get the employee list from them - not for snipers, not for anyone. We've been fighting for this for two months now, checking the list ten thousand times. Now they say 'we've been waiting since August,' and we're also waiting - from you specifically - so we can verify everything in a unified table.
+
+We're also waiting for super good candidates for $300 who can edit, do motion design, and everything else. We've been waiting since the company's founding for people who will work overtime, know all the AI tools, be super specialists with nerves of steel. The candidate mission is impossible, but at least we're waiting for the list. How many times did you redo this list with Artemchuk for these reports? Anyway, we need to make this video so they stop complaining.
+
+We checked last week, remember? We went through each person manually by number. It turned out half the people on the list hadn't been working for a long time, though they were listed. We found about 10 people. Other people's mistakes are always easier to notice than your own. In this case, it's easier to blame than to do something differently. Just like when they urgently asked me to make that 'Dolma Motinitsa 6' video. Obviously she doesn't work here anymore. It's that girl, Dolla Dodova."
+
+**Original (Russian/Ukrainian):**
 папки внутри дискор это не сдать дропбокса создаются самостоятельно и добавлять что фактически вот эти вот три файлика шаблонах как бы каждый день с этим сами себе папку туда добавляем три наших отчета типа такого плана так это делает
 
 Как эти свободные графики потому что у ребят есть у кого-то всё окей а в основном как будто на востоке у всех проблематика какая-то с этой с электроэнергией вот самая такая жесть у них и самое главное что я жду чтобы работа была выполнена скриншоты прикреплены соответственно и вот это вот сейчас если новые боты ведут там либо больше скриншотов будет либо еще в дискорде будет какой-то бот который будет смотреть все кто сколько там работает работал когда заявил генился когда вышел тому подобное да ты скажешь нужно тратить фактически время сейчас будет и в дискорде и в тем трекере окей сообщаем вам
 
 Новый клиент там какая-то женщина из Америки и ей нужны будут типа видосы у нее там я так понимаю какая-то своя фирма есть и она делает email рассылку возможно скорее всего ей понадобится там типа чтобы в эту email рассылку вставлялся какой-то видос может ей какие-то видосы понадобятся вот если что мы тебя на собеседование позовем? Ладно ну мы не знаем как бы она вообще хотела дизайнера который бы это все делал но если вдруг то есть как бы неизвестно что ей там нужно в этом видосе вот что без видеоэдитора никак да ну хорошо так все тогда да ты там видеоинтервью делаешь? Ну вчера закончила то что мне с деда этот как оно короче вчера закончила нерусскую негритоску, девочку. Ай чо, Лизигу эту. Она написала мне HR. А что написал? С августа ожидает какой-то праздник. Я тоже смотрела да как бы а то что мы их списки просили еще в сентябре когда мы этот составляли просила их еще. Сколько они нас просили дайте нам списки да дайте нам списки и не вот даже до ноября они нам списки так и не предоставили. Какой парень? Она вроде как стоит еще с августа но она стоит первая на очереди как мы ее могли пропустить? Стоит куда? Короче это рекрутеры нам дали. Они с августа ждут как мы сделаем ей ролик. Да рекрутеры у нас вчера типа в чате наехали мы с августа ждем где типа видеоролик прицельщика а мы видно пропустили Да по таблице шли делали все видео. А мы от них не можем списка добиться сотрудников не прицельщиков ни кого как бы ну сколько может два месяца бьемся никак вообще мы уже перепроверили десять тысяч раз этот список и теперь они с августа вообще-то ждем они так написали этот список мы тоже ждем уже сколько от вас конкретно чтобы мы сверили в единой таблице это все на их словам не предоставляет да просто если бы они хоть написали с августа ждем могли бы просто зайти сказать там ребят вы наверно про видос забыли сделайте пожалуйста все никаких вопросов не было бы а то прям вообще то с августа ждем мы тоже ждем супер хороших кандидатов за 300 долларов чтобы они там монтировали мошен дизайн делали все остальное. Сколько мы ждём уже с основания компании ждем еще и чтобы сверхурочно работали и тому подобное и со всеми ИИшками и были супер специалистами и со стальными нервами да да да да тоже ждём да ну реально как бы и список мы ждём ладно уже как бы кандидатов то миссия невыполнима а вот список то мы ждем ждём. И сколько нам делали может с Артемчуком вы же два или три раза переделывали этот список для этих отчетов. Короче надо будет эту бабку сделать чтобы они там не плакали ну да да сделать. Ну так хорошо но мы ж с тобой проверяли вот помнишь на прошлой неделе сидели грубо говоря вручную по номерам каждого проверяли мало того что там оказывается в этом списке половина уже давным давно не работало хотя числил числилось человек 10 мы нашли ну да это знаете чужие ошибки всегда замечаются лучше типа чем свои. В данном случае проще обвинить чем ну как-то по другому сделать поэтому так точно так же как мне срочно срочно сделайте вот эту долму мотиницам шесть такая была. Понятно что эта уже вчера не работает. А девочка? А я думала кто такая? Это в смысле все поняла да это девочка да. Долла Додова да. Да да
 
+**Decisions Made:**
+- Continue with three daily report files in separate folders
+- New Discord bot will track login/logout times
+- Screenshot requirements increasing for accountability
+- Need to complete Bykova video (waiting since August)
+
+**Action Items:**
+- Complete Bykova Anastasiia video urgently
+- Continue employee list reconciliation with recruiters
+- Implement new time tracking bot in Discord
+
+---
+
+
+### 10:30 - Design Department Call - Project Status & Client Updates
+**Participants:** Katya (Kateryna), Nastya (Anastasiia), Design team leads
+
+**What I worked on:**
+- Reviewed Polina's Data Mining project status
+- Discussed MOSIC project assignments (Maria, Iryna)
+- Addressed design system review requirements
+- Coordinated developer assignment for website completion
+
+**Whisper Flow Transcript:**
+
+**English Translation:**
+"Katya: Ah, design system... So, we need to resolve something with Nastya now. I'll bring Nastya here, probably, because we need to figure out what's happening with Polina? She has a day off today, right? Nastya, hi! We cruelly pulled you away from your workplace. I wanted to ask, what's happening with Polina and the Data Mining project? Do we know anything? Because she... She's only working on it today, today and tomorrow.
+
+Nastya: Mmm, well, nothing yet. Girl: I just wrote to him. Kerner: Yes, we don't know yet because we have some call now. Did you know that today is all day calls with every department? Girl: I knew. Kerner: Because she told me, and we haven't even... We have a question about Polina. Polina was at work yesterday, we don't know anything about what she... well, she communicated yesterday, because today the situation could have changed, so I think maybe you want to... No, I don't know anything.
+
+We still need to connect the intern regarding this website, I didn't quite catch him yesterday. Uh-huh, okay. I think we can catch him today, I don't know. Yes, okay, yes. But I'll tell you... Well, at least we'll still work with him... We need to look at feedback and all that. Uh-huh. Did MOSIC write anything? I see Maria decided to sit in Design-FM, maybe she went to the wrong place, but... I don't know. Well, not on the project, just generally. We generally agreed on a call with him yesterday, but he couldn't make it at eleven, I suggested three o'clock, but he ghosted me. Well, let it be then. I'll write, maybe today.
+
+Oh, I wanted to ask - I saw they added a folder for Biruka. Are they bringing him back or what? I'm hearing this for the first time. Maybe they did it by accident? Well, maybe, I don't know. Okay, we'll find out. It's also quite a story because there's a bit of chaos in those folders. Ah, well okay then, if that's the case.
+
+Regarding Polina, I'm not fully in the loop. I'm not fully aware of what's happening with Polina's website. Apparently she finished it. She said there were content edits. She showed some content that the client was finalizing, and she completed those little things. But she still has presentations. She said she won't make it in time. Well, she only works part-time. She doesn't work full-time on it. Right.
+
+She hasn't even gotten to the presentations yet, the ones he specifically needs, yes. Well, in principle, she said it's normal, adequate. He didn't say anything against it. In general, this Data Mining is good. She likes it, in principle, even the client, yes. Yes. This Data Mining, yes.
+
+She recently wrote asking who will be working on the website? Yes, she said to me: 'Who will be working...' Oh right, I remember now. Tell me, was Stas supposed to work on it? I looked through the transcript, he really promised. Well, we could have just figured out - there are two developers, we could have at least contacted someone to transfer it to, you know? At least that option. Yes. Yes. Yes. So it's not necessarily Stas who will... execute it. No, let him just assign a person - that's it. Who will do it. Especially now there's someone to give all this to, right?
+
+Let me look again at what's written in this contract, because I'm about to leave... Because there was definitely something about redesign. And something else... Presentations were definitely there, because he immediately asked for both presentation and redesign of the website itself, well. Thanks for watching!
+
+And it says: Redesign website, development and publication, make new website, play the existing ones, including full deployment and online accessibility. Blog. For that website - 'Update tutorial'. Ah, and some website tutorial, prepare detailed step by step written or video tutorial explaining how to update the new website. This thing, most likely, is what he wanted - Polina, remember, she said he wanted to be taught how to edit content on the website that will be ready. That's the option. And corporate presentation. Yes. It also accompanies your design and branding guidelines. Well, as an option. It comes out to eighty hours, she only did the redesign. Well yes, if so. But I can only contact her on Friday now because she has two days off from us, and I asked her to work four hours on the client in her free time today, because she asked me for a full day off in principle. I asked her to at least work on the client, yes. She said: 'Okay'. Aha. Oh, I understand. Well, in these two days we'll find out what and how, okay? Sofia Kasianovych: Well yes, but the contract ends tomorrow."
+
+**Original (Ukrainian):**
 Катюша: А-а-а, дизайн система... Так, а треба ще вирішити з Настею зараз, я Настю притягну сюди, напевно, тому що треба вирішити, що там з Поліною? У неї сьогодні вихідний, да? Настя, привіт! Ми тебе жорстоко зняли з твого робочого місця. Хотіла спитати, да, що там з Поліною, з проєктом "датамайнінг"? Щось відомо? Бо у неї там... Вона сьогодні тільки на нього працює, сьогодні і завтра. Настя: М-м-м, ну, що, поки нічого. Дівчина: Чого, я йому тільки написала. Кернер: Да, поки невідомо, бо у нас зараз якийсь дзвінок. Ти знала, що сьогодні весь день дзвінки з кожним відділом? Дівчина: Я знала. Кернер: Бо мені так сказала, і ми навіть взагалі. У нас там якраз стоїть питання по Поліні. А Поліни на роботі, вчора вона була, ми ж нічого не знаємо, що, що вона там, ну, вчора поспілкувалася, бо ж сьогодні можна, ситуація могла змінитися, тому думаю, може ти хочеш... Знала на. Ні, нічого не знаю. До цього ще треба підключити взагалі стажет по поводу цього сайта, я його вчора трошки не зловила. Угу, ну добре. Я гадаю, його там сьогодні можна буде зловити, я не знаю. Да, добре, да. Але я вам... Ну, по крайній мірі, ми все рівно з ним будемо робити... Мог подивитися, типу фідбек, от це ось все. Угу. А Мосік нічого написав? Бачу, Марія тут вирішила сидіти в "Дизайн-FM", може не туди зайшла , але... Не знаю. Ну, не на проєкті, а просто. Ми взагалі вчора домовлялися з ним про дзвінок, але в нього там в одинадцять не вийшло, я йому пропонувала три часа, а він мене проморозив. Ну нехай тоді. Я напишу, може сьогодні. А, хотіла спитати, там бачила Біруку цьому папку додали. Його все ж таки повертають чи як? Я перший раз таке чую. Може, це випадково зробили? Ну, може, не знаю. Добре, дізнаємося. Теж уже така історія, тому що поки трохи в тих папках хаос. А, ну тоді ладно, на, якщо так, на. А тому таке, ну. От по поводу Поліни я не дуже в курсі. Я не дуже в курсі, що там по сайту Поліни. Начебто вона його закінчила. Вона казала, що там були правки про контент. Вона показувала там якийсь контент, який клієнт дороблював контент і ще такі маленькі речі, оце вона доробила. Але там у неї ще презентації. Вона сказала, що вона не встигне. Ну, вона ж тільки на пів ставки працює. Вона ж не на фулл-тайм на нього працює. Так. До презентації вона ще навіть не дійшла, так, до тих, які саме йому потрібні вони, да. Ось, в принципі, вона сказала нормально, адекватно. Він нічого там проти не, не казав. Взагалі, цей дата-майнхг хороший. Їй подобається, в принципі, навіть клієнт, так. Да. Цей дата майнінг, так. Тільки це вона нещодавно якраз писала і взагалі про хто працює з сайтом? Так, вона мені взагалі-то: "Хто буде працювати... А все, то мені на пам'ять, а я ні. Скажи, вообще мав працювати Стас? Я так вже подивилась по трансляції, там реально обіцявся. Ну можна було просто як прикинути, два розробники ж є, можна чисто хоча б зв'язатися, кому передати типу, знаєш, ну? Такий хоча б варіант. Ну да. Да. Да. Тож не обов'язково прям Стас буде їх... ...виконувати. Ні, нехай просто назначить людину,- Ось це да. Яка це буде робити. Тим паче, зараз є кому, кому дати це все, да? Давайте я подивлюся ще раз, що це тут так пишеться в цьому договорі, бо я от-от піду... Бо там про редизайн точно було. І ще щось там... Презенташки там точно були, тому що він одразу просив і презентацію, плюс редизайн самого сайту, ну. Дякую за перегляд!
 
 І тото пише: Redesign website, development and publication, make new website, play the existing ones, including full deployment and online accessibility. Блог. У тому вебсайта ꟷ "Update tutorial". А, ще якийсь вебсайт tutorial, prepare of detailed step by step written or video tutorial explaining how to update the new website. А ця штука, скоріше за все, це він хотів, Поліна, пам'ятаєш, розповідала, що він хотів, як це, а-а-а, щоб його навчили редагувати ко- Контент на тому вебсайті, який буде готовий. Ось такий варіант. І corporate presentation. Да. It also accompanies your design and branding guidelines. Ну вже, як варіант. Вона виходить за вісімдесят годин, зробила тільки редизайн. Ну да, якщо так. Але ми, я з нею зможу тепер зв'язатися тільки у п'ятницю, тому що у неї на нас два дні вихідних і вона, я попросила, щоб вона у вільний час сьогодні попрацювала чотири години на клієнта, бо вона мені просила в принципі вихідний на весь день. Я попросила, щоб хоча б на клієнта вона відпрацювала, да. Вона сказала: "Окей". Ага. Ой, я поняла. Ну якраз ми, це два дні в мене і ми дізнаємося, що там та як, на? Софія Касьянович: Ну да, але договір закінчується завтра.
+
+**Decisions Made:**
+- Polina working 4 hours today on Data Mining client despite days off
+- Contract scope includes: website redesign (done), development, tutorial, corporate presentation
+- Contract ends November 13 (tomorrow) - URGENT
+- Need to assign developer (Stas or alternative) immediately
+- Polina available for full discussion on Friday
+
+**Action Items:**
+- Assign developer for Data Mining website development TODAY
+- Contact Stas or find alternative developer
+- Review 80-hour budget allocation (only redesign completed so far)
+- Coordinate presentation timeline with Polina
+- Follow up on MOSIC communication
 
 Клієнтові все одно, коли вона буде працювати, аби вона просто працювала, так? І вона сказала: "Добре, я на клієнта тоді відпрацюю". Угу. Мене цікавить, що вона там встигла зробити? Тільки редизайн? Так, останній варіант. Вона навіть фірму нам кидала свою. Це був редизайн сайту, і вона сказала, що знову ж таки там є якісь маленькі правки. Зміна буде- Контенту, а знову ж таки, якщо зміниться надто контент, знаєш, то там і дизайн може змінитися. Ось на цьому вона поки що застрягла, на останньому, що було. Угу, ну жаль. Ну в принципі, наскільки я пам'ятаю, прямо таких термінів, ну, немає. Да. Наприклад, послужці, це місяць чи ще щось. Да, і презентацію вона сказала ні, єдине, що це вона якраз, я її тоді викликала на дзвінок, бо клієнт у неї питав, на чому буде зроблено сайт, де б був сайт. Колись з тобою домовлялися, це нам потрібен був якийсь списочок від Стаса або від когось, що там клієнтові потрібно, щоб вона відправила і він хоч якось там відписався на них. Або щоб Поліна сказала, на чому він потрібен. І здається, вона сказала, що його попередній сайт був на Вордпресі. Мені здається, що так.
 
@@ -58,15 +137,42 @@
 ---
 
 
-### [Time] - [Activity Name]
-**What I worked on:**
--
+### 13:00 - Admin/Leadership Call - AI Video Transcription Workflow Training
+**Participants:** Kolya (Artem), Admin team, Design team leads, Yulia
 
+**What I worked on:**
+- Learned new AI video transcription workflow using Google AI Studio
+- Reviewed library building process for AI task management
+- Discussed video content organization and taxonomy structure
+- Practiced hands-on with System Instructions and YouTube video processing
 
 **Whisper Flow Transcript:**
 
+**Summary (Russian/Ukrainian segments translated):**
 
-Звонок с администрацией
+Kolya demonstrated the AI video transcription workflow:
+1. Find relevant YouTube videos (AI tools, design automation, tutorials - max 1-2 months old)
+2. Click Share button, copy YouTube link
+3. Open Google AI Studio
+4. Add System Instructions (Prompt v4 file) in Custom Instructions field
+5. Paste YouTube video link
+6. AI processes video and extracts: Actions (verbs), Objects, Tools, Capabilities, Use Cases, Task steps
+7. Copy output as Markdown
+8. Save in VS Code in transcription folder (video_00X.md format)
+9. System auto-updates video index
+
+Example shown: Eleven Labs tool analysis extracted Voice Cloning, Multilanguage Support, API Access, Use Cases like "Voice Design Video" with step-by-step task breakdowns.
+
+Purpose: Build new AI-powered knowledge library to replace outdated libraries. This allows AI to understand tasks using modern tools and generate proper instructions for design team.
+
+The team then attempted hands-on practice but encountered technical issues:
+- Token limits in Google AI Studio (4K used vs 32K max in free tier)
+- Confusion about where to place System Instructions file
+- Need for paid accounts for heavy usage
+
+Kolya also shared Dropbox folder access for Taxonomy/Libraries structure and explained the need to separate project work from internal tasks in documentation.
+
+**Original (Russian - key technical segments):**
 
 Вот возьмем видос. Какие-то видосы. Тут по лидогенерации видос был. Тут по мобильным приложениям. Тут чувак рассказывает как можно присоединить любое приложение внутрь кода. Да? Я нажимаю здесь Share Button, как только Share, то ссылка получается не YouTube, а YouTube. Угу. Вот, я его копирую и вставляю в Google AI Studio. Вот Google AI Studio. Внутри Google AI Studio я проставляю вот здесь вот System Instructions, Custom Instructions. Он мне говорит как надо обрабатывать видосы и что надо выписать и на что обращать внимание. Что он просит обращать внимание? На потенциальные задачи: последовательность действий, ключевые слова, писать инструменты Tools-ов которые надо использовать и так далее и так далее… Все что нам может быть актуально. Я заливаю вот эти вот System Instructions отдаю ссылку на видос и он подал мне это все на оформление. Он оформляется. Я вот здесь нажимаю копия с Markdown. Копировал из Markdown открыл у себя VS Code И смотрю у себя У меня тут файлик Вы уже привыкли к словам библиотека типа libraries да? Помните когда-то мы рисовали объекты там? И всякое такое. То есть, ну, библиотеки вам знакомое слово? Ну да. Внутри их есть несколько. Сейчас. Экшены, объекты. Сейчас она подтормаживает чуть-чуть. Action это глагол. Гаголы, да? Вот оно с последних видосов собрало. Split там я не знаю, Pit, Flutter, ну видосы не под дизайн. Объекты то же самое, ну давай посмотрим скрайк Да, оно что нам дает? Ну тут не сильно много Давай другой возьмем Мы посмотрим Тузы Тузы И посмотрим в тузах у нас автоматизация, разработка, интеграция ну давай AI-туз и возьмем вот например то что я запомнил это Eleven Labs было Capabilities можно переименовать Integration capabilities назвать вот что-то другое типа Responsibilities но что он может делать Eleven Labs? Yes to Switch Voice Cloning Multilanguage Support API Access Audio Editing Tool и так далее Use Cases То есть что-то что предлагалось клиенту Voice Design Video Как и у нас в заданиях как и то есть например по Voice Design Videos можно было бы скачать инструкт чтобы сделать Deep Research найти Task как это делать и так далее и дальше расширять вот эти вот Вот Task Create Video Voice Solo Вот к этому Task Step сначала напиши Script для видео
 
@@ -165,20 +271,62 @@
 
 Но они заявляют о том, что мы хотим только, а тут я же сверху написано: смиттик, можно 4 тысячи токенов использовали, а максимум 32 тысячи. Павловская им не оказалось на обмене. Это все делали, если не ошибаюсь, это нам дали задание на неделю. То есть фактически может все застряли на этом деле. На сегодня задание закончено, так сказать, но кто концентрировался, и он, он и куда-то. 
 
-Нет, мне туда он идёт, уже проводит там море правой паранскрипт. Этот ты должен сделать, они я тебе дать. Ну да, Коля показал, что должно быть таким образом. Да, типа просто вставлял ссылку, вроде на видос, у него прямо видно, как ты делал. Так у него видос сразу пропускал спокойно. 
+Нет, мне туда он идёт, уже проводит там море правой паранскрипт. Этот ты должен сделать, они я тебе дать. Ну да, Коля показал, что должно быть таким образом. Да, типа просто вставлял ссылку, вроде на видос, у него прямо видно, как ты делал. Так у него видос сразу пропускал спокойно.
 
+**Decisions Made:**
+- Adopt video transcription workflow to build AI knowledge library
+- Use videos max 1-2 months old for relevance
+- Create Design Department folder in Dropbox for centralized resources
+- Share Taxonomy/Libraries folder with all team members
+- Need paid Google AI Studio accounts for heavy users
+- Separate project documentation from internal tasks (use hashtags, quotes for tagging)
+- Multiple team members will transcribe videos in parallel
 
-
+**Action Items:**
+- Watch Step 0 instructions in Design Department folder
+- Practice video transcription workflow
+- Request Google AI Studio paid account access if needed
+- Start transcribing design/AI tool videos (Eleven Labs, Gamma, Cursor, etc.)
+- Implement tagging system for project vs internal work (#project, "ClientName")
+- Set up VS Code keyboard shortcuts for frequent snippets
 
 **Outcomes:**
--
+- Team understands new AI workflow concept but needs practice
+- Technical challenges identified (token limits, account access)
+- Foundation laid for modern knowledge library to improve AI task generation
+- Better documentation structure planned
 
 
 ---
 
 
 ## Notes
--
+
+**Key Themes of the Day:**
+- Infrastructure challenges: Electricity outages affecting eastern Ukraine team members (Maria Hlushko on MOSIC)
+- Urgent deadlines: Data Mining contract ends Nov 13, ZOHO client meeting Friday Nov 15
+- New technology adoption: AI video transcription workflow being rolled out to entire design team
+- Documentation improvements: Need to separate project work from internal tasks
+- Communication gaps: Employee lists not provided by recruiters since September, some client responses delayed
+
+**Critical Issues Requiring Immediate Attention:**
+1. Data Mining project - developer assignment needed TODAY (contract ends tomorrow)
+2. Maria Hlushko - electricity solution working (cafes with generators)
+3. ZOHO email marketing test - due before Friday client meeting
+4. Bykova video - overdue since August
+5. Storyboards project - pricing negotiation with client
+
+**Positive Developments:**
+- Maria completed 25 icons with only minor revisions (5 icons) - good quality work
+- Marta's test video highly praised by Storyboards client
+- New AI workflow has strong potential to modernize team operations
+- Team receptive to learning new technologies
+
+**Strategic Focus:**
+- Moving away from companies that don't use AI (like MOSIC)
+- Building innovation team for designers not on client projects
+- Creating online academy content and training materials
+- Black Friday campaign planning underway
 
 
 ## Reminder

@@ -363,3 +363,33 @@ This file contains all prompts and AI responses for the Dev department.
 **Result**: Successfully processed all 30 task.md files from November 4-11, 2025, extracting 44 tasks and consolidating them into 35 unique tasks. Updated the consolidated Dev Department Tasks file with 5 new MEDIUM priority tasks from November 12 call, updated existing task statuses, expanded employee sections with their active and completed tasks, and updated all metadata. The file now provides comprehensive department-wide task visibility with accurate counts, statuses, and assignments. All tasks are properly categorized by priority, assigned to appropriate employees, and include detailed steps and context. The consolidated file maintains its structure while reflecting the current state of all department tasks from the November 4-12 period. Key highlights: Danylenko Liliia has completed significant MCP integration work, Kizilova Olha continues leading CRM migration, and team is now focused on MCP Hub architecture and video transcription workflow integration.
 
 ----
+
+**Request**: @daily.md запиши планы в @plans.md с помощью промта @MAIN PROMPT v4.md
+
+**Details**: 
+- Прочитан файл `Nov25/Dev/Kizilova Olha/12/daily.md` (73 строки транскрипта встречи)
+- Прочитан файл `Niko Nov25/Prompts/MAIN PROMPT v4.md` (2539 строк) для инструкций по обработке
+- Обработан транскрипт согласно MAIN PROMPT v4.md инструкциям
+- Извлечены участники встречи:
+  - Kizilova Olha (ID: 178) - Backend Developer | Dev
+  - Danylenko Liliia (ID: 72754) - Frontend/Full-Stack Developer | Dev
+  - Artemchuk Nikolay (ID: 37226) - Project manager, Lead generator | AI (упоминается как Коля)
+  - Klimenko Yaroslav (ID: 86478) - Frontend Developer | Dev
+- Извлечены и структурированы планы и задачи:
+  - 2 критические задачи (Critical priority)
+  - 4 задачи высокого приоритета (High priority)
+  - 6 задач среднего приоритета (Medium priority)
+  - 5 проектных задач (Low priority)
+- Создан файл `Nov25/Dev/Kizilova Olha/12/plans.md` со структурированными планами:
+  - Критические задачи: очистка библиотеки Actions, парсинг Task Manager данных
+  - Высокий приоритет: работа над Employees template, создание Lips базы, обработка первой версии, работа над taxonomy
+  - Средний приоритет: оптимизация изображений, исправление ошибок, синхронизация библиотек, организация промптов
+  - Обучение: помощь в работе над библиотеками (полдня в неделю), обучение команды работе с данными
+  - Технические задачи: MCP интеграция, создание скриптов автоматизации, конвертация данных
+  - Проектные задачи: MCP Hub, лаборатория MCP Server UI, лаборатория RNT, Store Landing Page, Design System Review
+- Добавлены разделы: Проблемы и решения, Ключевые инсайты, Следующие шаги, Зависимости, Инструкции для работы
+- Все задачи структурированы с указанием: описания, владельца, отдела, профессии, приоритета, статуса, деталей, действия и объекта
+
+**Result**: Успешно создан файл `Nov25/Dev/Kizilova Olha/12/plans.md` с 20 структурированными планами и задачами, извлеченными из транскрипта daily.md с помощью MAIN PROMPT v4.md. Все задачи организованы по приоритетам (Critical, High, Medium, Low), с указанием владельцев, статусов и деталей. Добавлены разделы с проблемами, решениями, инсайтами и следующими шагами. Файл готов для использования командой Dev для планирования и отслеживания работы над библиотеками, данными и проектами.
+
+----
