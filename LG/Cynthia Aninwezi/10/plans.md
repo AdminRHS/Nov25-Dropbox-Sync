@@ -20,7 +20,7 @@ Daily Plan - [10/11/2025]
 ## Prioritized Action Items
 
 ### High Priority
-1. **[Add few tweaks to message template, Message new connections & Re-engage new leads]**
+1. **[Add few tweaks to message template, Message new connections & Re-engage old leads]**
 Goal: Observe for possible incease in response and engagement rate
 Expected Outcome: Increased engagement
 Deadline:6pm
