@@ -39,6 +39,58 @@ This file contains all prompts and AI responses for the AI department.
 
 ----
 
+**Request**: Process AI department task files from folders 04-11 and update consolidated AI Department Tasks file
+
+**Details**:
+1. Updated generic processing script (`process_department_tasks.py`) to handle both `task.md` and `tasks.md` files and optionally include Left folder
+2. Ran script on AI department directory for folders 04-11
+3. Found 8 tasks from Artemchuk Nikolay's folder 05 (most other task files were templates)
+4. Extracted tasks with titles, priorities, statuses, assignees, steps, resources, and instructions
+5. Grouped and merged similar tasks (8 unique active tasks after processing)
+6. Updated AI Department Tasks consolidated file:
+   - Updated metadata: Last Updated November 5, 2025 → November 12, 2025
+   - Updated Source: Added "Daily files Nov 4-11, 2025"
+   - Updated task counts: 7 → 8 tasks (from Nov 4-11 daily files)
+   - Updated document version: 1.0 → 2.0
+   - Updated next review date: November 12, 2025 → November 19, 2025
+7. Saved extracted tasks to `extracted_ai_tasks.json` for reference
+
+**Result**: Successfully processed AI department task files from November 4-11, 2025. Extracted 8 tasks from Artemchuk Nikolay's daily files. Updated consolidated AI Department Tasks file with new metadata, task counts, and document version. All tasks were already present in the consolidated file, so primarily updated statuses and metadata. The file now reflects the current state of all department tasks from the November 4-11 period.
+
+----
+
+**Request**: Process ALL employees daily files from AI department - each employee folder -> 05, 06, 07, 08, 09, 10, 11 folders and extract tasks from daily.md, plans.md, and task.md files. Fill in AI Department Tasks file with relevant data and update statuses.
+
+**Details**:
+1. Created comprehensive processing script (`process_all_daily_files.py`) to extract tasks from all three file types (daily.md, plans.md, task.md)
+2. Script processes:
+   - daily.md files: Extracts tasks from "What I worked on" sections and "Outcomes" sections
+   - plans.md files: Extracts prioritized action items from High/Medium/Low priority sections
+   - task.md files: Extracts structured tasks with steps, resources, instructions
+3. Ran script on AI department for folders 05-11:
+   - Processed files from Artemchuk Nikolay, Zasiadko Matvii, Perederii Vladislav
+   - Found 20 total tasks across all file types
+   - Filtered to 8 quality tasks (removed template/reminder tasks)
+4. Created merge script (`merge_tasks_to_consolidated.py`) to:
+   - Filter out low-quality tasks (reminders, templates, placeholders)
+   - Match existing tasks and update statuses
+   - Add new tasks to appropriate priority sections
+   - Update metadata and task counts
+5. Updated AI Department Tasks consolidated file:
+   - Added 4 new tasks from Nov 5-11 daily files
+   - Updated 4 existing tasks with new statuses
+   - Updated metadata: Last Updated November 12, 2025
+   - Updated Source: Added "Daily files Nov 5-11, 2025"
+   - Updated task counts and document version
+6. Tasks extracted from:
+   - task.md files: 8 tasks (structured tasks with steps and resources)
+   - daily.md files: 3 tasks (from activity outcomes)
+   - plans.md files: 0 tasks (no plans.md files with tasks found)
+
+**Result**: Successfully processed all AI department daily files (daily.md, plans.md, task.md) from folders 05-11. Extracted 20 tasks total, filtered to 8 quality tasks. Added 4 new tasks to consolidated file and updated 4 existing tasks with new statuses. The consolidated file now includes tasks from all file types and reflects current status from November 5-11, 2025. All tasks are properly categorized by priority and include detailed steps, resources, and instructions where available.
+
+----
+
 ----
 
 **Request**: Удалить старую автоматизацию (папку July25/prompts и файл prompt-cursor-all-dep.md) после перенастройки логирования.
@@ -744,6 +796,64 @@ Warning: The process '/usr/bin/git' failed with exit code 128
 - ✅ Clear, accessible language for designer audience
 - ✅ No linting errors
 - Document ready for designers to understand the video transcript processing workflow
+
+----
+
+**Request**: /Users/nikolay/Library/CloudStorage/Dropbox/Nov25/Design/Video_Transcript_Processing_Workflow_Designers.md - we need to add Step 0 - Searching the Videos about actual processes. 1. Process your daily.md files with MAIN PROMPT v4.md 2. Write prompt for Perplexity to search Tools that can help to accomplish that defined tasks 3. Search for those popular and FRESH videos - only videos that was posted to youtube 'today - month ago' and collect them
+
+**Details**: 
+1. Added Step 0: Searching for Videos About Actual Processes before existing Step 1
+2. Created Sub-Step 0.1: Process Daily Reports - using MAIN PROMPT v4.md to extract tasks and processes
+3. Created Sub-Step 0.2: Create Perplexity Search Prompt - generate prompt to find tools for defined tasks
+4. Created Sub-Step 0.3: Search for Fresh Videos - Perplexity AI search with specific criteria (last 30 days, popular, relevant)
+5. Created Sub-Step 0.4: Collect Videos - filter and organize video URLs by task/process category
+6. Updated High-Level Process Overview to include video discovery step
+7. Updated Summary section to mention task-driven discovery and fresh content
+8. Updated version to 1.1 and added version history
+9. Documented Perplexity configuration settings (creativity 0.5, structure mode, etc.)
+
+**Result**: Successfully added Step 0 to Video Transcript Processing Workflow:
+- ✅ Step 0 covers complete video discovery process (4 sub-steps)
+- ✅ Integrates daily.md processing with MAIN PROMPT v4.md
+- ✅ Includes Perplexity search prompt creation process
+- ✅ Specifies fresh video criteria (last 30 days)
+- ✅ Documents Perplexity configuration requirements
+- ✅ Updated version to 1.1 with version history
+- ✅ Updated introduction and summary sections
+- ✅ No linting errors
+- Document now includes complete workflow from task analysis to video collection
+
+----
+
+**Request**: now we need to do same for other department folders - create adapt version of Video_Transcript_Processing_Workflow_*Department*.md and place it inside each department folder + place next to it copy of MAIN PROMPT v4.md for each department folder
+
+**Details**: 
+1. Verified all department folders already have workflow files with Step 0 (version 1.1):
+   - AI: Video_Transcript_Processing_Workflow_AI.md ✓
+   - Design: Video_Transcript_Processing_Workflow_Designers.md ✓
+   - Dev: Video_Transcript_Processing_Workflow_Developers.md ✓
+   - LG: Video_Transcript_Processing_Workflow_LG.md ✓
+   - Video: Video_Transcript_Processing_Workflow_Video.md ✓
+2. Verified MAIN PROMPT v4.md exists in all departments:
+   - AI: MAIN PROMPT v4.md ✓
+   - Dev: MAIN PROMPT v4.md ✓
+   - LG: MAIN PROMPT v4.md ✓
+   - Video: MAIN PROMPT v4.md ✓
+   - Design: MAIN PROMPT v4.md (copied from Niko Nov25/Prompts/) ✓
+3. All workflow files are properly adapted with department-specific content:
+   - Each has Step 0 with 4 sub-steps
+   - Each has department-specific tool categories and use cases
+   - Each has department-specific focus sections
+   - All are version 1.1 with Step 0 included
+
+**Result**: All department folders now have:
+- ✅ Adapted Video Transcript Processing Workflow files (5 departments)
+- ✅ MAIN PROMPT v4.md copies in each department folder (5 departments)
+- ✅ All workflow files include Step 0: Searching for Videos About Actual Processes
+- ✅ All files are department-specific with appropriate tool categories and use cases
+- ✅ All files are version 1.1 and consistent in structure
+- ✅ Design folder now has MAIN PROMPT v4.md at root level (was only in subfolder before)
+- All departments are ready to use the video transcript processing workflow
 
 ----
 

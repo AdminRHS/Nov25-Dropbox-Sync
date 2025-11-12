@@ -2547,108 +2547,272 @@ body.dark-mode #skillsModal .skill-card:hover {
 body.dark-mode #skillsModal .skill-info h3 { color: #f8fafc; }
 body.dark-mode #skillsModal .skill-info p  { color: #cbd5e1; }
 
-/* =========================================
-   OVERRIDES: Spectate (green) & Play (red)
-   ========================================= */
+/* ==========================================
+   ELEGANT SPECTATE & PLAY BUTTONS
+   ========================================== */
 
-/* Base sizing (keeps both matched) */
+/* Base setup */
 .spectate-btn,
 .play-btn {
-  --btn-h: 40px;
-  --btn-pad-x: 14px;
-  --btn-radius: 12px;
-  height: var(--btn-h);
-  padding: 0 var(--btn-pad-x);
-  border-radius: var(--btn-radius);
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  justify-content: center;
+  gap: 6px;
   font-weight: 600;
-  border: 1px solid rgba(255,255,255,0.28);
+  font-size: 14px;
+  line-height: 1;
+  transition: all 0.25s ease;
+  border: none;
+  cursor: pointer;
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+}
+
+/* ---- Spectate button ---- */
+.spectate-btn {
+  padding: 10px 18px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: #ffffff;
+  box-shadow:
+    0 2px 8px rgba(22,163,74,0.25),
+    inset 0 1px 0 rgba(255,255,255,0.2);
+}
+
+.spectate-btn svg {
+  width: 18px;
+  height: 18px;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.spectate-btn:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 6px 16px rgba(22,163,74,0.3),
+    inset 0 1px 0 rgba(255,255,255,0.25);
+}
+
+/* ---- Play button ---- */
+.play-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #ef4444, #dc2626);
+  color: #fff;
+  box-shadow:
+    0 2px 8px rgba(239,68,68,0.25),
+    inset 0 1px 0 rgba(255,255,255,0.15);
+}
+
+.play-btn svg {
+  width: 18px;
+  height: 18px;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.play-btn:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 6px 16px rgba(239,68,68,0.3),
+    inset 0 1px 0 rgba(255,255,255,0.25);
+}
+
+/* ---- Dark mode ---- */
+body.dark-mode .spectate-btn {
+  background: linear-gradient(135deg, #15803d, #166534);
+  box-shadow: 0 4px 14px rgba(22,163,74,0.35);
+  color: #e2e8f0;
+}
+body.dark-mode .play-btn {
+  background: linear-gradient(145deg, #b91c1c, #991b1b);
+  box-shadow: 0 4px 14px rgba(239,68,68,0.35);
+  color: #e2e8f0;
+}
+body.dark-mode .spectate-btn:hover,
+body.dark-mode .play-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .spectate-btn {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+  .play-btn {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+/* =====================================
+   SEARCH BUTTON — LIQUID GLASS STYLE
+   ===================================== */
+
+/* Icon-only search button */
+.search-btn {
+  --size: 40px;
+  --radius: 8px;
+
+  width: var(--size);
+  height: var(--size);
+  border-radius: var(--radius);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  /* glass look */
+  background: linear-gradient(135deg, rgba(255,255,255,0.75), rgba(255,255,255,0.55));
+  border: 1px solid rgba(148,163,184,0.35);
+  box-shadow:
+    0 8px 22px rgba(31,38,135,0.12),
+    inset 0 1px 0 rgba(255,255,255,0.8);
   backdrop-filter: blur(10px) saturate(140%);
   -webkit-backdrop-filter: blur(10px) saturate(140%);
+
+  color: #0f172a;                   /* fallback if no svg */
   transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease, background .18s ease;
-}
-.spectate-btn svg, .play-btn svg,
-.spectate-btn i,   .play-btn i {
-  width: 18px; height: 18px;
+  cursor: pointer;
 }
 
-/* === Spectate = GREEN glass pill === */
-.spectate-btn {
-  background: linear-gradient(135deg, rgba(236,253,245,0.92), rgba(209,250,229,0.76));
-  border-color: rgba(16,185,129,0.40);
-  color: #065f46;
-  box-shadow:
-    0 8px 22px rgba(16,185,129,0.15),
-    inset 0 1px 0 rgba(255,255,255,0.80);
+.search-btn svg,
+.search-btn i,
+.search-btn img {
+  width: 18px;
+  height: 18px;
+  color: #475569;                   /* Lucide stroke */
+  opacity: 0.9;
 }
-.spectate-btn svg { color: #10b981; }
-.spectate-btn:hover {
+
+.search-btn:hover {
   transform: translateY(-1px);
   box-shadow:
-    0 12px 28px rgba(16,185,129,0.22),
+    0 12px 28px rgba(31,38,135,0.18),
     inset 0 1px 0 rgba(255,255,255,0.9);
-  border-color: rgba(16,185,129,0.55);
+  border-color: rgba(148,163,184,0.5);
 }
 
-/* === Play = RED and ROUND === */
-/* If your Play button has text, this makes it a fully rounded pill. */
-.play-btn {
-  background: linear-gradient(135deg, rgba(254,242,242,0.92), rgba(254,226,226,0.76));
-  border-color: rgba(239,68,68,0.40);
-  color: #7f1d1d;
-  border-radius: 9999px; /* round pill */
+.search-btn:active {
+  transform: translateY(0);
   box-shadow:
-    0 8px 22px rgba(239,68,68,0.15),
-    inset 0 1px 0 rgba(255,255,255,0.80);
-}
-.play-btn svg { color: #ef4444; }
-.play-btn:hover {
-  transform: translateY(-1px);
-  box-shadow:
-    0 12px 28px rgba(239,68,68,0.22),
-    inset 0 1px 0 rgba(255,255,255,0.9);
-  border-color: rgba(239,68,68,0.55);
+    0 6px 16px rgba(31,38,135,0.14),
+    inset 0 1px 0 rgba(255,255,255,0.75);
 }
 
-/* --- Optional: make Play a perfect circular icon button (no text) ---
-   Add class 'play-btn--icon' to the Play button if you want a true circle. */
-.play-btn.play-btn--icon {
-  width: 40px; height: 40px; padding: 0;
+.search-btn:focus-visible {
+  outline: none;
+  box-shadow:
+    0 0 0 3px rgba(99,102,241,0.22),
+    0 10px 24px rgba(31,38,135,0.18),
+    inset 0 1px 0 rgba(255,255,255,0.9);
+}
+
+/* Optional: label version like a small pill (Search + icon) */
+.search-btn--label {
+  --size: 40px;
+  height: var(--size);
+  padding: 0 14px;
+  min-width: 112px;
+  border-radius: 9999px;            /* pill */
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0f172a;
+}
+.search-btn--label svg { color: #6366f1; } /* subtle brand hint */
+
+/* -------- Dark mode -------- */
+body.dark-mode .search-btn {
+  background: linear-gradient(135deg, rgba(30,41,59,0.72), rgba(15,23,42,0.68));
+  border-color: rgba(148,163,184,0.28);
+  box-shadow:
+    0 8px 24px rgba(2,6,23,0.45),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+  color: #e5e7eb;
+}
+body.dark-mode .search-btn svg { color: #cbd5e1; }
+body.dark-mode .search-btn--label { color: #e5e7eb; }
+body.dark-mode .search-btn--label svg { color: #8b5cf6; }
+
+/* Compact on small screens */
+@media (max-width: 480px) {
+  .search-btn { --size: 36px; --radius: 10px; }
+  .search-btn--label { min-width: 100px; font-size: 13px; }
+}
+
+/* =====================================
+   SHARE BUTTON — RADIUS 8PX (matches Search)
+   ===================================== */
+.share-btn {
+  --size: 40px;
+  --radius: 8px;
+
+  width: var(--size);
+  height: var(--size);
+  border-radius: var(--radius);
+  display: inline-flex;
+  align-items: center;
   justify-content: center;
-  border-radius: 50%;
+
+  /* glass look */
+  background: linear-gradient(135deg, rgba(255,255,255,0.75), rgba(255,255,255,0.55));
+  border: 1px solid rgba(148,163,184,0.35);
+  box-shadow:
+    0 8px 22px rgba(31,38,135,0.12),
+    inset 0 1px 0 rgba(255,255,255,0.8);
+  backdrop-filter: blur(10px) saturate(140%);
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
+
+  color: #0f172a; /* fallback if no svg */
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease, background .18s ease;
+  cursor: pointer;
+}
+
+.share-btn svg,
+.share-btn i,
+.share-btn img {
+  width: 18px;
+  height: 18px;
+  color: #64748b; /* icon stroke (slate-500) */
+  opacity: 0.95;
+}
+
+.share-btn:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0 12px 28px rgba(31,38,135,0.18),
+    inset 0 1px 0 rgba(255,255,255,0.9);
+  border-color: rgba(148,163,184,0.5);
+}
+
+.share-btn:active {
+  transform: translateY(0);
+  box-shadow:
+    0 6px 16px rgba(31,38,135,0.14),
+    inset 0 1px 0 rgba(255,255,255,0.75);
+}
+
+/* Focus ring for a11y */
+.share-btn:focus-visible {
+  outline: none;
+  box-shadow:
+    0 0 0 3px rgba(99,102,241,0.22),
+    0 10px 24px rgba(31,38,135,0.18),
+    inset 0 1px 0 rgba(255,255,255,0.9);
 }
 
 /* Dark mode */
-body.dark-mode .spectate-btn {
-  color: #ecfdf5;
-  background: linear-gradient(135deg, rgba(20,83,45,0.42), rgba(5,68,46,0.35));
-  border-color: rgba(16,185,129,0.45);
+body.dark-mode .share-btn {
+  background: linear-gradient(135deg, rgba(30,41,59,0.72), rgba(15,23,42,0.68));
+  border-color: rgba(148,163,184,0.28);
   box-shadow:
     0 8px 24px rgba(2,6,23,0.45),
     inset 0 1px 0 rgba(255,255,255,0.06);
+  color: #e5e7eb;
 }
-body.dark-mode .spectate-btn svg { color: #34d399; }
-
-body.dark-mode .play-btn {
-  color: #fee2e2;
-  background: linear-gradient(135deg, rgba(127,29,29,0.42), rgba(69,10,10,0.35));
-  border-color: rgba(239,68,68,0.50);
-  box-shadow:
-    0 8px 24px rgba(2,6,23,0.45),
-    inset 0 1px 0 rgba(255,255,255,0.06);
-}
-body.dark-mode .play-btn svg { color: #f87171; }
-
-/* Focus ring for accessibility */
-.spectate-btn:focus-visible, .play-btn:focus-visible {
-  outline: none;
-  box-shadow:
-    0 0 0 3px rgba(99,102,241,0.25),
-    0 10px 24px rgba(31,38,135,0.18),
-    inset 0 1px 0 rgba(255,255,255,0.85);
-}
+body.dark-mode .share-btn svg { color: #cbd5e1; }
 
 
     </style>
@@ -2678,14 +2842,15 @@ body.dark-mode .play-btn svg { color: #f87171; }
                 <!-- Right Side Actions -->
                 <div class="flex items-center gap-3">
                     <!-- Search Button -->
-                    <button class="header-icon-btn" aria-label="Search">
-                        <i data-lucide="search" class="h-5 w-5"></i>
-                    </button>
+                    <button class="search-btn" aria-label="Search">
+  <i data-lucide="search"></i>
+</button>
 
                     <!-- Share Button -->
-                    <button class="header-icon-btn" aria-label="Share">
-                        <i data-lucide="share-2" class="h-5 w-5"></i>
-                    </button>
+                    <button class="share-btn" aria-label="Share">
+  <i data-lucide="share-2"></i>
+</button>
+
 
                     <!-- Book a Call Button -->
                     <button class="header-cta-btn">

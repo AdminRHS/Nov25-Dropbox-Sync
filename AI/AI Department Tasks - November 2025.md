@@ -3,8 +3,8 @@
 **Department:** AI Nov25
 **Document Type:** Department-Wide Task Consolidation
 **Date Range:** November 1-30, 2025
-**Source:** November 4, 2025 Admin Call + Design Call - Processed Transcripts
-**Last Updated:** November 5, 2025
+**Source:** November 4, 2025 calls, Daily files Nov 5-11, 2025
+**Last Updated:** November 12, 2025
 
 ---
 
@@ -106,7 +106,113 @@ The AI department is leading Remote Helpers' organizational transformation towar
 
 ### MEDIUM (Near Term - 1-2 weeks)
 
-#### 4. Compress & Optimize Main Prompt
+#### 1. Record Training Video for File System Usage
+- **Owner:** Artemchuk Nikolay
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 05
+- **Source:** task.md
+
+**Steps:**
+Review recorded video from morning Design call
+Edit video to highlight key file system usage points
+Add captions/annotations for clarity
+Prepare video for distribution to LG team
+Coordinate with Video team (Sviatoslav Podolskyi) if needed for editing
+
+**Resources:**
+- Video recording from Design call (November 4)
+- Video editing software
+- Screen recording tools
+- Whisper transcription (if needed)
+
+**Instructions:**
+The video was already recorded during the Design call. Focus on editing and preparing it for distribution to Lead Generation team as part of their onboarding to the new file system.
+
+---
+
+#### 2. Distribute File System Training to Lead Generation Team
+- **Owner:** Artemchuk Nikolay
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 05
+- **Source:** task.md
+
+**Steps:**
+Complete video editing (Task 3)
+Upload video to accessible location (Dropbox/Discord)
+Prepare announcement message for LG team
+Distribute via Discord and Email
+Ensure all LG team members have Dropbox access
+Schedule follow-up Q&A session if needed
+
+**Resources:**
+- Training video (when ready)
+- Discord channel
+- Email distribution list
+- Video hosting/Dropbox access
+- File System Project documentation
+
+**Instructions:**
+This task depends on Task 3 completion. Ensure all LG team members receive clear instructions and have access to the training materials. The goal is to onboard LG department to the new file system workflow.
+
+---
+
+#### 3. Document CRM Development Process for Future Microservices
+- **Owner:** Artemchuk Nikolay
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 05
+- **Source:** task.md
+
+**Steps:**
+Coordinate with Kizilova Olha to capture Talents module development process
+Document: architecture decisions, database structure, API design
+Extract reusable patterns and templates
+Create documentation structure for microservices replication
+Add to RAC knowledge base
+Create template for future microservices development
+
+**Resources:**
+- CRM project documentation
+- Talents module (in testing phase)
+- Cursor IDE
+- Documentation templates
+- File system
+- RAC Documentation project
+
+**Instructions:**
+Critical documentation task to enable replication of successful Talents development process for subsequent microservices (Accounts, Businesses, Task Manager). Capture lessons learned and best practices.
+
+---
+
+#### 4. Test Transcript Quality and Accuracy
+- **Owner:** Artemchuk Nikolay
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 05
+- **Source:** task.md
+
+**Steps:**
+Review transcripts from Design team members
+Identify patterns in Whisper Flow transcription issues
+Document language-switching bugs (English detection causing full transcript switch)
+Validate accuracy of AI-generated plans against actual meeting content
+Collect feedback from Design team on workflow effectiveness
+Report findings and recommendations
+
+**Resources:**
+- Design team transcripts
+- Whisper Flow documentation
+- VS Code/Cursor with Claude
+- Daily planning workflow documentation
+
+**Instructions:**
+Monitor and validate the automated daily planning workflow quality. Focus on identifying systematic issues (like language-switching bug) and ensuring AI-generated outputs maintain accuracy and usefulness.
+
+---
+
+## 4. Compress & Optimize Main Prompt
 - **Owner:** Artemchuk Nikolay
 - **Department:** AI
 - **Profession:** Prompt engineer, Project manager
@@ -295,9 +401,9 @@ The AI department is leading Remote Helpers' organizational transformation towar
 
 ## Department Capacity & Workload
 
-**Total Active Tasks:** 7 tasks
+**Total Active Tasks:** 11 tasks (from Nov 4-11, including 4 new from Nov 5-11 daily files)
 **Critical Priority:** 3 tasks
-**Medium Priority:** 4 tasks
+**Medium Priority:** 5 tasks
 **Blocked Tasks:** 0 tasks (but 2 dependencies)
 **In Progress:** 2 tasks (Weekly call schedule, Main prompt compression)
 
@@ -425,9 +531,9 @@ The File System Project demonstrates the AI department's transformation approach
 
 ---
 
-**Document Version:** 1.0
+**Document Version:** 2.0
 **Department:** AI Nov25
-**Next Review:** November 12, 2025
+**Next Review:** November 19, 2025
 **Contact:** Artemchuk Nikolay (Department Lead) | Zasiadko Matvii | Perederii Vladislav
 
 ---

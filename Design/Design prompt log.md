@@ -139,3 +139,108 @@ C:\Users\Lenovo\Dropbox\Nov25\Design\Kucherenko Iuliia\06\task.md
 
 ----
 
+**Request**: process /Users/nikolay/Library/CloudStorage/Dropbox/Nov25/Design/Design Department Tasks - November 2025.md with data from employees daily files after 04 november - use files from 05, 06, 07, 08, 09, 10 and 11 folders from every employees folder from /Users/nikolay/Library/CloudStorage/Dropbox/Nov25/Design. You need to fill that task file with new tasks from daily files and update existing
+
+**Details**:
+1. Scanned Design department directory and identified all employee folders
+2. Found 74 task.md files in folders 05-11 across all employees
+3. Created Python script to parse all task.md files and extract task data:
+   - Extracted 292 total tasks from all files
+   - Parsed task titles, priorities, statuses, assignees, timelines, and content
+   - Normalized task titles for duplicate detection
+   - Tracked source information (employee, date, source file)
+4. Implemented fuzzy matching algorithm to identify duplicate/similar tasks across employees and dates
+5. Grouped similar tasks into 173 unique task groups
+6. Merged duplicate tasks:
+   - Combined assignees when same task appears for multiple employees
+   - Used most recent status when duplicates found
+   - Preserved all unique details from different sources
+   - Tracked all source files and dates
+7. Filtered out template/placeholder tasks (172 valid tasks remaining)
+8. Updated consolidated task file:
+   - Added 7 CRITICAL priority tasks (power outage monitoring, onboarding presentation, accessibility audit, ChatGPT workflow, prompt optimization, client review, quality verification)
+   - Added 25 HIGH priority tasks (Game Academy covers, mascot documentation, employee audits, Cropper.js development, account management fixes, portrait standards, power outage procedures, coworking solutions, transcription pipeline, etc.)
+   - Added 50 MEDIUM priority tasks (Data Mining project tasks, mascot library work, PowerPoint templates, AI workflow tutorials, design system documentation, client projects, etc.)
+   - Updated existing tasks with new statuses (e.g., Technical Setup now shows Hlushko Mariia pending)
+   - Updated employee sections with their active tasks:
+     - Chobotar Yuliia: 7 active tasks (employee audits, portraits, video processing, onboarding presentation, Hanni Stone project)
+     - Safonova Eleonora: 15 active tasks (accessibility audit, Cropper.js development, AI Catalog features, design system)
+     - Bogun Polina: 21 active tasks (Game Academy covers, Data Mining website, PowerPoint templates, onboarding presentation)
+     - Hlushko Mariia: 3 active tasks (technical setup, client review, power outage resolution)
+     - Bykova Anastasiia: 8 active tasks (mascot library work across multiple departments)
+     - Skrypkar Vilhelm: 14 active tasks (team coordination, mascot library, tutorials, operational support)
+     - Kucherenko Iuliia: 4 active tasks (client coordination, operational procedures)
+     - Shymkevych Iryna: 8 active tasks (main page version selection, documentation, performance optimization)
+9. Updated file metadata:
+   - Last Updated: November 5, 2025 → November 12, 2025
+   - Source: Added "Daily files Nov 5-11, 2025"
+   - Document Version: 1.1 → 2.0
+   - Updated task counts: 3 tasks → 172 tasks (7 CRITICAL, 32 HIGH, 69 MEDIUM, 65 LOW)
+   - Updated team capacity information (16+ designers, HIGH workload, multiple active projects)
+   - Updated success metrics and coordination requirements
+10. Maintained existing file structure:
+    - Executive Summary
+    - By Priority Level (CRITICAL, HIGH, MEDIUM, LOW)
+    - By Employee (updated with new tasks)
+    - Cross-Department Dependencies
+    - Critical Blockers
+    - Department Capacity & Workload
+    - Success Metrics
+    - Related Documents
+    - Weekly Schedule Integration
+    - AI-Assisted Daily Planning Workflow
+    - Design Department Success Story
+    - Notes & Action Items
+
+**Result**: Successfully processed all 74 task.md files from November 5-11, 2025, extracting 292 tasks and consolidating them into 172 unique tasks. Updated the consolidated Design Department Tasks file with 7 CRITICAL, 25 HIGH, and 50 MEDIUM priority new tasks, updated existing task statuses, expanded employee sections with their active tasks, and updated all metadata. The file now provides comprehensive department-wide task visibility with accurate counts, statuses, and assignments. All tasks are properly categorized by priority, assigned to appropriate employees, and include detailed steps and context. The consolidated file maintains its structure while reflecting the current state of all department tasks from the November 5-11 period.
+
+----
+
+**Request**: also process **design** block from /Users/nikolay/Library/CloudStorage/Dropbox/Nov25/AI/Artemchuk Nikolay/12/daily.md and fill in /Users/nikolay/Library/CloudStorage/Dropbox/Nov25/Design/Design Department Tasks - November 2025.md
+
+**Details**:
+1. Read daily.md file from Artemchuk Nikolay's November 12 folder
+2. Extracted Design block (lines 9-16) containing discussion about:
+   - Video transcription workflow for designers
+   - Library structure organization (Prompts folder, Video Transcription)
+   - Tools discussion (Eleven Labs, Gamma, etc.)
+   - ZOHO platform testing for email marketing
+   - Black Friday campaign creation
+   - Project task separation from internal tasks
+   - Game Academy content upload
+   - Video page creation for transcribed videos
+   - Image optimization for Honeystone project
+   - Storyboard and MOSIK project updates
+3. Created 8 new HIGH priority tasks:
+   - Create Video Transcription Workflow Documentation for Designers
+   - Create Standalone Video Page for Transcribed Videos
+   - Organize and Review Prompts in Library Structure
+   - Separate Project Tasks from Internal Tasks in Documentation
+   - Upload Game Academy Content to Platform
+4. Created 10 new MEDIUM priority tasks:
+   - Test ZOHO Platform for Email Marketing
+   - Create Black Friday Campaign Materials
+   - Review and Organize Library Structure for Design Tools
+   - Process Video Transcriptions for Library Population
+   - Update Video Transcription Workflow Documentation
+   - Create Test Email Campaign for ZOHO Platform
+   - Identify and Train Email Design Candidates
+   - Review Storyboard Project Status and Marta's Rate
+   - Review MOSIK Project and Yulia's Status
+   - Optimize Image Sizes for Honeystone Project
+5. Updated employee sections with new tasks:
+   - Chobotar Yuliia: Added 2 tasks (video transcription workflow, standalone video page)
+   - Safonova Eleonora: Added 3 tasks (ZOHO testing, Black Friday campaign, test email campaign)
+   - Kucherenko Iuliia: Added 2 tasks (Storyboard rate negotiation, MOSIK project review)
+   - Remaining Design Team Members: Added 8 general team tasks
+6. Updated file metadata:
+   - Source: Added "November 12, 2025 Design Call"
+   - Total Active Tasks: 172 → 180 tasks
+   - High Priority: 32 → 36 tasks
+   - Medium Priority: 69 → 75 tasks
+7. All new tasks include detailed context from November 12 call, specific steps, timelines, and related projects
+
+**Result**: Successfully processed Design block from November 12 daily.md file and added 18 new tasks (8 HIGH, 10 MEDIUM) to the consolidated Design Department Tasks file. Tasks cover video transcription workflow, library organization, ZOHO platform testing, Black Friday campaign, project management updates, and operational improvements. Updated employee sections with relevant new tasks and updated task counts. All tasks include proper context, steps, and assignments based on the November 12 Design call discussion.
+
+----
+

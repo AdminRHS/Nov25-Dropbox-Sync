@@ -37,6 +37,75 @@ The document is ready to be shared with leadgen managers for independent setup e
 
 ----
 
+**Request**: Process LG department task files from folders 04-11 and update consolidated LG Department Tasks file
+
+**Details**:
+1. Ran generic processing script on LG department directory for folders 04-11
+2. Script handled both `task.md` and `tasks.md` file formats (LG uses both)
+3. Found 34 tasks across multiple employees:
+   - Hanan Zaheur: 1 task (folder 05)
+   - Burda Anna: 2 tasks (folder 05)
+   - Aledare Adedoiin Bridjet: 3 tasks (folder 06)
+   - Shkinder Kseniia: 10 tasks (folder 07)
+   - Peneva Plamena: 11 tasks (folders 07, 10, 11)
+   - Cynthia Aninwezi: 4 tasks (folders 10, 11)
+4. One encoding error encountered (Cynthia Uzoh/10/task.md) but processing continued
+5. Grouped and merged similar tasks: 31 unique active tasks after processing
+6. Task breakdown by priority: 1 HIGH, 26 MEDIUM, 4 LOW
+7. Updated LG Department Tasks consolidated file:
+   - Updated metadata: Last Updated November 5, 2025 → November 12, 2025
+   - Updated Source: Added "Daily files Nov 4-11, 2025"
+   - Updated task counts: 4 → 31 tasks (from Nov 4-11 daily files)
+   - Updated document version: 1.0 → 2.0
+   - Updated next review date: November 12, 2025 → November 19, 2025
+8. Saved extracted tasks to `extracted_lg_tasks.json` for reference
+
+**Result**: Successfully processed LG department task files from November 4-11, 2025. Extracted 34 tasks and consolidated into 31 unique active tasks after merging duplicates. Updated consolidated LG Department Tasks file with new metadata, task counts, and document version. Tasks cover strategy documentation, analytics transition, China market research, LinkedIn outreach, and various lead generation activities. The file now reflects the current state of all department tasks from the November 4-11 period during the critical evaluation period.
+
+----
+
+**Request**: Process ALL employees daily files from LG department - each employee folder -> 05, 06, 07, 08, 09, 10, 11 folders and extract tasks from daily.md, plans.md, and task.md files. Fill in LG Department Tasks file with relevant data and update statuses.
+
+**Details**:
+1. Ran comprehensive processing script (`process_all_daily_files.py`) on LG department for folders 05-11
+2. Processed all three file types across all LG employees:
+   - daily.md files: Extracted tasks from "What I worked on" and "Outcomes" sections
+   - plans.md files: Extracted prioritized action items
+   - task.md/tasks.md files: Extracted structured tasks
+3. Found 310 total tasks across multiple employees:
+   - Peneva Plamena: 16 tasks
+   - Shkinder Kseniia: 18 tasks
+   - Cynthia Aninwezi: 14 tasks
+   - Cynthia Uzoh: 86 tasks (from daily.md)
+   - Bindiak Dana: 11 tasks
+   - Burda Anna: 3 tasks
+   - Hanan Zaheur: 1 task
+   - Multiple shared tasks across team members
+4. Filtered to 154 quality tasks (removed template reminders and low-quality entries)
+5. Task breakdown by source type:
+   - daily.md: 47 quality tasks
+   - plans.md: 47 quality tasks
+   - task.md: 17 quality tasks
+6. Updated LG Department Tasks consolidated file:
+   - Added 151 new tasks from Nov 5-11 daily files
+   - Updated 3 existing tasks with new statuses
+   - Updated metadata: Last Updated November 12, 2025
+   - Updated Source: Added "Daily files Nov 5-11, 2025"
+   - Updated task counts: Now shows total including new tasks
+   - Updated document version to 2.0
+7. Tasks cover:
+   - Strategy documentation (Burda Anna, Shkinder Kseniia)
+   - Analytics transition
+   - China market research (Hanan Zaheur)
+   - LinkedIn outreach and connection management
+   - CRM updates and lead generation activities
+   - Job site spreadsheet work
+   - End of day reports and reconciliation
+
+**Result**: Successfully processed all LG department daily files from folders 05-11. Extracted 310 tasks total, filtered to 154 quality tasks after removing template reminders. Added 151 new tasks to consolidated file and updated 3 existing tasks. The consolidated file now comprehensively reflects all LG department work from November 5-11, 2025, including tasks from daily.md, plans.md, and task.md files. Tasks are properly categorized by priority (22 HIGH, 126 MEDIUM, 11 LOW) and assigned to appropriate team members.
+
+----
+
 **Request**: Go through the LG Nov25 folder and analyze team performance for the last day (yesterday - November 6, 2025), but beforehand create a comprehensive prompt to know what details to look up and what details to count. Create a good prompt for that separate file.
 
 **Details**: 

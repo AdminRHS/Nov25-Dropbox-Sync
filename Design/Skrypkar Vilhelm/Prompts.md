@@ -42,3 +42,48 @@ hey, one image has to have the shark, another the hummingbird, and the third the
 ↓don't use drawing boards, screens, or gadgets on pictures. come up with something more creative, appropriate and incorporated into the mascot's habitat
 ↓
 adding to my previous edits, use mascots that i gave you, not just animals. and incorporate text and claude icon neatly and creatively into the composition. please generate all three pictures again
+
+**perplexite deep research on new youtube AI tutorials**
+Please give me the list of the last week's trending youtube videos with tutorials on different AI tools for designers, these and others:
+
+Manus
+Midjourney
+Chat GPT
+Leonardo AI
+Gemini
+Perplexity
+Claude
+Gamma
+Grok
+Cursor
+AI Studio
+Replit
+Deepsite
+Lovable
+Genspark
+NoteBook LM
+Heygen
+Synthesia
+Hailuo
+Hedra
+Loom
+v0
+Kling
+Reve
+Elevenlabs
+Suno Ai
+Runway
+Flow
+Veo 3
+Adobe Firefly
+DreamFace
+Remini
+Roboneo
+Nano Banana
+Vozo
+
+**AI studio processing youtube video with the video custom instruction file**
+*choose gemini model*
+please process this video following the insctuctions file
+attach the youtube link and the video instructions file https://www.dropbox.com/scl/fi/7niv2qtxawlzh2w7og3qy/Video_Transcription_Custom_Instructions.md?rlkey=8ckwk5xrkvw48jw74tlgx0tj5&st=npijokbj&dl=0
+

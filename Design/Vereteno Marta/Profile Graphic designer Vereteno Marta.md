@@ -18,7 +18,7 @@
 
 - **Profession:** graphic designer
 - **Shift:** Day
-- **Rate:** 1
+- **Rate:** 0.75
 - **Status:** Part Project + Part Project
 
 ## Skills

@@ -1,0 +1,638 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Employee Card – Compact Overlay</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --card-w: 400px;
+      --radius: 8px;
+
+      /* Theme Colors (now used for icons) */
+      --color-ai: #4f46e5;       /* Indigo */
+      --color-resp: #0ea5e9;    /* Sky */
+      --color-tools: #f97316;   /* Orange */
+      --color-skills: #10b981;  /* Emerald */
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      min-height:100vh;
+      display:grid;
+      place-items:center;
+      background:#f3f5f7;
+      /* --- MODIFIED FONT --- */
+      font-family: 'Roboto', system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif;
+      /* --- END MODIFIED FONT --- */
+      padding:32px;
+    }
+    
+    .card{
+      width:var(--card-w);
+      position:relative;
+      overflow:hidden;
+      border-radius: var(--radius);
+      background:#fff;
+      box-shadow:0 10px 30px rgba(0,0,0,.08);
+      aspect-ratio: 4 / 5;
+    }
+    .photo{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+    }
+    .photo img{
+      width:100%; height:100%; object-fit:cover;
+    }
+    
+    .overlay{
+      display: block;
+      background:#ffffff;
+      padding: 12px;
+      z-index: 10;
+      position: absolute;
+      bottom: 12px;
+      left: 12px;
+      right: 12px;
+      border-radius: var(--radius);
+      box-shadow: 0 6px 18px rgba(0,0,0,.12);
+    }
+
+    .overlay-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .who{
+      min-width:0;
+      flex: 1;
+    }
+    .top-line, .bottom-line {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+    .bottom-line {
+      margin-top: 2px;
+    }
+
+    .role{
+      margin:0; 
+      font-size:16px; 
+      line-height:1.2; 
+      font-weight:700;
+      color:#111827; 
+      white-space:nowrap; 
+      overflow:hidden; 
+      text-overflow:ellipsis;
+    }
+    .price {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 700;
+      color: #111827;
+      line-height: 1.2;
+      flex-shrink: 0;
+    }
+
+    .name, .time {
+      margin: 0; 
+      font-size:14px;
+      font-weight: 400; /* Regular 400 */
+      color:#6b7280; 
+      white-space:nowrap; 
+      overflow:hidden; 
+      text-overflow:ellipsis;
+    }
+    .time {
+        text-align: right;
+        flex-shrink: 0;
+        overflow: visible;
+    }
+
+    .actions{ 
+      display:flex; 
+      gap:8px; 
+      flex-shrink:0; 
+    }
+    
+    /* LIVE pill */
+    .live{
+      position:absolute; top:12px; left:12px;
+      background:rgba(0,0,0,.55);
+      color:#fff; border:1px solid rgba(255,255,255,.25);
+      border-radius: var(--radius);
+      font-weight:700; letter-spacing:.04em;
+      display:flex; align-items:center; gap:6px; font-size:11px;
+      padding:6px 10px; backdrop-filter: blur(6px);
+      z-index: 10;
+    }
+    .dot{ width:8px; height:8px; border-radius:50%; background:#ff3b30; animation:pulse 1.5s infinite; }
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+
+    /* Top-right action buttons */
+    .top-actions {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      display: flex;
+      gap: 8px;
+      z-index: 10;
+    }
+    .top-action-btn {
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      border-radius: 999px;
+      cursor: pointer;
+      font-family: 'Roboto', system-ui, sans-serif; /* MODIFIED */
+      font-weight: 500; /* Medium */
+      color: #ffffff;
+      box-shadow: 0 4px 10px rgba(0,0,0,.1);
+      transition: transform .12s ease, box-shadow .12s ease;
+    }
+    .top-action-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 14px rgba(0,0,0,.12);
+    }
+    .top-action-btn svg {
+      width: 16px;
+      height: 16px;
+    }
+    .btn-spectate {
+      background-color: #22c55e;
+      padding: 0 14px;
+      gap: 6px;
+      font-size: 14px;
+      border-radius: var(--radius);
+    }
+    .btn-spectate svg {
+      stroke: #ffffff;
+      stroke-width: 2.5;
+    }
+    .btn-spectate span {
+      line-height: 1;
+    }
+    .btn-play {
+      background-color: #ef4444;
+      width: 36px;
+      padding: 0;
+      flex-shrink: 0;
+    }
+    .btn-play svg {
+      fill: #ffffff;
+      stroke: none;
+      transform: translateX(1px);
+    }
+
+    .button-grid {
+      margin-top: 16px;
+      padding-top: 12px;
+      border-top: 1px solid #e5e7eb;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+    }
+    .grid-btn {
+      font-family: 'Roboto', system-ui, sans-serif; /* MODIFIED */
+      background: #f3f5f7;
+      border: 1px solid #e5e7eb;
+      padding: 10px;
+      border-radius: var(--radius);
+      font-weight: 500; /* Medium */
+      font-size: 13px;
+      color: #374151;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+    .grid-btn:hover {
+      background-color: #e5e7eb;
+    }
+    .grid-btn-icon {
+      width: 16px;
+      height: 16px;
+      stroke-width: 2;
+      fill: none;
+    }
+    .grid-btn[data-target="modal-ai"] .grid-btn-icon { stroke: var(--color-ai); }
+    .grid-btn[data-target="modal-resp"] .grid-btn-icon { stroke: var(--color-resp); }
+    .grid-btn[data-target="modal-tools"] .grid-btn-icon { stroke: var(--color-tools); }
+    .grid-btn[data-target="modal-skills"] .grid-btn-icon { stroke: var(--color-skills); }
+
+    
+    /* --- MODAL STYLES --- */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 50;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+    .modal-backdrop.active {
+      opacity: 1;
+      visibility: visible;
+    }
+    .modal {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(0.95);
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      z-index: 100;
+      width: 90%;
+      max-width: 500px;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s ease;
+      overflow: hidden;
+    }
+    .modal.active {
+      opacity: 1;
+      visibility: visible;
+      transform: translate(-50%, -50%) scale(1);
+    }
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 20px;
+      border-bottom: none;
+      background-color: #f9fafb;
+    }
+    .modal-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #111827;
+    }
+    .modal-close-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      font-size: 24px;
+      color: #9ca3af;
+      line-height: 1;
+      padding: 0;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+    .modal-close-btn:hover {
+      background-color: #e5e7eb;
+      color: #111827;
+    }
+    .modal-body {
+      padding: 20px 24px;
+      color: #374151;
+      line-height: 1.6;
+    }
+
+    /* --- MODAL LIST STYLES --- */
+    .modal-list {
+      list-style-type: none;
+      padding-left: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .modal-list-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 15px;
+      font-weight: 500; /* Medium */
+      color: #374151;
+    }
+    /* Icon background circle */
+    .modal-list-icon-wrapper {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+    }
+    .modal-list-icon {
+      width: 20px;
+      height: 20px;
+      stroke-width: 2;
+      fill: none;
+    }
+
+    /* AI Modal Icon Colors */
+    .modal-list-icon-wrapper.ai-chat { background-color: #eef2ff; }
+    .modal-list-icon.ai-chat { stroke: var(--color-ai); }
+    .modal-list-icon-wrapper.ai-image { background-color: #f3e8ff; }
+    .modal-list-icon.ai-image { stroke: #a855f7; }
+    .modal-list-icon-wrapper.ai-code { background-color: #f3f4f6; }
+    .modal-list-icon.ai-code { stroke: #4b5563; }
+
+    /* Resp Modal Icon Colors */
+    .modal-list-icon-wrapper.resp-code { background-color: #e0f2fe; }
+    .modal-list-icon.resp-code { stroke: var(--color-resp); }
+    .modal-list-icon-wrapper.resp-check { background-color: #e0f2fe; }
+    .modal-list-icon.resp-check { stroke: var(--color-resp); }
+    .modal-list-icon-wrapper.resp-zap { background-color: #e0f2fe; }
+    .modal-list-icon.resp-zap { stroke: var(--color-resp); }
+    .modal-list-icon-wrapper.resp-users { background-color: #e0f2fe; }
+    .modal-list-icon.resp-users { stroke: var(--color-resp); }
+
+    /* Tools Modal Icon Colors */
+    .modal-list-icon-wrapper.tool-node { background-color: #e0f2fe; }
+    .modal-list-icon.tool-node { stroke: #0ea5e9; }
+    .modal-list-icon-wrapper.tool-docker { background-color: #dbeafe; }
+    .modal-list-icon.tool-docker { stroke: #2563eb; }
+    .modal-list-icon-wrapper.tool-aws { background-color: #fff7ed; }
+    .modal-list-icon.tool-aws { stroke: var(--color-tools); }
+    .modal-list-icon-wrapper.tool-db { background-color: #f0fdf4; }
+    .modal-list-icon.tool-db { stroke: #16a34a; }
+    
+    /* Skills Modal Icon Colors */
+    .modal-list-icon-wrapper.skill-server { background-color: #ecfdf5; }
+    .modal-list-icon.skill-server { stroke: var(--color-skills); }
+    .modal-list-icon-wrapper.skill-api { background-color: #ecfdf5; }
+    .modal-list-icon.skill-api { stroke: var(--color-skills); }
+    .modal-list-icon-wrapper.skill-db { background-color: #ecfdf5; }
+    .modal-list-icon.skill-db { stroke: var(--color-skills); }
+    .modal-list-icon-wrapper.skill-agile { background-color: #ecfdf5; }
+    .modal-list-icon.skill-agile { stroke: var(--color-skills); }
+
+  </style>
+</head>
+<body>
+  <article class="card" aria-label="Profile card for Dominik G.">
+    <div class="photo">
+      <img alt="Portrait of Dominik" src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto:compress&cs=tinysrgb&w=800" />
+      
+      <div class="live"><span class="dot"></span> LIVE</div>
+
+      <div class="top-actions">
+        <button class="top-action-btn btn-spectate" title="Spectate">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 10.224 7.29 6.3 12 6.3c4.71 0 8.577 3.924 9.964 5.383.01.01.02.019.03.03.01.01.019.02.03.03a1.012 1.012 0 010 .639C20.577 13.776 16.71 17.7 12 17.7c-4.71 0-8.577-3.924-9.964-5.383a1.01 1.01 0 01-.06-.06z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+          </svg>
+          <span>Spectate</span>
+        </button>
+        <button class="top-action-btn btn-play" aria-label="Play" title="Play">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M5.25 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.286L8.029 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="overlay" role="group">
+      <div class="overlay-top">
+        <div class="who">
+          <div class="top-line">
+              <h3 class="role">Senior Backend Developer</h3>
+              <p class="price">€25/h</p>
+          </div>
+          <div class="bottom-line">
+              <p class="name">Dominik G.</p>
+              <p class="time">Full time</p>
+          </div>
+        </div>
+        <div class="actions">
+        </div>
+      </div>
+
+      <div class="button-grid">
+        <button class="grid-btn" data-target="modal-ai">
+          <svg class="grid-btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 8C19.7 9.7 19.7 12.3 18 14M14 4C17.3 7.3 17.3 12.7 14 16M6 8C4.3 9.7 4.3 12.3 6 14M10 4C6.7 7.3 6.7 12.7 10 16M12 6L10.9 3.7 9 3 7.1 3.7 6 6 7.1 8.3 9 9 10.9 8.3 12 6zM12 18L10.9 15.7 9 15 7.1 15.7 6 18 7.1 20.3 9 21 10.9 20.3 12 18z"/>
+          </svg>
+          <span>AI</span>
+        </button>
+        <button class="grid-btn" data-target="modal-resp">
+          <svg class="grid-btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+             <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect><line x1="12" y1="11" x2="12" y2="17"></line><line x1="9" y1="14" x2="15"y2="14"></line>
+          </svg>
+          <span>Responsibilities</span>
+        </button>
+        <button class="grid-btn" data-target="modal-tools">
+          <svg class="grid-btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="3"></circle>
+            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+          </svg>
+          <span>Tools</span>
+        </button>
+        <button class="grid-btn" data-target="modal-skills">
+          <svg class="grid-btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+          </svg>
+          <span>Skills</span>
+        </button>
+      </div>
+
+    </div>
+  </article>
+
+  <div class="modal-backdrop" id="modal-backdrop"></div>
+
+  <div class="modal" id="modal-ai">
+    <div class="modal-header">
+      <h3 class="modal-title">AI Tools</h3>
+      <button class="modal-close-btn">&times;</button>
+    </div>
+    <div class="modal-body">
+      <ul class="modal-list">
+        <li class="modal-list-item">
+          <div class="modal-list-icon-wrapper ai-chat">
+            <svg class="modal-list-icon ai-chat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          </div>
+          <span>ChatGPT for debugging and code optimization.</span>
+        </li>
+        <li class="modal-list-item">
+          <div class="modal-list-icon-wrapper ai-image">
+            <svg class="modal-list-icon ai-image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+          </div>
+          <span>Midjourney for generating placeholder assets.</span>
+        </li>
+        <li class="modal-list-item">
+          <div class="modal-list-icon-wrapper ai-code">
+            <svg class="modal-list-icon ai-code" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+          </div>
+          <span>GitHub Copilot for boilerplate and test generation.</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-resp">
+    <div class="modal-header">
+      <h3 class="modal-title">Responsibilities</h3>
+      <button class="modal-close-btn">&times;</button>
+    </div>
+    <div class="modal-body">
+      <ul class="modal-list">
+        <li class="modal-list-item">
+          <div class="modal-list-icon-wrapper resp-code">
+            <svg class="modal-list-icon resp-code" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+          </div>
+          <span>Developing and maintaining scalable backend systems.</span>
+        </li>
+        <li class="modal-list-item">
+          <div class="modal-list-icon-wrapper resp-check">
+            <svg class="modal-list-icon resp-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+          </div>
+          <span>Writing clean, efficient, and well-tested code.</span>
+        </li>
+        <li class="modal-list-item">
+          <div class="modal-list-icon-wrapper resp-zap">
+            <svg class="modal-list-icon resp-zap" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+          </div>
+          <span>Optimizing applications for maximum performance.</span>
+        </li>
+        <li class="modal-list-item">
+          <div class="modal-list-icon-wrapper resp-users">
+            <svg class="modal-list-icon resp-users" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          </div>
+          <span>Conducting code reviews and mentoring developers.</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-tools">
+    <div class="modal-header">
+      <h3 class="modal-title">Tools & Technologies</h3>
+      <button class="modal-close-btn">&times;</button>
+    </div>
+    <div class="modal-body">
+      <ul class="modal-list">
+        <li class="modal-list-item">
+          <div class="modal-list-icon-wrapper tool-node">
+            <svg class="modal-list-icon tool-node" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.69l5.66 3.27v6.54L12 15.77l-5.66-3.27V5.96L12 2.69zM4.34 7.73l5.66 3.27v6.54l-5.66-3.27V7.73zM9.04 17.54l5.66 3.27v-6.54l-5.66-3.27v6.54z"></path></svg>
+          </div>
+          <span>Node.js, Python, and Go for backend services.</span>
+        </li>
+        <li class="modal-list-item">
+          <div class="modal-list-icon-wrapper tool-docker">
+            <svg class="modal-list-icon tool-docker" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><polyline points="12 22.08 12 12"></polyline></svg>
+          </div>
+          <span>Docker and Kubernetes for container orchestration.</span>
+        </li>
+        <li class="modal-list-item">
+          <div class="modal-list-icon-wrapper tool-aws">
+            <svg class="modal-list-icon tool-aws" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+          </div>
+          <span>AWS (EC2, S3, RDS) for cloud infrastructure.</span>
+        </li>
+        <li class="modal-list-item">
+          <div class="modal-list-icon-wrapper tool-db">
+            <svg class="modal-list-icon tool-db" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+          </div>
+          <span>PostgreSQL, MongoDB, and Redis for data storage.</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-skills">
+    <div class="modal-header">
+      <h3 class="modal-title">Skills</h3>
+      <button class="modal-close-btn">&times;</button>
+    </div>
+    <div class="modal-body">
+      <ul class="modal-list">
+        <li class="modal-list-item">
+          <div class="modal-list-icon-wrapper skill-server">
+            <svg class="modal-list-icon skill-server" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+          </div>
+          <span>System Architecture & Design Patterns</span>
+        </li>
+        <li class="modal-list-item">
+          <div class="modal-list-icon-wrapper skill-api">
+            <svg class="modal-list-icon skill-api" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+          </div>
+          <span>API Design (REST, GraphQL, and gRPC)</span>
+        </li>
+        <li class="modal-list-item">
+          <div class="modal-list-icon-wrapper skill-db">
+            <svg class="modal-list-icon skill-db" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+          </div>
+          <span>Database Management & Optimization</span>
+        </li>
+        <li class="modal-list-item">
+          <div class="modal-list-icon-wrapper skill-agile">
+            <svg class="modal-list-icon skill-agile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+          </div>
+          <span>Agile Methodologies & Problem Solving</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      
+      const modalTriggers = document.querySelectorAll('[data-target]');
+      const closeButtons = document.querySelectorAll('.modal-close-btn');
+      const modalBackdrop = document.getElementById('modal-backdrop');
+
+      const openModal = (targetId) => {
+        const modal = document.getElementById(targetId);
+        if (!modal) return;
+        
+        modalBackdrop.classList.add('active');
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      };
+
+      const closeModal = () => {
+        const activeModal = document.querySelector('.modal.active');
+        if (activeModal) {
+          activeModal.classList.remove('active');
+        }
+        modalBackdrop.classList.remove('active');
+        document.body.style.overflow = '';
+      };
+
+      modalTriggers.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          openModal(btn.dataset.target);
+        });
+      });
+
+      closeButtons.forEach(btn => {
+        btn.addEventListener('click', closeModal);
+      });
+
+      modalBackdrop.addEventListener('click', closeModal);
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && document.querySelector('.modal.active')) {
+          closeModal();
+        }
+      });
+    });
+  </script>
+</body>
+</html>

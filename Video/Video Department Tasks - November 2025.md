@@ -3,8 +3,8 @@
 **Department:** Video Nov25
 **Document Type:** Department-Wide Task Consolidation
 **Date Range:** November 1-30, 2025
-**Source:** November 4, 2025 Design Call - Processed Transcript
-**Last Updated:** November 5, 2025
+**Source:** November 4, 2025 calls, Daily files Nov 5-11, 2025
+**Last Updated:** November 12, 2025
 
 ---
 
@@ -34,13 +34,616 @@ The Video department plays a critical support role in Remote Helpers' AI-first t
 
 *Video department has one task, but classified as LOW priority in overall organizational context. However, the task is blocking LG department onboarding, making it operationally HIGH priority despite formal LOW classification.*
 
+#### 1. Complete Client Feedback Call - Storyboard Project
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** HIGH
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 05
+- **Source:** plans.md
+
+**Context:** Client feedback call for Storyboard project needs to be completed.
+
+---
+
+#### 2. Complete Video Interview Backlog
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** HIGH
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 05
+- **Source:** plans.md
+
+Complete Video Interview Backlog**
+---
+
+#### 3. Resolve Website Handoff Process
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** HIGH
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 05
+- **Source:** plans.md
+
+Resolve Website Handoff Process**
+---
+
+#### 4. Video Interview 88209 - Kibriyo Davlatdodova
+- **Owner:** Azanova Darʼya
+- **Priority:** HIGH
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 05
+- **Source:** plans.md
+
+Video Interview 88209 - Kibriyo Davlatdodova**
+---
+
+#### 5. Video Interview 88972 - Valeriia Bessarab ("Lera")
+- **Owner:** Azanova Darʼya
+- **Priority:** HIGH
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 05
+- **Source:** plans.md
+
+Video Interview 88972 - Valeriia Bessarab ("Lera")**
+---
+
+#### 6. Complete Employee Profile System Audit
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** HIGH
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 06
+- **Source:** plans.md
+
+Complete Employee Profile System Audit**
+---
+
+#### 7. Coordinate Website Redesign Projects with Developer
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** HIGH
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 06
+- **Source:** plans.md
+
+Coordinate Website Redesign Projects with Developer**
+---
+
+#### 8. Resolve Client Communication and Scheduling Protocols
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** HIGH
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 06
+- **Source:** plans.md
+
+Resolve Client Communication and Scheduling Protocols**
+---
+
+#### 9. Implement Accurate HR Data System
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** HIGH
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 06
+- **Source:** plans.md
+
+Implement Accurate HR Data System**
+---
+
+#### 10. Clean Up and Consolidate Employee Availability Lists
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** HIGH
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 07
+- **Source:** plans.md
+
+Clean Up and Consolidate Employee Availability Lists**
+---
+
+#### 11. Coordinate with Team Leads on Employee List Verification
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** HIGH
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 07
+- **Source:** plans.md
+
+Coordinate with Team Leads on Employee List Verification**
+---
+
+#### 12. Locate and Share Dasha's Comprehensive Employee File
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** HIGH
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 07
+- **Source:** plans.md
+
+Locate and Share Dasha's Comprehensive Employee File**
+---
+
+#### 13. Resolve Client Pricing Negotiation for Marta's Project
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** HIGH
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 07
+- **Source:** plans.md
+
+Resolve Client Pricing Negotiation for Marta's Project**
+---
+
+#### 14. Implement Immediate Power Outage Solution for Maria
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** HIGH
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 10
+- **Source:** plans.md
+
+Implement Immediate Power Outage Solution for Maria**
+---
+
+#### 15. Get New Client Contract Signed
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** HIGH
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 10
+- **Source:** plans.md
+
+Get New Client Contract Signed**
+---
+
+#### 16. Schedule Maria's Project Review Urgently
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** HIGH
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 10
+- **Source:** plans.md
+
+Schedule Maria's Project Review Urgently**
+---
+
+#### 17. Complete Adobe Firefly Pro Setup
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** HIGH
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 10
+- **Source:** plans.md
+
+Complete Adobe Firefly Pro Setup**
+---
+
+#### 18. Create Convenient Brands Test Assignment (EMAIL NEWSLETTER)
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** HIGH
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 11
+- **Source:** plans.md
+
+Create Convenient Brands Test Assignment (EMAIL NEWSLETTER)**
+---
+
+#### 19. Research and Test Zoho Platform
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** HIGH
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 11
+- **Source:** plans.md
+
+Research and Test Zoho Platform**
+---
+
+#### 20. Resolve HTML Coding Gap for Email Newsletters
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** HIGH
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 11
+- **Source:** plans.md
+
+Resolve HTML Coding Gap for Email Newsletters**
+---
+
+#### 21. Confirm Status of Honeystone and Data Mining Projects
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** HIGH
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 11
+- **Source:** plans.md
+
+Confirm Status of Honeystone and Data Mining Projects**
+---
+
 ### MEDIUM (Near Term)
 
 *No medium priority tasks assigned to Video department at this time.*
 
+
+#### 1. Document Automated Reporting System
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 05
+- **Source:** plans.md
+
+Document Automated Reporting System**
+---
+
+#### 2. Standardize CapCut Workflow
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 05
+- **Source:** plans.md
+
+Standardize CapCut Workflow**
+---
+
+#### 3. Address Client Communication Issues
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 05
+- **Source:** plans.md
+
+Address Client Communication Issues**
+---
+
+#### 4. Storyboard.io - Monitor Client Feedback & Respond
+- **Owner:** Azanova Darʼya
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 05
+- **Source:** plans.md
+
+Storyboard.io - Monitor Client Feedback & Respond**
+---
+
+#### 5. Storyboard.io - Attend 2pm Client Call
+- **Owner:** Azanova Darʼya
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 05
+- **Source:** plans.md
+
+Storyboard.io - Attend 2pm Client Call**
+---
+
+#### 6. Complete Academy Course Thumbnail Updates
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 06
+- **Source:** plans.md
+
+Complete Academy Course Thumbnail Updates**
+---
+
+#### 7. Finalize Video Production Workflow with CapCut
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 06
+- **Source:** plans.md
+
+Finalize Video Production Workflow with CapCut**
+---
+
+#### 8. Setup AI-Assisted Reporting System
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 06
+- **Source:** plans.md
+
+Setup AI-Assisted Reporting System**
+---
+
+#### 9. Coordinate Polina's Website Project Completion
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 06
+- **Source:** plans.md
+
+Coordinate Polina's Website Project Completion**
+---
+
+#### 10. Prepare for Artist Q&A Event
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 07
+- **Source:** plans.md
+
+Prepare for Artist Q&A Event**
+---
+
+#### 11. Review and Audit AI Agent Twitter Activity
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 07
+- **Source:** plans.md
+
+Review and Audit AI Agent Twitter Activity**
+---
+
+#### 12. Update Designer Assignment Status
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 07
+- **Source:** plans.md
+
+Update Designer Assignment Status**
+---
+
+#### 13. Remove Inactive Employees from All Systems
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 07
+- **Source:** plans.md
+
+Remove Inactive Employees from All Systems**
+---
+
+#### 14. Complete Dropbox DD to 1DD Migration
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 10
+- **Source:** plans.md
+
+Complete Dropbox DD to 1DD Migration**
+---
+
+#### 15. Evaluate Long-term Power Backup Options
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 10
+- **Source:** plans.md
+
+Evaluate Long-term Power Backup Options**
+---
+
+#### 16. Monitor Polina's Project Completion
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 10
+- **Source:** plans.md
+
+Monitor Polina's Project Completion**
+---
+
+#### 17. Follow up on Iris Client Situation
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 10
+- **Source:** plans.md
+
+Follow up on Iris Client Situation**
+---
+
+#### 18. Support Dasha Through Infrastructure Crisis
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 11
+- **Source:** plans.md
+
+Support Dasha Through Infrastructure Crisis**
+---
+
+#### 19. Prepare for Convenient Brands Client Meeting
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 11
+- **Source:** plans.md
+
+Prepare for Convenient Brands Client Meeting**
+---
+
+#### 20. Finalize Toribords/Marta Arrangement
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 11
+- **Source:** plans.md
+
+Finalize Toribords/Marta Arrangement**
+---
+
+#### 21. Address Stas Workload Overload
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 11
+- **Source:** plans.md
+
+Address Stas Workload Overload**
+---
+
 ### LOW (Future Development)
 
-#### 1. Create Video Tutorial for Workflow
+##
+#### 1. Explore New Client Opportunities
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** LOW
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 05
+- **Source:** plans.md
+
+Explore New Client Opportunities**
+---
+
+#### 2. Investigate Power Backup Solutions
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** LOW
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 05
+- **Source:** plans.md
+
+Investigate Power Backup Solutions**
+---
+
+#### 3. Create Video Tutorial for Daily Workflow Automation
+- **Owner:** Panchenko Diana
+- **Priority:** LOW
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 05
+- **Source:** task.md
+
+**Steps:**
+Wait for written quick-start guide completion and validation
+Review written instructions and setup process
+Plan video tutorial structure and key points to cover
+Record screen capture of complete setup process:
+Edit video with annotations and captions for clarity
+Include troubleshooting section for common issues
+Add voiceover or text annotations explaining each step
+Review video for accuracy and completeness
+Prepare final video for distribution
+
+**Resources:**
+- Screen recording software
+- Video editing tools
+- Written setup instructions (when available)
+- Daily Workflow Automation project documentation
+- Setup process documentation from pilot users
+
+**Instructions:**
+Video tutorial will supplement written instructions for Design team and future department rollouts. Wait for written instructions to be tested and validated before creating video to ensure accuracy. Focus on visual demonstration of setup process and common troubleshooting scenarios.
+
+---
+
+#### 4. Storyboard.io - Tutorial Videos for Marta (Pending Client Call)
+- **Owner:** Azanova Darʼya
+- **Priority:** LOW
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 05
+- **Source:** plans.md
+
+Storyboard.io - Tutorial Videos for Marta (Pending Client Call)**
+---
+
+#### 5. Daily Report Completion
+- **Owner:** Azanova Darʼya
+- **Priority:** LOW
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 05
+- **Source:** plans.md
+
+Daily Report Completion**
+---
+
+#### 6. CapCut Software Management
+- **Owner:** Azanova Darʼya
+- **Priority:** LOW
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 05
+- **Source:** plans.md
+
+CapCut Software Management**
+---
+
+#### 7. Optimize Department Statistics and Rankings
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** LOW
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 06
+- **Source:** plans.md
+
+Optimize Department Statistics and Rankings**
+---
+
+#### 8. Evaluate Music Licensing and Stock Asset Management
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** LOW
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 06
+- **Source:** plans.md
+
+Evaluate Music Licensing and Stock Asset Management**
+---
+
+#### 9. Document Marta's Status Change
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** LOW
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 07
+- **Source:** plans.md
+
+Document Marta's Status Change**
+---
+
+#### 10. Establish Process for Real-Time Employee Status Updates
+- **Owner:** Podolskyi Sviatoslav
+- **Priority:** LOW
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 07
+- **Source:** plans.md
+
+Establish Process for Real-Time Employee Status Updates**
+---
+
+#### 11. Document Power Outage Support Policy
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** LOW
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 10
+- **Source:** plans.md
+
+Document Power Outage Support Policy**
+---
+
+#### 12. Onboard New Developers to Projects
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** LOW
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 10
+- **Source:** plans.md
+
+Onboard New Developers to Projects**
+---
+
+#### 13. Assess Video Interview Needs
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** LOW
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 10
+- **Source:** plans.md
+
+Assess Video Interview Needs**
+---
+
+#### 14. Handle Brooke/Client Re-engagement
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** LOW
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 11
+- **Source:** plans.md
+
+Handle Brooke/Client Re-engagement**
+---
+
+#### 15. Assess Adobe Subscription Cost Impact
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** LOW
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 11
+- **Source:** plans.md
+
+Assess Adobe Subscription Cost Impact**
+---
+
+#### 16. Plan for Recruiter Vika's Departure
+- **Owner:** Podolskyi Sviatoslav, Azanova Darʼya
+- **Priority:** LOW
+- **Status:** Not Started
+- **Timeline:** From daily file Nov 11
+- **Source:** plans.md
+
+Plan for Recruiter Vika's Departure**
+---
+
+## 1. Create Video Tutorial for Workflow
 - **Owner:** Video Team (Podolskyi Sviatoslav lead on editing, team collective)
 - **Department:** Video
 - **Profession:** Video Editor
@@ -170,7 +773,7 @@ The Video department plays a critical support role in Remote Helpers' AI-first t
 
 ## Department Capacity & Workload
 
-**Total Active Tasks:** 1 task (training video editing)
+**Total Active Tasks:** 59 tasks (from Nov 4-11, including 58 new from Nov 5-11 daily files)
 **Low Priority:** 1 task (organizationally classified as Low, operationally High)
 **Blocked Tasks:** 0 tasks
 **In Progress:** 1 task (file system training video editing)
@@ -336,9 +939,9 @@ One well-edited 20-minute video saves hundreds of hours of live training across 
 
 ---
 
-**Document Version:** 1.0
+**Document Version:** 2.0
 **Department:** Video Nov25
-**Next Review:** November 12, 2025
+**Next Review:** November 19, 2025
 **Contact:** Podolskyi Sviatoslav (Training Video Lead) | Panchenko Diana | Azanova Darya
 **Current Priority:** Complete file system training video editing (BLOCKING LG onboarding)
 

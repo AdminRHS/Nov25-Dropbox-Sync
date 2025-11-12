@@ -3,8 +3,8 @@
 **Department:** Dev Nov25
 **Document Type:** Department-Wide Task Consolidation
 **Date Range:** November 1-30, 2025
-**Source:** November 4, 2025 Admin Call - Processed Transcript
-**Last Updated:** November 5, 2025
+**Source:** November 4, 2025 Admin Call - Processed Transcript, Daily files Nov 4-11, 2025, November 12, 2025 Dev Call
+**Last Updated:** November 12, 2025
 
 ---
 
@@ -112,7 +112,116 @@ The Dev department is leading critical backend development for Remote Helpers' C
 
 ### MEDIUM (Near Term - 1-2 weeks)
 
-#### 4. Develop Short Link System for Prompt Optimization
+#### 4. Resume Parser for Talents - Edit Mode Development
+- **Owner:** Danylenko Liliia
+- **Priority:** MEDIUM
+- **Status:** In Progress
+- **Timeline:** Ongoing
+- **Related Project:** CRM, Talents Module
+
+**Context:** Resume Parser currently works only in CREATE mode. Need to add validation for EDIT mode to prevent data overwriting while enabling parser functionality.
+
+**Steps:**
+1. Review current implementation (create mode only)
+2. Analyze data overwriting risks in edit mode
+3. Design validation logic to prevent data loss
+4. Implement check for existing data
+5. Send existing data to AI for comparison
+6. Prevent overwriting of already-filled fields
+7. Test with various scenarios (empty fields, partial data, full data)
+8. Make decision: enable button for all modes or keep create-only
+
+**Current Implementation:**
+- Resume Parser button displayed only in CREATE mode
+- Hidden in EDIT mode to prevent accidental data overwriting
+- Logic: `if (mode === 'create') { show button }`
+
+**Decision Point:**
+- Currently: Button only in CREATE mode (safer, prevents data loss)
+- Future consideration: Add smart validation for EDIT mode
+
+---
+
+#### 5. MCP Hub - Develop and Review Architecture and Timeline for Centralized Systems
+- **Owner:** Danylenko Liliia, Dev Team
+- **Priority:** MEDIUM
+- **Status:** In Progress
+- **Timeline:** Ongoing
+- **Related Project:** MCP Integration, Centralized Systems
+
+**Context:** From November 12 call - Need to develop centralized MCP Hub system for managing MCP servers. Architecture review needed.
+
+**Steps:**
+1. Review current MCP implementation in Talents
+2. Design centralized MCP Hub architecture
+3. Plan unified interface for connecting and managing MCP servers
+4. Set up HTTP/HTTPS transport (StreamableHTTPServerTransport)
+5. Configure additional transport for extended functionality
+6. Create unified management interface
+7. Document architecture and timeline
+8. Review with team
+
+---
+
+#### 6. Process Video Transcriptions for Knowledge System Integration
+- **Owner:** Dev Team (each developer)
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** Ongoing (1 hour per day scheduled)
+- **Related Project:** Knowledge Management, Video Processing
+
+**Context:** From November 12 call - Each developer should process videos related to their work topics (e.g., MCP, development tools) and integrate transcriptions into knowledge system. TurboScribe available on Admin account for hour-long videos.
+
+**Steps:**
+1. Each developer schedules 1 hour per day for this work
+2. Find videos related to development topics (MCP, tools, etc.)
+3. Transcribe videos using TurboScribe (Admin account) or Google AI Studio
+4. Process transcriptions through Perplexity with custom instructions
+5. Extract taxonomy elements and map to library structure
+6. Organize documentation in personal folders
+7. Update knowledge system with new terminology and processes
+8. Follow video transcription workflow (instructions in Design department)
+9. Access prompts: Taxonomy → Libraries → Prompts → Video Transcription
+
+---
+
+#### 7. Optimize Image Sizes for Honeystone Landing Page
+- **Owner:** Kizilova Olha
+- **Priority:** MEDIUM
+- **Status:** Not Started
+- **Timeline:** ASAP
+- **Related Project:** Honeystone Landing Page
+
+**Context:** From November 12 call - Developer feedback: background images are 13-14 MB each, need optimization to ~500 KB.
+
+**Steps:**
+1. Review Honeystone project images in Taxonomia folder
+2. Identify all background images that are too large
+3. Optimize images to ~500 KB each
+4. Maintain visual quality while reducing file size
+5. Replace optimized images in project
+6. Verify images display correctly after optimization
+7. Update project files
+
+---
+
+#### 8. Share Taxonomia Folder for Honeystone Project Collaboration
+- **Owner:** Kizilova Olha, Dev Team
+- **Priority:** MEDIUM
+- **Status:** Completed
+- **Timeline:** November 12, 2025
+- **Related Project:** Honeystone Landing Page
+
+**Context:** From November 12 call - Taxonomia folder shared with Dev team for collaborative work on Honeystone Landing page.
+
+**Steps:**
+1. ✅ Share Taxonomia folder with Dev team
+2. ✅ Verify all team members have access (Admin, Dev, DD accounts)
+3. ✅ Confirm folder access and collaboration setup
+
+---
+
+#### 9. Develop Short Link System for Prompt Optimization
 - **Owner:** Kizilova Olha
 - **Department:** Dev
 - **Profession:** Backend Developer
@@ -201,8 +310,10 @@ The Dev department is leading critical backend development for Remote Helpers' C
 **MEDIUM Priority Tasks:**
 4. Develop Short Link System for Prompt Optimization
 5. Document CRM Development Process (with Artemchuk Nikolay - In Progress)
+6. Optimize Image Sizes for Honeystone Landing Page (Nov 12) - Optimize 13-14 MB images to ~500 KB
+7. Share Taxonomia Folder for Honeystone Project (Nov 12, Completed) - Folder shared with Dev team
 
-**Workload Assessment:** HIGH - Leading 5 tasks (3 High, 2 Medium), primary technical owner for CRM migration, 1 task blocked awaiting budget. Heavy coordination with HR (Rekonvald Viktoriia) and AI (Artemchuk Nikolay).
+**Workload Assessment:** HIGH - Leading 7 tasks (3 High, 4 Medium), primary technical owner for CRM migration, 1 task blocked awaiting budget. Heavy coordination with HR (Rekonvald Viktoriia) and AI (Artemchuk Nikolay).
 
 **Detailed Task Breakdown:** (Individual task.md file to be created if needed)
 
@@ -223,14 +334,31 @@ The Dev department is leading critical backend development for Remote Helpers' C
 
 ### Danylenko Liliia - Backend Developer
 
-**Role:** Dev team member, supporting CRM development
+**Role:** Dev team member, Full Stack Developer, supporting CRM development
 
-**Potential Task Assignments:**
-- Clean & Parse Resumes in CRM (Medium - Dev team collective task)
-- Support CRM Migration (High - supporting Kizilova)
-- Database schema design (Medium - supporting Kizilova)
+**HIGH Priority Tasks:**
+1. Resume Parser for Talents - Edit Mode Development (In Progress) - Add validation for edit mode
 
-**Status:** Available for task assignment from collective Dev team tasks
+**MEDIUM Priority Tasks:**
+2. MCP Hub - Develop and Review Architecture and Timeline (In Progress) - Centralized MCP system
+3. MCP Integration in Talents (Completed) - Full MCP integration with API token authentication
+4. Video Creation for Claude Code Tutorial (In Progress) - Generate tutorial videos
+5. Table Parsing for Excel Export (In Progress) - Export functionality for talent tables
+6. Process Video Transcriptions for Knowledge System (Nov 12) - 1 hour/day for video processing
+7. Client Landing Page Development (Honeystone) - Multiple completed tasks
+8. Excel Export for Talents - Column selection feature (Completed)
+
+**Completed Tasks:**
+- Add "reason" field to status change modal
+- Resume Parser Edit Mode Validation with Conflict Resolution Dialog
+- Toggle Menu Implementation in sidebar
+- MCP Integration for Talent Service (production-ready)
+- API Token Authentication for MCP
+- Talents CRUD routes via API token
+- Job Applications CRUD routes via API token
+- Client project hosting (Docker deployment)
+
+**Workload Assessment:** HIGH - Active on multiple CRM development tasks, MCP integration, and client projects. Heavy focus on Talents module development and MCP Hub architecture.
 
 ---
 
@@ -286,11 +414,12 @@ The Dev department is leading critical backend development for Remote Helpers' C
 
 ## Department Capacity & Workload
 
-**Total Active Tasks:** 6 tasks
+**Total Active Tasks:** 42 tasks (from Nov 4-12 daily files)
 **High Priority:** 3 tasks (1 blocked)
-**Medium Priority:** 3 tasks (1 in progress)
+**Medium Priority:** 39 tasks (multiple in progress)
 **Blocked Tasks:** 1 task (GPT Assistants - awaiting budget)
-**In Progress:** 1 task (CRM documentation)
+**In Progress:** Multiple tasks (CRM documentation, Resume Parser, MCP Hub, video processing)
+**Completed:** 15+ tasks (MCP integration, Excel export, client projects, etc.)
 
 **Team Capacity:**
 - **Kizilova Olha:** Leading 5 tasks (3 High, 2 Medium) - **HIGH** workload, primary technical owner

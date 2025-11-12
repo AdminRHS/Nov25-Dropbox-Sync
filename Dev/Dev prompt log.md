@@ -302,3 +302,64 @@ This file contains all prompts and AI responses for the Dev department.
 **Result**: Транскрипция успешно обработана с использованием MAIN PROMPT v3.md. Создан структурированный документ `daily_processed.md` (21 раздел, ~1000+ строк) с полной информацией о встрече: 7 участников идентифицированы, 4 проекта сопоставлены, 15 задач извлечены, 4 workflow документированы, 6 проблем и решений задокументированы, 10 инструментов каталогизированы, техническая архитектура описана, решения зафиксированы, инсайты извлечены. Все данные обогащены контекстом Remote Helpers, применены принципы RAG-систем, документированы процессы и best practices. Документ готов для использования командой и интеграции в RAC knowledge base.
 
 ----
+
+**Request**: same for dev department /Users/nikolay/Library/CloudStorage/Dropbox/Nov25/Dev/Dev Department Tasks - November 2025.md. Employees daily files from 04 to 11 and **dev** block from /Users/nikolay/Library/CloudStorage/Dropbox/Nov25/AI/Artemchuk Nikolay/12/daily.md
+
+**Details**:
+1. Scanned Dev department directory and identified all employee folders (Kizilova Olha, Danylenko Liliia, Klimenko Yaroslav)
+2. Found 30 task.md files in folders 04-11 across Dev employees
+3. Created Python script to parse all task.md files and extract task data:
+   - Extracted 44 total tasks from all files
+   - Parsed task titles, priorities, statuses, assignees, timelines, and content
+   - Normalized task titles for duplicate detection
+   - Tracked source information (employee, date, source file)
+4. Implemented similarity matching algorithm to identify duplicate/similar tasks
+5. Grouped similar tasks into 35 unique task groups
+6. Merged duplicate tasks:
+   - Combined assignees when same task appears for multiple employees
+   - Used most recent status when duplicates found
+   - Preserved all unique details from different sources
+   - Tracked all source files and dates
+7. Processed Dev block from November 12 daily.md file (lines 19-22) containing:
+   - Design System review (postponing frontend work)
+   - UI Kit work
+   - Honeystone Landing page - Taxonomia folder sharing
+   - Image optimization (13-14 MB images need optimization to ~500 KB)
+   - MCP Hub development and architecture review
+   - Video transcription workflow for developers
+   - TurboScribe for video transcription
+8. Updated consolidated Dev Department Tasks file:
+   - Added 5 new MEDIUM priority tasks from November 12 call:
+     - Resume Parser for Talents - Edit Mode Development (In Progress)
+     - MCP Hub - Develop and Review Architecture and Timeline (In Progress)
+     - Process Video Transcriptions for Knowledge System Integration
+     - Optimize Image Sizes for Honeystone Landing Page
+     - Share Taxonomia Folder for Honeystone Project Collaboration (Completed)
+   - Updated existing tasks with new statuses and information
+   - Updated employee sections:
+     - Kizilova Olha: Added 2 tasks (image optimization, Taxonomia folder sharing)
+     - Danylenko Liliia: Expanded with 8 MEDIUM priority tasks and 8 completed tasks
+     - Updated workload assessments
+9. Updated file metadata:
+   - Last Updated: November 5, 2025 → November 12, 2025
+   - Source: Added "Daily files Nov 4-11, 2025, November 12, 2025 Dev Call"
+   - Total Active Tasks: 6 → 42 tasks
+   - High Priority: 3 tasks (1 blocked)
+   - Medium Priority: 3 → 39 tasks
+   - Completed: 15+ tasks documented
+10. Maintained existing file structure:
+    - Executive Summary
+    - By Priority Level (CRITICAL, HIGH, MEDIUM)
+    - By Employee (updated with new tasks)
+    - Cross-Department Dependencies
+    - Critical Blockers
+    - Department Capacity & Workload
+    - Success Metrics
+    - Related Documents
+    - Weekly Schedule Integration
+    - Development Philosophy & Architecture
+    - Notes & Action Items
+
+**Result**: Successfully processed all 30 task.md files from November 4-11, 2025, extracting 44 tasks and consolidating them into 35 unique tasks. Updated the consolidated Dev Department Tasks file with 5 new MEDIUM priority tasks from November 12 call, updated existing task statuses, expanded employee sections with their active and completed tasks, and updated all metadata. The file now provides comprehensive department-wide task visibility with accurate counts, statuses, and assignments. All tasks are properly categorized by priority, assigned to appropriate employees, and include detailed steps and context. The consolidated file maintains its structure while reflecting the current state of all department tasks from the November 4-12 period. Key highlights: Danylenko Liliia has completed significant MCP integration work, Kizilova Olha continues leading CRM migration, and team is now focused on MCP Hub architecture and video transcription workflow integration.
+
+----
