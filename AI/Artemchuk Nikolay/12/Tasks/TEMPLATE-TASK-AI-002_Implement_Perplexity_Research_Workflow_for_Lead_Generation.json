@@ -1,0 +1,107 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "TEMPLATE-TASK-AI-002",
+  "task_name": "Implement Workflows",
+  "action": "implement",
+  "object": "workflows",
+  "context": "for lead generation using Perplexity Research",
+  "description": "Set up workflow where employees generate prompts in Cursor, then use Perplexity Research to create lead generation videos based on transcriptions",
+  "department": "AI",
+  "profession": "Project manager",
+  "estimated_duration": "4-6 hours",
+  "status": "Planning",
+  "dependencies": [
+    "Video transcriptions processed",
+    "Cursor access for employees"
+  ],
+  "tools_required": [
+    "Cursor",
+    "Perplexity AI",
+    "Google AI Studio"
+  ],
+  "success_criteria": [
+    "Task completed according to description",
+    "All dependencies resolved",
+    "Status updated to 'Completed'",
+    "Documentation updated if required"
+  ],
+  "responsibilities": [
+    "Implementing workflows"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Review task requirements and dependencies",
+      "tool": "Documentation",
+      "responsibility": "Project manager",
+      "placement": "Task documentation",
+      "duration": "15 minutes",
+      "dependencies": [],
+      "success_criteria": "All requirements understood, dependencies identified"
+    },
+    {
+      "step_number": 2,
+      "name": "Execute implement workflows",
+      "tool": "Cursor, Perplexity AI, Google AI Studio",
+      "responsibility": "Project manager",
+      "placement": "Project: l-gn (Lead Generation)",
+      "duration": "4",
+      "dependencies": [
+        "Step 1"
+      ],
+      "success_criteria": "Task implemented successfully"
+    },
+    {
+      "step_number": 3,
+      "name": "Verify completion and update status",
+      "tool": "CRM/Task Management",
+      "responsibility": "Project manager",
+      "placement": "Task management system",
+      "duration": "10 minutes",
+      "dependencies": [
+        "Step 2"
+      ],
+      "success_criteria": "Status updated, task marked complete"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Task requirements reviewed",
+      "guide": "Understand all requirements before starting",
+      "required": true
+    },
+    {
+      "item": "Dependencies resolved",
+      "guide": "Ensure all dependencies are met",
+      "required": true
+    },
+    {
+      "item": "Tools and resources available",
+      "guide": "Verify access to: Cursor, Perplexity AI, Google AI Studio",
+      "required": true
+    },
+    {
+      "item": "Task completed according to description",
+      "guide": "Set up workflow where employees generate prompts in Cursor, then use Perplexity Research to create lead generation videos based on transcriptions",
+      "required": true
+    }
+  ],
+  "tags": [
+    "ai",
+    "implement",
+    "high",
+    "l-gn_lead_generation",
+    "workflows"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "owner": {
+    "name": "Artemchuk Nikolay",
+    "id": "37226"
+  },
+  "related_project": "l-gn (Lead Generation)",
+  "priority": "High",
+  "timeline": "Immediate implementation"
+}

@@ -1,0 +1,105 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "TEMPLATE-TASK-AI-007",
+  "task_name": "Process Transcripts",
+  "action": "process",
+  "object": "transcripts",
+  "context": "Olya's call transcript",
+  "description": "Process call transcript with Olya using MAIN PROMPT v3",
+  "department": "AI",
+  "profession": "Project manager",
+  "estimated_duration": "2-4 hours",
+  "status": "Not Started",
+  "dependencies": [
+    "Call recording available"
+  ],
+  "tools_required": [
+    "MAIN PROMPT v3",
+    "Claude Desktop"
+  ],
+  "success_criteria": [
+    "Task completed according to description",
+    "All dependencies resolved",
+    "Status updated to 'Completed'",
+    "Documentation updated if required"
+  ],
+  "responsibilities": [
+    "Processing transcripts"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Review task requirements and dependencies",
+      "tool": "Documentation",
+      "responsibility": "Project manager",
+      "placement": "Task documentation",
+      "duration": "15 minutes",
+      "dependencies": [],
+      "success_criteria": "All requirements understood, dependencies identified"
+    },
+    {
+      "step_number": 2,
+      "name": "Execute process transcripts",
+      "tool": "MAIN PROMPT v3, Claude Desktop",
+      "responsibility": "Project manager",
+      "placement": "Project: Internal Operations",
+      "duration": "2",
+      "dependencies": [
+        "Step 1"
+      ],
+      "success_criteria": "Task processed successfully"
+    },
+    {
+      "step_number": 3,
+      "name": "Verify completion and update status",
+      "tool": "CRM/Task Management",
+      "responsibility": "Project manager",
+      "placement": "Task management system",
+      "duration": "10 minutes",
+      "dependencies": [
+        "Step 2"
+      ],
+      "success_criteria": "Status updated, task marked complete"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Task requirements reviewed",
+      "guide": "Understand all requirements before starting",
+      "required": true
+    },
+    {
+      "item": "Dependencies resolved",
+      "guide": "Ensure all dependencies are met",
+      "required": true
+    },
+    {
+      "item": "Tools and resources available",
+      "guide": "Verify access to: MAIN PROMPT v3, Claude Desktop",
+      "required": true
+    },
+    {
+      "item": "Task completed according to description",
+      "guide": "Process call transcript with Olya using MAIN PROMPT v3",
+      "required": true
+    }
+  ],
+  "tags": [
+    "ai",
+    "process",
+    "medium",
+    "internal_operations",
+    "transcripts"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "owner": {
+    "name": "Artemchuk Nikolay",
+    "id": "37226"
+  },
+  "related_project": "Internal Operations",
+  "priority": "Medium",
+  "timeline": "Today"
+}

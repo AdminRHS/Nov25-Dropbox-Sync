@@ -1,0 +1,105 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "TEMPLATE-TASK-AI-010",
+  "task_name": "Implement Automation",
+  "action": "implement",
+  "object": "automation",
+  "context": "Discord call recording",
+  "description": "Set up automatic call recording in Discord via bot to eliminate manual recording requirements",
+  "department": "AI",
+  "profession": "Project manager",
+  "estimated_duration": "1-2 hours",
+  "status": "Proposed",
+  "dependencies": [
+    "Discord bot development"
+  ],
+  "tools_required": [
+    "Discord bot",
+    "recording infrastructure"
+  ],
+  "success_criteria": [
+    "Task completed according to description",
+    "All dependencies resolved",
+    "Status updated to 'Completed'",
+    "Documentation updated if required"
+  ],
+  "responsibilities": [
+    "Implementing automation"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Review task requirements and dependencies",
+      "tool": "Documentation",
+      "responsibility": "Project manager",
+      "placement": "Task documentation",
+      "duration": "15 minutes",
+      "dependencies": [],
+      "success_criteria": "All requirements understood, dependencies identified"
+    },
+    {
+      "step_number": 2,
+      "name": "Execute implement automation",
+      "tool": "Discord bot, recording infrastructure",
+      "responsibility": "Project manager",
+      "placement": "Project: Infrastructure",
+      "duration": "1",
+      "dependencies": [
+        "Step 1"
+      ],
+      "success_criteria": "Task implemented successfully"
+    },
+    {
+      "step_number": 3,
+      "name": "Verify completion and update status",
+      "tool": "CRM/Task Management",
+      "responsibility": "Project manager",
+      "placement": "Task management system",
+      "duration": "10 minutes",
+      "dependencies": [
+        "Step 2"
+      ],
+      "success_criteria": "Status updated, task marked complete"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Task requirements reviewed",
+      "guide": "Understand all requirements before starting",
+      "required": true
+    },
+    {
+      "item": "Dependencies resolved",
+      "guide": "Ensure all dependencies are met",
+      "required": true
+    },
+    {
+      "item": "Tools and resources available",
+      "guide": "Verify access to: Discord bot, recording infrastructure",
+      "required": true
+    },
+    {
+      "item": "Task completed according to description",
+      "guide": "Set up automatic call recording in Discord via bot to eliminate manual recording requirements",
+      "required": true
+    }
+  ],
+  "tags": [
+    "ai",
+    "implement",
+    "low",
+    "infrastructure",
+    "automation"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "owner": {
+    "name": "Artemchuk Nikolay",
+    "id": "37226"
+  },
+  "related_project": "Infrastructure",
+  "priority": "Low",
+  "timeline": "Future enhancement"
+}

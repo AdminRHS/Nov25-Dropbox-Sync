@@ -1,5 +1,840 @@
 # Changelog - 2025-11-12
 
+**Sync Date:** 2025-11-12 16:37:26 UTC
+**Total Changes:** 313 files
+
+## Summary
+
+- **Added:** 205 files
+- **Modified:** 20 files
+- **Deleted:** 88 files
+
+## Changes by Department
+
+### "Design
+
+**Total changes:** 3 files
+
+#### Shymkevych Iryna
+
+**Deleted (3 files):**
+- `employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07).html"`
+- `employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07 1).html"`
+- `daily (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-06).md"`
+
+
+### "LG
+
+**Total changes:** 1 files
+
+#### Lead Generation Department
+
+**Deleted (1 files):**
+- `Copy of PROMPT for LG custom projects - September 26, 3_21\342\200\257PM.md"`
+
+
+### "Video
+
+**Total changes:** 26 files
+
+#### Azanova Dar\312\274ya
+
+**Deleted (26 files):**
+- `plans.md"`
+- `plans.md"`
+- `task.md"`
+- `plans.md"`
+- `task.md"`
+- `task.md"`
+- `plans.md"`
+- `daily.md"`
+- `task.md"`
+- `README.md"`
+- `daily.md"`
+- `daily.md"`
+- `daily.md"`
+- `daily.md"`
+- `daily.md"`
+- `task.md"`
+- `task.md"`
+- `plans.md"`
+- `plans.md"`
+- `task.md"`
+- `task.md"`
+- `daily.md"`
+- `plans.md"`
+- `daily.md"`
+- `plans.md"`
+- `Profile Video Editor Azanova Dar\312\274ya.md"`
+
+
+### AI
+
+**Total changes:** 24 files
+
+#### AI prompt log.md
+
+**Modified (1 files):**
+- `AI prompt log.md` (72.76 KB, rev: 01643678..., modified: 2025-11-12T15:38:23, by: Dropbox User)
+
+#### Artemchuk Nikolay
+
+**Added (14 files):**
+- `daily_processed_v3_backup.md` → `12/daily_processed_v3_backup.md` (49.25 KB, modified: 2025-11-12T08:08:17, by: Dropbox User)
+- `TEMPLATE-TASK-AI-003_Configure_Perplexity_AI_Settings_for_Lead_Generation.json` → `12/Tasks/TEMPLATE-TASK-AI-003_Configure_Perplexity_AI_Settings_for_Lead_Generation.json` (2.99 KB, modified: 2025-11-12T14:56:16, by: Dropbox User)
+- `TEMPLATE-TASK-AI-004_Process_Daily_Reports_Summary.json` → `12/Tasks/TEMPLATE-TASK-AI-004_Process_Daily_Reports_Summary.json` (2.73 KB, modified: 2025-11-12T14:56:16, by: Dropbox User)
+- `TEMPLATE-TASK-AI-006_Deploy_Cursor_Access_to_Video_Editors.json` → `12/Tasks/TEMPLATE-TASK-AI-006_Deploy_Cursor_Access_to_Video_Editors.json` (2.75 KB, modified: 2025-11-12T14:56:16, by: Dropbox User)
+- `TEMPLATE-TASK-AI-005_Set_Up_Google_Calendar_Automation.json` → `12/Tasks/TEMPLATE-TASK-AI-005_Set_Up_Google_Calendar_Automation.json` (2.92 KB, modified: 2025-11-12T14:56:16, by: Dropbox User)
+- `TEMPLATE-TASK-AI-002_Implement_Perplexity_Research_Workflow_for_Lead_Generation.json` → `12/Tasks/TEMPLATE-TASK-AI-002_Implement_Perplexity_Research_Workflow_for_Lead_Generation.json` (3.06 KB, modified: 2025-11-12T14:56:16, by: Dropbox User)
+- `TEMPLATE-TASK-AI-001_Process_Video_Transcriptions_with_Taxonomy_Extraction.json` → `12/Tasks/TEMPLATE-TASK-AI-001_Process_Video_Transcriptions_with_Taxonomy_Extraction.json` (3.11 KB, modified: 2025-11-12T14:56:16, by: Dropbox User)
+- `TEMPLATE-TASK-AI-007_Process_Olyas_Call_Transcript.json` → `12/Tasks/TEMPLATE-TASK-AI-007_Process_Olyas_Call_Transcript.json` (2.76 KB, modified: 2025-11-12T14:56:16, by: Dropbox User)
+- `TEMPLATE-TASK-AI-009_Review_and_Sort_Prompts_in_Library.json` → `12/Tasks/TEMPLATE-TASK-AI-009_Review_and_Sort_Prompts_in_Library.json` (2.72 KB, modified: 2025-11-12T14:56:16, by: Dropbox User)
+- `TEMPLATE-TASK-AI-010_Implement_Discord_Call_Recording_Automation.json` → `12/Tasks/TEMPLATE-TASK-AI-010_Implement_Discord_Call_Recording_Automation.json` (2.85 KB, modified: 2025-11-12T14:56:16, by: Dropbox User)
+- `TEMPLATE-TASK-AI-008_Create_MAIN_PROMPT_v4.json` → `12/Tasks/TEMPLATE-TASK-AI-008_Create_MAIN_PROMPT_v4.json` (3.07 KB, modified: 2025-11-12T14:56:16, by: Dropbox User)
+- `Discord_Announcement_Video_Workflow.md` → `12/Discord_Announcement_Video_Workflow.md` (2.07 KB, modified: 2025-11-12T15:28:32, by: Dropbox User)
+- `Image_Prompt_Video_Workflow_Meeky.md` → `12/Image_Prompt_Video_Workflow_Meeky.md` (2.84 KB, modified: 2025-11-12T15:37:44, by: Dropbox User)
+- `Today_Activity_Summary_Nov12_2025.md` → `12/Today_Activity_Summary_Nov12_2025.md` (19.67 KB, modified: 2025-11-12T15:38:10, by: Dropbox User)
+
+**Deleted (1 files):**
+- `daily_processed.md`
+
+#### Reports
+
+**Added (6 files):**
+- `Daily_Activity_Report_Nov6_2025.md` → `06/Daily_Activity_Report_Nov6_2025.md` (2.36 KB, modified: 2025-11-12T14:28:31, by: Dropbox User)
+- `Daily_Activity_Report_Nov08_2025.md` → `08/Daily_Activity_Report_Nov08_2025.md` (2.70 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov10_2025.md` → `10/Daily_Activity_Report_Nov10_2025.md` (2.71 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov09_2025.md` → `09/Daily_Activity_Report_Nov09_2025.md` (2.70 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov12_2025.md` → `12/Daily_Activity_Report_Nov12_2025.md` (7.75 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov11_2025.md` → `11/Daily_Activity_Report_Nov11_2025.md` (8.89 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+
+**Modified (2 files):**
+- `Daily_Activity_Report_Nov06_2025.md` → `06/Daily_Activity_Report_Nov06_2025.md` (2.70 KB, rev: 01643669..., modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov07_2025.md` → `07/Daily_Activity_Report_Nov07_2025.md` (2.70 KB, rev: 01643669..., modified: 2025-11-12T14:29:58, by: Dropbox User)
+
+
+### Design
+
+**Total changes:** 39 files
+
+#### Chobotar Yuliia
+
+**Added (3 files):**
+- `task.md` → `13/task.md` (0 bytes, modified: 2025-11-12T15:37:07, by: Dropbox User)
+- `plans.md` → `13/plans.md` (0 bytes, modified: 2025-11-12T15:37:08, by: Dropbox User)
+- `daily.md` → `13/daily.md` (0 bytes, modified: 2025-11-12T15:37:09, by: Dropbox User)
+
+**Modified (3 files):**
+- `daily.md` → `12/daily.md` (5.13 KB, rev: 0164367f..., modified: 2025-11-12T16:06:27, by: Dropbox User)
+- `plans.md` → `12/plans.md` (3.24 KB, rev: 0164367f..., modified: 2025-11-12T16:06:50, by: Dropbox User)
+- `task.md` → `12/task.md` (2.94 KB, rev: 0164367f..., modified: 2025-11-12T16:07:14, by: Dropbox User)
+
+#### Design Department
+
+**Added (1 files):**
+- `List of AI-Tool-Tutorials by perplexity.md` → `test video procesing/List of AI-Tool-Tutorials by perplexity.md` (6.11 KB, modified: 2025-11-12T10:14:49, by: Dropbox User)
+
+**Deleted (1 files):**
+- `List of AI-Tool-Tutorials by perplexity`
+
+#### Hlushko Mariia
+
+**Modified (3 files):**
+- `daily.md` → `07/daily.md` (1.93 KB, rev: 0164366a..., modified: 2025-11-12T14:34:05, by: Dropbox User)
+- `daily.md` → `10/daily.md` (1.97 KB, rev: 0164366a..., modified: 2025-11-12T14:34:12, by: Dropbox User)
+- `12.11.2025.md` → `12/12.11.2025.md` (983 bytes, rev: 0164367c..., modified: 2025-11-12T15:53:50, by: Dropbox User)
+
+#### Kucherenko Iuliia
+
+**Added (3 files):**
+- `task.md` → `13/task.md` (0 bytes, modified: 2025-11-12T15:37:10, by: Dropbox User)
+- `plans.md` → `13/plans.md` (0 bytes, modified: 2025-11-12T15:37:11, by: Dropbox User)
+- `daily.md` → `13/daily.md` (0 bytes, modified: 2025-11-12T15:37:12, by: Dropbox User)
+
+#### Reports
+
+**Added (6 files):**
+- `Daily_Activity_Report_Nov6_2025.md` → `06/Daily_Activity_Report_Nov6_2025.md` (7.05 KB, modified: 2025-11-12T14:29:11, by: Dropbox User)
+- `Daily_Activity_Report_Nov10_2025.md` → `10/Daily_Activity_Report_Nov10_2025.md` (2.05 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov12_2025.md` → `12/Daily_Activity_Report_Nov12_2025.md` (3.78 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov08_2025.md` → `08/Daily_Activity_Report_Nov08_2025.md` (2.05 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov11_2025.md` → `11/Daily_Activity_Report_Nov11_2025.md` (2.93 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov09_2025.md` → `09/Daily_Activity_Report_Nov09_2025.md` (2.05 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+
+**Modified (1 files):**
+- `Daily_Activity_Report_Nov06_2025.md` → `06/Daily_Activity_Report_Nov06_2025.md` (2.05 KB, rev: 01643669..., modified: 2025-11-12T14:29:58, by: Dropbox User)
+
+#### Safonova Eleonora
+
+**Added (3 files):**
+- `daily.md` → `12/daily.md` (21.25 KB, modified: 2025-11-12T16:05:37, by: Dropbox User)
+- `plans.md` → `12/plans.md` (5.47 KB, modified: 2025-11-12T16:05:37, by: Dropbox User)
+- `task.md` → `12/task.md` (30.06 KB, modified: 2025-11-12T16:05:37, by: Dropbox User)
+
+#### Shymkevych Iryna
+
+**Added (8 files):**
+- `daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md` → `06/daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md` (13.51 KB, modified: 2025-11-06T16:13:37, by: Dropbox User)
+- `employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html` → `05/employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html` (24.40 KB, modified: 2025-11-07T14:02:58, by: Dropbox User)
+- `plans.md` → `12/plans.md` (1.05 KB, modified: 2025-11-10T16:02:53, by: Dropbox User)
+- `task.md` → `13/task.md` (0 bytes, modified: 2025-11-12T15:37:13, by: Dropbox User)
+- `plans.md` → `13/plans.md` (0 bytes, modified: 2025-11-12T15:37:14, by: Dropbox User)
+- `daily.md` → `13/daily.md` (0 bytes, modified: 2025-11-12T15:37:15, by: Dropbox User)
+- `task.md` → `12/task.md` (1.72 KB, modified: 2025-11-12T16:04:42, by: Dropbox User)
+- `daily.md` → `12/daily.md` (4.13 KB, modified: 2025-11-12T16:15:28, by: Dropbox User)
+
+**Modified (1 files):**
+- `index2.html` → `10/index2.html` (162.29 KB, rev: 01643672..., modified: 2025-11-12T15:10:30, by: Dropbox User)
+
+#### Skrypkar Vilhelm
+
+**Added (6 files):**
+- `task.md` → `13/task.md` (0 bytes, modified: 2025-11-12T15:48:09, by: Dropbox User)
+- `plans.md` → `13/plans.md` (0 bytes, modified: 2025-11-12T15:48:10, by: Dropbox User)
+- `daily.md` → `13/daily.md` (0 bytes, modified: 2025-11-12T15:48:11, by: Dropbox User)
+- `daily.md` → `12/daily.md` (17.15 KB, modified: 2025-11-12T16:13:43, by: Dropbox User)
+- `task.md` → `12/task.md` (19.16 KB, modified: 2025-11-12T16:13:45, by: Dropbox User)
+- `plans.md` → `12/plans.md` (3.34 KB, modified: 2025-11-12T16:13:47, by: Dropbox User)
+
+
+### Dev
+
+**Total changes:** 19 files
+
+#### Danylenko Liliia
+
+**Added (5 files):**
+- `plans.md` → `12/plans.md` (9.60 KB, modified: 2025-11-12T14:34:56, by: Dropbox User)
+- `task.md` → `12/task.md` (12.60 KB, modified: 2025-11-12T14:35:11, by: Dropbox User)
+- `task.md` → `13/task.md` (0 bytes, modified: 2025-11-12T15:47:59, by: Dropbox User)
+- `plans.md` → `13/plans.md` (0 bytes, modified: 2025-11-12T15:48:00, by: Dropbox User)
+- `daily.md` → `13/daily.md` (0 bytes, modified: 2025-11-12T15:48:01, by: Dropbox User)
+
+**Modified (1 files):**
+- `daily.md` → `12/daily.md` (15.59 KB, rev: 0164366b..., modified: 2025-11-12T14:37:52, by: Dropbox User)
+
+#### Kizilova Olha
+
+**Added (3 files):**
+- `task.md` → `13/task.md` (0 bytes, modified: 2025-11-12T15:47:52, by: Dropbox User)
+- `plans.md` → `13/plans.md` (0 bytes, modified: 2025-11-12T15:47:54, by: Dropbox User)
+- `daily.md` → `13/daily.md` (0 bytes, modified: 2025-11-12T15:47:55, by: Dropbox User)
+
+#### Klimenko Yaroslav
+
+**Added (3 files):**
+- `task.md` → `13/task.md` (0 bytes, modified: 2025-11-12T15:47:55, by: Dropbox User)
+- `plans.md` → `13/plans.md` (0 bytes, modified: 2025-11-12T15:47:57, by: Dropbox User)
+- `daily.md` → `13/daily.md` (0 bytes, modified: 2025-11-12T15:47:58, by: Dropbox User)
+
+#### Reports
+
+**Added (5 files):**
+- `Daily_Activity_Report_Nov10_2025.md` → `10/Daily_Activity_Report_Nov10_2025.md` (3.63 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov12_2025.md` → `12/Daily_Activity_Report_Nov12_2025.md` (5.03 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov08_2025.md` → `08/Daily_Activity_Report_Nov08_2025.md` (2.03 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov11_2025.md` → `11/Daily_Activity_Report_Nov11_2025.md` (5.78 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov09_2025.md` → `09/Daily_Activity_Report_Nov09_2025.md` (2.03 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+
+**Modified (2 files):**
+- `Daily_Activity_Report_Nov07_2025.md` → `07/Daily_Activity_Report_Nov07_2025.md` (8.43 KB, rev: 01643669..., modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov06_2025.md` → `06/Daily_Activity_Report_Nov06_2025.md` (3.42 KB, rev: 01643669..., modified: 2025-11-12T14:29:58, by: Dropbox User)
+
+
+### LG
+
+**Total changes:** 130 files
+
+#### Bindiak Dana
+
+**Modified (2 files):**
+- `daily_markdown` → `12/daily_markdown` (6.25 KB, rev: 01643675..., modified: 2025-11-12T15:21:58, by: Dropbox User)
+- `task_markdown` → `12/task_markdown` (8.73 KB, rev: 01643676..., modified: 2025-11-12T15:27:21, by: Dropbox User)
+
+#### Lead Generation Department
+
+**Added (64 files):**
+- `Copy of PROMPT for LG custom projects - September 26, 3_21 PM.md` (13.11 KB, modified: 2025-11-11T14:12:23, by: Dropbox User)
+- `INDEX.md` (10.85 KB, modified: 2025-11-12T14:59:38, by: Dropbox User)
+- `instuctions.lg-manager-onboarding.md` → `Instructions/01_Onboarding_and_Training/instuctions.lg-manager-onboarding.md` (16.53 KB, modified: 2025-11-12T08:30:40, by: Dropbox User)
+- `STARTER PACK-RH.md` → `Instructions/01_Onboarding_and_Training/STARTER PACK-RH.md` (602.32 KB, modified: 2025-11-12T09:47:48, by: Dropbox User)
+- `Tutorial_for_beginners_Remote_Helpers.md` → `Instructions/01_Onboarding_and_Training/Tutorial_for_beginners_Remote_Helpers.md` (1237.77 KB, modified: 2025-11-12T10:13:22, by: Dropbox User)
+- `instructions.first-week.onboarding.md` → `Instructions/01_Onboarding_and_Training/instructions.first-week.onboarding.md` (17.27 KB, modified: 2025-11-12T08:56:14, by: Dropbox User)
+- `lg.vocabulary.md` → `Instructions/01_Onboarding_and_Training/lg.vocabulary.md` (11.62 KB, modified: 2025-11-12T09:10:59, by: Dropbox User)
+- `common.interview-questions.lg.md` → `Instructions/01_Onboarding_and_Training/common.interview-questions.lg.md` (1.70 KB, modified: 2025-11-12T09:12:06, by: Dropbox User)
+- `full-docs-lg-onboarding.md` → `Instructions/01_Onboarding_and_Training/full-docs-lg-onboarding.md` (42.96 KB, modified: 2025-11-12T14:23:27, by: Dropbox User)
+- `instuctions.join-channels.md` → `Instructions/01_Onboarding_and_Training/instuctions.join-channels.md` (1.91 KB, modified: 2025-11-12T08:36:04, by: Dropbox User)
+- `instructions.full-lg-onboarding.md` → `Instructions/01_Onboarding_and_Training/instructions.full-lg-onboarding.md` (42.96 KB, modified: 2025-11-12T08:38:49, by: Dropbox User)
+- `List_of_loom_Lessons.md` → `Instructions/01_Onboarding_and_Training/List_of_loom_Lessons.md` (2.10 KB, modified: 2025-11-12T09:35:54, by: Dropbox User)
+- `introduction.to-the-lg-department.md` → `Instructions/01_Onboarding_and_Training/introduction.to-the-lg-department.md` (7.70 KB, modified: 2025-11-12T10:27:11, by: Dropbox User)
+- `instructions.hire-lg.md` → `Instructions/01_Onboarding_and_Training/instructions.hire-lg.md` (1.22 KB, modified: 2025-11-12T08:43:33, by: Dropbox User)
+- `README.md` → `Instructions/01_Onboarding_and_Training/README.md` (2.42 KB, modified: 2025-11-12T14:51:26, by: Dropbox User)
+- `find-a-lead.md` → `Instructions/04_Lead_Research_and_Prospecting/find-a-lead.md` (5.00 KB, modified: 2025-11-12T09:47:22, by: Dropbox User)
+- `new_strategies.md` → `Instructions/04_Lead_Research_and_Prospecting/new_strategies.md` (363.51 KB, modified: 2025-11-12T10:20:02, by: Dropbox User)
+- `lg.process.guidance.md` → `Instructions/04_Lead_Research_and_Prospecting/lg.process.guidance.md` (70.68 KB, modified: 2025-11-12T08:47:21, by: Dropbox User)
+- `instructions.pre-call-research.md` → `Instructions/04_Lead_Research_and_Prospecting/instructions.pre-call-research.md` (208.88 KB, modified: 2025-11-12T09:19:48, by: Dropbox User)
+- `new.lg-process-concept.md` → `Instructions/04_Lead_Research_and_Prospecting/new.lg-process-concept.md` (5.87 KB, modified: 2025-11-12T09:30:57, by: Dropbox User)
+- `pre-call-research.full.md` → `Instructions/04_Lead_Research_and_Prospecting/pre-call-research.full.md` (160.50 KB, modified: 2025-11-12T09:33:29, by: Dropbox User)
+- `ai.observation.md` → `Instructions/04_Lead_Research_and_Prospecting/ai.observation.md` (7.56 KB, modified: 2025-11-12T13:02:53, by: Dropbox User)
+- `README.md` → `Instructions/04_Lead_Research_and_Prospecting/README.md` (8.67 KB, modified: 2025-11-12T14:54:42, by: Dropbox User)
+- `instuctions.for-chat.md` → `Instructions/05_Outreach_and_Messaging/instuctions.for-chat.md` (2.47 KB, modified: 2025-11-12T08:34:54, by: Dropbox User)
+- `messages.gpt-version.md` → `Instructions/05_Outreach_and_Messaging/messages.gpt-version.md` (11.68 KB, modified: 2025-11-12T10:19:55, by: Dropbox User)
+- `templates.old-version.md` → `Instructions/05_Outreach_and_Messaging/templates.old-version.md` (14.98 KB, modified: 2025-11-12T10:22:02, by: Dropbox User)
+- `send-email.tab` → `Instructions/05_Outreach_and_Messaging/send-email.tab` (1,009 bytes, modified: 2025-11-12T09:42:39, by: Dropbox User)
+- `messages.job-sites.md` → `Instructions/05_Outreach_and_Messaging/messages.job-sites.md` (3.25 KB, modified: 2025-11-12T10:23:59, by: Dropbox User)
+- `ai-for-lead-generation-strategies-and-tools.md` → `Instructions/05_Outreach_and_Messaging/ai-for-lead-generation-strategies-and-tools.md` (4.23 KB, modified: 2025-11-12T10:52:55, by: Dropbox User)
+- `send-connection-requests.md` → `Instructions/05_Outreach_and_Messaging/send-connection-requests.md` (938 bytes, modified: 2025-11-12T12:08:29, by: Dropbox User)
+- `make-follow-up-message.md` → `Instructions/05_Outreach_and_Messaging/make-follow-up-message.md` (7.44 KB, modified: 2025-11-12T13:12:51, by: Dropbox User)
+- `guide.masseges.md` → `Instructions/05_Outreach_and_Messaging/guide.masseges.md` (52.43 KB, modified: 2025-11-12T09:27:52, by: Dropbox User)
+- `LeadGen_Instruction_How_to_clean_up_old_LinkedIn_applications.md` → `Instructions/05_Outreach_and_Messaging/LeadGen_Instruction_How_to_clean_up_old_LinkedIn_applications.md` (90.85 KB, modified: 2025-11-12T09:26:19, by: Dropbox User)
+- `lg-templates.new.md` → `Instructions/05_Outreach_and_Messaging/lg-templates.new.md` (3.28 KB, modified: 2025-11-12T09:35:22, by: Dropbox User)
+- `Tutorial_For_SMS_Sending_Process.md` → `Instructions/05_Outreach_and_Messaging/Tutorial_For_SMS_Sending_Process.md` (1291.45 KB, modified: 2025-11-12T09:50:34, by: Dropbox User)
+- `README.md` → `Instructions/05_Outreach_and_Messaging/README.md` (11.12 KB, modified: 2025-11-12T14:56:15, by: Dropbox User)
+- `CRM_usage_guide_for_lead_generators.md` → `Instructions/03_CRM_Operations/CRM_usage_guide_for_lead_generators.md` (5.43 KB, modified: 2025-11-12T07:59:38, by: Dropbox User)
+- `How_to_update_a_card.md` → `Instructions/03_CRM_Operations/How_to_update_a_card.md` (3.69 KB, modified: 2025-11-12T08:38:18, by: Dropbox User)
+- `Needed_Candidate.md` → `Instructions/03_CRM_Operations/Needed_Candidate.md` (39.94 KB, modified: 2025-11-12T09:40:03, by: Dropbox User)
+- `fields.filling-when-adding-a-company-to-the-CRM.md` → `Instructions/03_CRM_Operations/fields.filling-when-adding-a-company-to-the-CRM.md` (1.06 KB, modified: 2025-11-12T09:41:32, by: Dropbox User)
+- `daily.report.md` → `Instructions/03_CRM_Operations/daily.report.md` (765 bytes, modified: 2025-11-12T09:43:39, by: Dropbox User)
+- `lead-generation-panel.md` → `Instructions/03_CRM_Operations/lead-generation-panel.md` (1.57 KB, modified: 2025-11-12T09:44:21, by: Dropbox User)
+- `crm-updates.instruction.md` → `Instructions/03_CRM_Operations/crm-updates.instruction.md` (3.52 KB, modified: 2025-11-12T10:23:03, by: Dropbox User)
+- `Add_New_Lead.md` → `Instructions/03_CRM_Operations/Add_New_Lead.md` (3944.11 KB, modified: 2025-11-11T14:39:45, by: Dropbox User)
+- `CRM_Succesful_Call.md` → `Instructions/03_CRM_Operations/CRM_Succesful_Call.md` (86.84 KB, modified: 2025-11-12T07:58:21, by: Dropbox User)
+- `Changing_the_status_of_a_lead.md` → `Instructions/03_CRM_Operations/Changing_the_status_of_a_lead.md` (245.24 KB, modified: 2025-11-12T08:04:00, by: Dropbox User)
+- `README.md` → `Instructions/03_CRM_Operations/README.md` (5.98 KB, modified: 2025-11-12T14:53:26, by: Dropbox User)
+- `instructions.create-event.md` → `Instructions/06_Calendar_and_Event_Management/instructions.create-event.md` (3.38 KB, modified: 2025-11-12T08:15:48, by: Dropbox User)
+- `Create_Event.md` → `Instructions/06_Calendar_and_Event_Management/Create_Event.md` (1011.04 KB, modified: 2025-11-12T08:06:45, by: Dropbox User)
+- `create.a-call.via-leads-calendar.md` → `Instructions/06_Calendar_and_Event_Management/create.a-call.via-leads-calendar.md` (1.75 KB, modified: 2025-11-12T09:17:28, by: Dropbox User)
+- `create.google-calendar-event.md` → `Instructions/06_Calendar_and_Event_Management/create.google-calendar-event.md` (5.66 KB, modified: 2025-11-12T09:18:16, by: Dropbox User)
+- `README.md` → `Instructions/06_Calendar_and_Event_Management/README.md` (11.81 KB, modified: 2025-11-12T14:58:24, by: Dropbox User)
+- `registrate-gmail-account.md` → `Instructions/02_Account_and_Tool_Setup/registrate-gmail-account.md` (21.28 KB, modified: 2025-11-12T12:16:58, by: Dropbox User)
+- `Instructions_for_installing_a_Gmail_signature.md` → `Instructions/02_Account_and_Tool_Setup/Instructions_for_installing_a_Gmail_signature.md` (1247.18 KB, modified: 2025-11-12T08:51:09, by: Dropbox User)
+- `LinkedIn_extension_install_manual.md` → `Instructions/02_Account_and_Tool_Setup/LinkedIn_extension_install_manual.md` (308.56 KB, modified: 2025-11-12T09:33:25, by: Dropbox User)
+- `installing.the-work-extensions.md` → `Instructions/02_Account_and_Tool_Setup/installing.the-work-extensions.md` (2.94 KB, modified: 2025-11-12T09:39:17, by: Dropbox User)
+- `linkedin-account.create-and-setup.md` → `Instructions/02_Account_and_Tool_Setup/linkedin-account.create-and-setup.md` (10.71 KB, modified: 2025-11-12T12:21:17, by: Dropbox User)
+- `clock-in-out-crm.md` → `Instructions/02_Account_and_Tool_Setup/clock-in-out-crm.md` (2.37 KB, modified: 2025-11-12T13:03:53, by: Dropbox User)
+- `salesql-install.md` → `Instructions/02_Account_and_Tool_Setup/salesql-install.md` (5.02 KB, modified: 2025-11-12T13:04:55, by: Dropbox User)
+- `Filling_out_a_LinkedIn_account.md` → `Instructions/02_Account_and_Tool_Setup/Filling_out_a_LinkedIn_account.md` (253.63 KB, modified: 2025-11-12T08:11:02, by: Dropbox User)
+- `Google_Scrape_extension_install_manual.md` → `Instructions/02_Account_and_Tool_Setup/Google_Scrape_extension_install_manual.md` (99.76 KB, modified: 2025-11-12T08:36:05, by: Dropbox User)
+- `Gmail_Account_Setup.md` → `Instructions/02_Account_and_Tool_Setup/Gmail_Account_Setup.md` (118.48 KB, modified: 2025-11-12T08:33:34, by: Dropbox User)
+- `Instruction_for_Sales_Navigator.md` → `Instructions/02_Account_and_Tool_Setup/Instruction_for_Sales_Navigator.md` (677.39 KB, modified: 2025-11-12T08:45:38, by: Dropbox User)
+- `README.md` → `Instructions/02_Account_and_Tool_Setup/README.md` (3.89 KB, modified: 2025-11-12T14:52:23, by: Dropbox User)
+
+**Deleted (56 files):**
+- `instuctions.join-channels.md`
+- `LeadGen_Instruction_How_to_clean_up_old_LinkedIn_applications.md`
+- `messages.job-sites.md`
+- `crm-updates.instruction.md`
+- `lg.process.guidance.md`
+- `Gmail_Account_Setup.md`
+- `instructions.full-lg-onboarding.md`
+- `How_to_update_a_card.md`
+- `instuctions.lg-manager-onboarding.md`
+- `guide.masseges.md`
+- `ai-for-lead-generation-strategies-and-tools.md`
+- `templates.old-version.md`
+- `make-follow-up-message.md`
+- `Create_Event.md`
+- `instructions.pre-call-research.md`
+- `Instructions_for_installing_a_Gmail_signature.md`
+- `Tutorial_for_beginners_Remote_Helpers.md`
+- `ai.observation.md`
+- `lead-generation-panel.md`
+- `instuctions.for-chat.md`
+- `linkedin-account.create-and-setup.md`
+- `Changing_the_status_of_a_lead.md`
+- `lg-templates.new.md`
+- `Add_New_Lead.md`
+- `Google_Scrape_extension_install_manual.md`
+- `CRM_usage_guide_for_lead_generators.md`
+- `instructions.hire-lg.md`
+- `installing.the-work-extensions.md`
+- `introduction.to-the-lg-department.md`
+- `registrate-gmail-account.md`
+- `LinkedIn_extension_install_manual.md`
+- `common.interview-questions.lg.md`
+- `salesql-install.md`
+- `crm-usage-guide.md`
+- `CRM_Succesful_Call.md`
+- `messages.gpt-version.md`
+- `pre-call-research.full.md`
+- `List_of_loom_Lessons.md`
+- `send-email.tab`
+- `create.google-calendar-event.md`
+- `send-connection-requests.md`
+- `Filling_out_a_LinkedIn_account.md`
+- `clock-in-out-crm.md`
+- `new_strategies.md`
+- `create.a-call.via-leads-calendar.md`
+- `STARTER PACK-RH.md`
+- `Tutorial_For_SMS_Sending_Process.md`
+- `fields.filling-when-adding-a-company-to-the-CRM.md`
+- `new.lg-process-concept.md`
+- `instructions.first-week.onboarding.md`
+- `find-a-lead.md`
+- `lg.vocabulary.md`
+- `daily.report.md`
+- `Needed_Candidate.md`
+- `instructions.create-event.md`
+- `Instruction_for_Sales_Navigator.md`
+
+#### Reports
+
+**Added (5 files):**
+- `Daily_Activity_Report_Nov10_2025.md` → `10/Daily_Activity_Report_Nov10_2025.md` (3.91 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov09_2025.md` → `09/Daily_Activity_Report_Nov09_2025.md` (2.75 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov12_2025.md` → `12/Daily_Activity_Report_Nov12_2025.md` (3.91 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov11_2025.md` → `11/Daily_Activity_Report_Nov11_2025.md` (3.91 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov08_2025.md` → `08/Daily_Activity_Report_Nov08_2025.md` (2.75 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+
+**Modified (2 files):**
+- `Daily_Activity_Report_Nov06_2025.md` → `06/Daily_Activity_Report_Nov06_2025.md` (3.90 KB, rev: 01643669..., modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov07_2025.md` → `07/Daily_Activity_Report_Nov07_2025.md` (3.90 KB, rev: 01643669..., modified: 2025-11-12T14:29:58, by: Dropbox User)
+
+#### Shkinder Kseniia
+
+**Added (1 files):**
+- `plandb_dana_senya.md` → `12/plandb_dana_senya.md` (11.51 KB, modified: 2025-11-12T16:05:35, by: Dropbox User)
+
+
+### Reports
+
+**Total changes:** 36 files
+
+#### Nov25
+
+**Added (36 files):**
+- `AI_Daily_Activity_Report_Nov06_2025.md` → `06/AI_Daily_Activity_Report_Nov06_2025.md` (2.70 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Design_Daily_Activity_Report_Nov06_2025.md` → `06/Design_Daily_Activity_Report_Nov06_2025.md` (2.05 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Design_Daily_Activity_Report_Nov07_2025.md` → `07/Design_Daily_Activity_Report_Nov07_2025.md` (2.05 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Dev_Daily_Activity_Report_Nov07_2025.md` → `07/Dev_Daily_Activity_Report_Nov07_2025.md` (8.43 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `AI_Daily_Activity_Report_Nov08_2025.md` → `08/AI_Daily_Activity_Report_Nov08_2025.md` (2.70 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Dev_Daily_Activity_Report_Nov08_2025.md` → `08/Dev_Daily_Activity_Report_Nov08_2025.md` (2.03 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Dev_Daily_Activity_Report_Nov12_2025.md` → `12/Dev_Daily_Activity_Report_Nov12_2025.md` (5.03 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `AI_Daily_Activity_Report_Nov10_2025.md` → `10/AI_Daily_Activity_Report_Nov10_2025.md` (2.71 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Dev_Daily_Activity_Report_Nov10_2025.md` → `10/Dev_Daily_Activity_Report_Nov10_2025.md` (3.63 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Video_Daily_Activity_Report_Nov10_2025.md` → `10/Video_Daily_Activity_Report_Nov10_2025.md` (4.04 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Dev_Daily_Activity_Report_Nov06_2025.md` → `06/Dev_Daily_Activity_Report_Nov06_2025.md` (3.42 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Video_Daily_Activity_Report_Nov06_2025.md` → `06/Video_Daily_Activity_Report_Nov06_2025.md` (4.04 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `AI_Daily_Activity_Report_Nov09_2025.md` → `09/AI_Daily_Activity_Report_Nov09_2025.md` (2.70 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Design_Daily_Activity_Report_Nov09_2025.md` → `09/Design_Daily_Activity_Report_Nov09_2025.md` (2.05 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `LG_Daily_Activity_Report_Nov09_2025.md` → `09/LG_Daily_Activity_Report_Nov09_2025.md` (2.75 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Video_Daily_Activity_Report_Nov09_2025.md` → `09/Video_Daily_Activity_Report_Nov09_2025.md` (2.81 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `AI_Daily_Activity_Report_Nov11_2025.md` → `11/AI_Daily_Activity_Report_Nov11_2025.md` (8.89 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `LG_Daily_Activity_Report_Nov11_2025.md` → `11/LG_Daily_Activity_Report_Nov11_2025.md` (3.91 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `AI_Daily_Activity_Report_Nov07_2025.md` → `07/AI_Daily_Activity_Report_Nov07_2025.md` (2.70 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `LG_Daily_Activity_Report_Nov07_2025.md` → `07/LG_Daily_Activity_Report_Nov07_2025.md` (3.90 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Video_Daily_Activity_Report_Nov07_2025.md` → `07/Video_Daily_Activity_Report_Nov07_2025.md` (4.04 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Design_Daily_Activity_Report_Nov08_2025.md` → `08/Design_Daily_Activity_Report_Nov08_2025.md` (2.05 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `LG_Daily_Activity_Report_Nov08_2025.md` → `08/LG_Daily_Activity_Report_Nov08_2025.md` (2.75 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Video_Daily_Activity_Report_Nov08_2025.md` → `08/Video_Daily_Activity_Report_Nov08_2025.md` (2.81 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `AI_Daily_Activity_Report_Nov12_2025.md` → `12/AI_Daily_Activity_Report_Nov12_2025.md` (7.75 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Design_Daily_Activity_Report_Nov12_2025.md` → `12/Design_Daily_Activity_Report_Nov12_2025.md` (3.78 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `LG_Daily_Activity_Report_Nov12_2025.md` → `12/LG_Daily_Activity_Report_Nov12_2025.md` (3.91 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Video_Daily_Activity_Report_Nov12_2025.md` → `12/Video_Daily_Activity_Report_Nov12_2025.md` (4.04 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Design_Daily_Activity_Report_Nov10_2025.md` → `10/Design_Daily_Activity_Report_Nov10_2025.md` (2.05 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `LG_Daily_Activity_Report_Nov10_2025.md` → `10/LG_Daily_Activity_Report_Nov10_2025.md` (3.91 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `LG_Daily_Activity_Report_Nov06_2025.md` → `06/LG_Daily_Activity_Report_Nov06_2025.md` (3.90 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Dev_Daily_Activity_Report_Nov09_2025.md` → `09/Dev_Daily_Activity_Report_Nov09_2025.md` (2.03 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Design_Daily_Activity_Report_Nov11_2025.md` → `11/Design_Daily_Activity_Report_Nov11_2025.md` (2.93 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Dev_Daily_Activity_Report_Nov11_2025.md` → `11/Dev_Daily_Activity_Report_Nov11_2025.md` (5.78 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Video_Daily_Activity_Report_Nov11_2025.md` → `11/Video_Daily_Activity_Report_Nov11_2025.md` (4.04 KB, modified: 2025-11-12T14:32:15, by: Dropbox User)
+- `Company_Report_Nov6-12_2025.md` (10.95 KB, modified: 2025-11-12T14:41:28, by: Dropbox User)
+
+
+### Video
+
+**Total changes:** 33 files
+
+#### Azanova Darʼya
+
+**Added (26 files):**
+- `daily.md` → `03/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `03/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `03/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `04/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `04/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `daily.md` → `04/daily.md` (11.84 KB, modified: 2025-11-04T18:15:17, by: Dropbox User)
+- `daily.md` → `05/daily.md` (59.02 KB, modified: 2025-11-05T18:00:45, by: Dropbox User)
+- `plans.md` → `05/plans.md` (4.01 KB, modified: 2025-11-05T18:01:19, by: Dropbox User)
+- `task.md` → `05/task.md` (14.98 KB, modified: 2025-11-05T18:02:50, by: Dropbox User)
+- `daily.md` → `06/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `06/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `06/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `daily.md` → `07/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `07/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `07/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `README.md` (1.58 KB, modified: 2025-10-23T15:13:48, by: Dropbox User)
+- `task.md` → `08/task.md` (0 bytes, modified: 2025-11-07T10:38:46, by: Dropbox User)
+- `plans.md` → `08/plans.md` (0 bytes, modified: 2025-11-07T10:38:46, by: Dropbox User)
+- `daily.md` → `08/daily.md` (0 bytes, modified: 2025-11-07T10:38:47, by: Dropbox User)
+- `Profile Video Editor Azanova Darʼya.md` (1.36 KB, modified: 2025-11-07T10:02:41, by: Dropbox User)
+- `daily.md` → `10/daily.md` (36.02 KB, modified: 2025-11-10T15:57:12, by: Dropbox User)
+- `plans.md` → `10/plans.md` (4.79 KB, modified: 2025-11-10T15:57:54, by: Dropbox User)
+- `task.md` → `10/task.md` (30.54 KB, modified: 2025-11-10T16:01:19, by: Dropbox User)
+- `daily.md` → `11/daily.md` (15.18 KB, modified: 2025-11-11T16:04:27, by: Dropbox User)
+- `plans.md` → `11/plans.md` (5.14 KB, modified: 2025-11-11T16:05:12, by: Dropbox User)
+- `task.md` → `11/task.md` (31.33 KB, modified: 2025-11-11T16:08:39, by: Dropbox User)
+
+#### Reports
+
+**Added (5 files):**
+- `Daily_Activity_Report_Nov08_2025.md` → `08/Daily_Activity_Report_Nov08_2025.md` (2.81 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov09_2025.md` → `09/Daily_Activity_Report_Nov09_2025.md` (2.81 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov10_2025.md` → `10/Daily_Activity_Report_Nov10_2025.md` (4.04 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov11_2025.md` → `11/Daily_Activity_Report_Nov11_2025.md` (4.04 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov12_2025.md` → `12/Daily_Activity_Report_Nov12_2025.md` (4.04 KB, modified: 2025-11-12T14:29:58, by: Dropbox User)
+
+**Modified (2 files):**
+- `Daily_Activity_Report_Nov06_2025.md` → `06/Daily_Activity_Report_Nov06_2025.md` (4.04 KB, rev: 01643669..., modified: 2025-11-12T14:29:58, by: Dropbox User)
+- `Daily_Activity_Report_Nov07_2025.md` → `07/Daily_Activity_Report_Nov07_2025.md` (4.04 KB, rev: 01643669..., modified: 2025-11-12T14:29:58, by: Dropbox User)
+
+
+### Video Transcript Workflow
+
+**Total changes:** 2 files
+
+#### MAIN PROMPT v4.md
+
+**Added (1 files):**
+- `MAIN PROMPT v4.md` (118.88 KB, modified: 2025-11-12T15:49:31, by: Dropbox User)
+
+#### Video_Transcript_Processing_Workflow.md
+
+**Added (1 files):**
+- `Video_Transcript_Processing_Workflow.md` (15.16 KB, modified: 2025-11-12T15:49:31, by: Dropbox User)
+
+
+## All Changes
+
+### Added Files
+
+- `Reports/Nov25/06/AI_Daily_Activity_Report_Nov06_2025.md`
+- `Reports/Nov25/06/Design_Daily_Activity_Report_Nov06_2025.md`
+- `Reports/Nov25/07/Design_Daily_Activity_Report_Nov07_2025.md`
+- `Reports/Nov25/07/Dev_Daily_Activity_Report_Nov07_2025.md`
+- `Reports/Nov25/08/AI_Daily_Activity_Report_Nov08_2025.md`
+- `Reports/Nov25/08/Dev_Daily_Activity_Report_Nov08_2025.md`
+- `Reports/Nov25/12/Dev_Daily_Activity_Report_Nov12_2025.md`
+- `Reports/Nov25/10/AI_Daily_Activity_Report_Nov10_2025.md`
+- `Reports/Nov25/10/Dev_Daily_Activity_Report_Nov10_2025.md`
+- `Reports/Nov25/10/Video_Daily_Activity_Report_Nov10_2025.md`
+- `Reports/Nov25/06/Dev_Daily_Activity_Report_Nov06_2025.md`
+- `Reports/Nov25/06/Video_Daily_Activity_Report_Nov06_2025.md`
+- `Reports/Nov25/09/AI_Daily_Activity_Report_Nov09_2025.md`
+- `Reports/Nov25/09/Design_Daily_Activity_Report_Nov09_2025.md`
+- `Reports/Nov25/09/LG_Daily_Activity_Report_Nov09_2025.md`
+- `Reports/Nov25/09/Video_Daily_Activity_Report_Nov09_2025.md`
+- `Reports/Nov25/11/AI_Daily_Activity_Report_Nov11_2025.md`
+- `Reports/Nov25/11/LG_Daily_Activity_Report_Nov11_2025.md`
+- `Reports/Nov25/07/AI_Daily_Activity_Report_Nov07_2025.md`
+- `Reports/Nov25/07/LG_Daily_Activity_Report_Nov07_2025.md`
+- `Reports/Nov25/07/Video_Daily_Activity_Report_Nov07_2025.md`
+- `Reports/Nov25/08/Design_Daily_Activity_Report_Nov08_2025.md`
+- `Reports/Nov25/08/LG_Daily_Activity_Report_Nov08_2025.md`
+- `Reports/Nov25/08/Video_Daily_Activity_Report_Nov08_2025.md`
+- `Reports/Nov25/12/AI_Daily_Activity_Report_Nov12_2025.md`
+- `Reports/Nov25/12/Design_Daily_Activity_Report_Nov12_2025.md`
+- `Reports/Nov25/12/LG_Daily_Activity_Report_Nov12_2025.md`
+- `Reports/Nov25/12/Video_Daily_Activity_Report_Nov12_2025.md`
+- `Reports/Nov25/10/Design_Daily_Activity_Report_Nov10_2025.md`
+- `Reports/Nov25/10/LG_Daily_Activity_Report_Nov10_2025.md`
+- `Reports/Nov25/06/LG_Daily_Activity_Report_Nov06_2025.md`
+- `Reports/Nov25/09/Dev_Daily_Activity_Report_Nov09_2025.md`
+- `Reports/Nov25/11/Design_Daily_Activity_Report_Nov11_2025.md`
+- `Reports/Nov25/11/Dev_Daily_Activity_Report_Nov11_2025.md`
+- `Reports/Nov25/11/Video_Daily_Activity_Report_Nov11_2025.md`
+- `Reports/Nov25/Company_Report_Nov6-12_2025.md`
+- `Video Transcript Workflow/MAIN PROMPT v4.md`
+- `Video Transcript Workflow/Video_Transcript_Processing_Workflow.md`
+- `Video/Azanova Darʼya/03/daily.md`
+- `Video/Azanova Darʼya/03/plans.md`
+- `Video/Azanova Darʼya/03/task.md`
+- `Video/Azanova Darʼya/04/plans.md`
+- `Video/Azanova Darʼya/04/task.md`
+- `Video/Azanova Darʼya/04/daily.md`
+- `Video/Azanova Darʼya/05/daily.md`
+- `Video/Azanova Darʼya/05/plans.md`
+- `Video/Azanova Darʼya/05/task.md`
+- `Video/Azanova Darʼya/06/daily.md`
+- `Video/Azanova Darʼya/06/plans.md`
+- `Video/Azanova Darʼya/06/task.md`
+- `Video/Azanova Darʼya/07/daily.md`
+- `Video/Azanova Darʼya/07/plans.md`
+- `Video/Azanova Darʼya/07/task.md`
+- `Video/Azanova Darʼya/README.md`
+- `Video/Azanova Darʼya/08/task.md`
+- `Video/Azanova Darʼya/08/plans.md`
+- `Video/Azanova Darʼya/08/daily.md`
+- `Video/Azanova Darʼya/Profile Video Editor Azanova Darʼya.md`
+- `Video/Azanova Darʼya/10/daily.md`
+- `Video/Azanova Darʼya/10/plans.md`
+- `Video/Azanova Darʼya/10/task.md`
+- `Video/Azanova Darʼya/11/daily.md`
+- `Video/Azanova Darʼya/11/plans.md`
+- `Video/Azanova Darʼya/11/task.md`
+- `Video/Reports/08/Daily_Activity_Report_Nov08_2025.md`
+- `Video/Reports/09/Daily_Activity_Report_Nov09_2025.md`
+- `Video/Reports/10/Daily_Activity_Report_Nov10_2025.md`
+- `Video/Reports/11/Daily_Activity_Report_Nov11_2025.md`
+- `Video/Reports/12/Daily_Activity_Report_Nov12_2025.md`
+- `LG/Lead Generation Department/Copy of PROMPT for LG custom projects - September 26, 3_21 PM.md`
+- `LG/Reports/10/Daily_Activity_Report_Nov10_2025.md`
+- `LG/Reports/09/Daily_Activity_Report_Nov09_2025.md`
+- `LG/Reports/12/Daily_Activity_Report_Nov12_2025.md`
+- `LG/Reports/11/Daily_Activity_Report_Nov11_2025.md`
+- `LG/Reports/08/Daily_Activity_Report_Nov08_2025.md`
+- `LG/Lead Generation Department/INDEX.md`
+- `LG/Lead Generation Department/Instructions/01_Onboarding_and_Training/instuctions.lg-manager-onboarding.md`
+- `LG/Lead Generation Department/Instructions/01_Onboarding_and_Training/STARTER PACK-RH.md`
+- `LG/Lead Generation Department/Instructions/01_Onboarding_and_Training/Tutorial_for_beginners_Remote_Helpers.md`
+- `LG/Lead Generation Department/Instructions/01_Onboarding_and_Training/instructions.first-week.onboarding.md`
+- `LG/Lead Generation Department/Instructions/01_Onboarding_and_Training/lg.vocabulary.md`
+- `LG/Lead Generation Department/Instructions/01_Onboarding_and_Training/common.interview-questions.lg.md`
+- `LG/Lead Generation Department/Instructions/01_Onboarding_and_Training/full-docs-lg-onboarding.md`
+- `LG/Lead Generation Department/Instructions/01_Onboarding_and_Training/instuctions.join-channels.md`
+- `LG/Lead Generation Department/Instructions/01_Onboarding_and_Training/instructions.full-lg-onboarding.md`
+- `LG/Lead Generation Department/Instructions/01_Onboarding_and_Training/List_of_loom_Lessons.md`
+- `LG/Lead Generation Department/Instructions/01_Onboarding_and_Training/introduction.to-the-lg-department.md`
+- `LG/Lead Generation Department/Instructions/01_Onboarding_and_Training/instructions.hire-lg.md`
+- `LG/Lead Generation Department/Instructions/01_Onboarding_and_Training/README.md`
+- `LG/Lead Generation Department/Instructions/04_Lead_Research_and_Prospecting/find-a-lead.md`
+- `LG/Lead Generation Department/Instructions/04_Lead_Research_and_Prospecting/new_strategies.md`
+- `LG/Lead Generation Department/Instructions/04_Lead_Research_and_Prospecting/lg.process.guidance.md`
+- `LG/Lead Generation Department/Instructions/04_Lead_Research_and_Prospecting/instructions.pre-call-research.md`
+- `LG/Lead Generation Department/Instructions/04_Lead_Research_and_Prospecting/new.lg-process-concept.md`
+- `LG/Lead Generation Department/Instructions/04_Lead_Research_and_Prospecting/pre-call-research.full.md`
+- `LG/Lead Generation Department/Instructions/04_Lead_Research_and_Prospecting/ai.observation.md`
+- `LG/Lead Generation Department/Instructions/04_Lead_Research_and_Prospecting/README.md`
+- `LG/Lead Generation Department/Instructions/05_Outreach_and_Messaging/instuctions.for-chat.md`
+- `LG/Lead Generation Department/Instructions/05_Outreach_and_Messaging/messages.gpt-version.md`
+- `LG/Lead Generation Department/Instructions/05_Outreach_and_Messaging/templates.old-version.md`
+- `LG/Lead Generation Department/Instructions/05_Outreach_and_Messaging/send-email.tab`
+- `LG/Lead Generation Department/Instructions/05_Outreach_and_Messaging/messages.job-sites.md`
+- `LG/Lead Generation Department/Instructions/05_Outreach_and_Messaging/ai-for-lead-generation-strategies-and-tools.md`
+- `LG/Lead Generation Department/Instructions/05_Outreach_and_Messaging/send-connection-requests.md`
+- `LG/Lead Generation Department/Instructions/05_Outreach_and_Messaging/make-follow-up-message.md`
+- `LG/Lead Generation Department/Instructions/05_Outreach_and_Messaging/guide.masseges.md`
+- `LG/Lead Generation Department/Instructions/05_Outreach_and_Messaging/LeadGen_Instruction_How_to_clean_up_old_LinkedIn_applications.md`
+- `LG/Lead Generation Department/Instructions/05_Outreach_and_Messaging/lg-templates.new.md`
+- `LG/Lead Generation Department/Instructions/05_Outreach_and_Messaging/Tutorial_For_SMS_Sending_Process.md`
+- `LG/Lead Generation Department/Instructions/05_Outreach_and_Messaging/README.md`
+- `LG/Lead Generation Department/Instructions/03_CRM_Operations/CRM_usage_guide_for_lead_generators.md`
+- `LG/Lead Generation Department/Instructions/03_CRM_Operations/How_to_update_a_card.md`
+- `LG/Lead Generation Department/Instructions/03_CRM_Operations/Needed_Candidate.md`
+- `LG/Lead Generation Department/Instructions/03_CRM_Operations/fields.filling-when-adding-a-company-to-the-CRM.md`
+- `LG/Lead Generation Department/Instructions/03_CRM_Operations/daily.report.md`
+- `LG/Lead Generation Department/Instructions/03_CRM_Operations/lead-generation-panel.md`
+- `LG/Lead Generation Department/Instructions/03_CRM_Operations/crm-updates.instruction.md`
+- `LG/Lead Generation Department/Instructions/03_CRM_Operations/Add_New_Lead.md`
+- `LG/Lead Generation Department/Instructions/03_CRM_Operations/CRM_Succesful_Call.md`
+- `LG/Lead Generation Department/Instructions/03_CRM_Operations/Changing_the_status_of_a_lead.md`
+- `LG/Lead Generation Department/Instructions/03_CRM_Operations/README.md`
+- `LG/Lead Generation Department/Instructions/06_Calendar_and_Event_Management/instructions.create-event.md`
+- `LG/Lead Generation Department/Instructions/06_Calendar_and_Event_Management/Create_Event.md`
+- `LG/Lead Generation Department/Instructions/06_Calendar_and_Event_Management/create.a-call.via-leads-calendar.md`
+- `LG/Lead Generation Department/Instructions/06_Calendar_and_Event_Management/create.google-calendar-event.md`
+- `LG/Lead Generation Department/Instructions/06_Calendar_and_Event_Management/README.md`
+- `LG/Lead Generation Department/Instructions/02_Account_and_Tool_Setup/registrate-gmail-account.md`
+- `LG/Lead Generation Department/Instructions/02_Account_and_Tool_Setup/Instructions_for_installing_a_Gmail_signature.md`
+- `LG/Lead Generation Department/Instructions/02_Account_and_Tool_Setup/LinkedIn_extension_install_manual.md`
+- `LG/Lead Generation Department/Instructions/02_Account_and_Tool_Setup/installing.the-work-extensions.md`
+- `LG/Lead Generation Department/Instructions/02_Account_and_Tool_Setup/linkedin-account.create-and-setup.md`
+- `LG/Lead Generation Department/Instructions/02_Account_and_Tool_Setup/clock-in-out-crm.md`
+- `LG/Lead Generation Department/Instructions/02_Account_and_Tool_Setup/salesql-install.md`
+- `LG/Lead Generation Department/Instructions/02_Account_and_Tool_Setup/Filling_out_a_LinkedIn_account.md`
+- `LG/Lead Generation Department/Instructions/02_Account_and_Tool_Setup/Google_Scrape_extension_install_manual.md`
+- `LG/Lead Generation Department/Instructions/02_Account_and_Tool_Setup/Gmail_Account_Setup.md`
+- `LG/Lead Generation Department/Instructions/02_Account_and_Tool_Setup/Instruction_for_Sales_Navigator.md`
+- `LG/Lead Generation Department/Instructions/02_Account_and_Tool_Setup/README.md`
+- `LG/Shkinder Kseniia/12/plandb_dana_senya.md`
+- `Design/Shymkevych Iryna/06/daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md`
+- `Design/Shymkevych Iryna/05/employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html`
+- `AI/Reports/06/Daily_Activity_Report_Nov6_2025.md`
+- `AI/Reports/08/Daily_Activity_Report_Nov08_2025.md`
+- `AI/Reports/10/Daily_Activity_Report_Nov10_2025.md`
+- `AI/Reports/09/Daily_Activity_Report_Nov09_2025.md`
+- `AI/Reports/12/Daily_Activity_Report_Nov12_2025.md`
+- `AI/Reports/11/Daily_Activity_Report_Nov11_2025.md`
+- `AI/Artemchuk Nikolay/12/daily_processed_v3_backup.md`
+- `AI/Artemchuk Nikolay/12/Tasks/TEMPLATE-TASK-AI-003_Configure_Perplexity_AI_Settings_for_Lead_Generation.json`
+- `AI/Artemchuk Nikolay/12/Tasks/TEMPLATE-TASK-AI-004_Process_Daily_Reports_Summary.json`
+- `AI/Artemchuk Nikolay/12/Tasks/TEMPLATE-TASK-AI-006_Deploy_Cursor_Access_to_Video_Editors.json`
+- `AI/Artemchuk Nikolay/12/Tasks/TEMPLATE-TASK-AI-005_Set_Up_Google_Calendar_Automation.json`
+- `AI/Artemchuk Nikolay/12/Tasks/TEMPLATE-TASK-AI-002_Implement_Perplexity_Research_Workflow_for_Lead_Generation.json`
+- `AI/Artemchuk Nikolay/12/Tasks/TEMPLATE-TASK-AI-001_Process_Video_Transcriptions_with_Taxonomy_Extraction.json`
+- `AI/Artemchuk Nikolay/12/Tasks/TEMPLATE-TASK-AI-007_Process_Olyas_Call_Transcript.json`
+- `AI/Artemchuk Nikolay/12/Tasks/TEMPLATE-TASK-AI-009_Review_and_Sort_Prompts_in_Library.json`
+- `AI/Artemchuk Nikolay/12/Tasks/TEMPLATE-TASK-AI-010_Implement_Discord_Call_Recording_Automation.json`
+- `AI/Artemchuk Nikolay/12/Tasks/TEMPLATE-TASK-AI-008_Create_MAIN_PROMPT_v4.json`
+- `AI/Artemchuk Nikolay/12/Discord_Announcement_Video_Workflow.md`
+- `AI/Artemchuk Nikolay/12/Image_Prompt_Video_Workflow_Meeky.md`
+- `AI/Artemchuk Nikolay/12/Today_Activity_Summary_Nov12_2025.md`
+- `Dev/Reports/10/Daily_Activity_Report_Nov10_2025.md`
+- `Dev/Reports/12/Daily_Activity_Report_Nov12_2025.md`
+- `Dev/Reports/08/Daily_Activity_Report_Nov08_2025.md`
+- `Dev/Reports/11/Daily_Activity_Report_Nov11_2025.md`
+- `Dev/Reports/09/Daily_Activity_Report_Nov09_2025.md`
+- `Dev/Danylenko Liliia/12/plans.md`
+- `Dev/Danylenko Liliia/12/task.md`
+- `Dev/Kizilova Olha/13/task.md`
+- `Dev/Kizilova Olha/13/plans.md`
+- `Dev/Kizilova Olha/13/daily.md`
+- `Dev/Klimenko Yaroslav/13/task.md`
+- `Dev/Klimenko Yaroslav/13/plans.md`
+- `Dev/Klimenko Yaroslav/13/daily.md`
+- `Dev/Danylenko Liliia/13/task.md`
+- `Dev/Danylenko Liliia/13/plans.md`
+- `Dev/Danylenko Liliia/13/daily.md`
+- `Design/Reports/06/Daily_Activity_Report_Nov6_2025.md`
+- `Design/Reports/10/Daily_Activity_Report_Nov10_2025.md`
+- `Design/Reports/12/Daily_Activity_Report_Nov12_2025.md`
+- `Design/Reports/08/Daily_Activity_Report_Nov08_2025.md`
+- `Design/Reports/11/Daily_Activity_Report_Nov11_2025.md`
+- `Design/Reports/09/Daily_Activity_Report_Nov09_2025.md`
+- `Design/Shymkevych Iryna/12/plans.md`
+- `Design/Chobotar Yuliia/13/task.md`
+- `Design/Chobotar Yuliia/13/plans.md`
+- `Design/Chobotar Yuliia/13/daily.md`
+- `Design/Kucherenko Iuliia/13/task.md`
+- `Design/Kucherenko Iuliia/13/plans.md`
+- `Design/Kucherenko Iuliia/13/daily.md`
+- `Design/Shymkevych Iryna/13/task.md`
+- `Design/Shymkevych Iryna/13/plans.md`
+- `Design/Shymkevych Iryna/13/daily.md`
+- `Design/Skrypkar Vilhelm/13/task.md`
+- `Design/Skrypkar Vilhelm/13/plans.md`
+- `Design/Skrypkar Vilhelm/13/daily.md`
+- `Design/Design Department/test video procesing/List of AI-Tool-Tutorials by perplexity.md`
+- `Design/Shymkevych Iryna/12/task.md`
+- `Design/Safonova Eleonora/12/daily.md`
+- `Design/Safonova Eleonora/12/plans.md`
+- `Design/Safonova Eleonora/12/task.md`
+- `Design/Skrypkar Vilhelm/12/daily.md`
+- `Design/Skrypkar Vilhelm/12/task.md`
+- `Design/Skrypkar Vilhelm/12/plans.md`
+- `Design/Shymkevych Iryna/12/daily.md`
+
+### Modified Files
+
+- `Video/Reports/06/Daily_Activity_Report_Nov06_2025.md`
+- `Video/Reports/07/Daily_Activity_Report_Nov07_2025.md`
+- `LG/Reports/06/Daily_Activity_Report_Nov06_2025.md`
+- `LG/Reports/07/Daily_Activity_Report_Nov07_2025.md`
+- `LG/Bindiak Dana/12/daily_markdown`
+- `LG/Bindiak Dana/12/task_markdown`
+- `AI/Reports/06/Daily_Activity_Report_Nov06_2025.md`
+- `AI/Reports/07/Daily_Activity_Report_Nov07_2025.md`
+- `AI/AI prompt log.md`
+- `Dev/Reports/07/Daily_Activity_Report_Nov07_2025.md`
+- `Dev/Reports/06/Daily_Activity_Report_Nov06_2025.md`
+- `Dev/Danylenko Liliia/12/daily.md`
+- `Design/Reports/06/Daily_Activity_Report_Nov06_2025.md`
+- `Design/Hlushko Mariia/07/daily.md`
+- `Design/Hlushko Mariia/10/daily.md`
+- `Design/Shymkevych Iryna/10/index2.html`
+- `Design/Hlushko Mariia/12/12.11.2025.md`
+- `Design/Chobotar Yuliia/12/daily.md`
+- `Design/Chobotar Yuliia/12/plans.md`
+- `Design/Chobotar Yuliia/12/task.md`
+
+### Deleted Files
+
+- `LG/Lead Generation Department/instructions_from_lg/instuctions.join-channels.md`
+- `LG/Lead Generation Department/instructions_notebook/LeadGen_Instruction_How_to_clean_up_old_LinkedIn_applications.md`
+- `LG/Lead Generation Department/instructions_from_lg/messages.job-sites.md`
+- `"Video/Azanova Dar\312\274ya/03/plans.md"`
+- `"Video/Azanova Dar\312\274ya/11/plans.md"`
+- `LG/Lead Generation Department/instructions_from_lg/crm-updates.instruction.md`
+- `LG/Lead Generation Department/instructions_from_lg/lg.process.guidance.md`
+- `LG/Lead Generation Department/instructions_notebook/Gmail_Account_Setup.md`
+- `"Video/Azanova Dar\312\274ya/03/task.md"`
+- `LG/Lead Generation Department/instructions_from_lg/instructions.full-lg-onboarding.md`
+- `LG/Lead Generation Department/instructions_notebook/How_to_update_a_card.md`
+- `LG/Lead Generation Department/instructions_from_lg/instuctions.lg-manager-onboarding.md`
+- `LG/Lead Generation Department/instructions_from_lg/guide.masseges.md`
+- `LG/Lead Generation Department/instructions_from_lg/ai-for-lead-generation-strategies-and-tools.md`
+- `LG/Lead Generation Department/instructions_from_lg/templates.old-version.md`
+- `Design/Design Department/test video procesing/List of AI-Tool-Tutorials by perplexity`
+- `"Video/Azanova Dar\312\274ya/05/plans.md"`
+- `LG/Lead Generation Department/instructions_from_lg/make-follow-up-message.md`
+- `LG/Lead Generation Department/instructions_notebook/Create_Event.md`
+- `LG/Lead Generation Department/instructions_from_lg/instructions.pre-call-research.md`
+- `"Video/Azanova Dar\312\274ya/08/task.md"`
+- `LG/Lead Generation Department/instructions_notebook/Instructions_for_installing_a_Gmail_signature.md`
+- `"Video/Azanova Dar\312\274ya/07/task.md"`
+- `LG/Lead Generation Department/instructions_notebook/Tutorial_for_beginners_Remote_Helpers.md`
+- `"Video/Azanova Dar\312\274ya/07/plans.md"`
+- `"Video/Azanova Dar\312\274ya/04/daily.md"`
+- `LG/Lead Generation Department/instructions_from_lg/ai.observation.md`
+- `"Video/Azanova Dar\312\274ya/04/task.md"`
+- `"Video/Azanova Dar\312\274ya/README.md"`
+- `"Design/Shymkevych Iryna/05/employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07).html"`
+- `"Video/Azanova Dar\312\274ya/10/daily.md"`
+- `LG/Lead Generation Department/instructions_from_lg/lead-generation-panel.md`
+- `"Video/Azanova Dar\312\274ya/03/daily.md"`
+- `LG/Lead Generation Department/instructions_from_lg/instuctions.for-chat.md`
+- `LG/Lead Generation Department/instructions_from_lg/linkedin-account.create-and-setup.md`
+- `LG/Lead Generation Department/instructions_notebook/Changing_the_status_of_a_lead.md`
+- `"Video/Azanova Dar\312\274ya/07/daily.md"`
+- `LG/Lead Generation Department/instructions_from_lg/lg-templates.new.md`
+- `"Video/Azanova Dar\312\274ya/06/daily.md"`
+- `LG/Lead Generation Department/instructions_notebook/Add_New_Lead.md`
+- `LG/Lead Generation Department/instructions_notebook/Google_Scrape_extension_install_manual.md`
+- `LG/Lead Generation Department/instructions_notebook/CRM_usage_guide_for_lead_generators.md`
+- `LG/Lead Generation Department/instructions_from_lg/instructions.hire-lg.md`
+- `LG/Lead Generation Department/instructions_from_lg/installing.the-work-extensions.md`
+- `LG/Lead Generation Department/instructions_from_lg/introduction.to-the-lg-department.md`
+- `LG/Lead Generation Department/instructions_from_lg/registrate-gmail-account.md`
+- `LG/Lead Generation Department/instructions_notebook/LinkedIn_extension_install_manual.md`
+- `LG/Lead Generation Department/instructions_from_lg/common.interview-questions.lg.md`
+- `LG/Lead Generation Department/instructions_from_lg/salesql-install.md`
+- `LG/Lead Generation Department/instructions_from_lg/crm-usage-guide.md`
+- `"Design/Shymkevych Iryna/05/employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07 1).html"`
+- `"LG/Lead Generation Department/Copy of PROMPT for LG custom projects - September 26, 3_21\342\200\257PM.md"`
+- `"Video/Azanova Dar\312\274ya/11/daily.md"`
+- `LG/Lead Generation Department/instructions_notebook/CRM_Succesful_Call.md`
+- `LG/Lead Generation Department/instructions_from_lg/messages.gpt-version.md`
+- `LG/Lead Generation Department/instructions_from_lg/pre-call-research.full.md`
+- `LG/Lead Generation Department/instructions_notebook/List_of_loom_Lessons.md`
+- `"Video/Azanova Dar\312\274ya/05/task.md"`
+- `LG/Lead Generation Department/instructions_from_lg/send-email.tab`
+- `LG/Lead Generation Department/instructions_from_lg/create.google-calendar-event.md`
+- `LG/Lead Generation Department/instructions_from_lg/send-connection-requests.md`
+- `LG/Lead Generation Department/instructions_notebook/Filling_out_a_LinkedIn_account.md`
+- `LG/Lead Generation Department/instructions_from_lg/clock-in-out-crm.md`
+- `LG/Lead Generation Department/instructions_notebook/new_strategies.md`
+- `"Video/Azanova Dar\312\274ya/10/task.md"`
+- `LG/Lead Generation Department/instructions_from_lg/create.a-call.via-leads-calendar.md`
+- `LG/Lead Generation Department/instructions_notebook/STARTER PACK-RH.md`
+- `LG/Lead Generation Department/instructions_notebook/Tutorial_For_SMS_Sending_Process.md`
+- `"Video/Azanova Dar\312\274ya/08/plans.md"`
+- `AI/Artemchuk Nikolay/12/daily_processed.md`
+- `LG/Lead Generation Department/instructions_from_lg/fields.filling-when-adding-a-company-to-the-CRM.md`
+- `LG/Lead Generation Department/instructions_from_lg/new.lg-process-concept.md`
+- `"Video/Azanova Dar\312\274ya/04/plans.md"`
+- `LG/Lead Generation Department/instructions_from_lg/instructions.first-week.onboarding.md`
+- `"Video/Azanova Dar\312\274ya/11/task.md"`
+- `"Video/Azanova Dar\312\274ya/06/task.md"`
+- `LG/Lead Generation Department/instructions_from_lg/find-a-lead.md`
+- `LG/Lead Generation Department/instructions_from_lg/lg.vocabulary.md`
+- `"Design/Shymkevych Iryna/06/daily (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-06).md"`
+- `"Video/Azanova Dar\312\274ya/08/daily.md"`
+- `"Video/Azanova Dar\312\274ya/06/plans.md"`
+- `LG/Lead Generation Department/instructions_from_lg/daily.report.md`
+- `LG/Lead Generation Department/instructions_notebook/Needed_Candidate.md`
+- `"Video/Azanova Dar\312\274ya/05/daily.md"`
+- `"Video/Azanova Dar\312\274ya/10/plans.md"`
+- `LG/Lead Generation Department/instructions_from_lg/instructions.create-event.md`
+- `LG/Lead Generation Department/instructions_notebook/Instruction_for_Sales_Navigator.md`
+- `"Video/Azanova Dar\312\274ya/Profile Video Editor Azanova Dar\312\274ya.md"`
+
+
+---
+*Generated automatically by Dropbox to GitHub sync*
+
+
+# Changelog - 2025-11-12
+
 **Sync Date:** 2025-11-12 14:31:46 UTC
 **Total Changes:** 71 files
 

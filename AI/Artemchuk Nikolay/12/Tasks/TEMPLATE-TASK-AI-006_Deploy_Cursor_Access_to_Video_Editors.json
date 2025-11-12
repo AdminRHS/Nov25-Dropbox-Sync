@@ -1,0 +1,104 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "TEMPLATE-TASK-AI-006",
+  "task_name": "Deploy Access",
+  "action": "deploy",
+  "object": "access",
+  "context": "Cursor access to Video Editors",
+  "description": "Deploy Cursor access to Video Editors (Darya and Sviatoslav) - check if they need it, deploy if ready",
+  "department": "AI",
+  "profession": "Project manager",
+  "estimated_duration": "1-2 hours",
+  "status": "Waiting",
+  "dependencies": [
+    "Video Editors' readiness assessment"
+  ],
+  "tools_required": [
+    "Cursor"
+  ],
+  "success_criteria": [
+    "Task completed according to description",
+    "All dependencies resolved",
+    "Status updated to 'Completed'",
+    "Documentation updated if required"
+  ],
+  "responsibilities": [
+    "Deploying access"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Review task requirements and dependencies",
+      "tool": "Documentation",
+      "responsibility": "Project manager",
+      "placement": "Task documentation",
+      "duration": "15 minutes",
+      "dependencies": [],
+      "success_criteria": "All requirements understood, dependencies identified"
+    },
+    {
+      "step_number": 2,
+      "name": "Execute deploy access",
+      "tool": "Cursor",
+      "responsibility": "Project manager",
+      "placement": "Project: Tool Deployment",
+      "duration": "1",
+      "dependencies": [
+        "Step 1"
+      ],
+      "success_criteria": "Task deployed successfully"
+    },
+    {
+      "step_number": 3,
+      "name": "Verify completion and update status",
+      "tool": "CRM/Task Management",
+      "responsibility": "Project manager",
+      "placement": "Task management system",
+      "duration": "10 minutes",
+      "dependencies": [
+        "Step 2"
+      ],
+      "success_criteria": "Status updated, task marked complete"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Task requirements reviewed",
+      "guide": "Understand all requirements before starting",
+      "required": true
+    },
+    {
+      "item": "Dependencies resolved",
+      "guide": "Ensure all dependencies are met",
+      "required": true
+    },
+    {
+      "item": "Tools and resources available",
+      "guide": "Verify access to: Cursor",
+      "required": true
+    },
+    {
+      "item": "Task completed according to description",
+      "guide": "Deploy Cursor access to Video Editors (Darya and Sviatoslav) - check if they need it, deploy if ready",
+      "required": true
+    }
+  ],
+  "tags": [
+    "ai",
+    "deploy",
+    "low",
+    "tool_deployment",
+    "access"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "owner": {
+    "name": "Artemchuk Nikolay",
+    "id": "37226"
+  },
+  "related_project": "Tool Deployment",
+  "priority": "Low",
+  "timeline": "When ready"
+}

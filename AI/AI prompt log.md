@@ -857,3 +857,157 @@ Warning: The process '/usr/bin/git' failed with exit code 128
 
 ----
 
+**Request**: Fix task templates - Objects should be simple nouns (1-2 words) matching Objects library structure, and "responsibility" field in steps should use single profession name instead of multiple professions
+
+**Details**:
+1. Reviewed Objects library structure - Objects must be simple, lowercase, plural nouns (1-2 words max), not descriptive phrases
+2. Fixed all 10 task template files in `/Nov25/AI/Artemchuk Nikolay/12/Tasks/`:
+   - Changed objects from long phrases to simple nouns:
+     - "Video Transcriptions with Taxonomy Extraction" → "transcriptions" (context: "with taxonomy extraction")
+     - "Perplexity Research Workflow for Lead Generation" → "workflows" (context: "for lead generation using Perplexity Research")
+     - "Perplexity AI Settings for Lead Generation" → "settings" (context: "for Perplexity AI lead generation")
+     - "Daily Reports Summary" → "reports" (context: "daily reports")
+     - "Google Calendar Automation" → "automation" (context: "for Google Calendar")
+     - "Cursor Access to Video Editors" → "access" (context: "Cursor access to Video Editors")
+     - "Olya's Call Transcript" → "transcripts" (context: "Olya's call transcript")
+     - "MAIN PROMPT v4" → "prompts" (context: "MAIN PROMPT v4")
+     - "Prompts in Library" → "prompts" (context: "in library")
+     - "Discord Call Recording Automation" → "automation" (context: "Discord call recording")
+3. Fixed "responsibility" field in all steps across all 10 templates:
+   - Changed from "Project manager, Lead generator" (multiple professions) to "Project manager" (single profession)
+   - Updated top-level "profession" field to use single profession: "Project manager"
+   - Fixed all 30 steps (3 steps × 10 templates) to use correct profession format
+4. Updated responsibilities array to use correct process forms (gerund)
+5. Updated success criteria in steps to use correct past tense forms
+6. Updated tags to reflect correct object names
+7. Verified all templates match reference template structure from `Create_Job_Posting_Template.json`
+
+**Result**: All 10 task templates now correctly follow Objects library structure:
+- ✅ Objects are simple, lowercase nouns (1-2 words)
+- ✅ Descriptive information moved to "context" field
+- ✅ All steps use single profession name in "responsibility" field
+- ✅ All templates match reference template format
+- ✅ All files validated and verified correct structure
+- Files located in: `/Nov25/AI/Artemchuk Nikolay/12/Tasks/`
+
+----
+
+**Request**: Process all department prompt logs for November 6-12, 2025 to generate daily activity reports for all departments (AI, Design, Dev, LG, Video) following the PROMPT_Daily_Report_Collection.md template. Then reorganize reports to /Nov25/Reports/Nov25/{DAY}/ structure and create consolidated company report.
+
+**Details**:
+1. Read all 5 department prompt log files to understand structure and date markers
+2. Created Python script to extract activities by date from prompt logs
+3. Generated 35 department reports (7 days × 5 departments) for November 6-12, 2025:
+   - Each report follows PROMPT_Daily_Report_Collection.md template structure
+   - Reports include: Executive Summary, Activity Timeline, Metrics, Key Deliverables, Impact Analysis, Technical Achievements, Challenges, Recommendations, Conclusion
+   - Extracted activities from prompt logs using date pattern matching
+4. Created folder structure for all dates:
+   - `/Nov25/{DEPARTMENT}/Reports/{DAY}/` for department reports
+   - `/Admin/Reports/Nov25/{DAY}/` for admin collection
+5. Reorganized all reports to centralized location:
+   - `/Nov25/Reports/Nov25/{DAY}/{DEPARTMENT}_Daily_Activity_Report_Nov{DAY}_2025.md`
+   - Matching structure of existing November 5 reports
+   - All 35 reports copied with department prefixes
+6. Created consolidated company-wide report:
+   - `/Nov25/Reports/Nov25/Company_Report_Nov6-12_2025.md`
+   - Analyzed all 35 department reports
+   - Included: Executive Summary, Department Overview, Key Themes, Activity Timeline, Metrics, Achievements, Challenges, Recommendations
+   - 313 lines covering 7-day period across 5 departments
+7. Activities found and documented:
+   - AI: Activities on Nov 6-12 (most on Nov 11-12) - Framework updates, tool additions, workflow development
+   - Design: Activities on Nov 6, 11-12 - Task consolidation (172 tasks from 292), design guidelines
+   - Dev: Activities on Nov 6-7, 10-12 - Task management, CRM development, MCP integration
+   - LG: Activities on Nov 6-12 - Task processing (154 tasks from 310), setup guides, performance analysis
+   - Video: Activities on Nov 6-12 - Task consolidation (58 tasks from 128), client projects
+8. Key themes identified:
+   - Task Management & Consolidation (company-wide)
+   - Video Transcription Workflow (cross-departmental)
+   - Framework & Tool Enhancements
+   - Documentation & Process Improvement
+   - Daily File Processing Automation
+
+**Result**: Successfully generated all daily activity reports for November 6-12, 2025:
+- ✅ 35 department reports created following template structure
+- ✅ All reports organized in `/Nov25/Reports/Nov25/{DAY}/` with department prefixes
+- ✅ Consolidated company report created (313 lines) covering all departments and key themes
+- ✅ Reports extracted activities from prompt logs using date pattern matching
+- ✅ All reports include comprehensive sections: Executive Summary, Activity Timeline, Metrics, Deliverables, Impact Analysis, Recommendations
+- ✅ Company report provides overview of 7-day period with department highlights, metrics, and recommendations
+- ✅ Reports ready for review and use by management and departments
+
+----
+
+**Request**: Create MAIN PROMPT v4.md and Video_Transcript_Processing_Workflow_AI.md in AI department and distribute both files to all department folders
+
+**Details**:
+1. Created/updated MAIN PROMPT v4.md in AI department (`Nov25/AI/MAIN PROMPT v4.md`)
+2. Created/updated Video_Transcript_Processing_Workflow_AI.md in AI department (`Nov25/AI/Video_Transcript_Processing_Workflow_AI.md`)
+3. Distributed MAIN PROMPT v4.md to all 5 department folders:
+   - Nov25/AI/MAIN PROMPT v4.md ✓
+   - Nov25/Design/MAIN PROMPT v4.md ✓
+   - Nov25/Dev/MAIN PROMPT v4.md ✓
+   - Nov25/LG/MAIN PROMPT v4.md ✓
+   - Nov25/Video/MAIN PROMPT v4.md ✓
+4. Distributed Video_Transcript_Processing_Workflow files to all 5 department folders:
+   - Nov25/AI/Video_Transcript_Processing_Workflow_AI.md ✓
+   - Nov25/Design/Video_Transcript_Processing_Workflow_Designers.md ✓
+   - Nov25/Dev/Video_Transcript_Processing_Workflow_Developers.md ✓
+   - Nov25/LG/Video_Transcript_Processing_Workflow_LG.md ✓
+   - Nov25/Video/Video_Transcript_Processing_Workflow_Video.md ✓
+5. All workflow files include Step 0: Searching for Videos About Actual Processes (version 1.1)
+6. All files are department-specific with appropriate tool categories and use cases
+
+**Result**: Successfully created and distributed MAIN PROMPT v4.md and Video Transcript Processing Workflow files across all 5 departments:
+- ✅ MAIN PROMPT v4.md available in all department folders for daily report processing
+- ✅ Department-specific workflow files created for AI, Design, Dev, LG, and Video
+- ✅ All workflow files include complete video discovery process (Step 0 with 4 sub-steps)
+- ✅ All files are version 1.1 and consistent in structure
+- ✅ All departments now have access to standardized prompt processing and video transcript workflow documentation
+
+----
+
+**Date:** 2025-11-12 17:28
+
+**Request**: Create a Discord announcement message for company members about the Video Transcript Processing Workflow and MAIN PROMPT v4.md files. Every department must use that instruction and do that process. Few words about the process and link where they can find it.
+
+**Details**: 
+- Created a friendly/casual Discord announcement message with markdown formatting
+- Included brief explanation of what the process does (extracts and organizes tools, workflows, automation resources from video transcripts into structured libraries)
+- Made it clear that all departments must use their department-specific versions
+- Listed file locations for all 5 departments (AI, Design, Dev, LG, Video) with both workflow files and MAIN PROMPT v4.md files
+- Used Discord-friendly markdown with headers, bold text, and code formatting for file paths
+- Saved announcement to: `Nov25/AI/Artemchuk Nikolay/12/Discord_Announcement_Video_Workflow.md`
+
+**Result**: Successfully created Discord announcement message ready for posting. The announcement includes:
+- Friendly greeting and introduction
+- Brief explanation of the video transcript processing workflow and its benefits
+- Clear mandatory usage statement for all departments
+- Organized list of file locations by department (AI, Design, Dev, LG, Video)
+- Next steps and encouragement to review the files
+- Formatted with markdown (headers, bold, code blocks) for easy Discord posting
+- File saved and ready to copy-paste into Discord
+
+----
+
+**Date:** 2025-11-12 17:28
+
+**Request**: Create a prompt for generating a picture for the video transcript processing workflow process with my mascot (Meeky), and add that activity to my Today_Activity_Summary_Nov12_2025.md
+
+**Details**: 
+- Created comprehensive image generation prompt incorporating Meeky mascot (3D cartoon goat) with workflow visual elements
+- Included Meeky's specific features: soft cream and light brown fur, large green eyes, light blue shirt with "Meeky" badge
+- Added workflow visual elements: video transcripts, AI processing symbols, library structures, workflow step indicators (0-4)
+- Created two versions: detailed version with full workflow visualization and shorter alternative version
+- Saved prompt to: `Nov25/AI/Artemchuk Nikolay/12/Image_Prompt_Video_Workflow_Meeky.md`
+- Added Activity 8 (Discord Announcement) and Activity 9 (Image Generation Prompt) to Today_Activity_Summary_Nov12_2025.md
+- Updated Executive Summary, Key Achievements, Metrics, and Conclusion sections to include new activities
+
+**Result**: Successfully created image generation prompt for Meeky mascot representing the Video Transcript Processing Workflow. The prompt includes:
+- Complete Meeky mascot description matching provided specifications
+- Workflow visual elements (video transcripts, processing symbols, library structures)
+- Two prompt versions (detailed and shorter alternative)
+- Proper formatting for image generation tools (--ar 1:1 --stylization 750)
+- Activity documentation added to Today_Activity_Summary with all relevant details
+
+----
+

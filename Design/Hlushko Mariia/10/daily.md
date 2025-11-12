@@ -12,7 +12,7 @@
 
 ## Activities
 
-### Morning - Meeting with Teamlead
+### 09:00 - 10:00 - Meeting with Teamlead
 **What I worked on:**
 - Meeting with teamlead to discuss power outage problem and possible solutions
 
@@ -27,7 +27,7 @@
 
 ---
 
-### Morning/Afternoon - Icons Design and Organization
+### 10:00 - 14:00 - Icons Design and Organization
 **What I worked on:**
 - Icon design for client's project
 - Working with icon library, organizing icons into thematic groups
@@ -40,23 +40,6 @@ N/A - Individual work
 **Outcomes:**
 - Created icons for client's project
 - Organized icon library into thematic groups for better workflow and organization
-
----
-
-### Afternoon - Logo Design
-**What I worked on:**
-- Creating logo sketch for the project
-- Created basic typography layout in Illustrator
-- Refined logo design as a sketch in Photoshop
-
-**Whisper Flow Transcript:**
-
-N/A - Individual work
-
-
-**Outcomes:**
-- Completed initial logo sketch with typography layout
-- Created refined sketch version in Photoshop for client review
 
 ---
 
@@ -75,6 +58,24 @@ N/A - Individual work
 - Reviewed last week's work results with client
 - Received feedback and revisions for icon design and logo
 - Scheduled next meeting for work review
+
+
+--
+
+### 16:00 - 18:00 - Logo Design
+**What I worked on:**
+- Creating logo sketch for the project
+- Created basic typography layout in Illustrator
+- Refined logo design as a sketch in Photoshop
+
+**Whisper Flow Transcript:**
+
+N/A - Individual work
+
+
+**Outcomes:**
+- Completed initial logo sketch with typography layout
+- Created refined sketch version in Photoshop for client review
 
 ---
 

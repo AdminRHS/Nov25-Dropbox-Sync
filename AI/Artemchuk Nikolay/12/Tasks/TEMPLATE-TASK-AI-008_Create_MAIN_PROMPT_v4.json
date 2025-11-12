@@ -1,0 +1,107 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "TEMPLATE-TASK-AI-008",
+  "task_name": "Create Prompts",
+  "action": "create",
+  "object": "prompts",
+  "context": "MAIN PROMPT v4",
+  "description": "Combine video transcription prompt with daily processing prompt to create MAIN PROMPT v4, potentially run through updated library (Lave Paris)",
+  "department": "AI",
+  "profession": "Project manager",
+  "estimated_duration": "1-2 hours",
+  "status": "Planning",
+  "dependencies": [
+    "Video transcription prompt finalized",
+    "daily processing workflow established"
+  ],
+  "tools_required": [
+    "MAIN PROMPT v3",
+    "Video Transcription Prompt",
+    "Library structure"
+  ],
+  "success_criteria": [
+    "Task completed according to description",
+    "All dependencies resolved",
+    "Status updated to 'Completed'",
+    "Documentation updated if required"
+  ],
+  "responsibilities": [
+    "Creating prompts"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Review task requirements and dependencies",
+      "tool": "Documentation",
+      "responsibility": "Project manager",
+      "placement": "Task documentation",
+      "duration": "15 minutes",
+      "dependencies": [],
+      "success_criteria": "All requirements understood, dependencies identified"
+    },
+    {
+      "step_number": 2,
+      "name": "Execute create prompts",
+      "tool": "MAIN PROMPT v3, Video Transcription Prompt, Library structure",
+      "responsibility": "Project manager",
+      "placement": "Project: MAIN PROMPT Development",
+      "duration": "1",
+      "dependencies": [
+        "Step 1"
+      ],
+      "success_criteria": "Task created successfully"
+    },
+    {
+      "step_number": 3,
+      "name": "Verify completion and update status",
+      "tool": "CRM/Task Management",
+      "responsibility": "Project manager",
+      "placement": "Task management system",
+      "duration": "10 minutes",
+      "dependencies": [
+        "Step 2"
+      ],
+      "success_criteria": "Status updated, task marked complete"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Task requirements reviewed",
+      "guide": "Understand all requirements before starting",
+      "required": true
+    },
+    {
+      "item": "Dependencies resolved",
+      "guide": "Ensure all dependencies are met",
+      "required": true
+    },
+    {
+      "item": "Tools and resources available",
+      "guide": "Verify access to: MAIN PROMPT v3, Video Transcription Prompt, Library structure",
+      "required": true
+    },
+    {
+      "item": "Task completed according to description",
+      "guide": "Combine video transcription prompt with daily processing prompt to create MAIN PROMPT v4, potentially run through updated library (Lave Paris)",
+      "required": true
+    }
+  ],
+  "tags": [
+    "ai",
+    "create",
+    "low",
+    "main_prompt_development",
+    "prompts"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "owner": {
+    "name": "Artemchuk Nikolay",
+    "id": "37226"
+  },
+  "related_project": "MAIN PROMPT Development",
+  "priority": "Low",
+  "timeline": "Future (after v3 testing)"
+}

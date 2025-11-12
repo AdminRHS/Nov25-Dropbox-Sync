@@ -1,0 +1,102 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "TEMPLATE-TASK-AI-009",
+  "task_name": "Review Prompts",
+  "action": "review",
+  "object": "prompts",
+  "context": "in library",
+  "description": "Review and sort various prompts in library structure, ensure proper organization and accessibility",
+  "department": "AI",
+  "profession": "Project manager",
+  "estimated_duration": "2-4 hours",
+  "status": "In Progress",
+  "dependencies": [],
+  "tools_required": [
+    "Library access"
+  ],
+  "success_criteria": [
+    "Task completed according to description",
+    "All dependencies resolved",
+    "Status updated to 'Completed'",
+    "Documentation updated if required"
+  ],
+  "responsibilities": [
+    "Reviewing prompts"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Review task requirements and dependencies",
+      "tool": "Documentation",
+      "responsibility": "Project manager",
+      "placement": "Task documentation",
+      "duration": "15 minutes",
+      "dependencies": [],
+      "success_criteria": "All requirements understood, dependencies identified"
+    },
+    {
+      "step_number": 2,
+      "name": "Execute review prompts",
+      "tool": "Library access",
+      "responsibility": "Project manager",
+      "placement": "Project: Library Structure",
+      "duration": "2",
+      "dependencies": [
+        "Step 1"
+      ],
+      "success_criteria": "Task reviewed successfully"
+    },
+    {
+      "step_number": 3,
+      "name": "Verify completion and update status",
+      "tool": "CRM/Task Management",
+      "responsibility": "Project manager",
+      "placement": "Task management system",
+      "duration": "10 minutes",
+      "dependencies": [
+        "Step 2"
+      ],
+      "success_criteria": "Status updated, task marked complete"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Task requirements reviewed",
+      "guide": "Understand all requirements before starting",
+      "required": true
+    },
+    {
+      "item": "Dependencies resolved",
+      "guide": "Ensure all dependencies are met",
+      "required": true
+    },
+    {
+      "item": "Tools and resources available",
+      "guide": "Verify access to: Library access",
+      "required": true
+    },
+    {
+      "item": "Task completed according to description",
+      "guide": "Review and sort various prompts in library structure, ensure proper organization and accessibility",
+      "required": true
+    }
+  ],
+  "tags": [
+    "ai",
+    "review",
+    "medium",
+    "library_structure",
+    "prompts"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "owner": {
+    "name": "Artemchuk Nikolay",
+    "id": "37226"
+  },
+  "related_project": "Library Structure",
+  "priority": "Medium",
+  "timeline": "Ongoing"
+}

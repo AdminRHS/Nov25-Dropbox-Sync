@@ -1,0 +1,106 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "TEMPLATE-TASK-AI-001",
+  "task_name": "Process Transcriptions",
+  "action": "process",
+  "object": "transcriptions",
+  "context": "with taxonomy extraction",
+  "description": "Process video transcriptions to extract taxonomy elements and map them to library structure using Video Transcription prompt",
+  "department": "AI",
+  "profession": "Project manager",
+  "estimated_duration": "4-6 hours",
+  "status": "In Progress",
+  "dependencies": [
+    "Video transcriptions available in Transcribations folder"
+  ],
+  "tools_required": [
+    "Google AI Studio",
+    "Transcribe AI",
+    "Video Transcription Prompt"
+  ],
+  "success_criteria": [
+    "Task completed according to description",
+    "All dependencies resolved",
+    "Status updated to 'Completed'",
+    "Documentation updated if required"
+  ],
+  "responsibilities": [
+    "Processing transcriptions"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Review task requirements and dependencies",
+      "tool": "Documentation",
+      "responsibility": "Project manager",
+      "placement": "Task documentation",
+      "duration": "15 minutes",
+      "dependencies": [],
+      "success_criteria": "All requirements understood, dependencies identified"
+    },
+    {
+      "step_number": 2,
+      "name": "Execute process transcriptions",
+      "tool": "Google AI Studio, Transcribe AI, Video Transcription Prompt",
+      "responsibility": "Project manager",
+      "placement": "Project: Video Transcription Workflow",
+      "duration": "4",
+      "dependencies": [
+        "Step 1"
+      ],
+      "success_criteria": "Task processed successfully"
+    },
+    {
+      "step_number": 3,
+      "name": "Verify completion and update status",
+      "tool": "CRM/Task Management",
+      "responsibility": "Project manager",
+      "placement": "Task management system",
+      "duration": "10 minutes",
+      "dependencies": [
+        "Step 2"
+      ],
+      "success_criteria": "Status updated, task marked complete"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Task requirements reviewed",
+      "guide": "Understand all requirements before starting",
+      "required": true
+    },
+    {
+      "item": "Dependencies resolved",
+      "guide": "Ensure all dependencies are met",
+      "required": true
+    },
+    {
+      "item": "Tools and resources available",
+      "guide": "Verify access to: Google AI Studio, Transcribe AI, Video Transcription Prompt",
+      "required": true
+    },
+    {
+      "item": "Task completed according to description",
+      "guide": "Process video transcriptions to extract taxonomy elements and map them to library structure using Video Transcription prompt",
+      "required": true
+    }
+  ],
+  "tags": [
+    "ai",
+    "process",
+    "high",
+    "video_transcription_workflow",
+    "transcriptions"
+  ],
+  "version": "1.0",
+  "created": "2025-11-12",
+  "last_updated": "2025-11-12",
+  "owner": {
+    "name": "Artemchuk Nikolay",
+    "id": "37226"
+  },
+  "related_project": "Video Transcription Workflow",
+  "priority": "High",
+  "timeline": "Ongoing (8 videos already processed, more in progress)"
+}
