@@ -12,7 +12,7 @@
 
 ## Activities
 
-### [08:00-17:23] - [HTML Email Design & AI Tool Optimization]
+### [08:00-17:37] - [HTML Email Design & AI Tool Optimization]
 **What I worked on:**
 - Created professional email newsletter for Convenient Brands
 - Analyzed and studied Convenient Brands website for branding consistency

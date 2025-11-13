@@ -53,7 +53,7 @@ Detailed instructions for execution...
 3. [Specific step 3]
 
 ### Resources and Links:
-- [Google Disk](https://docs.google.com/document/d/15wM1YcvVBq9HWsxe6IgsGOfKs612_AHMYtRTev8nwVA/edit?usp=sharing)
+- [Google Disk](https://docs.google.com/document/d/1ijCCC_7259TksR8NBxSeSuaa-N079CDLOP1vPGZTDwk/edit?usp=sharing)
 - [Tool or Document](URL)
 
 ### Instructions:
@@ -71,7 +71,7 @@ Detailed instructions for execution...
 3. [Specific step 3]
 
 ### Resources and Links:
-- [Google Disk](https://docs.google.com/document/d/15wM1YcvVBq9HWsxe6IgsGOfKs612_AHMYtRTev8nwVA/edit?usp=sharing)
+- [Google Disk](https://docs.google.com/document/d/1ijCCC_7259TksR8NBxSeSuaa-N079CDLOP1vPGZTDwk/edit?usp=sharing)
 - [Tool or Document](URL)
 
 ### Instructions:
@@ -89,7 +89,7 @@ Detailed instructions for execution...
 3. [Specific step 3]
 
 ### Resources and Links:
-- [Google Disk](https://docs.google.com/document/d/15wM1YcvVBq9HWsxe6IgsGOfKs612_AHMYtRTev8nwVA/edit?usp=sharing)
+- [Google Disk]()
 - [Tool or Document](URL)
 
 ### Instructions:
