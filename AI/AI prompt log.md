@@ -1011,3 +1011,23 @@ Warning: The process '/usr/bin/git' failed with exit code 128
 
 ----
 
+**Date:** 2025-11-13 11:41
+
+**Request**: Archive "Week_1" Employee Notes - Create "Week_1" Folder in Employees Folders and Archive daily folders to "Week_1"
+
+**Details**:
+1. Scanned Nov25 directory structure to identify all employee folders across departments (AI, Design, Dev, LG, Video)
+2. Created Python script `archive_week1_notes.py` to automate Week_1 folder creation and daily folder archiving
+3. Script identifies employee folders by excluding system folders (Left, Reports, Projects, etc.) and checking for daily folders or profile files
+4. For each employee folder:
+   - Created "Week_1" folder if it didn't exist
+   - Moved daily folders 03, 04, 05, 06, 07 (first working week: Nov 3-7) into Week_1
+   - Preserved all files within daily folders (daily.md, plans.md, task.md, and any additional files)
+5. Tested script and verified it works correctly
+6. Executed script on all 52 employee folders across all departments
+7. Verified results: All Week_1 folders created, daily folders 03-07 successfully moved
+
+**Result**: Successfully archived Week 1 employee notes for all 52 employees across all departments. Created Week_1 folders in each employee directory and moved daily folders 03-07 (Nov 3-7) into them. All files were preserved during the move operation. Script created at `Nov25/archive_week1_notes.py` for future use. Later days (08, 10, 11, 12, etc.) remain in root as expected.
+
+----
+
