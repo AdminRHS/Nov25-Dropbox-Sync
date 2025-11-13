@@ -1,0 +1,170 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "TEMPLATE-TASK-AI-016",
+  "task_name": "Process Export",
+  "action": "process",
+  "object": "Tendence export",
+  "context": "through AI analysis",
+  "description": "Extract Tendence export data, process it through AI analysis, create prompt for analysis that generates summaries. Summaries should be logged, potentially to employee profiles in Dropbox. Task assigned to Olya (likely Kizilova Olha).",
+  "department": "Dev",
+  "profession": "Backend Developer",
+  "estimated_duration": "4-6 hours",
+  "status": "Assigned",
+  "dependencies": [
+    "Access to Tendence export",
+    "AI analysis tools",
+    "Employee profile structure"
+  ],
+  "tools_required": [
+    "AI analysis tools (ChatGPT, Claude)",
+    "Dropbox",
+    "Data processing tools"
+  ],
+  "success_criteria": [
+    "Task completed according to description",
+    "All dependencies resolved",
+    "Status updated to 'Completed'",
+    "Documentation updated if required",
+    "Tendence export data extracted",
+    "AI analysis prompt created",
+    "Summaries generated",
+    "Summaries logged to employee profiles"
+  ],
+  "responsibilities": [
+    "Processing data"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Review task requirements and dependencies",
+      "tool": "Documentation",
+      "responsibility": "Backend Developer",
+      "placement": "Task documentation",
+      "duration": "15 minutes",
+      "dependencies": [],
+      "success_criteria": "All requirements understood, dependencies identified"
+    },
+    {
+      "step_number": 2,
+      "name": "Access Tendence export data",
+      "tool": "Data processing tools",
+      "responsibility": "Backend Developer",
+      "placement": "CRM system",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 1"
+      ],
+      "success_criteria": "Tendence export data accessed and extracted"
+    },
+    {
+      "step_number": 3,
+      "name": "Create AI analysis prompt",
+      "tool": "Documentation tools",
+      "responsibility": "Backend Developer",
+      "placement": "CRM, Recruitment Platform",
+      "duration": "1 hour",
+      "dependencies": [
+        "Step 2"
+      ],
+      "success_criteria": "AI analysis prompt created for summary generation"
+    },
+    {
+      "step_number": 4,
+      "name": "Execute process Tendence export through AI analysis",
+      "tool": "AI analysis tools (ChatGPT, Claude), Data processing tools",
+      "responsibility": "Backend Developer",
+      "placement": "Project: CRM, Recruitment Platform",
+      "duration": "3 hours",
+      "dependencies": [
+        "Step 3"
+      ],
+      "success_criteria": "Data processed through AI analysis, summaries generated"
+    },
+    {
+      "step_number": 5,
+      "name": "Log summaries to employee profiles",
+      "tool": "Dropbox",
+      "responsibility": "Backend Developer",
+      "placement": "Employee profile system",
+      "duration": "1 hour",
+      "dependencies": [
+        "Step 4"
+      ],
+      "success_criteria": "Summaries logged to employee profiles in Dropbox"
+    },
+    {
+      "step_number": 6,
+      "name": "Verify completion and update status",
+      "tool": "CRM/Task Management",
+      "responsibility": "Backend Developer",
+      "placement": "Task management system",
+      "duration": "10 minutes",
+      "dependencies": [
+        "Step 5"
+      ],
+      "success_criteria": "Status updated, task marked complete"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Task requirements reviewed",
+      "guide": "Understand all requirements before starting",
+      "required": true
+    },
+    {
+      "item": "Dependencies resolved",
+      "guide": "Ensure access to Tendence export, AI analysis tools, employee profile structure",
+      "required": true
+    },
+    {
+      "item": "Tools and resources available",
+      "guide": "Verify access to: AI analysis tools (ChatGPT, Claude), Dropbox, Data processing tools",
+      "required": true
+    },
+    {
+      "item": "Tendence export data extracted",
+      "guide": "Extract export data from Tendence system",
+      "required": true
+    },
+    {
+      "item": "AI analysis prompt created",
+      "guide": "Create prompt for AI analysis that generates summaries",
+      "required": true
+    },
+    {
+      "item": "Summaries generated",
+      "guide": "Process data through AI analysis to generate summaries",
+      "required": true
+    },
+    {
+      "item": "Summaries logged to employee profiles",
+      "guide": "Log generated summaries to employee profiles in Dropbox",
+      "required": true
+    },
+    {
+      "item": "Task completed according to description",
+      "guide": "Process Tendence export through AI analysis and log summaries to employee profiles",
+      "required": true
+    }
+  ],
+  "tags": [
+    "dev",
+    "process",
+    "medium",
+    "crm",
+    "recruitment_platform",
+    "tendence_export"
+  ],
+  "version": "1.0",
+  "created": "2025-11-13",
+  "last_updated": "2025-11-13",
+  "owner": {
+    "name": "Kizilova Olha",
+    "id": "178"
+  },
+  "related_project": "CRM, Recruitment Platform",
+  "priority": "Medium",
+  "timeline": "Not specified"
+}
+

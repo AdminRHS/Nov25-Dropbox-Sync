@@ -1,0 +1,115 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "TEMPLATE-TASK-AI-012",
+  "task_name": "Share Folder",
+  "action": "share",
+  "object": "HR folder",
+  "context": "non-admin access",
+  "description": "Share HR department folder with appropriate access level (not admin). Required for onboarding topic redesign and interview process improvements.",
+  "department": "HR",
+  "profession": "Recruiter, Lead generator",
+  "estimated_duration": "15-30 minutes",
+  "status": "Pending - Awaiting contact with Victoria",
+  "dependencies": [
+    "HR approval",
+    "Access configuration"
+  ],
+  "tools_required": [
+    "Google Drive",
+    "File sharing system"
+  ],
+  "success_criteria": [
+    "Task completed according to description",
+    "All dependencies resolved",
+    "Status updated to 'Completed'",
+    "Documentation updated if required",
+    "HR folder shared with non-admin access",
+    "Access granted to Artemchuk Nikolay"
+  ],
+  "responsibilities": [
+    "Managing department resources"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Review task requirements and dependencies",
+      "tool": "Documentation",
+      "responsibility": "Recruiter",
+      "placement": "Task documentation",
+      "duration": "5 minutes",
+      "dependencies": [],
+      "success_criteria": "All requirements understood, dependencies identified"
+    },
+    {
+      "step_number": 2,
+      "name": "Execute share HR folder",
+      "tool": "Google Drive, File sharing system",
+      "responsibility": "Recruiter",
+      "placement": "Project: Recruitment Platform, Onboarding & Training",
+      "duration": "15 minutes",
+      "dependencies": [
+        "Step 1"
+      ],
+      "success_criteria": "HR folder shared with non-admin access level, access granted to Artemchuk Nikolay"
+    },
+    {
+      "step_number": 3,
+      "name": "Verify completion and update status",
+      "tool": "CRM/Task Management",
+      "responsibility": "Recruiter",
+      "placement": "Task management system",
+      "duration": "5 minutes",
+      "dependencies": [
+        "Step 2"
+      ],
+      "success_criteria": "Status updated, task marked complete"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Task requirements reviewed",
+      "guide": "Understand all requirements before starting",
+      "required": true
+    },
+    {
+      "item": "Dependencies resolved",
+      "guide": "Ensure HR approval obtained",
+      "required": true
+    },
+    {
+      "item": "Tools and resources available",
+      "guide": "Verify access to: Google Drive, File sharing system",
+      "required": true
+    },
+    {
+      "item": "Non-admin access level configured",
+      "guide": "Ensure access level is not admin, appropriate permissions set",
+      "required": true
+    },
+    {
+      "item": "Task completed according to description",
+      "guide": "Share HR department folder with non-admin access for onboarding improvements",
+      "required": true
+    }
+  ],
+  "tags": [
+    "hr",
+    "share",
+    "medium",
+    "recruitment_platform",
+    "onboarding_training",
+    "hr_folder"
+  ],
+  "version": "1.0",
+  "created": "2025-11-13",
+  "last_updated": "2025-11-13",
+  "owner": {
+    "name": "Rekonvald Viktoriia",
+    "id": "83953"
+  },
+  "related_project": "Recruitment Platform, Onboarding & Training",
+  "priority": "Medium",
+  "timeline": "Not specified"
+}
+

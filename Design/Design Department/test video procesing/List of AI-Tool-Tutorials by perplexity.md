@@ -7,125 +7,155 @@ Based on recent YouTube activity, here are trending tutorials from the past week
 ### Midjourney
 - **"11/01/2025 Midjourney Prompting for Beginners (Tutorials, Demos, Q&A, Discussion)"** (November 1, 2025)
   - Live tutorial session helping new users troubleshoot prompts and craft specific images with the latest features.
+  - **Link:** https://www.youtube.com/watch?v=vUj4VNXXC1c
 
 ### Leonardo AI
 - **"LEONARDO AI Tutorial 2025: The ULTIMATE AI Image Generation Guide for Beginners!"** (October 27, 2025)
   - Comprehensive guide covering classic mode, flow state, image generation, and free tier features with 300+ daily images.
+  - **Link:** https://www.youtube.com/results?search_query=LEONARDO+AI+Tutorial+2025+ULTIMATE+Image+Generation+Guide
 
 ### Gemini
 - **"How to use Gemini {November 2025} ✅ (EASY and QUICK ...)"** (November 4, 2025)
   - Essential guide showing step-by-step mastery of Google's AI including Deep Research and Canvas features.
+  - **Link:** https://www.youtube.com/results?search_query=How+to+use+Gemini+November+2025+tutorial
 
 ### Nano Banana
 - **"Nano Banana - Beginner Tutorial 2025: Best Al Image Generator"** (September 16, 2025)
   - Google's new AI image generator offering incredible control over results.
+  - **Link:** https://www.youtube.com/results?search_query=Nano+Banana+Beginner+Tutorial+2025+Best+AI+Image+Generator
 
 - **"Create Viral Hooks with Nano Banana and Veo 3 (AI ...)"** (September 2, 2025)
   - Tutorial on combining Nano Banana transformations with Veo 3 animation.
+  - **Link:** https://www.youtube.com/results?search_query=Create+Viral+Hooks+with+Nano+Banana+and+Veo+3
 
 ## AI Chatbots & Coding Assistants
 
 ### ChatGPT
 - **"Master Every New ChatGPT Feature in 2025—Complete ..."** (October 6, 2025)
   - Walkthrough of Pro-level features including Agents, Connectors, Projects, and Sora II.
+  - **Link:** https://www.youtube.com/results?search_query=Master+Every+New+ChatGPT+Feature+in+2025+Complete
 
 ### Claude
 - **"Become a Pro at using Claude as a designer in 9 mins"** (October 13, 2025)
   - Shows how designers can use Claude as a design partner in their workflow.
+  - **Link:** https://www.youtube.com/results?search_query=Become+a+Pro+at+using+Claude+as+a+designer+in+9+mins
 
 - **"Claude AI 2025 Tutorial: The Most Secure ChatGPT Alternative"** (October 8, 2025)
   - Complete tutorial on Claude's latest features.
+  - **Link:** https://www.youtube.com/results?search_query=Claude+AI+2025+Tutorial+Most+Secure+ChatGPT+Alternative
 
 ### Perplexity
 - **"The Ultimate Perplexity AI Workflow for Amazon Merch ..."** (November 6, 2025)
   - Shows how to find profitable niches and trending topics using Perplexity AI.
+  - **Link:** https://www.youtube.com/results?search_query=Ultimate+Perplexity+AI+Workflow+for+Amazon+Merch
 
 - **"Perplexity AI: A Complete Guide for 2025. How to Use All Features"** (October 23, 2025)
   - Comprehensive feature walkthrough.
+  - **Link:** https://www.youtube.com/results?search_query=Perplexity+AI+Complete+Guide+2025+How+to+Use+All+Features
 
 ### Cursor
 - **"Cursor 2.0 Tutorial for Beginners (Full Course)"** (November 9, 2025)
   - Complete guide covering everything from basics to advanced features with no prior programming knowledge needed.
+  - **Link:** https://www.youtube.com/results?search_query=Cursor+2.0+Tutorial+for+Beginners+Full+Course
 
 - **"Cursor AI Full Guide To Vibe Coding Apps"** (November 7, 2025)
   - Latest tutorial on vibe coding with Cursor.
+  - **Link:** https://www.youtube.com/results?search_query=Cursor+AI+Full+Guide+To+Vibe+Coding+Apps
 
 ### Grok
 - **"Grok AI Tutorial: 7 Powerful Use Cases You Need to See"** (November 2, 2025)
   - Practical real-world examples showcasing Grok's unique strengths.
+  - **Link:** https://www.youtube.com/results?search_query=Grok+AI+Tutorial+7+Powerful+Use+Cases
 
 - **"The #1 Hack to Get Viral-Trending AI Video Prompts (Grok)"** (November 6, 2025)
   - Using Grok's X connectivity to find viral AI video prompts.
+  - **Link:** https://www.youtube.com/results?search_query=Hack+to+Get+Viral+Trending+AI+Video+Prompts+Grok
 
 ## Presentation & Design Tools
 
 ### Gamma
 - **"Gamma AI Tutorial 2025: Create Stunning Presentations Fast"** (October 14, 2025)
   - Shows creators how to design slides, websites, and decks in minutes with AI.
+  - **Link:** https://www.youtube.com/results?search_query=Gamma+AI+Tutorial+2025+Create+Stunning+Presentations+Fast
 
 ### NotebookLM
 - **"The Ultimate Guide to NotebookLM - All 2025 Features ..."** (July 31, 2025)
   - Comprehensive guide including redesigned studio panel and AI video overviews.
+  - **Link:** https://www.youtube.com/results?search_query=Ultimate+Guide+to+NotebookLM+All+2025+Features
 
 ## No-Code App Builders
 
 ### Lovable
 - **"Lovable Tutorial For Beginners (2025) - All You Need To Know!"** (November 6, 2025)
   - Complete tutorial on building apps without writing code.
+  - **Link:** https://www.youtube.com/results?search_query=Lovable+Tutorial+For+Beginners+2025+All+You+Need+To+Know
 
 ### Replit
 - Replit Agent tutorials covering app development with AI assistance and vibe coding
+  - **Link:** https://www.youtube.com/results?search_query=Replit+Agent+tutorials+app+development+AI+assistance+vibe+coding
 
 ### v0
 - Referenced in multiple vibe coding comparisons with Cursor and Lovable
+  - **Link:** https://www.youtube.com/results?search_query=v0+vibe+coding+comparison+Cursor+Lovable
 
 ## AI Video Generation
 
 ### Hailuo AI
 - **"The Ultimate Hailuo AI Full Tutorial (2025) | Best AI Video ..."** (April 23, 2025)
   - Shows how to create cinematic and animated videos using Text to Video, Image to Video, and Subject Reference features.
+  - **Link:** https://www.youtube.com/results?search_query=Ultimate+Hailuo+AI+Full+Tutorial+2025+Best+AI+Video
 
 ### Kling AI
 - **"Kling 2.0 Tutorial - Best Video Generator of 2025!"** (April 29, 2025)
   - Demonstrates text to video, image to video, and multi-elements features.
+  - **Link:** https://www.youtube.com/results?search_query=Kling+2.0+Tutorial+Best+Video+Generator+of+2025
 
 ### Runway
 - **"Runway AI Tutorial 2025 | New Updates"** (January 31, 2025)
   - Covers Gen-3 Alpha, lip sync, subtitles, and other video editing features.
+  - **Link:** https://www.youtube.com/results?search_query=Runway+AI+Tutorial+2025+New+Updates
 
 ### HeyGen & Synthesia
 - Multiple comparison videos and tutorials on creating AI avatar videos for designers
+  - **Link:** https://www.youtube.com/results?search_query=HeyGen+Synthesia+AI+avatar+videos+tutorial+designers
 
 ### Veo 3 & Google Flow
 - **"Google Flow Tutorial 2025 (Complete Step-By-Step Guide)"** (September 2, 2025)
   - Beginner tutorial covering prompts, Veo 3 settings, SceneBuilder, and exporting.
+  - **Link:** https://www.youtube.com/results?search_query=Google+Flow+Tutorial+2025+Complete+Step+By+Step+Guide
 
 - **"Animate Images with Google Flow & Veo 3"** (July 13, 2025)
   - Tutorial on animating Adobe Firefly images with Veo 3.
+  - **Link:** https://www.youtube.com/results?search_query=Animate+Images+with+Google+Flow+Veo+3
 
 ## AI Audio Tools
 
 ### ElevenLabs
 - **"ElevenLabs Tutorial (2025) Full How to Guide - AI Voice ..."** (August 27, 2025)
   - Complete guide to the AI voice generator.
+  - **Link:** https://www.youtube.com/results?search_query=ElevenLabs+Tutorial+2025+Full+How+to+Guide+AI+Voice
 
 ### Suno AI
 - **"Suno Ai Tutorial 2025 (For Complete Beginners)"** (July 18, 2025)
   - Tutorial on creating AI-generated music.
+  - **Link:** https://www.youtube.com/results?search_query=Suno+AI+Tutorial+2025+For+Complete+Beginners
 
 ## Other Specialized Tools
 
 ### Adobe Firefly
 - **"Adobe Firefly November 2025 Updates: What's New!"** (November 10, 2025)
   - Live event covering Image Model 5, video/audio generation, and custom model training.
+  - **Link:** https://www.youtube.com/results?search_query=Adobe+Firefly+November+2025+Updates+What+New
 
 ### Roboneo
 - **"🚀Roboneo AI Tutorial 2025 | 💻 Create Next-Level Videos ..."** (September 23, 2025)
   - Tutorial on creating high-quality videos and reels with AI.
+  - **Link:** https://www.youtube.com/results?search_query=Roboneo+AI+Tutorial+2025+Create+Next+Level+Videos
 
 ### Manus
 - **"This AI Agent Replaces 5 Tools (Beginner Tutorial)"** (September 18, 2025)
   - Demonstrates Manus AI for automating complex business tasks including prospecting, content creation, and website building.
+  - **Link:** https://www.youtube.com/results?search_query=AI+Agent+Replaces+5+Tools+Beginner+Tutorial+Manus
 
 ## Key Trends Observed
 

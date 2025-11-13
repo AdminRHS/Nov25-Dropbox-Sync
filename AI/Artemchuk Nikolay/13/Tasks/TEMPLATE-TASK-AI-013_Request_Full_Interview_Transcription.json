@@ -1,0 +1,127 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "TEMPLATE-TASK-AI-013",
+  "task_name": "Request Transcription",
+  "action": "request",
+  "object": "interview transcription",
+  "context": "full transcription coverage",
+  "description": "Request that interview transcriptions be fully completed. Currently transcriptions may be incomplete. Need to ensure complete transcription coverage for all interviews.",
+  "department": "HR",
+  "profession": "Recruiter, Lead generator",
+  "estimated_duration": "30 minutes",
+  "status": "Pending - Awaiting contact with Victoria",
+  "dependencies": [
+    "Contact with Victoria",
+    "Transcription process review"
+  ],
+  "tools_required": [
+    "Transcription tools",
+    "Google recording system"
+  ],
+  "success_criteria": [
+    "Task completed according to description",
+    "All dependencies resolved",
+    "Status updated to 'Completed'",
+    "Documentation updated if required",
+    "Full transcription coverage requested",
+    "Transcription standards updated"
+  ],
+  "responsibilities": [
+    "Managing hiring process"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Review task requirements and dependencies",
+      "tool": "Documentation",
+      "responsibility": "Recruiter",
+      "placement": "Task documentation",
+      "duration": "5 minutes",
+      "dependencies": [],
+      "success_criteria": "All requirements understood, dependencies identified"
+    },
+    {
+      "step_number": 2,
+      "name": "Review current transcription process",
+      "tool": "Documentation",
+      "responsibility": "Recruiter",
+      "placement": "Recruitment Platform",
+      "duration": "15 minutes",
+      "dependencies": [
+        "Step 1"
+      ],
+      "success_criteria": "Current process understood, gaps identified"
+    },
+    {
+      "step_number": 3,
+      "name": "Execute request full interview transcription",
+      "tool": "Communication platform, Transcription tools",
+      "responsibility": "Recruiter",
+      "placement": "Project: Recruitment Platform, Onboarding & Training",
+      "duration": "10 minutes",
+      "dependencies": [
+        "Step 2"
+      ],
+      "success_criteria": "Full transcription coverage requested, transcription standards updated"
+    },
+    {
+      "step_number": 4,
+      "name": "Verify completion and update status",
+      "tool": "CRM/Task Management",
+      "responsibility": "Recruiter",
+      "placement": "Task management system",
+      "duration": "5 minutes",
+      "dependencies": [
+        "Step 3"
+      ],
+      "success_criteria": "Status updated, task marked complete"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Task requirements reviewed",
+      "guide": "Understand all requirements before starting",
+      "required": true
+    },
+    {
+      "item": "Dependencies resolved",
+      "guide": "Ensure contact with Victoria established",
+      "required": true
+    },
+    {
+      "item": "Tools and resources available",
+      "guide": "Verify access to: Transcription tools, Google recording system",
+      "required": true
+    },
+    {
+      "item": "Full transcription coverage requested",
+      "guide": "Ensure complete transcription coverage is requested for all interviews",
+      "required": true
+    },
+    {
+      "item": "Task completed according to description",
+      "guide": "Request full interview transcription coverage",
+      "required": true
+    }
+  ],
+  "tags": [
+    "hr",
+    "request",
+    "medium",
+    "recruitment_platform",
+    "onboarding_training",
+    "interview_transcription"
+  ],
+  "version": "1.0",
+  "created": "2025-11-13",
+  "last_updated": "2025-11-13",
+  "owner": {
+    "name": "Rekonvald Viktoriia",
+    "id": "83953"
+  },
+  "related_project": "Recruitment Platform, Onboarding & Training",
+  "priority": "Medium",
+  "timeline": "Not specified"
+}
+

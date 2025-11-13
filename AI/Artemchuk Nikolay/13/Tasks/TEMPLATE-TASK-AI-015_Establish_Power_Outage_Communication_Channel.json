@@ -1,0 +1,163 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "TEMPLATE-TASK-AI-015",
+  "task_name": "Establish Communication Channel",
+  "action": "establish",
+  "object": "communication channel",
+  "context": "power outage protocol",
+  "description": "Create a communication channel/protocol for employees to notify responsible parties when power outages or internet disruptions occur. Responsible party should be able to stop employee tracker to maintain accurate time tracking. Addresses issue where employees work during outages but cannot communicate their status.",
+  "department": "AI",
+  "profession": "Project manager, Lead generator",
+  "estimated_duration": "2-3 hours",
+  "status": "Planning",
+  "dependencies": [
+    "Communication system setup",
+    "Tracker access configuration"
+  ],
+  "tools_required": [
+    "Discord",
+    "Communication platform",
+    "Tracker system"
+  ],
+  "success_criteria": [
+    "Task completed according to description",
+    "All dependencies resolved",
+    "Status updated to 'Completed'",
+    "Documentation updated if required",
+    "Power outage communication channel created",
+    "Responsible party system established",
+    "Tracker management protocol documented"
+  ],
+  "responsibilities": [
+    "Managing infrastructure"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Review task requirements and dependencies",
+      "tool": "Documentation",
+      "responsibility": "Project manager",
+      "placement": "Task documentation",
+      "duration": "15 minutes",
+      "dependencies": [],
+      "success_criteria": "All requirements understood, dependencies identified"
+    },
+    {
+      "step_number": 2,
+      "name": "Design power outage communication protocol",
+      "tool": "Documentation tools",
+      "responsibility": "Project manager",
+      "placement": "Infrastructure, Employee Management",
+      "duration": "1 hour",
+      "dependencies": [
+        "Step 1"
+      ],
+      "success_criteria": "Protocol designed, responsible party roles defined, tracker management process outlined"
+    },
+    {
+      "step_number": 3,
+      "name": "Set up communication channel",
+      "tool": "Discord, Communication platform",
+      "responsibility": "Project manager",
+      "placement": "Infrastructure, Employee Management",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 2"
+      ],
+      "success_criteria": "Communication channel created, access configured"
+    },
+    {
+      "step_number": 4,
+      "name": "Configure tracker access for responsible parties",
+      "tool": "Tracker system",
+      "responsibility": "Project manager",
+      "placement": "Infrastructure, Employee Management",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 3"
+      ],
+      "success_criteria": "Tracker access configured, responsible parties can stop trackers"
+    },
+    {
+      "step_number": 5,
+      "name": "Execute establish power outage communication channel",
+      "tool": "Discord, Communication platform, Tracker system",
+      "responsibility": "Project manager",
+      "placement": "Project: Infrastructure, Employee Management",
+      "duration": "1 hour",
+      "dependencies": [
+        "Step 4"
+      ],
+      "success_criteria": "Power outage communication channel established, protocol implemented"
+    },
+    {
+      "step_number": 6,
+      "name": "Verify completion and update status",
+      "tool": "CRM/Task Management",
+      "responsibility": "Project manager",
+      "placement": "Task management system",
+      "duration": "10 minutes",
+      "dependencies": [
+        "Step 5"
+      ],
+      "success_criteria": "Status updated, task marked complete"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Task requirements reviewed",
+      "guide": "Understand all requirements before starting",
+      "required": true
+    },
+    {
+      "item": "Dependencies resolved",
+      "guide": "Ensure communication system setup, tracker access configuration",
+      "required": true
+    },
+    {
+      "item": "Tools and resources available",
+      "guide": "Verify access to: Discord, Communication platform, Tracker system",
+      "required": true
+    },
+    {
+      "item": "Communication channel created",
+      "guide": "Create channel/protocol for power outage notifications",
+      "required": true
+    },
+    {
+      "item": "Responsible party system established",
+      "guide": "Define responsible parties who can stop trackers",
+      "required": true
+    },
+    {
+      "item": "Protocol documented",
+      "guide": "Document power outage communication protocol",
+      "required": true
+    },
+    {
+      "item": "Task completed according to description",
+      "guide": "Establish power outage communication channel with tracker management",
+      "required": true
+    }
+  ],
+  "tags": [
+    "ai",
+    "establish",
+    "high",
+    "infrastructure",
+    "employee_management",
+    "communication_channel"
+  ],
+  "version": "1.0",
+  "created": "2025-11-13",
+  "last_updated": "2025-11-13",
+  "owner": {
+    "name": "Artemchuk Nikolay",
+    "id": "37226"
+  },
+  "related_project": "Infrastructure, Employee Management",
+  "priority": "High",
+  "timeline": "Not specified"
+}
+

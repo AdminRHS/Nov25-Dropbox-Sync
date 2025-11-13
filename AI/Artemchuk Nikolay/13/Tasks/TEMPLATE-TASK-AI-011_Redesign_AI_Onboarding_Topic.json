@@ -1,0 +1,147 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "TEMPLATE-TASK-AI-011",
+  "task_name": "Redesign Onboarding Topic",
+  "action": "redesign",
+  "object": "onboarding topic",
+  "context": "AI topic in onboarding materials",
+  "description": "Redesign the AI topic in onboarding materials. Current interviews are conducted like traditional internet interviews from 5 years ago - no AI-related questions. Need to add questions about prompt writing, daily recording readiness, and AI tool familiarity. Use company task descriptions to generate targeted questions that better assess candidate suitability.",
+  "department": "AI",
+  "profession": "Project manager, Lead generator",
+  "estimated_duration": "4-6 hours",
+  "status": "Not Started",
+  "dependencies": [
+    "Access to onboarding materials",
+    "HR collaboration",
+    "HR folder access (non-admin)"
+  ],
+  "tools_required": [
+    "Documentation tools",
+    "HR collaboration platform",
+    "Google Drive"
+  ],
+  "success_criteria": [
+    "Task completed according to description",
+    "All dependencies resolved",
+    "Status updated to 'Completed'",
+    "Documentation updated if required",
+    "AI-related interview questions added",
+    "Interview process modernized"
+  ],
+  "responsibilities": [
+    "Managing onboarding process",
+    "Improving hiring process"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Review task requirements and dependencies",
+      "tool": "Documentation",
+      "responsibility": "Project manager",
+      "placement": "Task documentation",
+      "duration": "15 minutes",
+      "dependencies": [],
+      "success_criteria": "All requirements understood, dependencies identified"
+    },
+    {
+      "step_number": 2,
+      "name": "Contact Victoria (HR) for HR folder access",
+      "tool": "Communication platform",
+      "responsibility": "Project manager",
+      "placement": "HR collaboration",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 1"
+      ],
+      "success_criteria": "HR folder access obtained (non-admin level)"
+    },
+    {
+      "step_number": 3,
+      "name": "Review current onboarding materials and interview process",
+      "tool": "Documentation tools, Google Drive",
+      "responsibility": "Project manager",
+      "placement": "Onboarding & Training project",
+      "duration": "2 hours",
+      "dependencies": [
+        "Step 2"
+      ],
+      "success_criteria": "Current process understood, gaps identified"
+    },
+    {
+      "step_number": 4,
+      "name": "Execute redesign onboarding topic",
+      "tool": "Documentation tools, Company task descriptions",
+      "responsibility": "Project manager",
+      "placement": "Project: Onboarding & Training, Recruitment Platform",
+      "duration": "3 hours",
+      "dependencies": [
+        "Step 3"
+      ],
+      "success_criteria": "AI topic redesigned with modern questions, prompt writing assessment added, daily recording readiness questions added, AI tool familiarity questions added"
+    },
+    {
+      "step_number": 5,
+      "name": "Verify completion and update status",
+      "tool": "CRM/Task Management",
+      "responsibility": "Project manager",
+      "placement": "Task management system",
+      "duration": "10 minutes",
+      "dependencies": [
+        "Step 4"
+      ],
+      "success_criteria": "Status updated, task marked complete"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Task requirements reviewed",
+      "guide": "Understand all requirements before starting",
+      "required": true
+    },
+    {
+      "item": "Dependencies resolved",
+      "guide": "Ensure all dependencies are met: HR folder access, onboarding materials access",
+      "required": true
+    },
+    {
+      "item": "Tools and resources available",
+      "guide": "Verify access to: Documentation tools, HR collaboration platform, Google Drive",
+      "required": true
+    },
+    {
+      "item": "AI-related questions added",
+      "guide": "Add questions about prompt writing, daily recording readiness, AI tool familiarity",
+      "required": true
+    },
+    {
+      "item": "Company task descriptions integrated",
+      "guide": "Use company task descriptions to generate targeted questions",
+      "required": true
+    },
+    {
+      "item": "Task completed according to description",
+      "guide": "Redesign AI topic in onboarding materials with modern interview questions",
+      "required": true
+    }
+  ],
+  "tags": [
+    "ai",
+    "redesign",
+    "high",
+    "onboarding_training",
+    "recruitment_platform",
+    "onboarding_topic"
+  ],
+  "version": "1.0",
+  "created": "2025-11-13",
+  "last_updated": "2025-11-13",
+  "owner": {
+    "name": "Artemchuk Nikolay",
+    "id": "37226"
+  },
+  "related_project": "Onboarding & Training, Recruitment Platform",
+  "priority": "High",
+  "timeline": "Not specified"
+}
+

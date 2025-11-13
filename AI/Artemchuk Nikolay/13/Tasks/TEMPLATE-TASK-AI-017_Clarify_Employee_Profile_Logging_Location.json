@@ -1,0 +1,131 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "TEMPLATE-TASK-AI-017",
+  "task_name": "Clarify Location",
+  "action": "clarify",
+  "object": "employee profile location",
+  "context": "logging location",
+  "description": "Clarify where processed summaries should be logged in employee profiles. Dropbox location needs to be specified - \"профиль сотрудника\" (employee profile) location needs confirmation.",
+  "department": "AI",
+  "profession": "Project manager, Lead generator",
+  "estimated_duration": "30 minutes",
+  "status": "Pending Clarification",
+  "dependencies": [
+    "Employee profile structure review"
+  ],
+  "tools_required": [
+    "Dropbox",
+    "Documentation tools"
+  ],
+  "success_criteria": [
+    "Task completed according to description",
+    "All dependencies resolved",
+    "Status updated to 'Completed'",
+    "Documentation updated if required",
+    "Employee profile logging location clarified",
+    "Location documented"
+  ],
+  "responsibilities": [
+    "Managing documentation structure"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Review task requirements and dependencies",
+      "tool": "Documentation",
+      "responsibility": "Project manager",
+      "placement": "Task documentation",
+      "duration": "5 minutes",
+      "dependencies": [],
+      "success_criteria": "All requirements understood, dependencies identified"
+    },
+    {
+      "step_number": 2,
+      "name": "Review employee profile structure",
+      "tool": "Dropbox, Documentation tools",
+      "responsibility": "Project manager",
+      "placement": "CRM, Recruitment Platform",
+      "duration": "15 minutes",
+      "dependencies": [
+        "Step 1"
+      ],
+      "success_criteria": "Employee profile structure reviewed, logging locations identified"
+    },
+    {
+      "step_number": 3,
+      "name": "Execute clarify employee profile logging location",
+      "tool": "Dropbox, Documentation tools",
+      "responsibility": "Project manager",
+      "placement": "Project: CRM, Recruitment Platform",
+      "duration": "10 minutes",
+      "dependencies": [
+        "Step 2"
+      ],
+      "success_criteria": "Employee profile logging location clarified and documented"
+    },
+    {
+      "step_number": 4,
+      "name": "Verify completion and update status",
+      "tool": "CRM/Task Management",
+      "responsibility": "Project manager",
+      "placement": "Task management system",
+      "duration": "5 minutes",
+      "dependencies": [
+        "Step 3"
+      ],
+      "success_criteria": "Status updated, task marked complete"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Task requirements reviewed",
+      "guide": "Understand all requirements before starting",
+      "required": true
+    },
+    {
+      "item": "Dependencies resolved",
+      "guide": "Ensure employee profile structure reviewed",
+      "required": true
+    },
+    {
+      "item": "Tools and resources available",
+      "guide": "Verify access to: Dropbox, Documentation tools",
+      "required": true
+    },
+    {
+      "item": "Employee profile structure reviewed",
+      "guide": "Review employee profile structure in Dropbox",
+      "required": true
+    },
+    {
+      "item": "Logging location clarified",
+      "guide": "Clarify and document where processed summaries should be logged",
+      "required": true
+    },
+    {
+      "item": "Task completed according to description",
+      "guide": "Clarify employee profile logging location for summary logging",
+      "required": true
+    }
+  ],
+  "tags": [
+    "ai",
+    "clarify",
+    "low",
+    "crm",
+    "recruitment_platform",
+    "employee_profile"
+  ],
+  "version": "1.0",
+  "created": "2025-11-13",
+  "last_updated": "2025-11-13",
+  "owner": {
+    "name": "Artemchuk Nikolay",
+    "id": "37226"
+  },
+  "related_project": "CRM, Recruitment Platform",
+  "priority": "Low",
+  "timeline": "Not specified"
+}
+

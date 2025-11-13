@@ -1,0 +1,144 @@
+{
+  "entity_type": "TASK_MANAGERS",
+  "sub_entity": "Task_Template",
+  "template_id": "TEMPLATE-TASK-AI-014",
+  "task_name": "Implement Markup",
+  "action": "implement",
+  "object": "transcription markup",
+  "context": "structured formatting",
+  "description": "Record transcriptions in small chunks with headers and markup between sections. Use markup formatting (horizontal lines, double equals, etc.) but prioritize single quotes in separate blocks for code highlighting (creates orange color highlighting). Improve transcription readability and structure.",
+  "department": "AI",
+  "profession": "Project manager, Lead generator",
+  "estimated_duration": "2-3 hours",
+  "status": "Planning",
+  "dependencies": [
+    "Transcription process review",
+    "Markup guidelines"
+  ],
+  "tools_required": [
+    "Transcription tools",
+    "Markdown editors"
+  ],
+  "success_criteria": [
+    "Task completed according to description",
+    "All dependencies resolved",
+    "Status updated to 'Completed'",
+    "Documentation updated if required",
+    "Structured markup guidelines created",
+    "Transcription formatting standards implemented"
+  ],
+  "responsibilities": [
+    "Managing documentation"
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "name": "Review task requirements and dependencies",
+      "tool": "Documentation",
+      "responsibility": "Project manager",
+      "placement": "Task documentation",
+      "duration": "15 minutes",
+      "dependencies": [],
+      "success_criteria": "All requirements understood, dependencies identified"
+    },
+    {
+      "step_number": 2,
+      "name": "Review current transcription process",
+      "tool": "Documentation",
+      "responsibility": "Project manager",
+      "placement": "Recruitment Platform",
+      "duration": "30 minutes",
+      "dependencies": [
+        "Step 1"
+      ],
+      "success_criteria": "Current process understood, formatting needs identified"
+    },
+    {
+      "step_number": 3,
+      "name": "Create markup guidelines and formatting standards",
+      "tool": "Documentation tools, Markdown editors",
+      "responsibility": "Project manager",
+      "placement": "Documentation standards",
+      "duration": "1 hour",
+      "dependencies": [
+        "Step 2"
+      ],
+      "success_criteria": "Markup guidelines created, formatting standards documented"
+    },
+    {
+      "step_number": 4,
+      "name": "Execute implement structured transcription markup",
+      "tool": "Transcription tools, Markdown editors",
+      "responsibility": "Project manager",
+      "placement": "Project: Recruitment Platform, Onboarding & Training",
+      "duration": "1.5 hours",
+      "dependencies": [
+        "Step 3"
+      ],
+      "success_criteria": "Structured markup implemented, chunked recording with headers, code highlighting with single quotes"
+    },
+    {
+      "step_number": 5,
+      "name": "Verify completion and update status",
+      "tool": "CRM/Task Management",
+      "responsibility": "Project manager",
+      "placement": "Task management system",
+      "duration": "10 minutes",
+      "dependencies": [
+        "Step 4"
+      ],
+      "success_criteria": "Status updated, task marked complete"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Task requirements reviewed",
+      "guide": "Understand all requirements before starting",
+      "required": true
+    },
+    {
+      "item": "Dependencies resolved",
+      "guide": "Ensure transcription process reviewed, markup guidelines available",
+      "required": true
+    },
+    {
+      "item": "Tools and resources available",
+      "guide": "Verify access to: Transcription tools, Markdown editors",
+      "required": true
+    },
+    {
+      "item": "Markup guidelines created",
+      "guide": "Create guidelines for chunked recording, headers, code highlighting",
+      "required": true
+    },
+    {
+      "item": "Structured formatting implemented",
+      "guide": "Implement chunked recording with headers, markup between sections, single quotes for code highlighting",
+      "required": true
+    },
+    {
+      "item": "Task completed according to description",
+      "guide": "Implement structured transcription markup with improved readability",
+      "required": true
+    }
+  ],
+  "tags": [
+    "ai",
+    "implement",
+    "medium",
+    "recruitment_platform",
+    "onboarding_training",
+    "transcription_markup"
+  ],
+  "version": "1.0",
+  "created": "2025-11-13",
+  "last_updated": "2025-11-13",
+  "owner": {
+    "name": "Artemchuk Nikolay",
+    "id": "37226"
+  },
+  "related_project": "Recruitment Platform, Onboarding & Training",
+  "priority": "Medium",
+  "timeline": "Not specified"
+}
+

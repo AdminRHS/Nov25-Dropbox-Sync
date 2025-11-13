@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Convenient Brands - Newsletter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background-color: #e8e8e8;
+            overflow-x: hidden;
+        }
+
+        /* Enhanced Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes scaleIn {
+            from {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes shimmer {
+            0% {
+                background-position: -1000px 0;
+            }
+            100% {
+                background-position: 1000px 0;
+            }
+        }
+
+        /* Scroll-triggered animations */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+
+        .animate-on-scroll.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Container */
+        .newsletter-wrapper {
+            max-width: 640px;
+            margin: 40px auto;
+            background-color: #ffffff;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 200%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            animation: shimmer 3s infinite;
+        }
+
+        .header-logo {
+            font-size: 1.6rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+            animation: slideDown 0.8s ease-out;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header-subtitle {
+            font-size: 0.85rem;
+            opacity: 0.9;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            animation: slideDown 0.8s ease-out 0.2s both;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            background: #ffffff;
+            padding: 0;
+            position: relative;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: 320px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            animation: scaleIn 1.2s ease-out;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 100%);
+            padding: 40px 30px 30px;
+            color: white;
+        }
+
+        .hero-tag {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .hero-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            line-height: 1.2;
+        }
+
+        .hero-subtitle {
+            font-size: 0.9rem;
+            opacity: 0.95;
+            line-height: 1.5;
+        }
+
+        /* Content Sections */
+        .section {
+            padding: 35px 30px;
+            background: #ffffff;
+        }
+
+        .section-alt {
+            background: #f8f9fa;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .section-tag {
+            display: inline-block;
+            background: #e0e7ff;
+            color: #2563eb;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .section-title {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+
+        .section-subtitle {
+            color: #666;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        /* Card Grid */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .card:hover {
+            border-color: #2563eb;
+            box-shadow: 0 8px 20px rgba(37, 99, 235, 0.15);
+            transform: translateY(-3px);
+        }
+
+        .card-image {
+            width: 100%;
+            height: 140px;
+            overflow: hidden;
+            background: #f3f4f6;
+            position: relative;
+        }
+
+        .card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+
+        .card:hover .card-image img {
+            transform: scale(1.08);
+        }
+
+        .card-tag {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: #2563eb;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.65rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 6px;
+            line-height: 1.3;
+        }
+
+        .card-description {
+            font-size: 0.8rem;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        /* Full Width Cards */
+        .feature-list {
+            display: grid;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .feature-item {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 20px;
+            display: flex;
+            gap: 15px;
+            align-items: flex-start;
+            transition: all 0.3s ease;
+        }
+
+        .feature-item:hover {
+            border-color: #2563eb;
+            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.12);
+            transform: translateX(5px);
+        }
+
+        .feature-icon {
+            width: 44px;
+            height: 44px;
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            flex-shrink: 0;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-item:hover .feature-icon {
+            transform: scale(1.1) rotate(5deg);
+        }
+
+        .feature-content h3 {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 5px;
+        }
+
+        .feature-content p {
+            font-size: 0.85rem;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .stat-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 25px 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .stat-card:hover {
+            border-color: #2563eb;
+            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.12);
+            transform: translateY(-3px);
+        }
+
+        .stat-number {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #2563eb;
+            display: block;
+            margin-bottom: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card:hover .stat-number {
+            transform: scale(1.1);
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            color: #666;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Highlight Banner */
+        .highlight-banner {
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            color: white;
+            padding: 35px 30px;
+            text-align: center;
+            margin: 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .highlight-banner::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+            animation: pulse 5s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+        }
+
+        .highlight-banner h3 {
+            font-size: 1.5rem;
+            margin-bottom: 12px;
+            font-weight: 700;
+            position: relative;
+            z-index: 1;
+        }
+
+        .highlight-banner p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            opacity: 0.95;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 12px 28px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.5s ease, height 0.5s ease;
+            z-index: -1;
+        }
+
+        .btn:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+
+        .btn-primary {
+            background: white;
+            color: #2563eb;
+            border-color: white;
+        }
+
+        .btn-primary:hover {
+            background: transparent;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-secondary {
+            background: #2563eb;
+            color: white;
+            border-color: #2563eb;
+        }
+
+        .btn-secondary:hover {
+            background: #1d4ed8;
+            border-color: #1d4ed8;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: #2563eb;
+            border-color: #2563eb;
+        }
+
+        .btn-outline:hover {
+            background: #2563eb;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
+        }
+
+        /* Testimonial */
+        .testimonial {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-left: 4px solid #2563eb;
+            border-radius: 8px;
+            padding: 25px;
+            margin-top: 25px;
+            position: relative;
+        }
+
+        .testimonial::before {
+            content: '"';
+            position: absolute;
+            top: 15px;
+            left: 20px;
+            font-size: 60px;
+            color: rgba(37, 99, 235, 0.1);
+            font-family: Georgia, serif;
+            line-height: 1;
+        }
+
+        .testimonial-stars {
+            color: #fbbf24;
+            font-size: 1rem;
+            margin-bottom: 12px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .testimonial-text {
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: #333;
+            font-style: italic;
+            margin-bottom: 15px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .testimonial-author {
+            font-size: 0.9rem;
+            color: #2563eb;
+            font-weight: 600;
+            position: relative;
+            z-index: 1;
+        }
+
+        .testimonial-role {
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 2px;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: #f8f9fa;
+            padding: 35px 30px;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-size: 1.5rem;
+            color: #1a1a1a;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+
+        .cta-section p {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        /* Footer */
+        .footer {
+            background: #1a1a1a;
+            color: white;
+            padding: 35px 30px 25px;
+            text-align: center;
+        }
+
+        .footer-logo {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            letter-spacing: 0.5px;
+        }
+
+        .footer-text {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.85rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            max-width: 450px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .footer-links {
+            margin-bottom: 20px;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 0.85rem;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .footer-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: white;
+            transition: width 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: white;
+        }
+
+        .footer-links a:hover::after {
+            width: 100%;
+        }
+
+        .footer-divider {
+            height: 1px;
+            background: rgba(255, 255, 255, 0.15);
+            margin: 25px 0 15px;
+        }
+
+        .footer-bottom {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 0.75rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .newsletter-wrapper {
+                margin: 0;
+                box-shadow: none;
+            }
+
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .section {
+                padding: 30px 20px;
+            }
+
+            .hero-title {
+                font-size: 1.5rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="newsletter-wrapper">
+        
+        <!-- Header -->
+        <header class="header">
+            <div class="header-logo">CONVENIENT BRANDS</div>
+            <div class="header-subtitle">Business Technology Platform</div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80" alt="Business collaboration">
+                <div class="hero-overlay">
+                    <div class="hero-tag">Brand Spotlight</div>
+                    <h1 class="hero-title">Meet Convenient Brands</h1>
+                    <p class="hero-subtitle">Empowering businesses with enterprise software and payment solutions</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section">
+            <div class="section-header animate-on-scroll">
+                <div class="section-tag">Who We Are</div>
+                <h2 class="section-title">A Platform Built for Growth</h2>
+                <p class="section-subtitle">Convenient Brands is a family of business technology companies providing enterprise-level software and integrated payment processing services to businesses across North America.</p>
+            </div>
+        </section>
+
+        <!-- Platform Features -->
+        <section class="section section-alt">
+            <div class="section-header animate-on-scroll">
+                <div class="section-tag">What We Offer</div>
+                <h2 class="section-title">Platform Advantages</h2>
+                <p class="section-subtitle">Comprehensive solutions designed for business success</p>
+            </div>
+            
+            <div class="feature-list">
+                <div class="feature-item animate-on-scroll">
+                    <div class="feature-icon">💼</div>
+                    <div class="feature-content">
+                        <h3>Enterprise Software</h3>
+                        <p>Market-leading shop management software designed to increase efficiency, accuracy, and profitability for businesses of all sizes.</p>
+                    </div>
+                </div>
+                
+                <div class="feature-item animate-on-scroll">
+                    <div class="feature-icon">💳</div>
+                    <div class="feature-content">
+                        <h3>Payment Processing</h3>
+                        <p>Intelligent cloud-based payment solutions supporting alternative models including service fees and convenience fees.</p>
+                    </div>
+                </div>
+                
+                <div class="feature-item animate-on-scroll">
+                    <div class="feature-icon">🔗</div>
+                    <div class="feature-content">
+                        <h3>Integrated Solutions</h3>
+                        <p>Comprehensive integrations with industry-leading platforms enabling streamlined operations and enhanced productivity.</p>
+                    </div>
+                </div>
+                
+                <div class="feature-item animate-on-scroll">
+                    <div class="feature-icon">📊</div>
+                    <div class="feature-content">
+                        <h3>Data & Analytics</h3>
+                        <p>Advanced reporting capabilities and business intelligence tools that provide actionable insights for informed decisions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="section">
+            <div class="section-header animate-on-scroll">
+                <div class="section-tag">Our Impact</div>
+                <h2 class="section-title">Delivering Real Results</h2>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-card animate-on-scroll">
+                    <span class="stat-number">40+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-card animate-on-scroll">
+                    <span class="stat-number">1000s</span>
+                    <span class="stat-label">Businesses Served</span>
+                </div>
+                <div class="stat-card animate-on-scroll">
+                    <span class="stat-number">6</span>
+                    <span class="stat-label">Portfolio Companies</span>
+                </div>
+                <div class="stat-card animate-on-scroll">
+                    <span class="stat-number">5</span>
+                    <span class="stat-label">Industry Verticals</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Companies -->
+        <section class="section section-alt">
+            <div class="section-header animate-on-scroll">
+                <div class="section-tag">Our Portfolio</div>
+                <h2 class="section-title">Family of Companies</h2>
+                <p class="section-subtitle">Industry-leading brands serving businesses across North America</p>
+            </div>
+            
+            <div class="card-grid">
+                <div class="card animate-on-scroll">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=400&q=80" alt="Auto repair">
+                        <div class="card-tag">Auto & Glass</div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Mainstreet Computers</h3>
+                        <p class="card-description">40+ years of shop management software excellence for auto and flat-glass repair centers.</p>
+                    </div>
+                </div>
+                
+                <div class="card animate-on-scroll">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="Collision center">
+                        <div class="card-tag">Collision</div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">ROME Technologies</h3>
+                        <p class="card-description">Premier collision management software with 30+ years of industry expertise and support.</p>
+                    </div>
+                </div>
+                
+                <div class="card animate-on-scroll">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&q=80" alt="Technology">
+                        <div class="card-tag">Estimating</div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Web-Est</h3>
+                        <p class="card-description">Browser-based estimating software with AI-powered tools for enhanced accuracy.</p>
+                    </div>
+                </div>
+                
+                <div class="card animate-on-scroll">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&q=80" alt="Analytics">
+                        <div class="card-tag">Aftermarket</div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">ImEX Systems</h3>
+                        <p class="card-description">Comprehensive business management solutions for the automotive aftermarket industry.</p>
+                    </div>
+                </div>
+                
+                <div class="card animate-on-scroll">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&q=80" alt="Payments">
+                        <div class="card-tag">Payments</div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">IntelliPay</h3>
+                        <p class="card-description">Intelligent cloud-based payment processing platform with alternative payment models.</p>
+                    </div>
+                </div>
+                
+                <div class="card animate-on-scroll">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?w=400&q=80" alt="Dealership">
+                        <div class="card-tag">Dealerships</div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">AutoManager</h3>
+                        <p class="card-description">Complete software solutions for auto dealerships including Recalls-As-A-Service technology.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial -->
+        <section class="section">
+            <div class="section-header animate-on-scroll">
+                <div class="section-tag">Success Stories</div>
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+            
+            <div class="testimonial animate-on-scroll">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">"Convenient Brands has transformed how we operate. Their integrated platform and exceptional support have helped us increase efficiency and grow our business significantly. The combination of powerful software and seamless payment processing has been a game-changer."</p>
+                <div class="testimonial-author">Industry Professional</div>
+                <div class="testimonial-role">Auto Repair Business Owner</div>
+            </div>
+        </section>
+
+        <!-- Highlight Banner -->
+        <section class="highlight-banner">
+            <h3>Why Partner With Convenient Brands</h3>
+            <p>We deliver comprehensive solutions that drive business growth and operational excellence. With decades of combined industry experience and continuous innovation, we're the trusted partner for thousands of businesses.</p>
+            <a href="https://www.convenient-brands.com/" class="btn btn-primary" target="_blank">Explore Our Solutions</a>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <h2 class="animate-on-scroll">Ready to Transform Your Business?</h2>
+            <p class="animate-on-scroll">Join thousands of businesses that trust Convenient Brands for their technology and payment processing needs</p>
+            <div class="cta-buttons">
+                <a href="https://www.convenient-brands.com/" class="btn btn-secondary" target="_blank">Get Started</a>
+                <a href="https://www.convenient-brands.com/" class="btn btn-outline" target="_blank">Contact Us</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-logo">CONVENIENT BRANDS</div>
+            <p class="footer-text">A family of business technology companies providing enterprise-level software and integrated payment processing services across North America.</p>
+            <div class="footer-links">
+                <a href="https://www.convenient-brands.com/" target="_blank">Website</a>
+                <a href="https://www.linkedin.com/company/convenient-brands-llc" target="_blank">LinkedIn</a>
+                <a href="https://www.convenient-brands.com/news/" target="_blank">News</a>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-bottom">
+                <p>Convenient Brands, LLC | Draper, Utah | © 2025 All rights reserved</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+        // Scroll-triggered animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -30px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all elements with animate-on-scroll class
+        document.addEventListener('DOMContentLoaded', () => {
+            const animatedElements = document.querySelectorAll('.animate-on-scroll');
+            animatedElements.forEach(el => observer.observe(el));
+        });
+    </script>
+</body>
+</html>

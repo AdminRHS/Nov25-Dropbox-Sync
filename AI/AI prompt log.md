@@ -1031,3 +1031,88 @@ Warning: The process '/usr/bin/git' failed with exit code 128
 
 ----
 
+**Date:** 2025-11-13 15:10
+
+**Request**: process Nov25/AI/Artemchuk Nikolay/13/daily.md with Nov25/AI/MAIN PROMPT v4.md
+
+**Details**:
+1. Read and analyzed raw Russian/Ukrainian transcription from daily.md file
+2. Identified participants with confidence levels:
+   - High confidence: Artemchuk Nikolay (ID: 37226), Rekonvald Viktoriia (ID: 83953)
+   - Medium confidence: Kizilova Olha (ID: 178)
+   - Low confidence: Unknown participant (addressed with "ты")
+3. Matched projects to Project Directory:
+   - High confidence: CRM, Recruitment Platform, Onboarding & Training
+4. Extracted and organized all actionable information into 21 sections per MAIN PROMPT v4 format:
+   - Meeting Metadata with participant and project matching
+   - Executive Summary covering onboarding improvements and employee work protocols
+   - 7 Action Items & Tasks formatted in "Action + Object" format with taxonomy library matches
+   - 4 Projects & Features (Onboarding & Training, Recruitment Platform, CRM, Employee Management)
+   - 3 Workflows & Processes (Interview Transcription, Power Outage Protocol, Tendence Export Processing)
+   - 5 Rules & Best Practices (Discord presence, transcription markup, work reports, tracker usage, AI interview questions)
+   - 5 Problems & Solutions (outdated interviews, incomplete transcriptions, unstructured format, power outage protocol, missing Discord presence)
+   - 7 Tools & Resources with detailed descriptions
+   - 3 Technical Architecture sections (Interview Transcription System, Employee Work Tracking, Tendence Export Processing)
+   - 4 Decisions Log entries with rationale and impact
+   - 6 Documentation & Knowledge Gaps identified
+   - 4 Communication & Announcements planned
+   - 4 Blockers & Dependencies documented
+   - 5 Key Insights & Lessons extracted
+   - 1 Analogy & Framework documented
+   - Employee & Team Context with 3 employee mentions
+   - Development & Technical Context documented
+   - Onboarding & Training Context documented
+   - Follow-up Items listed
+5. Applied Remote Helpers organizational context, vocabulary, and template structures
+6. Matched actions, objects, skills, responsibilities, processes, and results to taxonomy libraries
+7. Created comprehensive structured markdown document following MAIN PROMPT v4 specifications
+8. All sections populated with relevant information from transcription
+
+**Result**: Successfully processed daily.md transcription into comprehensive structured document (daily_processed.md) with all 21 sections populated. Document includes:
+- Participants correctly matched to Employee Directory (Artemchuk Nikolay, Rekonvald Viktoriia, Kizilova Olha)
+- Projects correctly matched to Project Directory (CRM, Recruitment Platform, Onboarding & Training)
+- 7 actionable tasks formatted according to Remote Helpers standards with taxonomy library integration
+- Complete workflows, rules, problems/solutions, and technical architecture documentation
+- All information organized and ready for implementation
+- Confidence levels assigned appropriately
+- Manual review items flagged (unknown participant requires verification)
+- Document saved to: /Users/nikolay/Library/CloudStorage/Dropbox/Nov25/AI/Artemchuk Nikolay/13/daily_processed.md
+
+----
+
+**Date:** 2025-11-13 15:16
+
+**Request**: process this file Nov25/AI/Artemchuk Nikolay/13/daily_processed.md and split it to tasks like we done in Nov25/AI/Artemchuk Nikolay/12/Tasks
+
+**Details**:
+1. Reviewed task file format from Nov25/AI/Artemchuk Nikolay/12/Tasks directory
+2. Analyzed daily_processed.md file to extract all 7 action items from Section 3 (ACTION ITEMS & TASKS)
+3. Created Tasks folder in Nov25/AI/Artemchuk Nikolay/13/Tasks directory
+4. Created 7 JSON task files following the template format:
+   - TEMPLATE-TASK-AI-011: Redesign AI Onboarding Topic (High priority, Not Started)
+   - TEMPLATE-TASK-AI-012: Share HR Folder Non-Admin Access (Medium priority, Pending - Awaiting contact with Victoria)
+   - TEMPLATE-TASK-AI-013: Request Full Interview Transcription (Medium priority, Pending - Awaiting contact with Victoria)
+   - TEMPLATE-TASK-AI-014: Implement Structured Transcription Markup (Medium priority, Planning)
+   - TEMPLATE-TASK-AI-015: Establish Power Outage Communication Channel (High priority, Planning)
+   - TEMPLATE-TASK-AI-016: Process Tendence Export Through AI Analysis (Medium priority, Assigned to Kizilova Olha)
+   - TEMPLATE-TASK-AI-017: Clarify Employee Profile Logging Location (Low priority, Pending Clarification)
+5. Each task file includes:
+   - Complete JSON structure with entity_type, sub_entity, template_id
+   - Task name, action, object, context, description
+   - Department, profession, estimated duration, status
+   - Dependencies, tools_required, success_criteria
+   - Responsibilities, detailed steps with step_number, name, tool, responsibility, placement, duration, dependencies, success_criteria
+   - Checklist items with item, guide, required fields
+   - Tags, version, created/last_updated dates
+   - Owner information (name and ID)
+   - Related project, priority, timeline
+6. Tasks properly mapped to owners:
+   - Artemchuk Nikolay (ID: 37226): Tasks AI-011, AI-014, AI-015, AI-017
+   - Rekonvald Viktoriia (ID: 83953): Tasks AI-012, AI-013
+   - Kizilova Olha (ID: 178): Task AI-016
+7. All tasks maintain original priorities, statuses, dependencies, and project relationships from daily_processed.md
+
+**Result**: Successfully split daily_processed.md into 7 structured JSON task files in Nov25/AI/Artemchuk Nikolay/13/Tasks directory. All tasks follow the template format from Nov25/AI/Artemchuk Nikolay/12/Tasks, with complete JSON structure, detailed steps, checklists, and proper owner assignments. Tasks are ready for task management system integration.
+
+----
+
