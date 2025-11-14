@@ -3,6 +3,7 @@
 чекінг карток
 нагадуванн про гугл скрейп   
 попрацювати з old conection
+забукати всі дзвінки 
 Tools & Software Used
 Claude
 ChatGPT

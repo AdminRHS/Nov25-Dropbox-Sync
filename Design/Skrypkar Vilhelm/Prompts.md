@@ -87,3 +87,25 @@ Vozo
 please process this video following the insctuctions file
 attach the youtube link and the video instructions file https://www.dropbox.com/scl/fi/7niv2qtxawlzh2w7og3qy/Video_Transcription_Custom_Instructions.md?rlkey=8ckwk5xrkvw48jw74tlgx0tj5&st=npijokbj&dl=0
 
+
+**Creating a prompt, UI kit, design guidelines, instruction for creating social media graphics for REM-s**
+https://chatgpt.com/share/e/69160177-7828-8002-8c76-1da539186b59
+Hello chat! i'm a graphic designer. I need the prompt for recreating this mascot in generative AI
+↓
+this prompt has to be used during creation of bigger graphics, so avoid using phrazing like "Create a cute..." or "The mascot should look...". Use this example of the prompt. And i want the generated images to be versatile so avoid including objects that the mascot holds as they will be generated over and over again
+↓
+Now please analyze these social media graphics and create a universal UI kit and design guidelines for this brand so I can create new graphics of the same stylistics by giving AI them and those reference graphics
+↓
+move Light Peach / Light Beige (#F5C6A5) to secondary colors the main titles font is Sofia Sans Condensed separate UI kit and the design guides
+↓
+Greate! And now give me the prompt, so I will provide an AI with the prompt, the UI kit and the design guidelines, the reference pictures, then I will give it the new post theme, title or other detailes - and AI will generate the graphics like those examples
+↓
+in the prompt: - leave placeholders for the main titles and the rest of design elements that the graphics has to have - accentuate the "full-time/part-time, language, location, etc" are only for example and don't have to be on the image unless directly specified - give directions to create more picturesque background, like on these references
+↓
+look at the generated image. another chat put texts from placeholders on it. accentuate in this updated prompt that it puts stuff from placeholders only if user explicitly fills them, otherwise it doesn't
+↓
+Good. I want to turn it into a comprehensive instruction for employees who are not designers and will have to generate that graphics having only topic (or some extra reuirements) of the post and access to the folder containing the mascot references, posts references, prompt, ui kit, and design guidelines. Please write to them what to upload to the AI (chatgpt), which prompt to use, how to add extra requirements (if they have any), and how to prompt the AI in the continuation of the dialog if they want to add some leements or change something on the graphics
+↓
+add that they have to add the masctot prompt file too
+
+
