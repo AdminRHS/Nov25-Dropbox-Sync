@@ -1,0 +1,40 @@
+[
+  {
+    "parameter_id": "DEV-PARAM-001",
+    "parameter_name": "Git Branch Strategy",
+    "category": "Version Control",
+    "value_type": "string",
+    "default_value": "feature/task-name",
+    "description": "Standard Git branch naming convention",
+    "required": true
+  },
+  {
+    "parameter_id": "DEV-PARAM-002",
+    "parameter_name": "Code Review Required",
+    "category": "Quality Assurance",
+    "value_type": "boolean",
+    "default_value": true,
+    "description": "Whether code review is required before merge",
+    "required": true
+  },
+  {
+    "parameter_id": "DEV-PARAM-003",
+    "parameter_name": "Test Coverage Minimum",
+    "category": "Testing",
+    "value_type": "float",
+    "default_value": 0.8,
+    "unit": "percentage",
+    "description": "Minimum test coverage percentage (0-1)",
+    "required": true
+  },
+  {
+    "parameter_id": "DEV-PARAM-004",
+    "parameter_name": "API Rate Limit",
+    "category": "Performance",
+    "value_type": "integer",
+    "default_value": 100,
+    "unit": "requests/minute",
+    "description": "API rate limit for applications",
+    "required": true
+  }
+]

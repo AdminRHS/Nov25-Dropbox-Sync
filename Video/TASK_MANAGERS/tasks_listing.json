@@ -1,0 +1,75 @@
+{
+  "department": "VIDEO",
+  "total_tasks": 4,
+  "last_updated": "2025-11-13T11:21:56.419070",
+  "tasks": [
+    {
+      "id": "TASK-VIDEO-001",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/VIDEO/TASK-VIDEO-001.md",
+      "steps_count": 6,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "Very High >80%",
+        "reasoning": "Transcription is fully automatable with AI services. Timestamp generation is automatic. Speaker identification can be automated. Manual review needed only for technical terms or unclear audio."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 18.0,
+      "related_steps_location": "Step_Templates/VIDEO/",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "TASK-VIDEO-002",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/VIDEO/TASK-VIDEO-002.md",
+      "steps_count": 7,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "High 60-80%",
+        "reasoning": "Compression can be automated with batch processing. Quality presets are standardizable. Format conversion is scriptable. Manual quality verification needed for critical videos."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 21.0,
+      "related_steps_location": "Step_Templates/VIDEO/",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "TASK-VIDEO-003",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/VIDEO/TASK-VIDEO-003.md",
+      "steps_count": 6,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "Low <40%",
+        "reasoning": "Status updates involve multiple systems and manual verification. Access revocation requires security considerations. Documentation updates need human review. Notifications require personalized communication."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 18.0,
+      "related_steps_location": "Step_Templates/VIDEO/",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "TASK-VIDEO-004",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/VIDEO/TASK-VIDEO-004.md",
+      "steps_count": 7,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "Medium 40-60%",
+        "reasoning": "Scenario planning can be templated. Platform adaptation rules can be automated. Creative content creation requires human expertise. AI video generation tools can assist."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 21.0,
+      "related_steps_location": "Step_Templates/VIDEO/",
+      "created_date": "2025-11-10"
+    }
+  ]
+}

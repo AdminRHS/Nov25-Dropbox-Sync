@@ -1,0 +1,31 @@
+{
+  "department": "DESIGN",
+  "total_projects": 4,
+  "last_updated": "2025-11-13T11:21:56.054857",
+  "projects": [
+    {
+      "id": "PROJ-DESIGN-002",
+      "name": "Multi-Platform Design System",
+      "type": "Internal",
+      "key_deliverable": "1,054-line design system, 2 platforms, 10+ components"
+    },
+    {
+      "id": "PROJ-DESIGN-003",
+      "name": "Client Landing Page Design",
+      "type": "Client",
+      "key_deliverable": "Landing page + presentation (~90% complete)"
+    },
+    {
+      "id": "PROJ-DESIGN-004",
+      "name": "Calendar Module UI/UX Design",
+      "type": "Client",
+      "key_deliverable": "Admin + employee interfaces, adaptive design"
+    },
+    {
+      "id": "PROJ-DESIGN-005",
+      "name": "Vertical Designs Project",
+      "type": "Client",
+      "key_deliverable": "Multi-size design package"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "parameter_id": "VIDEO-PARAM-001",
+    "parameter_name": "Video Formats",
+    "category": "Production",
+    "value_type": "object",
+    "default_value": {
+      "YouTube": "1920x1080 (16:9)",
+      "Instagram_Reels": "1080x1920 (9:16)",
+      "TikTok": "1080x1920 (9:16)",
+      "Stories": "1080x1920 (9:16)"
+    },
+    "description": "Standard video format specifications",
+    "required": true
+  },
+  {
+    "parameter_id": "VIDEO-PARAM-002",
+    "parameter_name": "Max Video Length",
+    "category": "Content Standards",
+    "value_type": "object",
+    "default_value": {
+      "Reels": 90,
+      "TikTok": 180,
+      "YouTube": 600,
+      "Stories": 15
+    },
+    "unit": "seconds",
+    "description": "Maximum video length per platform",
+    "required": true
+  },
+  {
+    "parameter_id": "VIDEO-PARAM-003",
+    "parameter_name": "Export Settings",
+    "category": "Production",
+    "value_type": "object",
+    "default_value": {
+      "codec": "H.264",
+      "bitrate": "8 Mbps",
+      "frame_rate": "30 fps",
+      "audio": "AAC 192 kbps"
+    },
+    "description": "Standard video export settings",
+    "required": true
+  },
+  {
+    "parameter_id": "VIDEO-PARAM-004",
+    "parameter_name": "Subtitle Requirements",
+    "category": "Accessibility",
+    "value_type": "boolean",
+    "default_value": true,
+    "description": "Whether subtitles are required for all videos",
+    "required": true
+  }
+]

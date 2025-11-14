@@ -1,0 +1,2360 @@
+[
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AI-002",
+    "name": "ChatGPT (OpenAI)",
+    "vendor": "OpenAI",
+    "category": "AI/LLM Services",
+    "purpose": "Content generation, message creation, Custom GPT specialized assistants",
+    "description": "Fast and versatile AI for content creation. Primary tool for LG message generation via Custom GPT.",
+    "skill_level_required": "Beginner",
+    "cost_structure": "API-based (usage pricing) + Custom GPT (ChatGPT Plus $20/month)",
+    "platform_compatibility": [
+      "Web",
+      "Mobile",
+      "API"
+    ],
+    "integration_capabilities": [
+      "API",
+      "Custom GPT creation",
+      "n8n integration",
+      "Zapier integration",
+      "Browser extensions"
+    ],
+    "documentation_url": "https://chatgpt.com/?model=gpt-4o",
+    "actual_remote_helpers_usage": {
+      "primary_use": "LG Message Generation & Content Creation",
+      "users": [
+        "LG Team (11 employees)",
+        "Sales",
+        "Marketing",
+        "HR"
+      ],
+      "use_cases": [
+        "generate lg messages",
+        "generate email templates",
+        "create job postings",
+        "draft client proposals",
+        "create marketing content",
+        "create social content",
+        "research quickly",
+        "ideate content"
+      ],
+      "custom_gpt_configuration": {
+        "name": "LG Message Generator",
+        "context": "Remote Helpers vocabulary, 636 professions list, value propositions",
+        "stop_words": [
+          "elevate",
+          "boost",
+          "supercharge",
+          "generic marketing fluff"
+        ],
+        "character_limit": "600-700 (strictly enforced)",
+        "structure": "Personalization → Pain point → Solution → CTA → Link (rh-s.com)",
+        "quality_control": [
+          "No stop words",
+          "Under 700 characters",
+          "Specific profession mentioned",
+          "Research-based personalization",
+          "Clear CTA"
+        ]
+      },
+      "workflows": [
+        "LG outreach: Research → Custom GPT → Message generation → LinkedIn send",
+        "Email campaigns: Template selection → Personalization → AI drafting",
+        "Job postings: Template → AI customization → Review → Post",
+        "Content creation: Ideation → Generation → Review → Publish"
+      ]
+    },
+    "strengths": [
+      "Fast response time",
+      "Creative content generation",
+      "Custom GPT for specialized tasks",
+      "Cost-effective",
+      "Easy to use"
+    ],
+    "limitations": [
+      "Smaller context window than Claude",
+      "Less reliable for complex analysis",
+      "May hallucinate facts",
+      "Requires prompt engineering"
+    ],
+    "departments_using": [
+      "LG (Primary)",
+      "Sales",
+      "Marketing",
+      "HR"
+    ],
+    "tags": [
+      "ai",
+      "llm",
+      "content-generation",
+      "messaging",
+      "custom-gpt",
+      "lg"
+    ]
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AI-029",
+    "name": "Claude",
+    "vendor": "Anthropic",
+    "category": "AI Tools / LLM Services",
+    "purpose": "Advanced AI assistant for analysis, automation, and MCP connector integration",
+    "description": "Advanced AI language model with 200K+ token context window. Used for deep analysis, research synthesis, knowledge assistance, and as the core AI for MCP (Model Context Protocol) connector automation. Enables no-code connector generation via mcp-builder skill and powers automated workflows for email, calendar, and CRM integration.",
+    "skill_level_required": "Beginner to Advanced (depending on use case)",
+    "cost_structure": "API-based (usage pricing), Subscription for Pro features",
+    "platform_compatibility": [
+      "Web (claude.ai)",
+      "API",
+      "Claude Desktop App",
+      "Mobile App"
+    ],
+    "integration_capabilities": [
+      "Direct API calls",
+      "Claude Desktop app",
+      "Claude Skills (mcp-builder, etc.)",
+      "MCP connector support",
+      "n8n integration",
+      "Custom integrations",
+      "Cursor IDE integration",
+      "Gmail via MCP",
+      "Google Calendar via MCP",
+      "CRM via MCP"
+    ],
+    "documentation_url": "https://claude.ai",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Deep Analysis & AI-Powered Automation",
+      "users": [
+        "All departments - specialized analysis tasks",
+        "AI Engineer",
+        "Automation Specialist",
+        "Sales Operations",
+        "Product Manager"
+      ],
+      "use_cases": [
+        "analyze research and documents",
+        "answer complex questions",
+        "process meeting transcripts",
+        "synthesize information",
+        "generate MCP connectors (via mcp-builder skill)",
+        "automate email drafting and sending",
+        "update CRM automatically",
+        "create calendar events",
+        "parse unstructured data",
+        "support strategic planning"
+      ],
+      "workflows": [
+        "Deep company research (parallel with Gemini, Perplexity)",
+        "Call transcription analysis (extract action items, summaries)",
+        "Documentation review (analyze large documents)",
+        "Create Custom MCP Connectors (via mcp-builder)",
+        "Automated Morning Email Drafting",
+        "Newsletter Subscriber Auto-Reply",
+        "Stacked Connector Automation (Post-Meeting)"
+      ],
+      "typical_workflow_pattern": [
+        {
+          "task": "MCP Connector Generation and Automation",
+          "steps": [
+            "Enable Claude Skills in Desktop App",
+            "Activate mcp-builder skill",
+            "Prompt: 'Connect to [App] with [capabilities]'",
+            "Claude generates complete MCP server code",
+            "Deploy locally with Cursor",
+            "Use connector for automated workflows"
+          ],
+          "complexity": "Medium to High",
+          "time_estimate": "5-10 minutes per connector",
+          "time_saved": "15+ hours per week with automation"
+        }
+      ],
+      "integration_with_other_tools": [
+        "Claude Desktop App (MCP platform)",
+        "MCP Builder skill (connector generation)",
+        "Gmail (via MCP connector)",
+        "Google Calendar (via MCP connector)",
+        "Airtable/CRM (via MCP)",
+        "Cursor (code editor integration)",
+        "n8n (workflow automation)",
+        "Google Cloud Console (API credentials)"
+      ]
+    },
+    "strengths": [
+      "Large context window (200K+ tokens)",
+      "Exceptional reasoning capabilities",
+      "Reliable and accurate information",
+      "Ethical AI approach",
+      "Excellent for long documents",
+      "MCP connector support (unique capability)",
+      "Claude Skills ecosystem",
+      "No-code automation via mcp-builder",
+      "Time savings: 15+ hours/week possible"
+    ],
+    "limitations": [
+      "Higher cost for large volumes",
+      "MCP features require Desktop App",
+      "Some connectors need API credentials setup"
+    ],
+    "mcp_capabilities": {
+      "connector_generation": "Two-sentence prompts create full connectors",
+      "supported_integrations": [
+        "Gmail",
+        "Google Calendar",
+        "CRM",
+        "Custom apps"
+      ],
+      "deployment": "Local-first for privacy",
+      "time_savings": "15+ hours per week"
+    },
+    "departments_using": [
+      "AI",
+      "Dev",
+      "Sales",
+      "HR",
+      "LG",
+      "Marketing",
+      "OPS"
+    ],
+    "tags": [
+      "ai",
+      "llm",
+      "analysis",
+      "long-context",
+      "reasoning",
+      "research",
+      "mcp-connectors",
+      "automation",
+      "no-code"
+    ],
+    "discovery_date": "2025-11-12",
+    "discovery_source": "Video_008_MCP_Connector_Tutorial",
+    "status": "active",
+    "recommended_model": "Sonnet 4.5 for code generation and tool calling"
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AI-003",
+    "name": "Gemini",
+    "vendor": "Google",
+    "category": "AI/LLM Services",
+    "purpose": "Large dataset processing, LinkedIn account analysis, deep company research",
+    "description": "Google's AI model optimized for processing large datasets. Used for LinkedIn message history analysis (2,000+ accounts) and deep company research.",
+    "skill_level_required": "Intermediate",
+    "cost_structure": "Free tier (3-month promo: $120 value → $80) + paid plans",
+    "platform_compatibility": [
+      "Web",
+      "API"
+    ],
+    "integration_capabilities": [
+      "Google Workspace integration",
+      "API",
+      "n8n integration",
+      "Google Search integration",
+      "Multimodal (text + images)"
+    ],
+    "documentation_url": "https://gemini.google.com/app",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Large Dataset Analysis & LinkedIn History Processing",
+      "users": [
+        "LG Team",
+        "AI Engineering",
+        "Analytics"
+      ],
+      "use_cases": [
+        "analyze linkedin history",
+        "research companies",
+        "process large datasets",
+        "synthesize data sources",
+        "recognize messaging patterns",
+        "enrich leads",
+        "automate research workflows"
+      ],
+      "workflows": [
+        "LinkedIn Analysis: Export 2,000+ accounts → Gemini processes → Pattern identification → Template optimization",
+        "Deep Research (n8n): Branch A - Gemini analyzes company website → Company size, industry, tech stack → 2-3 min automated",
+        "Lead Enrichment: Company data → Gemini processing → Structured output → CRM population"
+      ],
+      "performance": {
+        "processing_speed": "Fast for large volumes",
+        "context_window": "Large (multimodal support)",
+        "accuracy": ">95% for research tasks",
+        "cost_efficiency": "Good cost-performance ratio"
+      }
+    },
+    "strengths": [
+      "Excellent for large datasets",
+      "Fast processing speed",
+      "Google Search integration",
+      "Multimodal capabilities",
+      "Good cost-performance"
+    ],
+    "limitations": [
+      "Less creative than ChatGPT",
+      "Newer with fewer integrations",
+      "Sometimes less nuanced than Claude"
+    ],
+    "departments_using": [
+      "LG (Primary)",
+      "AI Engineering",
+      "Dev"
+    ],
+    "tags": [
+      "ai",
+      "llm",
+      "large-datasets",
+      "linkedin-analysis",
+      "research",
+      "automation"
+    ]
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AI-005",
+    "name": "NotebookLM",
+    "vendor": "Google",
+    "category": "AI/LLM Services",
+    "purpose": "Multi-source research synthesis and document analysis",
+    "description": "Google's AI research assistant that can synthesize information from multiple uploaded sources. Used for multi-source research synthesis in deep research workflows.",
+    "skill_level_required": "Beginner",
+    "cost_structure": "Free (Google account required)",
+    "platform_compatibility": [
+      "Web"
+    ],
+    "integration_capabilities": [
+      "Document upload (PDF, TXT, Google Docs)",
+      "Multi-source synthesis",
+      "Citation tracking",
+      "Export capabilities"
+    ],
+    "documentation_url": "https://notebooklm.google.com/?_gl=1*1sdz7gm*_ga*MTg2MTA5NjU2Mi4xNzQ2MTg4MjI2*_ga_W0LDH41ZCB*MTc0NjE4ODIyNS4xLjEuMTc0NjE4ODIzNS41MC4wLjA.&original_referer=https:%2F%2Fnotebooklm.google%23&pli=1",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Multi-Source Research Synthesis",
+      "users": [
+        "LG Team",
+        "Research Team",
+        "AI Engineering"
+      ],
+      "use_cases": [
+        "research companies multisource",
+        "synthesize documents",
+        "generate research notes",
+        "consolidate information",
+        "prepare deep research"
+      ],
+      "workflows": [
+        "Upload company documents → NotebookLM synthesizes → Structured research notes",
+        "Multiple sources → Analysis → Summarized insights for LG team"
+      ],
+      "integration_context": "Used alongside Gemini for deep research automation"
+    },
+    "strengths": [
+      "Free to use",
+      "Multi-source synthesis",
+      "Citation tracking",
+      "Easy to use",
+      "Google integration"
+    ],
+    "limitations": [
+      "Web-only",
+      "Limited API access",
+      "Requires manual upload",
+      "Less flexible than Claude/GPT"
+    ],
+    "departments_using": [
+      "LG",
+      "AI Engineering"
+    ],
+    "tags": [
+      "ai",
+      "research",
+      "multi-source",
+      "synthesis",
+      "google"
+    ]
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AI-028",
+    "name": "OpenAI GPT-5",
+    "vendor": "OpenAI",
+    "category": "AI Tools / LLM",
+    "purpose": "AI model for parsing unstructured HTML and extracting structured contact data",
+    "description": "Large language model used in lead generation workflows for parsing unstructured website HTML and extracting structured contact information. Integrated via n8n workflows to process scraped website data and identify emails, names, titles, and company info from raw HTML.",
+    "skill_level_required": "Intermediate",
+    "cost_structure": "API-based usage pricing",
+    "platform_compatibility": [
+      "API"
+    ],
+    "integration_capabilities": [
+      "n8n integration",
+      "API calls",
+      "Apify workflow integration"
+    ],
+    "documentation_url": "https://openai.com",
+    "actual_remote_helpers_usage": {
+      "primary_use": "AI-Powered HTML Parsing for Lead Extraction",
+      "users": [
+        "Lead Generation Specialist",
+        "Automation Engineer"
+      ],
+      "use_cases": [
+        "parse unstructured HTML for contact data",
+        "extract emails from website content",
+        "structure scraped data"
+      ],
+      "workflows": [
+        "AI Website Content Extraction (n8n + OpenAI + Apify → Anymailfinder → 10-20% enrichment)"
+      ],
+      "typical_workflow_pattern": [
+        {
+          "task": "AI HTML Parsing",
+          "steps": [
+            "Apify scrapes website HTML",
+            "n8n sends HTML to OpenAI",
+            "GPT-5 extracts contact data",
+            "Feed to Anymailfinder"
+          ],
+          "complexity": "High",
+          "success_rate": "10-20% enrichment"
+        }
+      ]
+    },
+    "strengths": [
+      "Handles unstructured data",
+      "Extracts from complex HTML",
+      "Flexible parsing"
+    ],
+    "limitations": [
+      "Lower success rate (10-20%)",
+      "API costs",
+      "Requires n8n orchestration"
+    ],
+    "success_rate": "10-20% email enrichment (lower but handles difficult sources)",
+    "departments_using": [
+      "LG",
+      "AI",
+      "Dev"
+    ],
+    "tags": [
+      "ai",
+      "llm",
+      "html-parsing",
+      "data-extraction",
+      "lead-generation"
+    ],
+    "discovery_date": "2025-11-12",
+    "discovery_source": "Video_006_Lead_Generation_Analysis",
+    "status": "active"
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AI-004",
+    "name": "Perplexity",
+    "vendor": "Perplexity AI",
+    "category": "AI/LLM Services",
+    "purpose": "AI-powered research and web search with citations",
+    "description": "AI research assistant with real-time web search capabilities. Used in parallel with Claude and Gemini for deep company research automation.",
+    "skill_level_required": "Beginner",
+    "cost_structure": "Freemium (Free tier + Pro $20/month)",
+    "platform_compatibility": [
+      "Web",
+      "Mobile",
+      "API"
+    ],
+    "integration_capabilities": [
+      "API",
+      "n8n integration",
+      "Web search integration",
+      "Citation tracking",
+      "Multi-source synthesis",
+      "GLIF workflow integration",
+      "Automated research for video content",
+      "Fact-checking pipelines"
+    ],
+    "documentation_url": "https://www.perplexity.ai/",
+    "actual_remote_helpers_usage": {
+      "primary_use": "News Search & Recent Information (Deep Research Automation)",
+      "users": [
+        "LG Team (via automation)",
+        "AI Engineering (workflow setup)",
+        "Content Creators (via GLIF)",
+        "Video Producers"
+      ],
+      "use_cases": [
+        "search recent news",
+        "track industry trends",
+        "detect hiring news",
+        "track funding news",
+        "research market intelligence",
+        "fact-check history",
+        "research miniature docs",
+        "verify video facts",
+        "research education topics",
+        "verify content accuracy"
+      ],
+      "workflows": [
+        {
+          "name": "Deep Research (n8n) - Branch B",
+          "description": "Perplexity searches recent news in parallel with Gemini and GPT",
+          "parallel_branches": [
+            "Branch A: Gemini - company website analysis",
+            "Branch B: Perplexity - recent news search",
+            "Branch C: GPT - LinkedIn analysis"
+          ],
+          "output": "Press releases, industry awards, hiring announcements",
+          "timing": "2-3 minutes per company (automated)"
+        },
+        {
+          "name": "AI Documentary Fact-Checking (GLIF Workflow)",
+          "description": "Perplexity researches and fact-checks historical content for miniature documentaries",
+          "steps": [
+            "GLIF agent receives documentary topic",
+            "Perplexity researches historical facts and events",
+            "Verifies accuracy of information",
+            "Provides fact-checked content for script generation",
+            "Content used in VAYU + Seedream video generation"
+          ],
+          "output": "Verified historical facts for documentary narration",
+          "timing": "3-5 minutes per documentary topic (automated)",
+          "integration": "Part of automated video content creation pipeline"
+        }
+      ],
+      "integration_context": "Part of 3-way parallel processing for lead enrichment"
+    },
+    "strengths": [
+      "Real-time web search",
+      "Citation tracking",
+      "Fast and accurate",
+      "Good for recent information",
+      "Easy to use"
+    ],
+    "limitations": [
+      "Less suitable for analysis vs research",
+      "Limited context window vs Claude",
+      "Requires internet connection"
+    ],
+    "departments_using": [
+      "LG (via automation)",
+      "AI Engineering"
+    ],
+    "tags": [
+      "ai",
+      "llm",
+      "research",
+      "news-search",
+      "automation",
+      "parallel-processing"
+    ]
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AUTO-103",
+    "name": "AmpleLeads",
+    "vendor": "AmpleLeads",
+    "category": "Automation Tools / Scraper Tool",
+    "purpose": "Export Apollo.io search results to CSV [DEPRECATED]",
+    "description": "Third-party tool for exporting Apollo.io search results. STATUS: DEPRECATED as of mid-2024 due to Apollo security changes. Tool became unstable and unreliable per Video_006. Maintained for historical reference only.",
+    "skill_level_required": "Beginner",
+    "cost_structure": "Unknown (tool deprecated)",
+    "platform_compatibility": [
+      "Browser Extension (deprecated)"
+    ],
+    "integration_capabilities": [
+      "Previously: Apollo.io export",
+      "CSV download"
+    ],
+    "documentation_url": "N/A (deprecated)",
+    "actual_remote_helpers_usage": {
+      "primary_use": "DEPRECATED: Apollo Export",
+      "users": [
+        "N/A"
+      ],
+      "use_cases": [
+        "DEPRECATED: Export Apollo leads"
+      ],
+      "workflows": [
+        "DEPRECATED: Apollo export workflow"
+      ]
+    },
+    "strengths": [
+      "Historical: Enabled Apollo bulk export"
+    ],
+    "limitations": [
+      "DEPRECATED: No longer functional",
+      "Apollo security changes broke tool"
+    ],
+    "departments_using": [
+      "LG (historical)"
+    ],
+    "tags": [
+      "deprecated",
+      "apollo-export",
+      "historical"
+    ],
+    "discovery_date": "2025-11-12",
+    "discovery_source": "Video_006_Lead_Generation_Analysis",
+    "status": "deprecated",
+    "deprecation_date": "Mid-2024",
+    "deprecation_reason": "Apollo security changes made tool unstable"
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AUTO-105",
+    "name": "ExportApollo",
+    "vendor": "ExportApollo",
+    "category": "Automation Tools / Scraper Tool",
+    "purpose": "Export Apollo.io search results to CSV [DEPRECATED]",
+    "description": "Third-party tool for exporting Apollo.io search results. STATUS: DEPRECATED as of mid-2024 due to Apollo security changes. Tool became unstable per Video_006. Maintained for historical reference only.",
+    "skill_level_required": "Beginner",
+    "cost_structure": "Unknown (tool deprecated)",
+    "platform_compatibility": [
+      "Browser Extension (deprecated)"
+    ],
+    "integration_capabilities": [
+      "Previously: Apollo.io export",
+      "CSV download"
+    ],
+    "documentation_url": "N/A (deprecated)",
+    "actual_remote_helpers_usage": {
+      "primary_use": "DEPRECATED: Apollo Export",
+      "users": [
+        "N/A"
+      ],
+      "use_cases": [
+        "DEPRECATED: Export Apollo leads"
+      ],
+      "workflows": [
+        "DEPRECATED: Apollo export workflow"
+      ]
+    },
+    "strengths": [
+      "Historical: Apollo bulk export"
+    ],
+    "limitations": [
+      "DEPRECATED: No longer functional"
+    ],
+    "departments_using": [
+      "LG (historical)"
+    ],
+    "tags": [
+      "deprecated",
+      "apollo-export",
+      "historical"
+    ],
+    "discovery_date": "2025-11-12",
+    "discovery_source": "Video_006_Lead_Generation_Analysis",
+    "status": "deprecated",
+    "deprecation_date": "Mid-2024"
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AUTO-104",
+    "name": "LeadsRapidly",
+    "vendor": "LeadsRapidly",
+    "category": "Automation Tools / Scraper Tool",
+    "purpose": "Export Apollo.io search results to CSV [DEPRECATED]",
+    "description": "Third-party tool for exporting Apollo.io search results. STATUS: DEPRECATED as of mid-2024 due to Apollo security changes. Tool became unstable per Video_006. Maintained for historical reference only.",
+    "skill_level_required": "Beginner",
+    "cost_structure": "Unknown (tool deprecated)",
+    "platform_compatibility": [
+      "Browser Extension (deprecated)"
+    ],
+    "integration_capabilities": [
+      "Previously: Apollo.io export",
+      "CSV download"
+    ],
+    "documentation_url": "N/A (deprecated)",
+    "actual_remote_helpers_usage": {
+      "primary_use": "DEPRECATED: Apollo Export",
+      "users": [
+        "N/A"
+      ],
+      "use_cases": [
+        "DEPRECATED: Export Apollo leads"
+      ],
+      "workflows": [
+        "DEPRECATED: Apollo export workflow"
+      ]
+    },
+    "strengths": [
+      "Historical: Apollo bulk export"
+    ],
+    "limitations": [
+      "DEPRECATED: No longer functional"
+    ],
+    "departments_using": [
+      "LG (historical)"
+    ],
+    "tags": [
+      "deprecated",
+      "apollo-export",
+      "historical"
+    ],
+    "discovery_date": "2025-11-12",
+    "discovery_source": "Video_006_Lead_Generation_Analysis",
+    "status": "deprecated",
+    "deprecation_date": "Mid-2024"
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AUTO-107",
+    "name": "Make.com",
+    "vendor": "Make (formerly Integromat)",
+    "category": "Automation Tools / Workflow Automation",
+    "purpose": "No-code automation platform for building workflows and integrations",
+    "description": "Visual workflow automation platform (formerly Integromat) that connects apps and automates processes. Alternative to n8n and Zapier with strong visual interface and powerful features. Used in lead generation for building automated scraping and enrichment pipelines. More user-friendly than n8n for non-developers.",
+    "skill_level_required": "Beginner to Intermediate",
+    "cost_structure": "Free tier available, paid plans from $9/month",
+    "platform_compatibility": [
+      "Web",
+      "Cloud-based"
+    ],
+    "integration_capabilities": [
+      "1000+ pre-built app integrations",
+      "HTTP Request modules",
+      "Webhook triggers",
+      "Data transformation",
+      "Visual workflow builder",
+      "Error handling",
+      "Scheduling",
+      "Conditional logic",
+      "Iterator and aggregator modules"
+    ],
+    "documentation_url": "https://make.com",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Visual Workflow Automation for Lead Generation",
+      "users": [
+        "Lead Generation Specialist",
+        "Automation Specialist",
+        "Sales Operations",
+        "Marketing Operations",
+        "Non-technical automators"
+      ],
+      "use_cases": [
+        "build automated enrichment workflows",
+        "connect scraping tools to CRM",
+        "automate multi-step lead processing",
+        "schedule data sync operations",
+        "transform and route lead data",
+        "orchestrate tool integrations"
+      ],
+      "workflows": [
+        "Automated Lead Enrichment Pipeline (Scraper → Make.com → Anymailfinder → CRM)"
+      ],
+      "typical_workflow_pattern": [
+        {
+          "task": "Automated Multi-Step Lead Enrichment",
+          "steps": [
+            "Trigger on new leads (webhook or schedule)",
+            "Format and validate lead data",
+            "Send to enrichment service (Anymailfinder)",
+            "Receive enriched data",
+            "Update CRM automatically",
+            "Send notifications"
+          ],
+          "complexity": "Medium",
+          "time_estimate": "Setup: 30-60 min, then automated",
+          "user_friendly": "More visual than n8n, easier for non-developers"
+        }
+      ],
+      "integration_with_other_tools": [
+        "Anymailfinder (enrichment)",
+        "Apify (scraping trigger)",
+        "CRM platforms (data destination)",
+        "Google Sheets (data storage)",
+        "Email platforms",
+        "Zapier (alternative)",
+        "n8n (alternative)"
+      ]
+    },
+    "strengths": [
+      "Very visual and intuitive interface",
+      "1000+ pre-built integrations",
+      "Easier learning curve than n8n",
+      "Powerful error handling",
+      "Good documentation",
+      "Free tier available",
+      "Better for non-developers",
+      "Active community"
+    ],
+    "limitations": [
+      "Cloud-only (no self-hosting)",
+      "Monthly costs for scaling",
+      "Less flexible than n8n for custom code",
+      "Operation limits on free tier"
+    ],
+    "comparison_to_alternatives": {
+      "vs_n8n": "Easier to use, less flexible, no self-hosting",
+      "vs_zapier": "More powerful, better pricing, steeper learning curve",
+      "best_for": "Non-developers who need visual workflow builder"
+    },
+    "departments_using": [
+      "LG",
+      "Sales",
+      "Marketing",
+      "OPS"
+    ],
+    "tags": [
+      "workflow-automation",
+      "no-code",
+      "integromat",
+      "visual-automation",
+      "lead-generation",
+      "integration-platform"
+    ],
+    "discovery_date": "2025-11-12",
+    "discovery_source": "Video_006_Lead_Generation_Analysis",
+    "status": "active",
+    "alternatives": [
+      "n8n",
+      "Zapier"
+    ],
+    "best_for": "Users who want n8n power with better UI"
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AUTO-106",
+    "name": "n8n",
+    "vendor": "n8n GmbH",
+    "category": "Automation Tools / Workflow Automation",
+    "purpose": "No-code/low-code platform for building automated workflows and integrations",
+    "description": "Open-source workflow automation tool that connects apps and services. Enables building complex automated workflows using a visual node-based editor. Supports HTTP requests, API integrations, data parsing, and connecting multiple tools/services. Used extensively in lead generation for scraping, data processing, and multi-step enrichment pipelines.",
+    "skill_level_required": "Intermediate to Advanced",
+    "cost_structure": "Free self-hosted, Cloud pricing starts at $20/month",
+    "platform_compatibility": [
+      "Web",
+      "Self-hosted (Docker)",
+      "Cloud (n8n.cloud)"
+    ],
+    "integration_capabilities": [
+      "HTTP Request nodes",
+      "API integrations (300+ apps)",
+      "Webhook triggers",
+      "Data parsing and transformation",
+      "OpenAI/GPT integration",
+      "Apify integration",
+      "Google Sheets integration",
+      "Anymailfinder integration",
+      "Custom JavaScript/Python code",
+      "Scheduled automation",
+      "Conditional logic",
+      "Loop processing"
+    ],
+    "documentation_url": "https://n8n.io",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Lead Generation Workflow Automation and Custom Scraping",
+      "users": [
+        "Lead Generation Specialist",
+        "Automation Engineer",
+        "Backend Developer",
+        "Growth Hacker",
+        "Sales Operations"
+      ],
+      "use_cases": [
+        "build custom platform scrapers",
+        "automate multi-step lead enrichment",
+        "parse HTML/JSON data",
+        "connect scraping tools to enrichment services",
+        "extract structured data from websites",
+        "orchestrate multi-tool workflows",
+        "automate HTTP requests to custom platforms",
+        "process and transform lead data"
+      ],
+      "workflows": [
+        "Custom Niche Platform Scraping (n8n + HTTP + Anymailfinder → 11.5% reply rate)",
+        "AI Website Content Extraction (n8n + OpenAI + Apify → structured contact data)",
+        "Multi-Source Lead Enrichment Pipeline orchestration"
+      ],
+      "typical_workflow_pattern": [
+        {
+          "task": "Custom Platform Scraping (Skool Example)",
+          "steps": [
+            "Identify niche platform URL structure",
+            "Build HTTP Request workflow in n8n",
+            "Send requests to platform listing pages",
+            "Receive raw JSON/HTML data",
+            "Parse data (community names, owners, etc.)",
+            "Extract additional data (Facebook, Instagram, websites)",
+            "Export to Google Sheet",
+            "Feed domains/names into Anymailfinder",
+            "Download enriched list (5,000+ leads)",
+            "Launch targeted outreach"
+          ],
+          "complexity": "Very High",
+          "time_estimate": "Initial setup: 2-4 hours, Execution: 30-60 minutes",
+          "reply_rate": "11.5% (vs 1-3% typical) - 3-4x improvement"
+        },
+        {
+          "task": "AI Website Content Extraction",
+          "steps": [
+            "Trigger Apify scraper for website data",
+            "Receive unstructured HTML via n8n",
+            "Send HTML to OpenAI GPT-5 via n8n",
+            "Extract structured contact data (emails, names, titles)",
+            "Feed to Anymailfinder for email enrichment",
+            "Achieve 10-20% email success rate"
+          ],
+          "complexity": "High",
+          "time_estimate": "Setup: 1-2 hours, Execution: automated",
+          "success_rate": "10-20% email enrichment"
+        }
+      ],
+      "integration_with_other_tools": [
+        "Anymailfinder (email enrichment endpoint)",
+        "Apify (scraper triggering)",
+        "OpenAI GPT-5 (AI parsing)",
+        "Google Sheets (data management)",
+        "Make.com (alternative automation platform)",
+        "Zapier (alternative automation platform)",
+        "HTTP APIs (any custom platform)",
+        "Skool, custom platforms (scraping targets)"
+      ]
+    },
+    "strengths": [
+      "Open-source and self-hostable",
+      "Visual workflow builder",
+      "300+ pre-built integrations",
+      "Custom HTTP request capability",
+      "JavaScript/Python code execution",
+      "Complex conditional logic",
+      "Webhook support",
+      "Free self-hosted option",
+      "Active community",
+      "Enables 3-4x higher reply rates with custom scraping"
+    ],
+    "limitations": [
+      "Steep learning curve for complex workflows",
+      "Requires coding knowledge for advanced scraping",
+      "Self-hosting requires technical setup",
+      "Cloud version has monthly costs",
+      "Not as user-friendly as Zapier for beginners"
+    ],
+    "success_metrics": {
+      "custom_scraping_reply_rate": "11.5% (vs 1-3% standard)",
+      "time_saved": "Hours per week with automation",
+      "lead_volume": "5,000+ leads from single custom scrape"
+    },
+    "departments_using": [
+      "LG",
+      "Dev",
+      "AI",
+      "OPS",
+      "Sales"
+    ],
+    "tags": [
+      "workflow-automation",
+      "no-code",
+      "low-code",
+      "scraping",
+      "integration",
+      "lead-generation",
+      "api-automation",
+      "data-processing",
+      "http-requests"
+    ],
+    "discovery_date": "2025-11-12",
+    "discovery_source": "Video_006_Lead_Generation_Analysis",
+    "status": "active",
+    "alternatives": [
+      "Make.com",
+      "Zapier"
+    ],
+    "best_for": "Custom scraping and complex multi-step workflows"
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AUTO-102",
+    "name": "Vayne",
+    "vendor": "Vayne",
+    "category": "Automation Tools / Web Scraping",
+    "purpose": "Scrape lead lists from LinkedIn Sales Navigator search URLs",
+    "description": "LinkedIn scraping tool specifically designed for extracting lead data from LinkedIn Sales Navigator searches. Takes a Sales Navigator search URL and exports the results to CSV format with profile information. Essential component in the highest-performing lead generation workflow (80-100% email enrichment when combined with Sales Navigator and Anymailfinder).",
+    "skill_level_required": "Beginner to Intermediate",
+    "cost_structure": "Subscription or credit-based pricing",
+    "platform_compatibility": [
+      "Web",
+      "Browser Extension"
+    ],
+    "integration_capabilities": [
+      "LinkedIn Sales Navigator integration",
+      "CSV export",
+      "Profile data extraction",
+      "Bulk scraping",
+      "Anymailfinder integration (workflow)",
+      "Google Sheets export",
+      "Cookie-based authentication (LI_AT token)"
+    ],
+    "documentation_url": "https://vayne.ai",
+    "actual_remote_helpers_usage": {
+      "primary_use": "LinkedIn Sales Navigator Lead List Export",
+      "users": [
+        "Lead Generation Specialist",
+        "SDR (Sales Development Representative)",
+        "Sales Manager",
+        "Outbound Marketer",
+        "Business Development Representative"
+      ],
+      "use_cases": [
+        "export LinkedIn Sales Navigator search results",
+        "scrape LinkedIn profiles in bulk",
+        "extract professional data (name, title, company)",
+        "build lead lists from LinkedIn",
+        "enable email enrichment workflows",
+        "bypass LinkedIn export limitations"
+      ],
+      "workflows": [
+        "LinkedIn Sales Navigator Lead Extraction (Navigator → Vayne → Anymailfinder → 80-100% enrichment)"
+      ],
+      "typical_workflow_pattern": [
+        {
+          "task": "Export LinkedIn Leads with Email Enrichment",
+          "steps": [
+            "Create targeted search in LinkedIn Sales Navigator",
+            "Copy Sales Navigator search URL",
+            "Paste URL into Vayne",
+            "Provide LI_AT cookie for authentication",
+            "Vayne scrapes profiles (1,000-2,500 typical)",
+            "Download CSV with profile data (name, title, company, LinkedIn URL)",
+            "Import CSV into Anymailfinder",
+            "Enrich with decision-maker emails (80-100% success)",
+            "Download final enriched lead list",
+            "Load into outreach platform"
+          ],
+          "complexity": "Medium",
+          "time_estimate": "15-20 minutes for 1,000 leads",
+          "success_rate": "80-100% email enrichment (highest method)",
+          "prerequisites": [
+            "LinkedIn Sales Navigator subscription",
+            "LI_AT cookie"
+          ]
+        }
+      ],
+      "integration_with_other_tools": [
+        "LinkedIn Sales Navigator (primary source)",
+        "Anymailfinder (downstream enrichment)",
+        "Google Sheets (data management)",
+        "LinkedIn (authentication)",
+        "Outreach platforms (final destination)"
+      ]
+    },
+    "strengths": [
+      "Enables 80-100% email enrichment (highest rate)",
+      "Bypasses LinkedIn manual export limitations",
+      "Fast bulk scraping (1,000+ leads in minutes)",
+      "Works directly with Sales Navigator URLs",
+      "Simple CSV output format",
+      "Essential for highest-performing lead gen workflow",
+      "No complex setup after initial configuration",
+      "Extracts clean structured data"
+    ],
+    "limitations": [
+      "Requires LinkedIn Sales Navigator subscription",
+      "Needs LI_AT cookie (authentication token)",
+      "LinkedIn may detect and flag excessive scraping",
+      "Terms of Service considerations",
+      "Cookie needs periodic refresh",
+      "Scraping rate limits to avoid detection"
+    ],
+    "authentication_requirements": {
+      "li_at_cookie": "Required - LinkedIn authentication token",
+      "how_to_obtain": "Extract from browser after LinkedIn login",
+      "refresh_frequency": "Periodic (when session expires)"
+    },
+    "success_metrics": {
+      "email_enrichment_rate": "80-100% when combined with Anymailfinder",
+      "comparison": "#1 highest enrichment rate among all methods",
+      "typical_export_volume": "1,000-2,500 leads per search",
+      "time_per_1000_leads": "15-20 minutes"
+    },
+    "workflow_position": "Middle step in 3-part workflow: Sales Navigator → Vayne → Anymailfinder",
+    "departments_using": [
+      "LG",
+      "Sales",
+      "Marketing",
+      "Business Development"
+    ],
+    "tags": [
+      "linkedin-scraping",
+      "lead-export",
+      "web-scraping",
+      "sales-navigator",
+      "b2b-prospecting",
+      "contact-extraction",
+      "automation",
+      "lead-generation"
+    ],
+    "discovery_date": "2025-11-12",
+    "discovery_source": "Video_006_Lead_Generation_Analysis",
+    "status": "active",
+    "compliance_note": "Users should review LinkedIn Terms of Service regarding automated scraping",
+    "recommended_workflow": "Sales Navigator search → Vayne export → Anymailfinder enrichment",
+    "enrichment_rank": "#1 method (80-100% success)"
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-BUS-016",
+    "name": "Apollo.io",
+    "vendor": "Apollo.io",
+    "category": "Business Tools / Lead Database / Sales Platform",
+    "purpose": "B2B lead database and sales engagement platform",
+    "description": "B2B lead database and sales engagement tool. NOTE: Export functionality via third-party tools (AmpleLeads, LeadsRapidly, ExportApollo) has become UNSTABLE as of Video_006 recording due to Apollo security changes. While the platform remains useful for research and engagement, bulk export workflows are currently deprecated. Historical documentation maintained for reference.",
+    "skill_level_required": "Beginner",
+    "cost_structure": "Freemium + paid tiers",
+    "platform_compatibility": [
+      "Web",
+      "API"
+    ],
+    "integration_capabilities": [
+      "CRM integration",
+      "Previously: CSV export via third-party tools (NOW UNSTABLE)"
+    ],
+    "documentation_url": "https://apollo.io",
+    "actual_remote_helpers_usage": {
+      "primary_use": "B2B Lead Database (Export functionality deprecated)",
+      "users": [
+        "Lead Generation Specialist",
+        "SDR"
+      ],
+      "use_cases": [
+        "lead research",
+        "sales engagement (in-platform)",
+        "DEPRECATED: bulk export workflows"
+      ],
+      "workflows": [
+        "DEPRECATED: Apollo export workflows (AmpleLeads/LeadsRapidly/ExportApollo)"
+      ],
+      "typical_workflow_pattern": [
+        {
+          "task": "Apollo Export (DEPRECATED)",
+          "steps": [
+            "Search leads in Apollo",
+            "Previously: Use export tool",
+            "NOW: Unstable due to security changes"
+          ],
+          "complexity": "N/A",
+          "status": "DEPRECATED"
+        }
+      ]
+    },
+    "strengths": [
+      "Large B2B database",
+      "In-platform engagement features"
+    ],
+    "limitations": [
+      "Export tools UNSTABLE",
+      "Security changes broke third-party integrations",
+      "Use in-platform features instead"
+    ],
+    "departments_using": [
+      "Sales",
+      "LG"
+    ],
+    "tags": [
+      "lead-database",
+      "b2b",
+      "sales-engagement",
+      "deprecated-export"
+    ],
+    "discovery_date": "2025-11-12",
+    "discovery_source": "Video_006_Lead_Generation_Analysis",
+    "status": "active_platform_deprecated_export",
+    "deprecation_note": "Apollo changed security mid-2024, export tools now unstable per Video_006 ~00:11:50"
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-BUS-050",
+    "name": "Discord",
+    "vendor": "Discord Inc.",
+    "category": "Business Tools / Communication",
+    "purpose": "Team communication and collaboration platform for text, voice, and video channels",
+    "description": "Discord is a communication platform designed for creating communities through organized text channels, voice calls, and video meetings. Features include threaded conversations, screen sharing, file sharing, role-based permissions, bots for automation, and integration with third-party tools. Used for team communication, project collaboration, community building, and real-time coordination.",
+    "skill_level_required": "Beginner",
+    "cost_structure": "Free tier available, Nitro subscription $9.99/month, Server Boost from $4.99/month",
+    "platform_compatibility": [
+      "Web (discord.com)",
+      "Desktop (Windows/Mac/Linux)",
+      "Mobile (iOS/Android)",
+      "Browser Extension"
+    ],
+    "integration_capabilities": [
+      "Webhooks for notifications",
+      "Bot API for automation",
+      "Third-party integrations (GitHub, Trello, Google Calendar)",
+      "Screen sharing",
+      "Voice and video calls",
+      "File sharing up to 500MB (with Nitro)",
+      "Custom emojis and stickers",
+      "Role-based access control"
+    ],
+    "documentation_url": "https://discord.com",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Team Communication & Collaboration",
+      "users": [
+        "All departments",
+        "Project teams",
+        "Development teams",
+        "Design teams",
+        "Community managers",
+        "Support teams"
+      ],
+      "use_cases": [
+        "organize team discussions in channels",
+        "conduct voice/video meetings",
+        "share files and documents",
+        "coordinate projects in real-time",
+        "provide customer support",
+        "build community engagement",
+        "host webinars and events",
+        "automate notifications via webhooks",
+        "integrate with development tools (GitHub alerts)",
+        "screen share for collaboration"
+      ],
+      "workflows": [
+        "Daily standups in voice channels",
+        "Project coordination with threaded discussions",
+        "Community support channels",
+        "Developer alerts and notifications",
+        "Design review sessions with screen sharing"
+      ],
+      "typical_workflow_pattern": [
+        {
+          "task": "Team Communication Setup",
+          "steps": [
+            "Create Discord server for team/project",
+            "Set up channels by topic (general, projects, support, etc.)",
+            "Configure roles and permissions",
+            "Add team members",
+            "Set up bots for automation (notifications, moderation)",
+            "Integrate with other tools (GitHub, calendar)",
+            "Use voice channels for meetings"
+          ],
+          "complexity": "Low",
+          "time_estimate": "10-15 minutes for initial setup",
+          "time_saved": "Reduces email clutter, enables instant communication"
+        }
+      ],
+      "integration_with_other_tools": [
+        "GitHub (code updates, PR notifications)",
+        "Google Calendar (event reminders)",
+        "Trello (project updates)",
+        "Zapier/Make (workflow automation)",
+        "Midjourney (AI image generation)",
+        "GLIF (workflow integration)",
+        "Custom bots and webhooks"
+      ]
+    },
+    "strengths": [
+      "Free tier with generous features",
+      "Excellent voice/video quality",
+      "Organized channel structure",
+      "Strong bot ecosystem",
+      "Screen sharing and streaming",
+      "Mobile and desktop apps",
+      "Low latency for real-time communication",
+      "Easy to set up and use",
+      "Good file sharing capabilities",
+      "Active development and updates"
+    ],
+    "limitations": [
+      "Can be overwhelming with many channels",
+      "Search functionality limited in free tier",
+      "File upload size limited (8MB free, 500MB with Nitro)",
+      "Message history limited in some cases",
+      "Not designed for formal business communication"
+    ],
+    "security_features": [
+      "Two-factor authentication",
+      "Role-based permissions",
+      "Private channels",
+      "Direct messages",
+      "Audit logs (for large servers)"
+    ],
+    "departments_using": [
+      "Dev",
+      "Design",
+      "Marketing",
+      "AI",
+      "OPS",
+      "HR",
+      "Sales",
+      "LG"
+    ],
+    "tags": [
+      "communication",
+      "collaboration",
+      "voice-chat",
+      "video-calls",
+      "team-chat",
+      "community",
+      "real-time",
+      "messaging",
+      "webhooks",
+      "bots"
+    ],
+    "discovery_date": "2025-11-13",
+    "discovery_source": "General business communication tools",
+    "status": "active",
+    "recommended_for": "Real-time team communication, community building, and collaborative projects"
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-BUS-017",
+    "name": "Instantly.ai",
+    "vendor": "Instantly Inc.",
+    "category": "Business Tools / Cold Email Platform / Lead Database",
+    "purpose": "Cold emailing platform with built-in lead database (Supersonic Leads)",
+    "description": "All-in-one cold email outreach platform with integrated lead database called 'Supersonic Leads'. Provides access to 250-300M verified leads directly within the platform. Includes 4,500 leads/month with subscription. Combines lead sourcing and outreach in single tool, eliminating need for separate enrichment workflows. Ideal for immediate campaign launch without external data sources.",
+    "skill_level_required": "Beginner",
+    "cost_structure": "Subscription-based, includes 4,500 leads/month",
+    "platform_compatibility": [
+      "Web",
+      "API"
+    ],
+    "integration_capabilities": [
+      "Built-in lead database (250-300M leads)",
+      "Cold email campaigns",
+      "Email warmup",
+      "A/B testing",
+      "Analytics and reporting",
+      "CRM integration",
+      "Webhook support",
+      "CSV import/export"
+    ],
+    "documentation_url": "https://instantly.ai",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Integrated Lead Database + Cold Email Platform",
+      "users": [
+        "SDR (Sales Development Representative)",
+        "Outbound Marketer",
+        "Sales Manager",
+        "Lead Generation Specialist"
+      ],
+      "use_cases": [
+        "launch cold email campaigns immediately",
+        "access built-in lead database",
+        "source and email from single platform",
+        "no external enrichment needed",
+        "purchase verified leads in-platform",
+        "automate outbound sequences"
+      ],
+      "workflows": [
+        "Instant Lead Database Access (Instantly.ai → search 250-300M leads → launch campaign immediately)"
+      ],
+      "typical_workflow_pattern": [
+        {
+          "task": "Immediate Campaign Launch with Built-In Leads",
+          "steps": [
+            "Define target criteria in Instantly.ai",
+            "Search Supersonic Leads database (250-300M contacts)",
+            "Select leads (4,500/month included)",
+            "Build email sequence in platform",
+            "Launch cold email campaign",
+            "No external tools needed"
+          ],
+          "complexity": "Low",
+          "time_estimate": "15-20 minutes from search to campaign launch",
+          "included_leads": "4,500 per month"
+        }
+      ],
+      "integration_with_other_tools": [
+        "CRM platforms",
+        "External lead sources (CSV import)",
+        "Analytics tools",
+        "Webhook integrations"
+      ]
+    },
+    "strengths": [
+      "All-in-one: leads + outreach in single platform",
+      "250-300M verified leads included",
+      "4,500 leads/month with subscription",
+      "No external enrichment workflow needed",
+      "Immediate campaign launch capability",
+      "Email warmup included",
+      "A/B testing built-in",
+      "Simplifies lead generation process"
+    ],
+    "limitations": [
+      "Limited to 4,500 leads/month (subscription limit)",
+      "Less flexible than custom scraping workflows",
+      "Database quality depends on Instantly's sources",
+      "Higher monthly cost than pay-per-lead tools"
+    ],
+    "cost_analysis": {
+      "subscription": "Monthly fee (check website)",
+      "included_leads": "4,500 per month",
+      "additional_leads": "Available for purchase",
+      "value": "Eliminates separate enrichment tool costs"
+    },
+    "supersonic_leads_db": {
+      "total_contacts": "250-300M verified leads",
+      "monthly_allowance": "4,500 leads included",
+      "verification": "Pre-verified by Instantly"
+    },
+    "departments_using": [
+      "Sales",
+      "Marketing",
+      "LG"
+    ],
+    "tags": [
+      "cold-email",
+      "lead-database",
+      "outbound",
+      "email-automation",
+      "supersonic-leads",
+      "all-in-one"
+    ],
+    "discovery_date": "2025-11-12",
+    "discovery_source": "Video_006_Lead_Generation_Analysis",
+    "status": "active",
+    "unique_value": "Only platform combining large lead DB + cold email in single tool"
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-DATA-006",
+    "name": "Airscale",
+    "vendor": "Airscale",
+    "category": "Data Tools / Company Database",
+    "purpose": "Find companies by location, size, keywords and extract domains",
+    "description": "Company database and domain lookup tool for B2B lead generation. Allows searching for target companies by criteria (location, company size, keywords, industry) and exports company domains for further enrichment. Features enterprise arbitrage capability where searching for 1 company can return up to 40 email addresses.",
+    "skill_level_required": "Beginner",
+    "cost_structure": "Credit-based, enterprise arbitrage: 1:40 ratio (1 credit = up to 40 emails)",
+    "platform_compatibility": [
+      "Web",
+      "API"
+    ],
+    "integration_capabilities": [
+      "CSV export",
+      "API integration",
+      "Direct integration with Anymailfinder",
+      "Integration with Clay (mentioned as alternative)",
+      "Bulk company search",
+      "Domain extraction"
+    ],
+    "documentation_url": "https://airscale.io",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Target Company Discovery and Domain Extraction",
+      "users": [
+        "Lead Generation Specialist",
+        "SDR (Sales Development Representative)",
+        "Outbound Marketer",
+        "Sales Operations"
+      ],
+      "use_cases": [
+        "find target companies by criteria",
+        "extract company domains for enrichment",
+        "build ICP-based prospect lists",
+        "discover companies in specific locations",
+        "filter companies by size and industry",
+        "enterprise email arbitrage"
+      ],
+      "workflows": [
+        "Multi-Source Lead Enrichment Pipeline (Airscale → Anymailfinder → 50-80% enrichment)"
+      ],
+      "typical_workflow_pattern": [
+        {
+          "task": "Company Domain Lookup for Lead Enrichment",
+          "steps": [
+            "Define search criteria (location, size, keywords, industry)",
+            "Run company search query",
+            "Export company list with domains to CSV",
+            "Import CSV into Anymailfinder",
+            "Enrich with decision-maker emails (50-80% success rate)",
+            "Download final enriched lead list"
+          ],
+          "complexity": "Low",
+          "time_estimate": "5-10 minutes for initial search, 10-15 min for enrichment",
+          "success_rate": "50-80% email enrichment rate"
+        }
+      ],
+      "integration_with_other_tools": [
+        "Anymailfinder (primary integration for email enrichment)",
+        "Clay (mentioned as alternative platform)",
+        "Google Sheets (data management)"
+      ]
+    },
+    "strengths": [
+      "Enterprise arbitrage: 1:40 credit-to-email ratio",
+      "Easy-to-use search interface",
+      "High-quality company data",
+      "Reliable domain extraction",
+      "Good integration with Anymailfinder",
+      "Cost-effective for large companies",
+      "ICP-based filtering capabilities"
+    ],
+    "limitations": [
+      "Requires clear ICP definition for best results",
+      "Credit system may be expensive for small companies",
+      "Limited to company-level data (needs Anymailfinder for contacts)"
+    ],
+    "departments_using": [
+      "LG",
+      "Sales",
+      "Marketing"
+    ],
+    "tags": [
+      "company-database",
+      "domain-lookup",
+      "lead-generation",
+      "b2b-prospecting",
+      "enterprise-arbitrage",
+      "icp-targeting",
+      "company-discovery"
+    ],
+    "discovery_date": "2025-11-12",
+    "discovery_source": "Video_006_Lead_Generation_Analysis",
+    "status": "active"
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-DATA-007",
+    "name": "Anymailfinder",
+    "vendor": "Anymailfinder",
+    "category": "Data Tools / Email Enrichment",
+    "purpose": "Find and verify email addresses using nominative enrichment patterns",
+    "description": "Email enrichment service that finds decision-maker emails by combining first/last names with company domains in multiple nominative patterns. Uses pattern matching (first.last@domain, flast@domain, etc.) to discover valid email addresses. Only charges for successfully found emails, not attempts.",
+    "skill_level_required": "Beginner to Intermediate",
+    "cost_structure": "$0.0025 per valid email found (pay only for results)",
+    "platform_compatibility": [
+      "Web",
+      "API",
+      "CSV Upload/Download"
+    ],
+    "integration_capabilities": [
+      "API integration",
+      "CSV bulk upload",
+      "CSV bulk download",
+      "Direct domain/company search",
+      "Bulk search operations",
+      "Integration with Airscale",
+      "Integration with Vayne",
+      "Integration with Apify scrapers",
+      "n8n workflow automation"
+    ],
+    "documentation_url": "https://anymailfinder.com",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Bulk Email Enrichment for Outbound Lead Generation",
+      "users": [
+        "Lead Generation Specialist",
+        "SDR (Sales Development Representative)",
+        "Outbound Marketer",
+        "Growth Hacker",
+        "Sales Operations"
+      ],
+      "use_cases": [
+        "enrich lead lists with decision-maker emails",
+        "find contact information for target companies",
+        "validate email addresses",
+        "build outbound prospecting lists",
+        "multi-source lead enrichment",
+        "enterprise email discovery via arbitrage",
+        "nominative enrichment for B2B contacts"
+      ],
+      "workflows": [
+        "Multi-Source Lead Enrichment Pipeline (Airscale → Anymailfinder)",
+        "LinkedIn Sales Navigator Export (Vayne → Anymailfinder)",
+        "Google SERP Scraping (Apify → Anymailfinder)",
+        "Google Maps Scraping (Apify → Anymailfinder)",
+        "Enterprise Email Arbitrage (1:40 credit ratio)",
+        "Social Media Scraping (Instagram/TikTok → Anymailfinder)",
+        "LinkedIn Jobs Scraping (Apify → Anymailfinder)",
+        "Custom Platform Scraping (n8n → Anymailfinder)"
+      ],
+      "typical_workflow_pattern": [
+        {
+          "task": "Multi-Source Lead Enrichment Pipeline",
+          "steps": [
+            "Import CSV with company domains or names",
+            "Run nominative enrichment search",
+            "System tests multiple email patterns per contact",
+            "Download enriched list with valid emails only",
+            "Export to outreach platform"
+          ],
+          "complexity": "Medium",
+          "time_estimate": "10-15 minutes for 40 records",
+          "success_rate": "50-80% depending on source quality"
+        },
+        {
+          "task": "Enterprise Email Arbitrage",
+          "steps": [
+            "Search for 1 company domain (costs 1 credit)",
+            "Receive up to 40 decision-maker emails",
+            "Download enriched company contact list",
+            "Achieve 1:40 credit-to-email ratio"
+          ],
+          "complexity": "Low",
+          "time_estimate": "2-3 minutes per company",
+          "success_rate": "High for large enterprises"
+        }
+      ],
+      "integration_with_other_tools": [
+        "Airscale (company domain lookup → email enrichment)",
+        "Vayne (LinkedIn scraping → email enrichment)",
+        "Apify Google SERP Scraper (domain discovery → email enrichment)",
+        "Apify Google Maps Scraper (local business → email enrichment)",
+        "Apify LinkedIn Jobs Scraper (intent-based leads → email enrichment)",
+        "Apify Social Media Scrapers (profile data → email enrichment)",
+        "n8n (workflow automation orchestration)",
+        "Make.com (alternative workflow automation)",
+        "Google Sheets (data management and processing)"
+      ]
+    },
+    "strengths": [
+      "Only charges for valid emails found (not attempts)",
+      "50-80% enrichment success rate",
+      "Enterprise arbitrage: 1:40 credit ratio for company searches",
+      "Nominative enrichment handles name variations automatically",
+      "Fast bulk processing (40 records in 10-15 minutes)",
+      "No complex setup required",
+      "Works with incomplete data (just company + name)",
+      "Integrates well with all scraping tools",
+      "Cost-effective: $0.0025 per valid email"
+    ],
+    "limitations": [
+      "Requires company domain or name as input",
+      "Success rate varies by data source quality",
+      "Lower success rate for smaller companies (< 50 employees)",
+      "Dependent on email pattern predictability",
+      "May not find emails for very privacy-conscious companies"
+    ],
+    "success_rates_by_source": {
+      "LinkedIn Sales Navigator + Vayne": "80-100%",
+      "Airscale + Anymailfinder": "50-80%",
+      "Apify Google SERP + Anymailfinder": "40-60%",
+      "Apify Google Maps + Anymailfinder": "20-32%",
+      "Custom Scraper + Anymailfinder": "10-20%"
+    },
+    "departments_using": [
+      "LG",
+      "Sales",
+      "Marketing"
+    ],
+    "tags": [
+      "email-enrichment",
+      "lead-generation",
+      "nominative-enrichment",
+      "b2b-prospecting",
+      "contact-discovery",
+      "data-enrichment",
+      "outbound-sales",
+      "lead-qualification"
+    ],
+    "discovery_date": "2025-11-12",
+    "discovery_source": "Video_006_Lead_Generation_Analysis",
+    "status": "active",
+    "mention_frequency_in_source": "30+ mentions across 14 workflows"
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-DATA-008",
+    "name": "Bright Data",
+    "vendor": "Bright Data Ltd.",
+    "category": "Data Tools / Data Marketplace",
+    "purpose": "Purchase pre-scraped datasets including 600M+ LinkedIn profiles",
+    "description": "Data marketplace providing access to massive pre-scraped datasets. Offers 600M+ LinkedIn profiles, Crunchbase company data, and other B2B datasets ready for immediate use. Bypass scraping entirely by purchasing pre-collected, verified data. Cost-effective at $0.0025 per record for large-volume lead acquisition.",
+    "skill_level_required": "Beginner",
+    "cost_structure": "$0.0025 per record (600M+ LinkedIn profiles available)",
+    "platform_compatibility": [
+      "Web",
+      "API",
+      "CSV Download"
+    ],
+    "integration_capabilities": [
+      "Direct CSV download",
+      "API access",
+      "Bulk data purchase",
+      "Filtered dataset queries",
+      "Crunchbase data integration",
+      "LinkedIn profile data",
+      "Custom data requests"
+    ],
+    "documentation_url": "https://brightdata.com",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Large-Volume Pre-Scraped Lead Database Purchase",
+      "users": [
+        "Lead Generation Specialist",
+        "Sales Operations",
+        "Data Analyst",
+        "Marketing Operations"
+      ],
+      "use_cases": [
+        "purchase large lead databases instantly",
+        "bypass scraping time and complexity",
+        "access 600M+ LinkedIn profiles",
+        "buy Crunchbase company lists",
+        "acquire verified B2B contact data",
+        "scale lead generation quickly"
+      ],
+      "workflows": [
+        "Multi-Source Lead Database Purchase (Bright Data → filter → download → use immediately)"
+      ],
+      "typical_workflow_pattern": [
+        {
+          "task": "Purchase Large Lead Database",
+          "steps": [
+            "Define target criteria (industry, location, title, etc.)",
+            "Search Bright Data marketplace",
+            "Select dataset (e.g., 100K LinkedIn profiles)",
+            "Purchase at $0.0025/record ($250 for 100K)",
+            "Download CSV immediately",
+            "Import to CRM or outreach platform",
+            "No scraping or enrichment needed"
+          ],
+          "complexity": "Low",
+          "time_estimate": "10-15 minutes",
+          "volume": "100K+ leads typical purchase",
+          "cost_per_lead": "$0.0025"
+        }
+      ],
+      "integration_with_other_tools": [
+        "CRM platforms (direct import)",
+        "Outreach platforms",
+        "Google Sheets",
+        "Data analysis tools",
+        "Crunchbase (data source)"
+      ]
+    },
+    "strengths": [
+      "Instant access to 600M+ LinkedIn profiles",
+      "No scraping setup required",
+      "Cost-effective: $0.0025 per record",
+      "Pre-verified data",
+      "Massive scale (100K+ leads in minutes)",
+      "Includes Crunchbase company data",
+      "Bypass scraping legal/technical issues",
+      "Immediate availability"
+    ],
+    "limitations": [
+      "Data may be less fresh than real-time scraping",
+      "Still requires filtering and segmentation",
+      "Upfront cost for large datasets",
+      "Data quality varies by source",
+      "Ethical/compliance considerations with purchased data"
+    ],
+    "cost_analysis": {
+      "per_record": "$0.0025",
+      "100k_leads": "$250",
+      "comparison": "Similar to enrichment cost but includes full profiles"
+    },
+    "available_datasets": [
+      "LinkedIn profiles (600M+)",
+      "Crunchbase companies",
+      "B2B contact databases",
+      "Industry-specific datasets"
+    ],
+    "departments_using": [
+      "LG",
+      "Sales",
+      "Marketing"
+    ],
+    "tags": [
+      "data-marketplace",
+      "lead-database",
+      "linkedin-profiles",
+      "bulk-data",
+      "pre-scraped",
+      "b2b-data"
+    ],
+    "discovery_date": "2025-11-12",
+    "discovery_source": "Video_006_Lead_Generation_Analysis",
+    "status": "active",
+    "use_case": "High-volume lead generation without scraping infrastructure"
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-DEV-038",
+    "name": "Apify",
+    "vendor": "Apify Technologies",
+    "category": "Development Tools / Web Scraping Platform",
+    "purpose": "Platform hosting pre-built web scrapers (Actors) for various sites and data sources",
+    "description": "Cloud-based web scraping and automation platform that hosts hundreds of pre-built scrapers called 'Actors'. Provides ready-to-use scrapers for Google SERP, Google Maps, LinkedIn Jobs, Instagram, TikTok, Twitter, and many other platforms. Used extensively in lead generation workflows for extracting contact data from multiple sources with varying enrichment success rates (20-100% depending on source).",
+    "skill_level_required": "Beginner to Intermediate",
+    "cost_structure": "Credit-based pricing, free tier available, paid plans from $49/month",
+    "platform_compatibility": [
+      "Web",
+      "API",
+      "Cloud-based"
+    ],
+    "integration_capabilities": [
+      "300+ pre-built Actors (scrapers)",
+      "REST API",
+      "Webhooks",
+      "n8n integration",
+      "Make.com integration",
+      "Zapier integration",
+      "Google Sheets export",
+      "CSV/JSON output formats",
+      "Scheduled runs",
+      "Proxy rotation"
+    ],
+    "documentation_url": "https://apify.com",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Multi-Platform Web Scraping for Lead Generation",
+      "users": [
+        "Lead Generation Specialist",
+        "Backend Developer",
+        "Growth Hacker",
+        "Data Analyst",
+        "Sales Operations"
+      ],
+      "use_cases": [
+        "scrape Google search results for domains",
+        "extract Google Maps business data",
+        "scrape LinkedIn Jobs for intent-based leads",
+        "extract Instagram profiles",
+        "scrape TikTok creator data",
+        "extract Twitter/X profiles",
+        "automate multi-source lead collection",
+        "build custom scraping workflows"
+      ],
+      "workflows": [
+        "Google SERP Scraping (Apify → Anymailfinder → 40-60% enrichment)",
+        "Google Maps Scraping (Apify → Anymailfinder → 20-32% enrichment)",
+        "Social Media Scraping (Apify Instagram/TikTok → Anymailfinder → 20-40% enrichment)",
+        "LinkedIn Jobs Scraping (Apify → Anymailfinder → 80-100% enrichment)",
+        "AI Website Content Extraction (Apify → n8n → OpenAI → Anymailfinder)"
+      ],
+      "typical_workflow_pattern": [
+        {
+          "task": "Google SERP Domain Scraping",
+          "steps": [
+            "Define search queries (e.g., 'AI agencies in California')",
+            "Configure Apify Google SERP Scraper",
+            "Run scraper to extract domains from results",
+            "Download CSV with domains",
+            "Import to Anymailfinder for email enrichment",
+            "Achieve 40-60% enrichment rate"
+          ],
+          "complexity": "Medium",
+          "time_estimate": "20-30 minutes setup, execution automated",
+          "success_rate": "40-60% email enrichment"
+        },
+        {
+          "task": "LinkedIn Jobs Intent-Based Lead Generation",
+          "steps": [
+            "Search LinkedIn Jobs for relevant positions (e.g., 'hiring SDR')",
+            "Configure Apify LinkedIn Jobs Scraper",
+            "Extract companies actively hiring",
+            "Scrape company domains and job posters",
+            "Feed to Anymailfinder",
+            "Achieve 80-100% enrichment (intent-based leads)"
+          ],
+          "complexity": "Medium",
+          "time_estimate": "25-35 minutes",
+          "success_rate": "80-100% enrichment (highest for Apify methods)"
+        }
+      ],
+      "integration_with_other_tools": [
+        "Anymailfinder (primary downstream enrichment)",
+        "n8n (workflow orchestration)",
+        "Make.com (alternative automation)",
+        "OpenAI GPT-5 (AI parsing for unstructured data)",
+        "Google Sheets (data management)",
+        "Zapier (integration platform)"
+      ]
+    },
+    "strengths": [
+      "300+ pre-built scrapers (no coding required)",
+      "Cloud-based (no infrastructure needed)",
+      "Handles proxy rotation automatically",
+      "Scales to large volumes",
+      "Webhook support for automation",
+      "API access for integration",
+      "Free tier for testing",
+      "Active marketplace with community Actors",
+      "Reliable and maintained scrapers"
+    ],
+    "limitations": [
+      "Credit costs can add up for large volumes",
+      "Some scrapers may break when sites change",
+      "Rate limits on free tier",
+      "Variable success rates by platform (20-100%)",
+      "Requires Anymailfinder for email enrichment"
+    ],
+    "popular_actors": [
+      {
+        "name": "Google SERP Scraper",
+        "tool_id": "TOOL-DEV-039",
+        "enrichment_rate": "40-60%",
+        "use_case": "Domain discovery from search results"
+      },
+      {
+        "name": "Google Maps Scraper",
+        "tool_id": "TOOL-DEV-040",
+        "enrichment_rate": "20-32%",
+        "use_case": "Local business lead generation"
+      },
+      {
+        "name": "LinkedIn Jobs Scraper",
+        "tool_id": "TOOL-DEV-041",
+        "enrichment_rate": "80-100%",
+        "use_case": "Intent-based lead generation"
+      },
+      {
+        "name": "Instagram Scraper",
+        "tool_id": "TOOL-DEV-042",
+        "enrichment_rate": "20-40%",
+        "use_case": "Influencer/creator outreach"
+      },
+      {
+        "name": "TikTok Scraper",
+        "tool_id": "TOOL-DEV-043",
+        "enrichment_rate": "20-40%",
+        "use_case": "Creator outreach"
+      }
+    ],
+    "success_rates_by_actor": {
+      "LinkedIn_Jobs_Scraper": "80-100% (intent-based, highest)",
+      "Google_SERP_Scraper": "40-60%",
+      "Google_Maps_Scraper": "20-32%",
+      "Instagram_Scraper": "20-40%",
+      "TikTok_Scraper": "20-40%"
+    },
+    "departments_using": [
+      "LG",
+      "Dev",
+      "Sales",
+      "Marketing"
+    ],
+    "tags": [
+      "web-scraping",
+      "lead-generation",
+      "automation",
+      "data-extraction",
+      "cloud-platform",
+      "actors",
+      "api",
+      "multi-source"
+    ],
+    "discovery_date": "2025-11-12",
+    "discovery_source": "Video_006_Lead_Generation_Analysis",
+    "status": "active",
+    "platform_type": "Cloud SaaS"
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-DEV-040",
+    "name": "Apify Google Maps Scraper",
+    "vendor": "Apify (Actor)",
+    "category": "Development Tools / Web Scraper",
+    "purpose": "Scrape Google Maps for local business contact data and lead generation",
+    "description": "Pre-built Apify Actor that scrapes Google Maps business listings to extract company information, domains, phone numbers, and addresses. Used for local business lead generation. When combined with Anymailfinder, achieves 20-32% email enrichment success rate. Ideal for location-based B2B or B2C prospecting.",
+    "skill_level_required": "Beginner",
+    "cost_structure": "Apify credit-based (part of Apify platform subscription)",
+    "platform_compatibility": [
+      "Web (Apify platform)",
+      "API"
+    ],
+    "integration_capabilities": [
+      "Apify platform",
+      "CSV/JSON export",
+      "API integration",
+      "n8n integration",
+      "Anymailfinder workflow",
+      "Google Sheets export"
+    ],
+    "documentation_url": "https://apify.com/actors/google-maps-scraper",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Local Business Lead Generation",
+      "users": [
+        "Lead Generation Specialist",
+        "Local Business Development",
+        "Sales Operations"
+      ],
+      "use_cases": [
+        "find local businesses by category and location",
+        "extract business contact data",
+        "build location-specific lead lists",
+        "discover small/medium business prospects"
+      ],
+      "workflows": [
+        "Google Maps Local Business Scraping (Apify Maps → Anymailfinder → 20-32% enrichment)"
+      ],
+      "typical_workflow_pattern": [
+        {
+          "task": "Local Business Lead List Creation",
+          "steps": [
+            "Define search: category + location (e.g., 'coffee shops in Austin')",
+            "Configure Apify Google Maps Scraper",
+            "Run scraper (extracts business listings)",
+            "Download business data (name, phone, address, website)",
+            "Import domains to Anymailfinder",
+            "Achieve 20-32% email enrichment"
+          ],
+          "complexity": "Low",
+          "time_estimate": "20-30 minutes",
+          "success_rate": "20-32% enrichment"
+        }
+      ],
+      "integration_with_other_tools": [
+        "Apify platform",
+        "Anymailfinder (downstream enrichment)",
+        "n8n (automation)",
+        "Google Sheets"
+      ]
+    },
+    "strengths": [
+      "No coding required",
+      "Rich local business data",
+      "Phone numbers included",
+      "Location-based targeting",
+      "Scalable"
+    ],
+    "limitations": [
+      "Lower enrichment rate (20-32%)",
+      "Small business focus",
+      "Requires Anymailfinder for emails"
+    ],
+    "success_rate": "20-32% email enrichment",
+    "departments_using": [
+      "LG",
+      "Sales"
+    ],
+    "tags": [
+      "scraping",
+      "google-maps",
+      "local-business",
+      "lead-generation",
+      "apify-actor"
+    ],
+    "discovery_date": "2025-11-12",
+    "discovery_source": "Video_006_Lead_Generation_Analysis",
+    "status": "active",
+    "parent_platform": "Apify (TOOL-DEV-038)"
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-DEV-039",
+    "name": "Apify Google SERP Scraper",
+    "vendor": "Apify (Actor)",
+    "category": "Development Tools / Web Scraper",
+    "purpose": "Scrape Google search results to extract domains and contact information",
+    "description": "Pre-built Apify Actor that scrapes Google Search Engine Results Pages (SERP) to extract domains, company names, and metadata from search results. Used for discovering target companies based on search queries, then feeding domains to Anymailfinder for email enrichment. Achieves 40-60% email enrichment success rate.",
+    "skill_level_required": "Beginner",
+    "cost_structure": "Apify credit-based (part of Apify platform subscription)",
+    "platform_compatibility": [
+      "Web (Apify platform)",
+      "API"
+    ],
+    "integration_capabilities": [
+      "Apify platform",
+      "CSV/JSON export",
+      "API integration",
+      "n8n integration",
+      "Anymailfinder workflow",
+      "Google Sheets export"
+    ],
+    "documentation_url": "https://apify.com/actors/google-serp-scraper",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Domain Discovery via Google Search",
+      "users": [
+        "Lead Generation Specialist",
+        "Growth Hacker",
+        "Sales Operations"
+      ],
+      "use_cases": [
+        "find target companies via search queries",
+        "discover domains for enrichment",
+        "build niche-specific lead lists",
+        "identify companies by keyword and location"
+      ],
+      "workflows": [
+        "Google SERP Domain Scraping (Apify SERP → Anymailfinder → 40-60% enrichment)"
+      ],
+      "typical_workflow_pattern": [
+        {
+          "task": "Google Search-Based Lead Generation",
+          "steps": [
+            "Define search queries (e.g., 'AI agencies in California')",
+            "Configure Apify Google SERP Scraper",
+            "Run scraper (extracts top results)",
+            "Download domains from search results",
+            "Import to Anymailfinder",
+            "Achieve 40-60% email enrichment"
+          ],
+          "complexity": "Low",
+          "time_estimate": "20-30 minutes",
+          "success_rate": "40-60% enrichment"
+        }
+      ],
+      "integration_with_other_tools": [
+        "Apify platform",
+        "Anymailfinder (downstream enrichment)",
+        "n8n (automation)",
+        "Google Sheets"
+      ]
+    },
+    "strengths": [
+      "No coding required",
+      "Fast domain discovery",
+      "40-60% enrichment rate",
+      "Scalable",
+      "Cloud-based"
+    ],
+    "limitations": [
+      "Depends on Google search quality",
+      "Rate limits",
+      "Requires Anymailfinder for emails"
+    ],
+    "success_rate": "40-60% email enrichment",
+    "departments_using": [
+      "LG",
+      "Sales"
+    ],
+    "tags": [
+      "scraping",
+      "google-serp",
+      "lead-generation",
+      "apify-actor"
+    ],
+    "discovery_date": "2025-11-12",
+    "discovery_source": "Video_006_Lead_Generation_Analysis",
+    "status": "active",
+    "parent_platform": "Apify (TOOL-DEV-038)"
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-DEV-042",
+    "name": "Apify Instagram Scraper",
+    "vendor": "Apify (Actor)",
+    "category": "Development Tools / Web Scraper",
+    "purpose": "Scrape Instagram profiles for influencer/creator outreach",
+    "description": "Pre-built Apify Actor for scraping Instagram profiles, followers, and engagement data. Used for influencer and creator outreach campaigns. Achieves 20-40% email enrichment when combined with Anymailfinder.",
+    "skill_level_required": "Beginner",
+    "cost_structure": "Apify credit-based",
+    "platform_compatibility": [
+      "Web (Apify)",
+      "API"
+    ],
+    "integration_capabilities": [
+      "Apify platform",
+      "CSV export",
+      "Anymailfinder workflow"
+    ],
+    "documentation_url": "https://apify.com/actors/instagram-scraper",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Influencer/Creator Lead Generation",
+      "users": [
+        "Lead Generation Specialist",
+        "Influencer Marketing"
+      ],
+      "use_cases": [
+        "scrape creator profiles",
+        "find influencers for outreach",
+        "collect engagement data"
+      ],
+      "workflows": [
+        "Social Media Scraping (Apify Instagram → Anymailfinder → 20-40% enrichment)"
+      ]
+    },
+    "strengths": [
+      "Creator discovery",
+      "Engagement metrics",
+      "No coding required"
+    ],
+    "limitations": [
+      "Lower enrichment (20-40%)",
+      "Instagram rate limits"
+    ],
+    "success_rate": "20-40% enrichment",
+    "departments_using": [
+      "Marketing",
+      "LG"
+    ],
+    "tags": [
+      "instagram",
+      "social-scraping",
+      "influencer-marketing",
+      "apify-actor"
+    ],
+    "discovery_date": "2025-11-12",
+    "discovery_source": "Video_006_Lead_Generation_Analysis",
+    "status": "active",
+    "parent_platform": "Apify (TOOL-DEV-038)"
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-DEV-041",
+    "name": "Apify LinkedIn Jobs Scraper",
+    "vendor": "Apify (Actor)",
+    "category": "Development Tools / Web Scraper",
+    "purpose": "Scrape LinkedIn Jobs to identify intent-based leads and hiring companies",
+    "description": "Pre-built Apify Actor that scrapes LinkedIn job postings to identify companies actively hiring for specific roles. Provides intent-based lead generation by targeting companies with hiring needs. When combined with Anymailfinder, achieves 80-100% email enrichment success rate - matching LinkedIn Sales Navigator performance. Highly effective for B2B sales targeting companies with specific hiring signals.",
+    "skill_level_required": "Beginner",
+    "cost_structure": "Apify credit-based (part of Apify platform subscription)",
+    "platform_compatibility": [
+      "Web (Apify platform)",
+      "API"
+    ],
+    "integration_capabilities": [
+      "Apify platform",
+      "CSV/JSON export",
+      "API integration",
+      "n8n integration",
+      "Anymailfinder workflow",
+      "Google Sheets export"
+    ],
+    "documentation_url": "https://apify.com/actors/linkedin-jobs-scraper",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Intent-Based Lead Generation via Hiring Signals",
+      "users": [
+        "Lead Generation Specialist",
+        "SDR (Sales Development Representative)",
+        "Sales Operations",
+        "Business Development"
+      ],
+      "use_cases": [
+        "identify companies hiring for specific roles",
+        "target companies with hiring intent signals",
+        "build warm lead lists based on job postings",
+        "discover decision-makers (job posters)",
+        "time sales outreach to hiring cycles"
+      ],
+      "workflows": [
+        "LinkedIn Jobs Intent-Based Lead Gen (Apify Jobs → Anymailfinder → 80-100% enrichment)"
+      ],
+      "typical_workflow_pattern": [
+        {
+          "task": "Intent-Based Lead Generation",
+          "steps": [
+            "Search LinkedIn Jobs for relevant positions (e.g., 'hiring SDR')",
+            "Configure Apify LinkedIn Jobs Scraper",
+            "Run scraper (extracts job postings)",
+            "Extract: company domains, job poster info, hiring signals",
+            "Import to Anymailfinder",
+            "Achieve 80-100% email enrichment (highest for Apify methods)",
+            "Target outreach to companies with active hiring intent"
+          ],
+          "complexity": "Medium",
+          "time_estimate": "25-35 minutes",
+          "success_rate": "80-100% enrichment (intent-based)",
+          "unique_value": "Warm leads with timing signal"
+        }
+      ],
+      "integration_with_other_tools": [
+        "Apify platform",
+        "Anymailfinder (downstream enrichment)",
+        "n8n (automation)",
+        "Google Sheets",
+        "LinkedIn"
+      ]
+    },
+    "strengths": [
+      "Highest Apify enrichment rate (80-100%)",
+      "Intent-based leads (hiring signal)",
+      "Timing advantage (active needs)",
+      "Decision-maker discovery (job posters)",
+      "No Sales Navigator subscription needed",
+      "Warmer prospects than cold scraping"
+    ],
+    "limitations": [
+      "Limited to companies posting jobs",
+      "Requires Anymailfinder for emails",
+      "LinkedIn may have rate limits"
+    ],
+    "success_rate": "80-100% email enrichment (highest for Apify, matches Sales Navigator)",
+    "intent_signal": "Active hiring = warm lead with immediate need",
+    "departments_using": [
+      "LG",
+      "Sales",
+      "Business Development"
+    ],
+    "tags": [
+      "scraping",
+      "linkedin-jobs",
+      "intent-based",
+      "lead-generation",
+      "apify-actor",
+      "hiring-signals"
+    ],
+    "discovery_date": "2025-11-12",
+    "discovery_source": "Video_006_Lead_Generation_Analysis",
+    "status": "active",
+    "parent_platform": "Apify (TOOL-DEV-038)",
+    "enrichment_rank": "#1 for Apify methods (tied with Sales Navigator workflow)"
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-DEV-043",
+    "name": "Apify TikTok Scraper",
+    "vendor": "Apify (Actor)",
+    "category": "Development Tools / Web Scraper",
+    "purpose": "Scrape TikTok creator profiles for outreach campaigns",
+    "description": "Pre-built Apify Actor for scraping TikTok creator profiles, videos, and engagement metrics. Used for creator outreach and influencer marketing. Achieves 20-40% email enrichment with Anymailfinder.",
+    "skill_level_required": "Beginner",
+    "cost_structure": "Apify credit-based",
+    "platform_compatibility": [
+      "Web (Apify)",
+      "API"
+    ],
+    "integration_capabilities": [
+      "Apify platform",
+      "CSV export",
+      "Anymailfinder workflow"
+    ],
+    "documentation_url": "https://apify.com/actors/tiktok-scraper",
+    "actual_remote_helpers_usage": {
+      "primary_use": "TikTok Creator Lead Generation",
+      "users": [
+        "Lead Generation Specialist",
+        "Influencer Marketing"
+      ],
+      "use_cases": [
+        "scrape creator profiles",
+        "find TikTok influencers",
+        "collect viral content data"
+      ],
+      "workflows": [
+        "Social Media Scraping (Apify TikTok → Anymailfinder → 20-40% enrichment)"
+      ]
+    },
+    "strengths": [
+      "Creator discovery",
+      "Viral content tracking",
+      "No coding required"
+    ],
+    "limitations": [
+      "Lower enrichment (20-40%)",
+      "TikTok rate limits"
+    ],
+    "success_rate": "20-40% enrichment",
+    "departments_using": [
+      "Marketing",
+      "LG"
+    ],
+    "tags": [
+      "tiktok",
+      "social-scraping",
+      "creator-outreach",
+      "apify-actor"
+    ],
+    "discovery_date": "2025-11-12",
+    "discovery_source": "Video_006_Lead_Generation_Analysis",
+    "status": "active",
+    "parent_platform": "Apify (TOOL-DEV-038)"
+  }
+]

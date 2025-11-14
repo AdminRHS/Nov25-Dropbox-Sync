@@ -1,0 +1,1469 @@
+[
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AI-051",
+    "name": "C dans",
+    "vendor": "C dans AI",
+    "category": "AI/Video Animation",
+    "purpose": "AI-powered video animation and motion graphics for creative content production",
+    "description": "C dans (also referenced as C dans light) is an AI video animation tool used for creating animated video content and motion graphics. Used in creative workflows for generating dynamic video animations, character movements, and visual storytelling. Often integrated into automated content pipelines via platforms like GLIF for producing engaging social media content, marketing videos, and creative projects.",
+    "skill_level_required": "Beginner to Intermediate",
+    "cost_structure": "Usage-based (freemium model with paid tiers)",
+    "platform_compatibility": [
+      "Web",
+      "API",
+      "GLIF Integration"
+    ],
+    "integration_capabilities": [
+      "Video animation generation",
+      "Motion graphics creation",
+      "Character animation",
+      "Scene transitions and effects",
+      "Integration with workflow automation (GLIF)",
+      "Text-to-animation",
+      "Image-to-animation conversion",
+      "Style customization",
+      "Short-form video optimization"
+    ],
+    "documentation_url": "https://glif.app (accessed via GLIF integrations)",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Animated Video Content Creation for Social Media and Marketing",
+      "users": [
+        "Content Creators",
+        "Animators",
+        "Social Media Managers",
+        "Marketing Teams",
+        "Video Editors"
+      ],
+      "team_members": [
+        "Content creators producing animated social content",
+        "Marketing teams creating promotional animations",
+        "Social media managers generating engaging video content",
+        "Video editors adding animated elements",
+        "Creative directors exploring animation concepts"
+      ],
+      "use_cases": [
+        "animate social content",
+        "animate marketing content",
+        "animate explainer videos",
+        "animate product showcases",
+        "create character content",
+        "animate logos",
+        "animate text",
+        "design transition effects",
+        "animate educational content",
+        "animate brand stories"
+      ],
+      "typical_workflows": [
+        {
+          "task": "Create Animated Social Media Video",
+          "steps": [
+            "Define animation concept and message",
+            "Input description or reference into C dans",
+            "Select animation style and parameters",
+            "Generate animated video",
+            "Review animation quality and timing",
+            "Refine if needed",
+            "Add audio/voiceover if applicable",
+            "Export for social media",
+            "Upload to target platform"
+          ],
+          "complexity": "Low to Medium",
+          "time_estimate": "15-30 minutes"
+        },
+        {
+          "task": "Generate Marketing Animation via GLIF",
+          "steps": [
+            "Access C dans workflow in GLIF",
+            "Input marketing message or concept",
+            "GLIF automates animation generation",
+            "C dans creates animated content",
+            "Add branding elements",
+            "Review and approve",
+            "Download and deploy in campaign"
+          ],
+          "complexity": "Low (automated)",
+          "time_estimate": "10-20 minutes"
+        },
+        {
+          "task": "Create Explainer Video Animation",
+          "steps": [
+            "Write explainer script",
+            "Break script into visual scenes",
+            "Generate animations for each scene in C dans",
+            "Assemble scenes in sequence",
+            "Add voiceover (e.g., Eleven Labs)",
+            "Add background music",
+            "Review flow and pacing",
+            "Export final explainer video"
+          ],
+          "complexity": "Medium",
+          "time_estimate": "45-90 minutes"
+        }
+      ],
+      "integration_with_other_tools": [
+        "GLIF - Workflow automation platform",
+        "Eleven Labs - Voiceover for animated videos",
+        "CapCut - Video editing and post-production",
+        "Premiere Pro - Professional video assembly",
+        "After Effects - Additional motion graphics",
+        "Canva - Graphics and text overlays",
+        "ChatGPT - Script and concept generation",
+        "Social media platforms - Content distribution"
+      ],
+      "internal_platforms_served": [
+        "SMM (Social Media Marketing) - Animated social content",
+        "Marketing - Promotional animations",
+        "Content Creation - Diverse animated content",
+        "BZ-V (Business Video) - Animated corporate videos",
+        "OAY (Online Academy) - Educational animations",
+        "E-commerce - Product animations"
+      ]
+    },
+    "strengths": [
+      "Simplifies animation creation (no traditional animation skills needed)",
+      "Fast generation compared to manual animation",
+      "Integration with automation platforms (GLIF)",
+      "Suitable for social media content formats",
+      "Cost-effective compared to traditional animation",
+      "Multiple animation styles available",
+      "Good for marketing and promotional content",
+      "Enables small teams to produce animated content"
+    ],
+    "limitations": [
+      "Less control than professional animation software",
+      "May have limited customization options",
+      "Quality varies based on complexity",
+      "Primarily accessed via GLIF (limited standalone use)",
+      "May not suit highly complex animation needs",
+      "Limited documentation as standalone tool",
+      "Dependent on AI interpretation of prompts",
+      "May require iteration for desired results"
+    ],
+    "departments_using": [
+      "Content Creation",
+      "Marketing",
+      "Social Media Management",
+      "Video Production",
+      "Animation"
+    ],
+    "typical_output_formats": [
+      "MP4",
+      "Animated GIF",
+      "Various resolutions",
+      "Social media optimized formats"
+    ],
+    "animation_capabilities": {
+      "animation_types": [
+        "Character animations",
+        "Text animations",
+        "Logo animations",
+        "Motion graphics",
+        "Scene transitions",
+        "Object movements",
+        "Visual effects"
+      ],
+      "style_options": [
+        "2D animation",
+        "Motion graphics style",
+        "Cartoon/illustrated",
+        "Minimalist",
+        "Corporate/professional",
+        "Playful/creative"
+      ],
+      "duration_range": "Typically 5-60 seconds (optimized for social media)"
+    },
+    "best_use_cases": [
+      "Short social media animations (5-15 seconds)",
+      "Logo reveals and brand animations",
+      "Text-based message videos",
+      "Simple character animations",
+      "Product highlight animations",
+      "Call-to-action animations",
+      "Transition elements for longer videos",
+      "Explainer video segments"
+    ],
+    "workflow_integration": {
+      "primary_platform": "GLIF",
+      "automation_level": "Medium to High",
+      "typical_pipeline": [
+        "Concept/script development",
+        "C dans animation generation",
+        "Voiceover addition (optional)",
+        "Music/sound effects (optional)",
+        "Final assembly and export"
+      ],
+      "team_efficiency": "Enables non-animators to produce animated content"
+    },
+    "best_practices": [
+      "Keep animations short for social media (5-30 seconds)",
+      "Use clear, simple concepts for better AI interpretation",
+      "Leverage GLIF workflows for consistency",
+      "Test different animation styles for brand fit",
+      "Combine with professional voiceover for polished results",
+      "Optimize output format for target platform",
+      "Add branding elements for recognition",
+      "Iterate based on engagement metrics"
+    ],
+    "content_strategy": {
+      "ideal_for": [
+        "Brands needing regular animated content",
+        "Social media campaigns requiring animation",
+        "Marketing teams without animation expertise",
+        "Fast-turnaround promotional content",
+        "Educational content requiring visual engagement"
+      ],
+      "competitive_advantage": [
+        "Faster than traditional animation",
+        "More affordable than hiring animators",
+        "Enables testing multiple animation concepts",
+        "Scales animation production capability"
+      ]
+    },
+    "tags": [
+      "ai",
+      "animation",
+      "video-animation",
+      "motion-graphics",
+      "c-dans",
+      "social-media",
+      "marketing-video",
+      "glif-integration",
+      "content-creation",
+      "explainer-videos"
+    ]
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AI-008",
+    "name": "ElevenLabs",
+    "vendor": "ElevenLabs",
+    "category": "AI/Audio Generation",
+    "purpose": "AI text-to-speech and voice cloning for video voiceovers",
+    "description": "Advanced AI voice generation platform. Used for creating voiceovers for video content, presentations, tutorials, and educational materials. Supports multiple languages and custom voice cloning.",
+    "skill_level_required": "Beginner to Intermediate",
+    "cost_structure": "Freemium (Free tier 10k chars/month + paid plans $5-$330/month)",
+    "platform_compatibility": [
+      "Web",
+      "API"
+    ],
+    "integration_capabilities": [
+      "Text-to-speech",
+      "Voice cloning",
+      "Multi-language support (29+ languages)",
+      "API access",
+      "Audio editing tools",
+      "Projects for long-form content",
+      "Voice library"
+    ],
+    "documentation_url": "https://docs.elevenlabs.io/",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Voiceovers for Video Content (BZ-V, Design Portfolio Videos)",
+      "users": [
+        "Design Team",
+        "Video Editors",
+        "Content Creators"
+      ],
+      "team_members": [
+        "Designers creating portfolio videos",
+        "Video editors for BZ-V content",
+        "Content team for educational materials"
+      ],
+      "use_cases": [
+        "voice design videos",
+        "narrate tutorials",
+        "voice presentations",
+        "produce academy content",
+        "voice client testimonials",
+        "narrate video cvs",
+        "voice explainer videos",
+        "narrate miniature documentaries",
+        "automate video voiceovers",
+        "narrate tiltshift videos",
+        "voice social videos",
+        "automate voiceovers"
+      ],
+      "typical_workflows": [
+        {
+          "task": "Create Video Voiceover",
+          "steps": [
+            "Write script for video",
+            "Select appropriate voice from library (professional, conversational, etc.)",
+            "Input text into ElevenLabs",
+            "Adjust settings (stability, clarity, style)",
+            "Generate audio",
+            "Preview and iterate if needed",
+            "Download MP3/WAV",
+            "Import to video editing software",
+            "Sync with video"
+          ],
+          "complexity": "Low",
+          "time_estimate": "15-30 minutes"
+        },
+        {
+          "task": "Clone Team Member Voice for Brand Consistency",
+          "steps": [
+            "Record high-quality voice samples (1-30 minutes)",
+            "Upload to ElevenLabs voice cloning",
+            "Train custom voice model",
+            "Use for all brand voiceovers",
+            "Maintain voice consistency across content"
+          ],
+          "complexity": "Medium",
+          "time_estimate": "1-2 hours setup, then 5-10 minutes per use"
+        },
+        {
+          "task": "Automated Documentary Voiceover via GLIF Workflow",
+          "steps": [
+            "GLIF agent researches topic (Perplexity)",
+            "Agent generates documentary script",
+            "Eleven Labs automatically generates voiceover",
+            "Voiceover synced with video (VAYU + Seedream)",
+            "Review 32-second miniature documentary",
+            "Download complete video with narration"
+          ],
+          "complexity": "Low (fully automated)",
+          "time_estimate": "10-15 minutes (mostly automated)"
+        }
+      ],
+      "integration_with_other_tools": [
+        "After Effects - Import audio for video composition",
+        "Premiere Pro - Video editing with voiceover",
+        "Manus AI - Combine with autonomous video generation",
+        "Gamma AI - Add voiceovers to AI-generated presentations",
+        "GLIF - Automated voiceover in AI workflow pipelines",
+        "VAYU 2.2 - Voiceover for miniature documentary videos",
+        "Seedream - Narration for tilt-shift video content",
+        "Sora - Add voiceover to AI-generated videos",
+        "Kling - Voiceover integration for video content"
+      ],
+      "internal_platforms_served": [
+        "DGN (Design Services) - Portfolio video voiceovers",
+        "BZ-V (Business Video) - Professional video narration",
+        "RHS (Remote Helpers) - Tutorial videos, skills demonstrations",
+        "OAY (Online Academy) - Educational content voiceovers",
+        "FVE (Video Editors) - Client project voiceovers"
+      ]
+    },
+    "strengths": [
+      "Extremely natural-sounding voices",
+      "Voice cloning capabilities",
+      "Multi-language support",
+      "Fast generation",
+      "API for automation",
+      "Affordable pricing"
+    ],
+    "limitations": [
+      "Free tier limited to 10k characters/month",
+      "Voice cloning requires paid plan",
+      "Can sound robotic if not tuned properly",
+      "Limited emotion control",
+      "Character limits on lower tiers"
+    ],
+    "departments_using": [
+      "Designers",
+      "Video Editors",
+      "Content Creation",
+      "Marketing"
+    ],
+    "typical_output_formats": [
+      "MP3",
+      "WAV"
+    ],
+    "tags": [
+      "ai",
+      "text-to-speech",
+      "voiceover",
+      "audio-generation",
+      "voice-cloning"
+    ]
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AI-045",
+    "name": "GLIF",
+    "vendor": "GLIF",
+    "category": "AI/Workflow Automation",
+    "purpose": "AI workflow automation platform for creative AI tool orchestration and agent-based content generation",
+    "description": "GLIF is an AI workflow automation platform that allows users to create, share, and use AI agents that orchestrate multiple creative AI tools. It automates prompting, formatting, and workflow execution across various generative AI services including image generation, video creation, and audio synthesis. Users can build custom workflows or use pre-built agents to automate complex creative tasks.",
+    "skill_level_required": "Beginner to Advanced",
+    "cost_structure": "Freemium (Free tier available + paid plans)",
+    "platform_compatibility": [
+      "Web",
+      "API"
+    ],
+    "integration_capabilities": [
+      "AI agent creation and management",
+      "Multi-tool workflow orchestration",
+      "Automated prompting and formatting",
+      "Integration with image generation tools (Nano Banana, Midjourney)",
+      "Integration with video generation tools (Kling, Sora, VAYU, Seedream)",
+      "Integration with audio tools (Eleven Labs)",
+      "Integration with research tools (Perplexity)",
+      "Custom workflow builder",
+      "Agent marketplace",
+      "Automated content generation pipelines"
+    ],
+    "documentation_url": "https://glif.app",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Creative AI Workflow Automation and Content Generation at Scale",
+      "users": [
+        "Content Creators",
+        "Video Editors",
+        "Designers",
+        "Marketing Teams",
+        "Social Media Managers"
+      ],
+      "team_members": [
+        "Content creators automating video production",
+        "Designers creating thumbnail variants",
+        "Marketing teams generating campaigns",
+        "Social media managers creating viral content"
+      ],
+      "use_cases": [
+        "generate youtube thumbnails",
+        "create tiltshift documentaries",
+        "automate reddit stories",
+        "generate influencer videos",
+        "create brand mascots",
+        "automate marketing workflows",
+        "generate multi-format content",
+        "automate ctr testing",
+        "build viral workflows",
+        "automate educational content"
+      ],
+      "typical_workflows": [
+        {
+          "task": "Create YouTube Thumbnail with AI Agent",
+          "steps": [
+            "Select or create thumbnail generation agent (e.g., Nano Banana Ultimate)",
+            "Upload reference image or provide description",
+            "Specify style parameters (e.g., 'Mr. Beast style', high CTR, more contrast)",
+            "Agent automatically prompts and formats request",
+            "Review generated thumbnails",
+            "Iterate with refined parameters if needed",
+            "Download final thumbnail"
+          ],
+          "complexity": "Low",
+          "time_estimate": "5-15 minutes"
+        },
+        {
+          "task": "Generate Miniature History Documentary",
+          "steps": [
+            "Select miniature documentary agent",
+            "Input topic or historical event",
+            "Agent uses Perplexity to research facts",
+            "Agent generates script and voiceover (Eleven Labs)",
+            "Agent creates tilt-shift video (Seedream + VAYU 2.2)",
+            "Review 32-second output video",
+            "Download or share"
+          ],
+          "complexity": "Medium",
+          "time_estimate": "10-20 minutes (mostly automated)"
+        },
+        {
+          "task": "Automate Reddit Story TikTok Creation",
+          "steps": [
+            "Select Reddit story TikTok agent",
+            "Input Reddit thread URL or story text",
+            "Agent extracts and formats story",
+            "Agent generates background video (gaming footage style)",
+            "Agent generates narration (Eleven Labs)",
+            "Agent combines elements into TikTok format",
+            "Review and download final video",
+            "Upload to TikTok"
+          ],
+          "complexity": "Low to Medium",
+          "time_estimate": "10-15 minutes"
+        },
+        {
+          "task": "Build Custom AI Workflow",
+          "steps": [
+            "Define workflow objectives",
+            "Select AI tools to integrate",
+            "Create agent in GLIF workflow builder",
+            "Configure prompting logic and parameters",
+            "Set up tool chaining sequence",
+            "Test workflow with sample inputs",
+            "Iterate and optimize",
+            "Save and share agent"
+          ],
+          "complexity": "Advanced",
+          "time_estimate": "1-3 hours"
+        }
+      ],
+      "integration_with_other_tools": [
+        "Nano Banana - Image generation within workflows",
+        "Kling 2.5 - Video generation automation",
+        "Sora 2 - Advanced video content creation",
+        "VAYU 2.2 - Tilt-shift video effects",
+        "Seedream - Miniature-style video generation",
+        "Eleven Labs - Voiceover and audio synthesis",
+        "Perplexity - Research and fact-checking",
+        "Midjourney - Image generation (via Discord integration)",
+        "ChatGPT - Content generation and scripting",
+        "Video editing tools - Export for final editing"
+      ],
+      "internal_platforms_served": [
+        "BZ-V (Business Video) - Automated video content creation",
+        "DGN (Design Services) - Thumbnail and visual content generation",
+        "SMM (Social Media Marketing) - Viral content automation",
+        "Content Creation - Multi-format content workflows",
+        "Marketing - Campaign asset generation",
+        "OAY (Online Academy) - Educational content creation"
+      ]
+    },
+    "strengths": [
+      "Automates complex multi-tool workflows",
+      "No coding required for basic workflows",
+      "Pre-built agent marketplace",
+      "Automatic prompting and formatting",
+      "Integrates multiple AI tools seamlessly",
+      "Fast iteration and testing",
+      "Supports various content types (images, videos, audio)",
+      "Community-driven agent sharing",
+      "Reduces creative AI learning curve",
+      "Enables content creation at scale"
+    ],
+    "limitations": [
+      "Dependent on third-party AI tool availability",
+      "Limited customization in pre-built agents",
+      "Costs can accumulate from multiple tool usage",
+      "Advanced workflows require understanding of AI tools",
+      "Quality depends on underlying AI models",
+      "May require manual refinement of outputs",
+      "Learning curve for custom agent building"
+    ],
+    "departments_using": [
+      "Content Creation",
+      "Video Production",
+      "Design",
+      "Marketing",
+      "Social Media Management"
+    ],
+    "typical_output_formats": [
+      "Images (PNG, JPG)",
+      "Videos (MP4)",
+      "Audio (MP3, WAV)",
+      "Multi-format content packages"
+    ],
+    "workflow_automation_patterns": [
+      "Sequential tool chaining (research → script → video → voiceover)",
+      "Parallel content generation (multiple variants simultaneously)",
+      "Iterative refinement (automatic prompt optimization)",
+      "Conditional workflows (if-then logic based on outputs)",
+      "Batch processing (multiple inputs at scale)"
+    ],
+    "key_concepts": [
+      "AI Agents - Pre-configured workflows that execute specific creative tasks",
+      "Workflow Orchestration - Automated sequencing of multiple AI tools",
+      "Prompt Engineering Automation - Agents handle optimal prompting",
+      "Tool Abstraction - Users don't need to learn each individual tool",
+      "Content Pipeline - End-to-end automation from concept to deliverable"
+    ],
+    "business_value": {
+      "efficiency_gains": "10x faster creative content production",
+      "cost_reduction": "Reduces need for multiple tool subscriptions and expert operators",
+      "scalability": "Enables small teams to produce enterprise-level content volume",
+      "consistency": "Automated workflows ensure brand and quality consistency",
+      "innovation": "Allows rapid testing of creative approaches and formats"
+    },
+    "tags": [
+      "ai",
+      "workflow-automation",
+      "ai-agents",
+      "creative-ai",
+      "content-generation",
+      "video-automation",
+      "image-generation",
+      "orchestration",
+      "no-code"
+    ]
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AI-048",
+    "name": "Kling",
+    "vendor": "Kuaishou Technology",
+    "category": "AI/Video Generation",
+    "purpose": "AI-powered video generation platform for creating high-quality videos from text and images",
+    "description": "Kling (currently version 2.5) is an advanced AI video generation platform developed by Kuaishou Technology. It specializes in creating realistic and creative video content from text prompts or images. Known for excellent motion quality, temporal consistency, and the ability to generate complex scenes with realistic physics. Popular for content creation, marketing videos, and creative projects.",
+    "skill_level_required": "Beginner to Intermediate",
+    "cost_structure": "Freemium (Free credits available + paid plans)",
+    "platform_compatibility": [
+      "Web",
+      "API",
+      "GLIF Integration"
+    ],
+    "integration_capabilities": [
+      "Text-to-video generation",
+      "Image-to-video conversion",
+      "High-quality motion generation",
+      "Temporal consistency",
+      "Camera control and movement",
+      "Multiple aspect ratios",
+      "Variable video lengths",
+      "Style customization",
+      "Integration with workflow automation tools (GLIF)",
+      "Batch processing capabilities"
+    ],
+    "documentation_url": "https://klingai.com",
+    "actual_remote_helpers_usage": {
+      "primary_use": "AI Video Content Generation for Social Media, Marketing, and Creative Projects",
+      "users": [
+        "Content Creators",
+        "Video Producers",
+        "Social Media Managers",
+        "Marketing Teams",
+        "Creative Directors"
+      ],
+      "team_members": [
+        "Social media managers creating engaging video content",
+        "Content creators producing YouTube and TikTok videos",
+        "Marketing teams generating promotional content",
+        "Creative directors exploring video concepts",
+        "Video producers creating B-roll and supplementary footage"
+      ],
+      "use_cases": [
+        "produce social videos",
+        "produce marketing videos",
+        "produce demo videos",
+        "create influencer videos",
+        "generate b-roll",
+        "produce experimental videos",
+        "automate video workflows",
+        "visualize stories",
+        "test concepts",
+        "produce explainer videos",
+        "concept music videos",
+        "create ad content"
+      ],
+      "typical_workflows": [
+        {
+          "task": "Generate Social Media Video from Text",
+          "steps": [
+            "Access Kling 2.5 platform or GLIF integration",
+            "Write descriptive video prompt",
+            "Select aspect ratio (9:16 for TikTok, 16:9 for YouTube, etc.)",
+            "Set video duration (typically 5-10 seconds)",
+            "Generate video",
+            "Review output",
+            "Refine prompt if needed and regenerate",
+            "Download video",
+            "Add captions/audio in editor if needed",
+            "Upload to social platforms"
+          ],
+          "complexity": "Low",
+          "time_estimate": "5-15 minutes"
+        },
+        {
+          "task": "Create Video from Image with Kling",
+          "steps": [
+            "Upload reference image or product photo",
+            "Describe desired motion and camera movement",
+            "Select video parameters (duration, style)",
+            "Generate video",
+            "Preview and iterate",
+            "Download final output",
+            "Use in marketing or content creation"
+          ],
+          "complexity": "Low to Medium",
+          "time_estimate": "10-20 minutes"
+        },
+        {
+          "task": "Automated Video Creation via GLIF",
+          "steps": [
+            "Set up Kling workflow in GLIF",
+            "Connect to content pipeline (script, voiceover, etc.)",
+            "Input content concept",
+            "GLIF agent automates Kling prompting",
+            "Review generated videos",
+            "Batch process multiple variants",
+            "Select best outputs",
+            "Export for distribution"
+          ],
+          "complexity": "Low (automated)",
+          "time_estimate": "10-20 minutes for batch"
+        }
+      ],
+      "integration_with_other_tools": [
+        "GLIF - Workflow automation and agent integration",
+        "CapCut - Video editing and post-production",
+        "Premiere Pro - Professional video editing",
+        "After Effects - Visual effects",
+        "Eleven Labs - Voiceover integration",
+        "ChatGPT - Prompt and script generation",
+        "Canva - Add text and graphics overlays",
+        "Social media platforms - Direct publishing",
+        "Marketing automation tools - Campaign integration"
+      ],
+      "internal_platforms_served": [
+        "SMM (Social Media Marketing) - Short-form video content",
+        "BZ-V (Business Video) - Marketing videos",
+        "Content Creation - Multi-platform video content",
+        "Marketing - Advertising and promotional content",
+        "DGN (Design Services) - Creative video concepts",
+        "E-commerce - Product demonstration videos"
+      ]
+    },
+    "strengths": [
+      "Excellent motion quality and realism",
+      "Strong temporal consistency",
+      "Fast generation speed compared to competitors",
+      "Good understanding of physics and natural motion",
+      "Multiple aspect ratio support",
+      "Competitive pricing with free tier",
+      "High-quality output (Kling 2.5 improvements)",
+      "Effective for social media content",
+      "Integration with automation platforms",
+      "User-friendly interface"
+    ],
+    "limitations": [
+      "Video length limitations (typically 5-10 seconds per generation)",
+      "May struggle with very complex multi-character scenes",
+      "Limited fine control over specific movements",
+      "Free tier has credit limitations",
+      "Generation queue wait times during peak usage",
+      "Less established than OpenAI Sora",
+      "Some content policy restrictions",
+      "Occasional artifacts in complex scenes"
+    ],
+    "departments_using": [
+      "Social Media Management",
+      "Content Creation",
+      "Marketing",
+      "Video Production",
+      "E-commerce"
+    ],
+    "typical_output_formats": [
+      "MP4",
+      "Various resolutions (720p to 1080p)",
+      "Multiple aspect ratios"
+    ],
+    "video_specifications": {
+      "typical_duration": "5-10 seconds per generation",
+      "resolution": "Up to 1080p",
+      "aspect_ratios": [
+        "16:9 (landscape)",
+        "9:16 (portrait/vertical)",
+        "1:1 (square)"
+      ],
+      "motion_types": [
+        "Camera movements",
+        "Object motion",
+        "Character animation",
+        "Environmental effects"
+      ],
+      "output_quality": "High-definition, commercially viable"
+    },
+    "best_use_cases": [
+      "Short-form social media content (primary strength)",
+      "Product videos with motion and rotation",
+      "Nature and environmental scenes",
+      "Character movements and actions",
+      "Abstract and artistic videos",
+      "Marketing teasers and hooks",
+      "Looping animations",
+      "B-roll footage generation"
+    ],
+    "prompt_tips": [
+      "Be specific about camera angle and movement",
+      "Describe motion clearly (speed, direction)",
+      "Include lighting and atmosphere details",
+      "Specify style (realistic, cinematic, artistic)",
+      "Keep prompts focused on single clear action",
+      "Use descriptive adjectives for mood",
+      "Reference time of day for outdoor scenes",
+      "Iterate based on outputs"
+    ],
+    "version_info": {
+      "current_version": "Kling 2.5",
+      "improvements": [
+        "Enhanced motion quality",
+        "Better temporal consistency",
+        "Improved physics simulation",
+        "Faster generation times",
+        "Higher resolution output"
+      ]
+    },
+    "tags": [
+      "ai",
+      "video-generation",
+      "kling",
+      "social-media",
+      "content-creation",
+      "text-to-video",
+      "image-to-video",
+      "marketing-video",
+      "tiktok",
+      "short-form-video"
+    ]
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AI-046",
+    "name": "Nano Banana",
+    "vendor": "Nano Banana",
+    "category": "AI/Generative AI (Images)",
+    "purpose": "AI image generation and manipulation for creative content, thumbnails, and style-specific imagery",
+    "description": "Nano Banana is an AI image generation tool specialized in creating high-quality visuals with specific style applications. Particularly effective for YouTube thumbnail generation, marketing imagery, and style transfer applications (e.g., Mr. Beast style optimization). Integrated within GLIF workflows as 'Nano Banana Ultimate' agent for automated image generation tasks.",
+    "skill_level_required": "Beginner to Intermediate",
+    "cost_structure": "Usage-based (typically accessed via GLIF platform)",
+    "platform_compatibility": [
+      "Web",
+      "API",
+      "GLIF Integration"
+    ],
+    "integration_capabilities": [
+      "Text-to-image generation",
+      "Image-to-image style transfer",
+      "Style-specific optimization (Mr. Beast style, high CTR designs)",
+      "Thumbnail generation",
+      "Marketing visual creation",
+      "Brand mascot design",
+      "Icon generation",
+      "Reference image processing",
+      "Automated prompting via GLIF agents"
+    ],
+    "documentation_url": "https://glif.app (accessed via GLIF agents)",
+    "actual_remote_helpers_usage": {
+      "primary_use": "YouTube Thumbnail Generation and Marketing Visual Creation",
+      "users": [
+        "Content Creators",
+        "YouTube Creators",
+        "Designers",
+        "Marketing Teams",
+        "Social Media Managers"
+      ],
+      "team_members": [
+        "YouTube content creators optimizing thumbnails",
+        "Marketing designers creating ad visuals",
+        "Social media managers generating engaging graphics",
+        "Brand designers creating mascots and icons"
+      ],
+      "use_cases": [
+        "optimize youtube thumbnails",
+        "optimize thumbnails",
+        "generate marketing visuals",
+        "create mascots",
+        "design icons",
+        "generate reference images",
+        "design social graphics",
+        "test thumbnails",
+        "transfer brand style",
+        "create ad visuals"
+      ],
+      "typical_workflows": [
+        {
+          "task": "Create High-CTR YouTube Thumbnail",
+          "steps": [
+            "Access Nano Banana Ultimate agent in GLIF",
+            "Upload reference thumbnail or describe concept",
+            "Specify style parameters (e.g., 'Mr. Beast style', 'high CTR', 'more contrast', 'fresher')",
+            "Agent auto-generates optimized prompts",
+            "Review generated thumbnail variants",
+            "Select best option or iterate with refined parameters",
+            "Download final thumbnail (PNG/JPG)",
+            "Upload to YouTube"
+          ],
+          "complexity": "Low",
+          "time_estimate": "5-15 minutes"
+        },
+        {
+          "task": "Generate Brand Mascot",
+          "steps": [
+            "Define mascot concept and brand identity",
+            "Input description into Nano Banana (via GLIF)",
+            "Specify style, color palette, and character attributes",
+            "Generate multiple mascot variants",
+            "Review and select preferred design",
+            "Refine with additional prompts",
+            "Export for brand usage",
+            "Create variations for different contexts"
+          ],
+          "complexity": "Medium",
+          "time_estimate": "20-40 minutes"
+        },
+        {
+          "task": "Create Marketing Visual Set",
+          "steps": [
+            "Define campaign theme and visual requirements",
+            "Set up batch generation in GLIF workflow",
+            "Generate multiple marketing visuals (banners, ads, social posts)",
+            "Review consistency across variants",
+            "Select best performers",
+            "Export in required formats",
+            "Deploy across marketing channels"
+          ],
+          "complexity": "Medium",
+          "time_estimate": "30-60 minutes"
+        }
+      ],
+      "integration_with_other_tools": [
+        "GLIF - Primary workflow platform (Nano Banana Ultimate agent)",
+        "Photoshop - Post-processing and refinement",
+        "Canva - Template integration",
+        "Figma - Design system integration",
+        "YouTube Studio - Direct thumbnail upload",
+        "Social media platforms - Content publishing",
+        "Marketing automation tools - Campaign integration"
+      ],
+      "internal_platforms_served": [
+        "BZ-V (Business Video) - Thumbnail creation for video content",
+        "DGN (Design Services) - Marketing visual generation",
+        "SMM (Social Media Marketing) - Social graphics creation",
+        "Marketing - Campaign asset generation",
+        "Brand Development - Mascot and icon creation",
+        "Content Creation - Visual content for various channels"
+      ]
+    },
+    "strengths": [
+      "Excellent for YouTube thumbnail optimization",
+      "Style-specific generation (Mr. Beast style, high CTR designs)",
+      "Fast generation speed",
+      "Integrated with GLIF for automated workflows",
+      "Good for A/B testing visual variants",
+      "Effective CTR optimization capabilities",
+      "Suitable for marketing and advertising visuals",
+      "User-friendly via GLIF agents (no complex prompting needed)"
+    ],
+    "limitations": [
+      "Primary access through GLIF platform",
+      "Limited standalone documentation",
+      "Style transfer quality varies by complexity",
+      "May require iteration for perfect results",
+      "Less control than traditional design tools",
+      "Dependent on GLIF platform availability",
+      "Usage costs through GLIF credits"
+    ],
+    "departments_using": [
+      "Content Creation",
+      "Marketing",
+      "Design",
+      "Social Media Management",
+      "Video Production"
+    ],
+    "typical_output_formats": [
+      "PNG",
+      "JPG",
+      "High-resolution images"
+    ],
+    "style_specializations": [
+      "Mr. Beast style thumbnails (bold text, high contrast, dramatic visuals)",
+      "High CTR optimization (attention-grabbing designs)",
+      "YouTube thumbnail best practices",
+      "Social media graphic styles",
+      "Marketing banner aesthetics",
+      "Brand-consistent visuals"
+    ],
+    "best_practices": [
+      "Use specific style references (e.g., 'Mr. Beast style') for better results",
+      "Specify CTR optimization goals in prompts",
+      "Request 'more contrast' and 'fresher' for engaging visuals",
+      "Generate multiple variants for A/B testing",
+      "Combine with analytics to identify winning thumbnail styles",
+      "Iterate based on performance metrics",
+      "Use reference images when available"
+    ],
+    "tags": [
+      "ai",
+      "image-generation",
+      "thumbnails",
+      "youtube",
+      "marketing-visuals",
+      "ctr-optimization",
+      "glif-integration",
+      "style-transfer",
+      "content-creation"
+    ]
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AI-050",
+    "name": "Seedream",
+    "vendor": "Seedream AI",
+    "category": "AI/Video Generation",
+    "purpose": "AI-powered tilt-shift and miniature-style video generation for creative and documentary content",
+    "description": "Seedream is an AI video generation tool specializing in tilt-shift effects and miniature-world video aesthetics. Commonly paired with VAYU 2.2 in automated workflows to create engaging short-form documentaries, educational content, and social media videos with a distinctive toylike miniature appearance. Particularly effective for historical documentaries, location showcases, and creative storytelling.",
+    "skill_level_required": "Beginner to Intermediate",
+    "cost_structure": "Usage-based (typically accessed via GLIF workflows)",
+    "platform_compatibility": [
+      "Web",
+      "API",
+      "GLIF Integration"
+    ],
+    "integration_capabilities": [
+      "Tilt-shift video effect generation",
+      "Miniature world video creation",
+      "Selective focus simulation",
+      "Integration with VAYU 2.2 for enhanced effects",
+      "GLIF workflow automation",
+      "Combination with voiceover tools (Eleven Labs)",
+      "Short-form video optimization",
+      "Documentary-style content generation",
+      "Creative visual effects"
+    ],
+    "documentation_url": "https://glif.app (accessed via GLIF agents)",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Tilt-shift Video Effects for Documentaries and Creative Content",
+      "users": [
+        "Content Creators",
+        "Documentary Makers",
+        "Social Media Managers",
+        "Educational Content Creators",
+        "Video Editors"
+      ],
+      "team_members": [
+        "Content creators producing unique visual content",
+        "Documentary makers creating engaging historical videos",
+        "Social media managers generating eye-catching content",
+        "Educational creators making learning content engaging",
+        "Video editors adding creative effects"
+      ],
+      "use_cases": [
+        "craft miniature documentaries",
+        "produce tiltshift cityscapes",
+        "enrich educational visuals",
+        "produce short social",
+        "create travel visuals",
+        "miniaturize product showcases",
+        "produce timelapse videos",
+        "craft creative narratives",
+        "differentiate brand visuals",
+        "automate content generation"
+      ],
+      "typical_workflows": [
+        {
+          "task": "Create Tilt-shift Documentary Video (via GLIF)",
+          "steps": [
+            "Access GLIF agent with Seedream integration",
+            "Input topic or location description",
+            "Seedream generates tilt-shift base video",
+            "VAYU 2.2 enhances miniature effects",
+            "Eleven Labs adds voiceover narration",
+            "Perplexity provides factual content (for documentaries)",
+            "All elements auto-assembled",
+            "Review 32-second output",
+            "Download and publish"
+          ],
+          "complexity": "Low (via GLIF automation)",
+          "time_estimate": "10-20 minutes"
+        },
+        {
+          "task": "Generate Miniature City/Location Video",
+          "steps": [
+            "Select location or cityscape",
+            "Describe desired scene and camera angle",
+            "Input into Seedream",
+            "Generate tilt-shift effect video",
+            "Review miniature appearance",
+            "Adjust parameters if needed",
+            "Export final video",
+            "Use in marketing or social content"
+          ],
+          "complexity": "Low to Medium",
+          "time_estimate": "15-25 minutes"
+        },
+        {
+          "task": "Create Educational Video with Tilt-shift Style",
+          "steps": [
+            "Define educational topic",
+            "Create script or outline",
+            "Set up Seedream + VAYU workflow",
+            "Generate miniature-style visuals",
+            "Add educational narration",
+            "Combine with text overlays if needed",
+            "Review for clarity and engagement",
+            "Export for educational platform"
+          ],
+          "complexity": "Medium",
+          "time_estimate": "20-40 minutes"
+        }
+      ],
+      "integration_with_other_tools": [
+        "GLIF - Workflow automation and orchestration",
+        "VAYU 2.2 - Combined for enhanced miniature effects",
+        "Eleven Labs - Professional voiceover narration",
+        "Perplexity - Content research for documentaries",
+        "ChatGPT - Script and content generation",
+        "CapCut - Post-production editing and effects",
+        "Premiere Pro - Professional video editing",
+        "After Effects - Additional visual effects",
+        "Social media platforms - Content distribution"
+      ],
+      "internal_platforms_served": [
+        "Content Creation - Unique visual content",
+        "OAY (Online Academy) - Engaging educational videos",
+        "SMM (Social Media Marketing) - Eye-catching social content",
+        "Marketing - Brand storytelling with distinctive style",
+        "BZ-V (Business Video) - Creative corporate videos",
+        "Tourism/Travel - Location showcase videos"
+      ]
+    },
+    "strengths": [
+      "Distinctive tilt-shift/miniature aesthetic",
+      "Creates engaging, eye-catching content",
+      "Excellent for social media engagement",
+      "Pairs seamlessly with VAYU 2.2",
+      "Automated workflow integration via GLIF",
+      "Effective for short-form content (30-60 seconds)",
+      "Unique visual style differentiates content",
+      "Simplifies complex video effects",
+      "Fast generation in automated pipelines",
+      "Versatile applications (education, marketing, social)"
+    ],
+    "limitations": [
+      "Specialized aesthetic (not suitable for all content types)",
+      "Best used in combination with other tools (VAYU)",
+      "Primarily accessed via GLIF workflows",
+      "Limited standalone documentation",
+      "Optimized for specific video lengths (30-60 seconds)",
+      "Tilt-shift effect may not suit serious/formal content",
+      "Requires creative vision to use effectively",
+      "May become stylistically dated if overused"
+    ],
+    "departments_using": [
+      "Content Creation",
+      "Social Media Marketing",
+      "Education",
+      "Video Production",
+      "Tourism/Travel Marketing"
+    ],
+    "typical_output_formats": [
+      "MP4",
+      "Short-form video (30-60 seconds)",
+      "Optimized for social platforms"
+    ],
+    "tilt_shift_effects": {
+      "visual_characteristics": [
+        "Selective focus (sharp center, blurred edges)",
+        "Miniature/toylike appearance",
+        "Enhanced saturation and contrast",
+        "Compressed depth perception",
+        "Model-world aesthetic"
+      ],
+      "best_subjects": [
+        "Cities and urban landscapes",
+        "Historical locations and landmarks",
+        "Crowds and human activity",
+        "Architecture and buildings",
+        "Transportation (cars, trains, boats)",
+        "Events and gatherings",
+        "Natural landscapes",
+        "Time-lapse scenarios"
+      ],
+      "ideal_camera_angles": [
+        "Elevated perspectives (aerial or high angle)",
+        "Wide establishing shots",
+        "Panoramic views",
+        "Bird's-eye view"
+      ]
+    },
+    "workflow_optimization": {
+      "recommended_combination": "Seedream + VAYU 2.2",
+      "automation_platform": "GLIF",
+      "typical_pipeline": [
+        "Topic/location selection",
+        "Research (if documentary)",
+        "Seedream generates base tilt-shift video",
+        "VAYU enhances miniature effects",
+        "Voiceover added (Eleven Labs)",
+        "Final assembly (automated)"
+      ],
+      "optimal_duration": "32 seconds (proven engagement sweet spot)",
+      "output_optimization": "Vertical (9:16) or square (1:1) for social media"
+    },
+    "content_applications": {
+      "documentary_style": {
+        "format": "32-second miniature history documentaries",
+        "components": [
+          "Visual (Seedream)",
+          "Enhancement (VAYU)",
+          "Narration (Eleven Labs)",
+          "Facts (Perplexity)"
+        ],
+        "engagement": "High due to unique visual + informative content"
+      },
+      "social_media": {
+        "platforms": [
+          "TikTok",
+          "Instagram Reels",
+          "YouTube Shorts"
+        ],
+        "strengths": "Eye-catching aesthetic drives engagement",
+        "content_types": [
+          "Educational",
+          "Travel",
+          "Historical",
+          "Creative storytelling"
+        ]
+      },
+      "marketing": {
+        "applications": [
+          "Brand differentiation",
+          "Product showcase",
+          "Location marketing"
+        ],
+        "value": "Memorable visual style stands out in feeds"
+      }
+    },
+    "best_practices": [
+      "Combine with VAYU 2.2 for optimal tilt-shift effects",
+      "Use GLIF workflows for efficient automation",
+      "Keep videos 30-60 seconds for social media engagement",
+      "Choose elevated camera angles for best miniature effect",
+      "Add professional voiceover for documentary content",
+      "Test with different subjects to find best fit",
+      "Optimize for vertical (9:16) social platforms",
+      "Use for content that benefits from whimsical/engaging aesthetic"
+    ],
+    "creative_strategy": {
+      "when_to_use": [
+        "Need to stand out in crowded social feeds",
+        "Want to make educational content more engaging",
+        "Creating historical or documentary content",
+        "Showcasing locations or cities",
+        "Building brand with unique visual identity"
+      ],
+      "when_not_to_use": [
+        "Serious news or formal corporate content",
+        "Content requiring realistic perspective",
+        "Long-form videos (>2 minutes)",
+        "Content where effect may distract from message"
+      ]
+    },
+    "tags": [
+      "ai",
+      "video-generation",
+      "tilt-shift",
+      "miniature-effect",
+      "seedream",
+      "documentary",
+      "social-media",
+      "creative-video",
+      "glif-integration",
+      "short-form-content"
+    ]
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AI-047",
+    "name": "Sora",
+    "vendor": "OpenAI",
+    "category": "AI/Video Generation",
+    "purpose": "Advanced AI text-to-video and image-to-video generation for creative content production",
+    "description": "Sora is OpenAI's state-of-the-art video generation model (Sora 2 being the latest version) that creates high-quality videos from text descriptions or images. Capable of generating realistic and imaginative scenes with multiple characters, specific types of motion, and accurate details. Used for creative video content, marketing videos, educational content, and AI-powered storytelling.",
+    "skill_level_required": "Beginner to Advanced",
+    "cost_structure": "Subscription-based (OpenAI pricing, typically bundled with ChatGPT Plus/Pro)",
+    "platform_compatibility": [
+      "Web",
+      "API",
+      "GLIF Integration"
+    ],
+    "integration_capabilities": [
+      "Text-to-video generation",
+      "Image-to-video conversion",
+      "Multi-shot video creation",
+      "Camera movement control",
+      "Character and scene generation",
+      "Temporal consistency",
+      "High-resolution output (up to 1080p)",
+      "Variable video lengths (up to 60 seconds)",
+      "Style transfer for videos",
+      "Integration with creative workflows (GLIF)"
+    ],
+    "documentation_url": "https://openai.com/sora",
+    "actual_remote_helpers_usage": {
+      "primary_use": "AI-Generated Video Content Creation for Marketing, Education, and Creative Projects",
+      "users": [
+        "Video Creators",
+        "Content Producers",
+        "Marketing Teams",
+        "Educators",
+        "Creative Directors"
+      ],
+      "team_members": [
+        "Video content creators producing original footage",
+        "Marketing teams creating product videos",
+        "Educators developing educational content",
+        "Creative directors exploring visual concepts",
+        "Social media managers creating engaging video content"
+      ],
+      "use_cases": [
+        "produce marketing videos",
+        "produce demo videos",
+        "create explainer content",
+        "produce social videos",
+        "create experimental videos",
+        "storyboard concepts",
+        "generate b-roll",
+        "create influencer content",
+        "concept music videos",
+        "develop ad creatives",
+        "produce training videos",
+        "produce miniature footage"
+      ],
+      "typical_workflows": [
+        {
+          "task": "Generate Marketing Video from Text",
+          "steps": [
+            "Write detailed video description (scene, action, style, mood)",
+            "Input text prompt into Sora",
+            "Specify video parameters (length, aspect ratio, style)",
+            "Review generated video",
+            "Iterate with refined prompts if needed",
+            "Download video file",
+            "Post-process in video editor if needed",
+            "Export for distribution"
+          ],
+          "complexity": "Low to Medium",
+          "time_estimate": "10-30 minutes"
+        },
+        {
+          "task": "Create Video from Reference Image",
+          "steps": [
+            "Upload reference image or concept art",
+            "Describe desired motion and camera movement",
+            "Set video duration and style parameters",
+            "Generate video",
+            "Review and adjust if needed",
+            "Download final video",
+            "Integrate into larger project"
+          ],
+          "complexity": "Medium",
+          "time_estimate": "15-30 minutes"
+        },
+        {
+          "task": "Automated Video Generation via GLIF",
+          "steps": [
+            "Set up Sora workflow in GLIF",
+            "Connect to other tools (script generation, voiceover)",
+            "Input high-level concept",
+            "GLIF agent handles prompting and generation",
+            "Review automated output",
+            "Make adjustments as needed",
+            "Export final video"
+          ],
+          "complexity": "Low (via automation)",
+          "time_estimate": "5-15 minutes"
+        }
+      ],
+      "integration_with_other_tools": [
+        "GLIF - Workflow automation and agent integration",
+        "Premiere Pro - Post-production editing",
+        "After Effects - Visual effects and compositing",
+        "Eleven Labs - Add voiceovers to generated videos",
+        "ChatGPT - Script and prompt generation",
+        "Midjourney/Stable Diffusion - Generate reference images for video",
+        "RunwayML - Additional video editing and effects",
+        "CapCut - Social media video editing",
+        "Final Cut Pro - Professional video editing"
+      ],
+      "internal_platforms_served": [
+        "BZ-V (Business Video) - Marketing and promotional videos",
+        "Content Creation - Social media and educational content",
+        "Marketing - Advertising and campaign videos",
+        "SMM (Social Media Marketing) - Short-form video content",
+        "OAY (Online Academy) - Educational video content",
+        "DGN (Design Services) - Conceptual videos and previsualization"
+      ]
+    },
+    "strengths": [
+      "State-of-the-art video quality from OpenAI",
+      "Excellent temporal consistency (objects persist correctly over time)",
+      "Realistic physics and motion",
+      "High-resolution output capabilities",
+      "Understands complex scene descriptions",
+      "Generates multiple characters and interactions",
+      "Cinematic camera movements",
+      "Style versatility (photorealistic to stylized)",
+      "Integration with OpenAI ecosystem",
+      "Continuous improvements (Sora 2 enhancements)"
+    ],
+    "limitations": [
+      "Limited availability (gradual rollout)",
+      "Subscription required (ChatGPT Plus/Pro)",
+      "Video length limitations (typically up to 60 seconds)",
+      "Generation time can be slow for complex scenes",
+      "May struggle with precise physics in complex scenarios",
+      "Limited control over specific details",
+      "Occasional temporal inconsistencies",
+      "High computational cost",
+      "Content policy restrictions",
+      "Less suitable for long-form content"
+    ],
+    "departments_using": [
+      "Video Production",
+      "Marketing",
+      "Content Creation",
+      "Social Media Management",
+      "Education",
+      "Creative Direction"
+    ],
+    "typical_output_formats": [
+      "MP4",
+      "Various resolutions (480p to 1080p)",
+      "16:9, 9:16, 1:1 aspect ratios"
+    ],
+    "video_capabilities": {
+      "max_duration": "Up to 60 seconds",
+      "resolution": "Up to 1080p",
+      "aspect_ratios": [
+        "16:9 (landscape)",
+        "9:16 (portrait)",
+        "1:1 (square)"
+      ],
+      "camera_movements": [
+        "Pan",
+        "Zoom",
+        "Tracking shots",
+        "Aerial views",
+        "First-person POV"
+      ],
+      "scene_types": [
+        "Indoor scenes",
+        "Outdoor environments",
+        "Abstract visuals",
+        "Character interactions",
+        "Product shots"
+      ],
+      "style_options": [
+        "Photorealistic",
+        "Cinematic",
+        "Animated",
+        "Stylized",
+        "Documentary",
+        "Experimental"
+      ]
+    },
+    "prompt_engineering_tips": [
+      "Be specific about camera angles and movements",
+      "Describe lighting and mood in detail",
+      "Specify character actions and interactions clearly",
+      "Include time of day and environmental details",
+      "Mention desired style (cinematic, documentary, etc.)",
+      "Use reference to film styles or directors for tone",
+      "Keep prompts concise but descriptive",
+      "Iterate based on outputs to refine prompts"
+    ],
+    "tags": [
+      "ai",
+      "video-generation",
+      "text-to-video",
+      "openai",
+      "sora",
+      "creative-ai",
+      "marketing-video",
+      "content-creation",
+      "social-media",
+      "ai-video"
+    ]
+  }
+]

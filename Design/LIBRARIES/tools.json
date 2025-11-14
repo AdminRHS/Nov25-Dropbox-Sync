@@ -1,0 +1,920 @@
+[
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AI-008",
+    "name": "ElevenLabs",
+    "vendor": "ElevenLabs",
+    "category": "AI/Audio Generation",
+    "purpose": "AI text-to-speech and voice cloning for video voiceovers",
+    "description": "Advanced AI voice generation platform. Used for creating voiceovers for video content, presentations, tutorials, and educational materials. Supports multiple languages and custom voice cloning.",
+    "skill_level_required": "Beginner to Intermediate",
+    "cost_structure": "Freemium (Free tier 10k chars/month + paid plans $5-$330/month)",
+    "platform_compatibility": [
+      "Web",
+      "API"
+    ],
+    "integration_capabilities": [
+      "Text-to-speech",
+      "Voice cloning",
+      "Multi-language support (29+ languages)",
+      "API access",
+      "Audio editing tools",
+      "Projects for long-form content",
+      "Voice library"
+    ],
+    "documentation_url": "https://docs.elevenlabs.io/",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Voiceovers for Video Content (BZ-V, Design Portfolio Videos)",
+      "users": [
+        "Design Team",
+        "Video Editors",
+        "Content Creators"
+      ],
+      "team_members": [
+        "Designers creating portfolio videos",
+        "Video editors for BZ-V content",
+        "Content team for educational materials"
+      ],
+      "use_cases": [
+        "voice design videos",
+        "narrate tutorials",
+        "voice presentations",
+        "produce academy content",
+        "voice client testimonials",
+        "narrate video cvs",
+        "voice explainer videos",
+        "narrate miniature documentaries",
+        "automate video voiceovers",
+        "narrate tiltshift videos",
+        "voice social videos",
+        "automate voiceovers"
+      ],
+      "typical_workflows": [
+        {
+          "task": "Create Video Voiceover",
+          "steps": [
+            "Write script for video",
+            "Select appropriate voice from library (professional, conversational, etc.)",
+            "Input text into ElevenLabs",
+            "Adjust settings (stability, clarity, style)",
+            "Generate audio",
+            "Preview and iterate if needed",
+            "Download MP3/WAV",
+            "Import to video editing software",
+            "Sync with video"
+          ],
+          "complexity": "Low",
+          "time_estimate": "15-30 minutes"
+        },
+        {
+          "task": "Clone Team Member Voice for Brand Consistency",
+          "steps": [
+            "Record high-quality voice samples (1-30 minutes)",
+            "Upload to ElevenLabs voice cloning",
+            "Train custom voice model",
+            "Use for all brand voiceovers",
+            "Maintain voice consistency across content"
+          ],
+          "complexity": "Medium",
+          "time_estimate": "1-2 hours setup, then 5-10 minutes per use"
+        },
+        {
+          "task": "Automated Documentary Voiceover via GLIF Workflow",
+          "steps": [
+            "GLIF agent researches topic (Perplexity)",
+            "Agent generates documentary script",
+            "Eleven Labs automatically generates voiceover",
+            "Voiceover synced with video (VAYU + Seedream)",
+            "Review 32-second miniature documentary",
+            "Download complete video with narration"
+          ],
+          "complexity": "Low (fully automated)",
+          "time_estimate": "10-15 minutes (mostly automated)"
+        }
+      ],
+      "integration_with_other_tools": [
+        "After Effects - Import audio for video composition",
+        "Premiere Pro - Video editing with voiceover",
+        "Manus AI - Combine with autonomous video generation",
+        "Gamma AI - Add voiceovers to AI-generated presentations",
+        "GLIF - Automated voiceover in AI workflow pipelines",
+        "VAYU 2.2 - Voiceover for miniature documentary videos",
+        "Seedream - Narration for tilt-shift video content",
+        "Sora - Add voiceover to AI-generated videos",
+        "Kling - Voiceover integration for video content"
+      ],
+      "internal_platforms_served": [
+        "DGN (Design Services) - Portfolio video voiceovers",
+        "BZ-V (Business Video) - Professional video narration",
+        "RHS (Remote Helpers) - Tutorial videos, skills demonstrations",
+        "OAY (Online Academy) - Educational content voiceovers",
+        "FVE (Video Editors) - Client project voiceovers"
+      ]
+    },
+    "strengths": [
+      "Extremely natural-sounding voices",
+      "Voice cloning capabilities",
+      "Multi-language support",
+      "Fast generation",
+      "API for automation",
+      "Affordable pricing"
+    ],
+    "limitations": [
+      "Free tier limited to 10k characters/month",
+      "Voice cloning requires paid plan",
+      "Can sound robotic if not tuned properly",
+      "Limited emotion control",
+      "Character limits on lower tiers"
+    ],
+    "departments_using": [
+      "Designers",
+      "Video Editors",
+      "Content Creation",
+      "Marketing"
+    ],
+    "typical_output_formats": [
+      "MP3",
+      "WAV"
+    ],
+    "tags": [
+      "ai",
+      "text-to-speech",
+      "voiceover",
+      "audio-generation",
+      "voice-cloning"
+    ]
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AI-045",
+    "name": "GLIF",
+    "vendor": "GLIF",
+    "category": "AI/Workflow Automation",
+    "purpose": "AI workflow automation platform for creative AI tool orchestration and agent-based content generation",
+    "description": "GLIF is an AI workflow automation platform that allows users to create, share, and use AI agents that orchestrate multiple creative AI tools. It automates prompting, formatting, and workflow execution across various generative AI services including image generation, video creation, and audio synthesis. Users can build custom workflows or use pre-built agents to automate complex creative tasks.",
+    "skill_level_required": "Beginner to Advanced",
+    "cost_structure": "Freemium (Free tier available + paid plans)",
+    "platform_compatibility": [
+      "Web",
+      "API"
+    ],
+    "integration_capabilities": [
+      "AI agent creation and management",
+      "Multi-tool workflow orchestration",
+      "Automated prompting and formatting",
+      "Integration with image generation tools (Nano Banana, Midjourney)",
+      "Integration with video generation tools (Kling, Sora, VAYU, Seedream)",
+      "Integration with audio tools (Eleven Labs)",
+      "Integration with research tools (Perplexity)",
+      "Custom workflow builder",
+      "Agent marketplace",
+      "Automated content generation pipelines"
+    ],
+    "documentation_url": "https://glif.app",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Creative AI Workflow Automation and Content Generation at Scale",
+      "users": [
+        "Content Creators",
+        "Video Editors",
+        "Designers",
+        "Marketing Teams",
+        "Social Media Managers"
+      ],
+      "team_members": [
+        "Content creators automating video production",
+        "Designers creating thumbnail variants",
+        "Marketing teams generating campaigns",
+        "Social media managers creating viral content"
+      ],
+      "use_cases": [
+        "generate youtube thumbnails",
+        "create tiltshift documentaries",
+        "automate reddit stories",
+        "generate influencer videos",
+        "create brand mascots",
+        "automate marketing workflows",
+        "generate multi-format content",
+        "automate ctr testing",
+        "build viral workflows",
+        "automate educational content"
+      ],
+      "typical_workflows": [
+        {
+          "task": "Create YouTube Thumbnail with AI Agent",
+          "steps": [
+            "Select or create thumbnail generation agent (e.g., Nano Banana Ultimate)",
+            "Upload reference image or provide description",
+            "Specify style parameters (e.g., 'Mr. Beast style', high CTR, more contrast)",
+            "Agent automatically prompts and formats request",
+            "Review generated thumbnails",
+            "Iterate with refined parameters if needed",
+            "Download final thumbnail"
+          ],
+          "complexity": "Low",
+          "time_estimate": "5-15 minutes"
+        },
+        {
+          "task": "Generate Miniature History Documentary",
+          "steps": [
+            "Select miniature documentary agent",
+            "Input topic or historical event",
+            "Agent uses Perplexity to research facts",
+            "Agent generates script and voiceover (Eleven Labs)",
+            "Agent creates tilt-shift video (Seedream + VAYU 2.2)",
+            "Review 32-second output video",
+            "Download or share"
+          ],
+          "complexity": "Medium",
+          "time_estimate": "10-20 minutes (mostly automated)"
+        },
+        {
+          "task": "Automate Reddit Story TikTok Creation",
+          "steps": [
+            "Select Reddit story TikTok agent",
+            "Input Reddit thread URL or story text",
+            "Agent extracts and formats story",
+            "Agent generates background video (gaming footage style)",
+            "Agent generates narration (Eleven Labs)",
+            "Agent combines elements into TikTok format",
+            "Review and download final video",
+            "Upload to TikTok"
+          ],
+          "complexity": "Low to Medium",
+          "time_estimate": "10-15 minutes"
+        },
+        {
+          "task": "Build Custom AI Workflow",
+          "steps": [
+            "Define workflow objectives",
+            "Select AI tools to integrate",
+            "Create agent in GLIF workflow builder",
+            "Configure prompting logic and parameters",
+            "Set up tool chaining sequence",
+            "Test workflow with sample inputs",
+            "Iterate and optimize",
+            "Save and share agent"
+          ],
+          "complexity": "Advanced",
+          "time_estimate": "1-3 hours"
+        }
+      ],
+      "integration_with_other_tools": [
+        "Nano Banana - Image generation within workflows",
+        "Kling 2.5 - Video generation automation",
+        "Sora 2 - Advanced video content creation",
+        "VAYU 2.2 - Tilt-shift video effects",
+        "Seedream - Miniature-style video generation",
+        "Eleven Labs - Voiceover and audio synthesis",
+        "Perplexity - Research and fact-checking",
+        "Midjourney - Image generation (via Discord integration)",
+        "ChatGPT - Content generation and scripting",
+        "Video editing tools - Export for final editing"
+      ],
+      "internal_platforms_served": [
+        "BZ-V (Business Video) - Automated video content creation",
+        "DGN (Design Services) - Thumbnail and visual content generation",
+        "SMM (Social Media Marketing) - Viral content automation",
+        "Content Creation - Multi-format content workflows",
+        "Marketing - Campaign asset generation",
+        "OAY (Online Academy) - Educational content creation"
+      ]
+    },
+    "strengths": [
+      "Automates complex multi-tool workflows",
+      "No coding required for basic workflows",
+      "Pre-built agent marketplace",
+      "Automatic prompting and formatting",
+      "Integrates multiple AI tools seamlessly",
+      "Fast iteration and testing",
+      "Supports various content types (images, videos, audio)",
+      "Community-driven agent sharing",
+      "Reduces creative AI learning curve",
+      "Enables content creation at scale"
+    ],
+    "limitations": [
+      "Dependent on third-party AI tool availability",
+      "Limited customization in pre-built agents",
+      "Costs can accumulate from multiple tool usage",
+      "Advanced workflows require understanding of AI tools",
+      "Quality depends on underlying AI models",
+      "May require manual refinement of outputs",
+      "Learning curve for custom agent building"
+    ],
+    "departments_using": [
+      "Content Creation",
+      "Video Production",
+      "Design",
+      "Marketing",
+      "Social Media Management"
+    ],
+    "typical_output_formats": [
+      "Images (PNG, JPG)",
+      "Videos (MP4)",
+      "Audio (MP3, WAV)",
+      "Multi-format content packages"
+    ],
+    "workflow_automation_patterns": [
+      "Sequential tool chaining (research → script → video → voiceover)",
+      "Parallel content generation (multiple variants simultaneously)",
+      "Iterative refinement (automatic prompt optimization)",
+      "Conditional workflows (if-then logic based on outputs)",
+      "Batch processing (multiple inputs at scale)"
+    ],
+    "key_concepts": [
+      "AI Agents - Pre-configured workflows that execute specific creative tasks",
+      "Workflow Orchestration - Automated sequencing of multiple AI tools",
+      "Prompt Engineering Automation - Agents handle optimal prompting",
+      "Tool Abstraction - Users don't need to learn each individual tool",
+      "Content Pipeline - End-to-end automation from concept to deliverable"
+    ],
+    "business_value": {
+      "efficiency_gains": "10x faster creative content production",
+      "cost_reduction": "Reduces need for multiple tool subscriptions and expert operators",
+      "scalability": "Enables small teams to produce enterprise-level content volume",
+      "consistency": "Automated workflows ensure brand and quality consistency",
+      "innovation": "Allows rapid testing of creative approaches and formats"
+    },
+    "tags": [
+      "ai",
+      "workflow-automation",
+      "ai-agents",
+      "creative-ai",
+      "content-generation",
+      "video-automation",
+      "image-generation",
+      "orchestration",
+      "no-code"
+    ]
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AI-007",
+    "name": "Leonardo.ai",
+    "vendor": "Leonardo.Ai",
+    "category": "AI/Generative AI",
+    "purpose": "AI image creation with artistic styles and controlnets",
+    "description": "AI image generation platform with fine-tuned models, style presets, and control tools. Alternative/complement to Midjourney with more direct control and customization options.",
+    "skill_level_required": "Intermediate",
+    "cost_structure": "Freemium (Free tier + paid plans $10-$48/month)",
+    "platform_compatibility": [
+      "Web"
+    ],
+    "integration_capabilities": [
+      "Multiple AI models (Leonardo Phoenix, SDXL, etc.)",
+      "Style presets and fine-tuned models",
+      "ControlNet (pose, edge, depth)",
+      "Image-to-image generation",
+      "Upscaling",
+      "Background removal",
+      "API access"
+    ],
+    "documentation_url": "https://app.leonardo.ai/image-generation",
+    "actual_remote_helpers_usage": {
+      "primary_use": "AI Image Creation with Artistic Styles",
+      "users": [
+        "Design Team",
+        "Graphic Designers",
+        "Illustrators"
+      ],
+      "team_members": [
+        "Designers for stylized imagery",
+        "Illustrators for artistic reference",
+        "Graphic designers for marketing visuals"
+      ],
+      "use_cases": [
+        "create artistic images",
+        "generate character poses",
+        "create design backgrounds",
+        "concept product visuals",
+        "stylize marketing imagery",
+        "iterate images",
+        "explore project styles"
+      ],
+      "typical_workflows": [
+        {
+          "task": "Generate Styled Marketing Image",
+          "steps": [
+            "Select appropriate fine-tuned model (e.g., Leonardo Anime XL, Leonardo Diffusion XL)",
+            "Craft prompt with artistic style, subject, composition",
+            "Use ControlNet if specific pose/structure needed",
+            "Generate variations",
+            "Select best output",
+            "Upscale if needed",
+            "Import to Photoshop/Figma for final editing"
+          ],
+          "complexity": "Medium",
+          "time_estimate": "30-90 minutes"
+        }
+      ],
+      "advantages_over_midjourney": [
+        "More control with ControlNet",
+        "Variety of fine-tuned models",
+        "Image-to-image workflows",
+        "Background removal tool",
+        "Better for consistent character generation",
+        "Free tier available"
+      ],
+      "internal_platforms_served": [
+        "DGN (Design Services) - Artistic portfolio pieces",
+        "All platforms - Stylized marketing imagery"
+      ]
+    },
+    "strengths": [
+      "Multiple specialized models",
+      "ControlNet for precise control",
+      "Free tier for experimentation",
+      "Image-to-image workflows",
+      "Good for character consistency",
+      "Background removal included"
+    ],
+    "limitations": [
+      "Interface can be complex",
+      "Quality varies by model",
+      "Requires experimentation",
+      "Output quality sometimes below Midjourney",
+      "Limited prompt tokens on free tier"
+    ],
+    "departments_using": [
+      "Designers"
+    ],
+    "typical_output_formats": [
+      "PNG",
+      "JPG"
+    ],
+    "tags": [
+      "ai",
+      "generative-ai",
+      "image-generation",
+      "artistic-styles",
+      "controlnet"
+    ]
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AI-006",
+    "name": "Midjourney",
+    "vendor": "Midjourney Inc.",
+    "category": "AI/Generative AI",
+    "purpose": "AI image generation for concept art, illustrations, and visual ideation",
+    "description": "AI-powered text-to-image generation tool accessed via Discord. Used for banners, icons, flat illustrations, concept exploration, and visual references for design projects.",
+    "skill_level_required": "Intermediate (requires prompt engineering skills)",
+    "cost_structure": "Subscription-based ($10/month Basic, $30/month Standard, $60/month Pro, $120/month Mega)",
+    "platform_compatibility": [
+      "Discord bot",
+      "Web interface (midjourney.com)"
+    ],
+    "integration_capabilities": [
+      "Discord integration",
+      "Image prompting (--cref)",
+      "Style references (--sref)",
+      "Parameter customization",
+      "Upscaling and variations",
+      "Image blending"
+    ],
+    "documentation_url": "https://docs.midjourney.com/",
+    "actual_remote_helpers_usage": {
+      "primary_use": "AI Image Generation for Design Concepts",
+      "users": [
+        "Design Team (9 designers)",
+        "Primarily Graphic Designers",
+        "Content Creators",
+        "YouTube Creators"
+      ],
+      "team_members": [
+        "All designers for concept exploration",
+        "Illustrators for reference imagery",
+        "Graphic designers for banner concepts",
+        "Content creators for thumbnail generation",
+        "Social media managers for engaging visuals"
+      ],
+      "use_cases": [
+        "ideate banners",
+        "explore flat illustrations",
+        "ideate icons",
+        "ideate characters",
+        "create composite backgrounds",
+        "create visual references",
+        "explore moodboards",
+        "generate marketing imagery",
+        "design youtube thumbnails",
+        "optimize thumbnail styles",
+        "create social visuals",
+        "create brand mascots",
+        "ideate creator thumbnails"
+      ],
+      "typical_workflows": [
+        {
+          "task": "Generate Banner Concept with Midjourney",
+          "steps": [
+            "Craft detailed prompt with visual style, composition, colors",
+            "Use --cref for reference image consistency",
+            "Use parameters (--ar 16:9 for banner aspect ratio, --v 6 for latest model)",
+            "Generate multiple variations",
+            "Upscale selected concept",
+            "Import into Photoshop or Figma for refinement",
+            "Add text, branding, and final touches"
+          ],
+          "complexity": "Medium",
+          "time_estimate": "30 minutes - 2 hours"
+        },
+        {
+          "task": "Create Illustration Reference",
+          "steps": [
+            "Define illustration style in prompt (flat, isometric, etc.)",
+            "Use --sref for style consistency across series",
+            "Generate variations",
+            "Select best concepts",
+            "Use as reference for manual illustration in Illustrator"
+          ],
+          "complexity": "Low to Medium",
+          "time_estimate": "20-60 minutes"
+        },
+        {
+          "task": "Generate YouTube Thumbnail (High CTR)",
+          "steps": [
+            "Define thumbnail concept with high-impact visuals",
+            "Use prompt specifying 'bold text area', 'high contrast', 'dramatic composition'",
+            "Reference successful thumbnail styles (e.g., Mr. Beast style) with --sref",
+            "Use aspect ratio --ar 16:9 for YouTube format",
+            "Generate multiple variations for A/B testing",
+            "Upscale best options",
+            "Import to Photoshop to add bold text overlay",
+            "Optimize for click-through rate (vibrant colors, clear focal point)",
+            "Export and test performance"
+          ],
+          "complexity": "Medium",
+          "time_estimate": "30-60 minutes"
+        }
+      ],
+      "prompt_best_practices": [
+        "Include specific visual style (flat, isometric, photorealistic, etc.)",
+        "Specify composition and framing",
+        "Use --no parameter to exclude unwanted elements",
+        "Reference existing images with --cref for consistency",
+        "Use --ow (organization weight) for brand consistency",
+        "For thumbnails: specify 'high contrast', 'dramatic', 'bold composition'",
+        "For CTR optimization: request 'eye-catching', 'vibrant colors', 'clear focal point'",
+        "Use --ar 16:9 for YouTube thumbnails",
+        "Reference viral thumbnail styles with --sref for proven formats"
+      ],
+      "internal_platforms_served": [
+        "DGN (Design Services) - Concept art, portfolio pieces",
+        "BZ-V (Business Video) - Background imagery, concepts",
+        "REMS (Recruiting) - Visual content for job market insights",
+        "All platforms - Rapid visual ideation"
+      ]
+    },
+    "strengths": [
+      "Extremely fast concept generation",
+      "High-quality, artistic outputs",
+      "Great for visual exploration",
+      "Excellent for mood boards",
+      "Reduces initial sketching time",
+      "Style consistency with parameters"
+    ],
+    "limitations": [
+      "Requires prompt engineering skills",
+      "Can't generate specific text reliably",
+      "Requires refinement in traditional tools",
+      "Subscription cost",
+      "Limited control vs manual design",
+      "Ethical considerations (AI-generated content)"
+    ],
+    "departments_using": [
+      "Designers (PRIMARY)",
+      "Marketing"
+    ],
+    "typical_output_formats": [
+      "PNG",
+      "JPG"
+    ],
+    "tags": [
+      "ai",
+      "generative-ai",
+      "image-generation",
+      "concept-art",
+      "illustrations",
+      "design-exploration"
+    ]
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-AI-046",
+    "name": "Nano Banana",
+    "vendor": "Nano Banana",
+    "category": "AI/Generative AI (Images)",
+    "purpose": "AI image generation and manipulation for creative content, thumbnails, and style-specific imagery",
+    "description": "Nano Banana is an AI image generation tool specialized in creating high-quality visuals with specific style applications. Particularly effective for YouTube thumbnail generation, marketing imagery, and style transfer applications (e.g., Mr. Beast style optimization). Integrated within GLIF workflows as 'Nano Banana Ultimate' agent for automated image generation tasks.",
+    "skill_level_required": "Beginner to Intermediate",
+    "cost_structure": "Usage-based (typically accessed via GLIF platform)",
+    "platform_compatibility": [
+      "Web",
+      "API",
+      "GLIF Integration"
+    ],
+    "integration_capabilities": [
+      "Text-to-image generation",
+      "Image-to-image style transfer",
+      "Style-specific optimization (Mr. Beast style, high CTR designs)",
+      "Thumbnail generation",
+      "Marketing visual creation",
+      "Brand mascot design",
+      "Icon generation",
+      "Reference image processing",
+      "Automated prompting via GLIF agents"
+    ],
+    "documentation_url": "https://glif.app (accessed via GLIF agents)",
+    "actual_remote_helpers_usage": {
+      "primary_use": "YouTube Thumbnail Generation and Marketing Visual Creation",
+      "users": [
+        "Content Creators",
+        "YouTube Creators",
+        "Designers",
+        "Marketing Teams",
+        "Social Media Managers"
+      ],
+      "team_members": [
+        "YouTube content creators optimizing thumbnails",
+        "Marketing designers creating ad visuals",
+        "Social media managers generating engaging graphics",
+        "Brand designers creating mascots and icons"
+      ],
+      "use_cases": [
+        "optimize youtube thumbnails",
+        "optimize thumbnails",
+        "generate marketing visuals",
+        "create mascots",
+        "design icons",
+        "generate reference images",
+        "design social graphics",
+        "test thumbnails",
+        "transfer brand style",
+        "create ad visuals"
+      ],
+      "typical_workflows": [
+        {
+          "task": "Create High-CTR YouTube Thumbnail",
+          "steps": [
+            "Access Nano Banana Ultimate agent in GLIF",
+            "Upload reference thumbnail or describe concept",
+            "Specify style parameters (e.g., 'Mr. Beast style', 'high CTR', 'more contrast', 'fresher')",
+            "Agent auto-generates optimized prompts",
+            "Review generated thumbnail variants",
+            "Select best option or iterate with refined parameters",
+            "Download final thumbnail (PNG/JPG)",
+            "Upload to YouTube"
+          ],
+          "complexity": "Low",
+          "time_estimate": "5-15 minutes"
+        },
+        {
+          "task": "Generate Brand Mascot",
+          "steps": [
+            "Define mascot concept and brand identity",
+            "Input description into Nano Banana (via GLIF)",
+            "Specify style, color palette, and character attributes",
+            "Generate multiple mascot variants",
+            "Review and select preferred design",
+            "Refine with additional prompts",
+            "Export for brand usage",
+            "Create variations for different contexts"
+          ],
+          "complexity": "Medium",
+          "time_estimate": "20-40 minutes"
+        },
+        {
+          "task": "Create Marketing Visual Set",
+          "steps": [
+            "Define campaign theme and visual requirements",
+            "Set up batch generation in GLIF workflow",
+            "Generate multiple marketing visuals (banners, ads, social posts)",
+            "Review consistency across variants",
+            "Select best performers",
+            "Export in required formats",
+            "Deploy across marketing channels"
+          ],
+          "complexity": "Medium",
+          "time_estimate": "30-60 minutes"
+        }
+      ],
+      "integration_with_other_tools": [
+        "GLIF - Primary workflow platform (Nano Banana Ultimate agent)",
+        "Photoshop - Post-processing and refinement",
+        "Canva - Template integration",
+        "Figma - Design system integration",
+        "YouTube Studio - Direct thumbnail upload",
+        "Social media platforms - Content publishing",
+        "Marketing automation tools - Campaign integration"
+      ],
+      "internal_platforms_served": [
+        "BZ-V (Business Video) - Thumbnail creation for video content",
+        "DGN (Design Services) - Marketing visual generation",
+        "SMM (Social Media Marketing) - Social graphics creation",
+        "Marketing - Campaign asset generation",
+        "Brand Development - Mascot and icon creation",
+        "Content Creation - Visual content for various channels"
+      ]
+    },
+    "strengths": [
+      "Excellent for YouTube thumbnail optimization",
+      "Style-specific generation (Mr. Beast style, high CTR designs)",
+      "Fast generation speed",
+      "Integrated with GLIF for automated workflows",
+      "Good for A/B testing visual variants",
+      "Effective CTR optimization capabilities",
+      "Suitable for marketing and advertising visuals",
+      "User-friendly via GLIF agents (no complex prompting needed)"
+    ],
+    "limitations": [
+      "Primary access through GLIF platform",
+      "Limited standalone documentation",
+      "Style transfer quality varies by complexity",
+      "May require iteration for perfect results",
+      "Less control than traditional design tools",
+      "Dependent on GLIF platform availability",
+      "Usage costs through GLIF credits"
+    ],
+    "departments_using": [
+      "Content Creation",
+      "Marketing",
+      "Design",
+      "Social Media Management",
+      "Video Production"
+    ],
+    "typical_output_formats": [
+      "PNG",
+      "JPG",
+      "High-resolution images"
+    ],
+    "style_specializations": [
+      "Mr. Beast style thumbnails (bold text, high contrast, dramatic visuals)",
+      "High CTR optimization (attention-grabbing designs)",
+      "YouTube thumbnail best practices",
+      "Social media graphic styles",
+      "Marketing banner aesthetics",
+      "Brand-consistent visuals"
+    ],
+    "best_practices": [
+      "Use specific style references (e.g., 'Mr. Beast style') for better results",
+      "Specify CTR optimization goals in prompts",
+      "Request 'more contrast' and 'fresher' for engaging visuals",
+      "Generate multiple variants for A/B testing",
+      "Combine with analytics to identify winning thumbnail styles",
+      "Iterate based on performance metrics",
+      "Use reference images when available"
+    ],
+    "tags": [
+      "ai",
+      "image-generation",
+      "thumbnails",
+      "youtube",
+      "marketing-visuals",
+      "ctr-optimization",
+      "glif-integration",
+      "style-transfer",
+      "content-creation"
+    ]
+  },
+  {
+    "entity_type": "LIBRARIES",
+    "sub_entity": "Tool",
+    "tool_id": "TOOL-BUS-050",
+    "name": "Discord",
+    "vendor": "Discord Inc.",
+    "category": "Business Tools / Communication",
+    "purpose": "Team communication and collaboration platform for text, voice, and video channels",
+    "description": "Discord is a communication platform designed for creating communities through organized text channels, voice calls, and video meetings. Features include threaded conversations, screen sharing, file sharing, role-based permissions, bots for automation, and integration with third-party tools. Used for team communication, project collaboration, community building, and real-time coordination.",
+    "skill_level_required": "Beginner",
+    "cost_structure": "Free tier available, Nitro subscription $9.99/month, Server Boost from $4.99/month",
+    "platform_compatibility": [
+      "Web (discord.com)",
+      "Desktop (Windows/Mac/Linux)",
+      "Mobile (iOS/Android)",
+      "Browser Extension"
+    ],
+    "integration_capabilities": [
+      "Webhooks for notifications",
+      "Bot API for automation",
+      "Third-party integrations (GitHub, Trello, Google Calendar)",
+      "Screen sharing",
+      "Voice and video calls",
+      "File sharing up to 500MB (with Nitro)",
+      "Custom emojis and stickers",
+      "Role-based access control"
+    ],
+    "documentation_url": "https://discord.com",
+    "actual_remote_helpers_usage": {
+      "primary_use": "Team Communication & Collaboration",
+      "users": [
+        "All departments",
+        "Project teams",
+        "Development teams",
+        "Design teams",
+        "Community managers",
+        "Support teams"
+      ],
+      "use_cases": [
+        "organize team discussions in channels",
+        "conduct voice/video meetings",
+        "share files and documents",
+        "coordinate projects in real-time",
+        "provide customer support",
+        "build community engagement",
+        "host webinars and events",
+        "automate notifications via webhooks",
+        "integrate with development tools (GitHub alerts)",
+        "screen share for collaboration"
+      ],
+      "workflows": [
+        "Daily standups in voice channels",
+        "Project coordination with threaded discussions",
+        "Community support channels",
+        "Developer alerts and notifications",
+        "Design review sessions with screen sharing"
+      ],
+      "typical_workflow_pattern": [
+        {
+          "task": "Team Communication Setup",
+          "steps": [
+            "Create Discord server for team/project",
+            "Set up channels by topic (general, projects, support, etc.)",
+            "Configure roles and permissions",
+            "Add team members",
+            "Set up bots for automation (notifications, moderation)",
+            "Integrate with other tools (GitHub, calendar)",
+            "Use voice channels for meetings"
+          ],
+          "complexity": "Low",
+          "time_estimate": "10-15 minutes for initial setup",
+          "time_saved": "Reduces email clutter, enables instant communication"
+        }
+      ],
+      "integration_with_other_tools": [
+        "GitHub (code updates, PR notifications)",
+        "Google Calendar (event reminders)",
+        "Trello (project updates)",
+        "Zapier/Make (workflow automation)",
+        "Midjourney (AI image generation)",
+        "GLIF (workflow integration)",
+        "Custom bots and webhooks"
+      ]
+    },
+    "strengths": [
+      "Free tier with generous features",
+      "Excellent voice/video quality",
+      "Organized channel structure",
+      "Strong bot ecosystem",
+      "Screen sharing and streaming",
+      "Mobile and desktop apps",
+      "Low latency for real-time communication",
+      "Easy to set up and use",
+      "Good file sharing capabilities",
+      "Active development and updates"
+    ],
+    "limitations": [
+      "Can be overwhelming with many channels",
+      "Search functionality limited in free tier",
+      "File upload size limited (8MB free, 500MB with Nitro)",
+      "Message history limited in some cases",
+      "Not designed for formal business communication"
+    ],
+    "security_features": [
+      "Two-factor authentication",
+      "Role-based permissions",
+      "Private channels",
+      "Direct messages",
+      "Audit logs (for large servers)"
+    ],
+    "departments_using": [
+      "Dev",
+      "Design",
+      "Marketing",
+      "AI",
+      "OPS",
+      "HR",
+      "Sales",
+      "LG"
+    ],
+    "tags": [
+      "communication",
+      "collaboration",
+      "voice-chat",
+      "video-calls",
+      "team-chat",
+      "community",
+      "real-time",
+      "messaging",
+      "webhooks",
+      "bots"
+    ],
+    "discovery_date": "2025-11-13",
+    "discovery_source": "General business communication tools",
+    "status": "active",
+    "recommended_for": "Real-time team communication, community building, and collaborative projects"
+  }
+]

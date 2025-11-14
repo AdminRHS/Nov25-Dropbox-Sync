@@ -1,0 +1,19 @@
+{
+  "department": "DEV",
+  "total_projects": 2,
+  "last_updated": "2025-11-13T11:21:56.110328",
+  "projects": [
+    {
+      "id": "PROJ-DEV-004",
+      "name": "Google Maps Lead Generation System",
+      "type": "Internal",
+      "key_deliverable": "Two-tier scraping + AI analysis, NLP dictionary"
+    },
+    {
+      "id": "PROJ-DEV-005",
+      "name": "Production Website Deployment",
+      "type": "Client",
+      "key_deliverable": "Live: https://honeystone.fv-e.com/ (Docker)"
+    }
+  ]
+}

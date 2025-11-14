@@ -1,3 +1,754 @@
+# Changelog - 2025-11-14
+
+**Sync Date:** 2025-11-14 01:22:50 UTC
+**Total Changes:** 293 files
+
+## Summary
+
+- **Added:** 243 files
+- **Modified:** 0 files
+- **Deleted:** 50 files
+
+## Changes by Department
+
+### "Design
+
+**Total changes:** 5 files
+
+#### Shymkevych Iryna
+
+**Deleted (5 files):**
+- `employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07).html"`
+- `daily (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-06).md"`
+- `employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07 1).html"`
+- `daily (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-06).md"`
+- `employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07 1).html"`
+
+
+### "LG
+
+**Total changes:** 1 files
+
+#### Lead Generation Department
+
+**Deleted (1 files):**
+- `Copy of PROMPT for LG custom projects - September 26, 3_21\342\200\257PM.md"`
+
+
+### "Video
+
+**Total changes:** 44 files
+
+#### Azanova Dar\312\274ya
+
+**Deleted (44 files):**
+- `daily.md"`
+- `task.md"`
+- `plans.md"`
+- `task.md"`
+- `task.md"`
+- `task.md"`
+- `task.md"`
+- `task.md"`
+- `plans.md"`
+- `daily.md"`
+- `task.md"`
+- `Profile Video Editor Azanova Dar\312\274ya.md"`
+- `plans.md"`
+- `daily.md"`
+- `plans.md"`
+- `plans.md"`
+- `plans.md"`
+- `daily.md"`
+- `task.md"`
+- `plans.md"`
+- `daily.md"`
+- `daily.md"`
+- `README.md"`
+- `task.md"`
+- `daily.md"`
+- `plans.md"`
+- `daily.md"`
+- `plans.md"`
+- `task.md"`
+- `daily.md"`
+- `daily.md"`
+- `task.md"`
+- `plans.md"`
+- `plans.md"`
+- `daily.md"`
+- `task.md"`
+- `plans.md"`
+- `daily.md"`
+- `daily.md"`
+- `task.md"`
+- `daily.md"`
+- `plans.md"`
+- `plans.md"`
+- `task.md"`
+
+
+### Design
+
+**Total changes:** 85 files
+
+#### LIBRARIES
+
+**Added (5 files):**
+- `actions.json` (12.10 KB, modified: 2025-11-13T10:20:57, by: Dropbox User)
+- `objects.json` (2.93 KB, modified: 2025-11-13T10:20:57, by: Dropbox User)
+- `parameters.json` (1.17 KB, modified: 2025-11-13T12:29:54, by: Dropbox User)
+- `skills.json` (3.94 KB, modified: 2025-11-13T10:20:57, by: Dropbox User)
+- `tools.json` (34.95 KB, modified: 2025-11-13T10:20:57, by: Dropbox User)
+
+#### QUICKSTART.md
+
+**Added (1 files):**
+- `QUICKSTART.md` (3.99 KB, modified: 2025-11-13T10:23:38, by: Dropbox User)
+
+#### README.md
+
+**Added (1 files):**
+- `README.md` (2.40 KB, modified: 2025-11-13T10:23:38, by: Dropbox User)
+
+#### Shymkevych Iryna
+
+**Added (2 files):**
+- `daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md` → `Week_1/06/daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md` (13.51 KB, modified: 2025-11-06T16:13:37, by: Dropbox User)
+- `employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html` → `Week_1/05/employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html` (24.40 KB, modified: 2025-11-07T14:02:58, by: Dropbox User)
+
+#### TASK_MANAGERS
+
+**Added (75 files):**
+- `projects_listing.json` (878 bytes, modified: 2025-11-13T10:21:56, by: Dropbox User)
+- `steps_listing.json` (22.06 KB, modified: 2025-11-13T10:21:56, by: Dropbox User)
+- `tasks_listing.json` (7.22 KB, modified: 2025-11-13T10:21:55, by: Dropbox User)
+- `workflows.json` (99 bytes, modified: 2025-11-13T10:21:56, by: Dropbox User)
+- `DESIGN-001-01_conduct-client-brand-discovery-session.md` → `templates/steps/DESIGN-001-01_conduct-client-brand-discovery-session.md` (825 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-001-02_research-competitor-branding.md` → `templates/steps/DESIGN-001-02_research-competitor-branding.md` (836 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-001-03_create-logo-concepts.md` → `templates/steps/DESIGN-001-03_create-logo-concepts.md` (806 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-001-04_define-color-palette.md` → `templates/steps/DESIGN-001-04_define-color-palette.md` (819 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-001-05_select-typography-system.md` → `templates/steps/DESIGN-001-05_select-typography-system.md` (817 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-001-06_document-spacing-and-grid-rules.md` → `templates/steps/DESIGN-001-06_document-spacing-and-grid-rules.md` (806 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-001-07_create-usage-guidelines.md` → `templates/steps/DESIGN-001-07_create-usage-guidelines.md` (809 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-001-08_present-to-client-for-approval.md` → `templates/steps/DESIGN-001-08_present-to-client-for-approval.md` (828 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-002-01_review-client-landing-page.md` → `templates/steps/DESIGN-002-01_review-client-landing-page.md` (820 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-002-02_identify-missing-information-and-requirements.md` → `templates/steps/DESIGN-002-02_identify-missing-information-and-requirements.md` (836 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-002-05_document-designer-responses.md` → `templates/steps/DESIGN-002-05_document-designer-responses.md` (817 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-002-06_update-development-plan-based-on-clarifications.md` → `templates/steps/DESIGN-002-06_update-development-plan-based-on-clarifications.md` (831 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-003-02_define-working-hours-policy-eg-1200-1600.md` → `templates/steps/DESIGN-003-02_define-working-hours-policy-eg-1200-1600.md` (835 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-003-03_communicate-working-hours-to-client.md` → `templates/steps/DESIGN-003-03_communicate-working-hours-to-client.md` (828 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-003-04_adjust-reporting-frequency-eg-daily-to-weekly.md` → `templates/steps/DESIGN-003-04_adjust-reporting-frequency-eg-daily-to-weekly.md` (838 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-003-05_clarify-reporting-expectations-and-format.md` → `templates/steps/DESIGN-003-05_clarify-reporting-expectations-and-format.md` (826 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-003-06_document-new-communication-standards.md` → `templates/steps/DESIGN-003-06_document-new-communication-standards.md` (826 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-004-02_identify-status-discrepancies-available-vs-on-proj.md` → `templates/steps/DESIGN-004-02_identify-status-discrepancies-available-vs-on-proj.md` (842 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-004-03_document-examples-of-incorrect-status.md` → `templates/steps/DESIGN-004-03_document-examples-of-incorrect-status.md` (820 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-004-04_coordinate-with-hr-on-accurate-status-tracking.md` → `templates/steps/DESIGN-004-04_coordinate-with-hr-on-accurate-status-tracking.md` (834 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-004-05_update-status-records.md` → `templates/steps/DESIGN-004-05_update-status-records.md` (800 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-004-06_establish-ongoing-status-accuracy-process.md` → `templates/steps/DESIGN-004-06_establish-ongoing-status-accuracy-process.md` (833 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-005-03_design-ui-component-library-10-categories.md` → `templates/steps/DESIGN-005-03_design-ui-component-library-10-categories.md` (835 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-005-04_document-design-patterns-and-best-practices.md` → `templates/steps/DESIGN-005-04_document-design-patterns-and-best-practices.md` (833 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-005-05_create-accessibility-standards-wcag-compliance.md` → `templates/steps/DESIGN-005-05_create-accessibility-standards-wcag-compliance.md` (840 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-005-06_document-content-type-requirements.md` → `templates/steps/DESIGN-005-06_document-content-type-requirements.md` (824 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-006-01_create-landing-page-layout-and-structure.md` → `templates/steps/DESIGN-006-01_create-landing-page-layout-and-structure.md` (813 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-006-02_design-visual-elements-hero-section-features-cta.md` → `templates/steps/DESIGN-006-02_design-visual-elements-hero-section-features-cta.md` (840 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-006-03_ensure-brand-consistency-throughout.md` → `templates/steps/DESIGN-006-03_ensure-brand-consistency-throughout.md` (819 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-006-04_create-responsive-designs-for-mobiletabletdesktop.md` → `templates/steps/DESIGN-006-04_create-responsive-designs-for-mobiletabletdesktop.md` (843 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-006-05_prepare-developer-handoff-package.md` → `templates/steps/DESIGN-006-05_prepare-developer-handoff-package.md` (823 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-006-06_coordinate-development-timeline-december-12th.md` → `templates/steps/DESIGN-006-06_coordinate-development-timeline-december-12th.md` (838 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-007-01_design-admin-calendar-interface.md` → `templates/steps/DESIGN-007-01_design-admin-calendar-interface.md` (816 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-007-02_design-regular-employee-calendar-interface.md` → `templates/steps/DESIGN-007-02_design-regular-employee-calendar-interface.md` (827 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-007-03_create-adaptive-designs-for-different-screen-sizes.md` → `templates/steps/DESIGN-007-03_create-adaptive-designs-for-different-screen-sizes.md` (842 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-007-04_build-reusable-design-system-components.md` → `templates/steps/DESIGN-007-04_build-reusable-design-system-components.md` (823 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-007-05_conduct-client-feedback-iterations.md` → `templates/steps/DESIGN-007-05_conduct-client-feedback-iterations.md` (822 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-007-06_plan-for-potential-team-expansion-2-more-ux-design.md` → `templates/steps/DESIGN-007-06_plan-for-potential-team-expansion-2-more-ux-design.md` (838 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-008-01_complete-initial-vertical-designs.md` → `templates/steps/DESIGN-008-01_complete-initial-vertical-designs.md` (818 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-008-02_identify-required-size-variations.md` → `templates/steps/DESIGN-008-02_identify-required-size-variations.md` (829 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-008-03_adapt-designs-for-multiple-sizes.md` → `templates/steps/DESIGN-008-03_adapt-designs-for-multiple-sizes.md` (827 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-008-04_test-across-different-dimensions.md` → `templates/steps/DESIGN-008-04_test-across-different-dimensions.md` (811 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-008-05_finalize-and-export-all-variations.md` → `templates/steps/DESIGN-008-05_finalize-and-export-all-variations.md` (821 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-008-06_negotiate-project-scope-and-pricing.md` → `templates/steps/DESIGN-008-06_negotiate-project-scope-and-pricing.md` (828 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-009-02_formulate-clarification-questions-for-designer.md` → `templates/steps/DESIGN-009-02_formulate-clarification-questions-for-designer.md` (838 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-009-04_document-designer-responses.md` → `templates/steps/DESIGN-009-04_document-designer-responses.md` (817 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-009-05_update-development-plan-based-on-clarifications.md` → `templates/steps/DESIGN-009-05_update-development-plan-based-on-clarifications.md` (831 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-010-01_identify-boundary-violation-issue-eg-8-pm-response.md` → `templates/steps/DESIGN-010-01_identify-boundary-violation-issue-eg-8-pm-response.md` (840 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-010-02_define-clear-working-hours-policy-eg-1200-1600.md` → `templates/steps/DESIGN-010-02_define-clear-working-hours-policy-eg-1200-1600.md` (841 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-010-03_communicate-working-hours-to-client-professionally.md` → `templates/steps/DESIGN-010-03_communicate-working-hours-to-client-professionally.md` (843 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-010-04_adjust-reporting-frequency-if-needed-daily-to-week.md` → `templates/steps/DESIGN-010-04_adjust-reporting-frequency-if-needed-daily-to-week.md` (842 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-010-05_clarify-reporting-format-and-expectations.md` → `templates/steps/DESIGN-010-05_clarify-reporting-format-and-expectations.md` (826 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-010-06_document-new-communication-standards.md` → `templates/steps/DESIGN-010-06_document-new-communication-standards.md` (826 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-002-03_formulate-questions-for-designer-links-buttons-fun.md` → `templates/steps/DESIGN-002-03_formulate-questions-for-designer-links-buttons-fun.md` (857 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-002-04_communicate-questions-to-designer.md` → `templates/steps/DESIGN-002-04_communicate-questions-to-designer.md` (854 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-003-01_identify-boundary-violation-issue-eg-8-pm-response.md` → `templates/steps/DESIGN-003-01_identify-boundary-violation-issue-eg-8-pm-response.md` (851 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-004-01_review-employee-status-lists-in-all-documentation.md` → `templates/steps/DESIGN-004-01_review-employee-status-lists-in-all-documentation.md` (846 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-005-01_define-brand-identity-personality-values-voice-ton.md` → `templates/steps/DESIGN-005-01_define-brand-identity-personality-values-voice-ton.md` (848 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-005-02_create-visual-style-specifications-logo-colors-typ.md` → `templates/steps/DESIGN-005-02_create-visual-style-specifications-logo-colors-typ.md` (858 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-009-01_review-client-landing-page-for-missing-information.md` → `templates/steps/DESIGN-009-01_review-client-landing-page-for-missing-information.md` (845 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-009-03_communicate-questions-to-designer.md` → `templates/steps/DESIGN-009-03_communicate-questions-to-designer.md` (849 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DESIGN-001.md` → `templates/tasks/DESIGN-001.md` (1.68 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+- `DESIGN-002.md` → `templates/tasks/DESIGN-002.md` (1.96 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+- `DESIGN-003.md` → `templates/tasks/DESIGN-003.md` (1.96 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+- `DESIGN-004.md` → `templates/tasks/DESIGN-004.md` (1.93 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+- `DESIGN-005.md` → `templates/tasks/DESIGN-005.md` (1.66 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+- `DESIGN-006.md` → `templates/tasks/DESIGN-006.md` (1.56 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+- `DESIGN-007.md` → `templates/tasks/DESIGN-007.md` (1.62 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+- `DESIGN-008.md` → `templates/tasks/DESIGN-008.md` (1.64 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+- `DESIGN-009.md` → `templates/tasks/DESIGN-009.md` (1.76 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+- `DESIGN-010.md` → `templates/tasks/DESIGN-010.md` (1.71 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+
+#### TOOLS_GUIDE.md
+
+**Added (1 files):**
+- `TOOLS_GUIDE.md` (2.79 KB, modified: 2025-11-13T10:23:38, by: Dropbox User)
+
+
+### Dev
+
+**Total changes:** 50 files
+
+#### LIBRARIES
+
+**Added (5 files):**
+- `actions.json` (51.77 KB, modified: 2025-11-13T10:20:57, by: Dropbox User)
+- `objects.json` (8.67 KB, modified: 2025-11-13T10:20:57, by: Dropbox User)
+- `parameters.json` (1.12 KB, modified: 2025-11-13T12:29:54, by: Dropbox User)
+- `skills.json` (4.11 KB, modified: 2025-11-13T10:20:57, by: Dropbox User)
+- `tools.json` (70.36 KB, modified: 2025-11-13T10:20:57, by: Dropbox User)
+
+#### QUICKSTART.md
+
+**Added (1 files):**
+- `QUICKSTART.md` (3.96 KB, modified: 2025-11-13T10:23:38, by: Dropbox User)
+
+#### README.md
+
+**Added (1 files):**
+- `README.md` (2.42 KB, modified: 2025-11-13T10:23:38, by: Dropbox User)
+
+#### TASK_MANAGERS
+
+**Added (42 files):**
+- `projects_listing.json` (511 bytes, modified: 2025-11-13T10:21:56, by: Dropbox User)
+- `steps_listing.json` (11.50 KB, modified: 2025-11-13T10:21:56, by: Dropbox User)
+- `tasks_listing.json` (3.41 KB, modified: 2025-11-13T10:21:56, by: Dropbox User)
+- `DEV-001-01_design-scraper-architecture-single-threaded-baseli.md` → `templates/steps/DEV-001-01_design-scraper-architecture-single-threaded-baseli.md` (818 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-001-02_implement-data-extraction-logic-for-target-website.md` → `templates/steps/DEV-001-02_implement-data-extraction-logic-for-target-website.md` (834 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-001-03_add-error-handling-and-retry-logic.md` → `templates/steps/DEV-001-03_add-error-handling-and-retry-logic.md` (803 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-001-04_implement-multi-threaded-architecture-10-50-thread.md` → `templates/steps/DEV-001-04_implement-multi-threaded-architecture-10-50-thread.md` (819 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-001-05_add-proxy-rotation-for-ip-management.md` → `templates/steps/DEV-001-05_add-proxy-rotation-for-ip-management.md` (804 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-001-06_optimize-performance-and-resource-usage.md` → `templates/steps/DEV-001-06_optimize-performance-and-resource-usage.md` (803 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `workflows.json` (96 bytes, modified: 2025-11-13T10:21:56, by: Dropbox User)
+- `DEV-001-07_test-scraper-stability-and-accuracy.md` → `templates/steps/DEV-001-07_test-scraper-stability-and-accuracy.md` (790 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-002-01_review-mcp-documentation-and-api-specifications.md` → `templates/steps/DEV-002-01_review-mcp-documentation-and-api-specifications.md` (807 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-002-02_install-mcp-dependencies.md` → `templates/steps/DEV-002-02_install-mcp-dependencies.md` (787 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-002-03_configure-mcp-in-claude-desktop-settings.md` → `templates/steps/DEV-002-03_configure-mcp-in-claude-desktop-settings.md` (808 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-002-04_implement-api-endpoints.md` → `templates/steps/DEV-002-04_implement-api-endpoints.md` (789 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-002-05_test-integration-with-sample-queries.md` → `templates/steps/DEV-002-05_test-integration-with-sample-queries.md` (795 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-002-06_troubleshoot-and-debug-issues.md` → `templates/steps/DEV-002-06_troubleshoot-and-debug-issues.md` (797 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-003-01_create-dockerfile-and-docker-composeyml.md` → `templates/steps/DEV-003-01_create-dockerfile-and-docker-composeyml.md` (793 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-003-02_configure-environment-variables-and-secrets.md` → `templates/steps/DEV-003-02_configure-environment-variables-and-secrets.md` (807 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-003-03_test-docker-build-locally.md` → `templates/steps/DEV-003-03_test-docker-build-locally.md` (780 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-003-04_set-up-production-hosting-infrastructure.md` → `templates/steps/DEV-003-04_set-up-production-hosting-infrastructure.md` (798 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-003-05_deploy-to-production.md` → `templates/steps/DEV-003-05_deploy-to-production.md` (784 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-003-06_configure-monitoring-and-health-checks.md` → `templates/steps/DEV-003-06_configure-monitoring-and-health-checks.md` (804 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-003-07_document-deployment-process.md` → `templates/steps/DEV-003-07_document-deployment-process.md` (796 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-004-01_improve-core-scraper-stability-reviews-button-sear.md` → `templates/steps/DEV-004-01_improve-core-scraper-stability-reviews-button-sear.md` (819 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-004-02_implement-multi-threaded-processing.md` → `templates/steps/DEV-004-02_implement-multi-threaded-processing.md` (801 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-004-03_add-proxy-rotation-for-ip-management.md` → `templates/steps/DEV-004-03_add-proxy-rotation-for-ip-management.md` (804 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-004-04_expand-nlp-problem-dictionary-dozens-of-anchors.md` → `templates/steps/DEV-004-04_expand-nlp-problem-dictionary-dozens-of-anchors.md` (821 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-004-05_enhance-decision-maker-search-logic.md` → `templates/steps/DEV-004-05_enhance-decision-maker-search-logic.md` (805 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-004-06_conduct-production-test-cycles.md` → `templates/steps/DEV-004-06_conduct-production-test-cycles.md` (788 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-005-01_evaluate-deployment-approaches-pm2-vs-docker.md` → `templates/steps/DEV-005-01_evaluate-deployment-approaches-pm2-vs-docker.md` (813 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-005-02_create-docker-configuration-files-dockerfile-docke.md` → `templates/steps/DEV-005-02_create-docker-configuration-files-dockerfile-docke.md` (819 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-005-03_configure-production-hosting-infrastructure.md` → `templates/steps/DEV-005-03_configure-production-hosting-infrastructure.md` (807 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-005-04_test-docker-deployment-locally.md` → `templates/steps/DEV-005-04_test-docker-deployment-locally.md` (799 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-005-05_deploy-to-production-httpshoneystonefv-ecom.md` → `templates/steps/DEV-005-05_deploy-to-production-httpshoneystonefv-ecom.md` (815 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-005-06_set-up-monitoring-and-health-checks.md` → `templates/steps/DEV-005-06_set-up-monitoring-and-health-checks.md` (795 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-005-07_document-deployment-process-for-reusability.md` → `templates/steps/DEV-005-07_document-deployment-process-for-reusability.md` (812 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `DEV-001.md` → `templates/tasks/DEV-001.md` (1.80 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+- `DEV-002.md` → `templates/tasks/DEV-002.md` (1.72 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+- `DEV-003.md` → `templates/tasks/DEV-003.md` (1.76 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+- `DEV-004.md` → `templates/tasks/DEV-004.md` (1.71 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+- `DEV-005.md` → `templates/tasks/DEV-005.md` (1.75 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+
+#### TOOLS_GUIDE.md
+
+**Added (1 files):**
+- `TOOLS_GUIDE.md` (6.03 KB, modified: 2025-11-13T10:23:38, by: Dropbox User)
+
+
+### LG
+
+**Total changes:** 37 files
+
+#### LIBRARIES
+
+**Added (5 files):**
+- `actions.json` (2 bytes, modified: 2025-11-13T10:20:58, by: Dropbox User)
+- `objects.json` (2 bytes, modified: 2025-11-13T10:20:58, by: Dropbox User)
+- `parameters.json` (1.17 KB, modified: 2025-11-13T12:29:54, by: Dropbox User)
+- `skills.json` (3.94 KB, modified: 2025-11-13T10:20:58, by: Dropbox User)
+- `tools.json` (84.19 KB, modified: 2025-11-13T10:20:58, by: Dropbox User)
+
+#### Lead Generation Department
+
+**Added (1 files):**
+- `Copy of PROMPT for LG custom projects - September 26, 3_21 PM.md` (13.11 KB, modified: 2025-11-11T14:12:23, by: Dropbox User)
+
+#### QUICKSTART.md
+
+**Added (1 files):**
+- `QUICKSTART.md` (3.65 KB, modified: 2025-11-13T10:23:38, by: Dropbox User)
+
+#### README.md
+
+**Added (1 files):**
+- `README.md` (2.40 KB, modified: 2025-11-13T10:23:38, by: Dropbox User)
+
+#### TASK_MANAGERS
+
+**Added (28 files):**
+- `projects_listing.json` (268 bytes, modified: 2025-11-13T10:21:56, by: Dropbox User)
+- `steps_listing.json` (7.36 KB, modified: 2025-11-13T10:21:56, by: Dropbox User)
+- `tasks_listing.json` (2.04 KB, modified: 2025-11-13T10:21:56, by: Dropbox User)
+- `workflows.json` (9.82 KB, modified: 2025-11-13T10:21:56, by: Dropbox User)
+- `LG-001-01_collect-performance-data-from-all-sources.md` → `templates/steps/LG-001-01_collect-performance-data-from-all-sources.md` (824 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `LG-001-02_analyze-team-productivity-metrics.md` → `templates/steps/LG-001-02_analyze-team-productivity-metrics.md` (796 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `LG-001-03_identify-trends-and-patterns.md` → `templates/steps/LG-001-03_identify-trends-and-patterns.md` (788 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `LG-001-04_generate-insights-and-recommendations.md` → `templates/steps/LG-001-04_generate-insights-and-recommendations.md` (797 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `LG-001-05_document-findings-in-report-format.md` → `templates/steps/LG-001-05_document-findings-in-report-format.md` (794 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `LG-001-06_present-to-team-and-management.md` → `templates/steps/LG-001-06_present-to-team-and-management.md` (792 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `LG-002-01_outline-setup-guide-structure.md` → `templates/steps/LG-002-01_outline-setup-guide-structure.md` (792 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `LG-002-02_document-dropbox-setup-10-steps.md` → `templates/steps/LG-002-02_document-dropbox-setup-10-steps.md` (806 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `LG-002-03_document-ide-setup-5-steps.md` → `templates/steps/LG-002-03_document-ide-setup-5-steps.md` (801 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `LG-002-04_document-claude-code-extension-4-steps.md` → `templates/steps/LG-002-04_document-claude-code-extension-4-steps.md` (813 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `LG-002-05_document-git-bash-installation-3-steps.md` → `templates/steps/LG-002-05_document-git-bash-installation-3-steps.md` (813 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `LG-002-06_create-troubleshooting-section-5-common-issues.md` → `templates/steps/LG-002-06_create-troubleshooting-section-5-common-issues.md` (818 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `LG-002-07_add-quick-reference-checklist.md` → `templates/steps/LG-002-07_add-quick-reference-checklist.md` (782 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `LG-002-08_test-guide-with-new-user.md` → `templates/steps/LG-002-08_test-guide-with-new-user.md` (774 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `LG-003-01_outline-guide-structure-major-parts-sections.md` → `templates/steps/LG-003-01_outline-guide-structure-major-parts-sections.md` (811 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `LG-003-02_document-each-setup-step-with-numbered-instruction.md` → `templates/steps/LG-003-02_document-each-setup-step-with-numbered-instruction.md` (810 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `LG-003-03_capture-and-integrate-screenshots.md` → `templates/steps/LG-003-03_capture-and-integrate-screenshots.md` (790 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `LG-003-04_create-troubleshooting-section-5-common-issues.md` → `templates/steps/LG-003-04_create-troubleshooting-section-5-common-issues.md` (818 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `LG-003-05_add-interactive-elements-checkboxes-warnings-tips.md` → `templates/steps/LG-003-05_add-interactive-elements-checkboxes-warnings-tips.md` (809 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `LG-003-06_create-quick-reference-checklist.md` → `templates/steps/LG-003-06_create-quick-reference-checklist.md` (788 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `LG-003-07_test-guide-with-new-user.md` → `templates/steps/LG-003-07_test-guide-with-new-user.md` (774 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `LG-001.md` → `templates/tasks/LG-001.md` (1.73 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+- `LG-002.md` → `templates/tasks/LG-002.md` (1.71 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+- `LG-003.md` → `templates/tasks/LG-003.md` (1.67 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+
+#### TOOLS_GUIDE.md
+
+**Added (1 files):**
+- `TOOLS_GUIDE.md` (8.34 KB, modified: 2025-11-13T10:23:38, by: Dropbox User)
+
+
+### Video
+
+**Total changes:** 71 files
+
+#### Azanova Darʼya
+
+**Added (29 files):**
+- `README.md` (1.58 KB, modified: 2025-10-23T15:13:48, by: Dropbox User)
+- `task.md` → `08/task.md` (0 bytes, modified: 2025-11-07T10:38:46, by: Dropbox User)
+- `plans.md` → `08/plans.md` (0 bytes, modified: 2025-11-07T10:38:46, by: Dropbox User)
+- `daily.md` → `08/daily.md` (0 bytes, modified: 2025-11-07T10:38:47, by: Dropbox User)
+- `Profile Video Editor Azanova Darʼya.md` (1.36 KB, modified: 2025-11-07T10:02:41, by: Dropbox User)
+- `daily.md` → `10/daily.md` (36.02 KB, modified: 2025-11-10T15:57:12, by: Dropbox User)
+- `plans.md` → `10/plans.md` (4.79 KB, modified: 2025-11-10T15:57:54, by: Dropbox User)
+- `task.md` → `10/task.md` (30.54 KB, modified: 2025-11-10T16:01:19, by: Dropbox User)
+- `daily.md` → `11/daily.md` (15.18 KB, modified: 2025-11-11T16:04:27, by: Dropbox User)
+- `plans.md` → `11/plans.md` (5.14 KB, modified: 2025-11-11T16:05:12, by: Dropbox User)
+- `task.md` → `11/task.md` (31.33 KB, modified: 2025-11-11T16:08:39, by: Dropbox User)
+- `daily.md` → `12/daily.md` (23.92 KB, modified: 2025-11-12T17:11:41, by: Dropbox User)
+- `plans.md` → `12/plans.md` (4.79 KB, modified: 2025-11-12T17:12:20, by: Dropbox User)
+- `task.md` → `12/task.md` (23.57 KB, modified: 2025-11-12T17:15:00, by: Dropbox User)
+- `plans.md` → `Week_1/04/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `Week_1/04/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `daily.md` → `Week_1/04/daily.md` (11.84 KB, modified: 2025-11-04T18:15:17, by: Dropbox User)
+- `daily.md` → `Week_1/05/daily.md` (59.02 KB, modified: 2025-11-05T18:00:45, by: Dropbox User)
+- `plans.md` → `Week_1/05/plans.md` (4.01 KB, modified: 2025-11-05T18:01:19, by: Dropbox User)
+- `task.md` → `Week_1/05/task.md` (14.98 KB, modified: 2025-11-05T18:02:50, by: Dropbox User)
+- `daily.md` → `Week_1/07/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `Week_1/07/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `Week_1/07/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `daily.md` → `Week_1/06/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `Week_1/06/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `Week_1/06/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `daily.md` → `Week_1/03/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `Week_1/03/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `Week_1/03/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+
+#### LIBRARIES
+
+**Added (5 files):**
+- `actions.json` (54.53 KB, modified: 2025-11-13T10:20:58, by: Dropbox User)
+- `objects.json` (9.40 KB, modified: 2025-11-13T10:20:58, by: Dropbox User)
+- `parameters.json` (1.43 KB, modified: 2025-11-13T12:29:54, by: Dropbox User)
+- `skills.json` (2.39 KB, modified: 2025-11-13T10:20:58, by: Dropbox User)
+- `tools.json` (55.89 KB, modified: 2025-11-13T10:20:58, by: Dropbox User)
+
+#### QUICKSTART.md
+
+**Added (1 files):**
+- `QUICKSTART.md` (3.84 KB, modified: 2025-11-13T10:23:38, by: Dropbox User)
+
+#### README.md
+
+**Added (1 files):**
+- `README.md` (2.43 KB, modified: 2025-11-13T10:23:38, by: Dropbox User)
+
+#### TASK_MANAGERS
+
+**Added (34 files):**
+- `projects_listing.json` (279 bytes, modified: 2025-11-13T10:21:56, by: Dropbox User)
+- `steps_listing.json` (9.25 KB, modified: 2025-11-13T10:21:56, by: Dropbox User)
+- `tasks_listing.json` (2.77 KB, modified: 2025-11-13T10:21:56, by: Dropbox User)
+- `workflows.json` (98 bytes, modified: 2025-11-13T10:21:56, by: Dropbox User)
+- `VIDEO-001-01_upload-video-to-transcription-service.md` → `templates/steps/VIDEO-001-01_upload-video-to-transcription-service.md` (836 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-001-02_process-video-for-transcription.md` → `templates/steps/VIDEO-001-02_process-video-for-transcription.md` (816 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-001-03_review-transcript-for-accuracy.md` → `templates/steps/VIDEO-001-03_review-transcript-for-accuracy.md` (802 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-001-04_add-timestamps-and-speaker-labels.md` → `templates/steps/VIDEO-001-04_add-timestamps-and-speaker-labels.md` (811 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-001-05_format-transcript-for-documentation.md` → `templates/steps/VIDEO-001-05_format-transcript-for-documentation.md` (814 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-001-06_publish-transcript-alongside-video.md` → `templates/steps/VIDEO-001-06_publish-transcript-alongside-video.md` (814 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-002-01_analyze-current-video-file-sizes.md` → `templates/steps/VIDEO-002-01_analyze-current-video-file-sizes.md` (807 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-002-02_identify-optimization-targets.md` → `templates/steps/VIDEO-002-02_identify-optimization-targets.md` (816 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-002-03_select-compression-settings-codec-bitrate-resoluti.md` → `templates/steps/VIDEO-002-03_select-compression-settings-codec-bitrate-resoluti.md` (842 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-002-04_run-batch-compression.md` → `templates/steps/VIDEO-002-04_run-batch-compression.md` (811 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-002-05_verify-video-quality.md` → `templates/steps/VIDEO-002-05_verify-video-quality.md` (794 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-002-06_replace-original-files-or-archive.md` → `templates/steps/VIDEO-002-06_replace-original-files-or-archive.md` (810 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-002-07_document-compression-settings-and-results.md` → `templates/steps/VIDEO-002-07_document-compression-settings-and-results.md` (817 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-003-01_verify-employee-departure-details.md` → `templates/steps/VIDEO-003-01_verify-employee-departure-details.md` (803 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-003-02_update-status-in-hr-system.md` → `templates/steps/VIDEO-003-02_update-status-in-hr-system.md` (796 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-003-03_update-department-documentation.md` → `templates/steps/VIDEO-003-03_update-department-documentation.md` (812 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-003-04_revoke-system-access.md` → `templates/steps/VIDEO-003-04_revoke-system-access.md` (798 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-003-05_archive-employee-files.md` → `templates/steps/VIDEO-003-05_archive-employee-files.md` (799 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-003-06_notify-relevant-team-members.md` → `templates/steps/VIDEO-003-06_notify-relevant-team-members.md` (811 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-004-01_develop-core-video-scenarios-7-scenarios.md` → `templates/steps/VIDEO-004-01_develop-core-video-scenarios-7-scenarios.md` (828 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-004-02_define-target-durations-per-format-short-medium-lo.md` → `templates/steps/VIDEO-004-02_define-target-durations-per-format-short-medium-lo.md` (834 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-004-03_adapt-for-instagram-reels-vertical-30-60s.md` → `templates/steps/VIDEO-004-03_adapt-for-instagram-reels-vertical-30-60s.md` (839 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-004-04_adapt-for-tiktok-trend-integration-30-60s.md` → `templates/steps/VIDEO-004-04_adapt-for-tiktok-trend-integration-30-60s.md` (840 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-004-05_adapt-for-youtube-tutorial-format-3-10min.md` → `templates/steps/VIDEO-004-05_adapt-for-youtube-tutorial-format-3-10min.md` (844 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-004-06_adapt-for-linkedin-professional-tone-1-3min.md` → `templates/steps/VIDEO-004-06_adapt-for-linkedin-professional-tone-1-3min.md` (848 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-004-07_create-ai-video-generation-prompts.md` → `templates/steps/VIDEO-004-07_create-ai-video-generation-prompts.md` (819 bytes, modified: 2025-11-10T17:12:34, by: Dropbox User)
+- `VIDEO-001.md` → `templates/tasks/VIDEO-001.md` (1.73 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+- `VIDEO-002.md` → `templates/tasks/VIDEO-002.md` (1.67 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+- `VIDEO-003.md` → `templates/tasks/VIDEO-003.md` (1.77 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+- `VIDEO-004.md` → `templates/tasks/VIDEO-004.md` (1.83 KB, modified: 2025-11-12T08:48:41, by: Dropbox User)
+
+#### TOOLS_GUIDE.md
+
+**Added (1 files):**
+- `TOOLS_GUIDE.md` (3.13 KB, modified: 2025-11-13T10:23:38, by: Dropbox User)
+
+
+## All Changes
+
+### Added Files
+
+- `Dev/LIBRARIES/actions.json`
+- `Dev/LIBRARIES/objects.json`
+- `Dev/LIBRARIES/parameters.json`
+- `Dev/LIBRARIES/skills.json`
+- `Dev/LIBRARIES/tools.json`
+- `Dev/QUICKSTART.md`
+- `Dev/README.md`
+- `Dev/TASK_MANAGERS/projects_listing.json`
+- `Dev/TASK_MANAGERS/steps_listing.json`
+- `Dev/TASK_MANAGERS/tasks_listing.json`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-001-01_design-scraper-architecture-single-threaded-baseli.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-001-02_implement-data-extraction-logic-for-target-website.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-001-03_add-error-handling-and-retry-logic.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-001-04_implement-multi-threaded-architecture-10-50-thread.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-001-05_add-proxy-rotation-for-ip-management.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-001-06_optimize-performance-and-resource-usage.md`
+- `Dev/TOOLS_GUIDE.md`
+- `Dev/TASK_MANAGERS/workflows.json`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-001-07_test-scraper-stability-and-accuracy.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-002-01_review-mcp-documentation-and-api-specifications.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-002-02_install-mcp-dependencies.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-002-03_configure-mcp-in-claude-desktop-settings.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-002-04_implement-api-endpoints.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-002-05_test-integration-with-sample-queries.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-002-06_troubleshoot-and-debug-issues.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-003-01_create-dockerfile-and-docker-composeyml.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-003-02_configure-environment-variables-and-secrets.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-003-03_test-docker-build-locally.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-003-04_set-up-production-hosting-infrastructure.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-003-05_deploy-to-production.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-003-06_configure-monitoring-and-health-checks.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-003-07_document-deployment-process.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-004-01_improve-core-scraper-stability-reviews-button-sear.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-004-02_implement-multi-threaded-processing.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-004-03_add-proxy-rotation-for-ip-management.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-004-04_expand-nlp-problem-dictionary-dozens-of-anchors.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-004-05_enhance-decision-maker-search-logic.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-004-06_conduct-production-test-cycles.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-005-01_evaluate-deployment-approaches-pm2-vs-docker.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-005-02_create-docker-configuration-files-dockerfile-docke.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-005-03_configure-production-hosting-infrastructure.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-005-04_test-docker-deployment-locally.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-005-05_deploy-to-production-httpshoneystonefv-ecom.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-005-06_set-up-monitoring-and-health-checks.md`
+- `Dev/TASK_MANAGERS/templates/steps/DEV-005-07_document-deployment-process-for-reusability.md`
+- `Dev/TASK_MANAGERS/templates/tasks/DEV-001.md`
+- `Dev/TASK_MANAGERS/templates/tasks/DEV-002.md`
+- `Dev/TASK_MANAGERS/templates/tasks/DEV-003.md`
+- `Dev/TASK_MANAGERS/templates/tasks/DEV-004.md`
+- `Dev/TASK_MANAGERS/templates/tasks/DEV-005.md`
+- `LG/Lead Generation Department/Copy of PROMPT for LG custom projects - September 26, 3_21 PM.md`
+- `Design/Shymkevych Iryna/Week_1/06/daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md`
+- `Design/Shymkevych Iryna/Week_1/05/employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html`
+- `Video/Azanova Darʼya/README.md`
+- `Video/Azanova Darʼya/08/task.md`
+- `Video/Azanova Darʼya/08/plans.md`
+- `Video/Azanova Darʼya/08/daily.md`
+- `Video/Azanova Darʼya/Profile Video Editor Azanova Darʼya.md`
+- `Video/Azanova Darʼya/10/daily.md`
+- `Video/Azanova Darʼya/10/plans.md`
+- `Video/Azanova Darʼya/10/task.md`
+- `Video/Azanova Darʼya/11/daily.md`
+- `Video/Azanova Darʼya/11/plans.md`
+- `Video/Azanova Darʼya/11/task.md`
+- `Video/Azanova Darʼya/12/daily.md`
+- `Video/Azanova Darʼya/12/plans.md`
+- `Video/Azanova Darʼya/12/task.md`
+- `Video/Azanova Darʼya/Week_1/04/plans.md`
+- `Video/Azanova Darʼya/Week_1/04/task.md`
+- `Video/Azanova Darʼya/Week_1/04/daily.md`
+- `Video/Azanova Darʼya/Week_1/05/daily.md`
+- `Video/Azanova Darʼya/Week_1/05/plans.md`
+- `Video/Azanova Darʼya/Week_1/05/task.md`
+- `Video/Azanova Darʼya/Week_1/07/daily.md`
+- `Video/Azanova Darʼya/Week_1/07/plans.md`
+- `Video/Azanova Darʼya/Week_1/07/task.md`
+- `Video/Azanova Darʼya/Week_1/06/daily.md`
+- `Video/Azanova Darʼya/Week_1/06/plans.md`
+- `Video/Azanova Darʼya/Week_1/06/task.md`
+- `Video/Azanova Darʼya/Week_1/03/daily.md`
+- `Video/Azanova Darʼya/Week_1/03/plans.md`
+- `Video/Azanova Darʼya/Week_1/03/task.md`
+- `Video/LIBRARIES/actions.json`
+- `Video/LIBRARIES/objects.json`
+- `Video/LIBRARIES/parameters.json`
+- `Video/LIBRARIES/skills.json`
+- `Video/LIBRARIES/tools.json`
+- `Video/QUICKSTART.md`
+- `Video/README.md`
+- `Video/TASK_MANAGERS/projects_listing.json`
+- `Video/TOOLS_GUIDE.md`
+- `Video/TASK_MANAGERS/steps_listing.json`
+- `Video/TASK_MANAGERS/tasks_listing.json`
+- `Video/TASK_MANAGERS/workflows.json`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-001-01_upload-video-to-transcription-service.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-001-02_process-video-for-transcription.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-001-03_review-transcript-for-accuracy.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-001-04_add-timestamps-and-speaker-labels.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-001-05_format-transcript-for-documentation.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-001-06_publish-transcript-alongside-video.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-002-01_analyze-current-video-file-sizes.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-002-02_identify-optimization-targets.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-002-03_select-compression-settings-codec-bitrate-resoluti.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-002-04_run-batch-compression.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-002-05_verify-video-quality.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-002-06_replace-original-files-or-archive.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-002-07_document-compression-settings-and-results.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-003-01_verify-employee-departure-details.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-003-02_update-status-in-hr-system.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-003-03_update-department-documentation.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-003-04_revoke-system-access.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-003-05_archive-employee-files.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-003-06_notify-relevant-team-members.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-004-01_develop-core-video-scenarios-7-scenarios.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-004-02_define-target-durations-per-format-short-medium-lo.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-004-03_adapt-for-instagram-reels-vertical-30-60s.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-004-04_adapt-for-tiktok-trend-integration-30-60s.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-004-05_adapt-for-youtube-tutorial-format-3-10min.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-004-06_adapt-for-linkedin-professional-tone-1-3min.md`
+- `Video/TASK_MANAGERS/templates/steps/VIDEO-004-07_create-ai-video-generation-prompts.md`
+- `Video/TASK_MANAGERS/templates/tasks/VIDEO-001.md`
+- `Video/TASK_MANAGERS/templates/tasks/VIDEO-002.md`
+- `Video/TASK_MANAGERS/templates/tasks/VIDEO-003.md`
+- `Video/TASK_MANAGERS/templates/tasks/VIDEO-004.md`
+- `LG/LIBRARIES/actions.json`
+- `LG/LIBRARIES/objects.json`
+- `LG/LIBRARIES/parameters.json`
+- `LG/LIBRARIES/skills.json`
+- `LG/LIBRARIES/tools.json`
+- `LG/QUICKSTART.md`
+- `LG/README.md`
+- `LG/TOOLS_GUIDE.md`
+- `LG/TASK_MANAGERS/projects_listing.json`
+- `LG/TASK_MANAGERS/steps_listing.json`
+- `LG/TASK_MANAGERS/tasks_listing.json`
+- `LG/TASK_MANAGERS/workflows.json`
+- `LG/TASK_MANAGERS/templates/steps/LG-001-01_collect-performance-data-from-all-sources.md`
+- `LG/TASK_MANAGERS/templates/steps/LG-001-02_analyze-team-productivity-metrics.md`
+- `LG/TASK_MANAGERS/templates/steps/LG-001-03_identify-trends-and-patterns.md`
+- `LG/TASK_MANAGERS/templates/steps/LG-001-04_generate-insights-and-recommendations.md`
+- `LG/TASK_MANAGERS/templates/steps/LG-001-05_document-findings-in-report-format.md`
+- `LG/TASK_MANAGERS/templates/steps/LG-001-06_present-to-team-and-management.md`
+- `LG/TASK_MANAGERS/templates/steps/LG-002-01_outline-setup-guide-structure.md`
+- `LG/TASK_MANAGERS/templates/steps/LG-002-02_document-dropbox-setup-10-steps.md`
+- `LG/TASK_MANAGERS/templates/steps/LG-002-03_document-ide-setup-5-steps.md`
+- `LG/TASK_MANAGERS/templates/steps/LG-002-04_document-claude-code-extension-4-steps.md`
+- `LG/TASK_MANAGERS/templates/steps/LG-002-05_document-git-bash-installation-3-steps.md`
+- `LG/TASK_MANAGERS/templates/steps/LG-002-06_create-troubleshooting-section-5-common-issues.md`
+- `LG/TASK_MANAGERS/templates/steps/LG-002-07_add-quick-reference-checklist.md`
+- `LG/TASK_MANAGERS/templates/steps/LG-002-08_test-guide-with-new-user.md`
+- `LG/TASK_MANAGERS/templates/steps/LG-003-01_outline-guide-structure-major-parts-sections.md`
+- `LG/TASK_MANAGERS/templates/steps/LG-003-02_document-each-setup-step-with-numbered-instruction.md`
+- `LG/TASK_MANAGERS/templates/steps/LG-003-03_capture-and-integrate-screenshots.md`
+- `LG/TASK_MANAGERS/templates/steps/LG-003-04_create-troubleshooting-section-5-common-issues.md`
+- `LG/TASK_MANAGERS/templates/steps/LG-003-05_add-interactive-elements-checkboxes-warnings-tips.md`
+- `LG/TASK_MANAGERS/templates/steps/LG-003-06_create-quick-reference-checklist.md`
+- `LG/TASK_MANAGERS/templates/steps/LG-003-07_test-guide-with-new-user.md`
+- `LG/TASK_MANAGERS/templates/tasks/LG-001.md`
+- `LG/TASK_MANAGERS/templates/tasks/LG-002.md`
+- `LG/TASK_MANAGERS/templates/tasks/LG-003.md`
+- `Design/LIBRARIES/actions.json`
+- `Design/LIBRARIES/objects.json`
+- `Design/LIBRARIES/parameters.json`
+- `Design/LIBRARIES/skills.json`
+- `Design/QUICKSTART.md`
+- `Design/README.md`
+- `Design/LIBRARIES/tools.json`
+- `Design/TASK_MANAGERS/projects_listing.json`
+- `Design/TASK_MANAGERS/steps_listing.json`
+- `Design/TASK_MANAGERS/tasks_listing.json`
+- `Design/TASK_MANAGERS/workflows.json`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-001-01_conduct-client-brand-discovery-session.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-001-02_research-competitor-branding.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-001-03_create-logo-concepts.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-001-04_define-color-palette.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-001-05_select-typography-system.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-001-06_document-spacing-and-grid-rules.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-001-07_create-usage-guidelines.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-001-08_present-to-client-for-approval.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-002-01_review-client-landing-page.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-002-02_identify-missing-information-and-requirements.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-002-05_document-designer-responses.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-002-06_update-development-plan-based-on-clarifications.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-003-02_define-working-hours-policy-eg-1200-1600.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-003-03_communicate-working-hours-to-client.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-003-04_adjust-reporting-frequency-eg-daily-to-weekly.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-003-05_clarify-reporting-expectations-and-format.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-003-06_document-new-communication-standards.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-004-02_identify-status-discrepancies-available-vs-on-proj.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-004-03_document-examples-of-incorrect-status.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-004-04_coordinate-with-hr-on-accurate-status-tracking.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-004-05_update-status-records.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-004-06_establish-ongoing-status-accuracy-process.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-005-03_design-ui-component-library-10-categories.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-005-04_document-design-patterns-and-best-practices.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-005-05_create-accessibility-standards-wcag-compliance.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-005-06_document-content-type-requirements.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-006-01_create-landing-page-layout-and-structure.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-006-02_design-visual-elements-hero-section-features-cta.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-006-03_ensure-brand-consistency-throughout.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-006-04_create-responsive-designs-for-mobiletabletdesktop.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-006-05_prepare-developer-handoff-package.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-006-06_coordinate-development-timeline-december-12th.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-007-01_design-admin-calendar-interface.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-007-02_design-regular-employee-calendar-interface.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-007-03_create-adaptive-designs-for-different-screen-sizes.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-007-04_build-reusable-design-system-components.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-007-05_conduct-client-feedback-iterations.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-007-06_plan-for-potential-team-expansion-2-more-ux-design.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-008-01_complete-initial-vertical-designs.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-008-02_identify-required-size-variations.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-008-03_adapt-designs-for-multiple-sizes.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-008-04_test-across-different-dimensions.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-008-05_finalize-and-export-all-variations.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-008-06_negotiate-project-scope-and-pricing.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-009-02_formulate-clarification-questions-for-designer.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-009-04_document-designer-responses.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-009-05_update-development-plan-based-on-clarifications.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-010-01_identify-boundary-violation-issue-eg-8-pm-response.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-010-02_define-clear-working-hours-policy-eg-1200-1600.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-010-03_communicate-working-hours-to-client-professionally.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-010-04_adjust-reporting-frequency-if-needed-daily-to-week.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-010-05_clarify-reporting-format-and-expectations.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-010-06_document-new-communication-standards.md`
+- `Design/TOOLS_GUIDE.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-002-03_formulate-questions-for-designer-links-buttons-fun.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-002-04_communicate-questions-to-designer.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-003-01_identify-boundary-violation-issue-eg-8-pm-response.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-004-01_review-employee-status-lists-in-all-documentation.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-005-01_define-brand-identity-personality-values-voice-ton.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-005-02_create-visual-style-specifications-logo-colors-typ.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-009-01_review-client-landing-page-for-missing-information.md`
+- `Design/TASK_MANAGERS/templates/steps/DESIGN-009-03_communicate-questions-to-designer.md`
+- `Design/TASK_MANAGERS/templates/tasks/DESIGN-001.md`
+- `Design/TASK_MANAGERS/templates/tasks/DESIGN-002.md`
+- `Design/TASK_MANAGERS/templates/tasks/DESIGN-003.md`
+- `Design/TASK_MANAGERS/templates/tasks/DESIGN-004.md`
+- `Design/TASK_MANAGERS/templates/tasks/DESIGN-005.md`
+- `Design/TASK_MANAGERS/templates/tasks/DESIGN-006.md`
+- `Design/TASK_MANAGERS/templates/tasks/DESIGN-007.md`
+- `Design/TASK_MANAGERS/templates/tasks/DESIGN-008.md`
+- `Design/TASK_MANAGERS/templates/tasks/DESIGN-009.md`
+- `Design/TASK_MANAGERS/templates/tasks/DESIGN-010.md`
+
+### Deleted Files
+
+- `"Video/Azanova Dar\312\274ya/06/daily.md"`
+- `"Video/Azanova Dar\312\274ya/06/task.md"`
+- `"Video/Azanova Dar\312\274ya/04/plans.md"`
+- `"Video/Azanova Dar\312\274ya/03/task.md"`
+- `"Video/Azanova Dar\312\274ya/07/task.md"`
+- `"Video/Azanova Dar\312\274ya/05/task.md"`
+- `"Video/Azanova Dar\312\274ya/04/task.md"`
+- `"Video/Azanova Dar\312\274ya/11/task.md"`
+- `"Video/Azanova Dar\312\274ya/03/plans.md"`
+- `"Video/Azanova Dar\312\274ya/Week_1/05/daily.md"`
+- `"Video/Azanova Dar\312\274ya/Week_1/05/task.md"`
+- `"Video/Azanova Dar\312\274ya/Profile Video Editor Azanova Dar\312\274ya.md"`
+- `"Video/Azanova Dar\312\274ya/Week_1/03/plans.md"`
+- `"Video/Azanova Dar\312\274ya/12/daily.md"`
+- `"Video/Azanova Dar\312\274ya/Week_1/07/plans.md"`
+- `"Video/Azanova Dar\312\274ya/05/plans.md"`
+- `"Video/Azanova Dar\312\274ya/08/plans.md"`
+- `"Video/Azanova Dar\312\274ya/03/daily.md"`
+- `"Video/Azanova Dar\312\274ya/Week_1/03/task.md"`
+- `"Video/Azanova Dar\312\274ya/Week_1/05/plans.md"`
+- `"Video/Azanova Dar\312\274ya/10/daily.md"`
+- `"Video/Azanova Dar\312\274ya/Week_1/03/daily.md"`
+- `"Video/Azanova Dar\312\274ya/README.md"`
+- `"Design/Shymkevych Iryna/05/employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07).html"`
+- `"Video/Azanova Dar\312\274ya/Week_1/07/task.md"`
+- `"Video/Azanova Dar\312\274ya/08/daily.md"`
+- `"Video/Azanova Dar\312\274ya/10/plans.md"`
+- `"LG/Lead Generation Department/Copy of PROMPT for LG custom projects - September 26, 3_21\342\200\257PM.md"`
+- `"Video/Azanova Dar\312\274ya/11/daily.md"`
+- `"Video/Azanova Dar\312\274ya/Week_1/06/plans.md"`
+- `"Video/Azanova Dar\312\274ya/Week_1/06/task.md"`
+- `"Video/Azanova Dar\312\274ya/04/daily.md"`
+- `"Video/Azanova Dar\312\274ya/Week_1/04/daily.md"`
+- `"Video/Azanova Dar\312\274ya/12/task.md"`
+- `"Design/Shymkevych Iryna/06/daily (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-06).md"`
+- `"Video/Azanova Dar\312\274ya/06/plans.md"`
+- `"Video/Azanova Dar\312\274ya/07/plans.md"`
+- `"Design/Shymkevych Iryna/Week_1/05/employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07 1).html"`
+- `"Video/Azanova Dar\312\274ya/Week_1/07/daily.md"`
+- `"Video/Azanova Dar\312\274ya/08/task.md"`
+- `"Design/Shymkevych Iryna/Week_1/06/daily (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-06).md"`
+- `"Video/Azanova Dar\312\274ya/11/plans.md"`
+- `"Video/Azanova Dar\312\274ya/05/daily.md"`
+- `"Video/Azanova Dar\312\274ya/Week_1/06/daily.md"`
+- `"Design/Shymkevych Iryna/05/employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07 1).html"`
+- `"Video/Azanova Dar\312\274ya/Week_1/04/task.md"`
+- `"Video/Azanova Dar\312\274ya/07/daily.md"`
+- `"Video/Azanova Dar\312\274ya/12/plans.md"`
+- `"Video/Azanova Dar\312\274ya/Week_1/04/plans.md"`
+- `"Video/Azanova Dar\312\274ya/10/task.md"`
+
+
+---
+*Generated automatically by Dropbox to GitHub sync*
+
+
 # Changelog - 2025-11-13
 
 **Sync Date:** 2025-11-13 22:30:40 UTC

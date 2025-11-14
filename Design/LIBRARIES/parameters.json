@@ -1,0 +1,47 @@
+[
+  {
+    "parameter_id": "DESIGN-PARAM-001",
+    "parameter_name": "Brand Colors",
+    "category": "Brand Guidelines",
+    "value_type": "list",
+    "default_value": [
+      "#000000",
+      "#FFFFFF",
+      "#FF6B6B"
+    ],
+    "description": "Primary brand color palette (hex codes)",
+    "required": true
+  },
+  {
+    "parameter_id": "DESIGN-PARAM-002",
+    "parameter_name": "Design File Format",
+    "category": "Standards",
+    "value_type": "string",
+    "default_value": ".fig",
+    "description": "Standard design file format (Figma)",
+    "required": true
+  },
+  {
+    "parameter_id": "DESIGN-PARAM-003",
+    "parameter_name": "Export Resolutions",
+    "category": "Export Settings",
+    "value_type": "list",
+    "default_value": [
+      "1x",
+      "2x",
+      "3x"
+    ],
+    "description": "Standard export resolutions for assets",
+    "required": true
+  },
+  {
+    "parameter_id": "DESIGN-PARAM-004",
+    "parameter_name": "Mobile Breakpoint",
+    "category": "Responsive Design",
+    "value_type": "integer",
+    "default_value": 768,
+    "unit": "px",
+    "description": "Mobile breakpoint width in pixels",
+    "required": true
+  }
+]

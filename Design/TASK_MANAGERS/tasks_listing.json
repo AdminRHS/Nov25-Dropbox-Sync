@@ -1,0 +1,177 @@
+{
+  "department": "DESIGN",
+  "total_tasks": 10,
+  "last_updated": "2025-11-13T11:21:55.938948",
+  "tasks": [
+    {
+      "id": "TASK-DESIGN-001",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/DESIGN/TASK-DESIGN-001.md",
+      "steps_count": 8,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "Low <40%",
+        "reasoning": "Creative design decisions require human expertise. Brand discovery needs client interaction. Color palette and typography selection involve aesthetic judgment. Guidelines documentation can be semi-automated with templates."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 24.0,
+      "related_steps_location": "Step_Templates/DESIGN/",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "TASK-DESIGN-002",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/DESIGN/TASK-DESIGN-002.md",
+      "steps_count": 6,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "Low <40%",
+        "reasoning": "Requirements gathering requires human communication skills. Question formulation needs understanding of both design and development constraints. Designer-developer communication involves nuanced technical discussions. Client relationship management requires empathy and judgment. Documentation can be semi-automated with templates."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 18.0,
+      "related_steps_location": "Step_Templates/DESIGN/",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "TASK-DESIGN-003",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/DESIGN/TASK-DESIGN-003.md",
+      "steps_count": 6,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "Low <40%",
+        "reasoning": "Boundary setting requires human negotiation skills. Client expectation management needs emotional intelligence. Working hours policy requires business judgment. Reporting frequency optimization requires understanding of client needs and team capacity. Communication can be templated but delivery requires personal touch."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 18.0,
+      "related_steps_location": "Step_Templates/DESIGN/",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "TASK-DESIGN-004",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/DESIGN/TASK-DESIGN-004.md",
+      "steps_count": 6,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "Medium 40-60%",
+        "reasoning": "Status data extraction from multiple sources can be automated. Discrepancy identification can be scripted with comparison logic. Correction recommendations can be automated with business rules. Manual verification needed for complex cases (on leave, part-time, project transitions). HR coordination requires human communication."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 18.0,
+      "related_steps_location": "Step_Templates/DESIGN/",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "TASK-DESIGN-005",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/DESIGN/TASK-DESIGN-005.md",
+      "steps_count": 6,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "Low <40%",
+        "reasoning": "Design system creation requires deep design expertise. Component design is creative work. Documentation can be semi-automated. Design decisions require human judgment."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 18.0,
+      "related_steps_location": "Step_Templates/DESIGN/",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "TASK-DESIGN-006",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/DESIGN/TASK-DESIGN-006.md",
+      "steps_count": 6,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "Low <40%",
+        "reasoning": "Landing page design requires creative expertise. Layout decisions need design judgment. Brand alignment requires human oversight. Developer handoff can be semi-automated."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 18.0,
+      "related_steps_location": "Step_Templates/DESIGN/",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "TASK-DESIGN-007",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/DESIGN/TASK-DESIGN-007.md",
+      "steps_count": 6,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "Low <40%",
+        "reasoning": "UX design requires user research. Multi-role interfaces need complex interaction design. Adaptive design requires creative problem-solving. Client iteration involves human judgment."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 18.0,
+      "related_steps_location": "Step_Templates/DESIGN/",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "TASK-DESIGN-008",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/DESIGN/TASK-DESIGN-008.md",
+      "steps_count": 6,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "Medium 40-60%",
+        "reasoning": "Size adaptation can be partially automated with artboard duplication. Design refinement requires human expertise. Quality assurance needs manual review. Export automation is possible."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 18.0,
+      "related_steps_location": "Step_Templates/DESIGN/",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "TASK-DESIGN-009",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/DESIGN/TASK-DESIGN-009.md",
+      "steps_count": 5,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "Low <40%",
+        "reasoning": "Requirements gathering needs human communication. Question formulation requires design and development knowledge. Client relationships need human touch. Documentation can be semi-automated."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 15.0,
+      "related_steps_location": "Step_Templates/DESIGN/",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "TASK-DESIGN-010",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/DESIGN/TASK-DESIGN-010.md",
+      "steps_count": 6,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "Low <40%",
+        "reasoning": "Boundary setting requires human negotiation. Client expectation management needs emotional intelligence. Policy creation requires business judgment. Communication templates can be prepared but delivery needs personal touch."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 18.0,
+      "related_steps_location": "Step_Templates/DESIGN/",
+      "created_date": "2025-11-10"
+    }
+  ]
+}

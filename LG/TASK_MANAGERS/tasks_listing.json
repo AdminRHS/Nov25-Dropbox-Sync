@@ -1,0 +1,58 @@
+{
+  "department": "LG",
+  "total_tasks": 3,
+  "last_updated": "2025-11-13T11:21:56.181525",
+  "tasks": [
+    {
+      "id": "TASK-LG-001",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/LG/TASK-LG-001.md",
+      "steps_count": 6,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "Low <40%",
+        "reasoning": "Data collection can be partially automated. Analysis requires human interpretation of context and trends. Insights generation requires domain expertise. Recommendations need strategic thinking."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 18.0,
+      "related_steps_location": "Step_Templates/LG/",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "TASK-LG-002",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/LG/TASK-LG-002.md",
+      "steps_count": 8,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "Low <40%",
+        "reasoning": "Documentation structure can be templated. Content requires technical expertise and testing. Screenshot capture is manual. Troubleshooting steps need real-world validation."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 24.0,
+      "related_steps_location": "Step_Templates/LG/",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "TASK-LG-003",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/LG/TASK-LG-003.md",
+      "steps_count": 7,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "Low <40%",
+        "reasoning": "Technical writing requires domain expertise. Screenshot capture is manual. Step-by-step instructions need testing. Troubleshooting requires real-world problem-solving experience."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 21.0,
+      "related_steps_location": "Step_Templates/LG/",
+      "created_date": "2025-11-10"
+    }
+  ]
+}

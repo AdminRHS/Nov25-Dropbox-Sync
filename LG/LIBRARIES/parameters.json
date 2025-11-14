@@ -1,0 +1,46 @@
+[
+  {
+    "parameter_id": "LG-PARAM-001",
+    "parameter_name": "Daily Lead Target",
+    "category": "Performance",
+    "value_type": "integer",
+    "default_value": 50,
+    "unit": "leads",
+    "description": "Daily lead generation target",
+    "required": true
+  },
+  {
+    "parameter_id": "LG-PARAM-002",
+    "parameter_name": "Lead Qualification Score",
+    "category": "Quality",
+    "value_type": "integer",
+    "default_value": 7,
+    "min_value": 1,
+    "max_value": 10,
+    "description": "Minimum lead qualification score for handoff",
+    "required": true
+  },
+  {
+    "parameter_id": "LG-PARAM-003",
+    "parameter_name": "Cold Email Templates",
+    "category": "Outreach",
+    "value_type": "integer",
+    "default_value": 5,
+    "description": "Number of cold email template variations",
+    "required": false
+  },
+  {
+    "parameter_id": "LG-PARAM-004",
+    "parameter_name": "Follow-up Sequence",
+    "category": "Outreach",
+    "value_type": "list",
+    "default_value": [
+      "Day 1",
+      "Day 3",
+      "Day 7",
+      "Day 14"
+    ],
+    "description": "Standard follow-up email sequence timeline",
+    "required": true
+  }
+]

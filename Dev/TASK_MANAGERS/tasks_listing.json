@@ -1,0 +1,92 @@
+{
+  "department": "DEV",
+  "total_tasks": 5,
+  "last_updated": "2025-11-13T11:21:56.057376",
+  "tasks": [
+    {
+      "id": "TASK-DEV-001",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/DEV/TASK-DEV-001.md",
+      "steps_count": 7,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "Medium 40-60%",
+        "reasoning": "Code structure can be templated. Multi-threading logic follows standard patterns. Error handling requires custom logic for specific scraping targets. Manual testing and quality validation needed."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 21.0,
+      "related_steps_location": "Step_Templates/DEV/",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "TASK-DEV-002",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/DEV/TASK-DEV-002.md",
+      "steps_count": 6,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "Medium 40-60%",
+        "reasoning": "API integration follows standard patterns. Configuration file generation can be semi-automated. Troubleshooting requires human problem-solving. Testing and validation need manual verification."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 18.0,
+      "related_steps_location": "Step_Templates/DEV/",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "TASK-DEV-003",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/DEV/TASK-DEV-003.md",
+      "steps_count": 7,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "High 60-80%",
+        "reasoning": "Docker configuration can be templated. Containerization is standardizable. Deployment scripts are automatable. Monitoring setup follows patterns. Manual validation and troubleshooting needed."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 21.0,
+      "related_steps_location": "Step_Templates/DEV/",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "TASK-DEV-004",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/DEV/TASK-DEV-004.md",
+      "steps_count": 6,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "High 60-80%",
+        "reasoning": "Code structure can be templated. Multi-threading logic is standardizable. NLP integration follows patterns. AI analysis requires tuning. Manual testing and validation needed."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 18.0,
+      "related_steps_location": "Step_Templates/DEV/",
+      "created_date": "2025-11-10"
+    },
+    {
+      "id": "TASK-DEV-005",
+      "name": "",
+      "type": "task",
+      "status": "Active",
+      "location": "Task_Templates/DEV/TASK-DEV-005.md",
+      "steps_count": 7,
+      "complexity": "Medium",
+      "automation_potential": {
+        "ranking": "High 60-80%",
+        "reasoning": "Docker configuration can be templated. Containerization is standardizable. Deployment scripts are automatable. Monitoring setup follows patterns. Manual validation and troubleshooting needed."
+      },
+      "key_tools": [],
+      "estimated_duration_hours": 21.0,
+      "related_steps_location": "Step_Templates/DEV/",
+      "created_date": "2025-11-10"
+    }
+  ]
+}

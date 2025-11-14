@@ -1,0 +1,272 @@
+[
+  {
+    "Objects": "databases",
+    "Object Types": "sql database, nosql database, graph database, time-series database",
+    "Professions": "back end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "servers",
+    "Object Types": "dedicated server, virtual server, cloud server, file server",
+    "Professions": "back end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "apis",
+    "Object Types": "internal api, external api, public api, private api, partner api",
+    "Professions": "back end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "containers",
+    "Object Types": "docker container, kubernetes container, virtual machine, container cluster",
+    "Professions": "back end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "microservices",
+    "Object Types": "authentication microservice, logging microservice, billing microservice, notification microservice",
+    "Professions": "back end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "logs",
+    "Object Types": "system log, security log, application log, audit log",
+    "Professions": "back end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "transactions",
+    "Object Types": "financial transaction, service transaction, batch transaction, real-time transaction",
+    "Professions": "back end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "sessions",
+    "Object Types": "user session, system session, persistent session, temporary session",
+    "Professions": "back end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "cache",
+    "Object Types": "memory cache, disk cache, web cache, database cache",
+    "Professions": "back end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "threads",
+    "Object Types": "worker thread, ui thread, background thread, main thread",
+    "Professions": "back end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "requests",
+    "Object Types": "synchronous request, asynchronous request, idempotent request, non-idempotent request",
+    "Professions": "back end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "responses",
+    "Object Types": "synchronous response, asynchronous response, cached response, dynamic response",
+    "Professions": "back end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "configurations",
+    "Object Types": "system configuration, user configuration, network configuration, security configuration",
+    "Professions": "back end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "dependencies",
+    "Object Types": "direct dependency, transitive dependency, development dependency, production dependency",
+    "Professions": "back end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "backups",
+    "Object Types": "full backup, incremental backup, differential backup, mirror backup",
+    "Professions": "back end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "modules",
+    "Object Types": "utility modules, feature modules, core modules",
+    "Professions": "full stack developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "queries",
+    "Object Types": "select queries, update queries, insert queries",
+    "Professions": "full stack developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "endpoints",
+    "Object Types": "REST endpoints, SOAP endpoints, GraphQL endpoints",
+    "Professions": "full stack developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "forms",
+    "Object Types": "login forms, registration forms, data entry forms",
+    "Professions": "full stack developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "routes",
+    "Object Types": "API routes, resource routes, redirect routes",
+    "Professions": "full stack developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "schemas",
+    "Object Types": "database schemas, validation schemas, XML schemas",
+    "Professions": "full stack developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "templates",
+    "Object Types": "HTML templates, email templates, report templates",
+    "Professions": "full stack developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "stylesheets",
+    "Object Types": "CSS stylesheets, SCSS stylesheets, LESS stylesheets",
+    "Professions": "full stack developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "widgets",
+    "Object Types": "UI widgets, dashboard widgets, embeddable widgets",
+    "Professions": "full stack developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "packets",
+    "Object Types": "data packets, network packets, protocol packets",
+    "Professions": "full stack developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "sessions",
+    "Object Types": "user sessions, server sessions, transaction sessions",
+    "Professions": "full stack developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "cookies",
+    "Object Types": "session cookies, persistent cookies, third-party cookies",
+    "Professions": "full stack developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "hooks",
+    "Object Types": "lifecycle hooks, event hooks, utility hooks",
+    "Professions": "full stack developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "middleware",
+    "Object Types": "authentication middleware, logging middleware, caching middleware",
+    "Professions": "full stack developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "payloads",
+    "Object Types": "JSON payloads, XML payloads, binary payloads",
+    "Professions": "full stack developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "modules",
+    "Object Types": "ui modules, service modules, feature modules",
+    "Professions": "front end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "queries",
+    "Object Types": "graphql queries, ajax queries, data fetching queries",
+    "Professions": "front end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "endpoints",
+    "Object Types": "rest endpoints, api gateways, resource endpoints",
+    "Professions": "front end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "forms",
+    "Object Types": "input forms, search forms, login forms",
+    "Professions": "front end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "routes",
+    "Object Types": "client-side routes, api routes, static routes",
+    "Professions": "front end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "schemas",
+    "Object Types": "json schemas, xml schemas, data validation schemas",
+    "Professions": "front end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "templates",
+    "Object Types": "ejs templates, handlebars templates, mustache templates",
+    "Professions": "front end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "stylesheets",
+    "Object Types": "css stylesheets, scss stylesheets, less stylesheets",
+    "Professions": "front end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "widgets",
+    "Object Types": "interactive widgets, informational widgets, control widgets",
+    "Professions": "front end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "packets",
+    "Object Types": "network packets, data packets, message packets",
+    "Professions": "front end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "sessions",
+    "Object Types": "user sessions, transaction sessions, persistent sessions",
+    "Professions": "front end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "cookies",
+    "Object Types": "session cookies, secure cookies, http-only cookies",
+    "Professions": "front end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "hooks",
+    "Object Types": "react hooks, vue hooks, state hooks, effect hooks",
+    "Professions": "front end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "middleware",
+    "Object Types": "authentication middleware, logging middleware, error handling middleware",
+    "Professions": "front end developer",
+    "Departments": "developers"
+  },
+  {
+    "Objects": "payload",
+    "Object Types": "json payload, form-data payload, binary payload",
+    "Professions": "front end developer",
+    "Departments": "developers"
+  }
+]
