@@ -24,6 +24,19 @@
 ### [8:15-9:15] - [Analyzing Cogency Corporate Finance and Convenient Brands companies]
 
 ### [9:15-10:00] - [Working on theme perfomance in Dashboard]
+Not successfull ;(
+
+### [10:00-10:13] - [Analytics of lead_generator]
+
+### [10:15-12:00] - [Improving lead_gen_analitics]
+added my personal account to collaborators 
+added improvings such as:
+
+### [12:00-12:08] - [Interview (cancelled)]
+
+### [12:10-13:00] - [continue working on lead_gen_analitics]
+
+
 
 **What I worked on:**
 - 

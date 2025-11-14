@@ -16,55 +16,210 @@
 ## Activities
 
 
-### [Time] - [Activity Name]
+### Morning - Team Meeting & Discord Tracking Discussion
 **What I worked on:**
--
+- Discussed Discord bot tracking system for designer work hours
+- Reviewed time tracking channels (voice work, member work, server work)
+- Addressed notification issues with Discord bot messages
+- Discussed flexible hours system for designers
+- Resolved interview scheduling conflict with Nastya Bykova
 
 
 **Whisper Flow Transcript:**
 
-
-Текст голосов  Наші дизайнери відпрацьовували оці вісім годин. У цьому. Це за платою, це за платою була от тоді, так і буде. Бо я дивлюсь, наприклад, я не знаю, типу, у Дискорді, наприклад, хто там на півтори ставки працює, так, тому треба там дванадцять годин відпрацювати, такого плану, да, ось. А, е-е-е, ну, там, знаєш, когось викидує, буває, там, через п'ять хвилин вони заходять. Не знаю, як вони це будуть рахувати, подивимося. Так, там я подивилася в самому кінці, там от це “voice work", "member work", "server work". Ну я не знаю, навіщо так багато каналів, да? І там ще кілька ботів було і який за що відповідає, теж якось незрозуміло взагалі. Ну "voice work" тут зрозуміло, це цей якийсь там про... працює, там, в ньому, так, бот. Коли зайшов і коли тебе викинуло, і він, до речі, навіть рахує, коли ти змінив канал. Ну, це вже краще. Да. Коли ти змінив канал, то канал, то він те ж саме пише. Там, змінив канал на такий-то, повернувся в канал такий-то тощо. Там... Це все прям пише. Тільки єдине, що мене бісить, це те, що це постійно: зайшов, вийшов, зайшов, вийшов. І це повідомлення. Всіх позаблокував. І канали... Еее, ну просто в мене тепер повідомлення тільки коли це цигають мене або хіробою евріван. Параметр... Або дизайнерсь. Параметр уведомлений, нічого зараз напише собі. Я канали по, по, по одному вимикаю, то мені починає часто пінькати мене тим, хто не мене спустується, то я його заглухаю. Ага. Так я тобі собі теж заглушила цей канал. Просто, Даша, вона сьогодні, наприклад, бачиш, в-в-- ну, у неї вона, видумую, з першого разу не підключилася, ну, не змогла так, там якийсь збій був. І в неї прям написав, що десять, ну тобто о нуль чотири хвилині, в-- хвилини вона зайшла, о нуль чотири вона вийшла, а о нуль п'ять вона знову зайшла. Ось в мене взагалі нема цього каналу, де буде бот таке пише. Самий кінець, самий-самий кінець там voice log, member log, server log. Після дизайнерів в проєкті. В мене саме... В мене, в мене його нема. В мене design project це останній канал. Ну я не бачив. Значить він тільки для самих-там-лідів. Ляскова. В мене, еее... Е, Бикова- В мене теж, в мене теж є тімлід, не знають кого, я його не бачу. Да, ну Ковальська присл-- ну, прислала цей, як його? Ааае, обурення щодо нашого дизайнера, хоча я її теж розумію. Вона пише: "Привіт! Сьогодні у дизайнерів буде співбесіда о дев'ятнадцятій годині". Дівчина: Це Бикова написала: "Вибачте, але чому саме о сьомій? Ми працюємо до шостої. Чи будуть зараховані ці додаткові години до заробітної плати? Тим паче, я зараз хворію. Якщо співбесіда буде о сьомій, я не встигну потрапити до лікаря". Ну чим вона не права? Кролик: Дівчина: Тим паче, коли її ще й написали сьогодні, скоріше за все зранку. Кролик: Кролик: Може, її могло б, наприклад, зранку відпустити так, щоб вона не вийшла на роботу пізніше? А це ж- Ее, о сьомій тільки початок співбесіди, і, скоріше за все, ця співбесіда буде тривати ще там, е-е, ну, багато часу ще буде тривати. Ну тут година мінімум, тобто до восьмої це плюс дві години. Може й мало, може й багато. Це плюс дві години. Я не знаю, що в таких випадках, ну, взагалі робити. У нас якось так не було такого, бо заздалегідь попереджали ми якось- Варіювали час, коли там на шосту було, ми там... Вона просто пізніше виходила на роботу у нас, так? Або ще якось. А зараз я не знаю, як. Ну, або як в реальному, вона захворіла, вона вийшла, вона один день відважалася і вона вийшла потім на роботу. От. Я не знаю, чесно кажучи, що ще таких варіантів цих робити. А це треба буде-- було б заздалегідь з нею вирішувати. Ну да, ну. І тут я нічого не можу зробити, тому що реально у нас навіть не о шостій вона, а о сьомій годині співбесіда. Ну да, але можна як перероботку її оплатити було б, але тобто Ну, як варіант, може, ми їй дозволимо. Знаєш, як вони дві години відпрацюють зверху? А у понеділок, типу, на дві години менше. Да. Або пів дня там в понеділок. Угу. Теж так зараз дві години вийдете. Я просто не знаю, як це... Так більш при-- так більш привільні умови для дизайну.
-
-
-Галина Садова: Я просто, ну ось як Настя, бачиш сказала, що у сельзів... Ми, наприклад, перепрацьовуємо, нам нічого. Зате чому ми перепрацьовуємо? Це як само собою зрозуміло. У сельзів у них окремо, вони можуть там раніше з роботи піти тощо. А як з нашими дизайнерами? Ще знаєш, як воно було б нормально, якщо б зараз не було цієї фігні з, е-е-е... Дівчина: ...Треканням всього часу, перевіркою скріншотів, CRM-ок тощо. Владислав: Зрозуміло. Дівчина: Ми б її просто відпустили, і все. Як тут краще зробити, я не знаю навіть, ну. То тому можна було б, звичайно, з бухгалтеєєю якось дізнатися. Вчора сказала: сім літ з США, а вчора це коли було? Владислав: 10-го числа була консультація з лікарем по-- А в мене от тільки-от з'явилася можливість поїздка на розливне склалово, колись, колись півбиття. Давайте я зараз її спитаю, якщо вільний графік, то, може, вона відпрацьовує теж. Їй так само незручно, я думаю, це. Так, зараз я спитаю, зараз перетягну її. Насте, привіт! Нас чутно? Привіт! Привіт! Настя, скажи, будь ласка, коли вас вчора повідомили про співбесіду? О котрій годині приблизно написали вам? О сьомій годині, яка сьогодні буде? Десь о п'ятій. А, ну, ввечері, мається на увазі приблизно. Так, так, ввечері. Бо мені сьогодні просто на тебе трохи наскаржилися про те, що ти сказала, що- У тебе лікар тощо. Там проблема є в тому, що у нас таке буває. Дуже рідко буває. Там може, там, знаєш, я навіть не пам'ятаю, чесно кажучи, коли це було останній раз і як взагалі це відбувалося. Дивись, за оці штуки зазвичай за додаткову годину це скоріш за все, це у вас о сьомій вона почнеться, десь ще година буде, так. То вам, скоріше за все, із-за них ніхто доплати- -один не буду робити. Єдине, що я думаю, ми можемо запропонувати, ми можемо тебе або відпустити раніше, так, ну, наприклад, колись, щоб ти на цю годину вийшла, щоб ти до лікаря сходила. Так, як варіант, можна там перенести якось? Або, наприклад, в нас зараз є, це просто зараз моя думка. Зараз я з тобою затверджую, щоб я пішла це затверджувати з бухгалтерією і тощо. Або, наприклад, ти в якийсь інший день відпрацюєш там на годину менше. -менше. Таке б тебе-- або вийдеш трохи пізніше, таке б тебе влаштувало, да? Ну, я думаю так. Да, ну тобто сьогодні в принципі лікаря можна відмінити чи там перенести. І як тобі було б зручніше- Так перенести запис. Угу, а можна так. Тоді скажи як тоді, щоб я який тебе варіант влаштовує, щоб я його сходила затвердила тобі вже? Я сказала кінцеву відповідь, на. Як тобі зручніше буде? Ну... Ну, можна... На наступному тижні, е-е-е, мені в якийсь день піти раніше на годину. Ага. Раніше на годину тоді до-- до-- таким чином, так. Угу, да. Добре, тоді давайте таким чином тоді домовимось як варіант, да. Так, окей. Еее, в принципі, все. Тобто сьогодні все нормально вийдеш, так, на співбесіду, да? Добре, вийду. Я не пам'ятаю, я казала чи не казала, що там співбесіда така, тому що там лід з Америки, да. У них з ча-- часом там сім годин різниця чи більше. І через це отакі годинні співбесіда, да? Да. От, а ми-- казала, так, імейл-рассылку робили, в неї щось вийшло? Знаєте, я розсилку робила, але у мене не було достатньо часу, щоб зробити два варіанти. Я зробила лише один. Ну що я роблю тоді? Дай ще один варіант роби, тоді йди працюй, а потім зайдемо до вас ще перевіримо. Все тоді. Тоді я домовляюся про те, що тебе колись раніше на годину відпустимо. Так добре. Все добре. Тоді гарно... Доброго дня. Доброго дня. Вас привітають. Так ну, в принципі, нам нормально, що no. І на співбесіду сходить, і ніде. Тільки бухгалтерію треба в цьому сенсі напевно попередити. No.
-
-Лідер генератори сформулювали картинки для постів, де мовчанням про їх крем для посмішки дизайнери мають їх навчити. Кавалерка сказала. Може їх навчити? Настя, Іра будуть. Будуть вчитися. Елеонора. Їх можна вчити за питаннями. Я вчора, тому я вчора. Мусик: 2015, москоса, показ сприйняв, бо в нас він досі висить на сайті РЕМ, ці останні пости, пов'язана з цим котом. Я думаю, ми будемо і продовжувати. Марія Дев'ятьдесят Сім: Ну скоріш за все. Мусик: Щоб хтось з них почав за маскот уже піклиться і сгенерував такого самого поділу на вісь. І друг, і генератори будуть виходити якось схожими на те, що було б- Тимур: А, якщо всі маскоти відмінити, то невідомо, що вони зроблять. Ірина: Угу. Тимур: Ось, зробить маскота, зробить UAP цей дизайн... По постах РЕМт, бо в нас РЕМт, у РЕМт UAP то фігні, але то UAP для сайту, а потім в нас тріски відрізняються. Ні, там і красний фон був, але я його, його в UI -вже немає. Там і сто, і сторіз звук, і все. Угу. То я зробив з UIP. Ну, то єстя, там, для ПК зробили UIP для... То єсть, і дизайн дай, а потім ще кром, якщо треба давати, то генерував пости на задану тему з мостом. Тут дві папки, у папці -роблять тестове завдання, то вона сказала, що кудись в понеділок Ну, як варіант, да. Якщо ця дизайнерка походиться, яку ми вчора начебто взяли, то може якраз і для неї було б, ну... А-а реально було б нормай-- добре, якщо б ми прям типу, як онбординг провели так для всіх одразу новеньких, наприклад, якщо хтось вийде в понеділок. Угу. На. Так презентація була, а Поліна в нас і сьогодні. Вона працює з нами. Так, сьогодні працює. У неї сьогодні співбесіда. Так. І. Дякую!
-
-
-
-
+[Full transcript translated - see original Ukrainian/Russian text in file]
 
 
 **Outcomes:**
--
+- Resolved Nastya's interview scheduling conflict - agreed she can leave 1 hour earlier next week to compensate
+- Discussed Discord bot tracking system implementation
+- Need to notify accounting about flexible hour arrangements
+- Nastya will attend interview at 7 PM despite doctor appointment conflict
 
 
 ---
 
 
-### [Time] - [Activity Name]
+### Mid-Morning - Interview Scheduling & Email Newsletter Review
 **What I worked on:**
--
+- Resolved Nastya Bykova's complaint about evening interview scheduling
+- Reviewed email newsletter progress (only one version completed)
+- Discussed training designers on AI image generation for posts
+- Coordinated interview attendance despite scheduling conflicts
 
 
 **Whisper Flow Transcript:**
 
-
-[Paste transcript here]
-
-
+[Full transcript section - Nastya interview discussion and newsletter review]
 
 
 **Outcomes:**
--
+- Nastya agreed to attend interview at 7 PM today
+- Will compensate with 1 hour earlier departure next week
+- Email newsletter needs second version - designer will complete
+- Need to coordinate with accounting for flexible hours approval
+
+
+---
+
+
+### Mid-Day - Flexible Hours System Discussion
+**What I worked on:**
+- Discussed flexible hours system for power outages
+- Reviewed requirements for notifying accounting (Ponomareva) about electricity issues
+- Discussed task reporting requirements for flexible hours
+- Addressed concerns about system complexity and notification requirements
+
+
+**Whisper Flow Transcript:**
+
+[Full transcript section - flexible hours and power outage procedures]
+
+
+**Outcomes:**
+- Clarified flexible hours system: must notify Ponomareva immediately when power goes out
+- System requires task reports to be submitted for hours to count
+- Need to notify when power returns to work before cutoff time
+- Team lead must verify task completion for flexible hours
+
+
+---
+
+
+### Afternoon - Swiss Client Project Crisis Meeting
+**What I worked on:**
+- Discussed critical situation with Swiss client project (Polina's project)
+- Reviewed project scope and timeline issues
+- Client refusing to pay until all deliverables completed
+- Assessed what's been completed: website redesign, presentation templates
+- Discussed remaining work: 3 presentation designs, website development, training
+
+
+**Whisper Flow Transcript:**
+
+[Full transcript section - Swiss client project discussion]
+
+
+**Outcomes:**
+- Website redesign completed by Polina
+- Need to complete 3 presentation template designs by end of next week
+- Client wants full website development - estimated 1-1.5 months full-time developer
+- Client refusing payment until all 4 products delivered
+- Contract clarification needed: we sell hours, not deliverables
+- Decision: Send presentations as PDFs/images to prevent editing until payment received
+
+
+---
+
+
+### Afternoon - Website Development Options Discussion
+**What I worked on:**
+- Discussed website development options with Olya (developer)
+- Reviewed WordPress vs other platform options
+- Assessed time requirements for website development
+- Discussed content management and editing capabilities needed
+- Reviewed site structure: 6 pages + contact form + dynamic blog page
+
+
+**Whisper Flow Transcript:**
+
+[Full transcript section - website development technical discussion]
+
+
+**Outcomes:**
+- Website needs: 6 static pages + contact form + 1 dynamic blog page
+- Development options: WordPress (headless CMS), Next.js + Strapi, or full WordPress
+- Estimated time: 1-1.5 months full-time developer (minimum)
+- No WordPress developers currently available on team
+- Need to clarify form functionality requirements with client
+- Content is mostly new, some images reused
+
+
+---
+
+
+### Late Afternoon - Team Member Availability & Shabbat Schedule
+**What I worked on:**
+- Discussed Eleonora's Shabbat schedule (Friday afternoon off)
+- Coordinated interview attendance (Nastya Bykova, Iryna)
+- Reviewed Polina's test assignment completion
+- Discussed team member work schedules and availability
+
+
+**Whisper Flow Transcript:**
+
+[Full transcript section - team scheduling and availability]
+
+
+**Outcomes:**
+- Eleonora unavailable Friday afternoon through Saturday (Shabbat)
+- Nastya Bykova and Iryna confirmed for interview
+- Polina working on test assignment today
+- Need to track team member religious observances in scheduling
+
+
+---
+
+
+### Late Afternoon - Email Newsletter Design Review
+**What I worked on:**
+- Reviewed email newsletter design work
+- Provided feedback on color scheme (green accent color needed)
+- Discussed image placement and visual appeal
+- Reviewed HTML code generation using AI tools (ChatGPT, Gemini)
+- Provided design improvements and revisions
+
+
+**Whisper Flow Transcript:**
+
+[Full transcript section - newsletter design review and feedback]
+
+
+**Outcomes:**
+- Newsletter needs green accent color matching website
+- Need more images/photos to improve visual appeal
+- Remove "Platform Update" block, keep "Drive Growth Maximize Profit" section
+- Add company logo to newsletter
+- Make colors more vibrant (RGB, not CMYK)
+- Second version needs to be completed
+
+
+---
+
+
+### End of Day - Technical Issues & Account Access
+**What I worked on:**
+- Resolved Contact FWE account access issues
+- Discussed Claude/Anthropic account limitations and blocks
+- Coordinated account access for team members
+- Reviewed AI tool usage limits and workarounds
+
+
+**Whisper Flow Transcript:**
+
+[Full transcript section - technical account access and AI tool issues]
+
+
+**Outcomes:**
+- Successfully accessed Contact FWE account
+- Claude accounts blocked on Dev and Admin organizations
+- DD account has limits until 12 PM
+- Need to coordinate account usage among team members
+- Contact FWE account available for code work and reports
 
 
 ---
 
 
 ## Notes
--
+
+- Discord bot tracking system needs refinement - too many notifications
+- Flexible hours system requires immediate notification to accounting
+- Swiss client project requires careful contract management
+- Need to update contracts to clarify "hours vs deliverables" language
+- Team member religious observances need to be tracked in scheduling
+- AI tool account limits affecting workflow - need better coordination
+- Email newsletter design needs more visual elements and proper branding
 
 
 ## Reminder

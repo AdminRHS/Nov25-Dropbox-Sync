@@ -1,662 +1,1337 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Convenient Brands - Vertical Software & Integrated Payments</title>
-    <style>
-        /* Simple float animation for cards/elements */
-        @keyframes float {
-          0%   { transform: translateY(0); }
-          50%  { transform: translateY(-6px); }
-          100% { transform: translateY(0); }
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Convenient Brands - Vertical Software & Integrated Payments</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-        /* Float classes for HERO */
-        .float-1 { animation: float 7s ease-in-out infinite; }
-        .float-2 { animation: float 8s ease-in-out infinite; animation-delay: 0.5s; }
-        .float-3 { animation: float 9s ease-in-out infinite; animation-delay: 1s; }
-        .float-4 { animation: float 10s ease-in-out infinite; animation-delay: 1.2s; }
-        .float-5 { animation: float 11s ease-in-out infinite; animation-delay: 1.6s; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: linear-gradient(to bottom right, #FAF8F2, #E6EFE7);
+  min-height: 100vh;
+}
 
-        /* Float classes for PARTNERS */
-        .float-partner-main  { animation: float 9s ease-in-out infinite; }
-        .float-partner-left  { animation: float 8s ease-in-out infinite; animation-delay: 0.4s; }
-        .float-partner-right { animation: float 10s ease-in-out infinite; animation-delay: 0.8s; }
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+}
 
-        /* Reset styles */
-        body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-        table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
-        img { -ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
-        body { margin: 0; padding: 0; width: 100% !important; height: 100% !important; }
-        
-        /* Responsive styles */
-        @media only screen and (max-width: 600px) {
-            .email-container { width: 100% !important; }
-            .mobile-padding { padding: 20px 16px !important; }
-            .mobile-hide { display: none !important; }
-            .mobile-full { width: 100% !important; display: block !important; }
-            .mobile-text-center { text-align: center !important; }
-            .mobile-font-large { font-size: 24px !important; }
-            .mobile-font-medium { font-size: 20px !important; }
-            .mobile-stack { display: block !important; width: 100% !important; }
-            .grid-2-col { width: 48% !important; display: inline-block !important; }
-            .grid-3-col { width: 100% !important; display: block !important; margin-bottom: 16px !important; }
-        }
-    </style>
+h2 {
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+}
+
+h3 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(to bottom right, #FAF8F2, #E6EFE7);
+  border-bottom: 1px solid #E6EFE7;
+  padding: 1.25rem 1.5rem;
+}
+
+.header-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo-text {
+  color: #2F3E2A;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.tagline {
+  color: #4F644D;
+  font-size: 1rem;
+}
+
+/* Section Styles */
+.section {
+  position: relative;
+  overflow: hidden;
+  padding: 4rem 1.5rem;
+}
+
+.section-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+
+.section-container-md {
+  max-width: 1024px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+
+.section-container-sm {
+  max-width: 768px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+
+/* Background Overlays */
+.bg-overlay {
+  position: absolute;
+  border-radius: 100%;
+  filter: blur(96px);
+  pointer-events: none;
+}
+
+/* Hero Section */
+.hero-section {
+  background: #ffffff;
+  padding: 4rem 1.5rem;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.hero-text {
+  order: 2;
+}
+
+.hero-image-wrapper {
+  order: 1;
+}
+
+.hero-title {
+  color: #2F3E2A;
+  margin-bottom: 1rem;
+}
+
+.hero-description {
+  color: #4F644D;
+  margin-bottom: 1.25rem;
+  line-height: 1.6;
+}
+
+.hero-description-long {
+  color: #4F644D;
+  margin-bottom: 1.75rem;
+  line-height: 1.6;
+}
+
+.hero-button {
+  display: inline-block;
+  background: #4F644D;
+  color: #ffffff;
+  padding: 0.875rem 2rem;
+  border-radius: 50px;
+  font-weight: 500;
+  transition: all 0.3s;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.hero-button:hover {
+  background: #3d4e3a;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+}
+
+.hero-image-container {
+  position: relative;
+  width: 100%;
+}
+
+.hero-blob-shadow {
+  position: absolute;
+  inset: 0;
+  transform: translate(2rem, 2.5rem);
+  opacity: 0.25;
+  filter: blur(60px);
+}
+
+.hero-blob-shape {
+  width: 100%;
+  height: 100%;
+  background: #2F3E2A;
+  border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+}
+
+.hero-image-main {
+  position: relative;
+  aspect-ratio: 4/3;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+  box-shadow: 0 20px 50px rgba(47,62,42,0.15);
+}
+
+.hero-image-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.glass-overlay-1 {
+  position: absolute;
+  top: 6%;
+  right: 4%;
+  width: 6rem;
+  height: 6rem;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 1.5rem;
+  border: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transform: rotate(-12deg);
+}
+
+.glass-overlay-2 {
+  position: absolute;
+  bottom: 10%;
+  left: 4%;
+  width: 5rem;
+  height: 5rem;
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  border: 1px solid rgba(255,255,255,0.25);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transform: rotate(15deg);
+}
+
+.hero-bg-shape {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  transform: scale(1.05);
+  background: #4F644D;
+  opacity: 0.2;
+  border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+}
+
+/* Features Section */
+.features-section {
+  background: linear-gradient(to bottom right, #2F3E2A, #4F644D);
+  padding: 4rem 1.5rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.feature-card {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 1rem;
+  padding: 2rem;
+  text-center;
+}
+
+.feature-icon {
+  margin-bottom: 1.25rem;
+}
+
+.feature-title {
+  color: #FAF8F2;
+  margin-bottom: 0.625rem;
+}
+
+.feature-description {
+  color: #E6EFE7;
+  opacity: 0.8;
+  line-height: 1.6;
+  font-size: 0.875rem;
+}
+
+/* Circular Blob Image */
+.blob-image-section {
+  background: linear-gradient(to bottom right, #FAF8F2, #F5F3EC);
+  padding: 3rem 1.5rem;
+}
+
+.blob-container {
+  position: relative;
+  width: 100%;
+  max-width: 28rem;
+  margin: 0 auto;
+}
+
+.blob-shadow {
+  position: absolute;
+  inset: 0;
+  transform: translate(1.5rem, 2rem);
+  opacity: 0.2;
+  filter: blur(50px);
+}
+
+.blob-shadow-inner {
+  width: 100%;
+  height: 100%;
+  background: #2F3E2A;
+  border-radius: 48% 52% 65% 35% / 55% 60% 40% 45%;
+}
+
+.blob-main {
+  position: relative;
+  aspect-ratio: 1/1;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 48% 52% 65% 35% / 55% 60% 40% 45%;
+  box-shadow: 0 15px 40px rgba(47,62,42,0.12);
+}
+
+.blob-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  transform: scale(1.1);
+  background: #7A9A63;
+  opacity: 0.15;
+  border-radius: 48% 52% 65% 35% / 55% 60% 40% 45%;
+}
+
+.gradient-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom right, rgba(79,100,77,0.1), transparent);
+}
+
+/* Industries Grid */
+.industries-section {
+  background: linear-gradient(to bottom right, #FAF8F2, #F5F3EC);
+  padding: 4rem 1.5rem;
+}
+
+.industries-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.industry-card {
+  background: #ffffff;
+  border-radius: 0.75rem;
+  padding: 1.75rem;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: box-shadow 0.3s;
+}
+
+.industry-card:hover {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.industry-icon {
+  margin-bottom: 1rem;
+}
+
+.industry-text {
+  color: #2F3E2A;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+/* Vertical Curve Image */
+.curve-image-section {
+  background: linear-gradient(to bottom right, #2F3E2A, #4F644D);
+  padding: 3rem 1.5rem;
+}
+
+.curve-container {
+  position: relative;
+  width: 100%;
+  max-width: 24rem;
+  margin: 0 auto;
+}
+
+.curve-shadow {
+  position: absolute;
+  inset: 0;
+  transform: translate(1.5rem, 2rem);
+  opacity: 0.25;
+  filter: blur(50px);
+}
+
+.curve-shadow-inner {
+  width: 100%;
+  height: 100%;
+  background: #FAF8F2;
+  border-radius: 40% 60% 45% 55% / 60% 55% 45% 40%;
+}
+
+.curve-main {
+  position: relative;
+  aspect-ratio: 3/4;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 40% 60% 45% 55% / 60% 55% 45% 40%;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+}
+
+.curve-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  transform: scale(1.08);
+  background: #E6EFE7;
+  opacity: 0.15;
+  border-radius: 40% 60% 45% 55% / 60% 55% 45% 40%;
+}
+
+.gradient-overlay-dark {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(47,62,42,0.2), transparent);
+}
+
+/* Growth Benefits */
+.benefits-section {
+  background: linear-gradient(to bottom right, #2F3E2A, #4F644D);
+  padding: 4rem 1.5rem;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+.benefit-card {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 0.75rem;
+  padding: 1.75rem;
+  position: relative;
+}
+
+.benefit-dot {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 100%;
+  opacity: 0.6;
+}
+
+.benefit-title {
+  color: #FAF8F2;
+  margin-bottom: 0.75rem;
+}
+
+.benefit-description {
+  color: #E6EFE7;
+  opacity: 0.8;
+  line-height: 1.6;
+  font-size: 0.875rem;
+}
+
+/* Soft Rectangle Image */
+.rectangle-section {
+  background: linear-gradient(to bottom right, #FAF8F2, #F5F3EC);
+  padding: 3rem 1.5rem;
+}
+
+.rectangle-container {
+  position: relative;
+  width: 100%;
+  max-width: 56rem;
+  margin: 0 auto;
+}
+
+.rectangle-shadow {
+  position: absolute;
+  inset: 0;
+  transform: translate(1rem, 1.5rem);
+  opacity: 0.18;
+  filter: blur(45px);
+}
+
+.rectangle-shadow-inner {
+  width: 100%;
+  height: 100%;
+  background: #2F3E2A;
+  border-radius: 68% 32% 45% 55% / 38% 62% 38% 62%;
+}
+
+.rectangle-main {
+  position: relative;
+  aspect-ratio: 16/10;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 68% 32% 45% 55% / 38% 62% 38% 62%;
+  box-shadow: 0 15px 40px rgba(47,62,42,0.15);
+}
+
+.rectangle-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  transform: scale(1.05);
+  background: #7A9A63;
+  opacity: 0.12;
+  border-radius: 68% 32% 45% 55% / 38% 62% 38% 62%;
+}
+
+.rectangle-accent {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  width: 5rem;
+  height: 5rem;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 45% 55% 60% 40% / 55% 45% 55% 45%;
+}
+
+/* Partners Section */
+.partners-section {
+  background: #ffffff;
+  padding: 4rem 1.5rem;
+}
+
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  min-height: 10rem;
+}
+
+.partner-card {
+  display: flex;
+  align-items: center;
+  justify-center;
+  padding: 1.5rem;
+  background: #FAF8F2;
+  border-radius: 0.75rem;
+  transition: all 0.3s;
+}
+
+.partner-card:hover {
+  background: #E6EFE7;
+  transform: scale(1.05);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.partner-name {
+  color: #4F644D;
+  opacity: 0.7;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.partner-card:hover .partner-name {
+  opacity: 1;
+}
+
+.dots-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 100%;
+  background: #d1d5db;
+  transition: all 0.3s;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+}
+
+.dot:hover {
+  background: #9ca3af;
+}
+
+.dot.active {
+  background: #7A9A63;
+  width: 1.5rem;
+}
+
+/* Animated Block */
+.cta-section {
+  background: linear-gradient(to bottom right, #7A9A63, #4F644D);
+  padding: 4rem 1.5rem;
+}
+
+.cta-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.cta-card {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.cta-icon {
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto 1rem;
+  background: #E6EFE7;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.cta-button {
+  display: inline-block;
+  background: #ffffff;
+  color: #2F3E2A;
+  padding: 1rem 2.5rem;
+  border-radius: 50px;
+  font-weight: 500;
+  margin-top: 2.5rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: all 0.3s;
+}
+
+.cta-button:hover {
+  background: #FAF8F2;
+  transform: scale(1.05);
+  box-shadow: 0 20px 35px rgba(0,0,0,0.2);
+}
+
+/* Partner Info Section */
+.info-section {
+  background: linear-gradient(to bottom right, #FAF8F2, #F5F3EC);
+  padding: 4rem 1.5rem;
+}
+
+.info-title {
+  color: #2F3E2A;
+  margin-bottom: 1.25rem;
+}
+
+.info-description {
+  color: #4F644D;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.info-list {
+  list-style: none;
+  margin: 1.5rem 0;
+}
+
+.info-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  color: #4F644D;
+  opacity: 0.9;
+  margin-bottom: 0.75rem;
+}
+
+.info-bullet {
+  color: #7A9A63;
+  margin-top: 0.25rem;
+  font-size: 1.25rem;
+}
+
+/* Footer */
+.footer {
+  background: #2F3E2A;
+  color: #E6EFE7;
+  padding: 3.5rem 1.5rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.footer-logo-section {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.footer-logo-text {
+  color: #FAF8F2;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.footer-description {
+  color: #E6EFE7;
+  opacity: 0.8;
+  line-height: 1.6;
+  font-size: 0.875rem;
+}
+
+.footer-title {
+  color: #FAF8F2;
+  margin-bottom: 1.25rem;
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  color: #E6EFE7;
+  opacity: 0.9;
+  font-size: 0.875rem;
+}
+
+.footer-contact-item a {
+  color: #E6EFE7;
+  opacity: 0.9;
+  transition: all 0.3s;
+}
+
+.footer-contact-item a:hover {
+  color: #7A9A63;
+}
+
+.footer-divider {
+  border-top: 1px solid rgba(250,248,242,0.2);
+  margin: 2.5rem 0;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer-copyright {
+  color: #E6EFE7;
+  opacity: 0.7;
+  font-size: 0.875rem;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-center;
+  border-radius: 100%;
+  background: #4F644D;
+  color: #E6EFE7;
+  transition: background 0.3s;
+}
+
+.social-icon:hover {
+  background: #7A9A63;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-link {
+  color: #E6EFE7;
+  opacity: 0.7;
+  font-size: 0.875rem;
+  transition: all 0.3s;
+}
+
+.footer-link:hover {
+  opacity: 1;
+  color: #7A9A63;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  h1 { font-size: 2.5rem; }
+  h2 { font-size: 2rem; }
+  
+  .tagline { display: block; }
+  
+  .hero-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+  }
+  
+  .hero-text { order: 1; }
+  .hero-image-wrapper { order: 2; }
+  
+  .glass-overlay-1 {
+    width: 9rem;
+    height: 9rem;
+  }
+  
+  .glass-overlay-2 {
+    width: 7rem;
+    height: 7rem;
+  }
+  
+  .features-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .industries-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .benefits-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .partners-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .cta-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .footer-grid {
+    grid-template-columns: 1fr 2fr;
+  }
+  
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 767px) {
+  .tagline { display: none; }
+}
+</style>
 </head>
-<body style="margin: 0; padding: 0; background: radial-gradient(circle at center, #FAF8F2 0%, #E6EFE7 100%); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;">
-    
-    <!-- Outer wrapper table -->
-    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: 0; padding: 20px 0;">
-        <tr>
-            <td align="center" style="padding: 0;">
-                
-                <!-- Email container - 600px -->
-                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" class="email-container" style="margin: 0 auto; background: #FFFFFF; max-width: 600px; box-shadow: 0 20px 60px rgba(47, 62, 42, 0.15); border-radius: 8px; overflow: hidden;">
-                    
-                    <!-- HEADER -->
-                    <tr>
-                        <td style="background: linear-gradient(135deg, #FAF8F2 0%, #E6EFE7 100%); padding: 30px 32px 26px;">
+<body>
 
-                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                <tr>
-                                    <td style="vertical-align: middle;">
-                                        <!-- Logo -->
-                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0">
-                                            <tr>
-                                                <td style="vertical-align: middle; padding-right: 10px;">
-                                                    <svg width="32" height="32" viewBox="0 0 32 32" style="display: block;">
-                                                        <rect x="4" y="4" width="24" height="24" rx="6" fill="#4F644D" opacity="0.9"/>
-                                                        <rect x="8" y="8" width="16" height="16" rx="4" fill="#7A9A63"/>
-                                                        <circle cx="16" cy="16" r="4" fill="#FAF8F2"/>
-                                                    </svg>
-                                                </td>
-                                                <td style="vertical-align: middle;">
-                                                    <span style="color: #2F3E2A; font-size: 18px; font-weight: 700; letter-spacing: -0.3px; line-height: 1;">Convenient Brands</span>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                    <td align="right" style="vertical-align: middle; line-height: 1.4;" class="mobile-hide">
-                                        <span style="color: #4F644D; font-size: 12px;">Vertical software & integrated payments<br>for modern industries</span>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    
-                    <!-- HERO SECTION -->
-                    <tr>
-                        <td style="background: linear-gradient(to bottom, #FFFFFF 0%, #FAF8F2 100%); padding: 48px 32px;" class="mobile-padding">
-                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                <tr>
-                                    <td>
-                                        <h1 style="color: #2F3E2A; font-size: 30px; font-weight: 700; margin: 0 0 16px 0; letter-spacing: -0.5px; line-height: 1.2;" class="mobile-font-large">Meet Convenient Brands</h1>
-                                        
-                                        <p style="color: #4F644D; font-size: 16px; margin: 0 0 20px 0; line-height: 1.5; font-weight: 500;">Vertical software and integrated payments helping essential industries run smoothly.</p>
-                                        
-                                        <p style="color: #4F644D; font-size: 14px; line-height: 1.6; margin: 0 0 28px 0;">We connect software and payments across auto dealerships, government services, property management, healthcare facilities, and union organizations. One calm platform for complex operations, designed to help you focus on what matters most.</p>
-                                        
-                                        <a href="#" style="display: inline-block; background: #4F644D; color: #FFFFFF; padding: 14px 32px; border-radius: 100px; text-decoration: none; font-size: 14px; font-weight: 600;">Learn more about the platform</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="padding-top: 32px;">
-                                        <!-- Hero Illustration -->
-                                        <svg viewBox="0 0 560 315" style="width: 100%; height: auto; display: block;">
-                                            <!-- Main platform panel (STATIC, no animation) -->
-                                            <rect x="140" y="180" width="280" height="80" rx="16" fill="#F5F3EC"/>
-                                            <rect x="140" y="180" width="280" height="80" rx="16" fill="url(#platform-grad)" opacity="0.6"/>
-                                            
-                                            <!-- UI details on the main panel -->
-                                            <rect x="170" y="195" width="60" height="8" rx="4" fill="#FAF8F2" opacity="0.9"/>
-                                            <rect x="170" y="210" width="40" height="4" rx="2" fill="#FAF8F2" opacity="0.7"/>
-                                            <rect x="170" y="220" width="52" height="4" rx="2" fill="#FAF8F2" opacity="0.7"/>
-                                            
-                                            <rect x="250" y="195" width="80" height="8" rx="4" fill="#FAF8F2" opacity="0.9"/>
-                                            <rect x="250" y="210" width="65" height="4" rx="2" fill="#FAF8F2" opacity="0.7"/>
-                                            <rect x="250" y="220" width="72" height="4" rx="2" fill="#FAF8F2" opacity="0.7"/>
-                                            
-                                            <rect x="350" y="195" width="40" height="8" rx="4" fill="#FAF8F2" opacity="0.9"/>
-                                            <rect x="350" y="210" width="32" height="4" rx="2" fill="#FAF8F2" opacity="0.7"/>
+<!-- Header -->
+<header class="header">
+  <div class="header-container">
+    <div class="logo-section">
+      <svg width="32" height="32" viewBox="0 0 32 32">
+        <rect x="4" y="4" width="24" height="24" rx="6" fill="#4F644D" opacity="0.9"/>
+        <rect x="8" y="8" width="16" height="16" rx="4" fill="#7A9A63"/>
+        <circle cx="16" cy="16" r="4" fill="#FAF8F2"/>
+      </svg>
+      <span class="logo-text">Convenient Brands</span>
+    </div>
+    <div class="tagline">Vertical software & integrated payments for modern industries</div>
+  </div>
+</header>
 
-                                            <!-- Left top card (ANIMATED) -->
-                                            <g class="float-1">
-                                                <rect x="80" y="80" width="120" height="80" rx="12" fill="#FFFFFF"/>
-                                                <rect x="80" y="80" width="120" height="80" rx="12" fill="#7A9A63" opacity="0.1"/>
-                                                <rect x="92" y="96" width="50" height="8" rx="4" fill="#4F644D" opacity="0.3"/>
-                                                <rect x="92" y="112" width="80" height="6" rx="3" fill="#7A9A63" opacity="0.5"/>
-                                                <rect x="92" y="124" width="70" height="6" rx="3" fill="#7A9A63" opacity="0.5"/>
-                                                <circle cx="94" cy="143" r="8" fill="#E6EFE7"/>
-                                                <circle cx="110" cy="143" r="8" fill="#E6EFE7"/>
-                                                <circle cx="126" cy="143" r="8" fill="#E6EFE7"/>
-                                            </g>
-                                            
-                                            <!-- Center top card (ANIMATED) -->
-                                            <g class="float-2">
-                                                <rect x="220" y="40" width="120" height="90" rx="12" fill="#FFFFFF"/>
-                                                <rect x="220" y="40" width="120" height="90" rx="12" fill="#4F644D" opacity="0.08"/>
-                                                <rect x="232" y="56" width="60" height="10" rx="5" fill="#2F3E2A" opacity="0.4"/>
-                                                <rect x="232" y="74" width="85" height="6" rx="3" fill="#7A9A63" opacity="0.5"/>
-                                                <rect x="232" y="86" width="75" height="6" rx="3" fill="#7A9A63" opacity="0.5"/>
-                                                <rect x="232" y="98" width="85" height="6" rx="3" fill="#7A9A63" opacity="0.4"/>
-                                                <rect x="232" y="110" width="65" height="6" rx="3" fill="#7A9A63" opacity="0.4"/>
-                                            </g>
-                                            
-                                            <!-- Right middle card (ANIMATED) -->
-                                            <g class="float-3">
-                                                <rect x="360" y="90" width="120" height="75" rx="12" fill="#FFFFFF"/>
-                                                <rect x="360" y="90" width="120" height="75" rx="12" fill="#E6EFE7" opacity="0.8"/>
-                                                <rect x="372" y="106" width="30" height="20" rx="4" fill="#4F644D" opacity="0.6"/>
-                                                <rect x="372" y="132" width="80" height="6" rx="3" fill="#7A9A63" opacity="0.5"/>
-                                                <rect x="372" y="144" width="60" height="6" rx="3" fill="#7A9A63" opacity="0.4"/>
-                                                <circle cx="455" cy="150" r="10" fill="#4F644D" opacity="0.15"/>
-                                                <path d="M 450 150 L 460 150" stroke="#4F644D" stroke-width="2" stroke-linecap="round"/>
-                                                <path d="M 455 145 L 455 155" stroke="#4F644D" stroke-width="2" stroke-linecap="round"/>
-                                            </g>
-                                            
-                                            <!-- Bottom right mini-timeline card (ANIMATED) -->
-                                            <g class="float-4">
-                                                <rect x="370" y="200" width="110" height="70" rx="12" fill="#FFFFFF"/>
-                                                <rect x="370" y="200" width="110" height="70" rx="12" fill="#7A9A63" opacity="0.12"/>
-                                                <circle cx="390" cy="225" r="6" fill="#4F644D" opacity="0.4"/>
-                                                <circle cx="410" cy="225" r="6" fill="#4F644D" opacity="0.4"/>
-                                                <circle cx="430" cy="225" r="6" fill="#4F644D" opacity="0.4"/>
-                                                <line x1="396" y1="225" x2="404" y2="225" stroke="#7A9A63" stroke-width="2"/>
-                                                <line x1="416" y1="225" x2="424" y2="225" stroke="#7A9A63" stroke-width="2"/>
-                                                <rect x="382" y="245" width="70" height="4" rx="2" fill="#E6EFE7"/>
-                                                <rect x="382" y="255" width="55" height="4" rx="2" fill="#E6EFE7"/>
-                                            </g>
-                                
-                                            <!-- Decorative elements (light float) -->
-                                            <g class="float-5">
-                                                <circle cx="130" cy="60" r="12" fill="#E6EFE7" opacity="0.6"/>
-                                                <rect x="124" y="54" width="12" height="12" rx="2" fill="#4F644D" opacity="0.5"/>
-                                            
-                                                <circle cx="490" cy="120" r="12" fill="#E6EFE7" opacity="0.6"/>
-                                                <circle cx="490" cy="120" r="6" fill="#7A9A63"/>
-                                            
-                                                <circle cx="70" cy="200" r="10" fill="#E6EFE7" opacity="0.6"/>
-                                                <path d="M 65 200 L 75 200 M 70 195 L 70 205" stroke="#4F644D" stroke-width="2" opacity="0.5"/>
-                                            </g>
-                                            
-                                            <defs>
-                                                <linearGradient id="platform-grad" x1="140" y1="180" x2="420" y2="260" gradientUnits="userSpaceOnUse">
-                                                    <stop offset="0%" stop-color="#7A9A63"/>
-                                                    <stop offset="100%" stop-color="#E6EFE7"/>
-                                                </linearGradient>
-                                            </defs>
-                                        </svg>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    
-                    <!-- PLATFORM FEATURES -->
-                    <tr>
-                        <td style="background: #FFFFFF; padding: 56px 32px;" class="mobile-padding">
-                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                <tr>
-                                    <td align="center" style="padding-bottom: 40px;">
-                                        <h2 style="color: #2F3E2A; font-size: 26px; font-weight: 700; margin: 0 0 12px 0; letter-spacing: -0.4px;" class="mobile-font-medium">A calm, connected platform for complex operations</h2>
-                                        <p style="color: #4F644D; font-size: 14px; line-height: 1.5; margin: 0;">Vertical software, payments, and automation working together seamlessly</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                            <tr>
-                                                <!-- Feature 1 -->
-                                                <td width="33%" align="center" style="padding: 0 10px 20px 0; vertical-align: top;" class="grid-3-col">
-                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background: #FAF8F2; border-radius: 16px; padding: 32px 20px 28px;">
-                                                        <tr>
-                                                            <td align="center" style="padding-bottom: 20px;">
-                                                                <svg width="80" height="80" viewBox="0 0 80 80">
-                                                                    <rect x="18" y="12" width="44" height="32" rx="6" fill="#E6EFE7"/>
-                                                                    <rect x="18" y="12" width="44" height="32" rx="6" fill="#7A9A63" opacity="0.3"/>
-                                                                    <rect x="14" y="26" width="44" height="32" rx="6" fill="#F5F3EC"/>
-                                                                    <rect x="14" y="26" width="44" height="32" rx="6" fill="#4F644D" opacity="0.15"/>
-                                                                    <rect x="20" y="34" width="20" height="4" rx="2" fill="#7A9A63" opacity="0.5"/>
-                                                                    <rect x="20" y="42" width="28" height="3" rx="1.5" fill="#7A9A63" opacity="0.4"/>
-                                                                    <rect x="20" y="48" width="24" height="3" rx="1.5" fill="#7A9A63" opacity="0.4"/>
-                                                                    <rect x="18" y="36" width="44" height="32" rx="6" fill="#FFFFFF"/>
-                                                                    <rect x="18" y="36" width="44" height="32" rx="6" fill="#4F644D" opacity="0.08"/>
-                                                                    <rect x="24" y="44" width="24" height="5" rx="2.5" fill="#2F3E2A" opacity="0.4"/>
-                                                                    <rect x="24" y="53" width="32" height="3" rx="1.5" fill="#7A9A63" opacity="0.5"/>
-                                                                    <rect x="24" y="59" width="28" height="3" rx="1.5" fill="#7A9A63" opacity="0.4"/>
-                                                                </svg>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center">
-                                                                <h3 style="color: #2F3E2A; font-size: 15px; font-weight: 700; margin: 0 0 10px 0;">Vertical Software</h3>
-                                                                <p style="color: #4F644D; font-size: 13px; line-height: 1.5; margin: 0;">Purpose-built tools designed for your industry's unique workflows and requirements.</p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                                
-                                                <!-- Feature 2 -->
-                                                <td width="33%" align="center" style="padding: 0 10px 20px 10px; vertical-align: top;" class="grid-3-col">
-                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background: #FAF8F2; border-radius: 16px; padding: 32px 20px 28px;">
-                                                        <tr>
-                                                            <td align="center" style="padding-bottom: 20px;">
-                                                                <svg width="80" height="80" viewBox="0 0 80 80">
-                                                                    <rect x="16" y="28" width="48" height="32" rx="6" fill="#FFFFFF"/>
-                                                                    <rect x="16" y="28" width="48" height="32" rx="6" fill="#4F644D" opacity="0.1"/>
-                                                                    <rect x="24" y="38" width="12" height="10" rx="2" fill="#7A9A63" opacity="0.6"/>
-                                                                    <rect x="26" y="40" width="8" height="6" rx="1" fill="#E6EFE7"/>
-                                                                    <rect x="40" y="40" width="18" height="2.5" rx="1.25" fill="#7A9A63" opacity="0.4"/>
-                                                                    <rect x="40" y="45" width="14" height="2.5" rx="1.25" fill="#7A9A63" opacity="0.3"/>
-                                                                    <path d="M 64 38 Q 70 36 76 38 Q 82 40 88 38" stroke="#4F644D" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.4"/>
-                                                                    <path d="M 64 46 Q 70 44 76 46 Q 82 48 88 46" stroke="#7A9A63" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.5"/>
-                                                                    <circle cx="72" cy="54" r="3" fill="#E6EFE7"/>
-                                                                    <circle cx="72" cy="54" r="2" fill="#4F644D" opacity="0.3"/>
-                                                                </svg>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center">
-                                                                <h3 style="color: #2F3E2A; font-size: 15px; font-weight: 700; margin: 0 0 10px 0;">Integrated Payments</h3>
-                                                                <p style="color: #4F644D; font-size: 13px; line-height: 1.5; margin: 0;">Seamless payment processing built directly into your software, no extra steps needed.</p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                                
-                                                <!-- Feature 3 -->
-                                                <td width="33%" align="center" style="padding: 0 0 20px 10px; vertical-align: top;" class="grid-3-col">
-                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background: #FAF8F2; border-radius: 16px; padding: 32px 20px 28px;">
-                                                        <tr>
-                                                            <td align="center" style="padding-bottom: 20px;">
-                                                                <svg width="80" height="80" viewBox="0 0 80 80">
-                                                                    <circle cx="40" cy="40" r="16" fill="#FFFFFF"/>
-                                                                    <circle cx="40" cy="40" r="16" fill="#4F644D" opacity="0.15"/>
-                                                                    <rect x="38" y="20" width="4" height="6" rx="2" fill="#7A9A63" opacity="0.6"/>
-                                                                    <rect x="38" y="54" width="4" height="6" rx="2" fill="#7A9A63" opacity="0.6"/>
-                                                                    <rect x="54" y="38" width="6" height="4" rx="2" fill="#7A9A63" opacity="0.6"/>
-                                                                    <rect x="20" y="38" width="6" height="4" rx="2" fill="#7A9A63" opacity="0.6"/>
-                                                                    <circle cx="40" cy="40" r="7" fill="#E6EFE7"/>
-                                                                    <circle cx="40" cy="40" r="4" fill="#4F644D" opacity="0.3"/>
-                                                                    <circle cx="66" cy="30" r="5" fill="#E6EFE7" opacity="0.7"/>
-                                                                    <circle cx="66" cy="30" r="3" fill="#7A9A63" opacity="0.5"/>
-                                                                    <line x1="56" y1="34" x2="62" y2="31" stroke="#7A9A63" stroke-width="2" opacity="0.4" stroke-dasharray="2 2"/>
-                                                                    <circle cx="14" cy="50" r="5" fill="#E6EFE7" opacity="0.7"/>
-                                                                    <circle cx="14" cy="50" r="3" fill="#7A9A63" opacity="0.5"/>
-                                                                    <line x1="24" y1="46" x2="18" y2="49" stroke="#7A9A63" stroke-width="2" opacity="0.4" stroke-dasharray="2 2"/>
-                                                                </svg>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center">
-                                                                <h3 style="color: #2F3E2A; font-size: 15px; font-weight: 700; margin: 0 0 10px 0;">Smart Automation</h3>
-                                                                <p style="color: #4F644D; font-size: 13px; line-height: 1.5; margin: 0;">Intelligent workflows that handle routine tasks so your team can focus on growth.</p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    
-                    <!-- INDUSTRIES GRID -->
-                    <tr>
-                        <td style="background: linear-gradient(135deg, #E6EFE7 0%, #F5F3EC 100%); padding: 56px 32px;" class="mobile-padding">
-                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                <tr>
-                                    <td align="center" style="padding-bottom: 40px;">
-                                        <h2 style="color: #2F3E2A; font-size: 26px; font-weight: 700; margin: 0 0 12px 0; letter-spacing: -0.4px;" class="mobile-font-medium">Built for industries that never stand still</h2>
-                                        <p style="color: #4F644D; font-size: 14px; line-height: 1.5; margin: 0;">Supporting essential services and the communities that depend on them</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                            <!-- Row 1 -->
-                                            <tr>
-                                                <td width="33%" align="center" style="padding: 0 8px 16px 0; vertical-align: top;" class="grid-2-col">
-                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background: #FFFFFF; border-radius: 12px; padding: 28px 16px 24px;">
-                                                        <tr>
-                                                            <td align="center" style="padding-bottom: 16px;">
-                                                                <svg width="64" height="64" viewBox="0 0 64 64">
-                                                                    <path d="M 12 34 L 16 26 L 22 24 L 42 24 L 48 26 L 52 34 L 52 42 C 52 43 51 44 50 44 L 14 44 C 13 44 12 43 12 42 Z" fill="#4F644D" opacity="0.8"/>
-                                                                    <path d="M 20 26 L 24 26 L 26 30 L 18 30 Z" fill="#E6EFE7" opacity="0.7"/>
-                                                                    <path d="M 28 26 L 36 26 L 38 30 L 26 30 Z" fill="#E6EFE7" opacity="0.7"/>
-                                                                    <circle cx="20" cy="42" r="5" fill="#2F3E2A" opacity="0.6"/>
-                                                                    <circle cx="20" cy="42" r="3" fill="#F5F3EC"/>
-                                                                    <circle cx="44" cy="42" r="5" fill="#2F3E2A" opacity="0.6"/>
-                                                                    <circle cx="44" cy="42" r="3" fill="#F5F3EC"/>
-                                                                    <rect x="38" y="16" width="3" height="12" rx="1.5" fill="#F5F3EC"/>
-                                                                    <circle cx="39.5" cy="15" r="3" fill="#F5F3EC"/>
-                                                                    <circle cx="39.5" cy="15" r="1.5" fill="#7A9A63" opacity="0.5"/>
-                                                                    <rect x="37" y="27" width="5" height="4" rx="2" fill="#F5F3EC"/>
-                                                                </svg>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center">
-                                                                <p style="color: #2F3E2A; font-size: 13px; font-weight: 600; line-height: 1.4; margin: 0;">Auto dealerships &<br>repair shops</p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                                
-                                                <td width="33%" align="center" style="padding: 0 8px 16px 8px; vertical-align: top;" class="grid-2-col">
-                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background: #FFFFFF; border-radius: 12px; padding: 28px 16px 24px;">
-                                                        <tr>
-                                                            <td align="center" style="padding-bottom: 16px;">
-                                                                <svg width="64" height="64" viewBox="0 0 64 64">
-                                                                    <path d="M 14 32 L 18 24 L 24 22 L 42 22 L 48 24 L 52 32 L 52 40 C 52 41 51 42 50 42 L 16 42 C 15 42 14 41 14 40 Z" fill="#4F644D" opacity="0.8"/>
-                                                                    <path d="M 22 24 L 26 24 L 28 28 L 20 28 Z" fill="#E6EFE7" opacity="0.7"/>
-                                                                    <path d="M 30 24 L 38 24 L 40 28 L 28 28 Z" fill="#E6EFE7" opacity="0.7"/>
-                                                                    <circle cx="22" cy="40" r="5" fill="#2F3E2A" opacity="0.6"/>
-                                                                    <circle cx="22" cy="40" r="3" fill="#F5F3EC"/>
-                                                                    <circle cx="46" cy="40" r="5" fill="#2F3E2A" opacity="0.6"/>
-                                                                    <circle cx="46" cy="40" r="3" fill="#F5F3EC"/>
-                                                                    <circle cx="36" cy="10" r="6" fill="#F5F3EC" opacity="0.9"/>
-                                                                    <path d="M 36 6 L 36 14 M 32 10 L 40 10" stroke="#7A9A63" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
-                                                                    <circle cx="36" cy="10" r="2" fill="#E6EFE7"/>
-                                                                </svg>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center">
-                                                                <p style="color: #2F3E2A; font-size: 13px; font-weight: 600; line-height: 1.4; margin: 0;">Collision & auto<br>aftermarket</p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                                
-                                                <td width="33%" align="center" style="padding: 0 0 16px 8px; vertical-align: top;" class="grid-2-col">
-                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background: #FFFFFF; border-radius: 12px; padding: 28px 16px 24px;">
-                                                        <tr>
-                                                            <td align="center" style="padding-bottom: 16px;">
-                                                                <svg width="64" height="64" viewBox="0 0 64 64">
-                                                                    <rect x="16" y="44" width="32" height="4" rx="2" fill="#2F3E2A" opacity="0.5"/>
-                                                                    <rect x="20" y="28" width="5" height="16" rx="2.5" fill="#4F644D" opacity="0.7"/>
-                                                                    <rect x="29.5" y="28" width="5" height="16" rx="2.5" fill="#4F644D" opacity="0.7"/>
-                                                                    <rect x="39" y="28" width="5" height="16" rx="2.5" fill="#4F644D" opacity="0.7"/>
-                                                                    <path d="M 14 28 L 32 18 L 50 28 L 46 28 L 32 22 L 18 28 Z" fill="#4F644D" opacity="0.8"/>
-                                                                    <rect x="18" y="26" width="28" height="3" rx="1.5" fill="#7A9A63" opacity="0.6"/>
-                                                                    <circle cx="40" cy="14" r="8" fill="#F5F3EC"/>
-                                                                    <circle cx="40" cy="14" r="7" fill="#E6EFE7"/>
-                                                                    <path d="M 37 14 L 39 16 L 43 11" stroke="#4F644D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.7"/>
-                                                                </svg>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center">
-                                                                <p style="color: #2F3E2A; font-size: 13px; font-weight: 600; line-height: 1.4; margin: 0;">Government &<br>municipalities</p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                            
-                                            <!-- Row 2 -->
-                                            <tr>
-                                                <td width="33%" align="center" style="padding: 0 8px 0 0; vertical-align: top;" class="grid-2-col">
-                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background: #FFFFFF; border-radius: 12px; padding: 28px 16px 24px;">
-                                                        <tr>
-                                                            <td align="center" style="padding-bottom: 16px;">
-                                                                <svg width="64" height="64" viewBox="0 0 64 64">
-                                                                    <rect x="20" y="24" width="24" height="24" rx="3" fill="#4F644D" opacity="0.8"/>
-                                                                    <rect x="24" y="28" width="5" height="5" rx="1" fill="#E6EFE7" opacity="0.6"/>
-                                                                    <rect x="35" y="28" width="5" height="5" rx="1" fill="#E6EFE7" opacity="0.6"/>
-                                                                    <rect x="24" y="36" width="5" height="5" rx="1" fill="#E6EFE7" opacity="0.6"/>
-                                                                    <rect x="35" y="36" width="5" height="5" rx="1" fill="#E6EFE7" opacity="0.6"/>
-                                                                    <rect x="29" y="41" width="6" height="7" rx="1" fill="#2F3E2A" opacity="0.5"/>
-                                                                    <path d="M 18 24 L 32 16 L 46 24" stroke="#7A9A63" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.6"/>
-                                                                    <circle cx="42" cy="12" r="3.5" fill="#F5F3EC"/>
-                                                                    <circle cx="42" cy="12" r="1.5" fill="#E6EFE7"/>
-                                                                    <rect x="41" y="14" width="2" height="8" rx="1" fill="#F5F3EC"/>
-                                                                    <rect x="41" y="19" width="3" height="1.5" rx="0.75" fill="#F5F3EC"/>
-                                                                    <rect x="41" y="21" width="2.5" height="1.5" rx="0.75" fill="#F5F3EC"/>
-                                                                </svg>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center">
-                                                                <p style="color: #2F3E2A; font-size: 13px; font-weight: 600; line-height: 1.4; margin: 0;">Property<br>management</p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                                
-                                                <td width="33%" align="center" style="padding: 0 8px; vertical-align: top;" class="grid-2-col">
-                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background: #FFFFFF; border-radius: 12px; padding: 28px 16px 24px;">
-                                                        <tr>
-                                                            <td align="center" style="padding-bottom: 16px;">
-                                                                <svg width="64" height="64" viewBox="0 0 64 64">
-                                                                    <path d="M 32 46 C 32 46 16 36 16 26 C 16 20 20 16 24 16 C 28 16 30 18 32 22 C 34 18 36 16 40 16 C 44 16 48 20 48 26 C 48 36 32 46 32 46 Z" fill="#4F644D" opacity="0.8"/>
-                                                                    <path d="M 32 42 C 32 42 20 34 20 26 C 20 22 22 20 25 20 C 27 20 29 21 32 24 C 35 21 37 20 39 20 C 42 20 44 22 44 26 C 44 34 32 42 32 42 Z" fill="#E6EFE7" opacity="0.4"/>
-                                                                    <rect x="30" y="24" width="4" height="12" rx="1" fill="#FAF8F2"/>
-                                                                    <rect x="26" y="28" width="12" height="4" rx="1" fill="#FAF8F2"/>
-                                                                </svg>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center">
-                                                                <p style="color: #2F3E2A; font-size: 13px; font-weight: 600; line-height: 1.4; margin: 0;">Healthcare &<br>non-profits</p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                                
-                                                <td width="33%" align="center" style="padding: 0 0 0 8px; vertical-align: top;" class="grid-2-col">
-                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background: #FFFFFF; border-radius: 12px; padding: 28px 16px 24px;">
-                                                        <tr>
-                                                            <td align="center" style="padding-bottom: 16px;">
-                                                                <svg width="64" height="64" viewBox="0 0 64 64">
-                                                                    <circle cx="32" cy="18" r="4" fill="#4F644D" opacity="0.7"/>
-                                                                    <path d="M 28 22 L 28 28 L 36 28 L 36 22" fill="#4F644D" opacity="0.6"/>
-                                                                    <circle cx="44" cy="28" r="4" fill="#4F644D" opacity="0.7"/>
-                                                                    <path d="M 40 32 L 40 38 L 48 38 L 48 32" fill="#4F644D" opacity="0.6"/>
-                                                                    <circle cx="40" cy="42" r="4" fill="#7A9A63" opacity="0.7"/>
-                                                                    <path d="M 36 46 L 36 52 L 44 52 L 44 46" fill="#7A9A63" opacity="0.6"/>
-                                                                    <circle cx="24" cy="42" r="4" fill="#7A9A63" opacity="0.7"/>
-                                                                    <path d="M 20 46 L 20 52 L 28 52 L 28 46" fill="#7A9A63" opacity="0.6"/>
-                                                                    <circle cx="20" cy="28" r="4" fill="#4F644D" opacity="0.7"/>
-                                                                    <path d="M 16 32 L 16 38 L 24 38 L 24 32" fill="#4F644D" opacity="0.6"/>
-                                                                    <path d="M 32 36 C 32 36 26 31 26 27 C 26 25.5 26.5 25 27.5 25 C 28.5 25 29.5 25.5 32 28 C 34.5 25.5 35.5 25 36.5 25 C 37.5 25 38 25.5 38 27 C 38 31 32 36 32 36 Z" fill="#E6EFE7"/>
-                                                                    <path d="M 32 34 C 32 34 28 31 28 28 C 28 27 28.5 26 29.5 26 C 30.5 26 31 26.5 32 28 C 33 26.5 33.5 26 34.5 26 C 35.5 26 36 27 36 28 C 36 31 32 34 32 34 Z" fill="#7A9A63" opacity="0.5"/>
-                                                                </svg>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="center">
-                                                                <p style="color: #2F3E2A; font-size: 13px; font-weight: 600; line-height: 1.4; margin: 0;">Unions & membership<br>organizations</p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    
-                    <!-- GROWTH BENEFITS -->
-                    <tr>
-                        <td style="background: #FFFFFF; padding: 56px 32px;" class="mobile-padding">
-                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                <tr>
-                                    <td align="center" style="padding-bottom: 40px;">
-                                        <h2 style="color: #2F3E2A; font-size: 26px; font-weight: 700; margin: 0; letter-spacing: -0.4px;" class="mobile-font-medium">Quiet technology, visible growth</h2>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                            <tr>
-                                                <td width="33%" style="padding: 0 10px 0 0; vertical-align: top;" class="grid-3-col">
-                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background: #FAF8F2; border-radius: 12px; padding: 28px 20px; position: relative;">
-                                                        <tr>
-                                                            <td>
-                                                                <div style="position: absolute; top: 16px; right: 16px; width: 8px; height: 8px; border-radius: 50%; background: #7A9A63; opacity: 0.4;"></div>
-                                                                <h3 style="color: #2F3E2A; font-size: 16px; font-weight: 700; margin: 0 0 12px 0;">Increase revenue</h3>
-                                                                <p style="color: #4F644D; font-size: 13px; line-height: 1.5; margin: 0;">Unlock new payment streams and revenue opportunities with integrated financial services built into your workflow.</p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                                
-                                                <td width="33%" style="padding: 0 10px; vertical-align: top;" class="grid-3-col">
-                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background: #FAF8F2; border-radius: 12px; padding: 28px 20px; position: relative;">
-                                                        <tr>
-                                                            <td>
-                                                                <div style="position: absolute; top: 16px; right: 16px; width: 8px; height: 8px; border-radius: 50%; background: #4F644D; opacity: 0.4;"></div>
-                                                                <h3 style="color: #2F3E2A; font-size: 16px; font-weight: 700; margin: 0 0 12px 0;">Simplify operations</h3>
-                                                                <p style="color: #4F644D; font-size: 13px; line-height: 1.5; margin: 0;">Replace disconnected systems with one unified platform that handles software, payments, and automation seamlessly.</p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                                
-                                                <td width="33%" style="padding: 0 0 0 10px; vertical-align: top;" class="grid-3-col">
-                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background: #FAF8F2; border-radius: 12px; padding: 28px 20px; position: relative;">
-                                                        <tr>
-                                                            <td>
-                                                                <div style="position: absolute; top: 16px; right: 16px; width: 8px; height: 8px; border-radius: 50%; background: #2F3E2A; opacity: 0.4;"></div>
-                                                                <h3 style="color: #2F3E2A; font-size: 16px; font-weight: 700; margin: 0 0 12px 0;">Scale with confidence</h3>
-                                                                <p style="color: #4F644D; font-size: 13px; line-height: 1.5; margin: 0;">Grow your business on enterprise-grade infrastructure designed for reliability, security, and performance.</p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    
-                    <!-- PARTNERS SECTION -->
-                    <tr>
-                        <td style="background: linear-gradient(135deg, #2F3E2A 0%, #4F644D 100%); padding: 56px 32px;" class="mobile-padding">
-                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                <tr>
-                                    <td>
-                                        <h2 style="color: #FAF8F2; font-size: 24px; font-weight: 700; margin: 0 0 20px 0; letter-spacing: -0.4px;" class="mobile-font-medium">A partner platform for vertical software and consultants</h2>
-                                        
-                                        <p style="color: #E6EFE7; font-size: 14px; line-height: 1.6; margin: 0 0 16px 0;">We work alongside industry specialists, independent software vendors, and technology consultants to deliver complete solutions.</p>
-                                        
-                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: 16px 0 24px 0;">
-                                            <tr>
-                                                <td style="padding: 0 0 12px 20px; position: relative; color: #E6EFE7; font-size: 14px; line-height: 1.6;">
-                                                    <span style="position: absolute; left: 0; color: #7A9A63;">•</span>
-                                                    White-label payment solutions integrated with your software
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td style="padding: 0 0 12px 20px; position: relative; color: #E6EFE7; font-size: 14px; line-height: 1.6;">
-                                                    <span style="position: absolute; left: 0; color: #7A9A63;">•</span>
-                                                    Revenue sharing programs for qualified partners
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td style="padding: 0 0 0 20px; position: relative; color: #E6EFE7; font-size: 14px; line-height: 1.6;">
-                                                    <span style="position: absolute; left: 0; color: #7A9A63;">•</span>
-                                                    Technical support and co-development opportunities
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="padding-top: 32px;">
-                                        <!-- Partners Illustration -->
-                                        <svg viewBox="0 0 320 240" style="width: 100%; height: auto; display: block;">
-                                            <circle cx="160" cy="120" r="100" fill="#E6EFE7" opacity="0.15"/>
-                                            
-                                            <!-- LEFT BLOCK (ANIMATED) -->
-                                            <g class="float-partner-left">
-                                                <rect x="40" y="60" width="100" height="120" rx="12" fill="#FAF8F2" opacity="0.95"/>
-                                                <rect x="52" y="76" width="50" height="8" rx="4" fill="#4F644D" opacity="0.3"/>
-                                                <rect x="52" y="92" width="76" height="6" rx="3" fill="#7A9A63" opacity="0.4"/>
-                                                <rect x="52" y="104" width="70" height="6" rx="3" fill="#7A9A63" opacity="0.3"/>
-                                                <rect x="52" y="116" width="76" height="6" rx="3" fill="#7A9A63" opacity="0.3"/>
-                                                <rect x="52" y="136" width="12" height="28" rx="2" fill="#7A9A63" opacity="0.5"/>
-                                                <rect x="68" y="146" width="12" height="18" rx="2" fill="#7A9A63" opacity="0.4"/>
-                                                <rect x="84" y="140" width="12" height="24" rx="2" fill="#7A9A63" opacity="0.5"/>
-                                                <rect x="100" y="150" width="12" height="14" rx="2" fill="#7A9A63" opacity="0.4"/>
-                                            </g>
-                                            
-                                            <!-- RIGHT BLOCK (ANIMATED) -->
-                                            <g class="float-partner-right">
-                                                <rect x="180" y="60" width="100" height="120" rx="12" fill="#FAF8F2" opacity="0.95"/>
-                                                <rect x="192" y="76" width="50" height="8" rx="4" fill="#4F644D" opacity="0.3"/>
-                                                <rect x="192" y="92" width="76" height="6" rx="3" fill="#7A9A63" opacity="0.4"/>
-                                                <rect x="192" y="104" width="65" height="6" rx="3" fill="#7A9A63" opacity="0.3"/>
-                                                <circle cx="210" cy="135" r="8" fill="#E6EFE7"/>
-                                                <circle cx="210" cy="135" r="5" fill="#7A9A63" opacity="0.5"/>
-                                                <circle cx="240" cy="135" r="8" fill="#E6EFE7"/>
-                                                <circle cx="240" cy="135" r="5" fill="#7A9A63" opacity="0.5"/>
-                                                <circle cx="225" cy="155" r="8" fill="#E6EFE7"/>
-                                                <circle cx="225" cy="155" r="5" fill="#4F644D" opacity="0.5"/>
-                                                <line x1="215" y1="137" x2="235" y2="137" stroke="#7A9A63" stroke-width="2" opacity="0.4"/>
-                                                <line x1="213" y1="140" x2="222" y2="150" stroke="#7A9A63" stroke-width="2" opacity="0.4"/>
-                                                <line x1="228" y1="150" x2="237" y2="140" stroke="#7A9A63" stroke-width="2" opacity="0.4"/>
-                                            </g>
-                                            
-                                            <!-- CENTRAL CIRCLES / CONNECTOR (ANIMATED MAIN) -->
-                                            <g class="float-partner-main">
-                                                <circle cx="130" cy="100" r="24" fill="#E6EFE7" opacity="0.9"/>
-                                                <circle cx="130" cy="100" r="16" fill="#7A9A63" opacity="0.3"/>
-                                                <circle cx="124" cy="94" r="6" fill="#FAF8F2"/>
-                                                <circle cx="136" cy="106" r="6" fill="#FAF8F2"/>
-                                            
-                                                <circle cx="160" cy="100" r="24" fill="#E6EFE7" opacity="0.9"/>
-                                                <circle cx="160" cy="100" r="16" fill="#4F644D" opacity="0.3"/>
-                                                <circle cx="154" cy="94" r="6" fill="#FAF8F2"/>
-                                                <circle cx="166" cy="106" r="6" fill="#FAF8F2"/>
-                                            
-                                                <circle cx="145" cy="100" r="14" fill="#E6EFE7" opacity="0.6"/>
-                                            
-                                                <path d="M 90 120 L 145 120" stroke="#E6EFE7" stroke-width="2" stroke-dasharray="4 4" opacity="0.4"/>
-                                                <path d="M 230 120 L 175 120" stroke="#E6EFE7" stroke-width="2" stroke-dasharray="4 4" opacity="0.4"/>
-                                            </g>
-                                        </svg>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    
-                    <!-- FINAL CTA -->
-                    <tr>
-                        <td style="background: linear-gradient(135deg, #7A9A63 0%, #4F644D 100%); padding: 48px 32px; text-align: center;" class="mobile-padding">
-                            <h2 style="color: #FAF8F2; font-size: 24px; font-weight: 700; margin: 0 0 12px 0; letter-spacing: -0.4px;" class="mobile-font-medium">Ready to simplify your operations?</h2>
-                            
-                            <p style="color: #E6EFE7; font-size: 14px; line-height: 1.5; margin: 0 auto 28px auto; max-width: 460px;">See how Convenient Brands can help your business run smoother with integrated software and payments. Schedule a brief conversation with our team.</p>
-                            
-                            <a href="#" style="display: inline-block; background: #FFFFFF; color: #2F3E2A; padding: 14px 32px; border-radius: 100px; text-decoration: none; font-size: 14px; font-weight: 700;">Book a short demo</a>
-                            
-                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin-top: 32px; padding-top: 24px; border-top: 1px solid rgba(250, 248, 242, 0.2);">
-                                <tr>
-                                    <td align="center">
-                                        <p style="color: #E6EFE7; font-size: 12px; margin: 0; opacity: 0.7;">© 2025 Convenient Brands. All rights reserved.</p>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    
-                </table>
-                
-            </td>
-        </tr>
-    </table>
-    
+<!-- Hero Section -->
+<section class="hero-section">
+  <div style="position:absolute;bottom:0;left:0;width:24rem;height:24rem;background:#E6EFE7;border-radius:100%;opacity:0.3;filter:blur(96px);"></div>
+  <div class="section-container">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <h1 class="hero-title">Meet Convenient Brands</h1>
+        <p class="hero-description">Vertical software and integrated payments helping essential industries run smoothly.</p>
+        <p class="hero-description-long">We connect software and payments across auto dealerships, government services, property management, healthcare facilities, and union organizations. One calm platform for complex operations, designed to help you focus on what matters most.</p>
+        <a href="#" class="hero-button">Learn more about the platform</a>
+      </div>
+      <div class="hero-image-wrapper">
+        <div class="hero-image-container">
+          <div class="hero-blob-shadow">
+            <div class="hero-blob-shape"></div>
+          </div>
+          <div style="position:relative;">
+            <div class="hero-image-main">
+              <img src="https://images.unsplash.com/photo-1758518731457-5ef826b75b3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMHRlYW0lMjBjb2xsYWJvcmF0aW9ufGVufDF8fHx8MTc2MzA2OTg4OHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Professional team collaboration">
+              <div class="glass-overlay-1"></div>
+              <div class="glass-overlay-2"></div>
+            </div>
+            <div class="hero-bg-shape"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Platform Features -->
+<section class="features-section">
+  <div style="position:absolute;top:0;right:0;width:24rem;height:24rem;background:#7A9A63;border-radius:100%;opacity:0.1;filter:blur(96px);"></div>
+  <div class="section-container-md">
+    <div class="text-center mb-14">
+      <h2 style="color:#FAF8F2;margin-bottom:0.75rem;">A calm, connected platform for complex operations</h2>
+      <p style="color:#E6EFE7;opacity:0.9;">Vertical software, payments, and automation working together seamlessly</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="80" height="80" viewBox="0 0 80 80" style="margin:0 auto;display:block;">
+            <rect x="18" y="12" width="44" height="32" rx="6" fill="#E6EFE7"/>
+            <rect x="18" y="12" width="44" height="32" rx="6" fill="#7A9A63" opacity="0.3"/>
+            <rect x="14" y="26" width="44" height="32" rx="6" fill="#F5F3EC"/>
+            <rect x="18" y="36" width="44" height="32" rx="6" fill="#FFFFFF"/>
+            <rect x="24" y="44" width="24" height="5" rx="2.5" fill="#2F3E2A" opacity="0.4"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">Vertical Software</h3>
+        <p class="feature-description">Purpose-built tools designed for your industry's unique workflows and requirements.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="80" height="80" viewBox="0 0 80 80" style="margin:0 auto;display:block;">
+            <rect x="16" y="28" width="48" height="32" rx="6" fill="#FFFFFF"/>
+            <rect x="24" y="38" width="12" height="10" rx="2" fill="#7A9A63" opacity="0.6"/>
+            <rect x="26" y="40" width="8" height="6" rx="1" fill="#E6EFE7"/>
+            <circle cx="72" cy="54" r="3" fill="#E6EFE7"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">Integrated Payments</h3>
+        <p class="feature-description">Seamless payment processing built directly into your software, no extra steps needed.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="80" height="80" viewBox="0 0 80 80" style="margin:0 auto;display:block;">
+            <circle cx="40" cy="40" r="16" fill="#FFFFFF"/>
+            <circle cx="40" cy="40" r="7" fill="#E6EFE7"/>
+            <circle cx="40" cy="40" r="4" fill="#4F644D" opacity="0.3"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">Smart Automation</h3>
+        <p class="feature-description">Intelligent workflows that handle routine tasks so your team can focus on growth.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Circular Blob Image -->
+<section class="blob-image-section">
+  <div style="position:absolute;top:50%;left:33%;width:24rem;height:24rem;background:#7A9A63;border-radius:100%;opacity:0.08;filter:blur(96px);"></div>
+  <div class="section-container-sm">
+    <div class="blob-container">
+      <div class="blob-shadow">
+        <div class="blob-shadow-inner"></div>
+      </div>
+      <div style="position:relative;">
+        <div class="blob-main">
+          <img src="https://images.unsplash.com/photo-1759850426415-8888ea55b07b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBjaXR5JTIwc2t5bGluZXxlbnwxfHx8fDE3NjMwNDU2NTl8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Modern city skyline" style="width:100%;height:100%;object-fit:cover;">
+          <div class="gradient-overlay"></div>
+        </div>
+        <div class="blob-bg"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Industries Grid -->
+<section class="industries-section">
+  <div style="position:absolute;bottom:0;left:50%;width:24rem;height:24rem;background:#7A9A63;border-radius:100%;opacity:0.05;filter:blur(96px);"></div>
+  <div class="section-container-md">
+    <div class="text-center mb-14">
+      <h2 style="color:#2F3E2A;margin-bottom:0.75rem;">Built for industries that never stand still</h2>
+      <p style="color:#4F644D;">Supporting essential services and the communities that depend on them</p>
+    </div>
+    <div class="industries-grid">
+      <div class="industry-card">
+        <div class="industry-icon">
+          <svg width="64" height="64" viewBox="0 0 64 64" style="margin:0 auto;display:block;">
+            <path d="M 12 34 L 16 26 L 22 24 L 42 24 L 48 26 L 52 34 L 52 42 C 52 43 51 44 50 44 L 14 44 C 13 44 12 43 12 42 Z" fill="#4F644D" opacity="0.8"/>
+            <circle cx="20" cy="42" r="5" fill="#2F3E2A" opacity="0.6"/>
+            <circle cx="20" cy="42" r="3" fill="#F5F3EC"/>
+            <circle cx="44" cy="42" r="5" fill="#2F3E2A" opacity="0.6"/>
+            <circle cx="44" cy="42" r="3" fill="#F5F3EC"/>
+          </svg>
+        </div>
+        <p class="industry-text">Auto dealerships &<br/>repair shops</p>
+      </div>
+      <div class="industry-card">
+        <div class="industry-icon">
+          <svg width="64" height="64" viewBox="0 0 64 64" style="margin:0 auto;display:block;">
+            <path d="M 14 32 L 18 24 L 24 22 L 42 22 L 48 24 L 52 32 L 52 40 C 52 41 51 42 50 42 L 16 42 C 15 42 14 41 14 40 Z" fill="#4F644D" opacity="0.8"/>
+            <circle cx="22" cy="40" r="5" fill="#2F3E2A" opacity="0.6"/>
+            <circle cx="22" cy="40" r="3" fill="#F5F3EC"/>
+            <circle cx="46" cy="40" r="5" fill="#2F3E2A" opacity="0.6"/>
+            <circle cx="46" cy="40" r="3" fill="#F5F3EC"/>
+          </svg>
+        </div>
+        <p class="industry-text">Collision & auto<br/>aftermarket</p>
+      </div>
+      <div class="industry-card">
+        <div class="industry-icon">
+          <svg width="64" height="64" viewBox="0 0 64 64" style="margin:0 auto;display:block;">
+            <rect x="16" y="44" width="32" height="4" rx="2" fill="#2F3E2A" opacity="0.5"/>
+            <path d="M 14 28 L 32 18 L 50 28 L 46 28 L 32 22 L 18 28 Z" fill="#4F644D" opacity="0.8"/>
+            <rect x="20" y="28" width="5" height="16" rx="2.5" fill="#4F644D" opacity="0.7"/>
+          </svg>
+        </div>
+        <p class="industry-text">Government &<br/>municipalities</p>
+      </div>
+      <div class="industry-card">
+        <div class="industry-icon">
+          <svg width="64" height="64" viewBox="0 0 64 64" style="margin:0 auto;display:block;">
+            <rect x="20" y="24" width="24" height="24" rx="3" fill="#4F644D" opacity="0.8"/>
+            <rect x="24" y="28" width="5" height="5" rx="1" fill="#E6EFE7" opacity="0.6"/>
+            <rect x="29" y="41" width="6" height="7" rx="1" fill="#2F3E2A" opacity="0.5"/>
+          </svg>
+        </div>
+        <p class="industry-text">Property<br/>management</p>
+      </div>
+      <div class="industry-card">
+        <div class="industry-icon">
+          <svg width="64" height="64" viewBox="0 0 64 64" style="margin:0 auto;display:block;">
+            <path d="M 32 46 C 32 46 16 36 16 26 C 16 20 20 16 24 16 C 28 16 30 18 32 22 C 34 18 36 16 40 16 C 44 16 48 20 48 26 C 48 36 32 46 32 46 Z" fill="#4F644D" opacity="0.8"/>
+            <rect x="30" y="24" width="4" height="12" rx="1" fill="#FAF8F2"/>
+            <rect x="26" y="28" width="12" height="4" rx="1" fill="#FAF8F2"/>
+          </svg>
+        </div>
+        <p class="industry-text">Healthcare &<br/>non-profits</p>
+      </div>
+      <div class="industry-card">
+        <div class="industry-icon">
+          <svg width="64" height="64" viewBox="0 0 64 64" style="margin:0 auto;display:block;">
+            <circle cx="32" cy="18" r="4" fill="#4F644D" opacity="0.7"/>
+            <circle cx="44" cy="28" r="4" fill="#4F644D" opacity="0.7"/>
+            <circle cx="40" cy="42" r="4" fill="#7A9A63" opacity="0.7"/>
+            <circle cx="24" cy="42" r="4" fill="#7A9A63" opacity="0.7"/>
+            <circle cx="20" cy="28" r="4" fill="#4F644D" opacity="0.7"/>
+          </svg>
+        </div>
+        <p class="industry-text">Unions & membership<br/>organizations</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Vertical Curve Image -->
+<section class="curve-image-section">
+  <div style="position:absolute;bottom:0;right:25%;width:24rem;height:24rem;background:#7A9A63;border-radius:100%;opacity:0.1;filter:blur(96px);"></div>
+  <div class="section-container-sm">
+    <div class="curve-container">
+      <div class="curve-shadow">
+        <div class="curve-shadow-inner"></div>
+      </div>
+      <div style="position:relative;">
+        <div class="curve-main">
+          <img src="https://images.unsplash.com/photo-1745847768380-2caeadbb3b71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGhhbmRzaGFrZSUyMHBhcnRuZXJzaGlwfGVufDF8fHx8MTc2MzAxMTM0MHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Business partnership" style="width:100%;height:100%;object-fit:cover;">
+          <div class="gradient-overlay-dark"></div>
+        </div>
+        <div class="curve-bg"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Growth Benefits -->
+<section class="benefits-section">
+  <div style="position:absolute;top:33%;left:0;width:24rem;height:24rem;background:#7A9A63;border-radius:100%;opacity:0.1;filter:blur(96px);"></div>
+  <div class="section-container-md">
+    <div class="text-center mb-14">
+      <h2 style="color:#FAF8F2;">Quiet technology, visible growth</h2>
+    </div>
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <div class="benefit-dot" style="background:#7A9A63;"></div>
+        <h3 class="benefit-title">Increase revenue</h3>
+        <p class="benefit-description">Unlock new payment streams and revenue opportunities with integrated financial services built into your workflow.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-dot" style="background:#E6EFE7;"></div>
+        <h3 class="benefit-title">Simplify operations</h3>
+        <p class="benefit-description">Replace disconnected systems with one unified platform that handles software, payments, and automation seamlessly.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-dot" style="background:#FAF8F2;"></div>
+        <h3 class="benefit-title">Scale with confidence</h3>
+        <p class="benefit-description">Grow your business on enterprise-grade infrastructure designed for reliability, security, and performance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Soft Rectangle Image -->
+<section class="rectangle-section">
+  <div style="position:absolute;top:0;right:0;width:24rem;height:24rem;background:#7A9A63;border-radius:100%;opacity:0.08;filter:blur(96px);"></div>
+  <div class="section-container" style="max-width:80rem;">
+    <div class="rectangle-container">
+      <div class="rectangle-shadow">
+        <div class="rectangle-shadow-inner"></div>
+      </div>
+      <div style="position:relative;">
+        <div class="rectangle-main">
+          <img src="https://framerusercontent.com/images/c68bc918ec30fa04f8df27dfe19d126f3fc9f17d.png" alt="Abstract asphalt composition" style="width:100%;height:100%;object-fit:cover;">
+          <div class="gradient-overlay"></div>
+          <div class="rectangle-accent"></div>
+        </div>
+        <div class="rectangle-bg"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Partners -->
+<section class="partners-section">
+  <div style="position:absolute;top:0;right:33%;width:24rem;height:24rem;background:#E6EFE7;border-radius:100%;opacity:0.2;filter:blur(96px);"></div>
+  <div class="section-container-md">
+    <div class="text-center mb-10">
+      <h2 style="color:#2F3E2A;margin-bottom:0.75rem;">Trusted partners & clients</h2>
+      <p style="color:#4F644D;">Powering innovation across the industry</p>
+    </div>
+    <div class="partners-grid">
+      <a href="https://www.convenient-brands.com/mainstreet" class="partner-card" target="_blank" rel="noopener noreferrer">
+        <div class="partner-name">Mainstreet</div>
+      </a>
+      <a href="https://www.convenient-brands.com/digital-business-controls" class="partner-card" target="_blank" rel="noopener noreferrer">
+        <div class="partner-name">Digital Business Controls</div>
+      </a>
+      <a href="https://www.convenient-brands.com/rome" class="partner-card" target="_blank" rel="noopener noreferrer">
+        <div class="partner-name">ROME</div>
+      </a>
+      <a href="https://www.convenient-brands.com/imex-systems" class="partner-card" target="_blank" rel="noopener noreferrer">
+        <div class="partner-name">ImEX Systems Inc.</div>
+      </a>
+    </div>
+    <div class="dots-nav">
+      <button class="dot active" aria-label="Slide 1"></button>
+      <button class="dot" aria-label="Slide 2"></button>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+  <div style="position:absolute;top:0;left:0;width:24rem;height:24rem;background:#2F3E2A;border-radius:100%;opacity:0.1;filter:blur(96px);"></div>
+  <div style="position:absolute;bottom:0;right:0;width:20rem;height:20rem;background:#E6EFE7;border-radius:100%;opacity:0.1;filter:blur(96px);"></div>
+  <div class="section-container-md">
+    <div class="text-center mb-10">
+      <h2 style="color:#FAF8F2;margin-bottom:0.75rem;">Transform your operations today</h2>
+      <p style="color:#E6EFE7;opacity:0.9;">Join industry leaders who trust Convenient Brands</p>
+    </div>
+    <div class="cta-grid">
+      <div class="cta-card">
+        <div class="cta-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32">
+            <circle cx="16" cy="16" r="12" fill="#4F644D" opacity="0.9"/>
+            <path d="M 12 16 L 15 19 L 20 13" stroke="#FAF8F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">Seamless Integration</h3>
+        <p class="feature-description">Quick setup with minimal disruption to your workflow</p>
+      </div>
+      <div class="cta-card">
+        <div class="cta-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32">
+            <rect x="8" y="8" width="16" height="16" rx="4" fill="#4F644D" opacity="0.9"/>
+            <rect x="12" y="12" width="8" height="8" rx="2" fill="#FAF8F2"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">24/7 Support</h3>
+        <p class="feature-description">Dedicated team ready to help whenever you need us</p>
+      </div>
+      <div class="cta-card">
+        <div class="cta-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32">
+            <circle cx="16" cy="16" r="10" fill="#4F644D" opacity="0.9"/>
+            <path d="M 16 10 L 16 16 L 20 18" stroke="#FAF8F2" stroke-width="2" stroke-linecap="round" fill="none"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">Proven Results</h3>
+        <p class="feature-description">Measurable growth and efficiency for your business</p>
+      </div>
+    </div>
+    <div class="text-center">
+      <a href="#" class="cta-button">Get started now</a>
+    </div>
+  </div>
+</section>
+
+<!-- Partners Info -->
+<section class="info-section">
+  <div style="position:absolute;bottom:0;right:0;width:24rem;height:24rem;background:#7A9A63;border-radius:100%;opacity:0.08;filter:blur(96px);"></div>
+  <div class="section-container-sm">
+    <h2 class="info-title">A partner platform for vertical software and consultants</h2>
+    <p class="info-description">We work alongside industry specialists, independent software vendors, and technology consultants to deliver complete solutions.</p>
+    <ul class="info-list">
+      <li><span class="info-bullet">•</span><span>White-label payment solutions integrated with your software</span></li>
+      <li><span class="info-bullet">•</span><span>Revenue sharing programs for qualified partners</span></li>
+      <li><span class="info-bullet">•</span><span>Technical support and co-development opportunities</span></li>
+    </ul>
+    <div style="margin-top:2rem;">
+      <svg viewBox="0 0 320 240" style="width:100%;height:auto;display:block;">
+        <rect x="40" y="60" width="100" height="120" rx="12" fill="#FFFFFF" opacity="0.95"/>
+        <rect x="52" y="76" width="50" height="8" rx="4" fill="#4F644D" opacity="0.4"/>
+        <rect x="52" y="92" width="76" height="6" rx="3" fill="#7A9A63" opacity="0.5"/>
+        <rect x="180" y="60" width="100" height="120" rx="12" fill="#FFFFFF" opacity="0.95"/>
+        <rect x="192" y="76" width="50" height="8" rx="4" fill="#4F644D" opacity="0.4"/>
+        <path d="M 90 120 L 145 120" stroke="#7A9A63" stroke-width="2" stroke-dasharray="4 4" opacity="0.5"/>
+        <path d="M 230 120 L 175 120" stroke="#7A9A63" stroke-width="2" stroke-dasharray="4 4" opacity="0.5"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="section-container-md">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo-section">
+          <svg width="32" height="32" viewBox="0 0 32 32">
+            <rect x="4" y="4" width="24" height="24" rx="6" fill="#7A9A63" opacity="0.9"/>
+            <rect x="8" y="8" width="16" height="16" rx="4" fill="#7A9A63"/>
+            <circle cx="16" cy="16" r="4" fill="#FAF8F2"/>
+          </svg>
+          <span class="footer-logo-text">Convenient Brands</span>
+        </div>
+        <p class="footer-description">Vertical software and integrated payments for modern industries.</p>
+      </div>
+      <div>
+        <h3 class="footer-title">Contact Us</h3>
+        <div class="footer-contacts">
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7A9A63" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+            <div>205 Wolfpit Ave, Unit 2<br/>Norwalk, CT 06851, USA</div>
+          </div>
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7A9A63" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="20" height="16" x="2" y="4" rx="2"/>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+            </svg>
+            <a href="mailto:info@convenient-brands.com">info@convenient-brands.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7A9A63" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+              <path d="M2 12h20"/>
+            </svg>
+            <a href="https://convenient-brands.com" target="_blank" rel="noopener noreferrer">convenient-brands.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-bottom">
+      <p class="footer-copyright">© 2025 Convenient Brands. All rights reserved.</p>
+      <div class="footer-social">
+        <a href="mailto:info@convenient-brands.com" class="social-icon" aria-label="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect width="20" height="16" x="2" y="4" rx="2"/>
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+          </svg>
+        </a>
+        <a href="https://convenient-brands.com" class="social-icon" aria-label="Website" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+            <path d="M2 12h20"/>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/company/convenient-brands" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+            <rect width="4" height="12" x="2" y="9"/>
+            <circle cx="4" cy="4" r="2"/>
+          </svg>
+        </a>
+      </div>
+      <div class="footer-links">
+        <a href="#" class="footer-link">Privacy Policy</a>
+        <a href="#" class="footer-link">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>

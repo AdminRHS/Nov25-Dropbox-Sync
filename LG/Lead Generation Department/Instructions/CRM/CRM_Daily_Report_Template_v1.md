@@ -12,3 +12,5 @@ Country: The country you’re currently working with
 Created: Number of company cards you created  
 Sent Request: Number of connection requests you sent to leads  
 Connected: Number of leads that accepted your connection requests  
+Replies: Number of replies you received, both negative or positive
+AI Tools: List of AI Tools you use for work

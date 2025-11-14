@@ -1,5 +1,499 @@
 # Changelog - 2025-11-14
 
+**Sync Date:** 2025-11-14 12:50:50 UTC
+**Total Changes:** 173 files
+
+## Summary
+
+- **Added:** 78 files
+- **Modified:** 13 files
+- **Deleted:** 82 files
+
+## Changes by Department
+
+### "Design
+
+**Total changes:** 5 files
+
+#### Shymkevych Iryna
+
+**Deleted (5 files):**
+- `employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07).html"`
+- `daily (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-06).md"`
+- `daily (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-06).md"`
+- `employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07 1).html"`
+- `employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07 1).html"`
+
+
+### "LG
+
+**Total changes:** 1 files
+
+#### Lead Generation Department
+
+**Deleted (1 files):**
+- `Copy of PROMPT for LG custom projects - September 26, 3_21\342\200\257PM.md"`
+
+
+### "Video
+
+**Total changes:** 44 files
+
+#### Azanova Dar\312\274ya
+
+**Deleted (44 files):**
+- `Profile Video Editor Azanova Dar\312\274ya.md"`
+- `plans.md"`
+- `task.md"`
+- `plans.md"`
+- `task.md"`
+- `daily.md"`
+- `daily.md"`
+- `README.md"`
+- `task.md"`
+- `daily.md"`
+- `plans.md"`
+- `task.md"`
+- `plans.md"`
+- `plans.md"`
+- `daily.md"`
+- `daily.md"`
+- `daily.md"`
+- `task.md"`
+- `daily.md"`
+- `daily.md"`
+- `plans.md"`
+- `task.md"`
+- `task.md"`
+- `plans.md"`
+- `daily.md"`
+- `task.md"`
+- `plans.md"`
+- `plans.md"`
+- `plans.md"`
+- `task.md"`
+- `task.md"`
+- `plans.md"`
+- `plans.md"`
+- `daily.md"`
+- `task.md"`
+- `task.md"`
+- `daily.md"`
+- `task.md"`
+- `plans.md"`
+- `daily.md"`
+- `daily.md"`
+- `task.md"`
+- `plans.md"`
+- `daily.md"`
+
+
+### Design
+
+**Total changes:** 16 files
+
+#### Chobotar Yuliia
+
+**Added (3 files):**
+- `task.md` → `14/task.md` (3.46 KB, modified: 2025-11-14T12:02:00, by: Dropbox User)
+- `daily.md` → `14/daily.md` (5.31 KB, modified: 2025-11-14T12:02:01, by: Dropbox User)
+- `plans.md` → `14/plans.md` (3.41 KB, modified: 2025-11-14T12:02:01, by: Dropbox User)
+
+#### Design prompt log.md
+
+**Modified (1 files):**
+- `Design prompt log.md` (27.45 KB, rev: 016438b5..., modified: 2025-11-14T10:19:57, by: Dropbox User)
+
+#### Hlushko Mariia
+
+**Added (2 files):**
+- `task_review.md` → `14/task_review.md` (0 bytes, modified: 2025-11-14T11:26:25, by: Dropbox User)
+- `14.11.2025.md` → `14/14.11.2025.md` (0 bytes, modified: 2025-11-14T12:04:14, by: Dropbox User)
+
+#### Kucherenko Iuliia
+
+**Modified (3 files):**
+- `daily.md` → `14/daily.md` (6.87 KB, rev: 016438b5..., modified: 2025-11-14T10:19:09, by: Dropbox User)
+- `plans.md` → `14/plans.md` (4.80 KB, rev: 016438b5..., modified: 2025-11-14T10:19:18, by: Dropbox User)
+- `task.md` → `14/task.md` (10.74 KB, rev: 016438b5..., modified: 2025-11-14T10:19:37, by: Dropbox User)
+
+#### Safonova Eleonora
+
+**Added (3 files):**
+- `daily.md` → `14/daily.md` (1.95 KB, modified: 2025-11-14T12:12:07, by: Dropbox User)
+- `plans.md` → `14/plans.md` (9.98 KB, modified: 2025-11-14T12:12:07, by: Dropbox User)
+- `task.md` → `14/task.md` (41.42 KB, modified: 2025-11-14T12:12:07, by: Dropbox User)
+
+**Modified (1 files):**
+- `index.html` → `Safonova Eleonora/email task1/index.html` (51.83 KB, rev: 016438d0..., modified: 2025-11-14T12:21:06, by: Dropbox User)
+
+#### Shymkevych Iryna
+
+**Added (2 files):**
+- `daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md` → `Week_1/06/daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md` (13.51 KB, modified: 2025-11-06T16:13:37, by: Dropbox User)
+- `employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html` → `Week_1/05/employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html` (24.40 KB, modified: 2025-11-07T14:02:58, by: Dropbox User)
+
+**Modified (1 files):**
+- `newsletter.html` → `13/newsletter.html` (75.63 KB, rev: 016438d1..., modified: 2025-11-14T12:25:25, by: Dropbox User)
+
+
+### Dev
+
+**Total changes:** 4 files
+
+#### Artem Skichko
+
+**Modified (1 files):**
+- `daily.md` → `14/daily.md` (1.01 KB, rev: 016438c7..., modified: 2025-11-14T11:37:30, by: Dropbox User)
+
+#### Danylenko Liliia
+
+**Modified (1 files):**
+- `daily.md` → `14/daily.md` (2.50 KB, rev: 016438ab..., modified: 2025-11-14T09:33:33, by: Dropbox User)
+
+#### Kizilova Olha
+
+**Added (1 files):**
+- `daily.md` → `14/daily.md` (0 bytes, modified: 2025-11-07T10:20:44, by: Dropbox User)
+
+#### Klimenko Yaroslav
+
+**Added (1 files):**
+- `daily.md` → `14/daily.md` (475 bytes, modified: 2025-11-14T11:36:56, by: Dropbox User)
+
+
+### LG
+
+**Total changes:** 74 files
+
+#### Adesina Oluwamayomiposi Elizabeth
+
+**Modified (1 files):**
+- `plans.md` → `11/plans.md` (94 bytes, rev: 016438b7..., modified: 2025-11-11T08:32:05, by: Dropbox User)
+
+#### Bindiak Dana
+
+**Modified (1 files):**
+- `plans.md` → `14/plans.md` (3.56 KB, rev: 0164389d..., modified: 2025-11-14T08:33:59, by: Dropbox User)
+
+#### Burda Anna
+
+**Modified (1 files):**
+- `daily.md` → `14/daily.md` (2.61 KB, rev: 0164389f..., modified: 2025-11-14T08:39:56, by: Dropbox User)
+
+#### Lead Generation Department
+
+**Added (34 files):**
+- `Copy of PROMPT for LG custom projects - September 26, 3_21 PM.md` (13.11 KB, modified: 2025-11-11T14:12:23, by: Dropbox User)
+- `guide.create.masseges.md` → `Instructions/LinkedIn/Archived_2025-11-13/guide.create.masseges.md` (2.17 KB, modified: 2025-11-14T09:40:07, by: Dropbox User)
+- `lg-templates.new.md` → `Instructions/LinkedIn/Templates/lg-templates.new.md` (3.28 KB, modified: 2025-11-12T09:35:22, by: Dropbox User)
+- `templates.from.course.md` → `Instructions/LinkedIn/Templates/templates.from.course.md` (14.98 KB, modified: 2025-11-12T10:22:02, by: Dropbox User)
+- `LinkedIn_Message_Templates_v1.md` → `Instructions/LinkedIn/Templates/LinkedIn_Message_Templates_v1.md` (43.34 KB, modified: 2025-11-13T14:50:44, by: Dropbox User)
+- `InternalWorkflow_Meeting_Setup_v1.md` → `Instructions/InternalWorkflow/InternalWorkflow_Meeting_Setup_v1.md` (3.97 KB, modified: 2025-11-13T14:51:08, by: Dropbox User)
+- `InternalWorkflow_Rescheduling_Guide_v1.md` → `Instructions/InternalWorkflow/InternalWorkflow_Rescheduling_Guide_v1.md` (2.10 KB, modified: 2025-11-12T09:35:54, by: Dropbox User)
+- `GPT.message.creation.md` → `Instructions/LinkedIn/Archived_2025-11-13/GPT.message.creation.md` (2.47 KB, modified: 2025-11-12T08:34:54, by: Dropbox User)
+- `LinkedIn_Connection_Cleanup_v1.md` → `Instructions/LinkedIn/Archived_2025-11-13/LinkedIn_Connection_Cleanup_v1.md` (964 bytes, modified: 2025-11-13T15:29:50, by: Dropbox User)
+- `LinkedIn_CRM_Send_Email_Tab_v1.md` → `Instructions/LinkedIn/Archived_2025-11-13/LinkedIn_CRM_Send_Email_Tab_v1.md` (1,009 bytes, modified: 2025-11-12T09:42:39, by: Dropbox User)
+- `LinkedIn_SMS_Tutorial_v1.md` → `Instructions/LinkedIn/Archived_2025-11-13/LinkedIn_SMS_Tutorial_v1.md` (3.73 KB, modified: 2025-11-14T09:54:30, by: Dropbox User)
+- `LinkedIn_Connection_Request_Guide_v1.md` → `Instructions/LinkedIn/LinkedIn_Connection_Request_Guide_v1.md` (741 bytes, modified: 2025-11-14T10:06:30, by: Dropbox User)
+- `templates_old_examples.md` → `Instructions/LinkedIn/Templates/templates_old_examples.md` (11.68 KB, modified: 2025-11-12T10:19:55, by: Dropbox User)
+- `old_connections.md` → `Instructions/LinkedIn/Templates/old_connections.md` (1.57 KB, modified: 2025-11-14T10:31:02, by: Dropbox User)
+- `Fundamentals.md` → `Instructions/InternalWorkflow/Fundamentals.md` (1.59 KB, modified: 2025-11-13T09:48:15, by: Dropbox User)
+- `instructions.hire-lg.md` → `Instructions/InternalWorkflow/instructions.hire-lg.md` (1.22 KB, modified: 2025-11-12T08:43:33, by: Dropbox User)
+- `lg_department.md` → `Instructions/InternalWorkflow/lg_department.md` (7.70 KB, modified: 2025-11-12T10:27:11, by: Dropbox User)
+- `Ideal_Customer_Profile.md` → `Instructions/InternalWorkflow/Ideal_Customer_Profile.md` (1.51 KB, modified: 2025-11-13T09:48:15, by: Dropbox User)
+- `Responsibilities.md` → `Instructions/InternalWorkflow/Responsibilities.md` (1.17 KB, modified: 2025-11-13T09:48:15, by: Dropbox User)
+- `Connections.md` → `Instructions/LinkedIn/Connections.md` (2.46 KB, modified: 2025-11-13T09:48:15, by: Dropbox User)
+- `Strategies.md` → `Instructions/InternalWorkflow/Strategies.md` (1.42 KB, modified: 2025-11-13T09:48:15, by: Dropbox User)
+- `Target_Industries.md` → `Instructions/LinkedIn/Archived_2025-11-13/Target_Industries.md` (882 bytes, modified: 2025-11-13T09:48:15, by: Dropbox User)
+- `Onboarding_Process_v1.md` → `Instructions/Onboarding/Archived_2025-11-13/Onboarding_Process_v1.md` (5.49 KB, modified: 2025-11-13T11:11:58, by: Dropbox User)
+- `Scheduling_Google_Calendar.md` → `Instructions/LeadGen/Scheduling_Google_Calendar.md` (5.14 KB, modified: 2025-11-13T09:48:15, by: Dropbox User)
+- `meeting_29_10_strategies.md` → `Instructions/Content/meeting_29_10_strategies.md` (4.96 KB, modified: 2025-11-14T11:23:04, by: Dropbox User)
+- `onboarding_day4.md` → `Instructions/Onboarding/onboarding_day4.md` (7.59 KB, modified: 2025-11-14T11:24:44, by: Dropbox User)
+- `onboarding_day5.md` → `Instructions/Onboarding/onboarding_day5.md` (1.66 KB, modified: 2025-11-14T11:25:47, by: Dropbox User)
+- `onboarding_day3.md` → `Instructions/Onboarding/onboarding_day3.md` (42.64 KB, modified: 2025-11-14T11:26:01, by: Dropbox User)
+- `onboarding_day2.md` → `Instructions/Onboarding/onboarding_day2.md` (7.88 KB, modified: 2025-11-14T11:26:14, by: Dropbox User)
+- `onboarding_day1.md` → `Instructions/Onboarding/onboarding_day1.md` (11.29 KB, modified: 2025-11-14T11:26:28, by: Dropbox User)
+- `MAIN GOAL.md` → `Instructions/Content/MAIN GOAL.md` (17.88 KB, modified: 2025-11-14T11:27:43, by: Dropbox User)
+- `templates_draft.md` → `Instructions/LinkedIn/Templates/templates_draft.md` (4.42 KB, modified: 2025-11-14T11:30:06, by: Dropbox User)
+- `leadgen_tools.md` → `Instructions/Tools/leadgen_tools.md` (3.10 KB, modified: 2025-11-14T11:30:58, by: Dropbox User)
+- `Guide_for_Job Sites.md` → `Instructions/InternalWorkflow/Guide_for_Job Sites.md` (3.81 KB, modified: 2025-11-14T11:37:09, by: Dropbox User)
+
+**Modified (2 files):**
+- `CRM_Daily_Report_Template_v1.md` → `Instructions/CRM/CRM_Daily_Report_Template_v1.md` (876 bytes, rev: 016438a1..., modified: 2025-11-14T08:52:41, by: Dropbox User)
+- `Onboarding_Join_Channels_v1.md` → `Instructions/Onboarding/GeneralGuides/Onboarding_Join_Channels_v1.md` (2.60 KB, rev: 016438c1..., modified: 2025-11-14T11:12:38, by: Dropbox User)
+
+**Deleted (32 files):**
+- `lg-templates.new.md`
+- `LinkedIn_Templates_Reference_v1.md`
+- `InternalWorkflow_Overview_v1.md`
+- `LeadGen_Overview_v1.md`
+- `Ideal_Customer_Profile.md`
+- `LinkedIn_SMS_Tutorial_v1.md`
+- `Responsibilities.md`
+- `LinkedIn_Message_Templates_v1.md`
+- `LinkedIn_Stars_Feature_v1.md`
+- `Target_Industries.md`
+- `instructions.hire-lg.md`
+- `Onboarding_Cleanup_Summary_v1.md`
+- `LinkedIn_Connection_Request_Guide_v1.md`
+- `Tools_Overview_v1.md`
+- `Onboarding_Process_v1.md`
+- `LinkedIn_CRM_Send_Email_Tab_v1.md`
+- `LinkedIn_Connection_Cleanup_v1.md`
+- `Fundamentals.md`
+- `messages.gpt-version.md`
+- `LinkedIn_Overview_v1.md`
+- `InternalWorkflow_Rescheduling_Guide_v1.md`
+- `Scheduling_Google_Calendar.md`
+- `Connections.md`
+- `Onboarding_Overview_v1.md`
+- `Strategies.md`
+- `guide.masseges.md`
+- `Follow_Up_Sequences.md`
+- `lg_department.md`
+- `LinkedIn_Inbox_AI_Workflow_v1.md`
+- `templates.old-version.md`
+- `Content_Overview_v1.md`
+- `InternalWorkflow_Meeting_Setup_v1.md`
+
+#### Shkinder Kseniia
+
+**Added (3 files):**
+- `daily.md` → `14/daily.md` (15.14 KB, modified: 2025-11-14T08:36:40, by: Dropbox User)
+- `task.md` → `14/task.md` (1.29 KB, modified: 2025-11-14T08:43:37, by: Dropbox User)
+- `plans.md` → `14/plans.md` (1.75 KB, modified: 2025-11-14T08:43:37, by: Dropbox User)
+
+
+### Video
+
+**Total changes:** 29 files
+
+#### Azanova Darʼya
+
+**Added (29 files):**
+- `README.md` (1.58 KB, modified: 2025-10-23T15:13:48, by: Dropbox User)
+- `task.md` → `08/task.md` (0 bytes, modified: 2025-11-07T10:38:46, by: Dropbox User)
+- `plans.md` → `08/plans.md` (0 bytes, modified: 2025-11-07T10:38:46, by: Dropbox User)
+- `daily.md` → `08/daily.md` (0 bytes, modified: 2025-11-07T10:38:47, by: Dropbox User)
+- `Profile Video Editor Azanova Darʼya.md` (1.36 KB, modified: 2025-11-07T10:02:41, by: Dropbox User)
+- `daily.md` → `10/daily.md` (36.02 KB, modified: 2025-11-10T15:57:12, by: Dropbox User)
+- `plans.md` → `10/plans.md` (4.79 KB, modified: 2025-11-10T15:57:54, by: Dropbox User)
+- `task.md` → `10/task.md` (30.54 KB, modified: 2025-11-10T16:01:19, by: Dropbox User)
+- `daily.md` → `11/daily.md` (15.18 KB, modified: 2025-11-11T16:04:27, by: Dropbox User)
+- `plans.md` → `11/plans.md` (5.14 KB, modified: 2025-11-11T16:05:12, by: Dropbox User)
+- `task.md` → `11/task.md` (31.33 KB, modified: 2025-11-11T16:08:39, by: Dropbox User)
+- `daily.md` → `12/daily.md` (23.92 KB, modified: 2025-11-12T17:11:41, by: Dropbox User)
+- `plans.md` → `12/plans.md` (4.79 KB, modified: 2025-11-12T17:12:20, by: Dropbox User)
+- `task.md` → `12/task.md` (23.57 KB, modified: 2025-11-12T17:15:00, by: Dropbox User)
+- `plans.md` → `Week_1/04/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `Week_1/04/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `daily.md` → `Week_1/04/daily.md` (11.84 KB, modified: 2025-11-04T18:15:17, by: Dropbox User)
+- `daily.md` → `Week_1/05/daily.md` (59.02 KB, modified: 2025-11-05T18:00:45, by: Dropbox User)
+- `plans.md` → `Week_1/05/plans.md` (4.01 KB, modified: 2025-11-05T18:01:19, by: Dropbox User)
+- `task.md` → `Week_1/05/task.md` (14.98 KB, modified: 2025-11-05T18:02:50, by: Dropbox User)
+- `daily.md` → `Week_1/07/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `Week_1/07/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `Week_1/07/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `daily.md` → `Week_1/06/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `Week_1/06/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `Week_1/06/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `daily.md` → `Week_1/03/daily.md` (662 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `plans.md` → `Week_1/03/plans.md` (708 bytes, modified: 2025-11-03T15:32:02, by: Dropbox User)
+- `task.md` → `Week_1/03/task.md` (1.06 KB, modified: 2025-11-03T15:32:02, by: Dropbox User)
+
+
+## All Changes
+
+### Added Files
+
+- `Dev/Kizilova Olha/14/daily.md`
+- `Dev/Klimenko Yaroslav/14/daily.md`
+- `LG/Lead Generation Department/Copy of PROMPT for LG custom projects - September 26, 3_21 PM.md`
+- `Video/Azanova Darʼya/README.md`
+- `Video/Azanova Darʼya/08/task.md`
+- `Video/Azanova Darʼya/08/plans.md`
+- `Video/Azanova Darʼya/08/daily.md`
+- `Video/Azanova Darʼya/Profile Video Editor Azanova Darʼya.md`
+- `Video/Azanova Darʼya/10/daily.md`
+- `Video/Azanova Darʼya/10/plans.md`
+- `Video/Azanova Darʼya/10/task.md`
+- `Video/Azanova Darʼya/11/daily.md`
+- `Video/Azanova Darʼya/11/plans.md`
+- `Video/Azanova Darʼya/11/task.md`
+- `Video/Azanova Darʼya/12/daily.md`
+- `Video/Azanova Darʼya/12/plans.md`
+- `Video/Azanova Darʼya/12/task.md`
+- `Video/Azanova Darʼya/Week_1/04/plans.md`
+- `Video/Azanova Darʼya/Week_1/04/task.md`
+- `Video/Azanova Darʼya/Week_1/04/daily.md`
+- `Video/Azanova Darʼya/Week_1/05/daily.md`
+- `Video/Azanova Darʼya/Week_1/05/plans.md`
+- `Video/Azanova Darʼya/Week_1/05/task.md`
+- `Video/Azanova Darʼya/Week_1/07/daily.md`
+- `Video/Azanova Darʼya/Week_1/07/plans.md`
+- `Video/Azanova Darʼya/Week_1/07/task.md`
+- `Video/Azanova Darʼya/Week_1/06/daily.md`
+- `Video/Azanova Darʼya/Week_1/06/plans.md`
+- `Video/Azanova Darʼya/Week_1/06/task.md`
+- `Video/Azanova Darʼya/Week_1/03/daily.md`
+- `Video/Azanova Darʼya/Week_1/03/plans.md`
+- `Video/Azanova Darʼya/Week_1/03/task.md`
+- `Design/Shymkevych Iryna/Week_1/06/daily (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-06).md`
+- `Design/Shymkevych Iryna/Week_1/05/employeecard3 (Конфликтующая копия с компьютера Admin Remote Helpers 2025-11-07 1).html`
+- `LG/Shkinder Kseniia/14/daily.md`
+- `LG/Shkinder Kseniia/14/task.md`
+- `LG/Shkinder Kseniia/14/plans.md`
+- `LG/Lead Generation Department/Instructions/LinkedIn/Archived_2025-11-13/guide.create.masseges.md`
+- `LG/Lead Generation Department/Instructions/LinkedIn/Templates/lg-templates.new.md`
+- `LG/Lead Generation Department/Instructions/LinkedIn/Templates/templates.from.course.md`
+- `LG/Lead Generation Department/Instructions/LinkedIn/Templates/LinkedIn_Message_Templates_v1.md`
+- `LG/Lead Generation Department/Instructions/InternalWorkflow/InternalWorkflow_Meeting_Setup_v1.md`
+- `LG/Lead Generation Department/Instructions/InternalWorkflow/InternalWorkflow_Rescheduling_Guide_v1.md`
+- `LG/Lead Generation Department/Instructions/LinkedIn/Archived_2025-11-13/GPT.message.creation.md`
+- `LG/Lead Generation Department/Instructions/LinkedIn/Archived_2025-11-13/LinkedIn_Connection_Cleanup_v1.md`
+- `LG/Lead Generation Department/Instructions/LinkedIn/Archived_2025-11-13/LinkedIn_CRM_Send_Email_Tab_v1.md`
+- `LG/Lead Generation Department/Instructions/LinkedIn/Archived_2025-11-13/LinkedIn_SMS_Tutorial_v1.md`
+- `LG/Lead Generation Department/Instructions/LinkedIn/LinkedIn_Connection_Request_Guide_v1.md`
+- `LG/Lead Generation Department/Instructions/LinkedIn/Templates/templates_old_examples.md`
+- `LG/Lead Generation Department/Instructions/LinkedIn/Templates/old_connections.md`
+- `LG/Lead Generation Department/Instructions/InternalWorkflow/Fundamentals.md`
+- `LG/Lead Generation Department/Instructions/InternalWorkflow/instructions.hire-lg.md`
+- `LG/Lead Generation Department/Instructions/InternalWorkflow/lg_department.md`
+- `LG/Lead Generation Department/Instructions/InternalWorkflow/Ideal_Customer_Profile.md`
+- `LG/Lead Generation Department/Instructions/InternalWorkflow/Responsibilities.md`
+- `LG/Lead Generation Department/Instructions/LinkedIn/Connections.md`
+- `LG/Lead Generation Department/Instructions/InternalWorkflow/Strategies.md`
+- `LG/Lead Generation Department/Instructions/LinkedIn/Archived_2025-11-13/Target_Industries.md`
+- `LG/Lead Generation Department/Instructions/Onboarding/Archived_2025-11-13/Onboarding_Process_v1.md`
+- `LG/Lead Generation Department/Instructions/LeadGen/Scheduling_Google_Calendar.md`
+- `LG/Lead Generation Department/Instructions/Content/meeting_29_10_strategies.md`
+- `LG/Lead Generation Department/Instructions/Onboarding/onboarding_day4.md`
+- `LG/Lead Generation Department/Instructions/Onboarding/onboarding_day5.md`
+- `LG/Lead Generation Department/Instructions/Onboarding/onboarding_day3.md`
+- `LG/Lead Generation Department/Instructions/Onboarding/onboarding_day2.md`
+- `LG/Lead Generation Department/Instructions/Onboarding/onboarding_day1.md`
+- `LG/Lead Generation Department/Instructions/Content/MAIN GOAL.md`
+- `LG/Lead Generation Department/Instructions/LinkedIn/Templates/templates_draft.md`
+- `LG/Lead Generation Department/Instructions/Tools/leadgen_tools.md`
+- `LG/Lead Generation Department/Instructions/InternalWorkflow/Guide_for_Job Sites.md`
+- `Design/Chobotar Yuliia/14/task.md`
+- `Design/Chobotar Yuliia/14/daily.md`
+- `Design/Chobotar Yuliia/14/plans.md`
+- `Design/Hlushko Mariia/14/task_review.md`
+- `Design/Hlushko Mariia/14/14.11.2025.md`
+- `Design/Safonova Eleonora/14/daily.md`
+- `Design/Safonova Eleonora/14/plans.md`
+- `Design/Safonova Eleonora/14/task.md`
+
+### Modified Files
+
+- `Dev/Danylenko Liliia/14/daily.md`
+- `Dev/Artem Skichko/14/daily.md`
+- `LG/Bindiak Dana/14/plans.md`
+- `LG/Burda Anna/14/daily.md`
+- `LG/Lead Generation Department/Instructions/CRM/CRM_Daily_Report_Template_v1.md`
+- `LG/Adesina Oluwamayomiposi Elizabeth/11/plans.md`
+- `LG/Lead Generation Department/Instructions/Onboarding/GeneralGuides/Onboarding_Join_Channels_v1.md`
+- `Design/Kucherenko Iuliia/14/daily.md`
+- `Design/Kucherenko Iuliia/14/plans.md`
+- `Design/Kucherenko Iuliia/14/task.md`
+- `Design/Design prompt log.md`
+- `Design/Safonova Eleonora/Safonova Eleonora/email task1/index.html`
+- `Design/Shymkevych Iryna/13/newsletter.html`
+
+### Deleted Files
+
+- `"Video/Azanova Dar\312\274ya/Profile Video Editor Azanova Dar\312\274ya.md"`
+- `"Video/Azanova Dar\312\274ya/11/plans.md"`
+- `LG/Lead Generation Department/Instructions/LinkedIn/Archived_2025-11-13/lg-templates.new.md`
+- `"Video/Azanova Dar\312\274ya/05/task.md"`
+- `"Design/Shymkevych Iryna/05/employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07).html"`
+- `"Video/Azanova Dar\312\274ya/Week_1/06/plans.md"`
+- `"Video/Azanova Dar\312\274ya/06/task.md"`
+- `"Video/Azanova Dar\312\274ya/04/daily.md"`
+- `"Video/Azanova Dar\312\274ya/12/daily.md"`
+- `"Video/Azanova Dar\312\274ya/README.md"`
+- `"Video/Azanova Dar\312\274ya/04/task.md"`
+- `LG/Lead Generation Department/Instructions/LinkedIn/Templates/LinkedIn_Templates_Reference_v1.md`
+- `"LG/Lead Generation Department/Copy of PROMPT for LG custom projects - September 26, 3_21\342\200\257PM.md"`
+- `"Video/Azanova Dar\312\274ya/03/daily.md"`
+- `"Video/Azanova Dar\312\274ya/03/plans.md"`
+- `LG/Lead Generation Department/Instructions/CRM/InternalWorkflow_Overview_v1.md`
+- `LG/Lead Generation Department/Instructions/LeadGen/LeadGen_Overview_v1.md`
+- `LG/Lead Generation Department/Instructions/Onboarding/Archived_2025-11-13/Ideal_Customer_Profile.md`
+- `LG/Lead Generation Department/Instructions/LinkedIn/OutreachPlaybooks/LinkedIn_SMS_Tutorial_v1.md`
+- `"Video/Azanova Dar\312\274ya/11/task.md"`
+- `LG/Lead Generation Department/Instructions/Onboarding/Archived_2025-11-13/Responsibilities.md`
+- `"Video/Azanova Dar\312\274ya/04/plans.md"`
+- `"Video/Azanova Dar\312\274ya/06/plans.md"`
+- `"Video/Azanova Dar\312\274ya/Week_1/06/daily.md"`
+- `LG/Lead Generation Department/Instructions/LinkedIn/LinkedIn_Message_Templates_v1.md`
+- `LG/Lead Generation Department/Instructions/LinkedIn/InboxManagement/LinkedIn_Stars_Feature_v1.md`
+- `LG/Lead Generation Department/Instructions/Onboarding/Archived_2025-11-13/Target_Industries.md`
+- `LG/Lead Generation Department/Instructions/Onboarding/Archived_2025-11-13/instructions.hire-lg.md`
+- `LG/Lead Generation Department/Instructions/Onboarding/Onboarding_Cleanup_Summary_v1.md`
+- `"Video/Azanova Dar\312\274ya/Week_1/04/daily.md"`
+- `"Video/Azanova Dar\312\274ya/11/daily.md"`
+- `LG/Lead Generation Department/Instructions/LinkedIn/OutreachPlaybooks/LinkedIn_Connection_Request_Guide_v1.md`
+- `LG/Lead Generation Department/Instructions/Tools/Tools_Overview_v1.md`
+- `LG/Lead Generation Department/Instructions/Onboarding/GeneralGuides/Onboarding_Process_v1.md`
+- `"Video/Azanova Dar\312\274ya/Week_1/03/task.md"`
+- `"Video/Azanova Dar\312\274ya/07/daily.md"`
+- `LG/Lead Generation Department/Instructions/LinkedIn/OutreachPlaybooks/LinkedIn_CRM_Send_Email_Tab_v1.md`
+- `"Video/Azanova Dar\312\274ya/08/daily.md"`
+- `LG/Lead Generation Department/Instructions/LinkedIn/InboxManagement/LinkedIn_Connection_Cleanup_v1.md`
+- `LG/Lead Generation Department/Instructions/Onboarding/Archived_2025-11-13/Fundamentals.md`
+- `"Video/Azanova Dar\312\274ya/Week_1/05/plans.md"`
+- `LG/Lead Generation Department/Instructions/LinkedIn/Archived_2025-11-13/messages.gpt-version.md`
+- `"Design/Shymkevych Iryna/Week_1/06/daily (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-06).md"`
+- `"Video/Azanova Dar\312\274ya/07/task.md"`
+- `"Video/Azanova Dar\312\274ya/12/task.md"`
+- `LG/Lead Generation Department/Instructions/LinkedIn/LinkedIn_Overview_v1.md`
+- `LG/Lead Generation Department/Instructions/CRM/InternalWorkflow_Rescheduling_Guide_v1.md`
+- `LG/Lead Generation Department/Instructions/Onboarding/GeneralGuides/Scheduling_Google_Calendar.md`
+- `"Video/Azanova Dar\312\274ya/Week_1/04/plans.md"`
+- `LG/Lead Generation Department/Instructions/Onboarding/Archived_2025-11-13/Connections.md`
+- `LG/Lead Generation Department/Instructions/Onboarding/Onboarding_Overview_v1.md`
+- `"Video/Azanova Dar\312\274ya/Week_1/05/daily.md"`
+- `"Video/Azanova Dar\312\274ya/Week_1/07/task.md"`
+- `"Video/Azanova Dar\312\274ya/Week_1/03/plans.md"`
+- `"Video/Azanova Dar\312\274ya/08/plans.md"`
+- `"Design/Shymkevych Iryna/06/daily (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-06).md"`
+- `LG/Lead Generation Department/Instructions/Onboarding/Archived_2025-11-13/Strategies.md`
+- `"Video/Azanova Dar\312\274ya/Week_1/07/plans.md"`
+- `"Video/Azanova Dar\312\274ya/Week_1/04/task.md"`
+- `"Video/Azanova Dar\312\274ya/08/task.md"`
+- `"Video/Azanova Dar\312\274ya/05/plans.md"`
+- `"Video/Azanova Dar\312\274ya/10/plans.md"`
+- `LG/Lead Generation Department/Instructions/LinkedIn/Archived_2025-11-13/guide.masseges.md`
+- `LG/Lead Generation Department/Instructions/Onboarding/Archived_2025-11-13/Follow_Up_Sequences.md`
+- `"Video/Azanova Dar\312\274ya/06/daily.md"`
+- `"Video/Azanova Dar\312\274ya/Week_1/05/task.md"`
+- `"Video/Azanova Dar\312\274ya/Week_1/06/task.md"`
+- `"Video/Azanova Dar\312\274ya/05/daily.md"`
+- `"Design/Shymkevych Iryna/Week_1/05/employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07 1).html"`
+- `"Video/Azanova Dar\312\274ya/03/task.md"`
+- `"Video/Azanova Dar\312\274ya/12/plans.md"`
+- `"Video/Azanova Dar\312\274ya/Week_1/07/daily.md"`
+- `LG/Lead Generation Department/Instructions/Onboarding/Archived_2025-11-13/lg_department.md`
+- `"Design/Shymkevych Iryna/05/employeecard3 (\320\232\320\276\320\275\321\204\320\273\320\270\320\272\321\202\321\203\321\216\321\211\320\260\321\217 \320\272\320\276\320\277\320\270\321\217 \321\201 \320\272\320\276\320\274\320\277\321\214\321\216\321\202\320\265\321\200\320\260 Admin Remote Helpers 2025-11-07 1).html"`
+- `LG/Lead Generation Department/Instructions/LinkedIn/InboxManagement/LinkedIn_Inbox_AI_Workflow_v1.md`
+- `"Video/Azanova Dar\312\274ya/10/daily.md"`
+- `LG/Lead Generation Department/Instructions/LinkedIn/Archived_2025-11-13/templates.old-version.md`
+- `"Video/Azanova Dar\312\274ya/10/task.md"`
+- `LG/Lead Generation Department/Instructions/Content/Content_Overview_v1.md`
+- `"Video/Azanova Dar\312\274ya/07/plans.md"`
+- `LG/Lead Generation Department/Instructions/CRM/InternalWorkflow_Meeting_Setup_v1.md`
+- `"Video/Azanova Dar\312\274ya/Week_1/03/daily.md"`
+
+
+---
+*Generated automatically by Dropbox to GitHub sync*
+
+
+# Changelog - 2025-11-14
+
 **Sync Date:** 2025-11-14 08:38:36 UTC
 **Total Changes:** 163 files
 
