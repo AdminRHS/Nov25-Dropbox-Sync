@@ -83,6 +83,18 @@
             transform: translateY(0);
         }
 
+        /* NEW HERO ANIMATION CLASSES */
+        .hero-tag.animated {
+            animation: fadeIn 0.6s ease-out 0.2s both;
+        }
+        .hero-title.animated {
+            animation: scaleIn 0.8s ease-out 0.4s both;
+        }
+        .hero-subtitle.animated {
+            animation: fadeInUp 0.8s ease-out 0.6s both;
+        }
+
+
         /* Container */
         .newsletter-wrapper {
             max-width: 640px;
@@ -93,7 +105,8 @@
 
         /* Header */
         .header {
-            background: linear-gradient(135deg, #0d9488 0%, #0f766e 100%);
+            /* Pastel sage gradient */
+            background: linear-gradient(135deg, #34d399 0%, #6ee7b7 100%);
             color: white;
             padding: 40px 30px;
             text-align: center;
@@ -166,9 +179,10 @@
         }
 
         .hero-tag {
+            /* Pastel sage color */
             display: inline-block;
-            background: #0d9488;
-            color: white;
+            background: #6ee7b7;
+            color: #1a1a1a; /* Adjusted text color for contrast against light background */
             padding: 4px 12px;
             border-radius: 4px;
             font-size: 0.7rem;
@@ -176,6 +190,7 @@
             letter-spacing: 1px;
             margin-bottom: 12px;
             text-transform: uppercase;
+            opacity: 0; /* Important for animation to start from invisible state */
         }
 
         .hero-title {
@@ -183,12 +198,14 @@
             font-weight: 700;
             margin-bottom: 8px;
             line-height: 1.2;
+            opacity: 0; /* Important for animation to start from invisible state */
         }
 
         .hero-subtitle {
             font-size: 0.9rem;
             opacity: 0.95;
             line-height: 1.5;
+            opacity: 0; /* Important for animation to start from invisible state */
         }
 
         /* Content Sections */
@@ -205,11 +222,28 @@
             text-align: center;
             margin-bottom: 30px;
         }
+        
+        /* Styling for image within content sections */
+        .section-image {
+            margin-top: 30px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
 
         .section-tag {
+            /* Very light pastel background color */
             display: inline-block;
-            background: #ccfbf1;
-            color: #0d9488;
+            background: #ecfdf5;
+            /* Text color matches a medium sage green */
+            color: #34d399;
             padding: 4px 12px;
             border-radius: 4px;
             font-size: 0.7rem;
@@ -251,8 +285,10 @@
         }
 
         .card:hover {
-            border-color: #0d9488;
-            box-shadow: 0 8px 20px rgba(13, 148, 136, 0.15);
+            /* Hover border uses a slightly darker pastel shade for better definition */
+            border-color: #34d399;
+            /* Increased shadow for a more pronounced lift/glow effect */
+            box-shadow: 0 10px 30px rgba(110, 231, 183, 0.4);
             transform: translateY(-3px);
         }
 
@@ -279,8 +315,9 @@
             position: absolute;
             top: 8px;
             right: 8px;
-            background: #0d9488;
-            color: white;
+            /* Pastel sage color */
+            background: #6ee7b7;
+            color: #1a1a1a; /* Adjusted text color for contrast */
             padding: 3px 8px;
             border-radius: 4px;
             font-size: 0.65rem;
@@ -326,19 +363,27 @@
         }
 
         .feature-item:hover {
-            border-color: #0d9488;
-            box-shadow: 0 6px 20px rgba(13, 148, 136, 0.12);
+            /* Hover border matches new pastel color */
+            border-color: #6ee7b7;
+            /* Shadow uses new pastel color */
+            box-shadow: 0 6px 20px rgba(110, 231, 183, 0.2);
             transform: translateX(5px);
         }
 
         .feature-icon {
             width: 44px;
             height: 44px;
-            background: linear-gradient(135deg, #0d9488, #0f766e);
+            /* REVERTED TO SOLID COLOR & ADDED GLOW */
+            background: linear-gradient(135deg, #34d399, #6ee7b7);
+            /* NEW: Soft glow/shadow effect using the main color */
+            box-shadow: 0 0 10px rgba(110, 231, 183, 0.7); 
+            
             border-radius: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
+            /* Changed color to white for contrast on solid background */
+            color: white; 
             font-size: 1.3rem;
             flex-shrink: 0;
             transition: transform 0.3s ease;
@@ -371,6 +416,7 @@
 
         .stat-card {
             background: white;
+            /* FIX: Corrected typo (1:px to 1px) */
             border: 1px solid #e5e7eb;
             border-radius: 8px;
             padding: 25px 20px;
@@ -379,15 +425,18 @@
         }
 
         .stat-card:hover {
-            border-color: #0d9488;
-            box-shadow: 0 6px 20px rgba(13, 148, 136, 0.12);
+            /* Hover border matches new pastel color */
+            border-color: #6ee7b7;
+            /* Shadow uses new pastel color */
+            box-shadow: 0 6px 20px rgba(110, 231, 183, 0.2);
             transform: translateY(-3px);
         }
 
         .stat-number {
             font-size: 2.2rem;
             font-weight: 700;
-            color: #0d9488;
+            /* Pastel sage color */
+            color: #6ee7b7;
             display: block;
             margin-bottom: 5px;
             transition: transform 0.3s ease;
@@ -407,8 +456,13 @@
 
         /* Highlight Banner */
         .highlight-banner {
-            background: linear-gradient(135deg, #0d9488 0%, #0f766e 100%);
-            color: white;
+            /* FIXED: Changed background image to something simpler for better readability */
+            background: linear-gradient(135deg, rgba(52, 211, 153, 0.95) 0%, rgba(110, 231, 183, 0.95) 100%), 
+                        url('https://images.unsplash.com/photo-1544620022-774f7678f2ae?w=800&q=80');
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: multiply;
+            color: white; 
             padding: 35px 30px;
             text-align: center;
             margin: 0;
@@ -423,7 +477,7 @@
             right: -50%;
             width: 200%;
             height: 200%;
-            background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%); /* Ripple color set to white */
             animation: pulse 5s ease-in-out infinite;
         }
 
@@ -442,6 +496,7 @@
             font-weight: 700;
             position: relative;
             z-index: 1;
+            color: white;
         }
 
         .highlight-banner p {
@@ -451,6 +506,7 @@
             margin-bottom: 20px;
             position: relative;
             z-index: 1;
+            color: white;
         }
 
         /* Buttons */
@@ -489,52 +545,67 @@
 
         .btn-primary {
             background: white;
-            color: #0d9488;
+            /* Changed to dark color for contrast on the light highlight banner */
+            color: #1a1a1a;
             border-color: white;
         }
 
         .btn-primary:hover {
             background: transparent;
-            color: white;
+            color: white; 
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         }
 
         .btn-secondary {
-            background: #0d9488;
-            color: white;
-            border-color: #0d9488;
+            /* Pastel sage color */
+            background: #6ee7b7;
+            /* Text color for contrast */
+            color: #1a1a1a;
+            /* Pastel sage color */
+            border-color: #6ee7b7;
         }
 
         .btn-secondary:hover {
-            background: #0f766e;
-            border-color: #0f766e;
+            /* Slightly darker pastel color for hover */
+            background: #34d399;
+            /* Slightly darker pastel color for hover */
+            border-color: #34d399;
+            color: white; /* Changed text to white for contrast on darker hover */
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(13, 148, 136, 0.3);
+            /* Shadow uses new pastel color */
+            box-shadow: 0 5px 15px rgba(110, 231, 183, 0.3);
         }
 
         .btn-outline {
             background: transparent;
-            color: #0d9488;
-            border-color: #0d9488;
+            /* Medium sage color */
+            color: #34d399;
+            /* Medium sage color */
+            border-color: #34d399;
         }
 
         .btn-outline:hover {
-            background: #0d9488;
+            /* Medium sage color */
+            background: #34d399;
             color: white;
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(13, 148, 136, 0.3);
+            /* Shadow uses new pastel color */
+            box-shadow: 0 5px 15px rgba(110, 231, 183, 0.3);
         }
 
         /* Testimonial */
         .testimonial {
             background: white;
             border: 1px solid #e5e7eb;
-            border-left: 4px solid #0d9488;
+            /* Left border uses new pastel color */
+            border-left: 4px solid #6ee7b7;
             border-radius: 8px;
             padding: 25px;
             margin-top: 25px;
             position: relative;
+            /* NEW: Added shadow for lift/glow effect */
+            box-shadow: 0 6px 20px rgba(110, 231, 183, 0.3); 
         }
 
         .testimonial::before {
@@ -543,7 +614,8 @@
             top: 15px;
             left: 20px;
             font-size: 60px;
-            color: rgba(13, 148, 136, 0.1);
+            /* Lightened opacity of new pastel color */
+            color: rgba(110, 231, 183, 0.3);
             font-family: Georgia, serif;
             line-height: 1;
         }
@@ -568,7 +640,8 @@
 
         .testimonial-author {
             font-size: 0.9rem;
-            color: #0d9488;
+            /* Pastel sage color */
+            color: #6ee7b7;
             font-weight: 600;
             position: relative;
             z-index: 1;
@@ -712,34 +785,34 @@
 <body>
     <div class="newsletter-wrapper">
         
-        <!-- Header -->
         <header class="header">
             <div class="header-logo">CONVENIENT BRANDS</div>
             <div class="header-subtitle">Business Technology Platform</div>
         </header>
 
-        <!-- Hero Section -->
         <section class="hero-section">
             <div class="hero-image">
                 <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80" alt="Business collaboration">
                 <div class="hero-overlay">
-                    <div class="hero-tag">Brand Spotlight</div>
-                    <h1 class="hero-title">Meet Convenient Brands</h1>
-                    <p class="hero-subtitle">Empowering businesses with enterprise software and payment solutions</p>
+                    <div class="hero-tag animated">Brand Spotlight</div>
+                    <h1 class="hero-title animated">Meet Convenient Brands</h1>
+                    <p class="hero-subtitle animated">Empowering businesses with enterprise software and payment solutions</p>
                 </div>
             </div>
         </section>
 
-        <!-- About Section -->
         <section class="section">
             <div class="section-header animate-on-scroll">
                 <div class="section-tag">Who We Are</div>
                 <h2 class="section-title">A Platform Built for Growth</h2>
                 <p class="section-subtitle">Convenient Brands is a family of business technology companies providing enterprise-level software and integrated payment processing services to businesses across North America.</p>
             </div>
+            
+            <div class="section-image animate-on-scroll">
+                <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800&q=80" alt="Team collaborating on a platform">
+            </div>
         </section>
 
-        <!-- Platform Features -->
         <section class="section section-alt">
             <div class="section-header animate-on-scroll">
                 <div class="section-tag">What We Offer</div>
@@ -782,7 +855,6 @@
             </div>
         </section>
 
-        <!-- Stats Section -->
         <section class="section">
             <div class="section-header animate-on-scroll">
                 <div class="section-tag">Our Impact</div>
@@ -809,7 +881,6 @@
             </div>
         </section>
 
-        <!-- Portfolio Companies -->
         <section class="section section-alt">
             <div class="section-header animate-on-scroll">
                 <div class="section-tag">Our Portfolio</div>
@@ -886,7 +957,6 @@
             </div>
         </section>
 
-        <!-- Testimonial -->
         <section class="section">
             <div class="section-header animate-on-scroll">
                 <div class="section-tag">Success Stories</div>
@@ -901,14 +971,12 @@
             </div>
         </section>
 
-        <!-- Highlight Banner -->
         <section class="highlight-banner">
             <h3>Why Partner With Convenient Brands</h3>
             <p>We deliver comprehensive solutions that drive business growth and operational excellence. With decades of combined industry experience and continuous innovation, we're the trusted partner for thousands of businesses.</p>
             <a href="https://www.convenient-brands.com/" class="btn btn-primary" target="_blank">Explore Our Solutions</a>
         </section>
 
-        <!-- CTA Section -->
         <section class="cta-section">
             <h2 class="animate-on-scroll">Ready to Transform Your Business?</h2>
             <p class="animate-on-scroll">Join thousands of businesses that trust Convenient Brands for their technology and payment processing needs</p>
@@ -918,7 +986,6 @@
             </div>
         </section>
 
-        <!-- Footer -->
         <footer class="footer">
             <div class="footer-logo">CONVENIENT BRANDS</div>
             <p class="footer-text">A family of business technology companies providing enterprise-level software and integrated payment processing services across North America.</p>

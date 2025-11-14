@@ -1,215 +1,1077 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meet Convenient Brands</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convenient Brands - Premium Fintech Email</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            background: #F5EEDF;
+            padding: 32px 16px;
+            line-height: 1.6;
+        }
+
+        .email-container {
+            max-width: 700px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 20px 60px rgba(47, 95, 59, 0.15);
+            overflow: hidden;
+        }
+
+        /* Header */
+        .header {
+            padding: 24px 32px;
+            background: linear-gradient(135deg, #CFE8D2 0%, #E8F6F0 50%, #F5EEDF 100%);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+        }
+
+        .header-logo {
+            font-size: 18px;
+            font-weight: 600;
+            color: #2F5F3B;
+        }
+
+        .header-tagline {
+            font-size: 11px;
+            color: #2F5F3B;
+            opacity: 0.7;
+            max-width: 280px;
+            text-align: right;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            padding: 48px 32px;
+            background: white;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+            align-items: center;
+        }
+
+        .hero-text h1 {
+            font-size: 30px;
+            font-weight: 700;
+            color: #2F5F3B;
+            margin-bottom: 16px;
+            line-height: 1.2;
+        }
+
+        .hero-text h2 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #7FB98A;
+            margin-bottom: 20px;
+            line-height: 1.3;
+        }
+
+        .hero-text p {
+            font-size: 15px;
+            color: #2F5F3B;
+            opacity: 0.7;
+            margin-bottom: 28px;
+            line-height: 1.7;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 16px 32px;
+            background: linear-gradient(135deg, #2F5F3B 0%, #7FB98A 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 15px;
+            font-weight: 600;
+            box-shadow: 0 8px 24px rgba(47, 95, 59, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+            transition: transform 0.2s;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+
+        .hero-illustration {
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Features Section */
+        .features-section {
+            padding: 64px 32px;
+            background: linear-gradient(135deg, #F5EEDF 0%, #E8F6F0 100%);
+            position: relative;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .section-header h2 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #2F5F3B;
+            margin-bottom: 12px;
+            line-height: 1.2;
+        }
+
+        .section-header p {
+            font-size: 16px;
+            font-weight: 600;
+            color: #7FB98A;
+            line-height: 1.4;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+
+        .feature-item {
+            text-align: center;
+        }
+
+        .feature-icon {
+            margin: 0 auto 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .feature-item h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #2F5F3B;
+            margin-bottom: 12px;
+        }
+
+        .feature-item p {
+            font-size: 14px;
+            color: #2F5F3B;
+            opacity: 0.7;
+            line-height: 1.6;
+            padding: 0 16px;
+        }
+
+        /* Industries Section */
+        .industries-section {
+            padding: 64px 32px;
+            background: linear-gradient(135deg, #E8F6F0 0%, #CFE8D2 100%);
+            position: relative;
+        }
+
+        .industries-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .industry-card {
+            padding: 24px;
+            background: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(12px);
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            box-shadow: 0 8px 24px rgba(47, 95, 59, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .industry-card:hover {
+            transform: scale(1.05);
+        }
+
+        .industry-icon {
+            margin: 0 auto 16px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .industry-card h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: #2F5F3B;
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+
+        .industry-card p {
+            font-size: 13px;
+            color: #2F5F3B;
+            opacity: 0.7;
+            line-height: 1.5;
+        }
+
+        /* Growth Section */
+        .growth-section {
+            padding: 64px 32px;
+            background: white;
+        }
+
+        .growth-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .growth-card {
+            padding: 24px;
+            background: linear-gradient(135deg, rgba(207, 232, 210, 0.3) 0%, rgba(232, 246, 240, 0.3) 100%);
+            border: 1px solid rgba(127, 185, 138, 0.2);
+            border-radius: 16px;
+            box-shadow: 0 4px 16px rgba(47, 95, 59, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+
+        .growth-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 32px rgba(47, 95, 59, 0.15);
+        }
+
+        .growth-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 80px;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+            border-radius: 16px 16px 0 0;
+            pointer-events: none;
+        }
+
+        .growth-card h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #2F5F3B;
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        .growth-card p {
+            font-size: 14px;
+            color: #2F5F3B;
+            opacity: 0.7;
+            line-height: 1.6;
+            position: relative;
+        }
+
+        /* Partners Section */
+        .partners-section {
+            padding: 64px 32px;
+            background: linear-gradient(135deg, #2F5F3B 0%, #4A7A56 100%);
+            position: relative;
+        }
+
+        .partners-section::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: rgba(47, 95, 59, 0.3);
+            backdrop-filter: blur(8px);
+        }
+
+        .partners-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+            align-items: center;
+            position: relative;
+        }
+
+        .partners-text h2 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #CFE8D2;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .partners-text p {
+            font-size: 15px;
+            color: #E8F6F0;
+            opacity: 0.9;
+            line-height: 1.7;
+            margin-bottom: 24px;
+        }
+
+        .partners-list {
+            list-style: none;
+        }
+
+        .partners-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 12px;
+            color: #E8F6F0;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .check-icon {
+            width: 20px;
+            height: 20px;
+            background: #A4D6BC;
+            border-radius: 50%;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2px;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 64px 32px;
+            background: linear-gradient(135deg, #2F5F3B 0%, #7FB98A 50%, #2F5F3B 100%);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 50%, rgba(47, 95, 59, 0.2) 100%);
+        }
+
+        .cta-content {
+            position: relative;
+        }
+
+        .cta-section h2 {
+            font-size: 28px;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .cta-section p {
+            font-size: 15px;
+            color: #E8F6F0;
+            max-width: 600px;
+            margin: 0 auto 32px;
+            line-height: 1.7;
+        }
+
+        .cta-button-white {
+            display: inline-block;
+            padding: 20px 40px;
+            background: white;
+            color: #2F5F3B;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2), inset 0 2px 0 rgba(255, 255, 255, 0.8);
+            transition: transform 0.2s;
+        }
+
+        .cta-button-white:hover {
+            transform: scale(1.05);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-grid,
+            .partners-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .features-grid,
+            .growth-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .industries-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .header {
+                flex-direction: column;
+                gap: 8px;
+                text-align: center;
+            }
+
+            .header-tagline {
+                text-align: center;
+            }
+        }
+    </style>
 </head>
-<body style="margin: 0; padding: 0; background-color: #F1EEE6; font-family: Arial, Helvetica, sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+<body>
+    <div class="email-container">
+        
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header-logo">Convenient Brands</div>
+            <div class="header-tagline">Vertical software & integrated payments for modern industries</div>
+        </header>
 
-<table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; background-color: #F1EEE6;">
-    <tr>
-        <td align="center" style="padding: 24px 0 24px 0;">
-            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; max-width: 600px;">
-                <tr>
-                    <td align="center" style="background-color: #FFFFFF; border-radius: 12px; overflow: hidden;">
+        <!-- HERO SECTION -->
+        <section class="hero-section">
+            <div class="hero-grid">
+                <div class="hero-text">
+                    <h1>Meet Convenient Brands</h1>
+                    <h2>Vertical software + payments powering essential industries</h2>
+                    <p>We build industry-specific platforms that unite operations, payments, and intelligence. From dealerships to municipalities, our solutions turn complexity into clarity—helping businesses grow revenue, save time, and scale with confidence.</p>
+                    <a href="#" class="cta-button">Explore our platform</a>
+                </div>
+                <div class="hero-illustration">
+                    <!-- Hero Illustration SVG -->
+                    <svg viewBox="0 0 400 300" style="width: 100%; max-width: 350px; height: auto;">
+                        <defs>
+                            <linearGradient id="platformGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#2F5F3B" />
+                                <stop offset="50%" stop-color="#7FB98A" />
+                                <stop offset="100%" stop-color="#CFE8D2" />
+                            </linearGradient>
+                            <linearGradient id="cardGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#E8F6F0" />
+                                <stop offset="100%" stop-color="#CFE8D2" />
+                            </linearGradient>
+                            <linearGradient id="cardGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#A4D6BC" />
+                                <stop offset="100%" stop-color="#7FB98A" />
+                            </linearGradient>
+                            <linearGradient id="glowGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" stop-color="#CFE8D2" stop-opacity="0.8" />
+                                <stop offset="100%" stop-color="#CFE8D2" stop-opacity="0" />
+                            </linearGradient>
+                            <filter id="glow">
+                                <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+                                <feMerge>
+                                    <feMergeNode in="coloredBlur"/>
+                                    <feMergeNode in="SourceGraphic"/>
+                                </feMerge>
+                            </filter>
+                        </defs>
+                        <path d="M 150 180 Q 180 120 220 100" stroke="url(#platformGradient)" stroke-width="2" fill="none" opacity="0.4" stroke-dasharray="4 4" />
+                        <path d="M 250 180 Q 280 140 300 120" stroke="url(#platformGradient)" stroke-width="2" fill="none" opacity="0.4" stroke-dasharray="4 4" />
+                        <g filter="url(#glow)">
+                            <ellipse cx="200" cy="200" rx="120" ry="30" fill="url(#platformGradient)" opacity="0.9" />
+                            <ellipse cx="200" cy="195" rx="100" ry="20" fill="url(#glowGradient)" opacity="0.6" />
+                        </g>
+                        <g transform="translate(100, 60) rotate(-8)">
+                            <rect width="90" height="60" rx="12" fill="url(#cardGradient1)" style="filter: drop-shadow(0 8px 16px rgba(47, 95, 59, 0.2))" />
+                            <rect x="0" y="0" width="90" height="20" rx="12" fill="rgba(255, 255, 255, 0.3)" />
+                            <rect x="2" y="2" width="86" height="56" rx="10" fill="none" stroke="rgba(255, 255, 255, 0.5)" stroke-width="1" />
+                            <line x1="15" y1="35" x2="30" y2="28" stroke="#2F5F3B" stroke-width="2" opacity="0.6" />
+                            <line x1="30" y1="28" x2="45" y2="40" stroke="#2F5F3B" stroke-width="2" opacity="0.6" />
+                            <line x1="45" y1="40" x2="60" y2="32" stroke="#2F5F3B" stroke-width="2" opacity="0.6" />
+                            <line x1="60" y1="32" x2="75" y2="25" stroke="#2F5F3B" stroke-width="2" opacity="0.6" />
+                        </g>
+                        <g transform="translate(240, 80) rotate(5)">
+                            <rect width="80" height="55" rx="10" fill="url(#cardGradient2)" style="filter: drop-shadow(0 6px 12px rgba(47, 95, 59, 0.25))" />
+                            <rect x="2" y="2" width="76" height="51" rx="8" fill="none" stroke="rgba(255, 255, 255, 0.6)" stroke-width="1" />
+                            <rect x="12" y="18" width="56" height="4" rx="2" fill="rgba(255, 255, 255, 0.4)" />
+                            <rect x="12" y="18" width="42" height="4" rx="2" fill="#2F5F3B" opacity="0.7" />
+                            <rect x="12" y="28" width="56" height="4" rx="2" fill="rgba(255, 255, 255, 0.4)" />
+                            <rect x="12" y="28" width="35" height="4" rx="2" fill="#2F5F3B" opacity="0.7" />
+                            <rect x="12" y="38" width="56" height="4" rx="2" fill="rgba(255, 255, 255, 0.4)" />
+                            <rect x="12" y="38" width="48" height="4" rx="2" fill="#2F5F3B" opacity="0.7" />
+                        </g>
+                        <g transform="translate(210, 130) rotate(-3)">
+                            <rect width="75" height="50" rx="10" fill="url(#cardGradient1)" style="filter: drop-shadow(0 8px 16px rgba(47, 95, 59, 0.2))" />
+                            <rect x="2" y="2" width="71" height="46" rx="8" fill="none" stroke="rgba(255, 255, 255, 0.5)" stroke-width="1" />
+                            <circle cx="20" cy="20" r="5" fill="#7FB98A" opacity="0.6" />
+                            <circle cx="37.5" cy="20" r="5" fill="#A4D6BC" opacity="0.6" />
+                            <circle cx="55" cy="20" r="5" fill="#7FB98A" opacity="0.6" />
+                            <circle cx="20" cy="35" r="5" fill="#A4D6BC" opacity="0.6" />
+                            <circle cx="37.5" cy="35" r="5" fill="#7FB98A" opacity="0.6" />
+                            <circle cx="55" cy="35" r="5" fill="#A4D6BC" opacity="0.6" />
+                        </g>
+                        <g transform="translate(320, 160)">
+                            <circle r="18" fill="url(#platformGradient)" style="filter: drop-shadow(0 4px 8px rgba(47, 95, 59, 0.3))" />
+                            <circle r="16" fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="1" />
+                            <text x="0" y="7" text-anchor="middle" fill="white" font-size="20" font-weight="bold">$</text>
+                        </g>
+                        <g transform="translate(70, 140)">
+                            <circle r="16" fill="url(#cardGradient2)" style="filter: drop-shadow(0 4px 8px rgba(127, 185, 138, 0.3))" />
+                            <circle r="14" fill="none" stroke="rgba(255, 255, 255, 0.5)" stroke-width="1" />
+                            <rect x="-6" y="2" width="3" height="8" rx="1" fill="white" opacity="0.9" />
+                            <rect x="-1" y="-2" width="3" height="12" rx="1" fill="white" opacity="0.9" />
+                            <rect x="4" y="-4" width="3" height="14" rx="1" fill="white" opacity="0.9" />
+                        </g>
+                        <g transform="translate(150, 240)">
+                            <circle r="14" fill="url(#platformGradient)" style="filter: drop-shadow(0 3px 6px rgba(47, 95, 59, 0.25))" />
+                            <path d="M -4 0 L -1 3 L 5 -4" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <circle cx="280" cy="220" r="40" fill="#A4D6BC" opacity="0.1" filter="blur(8px)" />
+                    </svg>
+                </div>
+            </div>
+        </section>
 
-                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
-                            <tr>
-                                <td align="center" style="padding: 0;">
-                                    <img src="https://via.placeholder.com/600x200/F1EEE6/3B4A33?text=Hero+Illustration:+Software+%26+Payments" alt="Illustration of auto repair shop and software dashboard" width="600" style="display: block; max-width: 100%; height: auto;" />
-                                </td>
-                            </tr>
-                            <tr>
-                                <td align="center" style="padding: 32px 32px 24px 32px;">
-                                    <h1 style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 28px; line-height: 36px; font-weight: bold; margin: 0 0 16px 0;">
-                                        Meet Convenient Brands
-                                    </h1>
-                                    <p style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; margin: 0 0 24px 0;">
-                                        Vertical software and integrated payments built for modern auto and service businesses.
-                                    </p>
-                                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
-                                        <tr>
-                                            <td align="center" style="border-radius: 9999px; background-color: #7E8F6B; padding: 12px 24px;">
-                                                <a href="https://www.convenient-brands.com/" target="_blank" style="color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; text-decoration: none; display: inline-block;">
-                                                    Explore the platform
-                                                </a>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
+        <!-- FEATURES SECTION -->
+        <section class="features-section">
+            <div class="section-header">
+                <h2>A calm, connected platform for complex operations</h2>
+                <p>Everything you need to run smarter, faster, and more profitably</p>
+            </div>
+            <div class="features-grid">
+                <!-- Feature 1: Vertical Software -->
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <defs>
+                                <linearGradient id="vsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#7FB98A" />
+                                    <stop offset="100%" stop-color="#2F5F3B" />
+                                </linearGradient>
+                                <linearGradient id="vsGloss" x1="0%" y1="0%" x2="0%" y2="100%">
+                                    <stop offset="0%" stop-color="rgba(255, 255, 255, 0.4)" />
+                                    <stop offset="100%" stop-color="rgba(255, 255, 255, 0)" />
+                                </linearGradient>
+                                <filter id="vsGlow">
+                                    <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                                    <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                                </filter>
+                            </defs>
+                            <g opacity="0.15">
+                                <rect x="22" y="54" width="56" height="40" rx="6" fill="#2F5F3B" filter="blur(4px)" />
+                            </g>
+                            <g filter="url(#vsGlow)">
+                                <rect x="30" y="40" width="56" height="40" rx="6" fill="url(#vsGradient)" opacity="0.5" />
+                                <rect x="30" y="40" width="56" height="15" rx="6" fill="url(#vsGloss)" />
+                                <rect x="31" y="41" width="54" height="38" rx="5" fill="none" stroke="rgba(255, 255, 255, 0.3)" stroke-width="1" />
+                            </g>
+                            <g filter="url(#vsGlow)">
+                                <rect x="22" y="30" width="56" height="40" rx="6" fill="url(#vsGradient)" opacity="0.7" />
+                                <rect x="22" y="30" width="56" height="18" rx="6" fill="url(#vsGloss)" />
+                                <rect x="23" y="31" width="54" height="38" rx="5" fill="none" stroke="rgba(255, 255, 255, 0.35)" stroke-width="1" />
+                            </g>
+                            <g filter="url(#vsGlow)">
+                                <rect x="14" y="20" width="56" height="40" rx="6" fill="url(#vsGradient)" />
+                                <rect x="14" y="20" width="56" height="20" rx="6" fill="url(#vsGloss)" />
+                                <rect x="15" y="21" width="54" height="38" rx="5" fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="1.5" />
+                                <line x1="24" y1="30" x2="60" y2="30" stroke="rgba(255, 255, 255, 0.3)" stroke-width="1.5" />
+                                <rect x="20" y="38" width="16" height="3" rx="1.5" fill="rgba(255, 255, 255, 0.5)" />
+                                <rect x="20" y="45" width="24" height="3" rx="1.5" fill="rgba(255, 255, 255, 0.4)" />
+                                <rect x="20" y="52" width="20" height="3" rx="1.5" fill="rgba(255, 255, 255, 0.4)" />
+                            </g>
+                            <circle cx="65" cy="25" r="8" fill="#A4D6BC" opacity="0.6" filter="url(#vsGlow)" />
+                        </svg>
+                    </div>
+                    <h3>Vertical Software</h3>
+                    <p>Purpose-built platforms designed for your industry's unique workflows, compliance needs, and growth opportunities.</p>
+                </div>
 
-                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; background-color: #D4DCC7;">
-                            <tr>
-                                <td align="left" style="padding: 32px;">
-                                    <h2 style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 28px; font-weight: bold; margin: 0 0 16px 0;">
-                                        Who we are
-                                    </h2>
-                                    <p style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; margin: 0;">
-                                        Convenient Brands is a platform of business technology companies that combine industry-specific software with integrated payment processing. Our family of brands supports over 12,000 clients with tools that simplify operations, reduce friction, and drive profitable growth.
-                                    </p>
-                                </td>
-                            </tr>
-                        </table>
+                <!-- Feature 2: Integrated Payments -->
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <defs>
+                                <linearGradient id="ipGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#A4D6BC" />
+                                    <stop offset="50%" stop-color="#7FB98A" />
+                                    <stop offset="100%" stop-color="#2F5F3B" />
+                                </linearGradient>
+                                <linearGradient id="ipGloss" x1="0%" y1="0%" x2="0%" y2="100%">
+                                    <stop offset="0%" stop-color="rgba(255, 255, 255, 0.5)" />
+                                    <stop offset="50%" stop-color="rgba(255, 255, 255, 0.1)" />
+                                    <stop offset="100%" stop-color="rgba(255, 255, 255, 0)" />
+                                </linearGradient>
+                                <linearGradient id="chipGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#F2C898" />
+                                    <stop offset="100%" stop-color="#DDE7F2" />
+                                </linearGradient>
+                                <filter id="ipGlow">
+                                    <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+                                    <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                                </filter>
+                            </defs>
+                            <rect x="12" y="48" width="60" height="40" rx="6" fill="#2F5F3B" opacity="0.12" filter="blur(5px)" />
+                            <g filter="url(#ipGlow)">
+                                <rect x="10" y="35" width="60" height="40" rx="6" fill="url(#ipGradient)" />
+                                <rect x="10" y="35" width="60" height="40" rx="6" fill="url(#ipGloss)" />
+                                <rect x="11" y="36" width="58" height="38" rx="5" fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="1.5" />
+                                <rect x="10" y="45" width="60" height="8" fill="rgba(47, 95, 59, 0.3)" />
+                                <g filter="url(#ipGlow)">
+                                    <rect x="18" y="58" width="14" height="12" rx="2" fill="url(#chipGradient)" />
+                                    <rect x="19" y="59" width="12" height="10" rx="1.5" fill="none" stroke="rgba(255, 255, 255, 0.5)" stroke-width="1" />
+                                    <line x1="21" y1="61" x2="21" y2="67" stroke="rgba(47, 95, 59, 0.4)" stroke-width="0.5" />
+                                    <line x1="25" y1="61" x2="25" y2="67" stroke="rgba(47, 95, 59, 0.4)" stroke-width="0.5" />
+                                    <line x1="29" y1="61" x2="29" y2="67" stroke="rgba(47, 95, 59, 0.4)" stroke-width="0.5" />
+                                    <line x1="20" y1="63" x2="30" y2="63" stroke="rgba(47, 95, 59, 0.4)" stroke-width="0.5" />
+                                    <line x1="20" y1="65" x2="30" y2="65" stroke="rgba(47, 95, 59, 0.4)" stroke-width="0.5" />
+                                </g>
+                                <circle cx="42" cy="64" r="1.5" fill="rgba(255, 255, 255, 0.6)" />
+                                <circle cx="48" cy="64" r="1.5" fill="rgba(255, 255, 255, 0.6)" />
+                                <circle cx="54" cy="64" r="1.5" fill="rgba(255, 255, 255, 0.6)" />
+                                <circle cx="60" cy="64" r="1.5" fill="rgba(255, 255, 255, 0.6)" />
+                            </g>
+                            <path d="M 72 50 Q 80 48 88 50" stroke="url(#ipGradient)" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.8" filter="url(#ipGlow)" />
+                            <path d="M 72 60 Q 82 58 92 60" stroke="url(#ipGradient)" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6" filter="url(#ipGlow)" />
+                            <circle cx="75" cy="40" r="6" fill="#A4D6BC" opacity="0.5" filter="url(#ipGlow)" />
+                        </svg>
+                    </div>
+                    <h3>Integrated Payments</h3>
+                    <p>Seamless payment processing built directly into your operations. Accept, track, and reconcile—all in one place.</p>
+                </div>
 
-                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; background-color: #FFFFFF;">
-                            <tr>
-                                <td align="left" style="padding: 32px;">
-                                    <h2 style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 28px; font-weight: bold; margin: 0 0 24px 0;">
-                                        What we do
-                                    </h2>
+                <!-- Feature 3: Automation -->
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <defs>
+                                <linearGradient id="autoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#CFE8D2" />
+                                    <stop offset="50%" stop-color="#7FB98A" />
+                                    <stop offset="100%" stop-color="#2F5F3B" />
+                                </linearGradient>
+                                <linearGradient id="autoGloss" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="rgba(255, 255, 255, 0.5)" />
+                                    <stop offset="100%" stop-color="rgba(255, 255, 255, 0)" />
+                                </linearGradient>
+                                <linearGradient id="mintGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#A4D6BC" />
+                                    <stop offset="100%" stop-color="#CFE8D2" />
+                                </linearGradient>
+                                <filter id="autoGlow">
+                                    <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                                    <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                                </filter>
+                                <filter id="strongGlow">
+                                    <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+                                    <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                                </filter>
+                            </defs>
+                            <g filter="url(#autoGlow)">
+                                <circle cx="52" cy="52" r="22" fill="#2F5F3B" opacity="0.15" filter="blur(3px)" />
+                                <circle cx="50" cy="50" r="20" fill="url(#autoGradient)" />
+                                <rect x="48" y="32" width="4" height="8" rx="1" fill="url(#autoGradient)" />
+                                <rect x="68" y="48" width="4" height="8" rx="1" fill="url(#autoGradient)" transform="rotate(60 50 50)" />
+                                <rect x="68" y="48" width="4" height="8" rx="1" fill="url(#autoGradient)" transform="rotate(120 50 50)" />
+                                <rect x="48" y="60" width="4" height="8" rx="1" fill="url(#autoGradient)" />
+                                <rect x="32" y="48" width="4" height="8" rx="1" fill="url(#autoGradient)" transform="rotate(240 50 50)" />
+                                <rect x="32" y="48" width="4" height="8" rx="1" fill="url(#autoGradient)" transform="rotate(300 50 50)" />
+                                <circle cx="50" cy="50" r="20" fill="url(#autoGloss)" />
+                                <circle cx="50" cy="50" r="18" fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="1.5" />
+                                <circle cx="50" cy="50" r="8" fill="#2F5F3B" opacity="0.4" />
+                                <circle cx="50" cy="50" r="6" fill="none" stroke="rgba(255, 255, 255, 0.3)" stroke-width="1" />
+                            </g>
+                            <g filter="url(#strongGlow)">
+                                <circle cx="50" cy="20" r="8" fill="url(#mintGlow)" />
+                                <circle cx="50" cy="20" r="7" fill="none" stroke="rgba(255, 255, 255, 0.6)" stroke-width="1" />
+                                <circle cx="50" cy="20" r="4" fill="rgba(255, 255, 255, 0.4)" />
+                                <line x1="50" y1="28" x2="50" y2="32" stroke="url(#autoGradient)" stroke-width="2" opacity="0.5" stroke-dasharray="2 2" />
+                            </g>
+                            <g filter="url(#strongGlow)">
+                                <circle cx="80" cy="50" r="8" fill="url(#mintGlow)" />
+                                <circle cx="80" cy="50" r="7" fill="none" stroke="rgba(255, 255, 255, 0.6)" stroke-width="1" />
+                                <circle cx="80" cy="50" r="4" fill="rgba(255, 255, 255, 0.4)" />
+                                <line x1="72" y1="50" x2="68" y2="50" stroke="url(#autoGradient)" stroke-width="2" opacity="0.5" stroke-dasharray="2 2" />
+                            </g>
+                            <g filter="url(#strongGlow)">
+                                <circle cx="28" cy="70" r="7" fill="url(#mintGlow)" />
+                                <circle cx="28" cy="70" r="6" fill="none" stroke="rgba(255, 255, 255, 0.6)" stroke-width="1" />
+                                <circle cx="28" cy="70" r="3.5" fill="rgba(255, 255, 255, 0.4)" />
+                                <line x1="34" y1="64" x2="38" y2="60" stroke="url(#autoGradient)" stroke-width="2" opacity="0.5" stroke-dasharray="2 2" />
+                            </g>
+                            <g filter="url(#strongGlow)">
+                                <circle cx="72" cy="75" r="6" fill="url(#mintGlow)" />
+                                <circle cx="72" cy="75" r="5" fill="none" stroke="rgba(255, 255, 255, 0.6)" stroke-width="1" />
+                                <circle cx="72" cy="75" r="3" fill="rgba(255, 255, 255, 0.4)" />
+                                <line x1="67" y1="69" x2="62" y2="62" stroke="url(#autoGradient)" stroke-width="2" opacity="0.5" stroke-dasharray="2 2" />
+                            </g>
+                            <circle cx="65" cy="35" r="10" fill="#A4D6BC" opacity="0.3" filter="url(#strongGlow)" />
+                        </svg>
+                    </div>
+                    <h3>Intelligent Automation</h3>
+                    <p>Reduce manual work with smart workflows that handle repetitive tasks so your team can focus on what matters.</p>
+                </div>
+            </div>
+        </section>
 
-                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; margin-bottom: 24px;">
-                                        <tr>
-                                            <td valign="top" style="width: 40px; padding-right: 16px;">
-                                                <img src="https://via.placeholder.com/40/7E8F6B/FFFFFF?text=S" alt="Icon for Shop Management Software" width="40" height="40" style="display: block; max-width: 100%; border-radius: 4px;" />
-                                            </td>
-                                            <td valign="top">
-                                                <p style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; font-weight: bold; margin: 0 0 4px 0;">
-                                                    Shop Management Software
-                                                </p>
-                                                <p style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; margin: 0;">
-                                                    Solutions for auto glass, collision, and repair shops to manage jobs, schedules, inventory, and billing.
-                                                </p>
-                                            </td>
-                                        </tr>
-                                    </table>
+        <!-- INDUSTRIES SECTION -->
+        <section class="industries-section">
+            <div class="section-header">
+                <h2>Built for industries that power daily life</h2>
+                <p>Trusted by businesses serving millions of customers every day</p>
+            </div>
+            <div class="industries-grid">
+                <!-- Industry 1: Auto -->
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60">
+                            <defs>
+                                <linearGradient id="autoIconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#7FB98A" />
+                                    <stop offset="100%" stop-color="#2F5F3B" />
+                                </linearGradient>
+                                <filter id="autoIconGlow">
+                                    <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                                    <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                                </filter>
+                            </defs>
+                            <ellipse cx="31" cy="46" rx="22" ry="3" fill="#2F5F3B" opacity="0.15" filter="blur(2px)" />
+                            <g filter="url(#autoIconGlow)">
+                                <path d="M 15 30 L 20 20 L 40 20 L 45 30 L 45 38 L 15 38 Z" fill="url(#autoIconGrad)" />
+                                <path d="M 15 30 L 20 20 L 40 20 L 45 30" fill="rgba(255, 255, 255, 0.3)" />
+                                <rect x="16" y="31" width="28" height="6" rx="1" fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="1" />
+                                <circle cx="22" cy="38" r="5" fill="#2F5F3B" />
+                                <circle cx="22" cy="38" r="3.5" fill="url(#autoIconGrad)" />
+                                <circle cx="22" cy="38" r="2" fill="rgba(255, 255, 255, 0.3)" />
+                                <circle cx="38" cy="38" r="5" fill="#2F5F3B" />
+                                <circle cx="38" cy="38" r="3.5" fill="url(#autoIconGrad)" />
+                                <circle cx="38" cy="38" r="2" fill="rgba(255, 255, 255, 0.3)" />
+                                <path d="M 48 15 L 50 13 L 52 15 L 52 17 L 48 17 Z M 48 17 L 44 21 L 42 19 L 46 15 L 48 15" fill="#A4D6BC" opacity="0.9" />
+                                <path d="M 48 15 L 50 13 L 52 15" fill="rgba(255, 255, 255, 0.4)" />
+                            </g>
+                        </svg>
+                    </div>
+                    <h3>Auto Dealerships & Repair</h3>
+                    <p>Streamline sales, service, and inventory management</p>
+                </div>
 
-                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; margin-bottom: 24px;">
-                                        <tr>
-                                            <td valign="top" style="width: 40px; padding-right: 16px;">
-                                                <img src="https://via.placeholder.com/40/7E8F6B/FFFFFF?text=P" alt="Icon for Payment Processing" width="40" height="40" style="display: block; max-width: 100%; border-radius: 4px;" />
-                                            </td>
-                                            <td valign="top">
-                                                <p style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; font-weight: bold; margin: 0 0 4px 0;">
-                                                    Payment Processing
-                                                </p>
-                                                <p style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; margin: 0;">
-                                                    Integrated and fee-based payment options, including cards, ACH, and alternative payment models.
-                                                </p>
-                                            </td>
-                                        </tr>
-                                    </table>
+                <!-- Industry 2: Collision -->
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60">
+                            <defs>
+                                <linearGradient id="collisionGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#A4D6BC" />
+                                    <stop offset="100%" stop-color="#2F5F3B" />
+                                </linearGradient>
+                                <filter id="collisionGlow">
+                                    <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                                    <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                                </filter>
+                            </defs>
+                            <ellipse cx="31" cy="46" rx="20" ry="3" fill="#2F5F3B" opacity="0.15" filter="blur(2px)" />
+                            <g filter="url(#collisionGlow)">
+                                <path d="M 18 28 L 22 20 L 38 20 L 42 28 L 42 36 L 18 36 Z" fill="url(#collisionGrad)" />
+                                <path d="M 18 28 L 22 20 L 38 20 L 42 28" fill="rgba(255, 255, 255, 0.3)" />
+                                <rect x="19" y="29" width="22" height="6" rx="1" fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="1" />
+                                <circle cx="24" cy="36" r="4" fill="#2F5F3B" />
+                                <circle cx="24" cy="36" r="2.5" fill="url(#collisionGrad)" />
+                                <circle cx="36" cy="36" r="4" fill="#2F5F3B" />
+                                <circle cx="36" cy="36" r="2.5" fill="url(#collisionGrad)" />
+                                <g transform="translate(42, 18)">
+                                    <path d="M 0 -6 L 1.5 -1.5 L 6 0 L 1.5 1.5 L 0 6 L -1.5 1.5 L -6 0 L -1.5 -1.5 Z" fill="#F2C898" filter="url(#collisionGlow)" />
+                                    <path d="M 0 -4 L 1 -1 L 4 0 L 1 1 L 0 4 L -1 1 L -4 0 L -1 -1 Z" fill="rgba(255, 255, 255, 0.6)" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <h3>Collision & Auto Aftermarket</h3>
+                    <p>Manage estimates, parts, and customer communications</p>
+                </div>
 
-                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
-                                        <tr>
-                                            <td valign="top" style="width: 40px; padding-right: 16px;">
-                                                <img src="https://via.placeholder.com/40/7E8F6B/FFFFFF?text=I" alt="Icon for Industry Platforms" width="40" height="40" style="display: block; max-width: 100%; border-radius: 4px;" />
-                                            </td>
-                                            <td valign="top">
-                                                <p style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; font-weight: bold; margin: 0 0 4px 0;">
-                                                    Industry Platforms
-                                                </p>
-                                                <p style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; margin: 0;">
-                                                    Technology for auto, government, property management, healthcare, unions, and non-profit organizations.
-                                                </p>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
+                <!-- Industry 3: Government -->
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60">
+                            <defs>
+                                <linearGradient id="govGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#7FB98A" />
+                                    <stop offset="100%" stop-color="#2F5F3B" />
+                                </linearGradient>
+                                <filter id="govGlow">
+                                    <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                                    <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                                </filter>
+                            </defs>
+                            <rect x="18" y="46" width="24" height="2" rx="1" fill="#2F5F3B" opacity="0.15" filter="blur(2px)" />
+                            <g filter="url(#govGlow)">
+                                <rect x="16" y="38" width="28" height="8" rx="1" fill="url(#govGrad)" />
+                                <rect x="16" y="38" width="28" height="3" rx="1" fill="rgba(255, 255, 255, 0.3)" />
+                                <rect x="19" y="24" width="3" height="14" fill="url(#govGrad)" />
+                                <rect x="28.5" y="24" width="3" height="14" fill="url(#govGrad)" />
+                                <rect x="38" y="24" width="3" height="14" fill="url(#govGrad)" />
+                                <rect x="19" y="24" width="3" height="5" fill="rgba(255, 255, 255, 0.25)" />
+                                <rect x="28.5" y="24" width="3" height="5" fill="rgba(255, 255, 255, 0.25)" />
+                                <rect x="38" y="24" width="3" height="5" fill="rgba(255, 255, 255, 0.25)" />
+                                <path d="M 30 16 L 45 24 L 15 24 Z" fill="url(#govGrad)" />
+                                <path d="M 30 16 L 45 24 L 38 24 Z" fill="rgba(255, 255, 255, 0.2)" />
+                                <rect x="28" y="12" width="4" height="4" fill="url(#govGrad)" />
+                                <g transform="translate(42, 14)">
+                                    <circle r="8" fill="#A4D6BC" filter="url(#govGlow)" />
+                                    <circle r="7" fill="none" stroke="rgba(255, 255, 255, 0.5)" stroke-width="1" />
+                                    <path d="M -3 0 L -1 2 L 3 -3" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <h3>Government & Municipalities</h3>
+                    <p>Modernize operations with secure, compliant systems</p>
+                </div>
 
-                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; background-color: #D4DCC7;">
-                            <tr>
-                                <td align="left" style="padding: 32px;">
-                                    <h2 style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 28px; font-weight: bold; margin: 0 0 16px 0;">
-                                        Our brands
-                                    </h2>
-                                    <ul style="list-style: none; padding: 0; margin: 0;">
-                                        <li style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; margin-bottom: 8px; padding-left: 20px; position: relative;">
-                                            <span style="position: absolute; left: 0; top: 0; color: #7E8F6B; font-size: 16px; line-height: 22px;">&bull;</span> IntelliPay — intelligent fee-based and integrated payment processing.
-                                        </li>
-                                        <li style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; margin-bottom: 8px; padding-left: 20px; position: relative;">
-                                            <span style="position: absolute; left: 0; top: 0; color: #7E8F6B; font-size: 16px; line-height: 22px;">&bull;</span> Mainstreet Computers — shop management software for auto and flat-glass businesses.
-                                        </li>
-                                        <li style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; margin-bottom: 8px; padding-left: 20px; position: relative;">
-                                            <span style="position: absolute; left: 0; top: 0; color: #7E8F6B; font-size: 16px; line-height: 22px;">&bull;</span> Digital Business Controls (DBC) — glass shop software and technical support.
-                                        </li>
-                                        <li style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; margin-bottom: 8px; padding-left: 20px; position: relative;">
-                                            <span style="position: absolute; left: 0; top: 0; color: #7E8F6B; font-size: 16px; line-height: 22px;">&bull;</span> ROME Technologies — collision center management and consulting.
-                                        </li>
-                                        <li style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; margin-bottom: 8px; padding-left: 20px; position: relative;">
-                                            <span style="position: absolute; left: 0; top: 0; color: #7E8F6B; font-size: 16px; line-height: 22px;">&bull;</span> ImEX Systems — collision repair management systems and web-based tools.
-                                        </li>
-                                        <li style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; padding-left: 20px; position: relative;">
-                                            <span style="position: absolute; left: 0; top: 0; color: #7E8F6B; font-size: 16px; line-height: 22px;">&bull;</span> Web-Est — collision estimating software for independent body shops.
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </table>
+                <!-- Industry 4: Property -->
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60">
+                            <defs>
+                                <linearGradient id="propGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#CFE8D2" />
+                                    <stop offset="50%" stop-color="#7FB98A" />
+                                    <stop offset="100%" stop-color="#2F5F3B" />
+                                </linearGradient>
+                                <filter id="propGlow">
+                                    <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                                    <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                                </filter>
+                            </defs>
+                            <rect x="18" y="46" width="24" height="2" rx="1" fill="#2F5F3B" opacity="0.15" filter="blur(2px)" />
+                            <g filter="url(#propGlow)">
+                                <rect x="20" y="24" width="20" height="22" rx="2" fill="url(#propGrad)" />
+                                <rect x="20" y="24" width="20" height="8" rx="2" fill="rgba(255, 255, 255, 0.25)" />
+                                <rect x="21" y="25" width="18" height="20" rx="1" fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="1" />
+                                <rect x="24" y="28" width="4" height="4" rx="0.5" fill="rgba(255, 255, 255, 0.3)" />
+                                <rect x="32" y="28" width="4" height="4" rx="0.5" fill="rgba(255, 255, 255, 0.3)" />
+                                <rect x="24" y="34" width="4" height="4" rx="0.5" fill="rgba(255, 255, 255, 0.3)" />
+                                <rect x="32" y="34" width="4" height="4" rx="0.5" fill="rgba(255, 255, 255, 0.3)" />
+                                <rect x="27" y="40" width="6" height="6" rx="0.5" fill="rgba(47, 95, 59, 0.3)" />
+                                <g transform="translate(42, 18)">
+                                    <circle r="5" fill="#A4D6BC" filter="url(#propGlow)" />
+                                    <circle r="4" fill="none" stroke="rgba(255, 255, 255, 0.5)" stroke-width="1" />
+                                    <circle r="2" fill="rgba(255, 255, 255, 0.4)" />
+                                    <rect x="-1" y="3" width="2" height="6" fill="#A4D6BC" />
+                                    <rect x="-1" y="7" width="3" height="1" fill="#A4D6BC" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <h3>Property Management</h3>
+                    <p>Simplify leasing, payments, and maintenance workflows</p>
+                </div>
 
-                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; background-color: #FFFFFF;">
-                            <tr>
-                                <td align="left" style="padding: 32px;">
-                                    <h2 style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 28px; font-weight: bold; margin: 0 0 16px 0;">
-                                        Why it matters
-                                    </h2>
-                                    <p style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; margin: 0 0 16px 0;">
-                                        Our platform helps your business:
-                                    </p>
-                                    <ul style="list-style: none; padding: 0; margin: 0;">
-                                        <li style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; margin-bottom: 8px; padding-left: 20px; position: relative;">
-                                            <span style="position: absolute; left: 0; top: 0; color: #7E8F6B; font-size: 16px; line-height: 22px;">&bull;</span> streamline day-to-day operations
-                                        </li>
-                                        <li style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; margin-bottom: 8px; padding-left: 20px; position: relative;">
-                                            <span style="position: absolute; left: 0; top: 0; color: #7E8F6B; font-size: 16px; line-height: 22px;">&bull;</span> automate and modernize payments
-                                        </li>
-                                        <li style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; margin-bottom: 8px; padding-left: 20px; position: relative;">
-                                            <span style="position: absolute; left: 0; top: 0; color: #7E8F6B; font-size: 16px; line-height: 22px;">&bull;</span> reduce manual work and errors
-                                        </li>
-                                        <li style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; padding-left: 20px; position: relative;">
-                                            <span style="position: absolute; left: 0; top: 0; color: #7E8F6B; font-size: 16px; line-height: 22px;">&bull;</span> improve efficiency and customer experience
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </table>
+                <!-- Industry 5: Healthcare -->
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60">
+                            <defs>
+                                <linearGradient id="healthGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#A4D6BC" />
+                                    <stop offset="100%" stop-color="#2F5F3B" />
+                                </linearGradient>
+                                <filter id="healthGlow">
+                                    <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+                                    <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                                </filter>
+                            </defs>
+                            <ellipse cx="30" cy="46" rx="18" ry="3" fill="#2F5F3B" opacity="0.15" filter="blur(2px)" />
+                            <g filter="url(#healthGlow)">
+                                <path d="M 30 42 C 30 42, 22 35, 22 28 C 22 24, 24 22, 26.5 22 C 28 22, 29.5 23, 30 25 C 30.5 23, 32 22, 33.5 22 C 36 22, 38 24, 38 28 C 38 35, 30 42, 30 42 Z" fill="url(#healthGrad)" />
+                                <path d="M 30 25 C 30 25, 24 28, 24 28 C 24 26, 25 24, 26.5 24 C 27.5 24, 29 24.5, 30 25 Z" fill="rgba(255, 255, 255, 0.3)" />
+                                <path d="M 30 42 C 30 42, 22 35, 22 28 C 22 24, 24 22, 26.5 22 C 28 22, 29.5 23, 30 25 C 30.5 23, 32 22, 33.5 22 C 36 22, 38 24, 38 28 C 38 35, 30 42, 30 42 Z" fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="1" />
+                                <g opacity="0.9">
+                                    <rect x="28" y="26" width="4" height="10" rx="0.5" fill="white" />
+                                    <rect x="25" y="29" width="10" height="4" rx="0.5" fill="white" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <h3>Healthcare & Non-Profits</h3>
+                    <p>Enhance patient care and donor management</p>
+                </div>
 
-                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; background-color: #D4DCC7;">
-                            <tr>
-                                <td align="center" style="padding: 32px;">
-                                    <h2 style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 28px; font-weight: bold; margin: 0 0 16px 0;">
-                                        Ready to see what our platform can do for your business?
-                                    </h2>
-                                    <p style="color: #3B4A33; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; margin: 0 0 24px 0;">
-                                        Discover how Convenient Brands supports growth with modern software and integrated payments.
-                                    </p>
-                                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
-                                        <tr>
-                                            <td align="center" style="border-radius: 9999px; background-color: #7E8F6B; padding: 12px 24px;">
-                                                <a href="https://www.convenient-brands.com/" target="_blank" style="color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; text-decoration: none; display: inline-block;">
-                                                    Learn more
-                                                </a>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
+                <!-- Industry 6: Unions -->
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60">
+                            <defs>
+                                <linearGradient id="unionGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#7FB98A" />
+                                    <stop offset="100%" stop-color="#2F5F3B" />
+                                </linearGradient>
+                                <filter id="unionGlow">
+                                    <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                                    <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                                </filter>
+                            </defs>
+                            <ellipse cx="30" cy="46" rx="20" ry="3" fill="#2F5F3B" opacity="0.15" filter="blur(2px)" />
+                            <g filter="url(#unionGlow)">
+                                <g transform="translate(30, 18)">
+                                    <circle r="4" fill="url(#unionGrad)" />
+                                    <circle r="3.5" fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="0.5" />
+                                    <path d="M -3 8 L -3 4 L 3 4 L 3 8 Z" fill="url(#unionGrad)" />
+                                </g>
+                                <g transform="translate(42, 24)">
+                                    <circle r="4" fill="url(#unionGrad)" />
+                                    <circle r="3.5" fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="0.5" />
+                                    <path d="M -3 8 L -3 4 L 3 4 L 3 8 Z" fill="url(#unionGrad)" />
+                                </g>
+                                <g transform="translate(44, 36)">
+                                    <circle r="4" fill="url(#unionGrad)" />
+                                    <circle r="3.5" fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="0.5" />
+                                    <path d="M -3 8 L -3 4 L 3 4 L 3 8 Z" fill="url(#unionGrad)" />
+                                </g>
+                                <g transform="translate(30, 42)">
+                                    <circle r="4" fill="url(#unionGrad)" />
+                                    <circle r="3.5" fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="0.5" />
+                                    <path d="M -3 8 L -3 4 L 3 4 L 3 8 Z" fill="url(#unionGrad)" />
+                                </g>
+                                <g transform="translate(16, 36)">
+                                    <circle r="4" fill="url(#unionGrad)" />
+                                    <circle r="3.5" fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="0.5" />
+                                    <path d="M -3 8 L -3 4 L 3 4 L 3 8 Z" fill="url(#unionGrad)" />
+                                </g>
+                                <g transform="translate(18, 24)">
+                                    <circle r="4" fill="url(#unionGrad)" />
+                                    <circle r="3.5" fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="0.5" />
+                                    <path d="M -3 8 L -3 4 L 3 4 L 3 8 Z" fill="url(#unionGrad)" />
+                                </g>
+                                <circle cx="30" cy="30" r="14" fill="none" stroke="url(#unionGrad)" stroke-width="1.5" opacity="0.3" stroke-dasharray="2 2" />
+                                <circle cx="30" cy="30" r="8" fill="#A4D6BC" opacity="0.2" filter="url(#unionGlow)" />
+                            </g>
+                        </svg>
+                    </div>
+                    <h3>Unions & Membership Orgs</h3>
+                    <p>Strengthen member engagement and dues collection</p>
+                </div>
+            </div>
+        </section>
 
-                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; background-color: #FFFFFF; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px;">
-                            <tr>
-                                <td align="center" style="padding: 24px 32px;">
-                                    <p style="color: #7E8F6B; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; margin: 0;">
-                                        Convenient Brands &bull; Vertical Software & Payments
-                                    </p>
-                                    <p style="color: #7E8F6B; font-family: Arial, Helvetica, sans-serif; font-size: 10px; line-height: 16px; margin: 8px 0 0 0;">
-                                        <a href="[Unsubscribe Link]" style="color: #7E8F6B; text-decoration: underline;">Unsubscribe</a> | <a href="[View in Browser Link]" style="color: #7E8F6B; text-decoration: underline;">View in browser</a>
-                                    </p>
-                                </td>
-                            </tr>
-                        </table>
+        <!-- GROWTH SECTION -->
+        <section class="growth-section">
+            <div class="growth-grid">
+                <div class="growth-card">
+                    <h3>Increase revenue</h3>
+                    <p>Unlock new income streams with embedded payments and intelligent upsell tools built into your workflow.</p>
+                </div>
+                <div class="growth-card">
+                    <h3>Simplify operations</h3>
+                    <p>Replace scattered tools with one unified platform that connects your entire business in real time.</p>
+                </div>
+                <div class="growth-card">
+                    <h3>Scale with confidence</h3>
+                    <p>Grow without complexity. Our systems adapt to your needs, from local operations to nationwide reach.</p>
+                </div>
+            </div>
+        </section>
 
-                    </td>
-                </tr>
-            </table>
-            </td>
-    </tr>
-</table>
+        <!-- PARTNERS SECTION -->
+        <section class="partners-section">
+            <div class="partners-grid">
+                <div class="partners-text">
+                    <h2>Built to partner, designed to grow</h2>
+                    <p>We don't just sell software—we become an extension of your team. Our success is measured by your growth, efficiency, and customer satisfaction.</p>
+                    <ul class="partners-list">
+                        <li>
+                            <div class="check-icon">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <path d="M2 6 L5 9 L10 3" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            Dedicated account support and onboarding
+                        </li>
+                        <li>
+                            <div class="check-icon">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <path d="M2 6 L5 9 L10 3" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            Regular feature updates based on your feedback
+                        </li>
+                        <li>
+                            <div class="check-icon">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <path d="M2 6 L5 9 L10 3" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            Transparent pricing with no surprise fees
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <!-- Partners Illustration SVG -->
+                    <svg viewBox="0 0 300 250" style="width: 100%; max-width: 280px; height: auto; margin: 0 auto; display: block;">
+                        <defs>
+                            <linearGradient id="partnerGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#A4D6BC" />
+                                <stop offset="100%" stop-color="#7FB98A" />
+                            </linearGradient>
+                            <linearGradient id="partnerGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#CFE8D2" />
+                                <stop offset="100%" stop-color="#A4D6BC" />
+                            </linearGradient>
+                            <linearGradient id="mintGlowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#E8F6F0" />
+                                <stop offset="100%" stop-color="#A4D6BC" />
+                            </linearGradient>
+                            <filter id="partnerGlow">
+                                <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                                <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                            </filter>
+                        </defs>
+                        <g filter="url(#partnerGlow)">
+                            <g transform="translate(100, 125) rotate(-15)">
+                                <ellipse rx="35" ry="50" fill="url(#partnerGrad1)" opacity="0.8" />
+                                <ellipse rx="30" ry="45" fill="url(#partnerGrad2)" opacity="0.6" />
+                                <ellipse rx="25" ry="40" fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="2" />
+                                <ellipse rx="20" ry="30" fill="rgba(255, 255, 255, 0.3)" />
+                            </g>
+                            <g transform="translate(200, 125) rotate(15)">
+                                <ellipse rx="35" ry="50" fill="url(#partnerGrad1)" opacity="0.8" />
+                                <ellipse rx="30" ry="45" fill="url(#partnerGrad2)" opacity="0.6" />
+                                <ellipse rx="25" ry="40" fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="2" />
+                                <ellipse rx="20" ry="30" fill="rgba(255, 255, 255, 0.3)" />
+                            </g>
+                            <circle cx="150" cy="125" r="30" fill="url(#mintGlowGrad)" opacity="0.9" />
+                            <circle cx="150" cy="125" r="25" fill="none" stroke="rgba(255, 255, 255, 0.5)" stroke-width="2" />
+                            <circle cx="150" cy="125" r="18" fill="rgba(255, 255, 255, 0.4)" />
+                            <circle cx="150" cy="125" r="40" fill="none" stroke="url(#partnerGrad1)" stroke-width="2" opacity="0.4" stroke-dasharray="4 4" />
+                            <circle cx="150" cy="125" r="50" fill="none" stroke="url(#partnerGrad1)" stroke-width="1.5" opacity="0.3" stroke-dasharray="6 6" />
+                        </g>
+                        <g transform="translate(40, 60) rotate(-8)" filter="url(#partnerGlow)">
+                            <rect width="70" height="50" rx="8" fill="url(#partnerGrad2)" opacity="0.85" />
+                            <rect x="1" y="1" width="68" height="48" rx="7" fill="none" stroke="rgba(255, 255, 255, 0.5)" stroke-width="1.5" />
+                            <rect width="70" height="14" rx="8" fill="rgba(255, 255, 255, 0.3)" />
+                            <rect x="10" y="22" width="50" height="3" rx="1.5" fill="rgba(255, 255, 255, 0.4)" />
+                            <rect x="10" y="29" width="40" height="3" rx="1.5" fill="rgba(255, 255, 255, 0.4)" />
+                            <rect x="10" y="36" width="45" height="3" rx="1.5" fill="rgba(255, 255, 255, 0.4)" />
+                        </g>
+                        <g transform="translate(190, 40) rotate(5)" filter="url(#partnerGlow)">
+                            <rect width="70" height="55" rx="8" fill="url(#partnerGrad2)" opacity="0.85" />
+                            <rect x="1" y="1" width="68" height="53" rx="7" fill="none" stroke="rgba(255, 255, 255, 0.5)" stroke-width="1.5" />
+                            <rect width="70" height="16" rx="8" fill="rgba(255, 255, 255, 0.3)" />
+                            <line x1="12" y1="35" x2="20" y2="28" stroke="rgba(255, 255, 255, 0.6)" stroke-width="2" />
+                            <line x1="20" y1="28" x2="28" y2="32" stroke="rgba(255, 255, 255, 0.6)" stroke-width="2" />
+                            <line x1="28" y1="32" x2="36" y2="25" stroke="rgba(255, 255, 255, 0.6)" stroke-width="2" />
+                            <line x1="36" y1="25" x2="44" y2="30" stroke="rgba(255, 255, 255, 0.6)" stroke-width="2" />
+                            <line x1="44" y1="30" x2="52" y2="23" stroke="rgba(255, 255, 255, 0.6)" stroke-width="2" />
+                        </g>
+                        <circle cx="80" cy="180" r="15" fill="#A4D6BC" opacity="0.3" filter="url(#partnerGlow)" />
+                        <circle cx="220" cy="160" r="20" fill="#CFE8D2" opacity="0.25" filter="url(#partnerGlow)" />
+                        <circle cx="110" cy="100" r="4" fill="#E8F6F0" opacity="0.8" filter="url(#partnerGlow)" />
+                        <circle cx="190" cy="110" r="3" fill="#E8F6F0" opacity="0.7" filter="url(#partnerGlow)" />
+                        <circle cx="140" cy="85" r="3.5" fill="#CFE8D2" opacity="0.75" filter="url(#partnerGlow)" />
+                    </svg>
+                </div>
+            </div>
+        </section>
 
+        <!-- CTA SECTION -->
+        <section class="cta-section">
+            <div class="cta-content">
+                <h2>Ready to see Convenient Brands in motion?</h2>
+                <p>Discover how our platform can transform your operations. Book a personalized demo and see the difference.</p>
+                <a href="#" class="cta-button-white">Book a short demo</a>
+            </div>
+        </section>
+
+    </div>
 </body>
 </html>
