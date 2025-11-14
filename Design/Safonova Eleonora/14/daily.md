@@ -12,22 +12,30 @@
 
 ## Activities
 
-### [08:00-17:12] - [ AI Catalog analysing code]
+### [08:00-14:01] - [Test]
 **What I worked on:**
 -
 
 **Whisper Flow Transcript:**
 
-[ Today I worked on improving the Account Management section of the AI Catalog / Account Management project.
-During the process, several unexpected issues occurred while using ChatGPT. It detected multiple duplicate files, which I removed. However, even after that, the model couldn’t properly enlarge the icons — when increased, they became distorted and stretched, and a glowing border remained behind them, which I couldn’t locate or remove in the code.
-To investigate this further, I switched to Gemini, but it also failed to identify the cause. When it tried to remove the outline, it ended up deleting the entire block. Because of this strange behavior, I’m considering completely rebuilding the Account Management tab from scratch to eliminate these bugs once and for all.
-Despite these difficulties, I managed to achieve several important results today:
-Fixed the issue where account cards disappeared when entering edit mode — now they remain visible.
-Made all cards the same height and reduced unnecessary white space.
-Added an internal scroll to the cards, improving navigation within the block.
-Refined the overall layout, making the interface look cleaner and more balanced.
-Currently, I’m working on fixing another issue: when switching to the AI Catalog tab, an individual card doesn’t yet open in a modal window — that’s my next priority.
-In addition, I plan to continue improving the banner design and add more visual dynamics to the interface.]
+[ https://www.figma.com/make/Xyg7jGVTQ90YWHrMceASq7/Update-Email-Layout?t=kvCmoTKm9HnTbwCX&fullscreen=1
+
+https://www.figma.com/make/Xyg7jGVTQ90YWHrMceASq7/Update-Email-Layout?node-id=0-4&t=kvCmoTKm9HnTbwCX-1
+
+https://github.com/AdminRHS/Test-page-email-campaign
+
+Today I focused entirely on creating and refining email newsletters for the client, as well as communicating with the management team regarding updates, clarifications, and requirements for the test task. Throughout the day, I was in active contact with my leads in chat, received new corrections, clarified details, and adjusted the layouts and HTML structures based on the feedback. There was also a call with the management today.
+My main work was dedicated to producing two different versions of the email newsletter. I designed two full variations: one in the original color scheme and another in a more minimalistic olive-green style. I structured the content, adjusted the layout, added vector icons, organized the sections, and ensured that both versions looked clean, professional, and visually coherent.
+Out of the two versions, I fully completed and finalized one. I implemented all the requested updates, adjusted the container sizes, refined the spacing, optimized the layout, and ensured that the email displayed correctly on both desktop and mobile. I carefully preserved the design integrity while cleaning up the code and aligning every block according to the instructions.
+Throughout the day, I worked in Figma for design and layout edits, used VS Code, Cursor, and AI tools (GPT, Gemini, Lovable, Replit) to analyze and refine the HTML structure, and used Dropbox for file management. I continuously communicated in chat with management to confirm updates, ask questions, and send intermediate results. My work required switching between multiple programs to ensure fast and accurate execution of all tasks.
+In summary, today I:
+— created two different versions of the email newsletter;
+— fully completed and finalized one of them;
+— added all the requested corrections and refined the entire layout;
+— worked across numerous tools and programs (Figma, code editors, AI tools, Dropbox);
+— stayed in active communication with management;
+— ensured that the final HTML email remained visually consistent, clean, and aligned with the provided design direction.
+]
 
 
 **Outcomes:**

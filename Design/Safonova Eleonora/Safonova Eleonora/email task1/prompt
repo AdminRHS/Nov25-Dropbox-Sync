@@ -1,0 +1,116 @@
+Create a responsive HTML email layout (desktop view, 600 px width canvas) for a B2B company called “Convenient Brands”.
+
+Overall style:
+Soft minimalistic B2B style, calm “sand + forest” color palette, flat 3D shapes with subtle depth, soft volumetric shading, rounded corners, smooth edges, premium SaaS / fintech look. Use olive greens and warm sand tones, no bright primary colors. Background uses a gentle radial gradient (sand → soft mint/olive) with subtle vignette, inspired by Ruvi-style illustrations: calm, floating, slightly 3D, but still minimal.
+
+Color suggestions:
+- Forest Olive: #4F644D
+- Deep Olive: #2F3E2A
+- Soft Olive: #7A9A63
+- Sand Light: #FAF8F2
+- Sand Neutral: #F5F3EC
+- Mint Glow: #E6EFE7
+
+Typography:
+- Clean sans-serif similar to Inter / SF / Arial
+- Headings: bold, 22–30 px
+- Body: 13–15 px, relaxed line height
+- All-caps avoided, keep a calm enterprise tone.
+
+Layout structure (top to bottom):
+
+1. Header
+- Light sand / mint background bar.
+- Left: “Convenient Brands” logo in forest olive (simple wordmark or subtle icon+wordmark).
+- Right: small tagline text: “Vertical software & integrated payments for modern industries”.
+- Plenty of breathing space, 18–22 px padding.
+
+2. Hero section
+- White card area on top of the gradient background.
+- Left column (text):
+  - H1: “Meet Convenient Brands”
+  - Subheading: one line about vertical software and integrated payments helping essential industries run smoothly.
+  - Short two–three line body paragraph about connecting software + payments across auto, government, property, healthcare, unions.
+  - Primary CTA button: pill-shaped, soft olive background, white text “Learn more about the platform”.
+- Right column: main HERO illustration.
+  - Create a 16:9 illustration in the same canvas:
+    - A floating 3D-style platform in sand/olive.
+    - Above it: 3–4 floating cards representing dashboards and payment flows.
+    - Connect them with thin olive lines showing data and payments moving between software blocks.
+    - Around the cards add tiny floating mini-icons for: software, payments, automation, industries.
+    - Feel of Ruvi-style floating animation: soft shadows under each object, micro-tilt, calm motion implied.
+
+3. “Platform features” section (3 feature icons)
+- Title centered: “A calm, connected platform for complex operations”.
+- Short subtitle line about vertical software + payments + automation.
+- Below: row of 3 equal columns, all cards the same width and height.
+- Each column is a white or very light sand tile with rounded corners and soft shadow.
+- Top of each tile: a custom 3D-like icon (vector) in olive + sand.
+  a) Vertical Software icon:
+     - Stacked app windows / rectangles, showing different panels.
+     - Flat 3D, rounded corners, gentle shadows, floating slightly above tile.
+  b) Integrated Payments icon:
+     - Card-shaped payment symbol with small chip and two flowing lines (like waves) coming off the right side.
+  c) Automation icon:
+     - Gear with small connected nodes or motion dots around it.
+- Under each icon: feature title and 2-line description text.
+
+4. “Industries” grid (6 industry tiles, 2 rows × 3 columns)
+- Section background: soft mint / light olive panel separate from white content.
+- Title centered: “Built for industries that never stand still”.
+- Subtitle: one sentence about essential services and communities.
+- Grid: 6 equal tiles, all same height, same width, with white background, rounded corners, soft inner shadow, 160–180 px tall for desktop.
+- Each tile has:
+  - Top center: industry icon (vector) in olive + sand, matching the feature icon style (flat 3D, floating, soft shadow).
+  - Bottom: industry title on 2 lines.
+
+Create these icons for each tile:
+  1) Auto dealerships & repair shops:
+     - Olive car silhouette with a sand wrench overlapping it.
+  2) Collision & auto aftermarket:
+     - Olive car with a small sand sparkle/star above the hood.
+  3) Government & municipalities:
+     - Civic building with three columns and a sand checkmark badge.
+  4) Property management:
+     - Simple building with windows plus a sand key.
+  5) Healthcare & non-profits:
+     - Heart with a medical cross cut out in the center.
+  6) Unions & membership organizations:
+     - Circle of abstract shapes / people figures forming a group under a heart.
+
+Each icon should feel Ruvi-like: slightly thick shapes, very smooth curves, soft depth, hovering with a tiny shadow beneath.
+
+5. “Growth benefits” section (3 cards)
+- Return to white background.
+- Center title: “Quiet technology, visible growth”.
+- Three equal cards in one row, all same height:
+  1) Increase revenue
+  2) Simplify operations
+  3) Scale with confidence
+- Each card has a short 2–3 line description, no icon needed or a very small olive accent in the corner.
+
+6. “Partners” section (side illustration)
+- Darker forest-olive background panel with light text.
+- Left column: text block with title “A partner platform for vertical software and consultants”, 2–3 bullet points about partnering, and body copy.
+- Right column: partners illustration:
+  - Circular or rounded-rectangle composition.
+  - Abstract collaboration concept: two overlapping dashboards, node graph, and a subtle handshake or interlocking shapes (no realistic hands).
+  - Same olive/sand 3D-flat style, with bright mint glow around edges.
+
+7. Final CTA bar
+- Full-width bar in soft olive gradient.
+- Centered text: heading inviting to book a demo.
+- Subtext: one–two lines of copy.
+- White pill-shaped CTA button: “Book a short demo”.
+
+Icons & assets requirements:
+- All icons and illustrations must be vector-based or easy to export as PNG.
+- Keep a consistent visual language: same line thickness, corner radius, shadow softness and color palette.
+- No photos, no realistic people. Everything is abstract, minimal, and product-focused.
+- Prepare exportable slices:
+  - Hero illustration 16:9 PNG.
+  - 3 feature icons as individual square PNGs.
+  - 6 industry icons as individual square PNGs.
+  - Partners illustration PNG.
+
+ https://adminrhs.github.io/Test-page-email-campaign/

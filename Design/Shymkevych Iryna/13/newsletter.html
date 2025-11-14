@@ -1894,6 +1894,250 @@ a.contact-button {
     }
 }
 
+/* Green button style for "View Update Schedule" */
+.article-link {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #74ba51;
+    text-decoration: none;
+    border-bottom: 2px solid #74ba51;
+    padding-bottom: 3px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.article-link::after {
+    content: '→';
+    position: absolute;
+    right: -20px;
+    opacity: 0;
+    transition: all 0.3s ease;
+    color: #74ba51;
+}
+
+.article-link:hover {
+    padding-right: 20px;
+    color: #5a9a3f;
+    border-bottom-color: #5a9a3f;
+}
+
+.article-link:hover::after {
+    right: 0;
+    opacity: 1;
+    color: #5a9a3f;
+}
+
+/* Ensure parent doesn't stretch the link */
+.article-card-content .article-link,
+.article-split-content .article-link {
+    display: inline-block;
+    width: auto;
+    max-width: fit-content;
+}
+
+/* Footer Navigation Links with Green Animations */
+.footer-links {
+    margin: 25px 0;
+    animation: fadeIn 0.8s ease-out 0.4s backwards;
+}
+
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+/* Green underline animation */
+.footer-link::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #74ba51; /* GREEN underline */
+    transition: width 0.3s ease;
+}
+
+.footer-link:hover {
+    opacity: 1;
+    color: #74ba51; /* GREEN text on hover */
+}
+
+.footer-link:hover::after {
+    width: 100%;
+}
+
+/* Alternative: Green glow effect on hover */
+.footer-link.glow-effect:hover {
+    color: #74ba51;
+    text-shadow: 0 0 10px rgba(116, 186, 81, 0.5);
+    opacity: 1;
+}
+
+/* Alternative: Green background slide effect */
+.footer-link.slide-effect {
+    padding: 8px 16px;
+    border-radius: 3px;
+}
+
+.footer-link.slide-effect::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgba(116, 186, 81, 0.2);
+    transition: width 0.3s ease;
+    z-index: -1;
+    border-radius: 3px;
+}
+
+.footer-link.slide-effect:hover::before {
+    width: 100%;
+}
+
+.footer-link.slide-effect:hover {
+    color: #74ba51;
+    opacity: 1;
+}
+
+/* Alternative: Green border bottom animation */
+.footer-link.border-effect {
+    border-bottom: 2px solid transparent;
+    padding-bottom: 3px;
+}
+
+.footer-link.border-effect:hover {
+    border-bottom-color: #74ba51;
+    color: #74ba51;
+    opacity: 1;
+}
+
+/* Animated entrance for each link (staggered) */
+.footer-link:nth-child(1) {
+    animation: linkSlideIn 0.5s ease-out 0.5s backwards;
+}
+
+.footer-link:nth-child(2) {
+    animation: linkSlideIn 0.5s ease-out 0.6s backwards;
+}
+
+.footer-link:nth-child(3) {
+    animation: linkSlideIn 0.5s ease-out 0.7s backwards;
+}
+
+.footer-link:nth-child(4) {
+    animation: linkSlideIn 0.5s ease-out 0.8s backwards;
+}
+
+@keyframes linkSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 0.7;
+        transform: translateY(0);
+    }
+}
+
+/* Active state (for current page) */
+.footer-link.active {
+    color: #74ba51;
+    opacity: 1;
+}
+
+.footer-link.active::after {
+    width: 100%;
+    background: #74ba51;
+}
+
+/* SOCIAL ICONS WITH GREEN ANIMATIONS - COMPLETE */
+.footer-social {
+    margin: 30px 0;
+    animation: fadeIn 0.8s ease-out 0.6s backwards;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    margin: 0 8px;
+    line-height: 36px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+}
+
+.social-icon::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    background: #74ba51;
+    border-radius: 50%;
+    transition: all 0.4s ease;
+    z-index: -1;
+}
+
+.social-icon:hover {
+    border-color: #74ba51;
+    color: #ffffff;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(116, 186, 81, 0.4);
+}
+
+.social-icon:hover::before {
+    width: 100%;
+    height: 100%;
+}
+
+/* Staggered animation */
+.social-icon:nth-child(1) {
+    animation: iconBounceIn 0.6s ease-out 0.7s backwards;
+}
+
+.social-icon:nth-child(2) {
+    animation: iconBounceIn 0.6s ease-out 0.8s backwards;
+}
+
+.social-icon:nth-child(3) {
+    animation: iconBounceIn 0.6s ease-out 0.9s backwards;
+}
+
+@keyframes iconBounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3) translateY(20px);
+    }
+    50% {
+        transform: scale(1.05) translateY(-5px);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+
     </style>
 </head>
 <body>
