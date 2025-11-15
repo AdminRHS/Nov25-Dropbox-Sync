@@ -19,7 +19,7 @@
 - **Profession:** prompt engineer
 - **Shift:** Day
 - **Rate:** 1
-- **Status:** Available
+- **Status:** Left
 
 ## Skills
 

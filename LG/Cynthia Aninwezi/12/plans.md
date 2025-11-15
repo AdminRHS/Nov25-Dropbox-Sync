@@ -43,7 +43,7 @@ Improved ability to multitask across different accounts
 Demonstrated problem-solving when dealing with account limitations
 
 Areas of Note
-Challenge: Multiple accounts exhausted connection requests quickly (3 accounts in one day)
+Challenge: Multiple accounts exhausted connection requests quickly (7 accounts in one day)
 Response: Effectively pivoted to alternative tasks (re-engagement campaign)
 Communication: Proactively sought guidance when encountering data classification questions
 
