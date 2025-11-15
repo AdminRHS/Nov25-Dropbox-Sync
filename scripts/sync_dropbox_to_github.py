@@ -62,6 +62,10 @@ class DropboxToGitHubSync:
     def _refresh_access_token(self) -> Optional[str]:
         """Refresh access token using refresh token"""
         if not all([self.app_key, self.app_secret, self.refresh_token]):
+            self.log("⚠️  Cannot refresh access token: refresh token credentials not configured. "
+                   "If sync continues successfully, your current token is still valid. "
+                   "To enable automatic token refresh, set DROPBOX_APP_KEY, DROPBOX_APP_SECRET, and DROPBOX_REFRESH_TOKEN.", 
+                   "WARN")
             return None
         
         try:
@@ -305,62 +309,152 @@ class DropboxToGitHubSync:
                 })
         
         # Find modified files (in both, but content changed)
-        for path, info in dropbox_paths.items():
-            if path in git_paths:
-                local_file = Path(path)
-                if local_file.exists():
-                    # Download file to compare
-                    try:
-                        dropbox_content, metadata = self.download_file(f"/Nov25/{path}")
-                        if dropbox_content:
-                            file_hash = self.get_file_hash(dropbox_content)
-                            local_hash = self.get_file_hash(local_file.read_bytes())
-                            
-                            if file_hash != local_hash:
-                                # Download again to get author info
-                                dropbox_content_full, metadata_full = self.download_file(f"/Nov25/{path}")
-                                author = metadata_full.get("author", "Unknown") if metadata_full else "Unknown"
-                                
-                                changes["modified"].append({
-                                    "path": path,
-                                    "dropbox_path": f"/Nov25/{path}",
-                                    "name": info["name"],
-                                    "size": info["size"],
-                                    "modified": info["modified"],
-                                    "rev": info["rev"],
-                                    "author": author,
-                                })
-                    except AuthError as e:
-                        if 'expired_access_token' in str(e):
-                            # Try to refresh token
-                            if self.refresh_token and self.app_key and self.app_secret:
-                                self.log("Token expired during comparison, refreshing...", "WARN")
-                                new_token = self._refresh_access_token()
-                                if new_token:
-                                    self.dbx = dropbox.Dropbox(new_token)
-                                    # Retry download
-                                    dropbox_content, metadata = self.download_file(f"/Nov25/{path}")
-                                    if dropbox_content:
-                                        file_hash = self.get_file_hash(dropbox_content)
-                                        local_hash = self.get_file_hash(local_file.read_bytes())
-                                        if file_hash != local_hash:
-                                            dropbox_content_full, metadata_full = self.download_file(f"/Nov25/{path}")
-                                            author = metadata_full.get("author", "Unknown") if metadata_full else "Unknown"
-                                            changes["modified"].append({
-                                                "path": path,
-                                                "dropbox_path": f"/Nov25/{path}",
-                                                "name": info["name"],
-                                                "size": info["size"],
-                                                "modified": info["modified"],
-                                                "rev": info["rev"],
-                                                "author": author,
-                                            })
-                                else:
-                                    raise Exception("Failed to refresh token during file comparison")
-                            else:
-                                raise
+        files_to_check = [path for path in dropbox_paths.keys() if path in git_paths]
+        total_to_check = len(files_to_check)
+        
+        if total_to_check > 0:
+            self.log(f"Checking {total_to_check} files for modifications...")
+        
+        for idx, path in enumerate(files_to_check, 1):
+            # Log progress every 100 files or for every file if less than 100
+            if total_to_check <= 100 or idx % 100 == 0 or idx == 1:
+                self.log(f"Checking file {idx}/{total_to_check}: {path[:60]}...")
+            
+            info = dropbox_paths[path]
+            local_file = Path(path)
+            
+            # Check if local file exists
+            if not local_file.exists():
+                self.log(f"Local file does not exist, skipping: {path}", "WARN")
+                continue
+            
+            # Get local file size and hash for comparison
+            try:
+                local_size = local_file.stat().st_size
+                local_content = local_file.read_bytes()
+                local_hash = self.get_file_hash(local_content)
+            except Exception as e:
+                self.log(f"Error reading local file {path}: {e}", "WARN")
+                continue
+            
+            # Download file from Dropbox to compare
+            try:
+                result = self.download_file(f"/Nov25/{path}")
+                
+                if result is None:
+                    self.log(f"Could not download file from Dropbox: {path}", "WARN")
+                    continue
+                
+                dropbox_content, metadata = result
+                
+                # Get Dropbox file size and hash
+                dropbox_size = len(dropbox_content)
+                dropbox_hash = self.get_file_hash(dropbox_content)
+                
+                # Check for changes: compare both size and hash
+                # Size check is faster and catches most changes, hash confirms content difference
+                size_changed = dropbox_size != local_size
+                hash_changed = dropbox_hash != local_hash
+                
+                # Log detailed comparison for debugging (only for files in "10" folders or if size/hash mismatch)
+                if "/10/" in path or size_changed or hash_changed:
+                    self.log(f"File comparison for {path}: local_size={local_size}, dropbox_size={dropbox_size}, "
+                           f"size_match={not size_changed}, hash_match={not hash_changed}")
+                
+                # File is considered modified if size or hash differs
+                if size_changed or hash_changed:
+                    # Download again to get author info (if not already available)
+                    if metadata and metadata.get("author"):
+                        author = metadata.get("author", "Unknown")
+                    else:
+                        result_full = self.download_file(f"/Nov25/{path}")
+                        if result_full:
+                            dropbox_content_full, metadata_full = result_full
+                            author = metadata_full.get("author", "Unknown")
                         else:
-                            raise
+                            author = "Unknown"
+                    
+                    changes["modified"].append({
+                        "path": path,
+                        "dropbox_path": f"/Nov25/{path}",
+                        "name": info["name"],
+                        "size": info["size"],
+                        "modified": info["modified"],
+                        "rev": info["rev"],
+                        "author": author,
+                    })
+                    
+                    self.log(f"Detected modification: {path} (size: {local_size} -> {dropbox_size} bytes)")
+                    
+            except AuthError as e:
+                if 'expired_access_token' in str(e):
+                    # Try to refresh token
+                    if self.refresh_token and self.app_key and self.app_secret:
+                        self.log("Token expired during comparison, refreshing...", "WARN")
+                        new_token = self._refresh_access_token()
+                        if new_token:
+                            self.dbx = dropbox.Dropbox(new_token)
+                            # Retry download with new token
+                            try:
+                                result = self.download_file(f"/Nov25/{path}")
+                                
+                                if result is None:
+                                    self.log(f"Could not download file from Dropbox after token refresh: {path}", "WARN")
+                                    continue
+                                
+                                dropbox_content, metadata = result
+                                
+                                # Get Dropbox file size and hash
+                                dropbox_size = len(dropbox_content)
+                                dropbox_hash = self.get_file_hash(dropbox_content)
+                                
+                                # Check for changes: compare both size and hash
+                                size_changed = dropbox_size != local_size
+                                hash_changed = dropbox_hash != local_hash
+                                
+                                # File is considered modified if size or hash differs
+                                if size_changed or hash_changed:
+                                    # Get author info
+                                    if metadata and metadata.get("author"):
+                                        author = metadata.get("author", "Unknown")
+                                    else:
+                                        result_full = self.download_file(f"/Nov25/{path}")
+                                        if result_full:
+                                            dropbox_content_full, metadata_full = result_full
+                                            author = metadata_full.get("author", "Unknown")
+                                        else:
+                                            author = "Unknown"
+                                    
+                                    changes["modified"].append({
+                                        "path": path,
+                                        "dropbox_path": f"/Nov25/{path}",
+                                        "name": info["name"],
+                                        "size": info["size"],
+                                        "modified": info["modified"],
+                                        "rev": info["rev"],
+                                        "author": author,
+                                    })
+                                    
+                                    self.log(f"Detected modification after token refresh: {path} (size: {local_size} -> {dropbox_size} bytes)")
+                            except Exception as retry_error:
+                                self.log(f"Error retrying file comparison after token refresh for {path}: {retry_error}", "WARN")
+                                continue
+                        else:
+                            raise Exception("Failed to refresh token during file comparison")
+                    else:
+                        # Token expired but no refresh token available - log warning but continue if token still works
+                        self.log("⚠️  Token expired during file comparison, but refresh token not configured. "
+                               "If sync continues successfully, your current token is still valid. "
+                               "To enable automatic token refresh, set DROPBOX_APP_KEY, DROPBOX_APP_SECRET, and DROPBOX_REFRESH_TOKEN.", 
+                               "WARN")
+                        # Don't raise exception - let it try to continue with current token
+                        # If token is truly expired, it will fail on next API call
+                        continue
+                else:
+                    raise
+            except Exception as e:
+                self.log(f"Unexpected error comparing file {path}: {e}", "WARN")
+                continue
         
         return changes
     

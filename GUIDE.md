@@ -83,27 +83,84 @@ Commits and pushes to GitHub
    - **Initialize**: Don't check any boxes
 3. Click **"Create repository"**
 
-### Step 2: Add Dropbox Token to GitHub Secrets
+### Step 2: Setup Dropbox Refresh Token (REQUIRED)
 
-**IMPORTANT**: If you see "expired_access_token" error, you need to regenerate the token!
+**IMPORTANT**: Dropbox access tokens expire after a few hours. To enable automatic token refresh, you MUST set up OAuth 2.0 with refresh token.
 
-1. **Get Dropbox Access Token**:
-   - Go to: https://www.dropbox.com/developers/apps
-   - Click on your app (the one you created for Employee Profile Sync)
-   - Go to **"Settings"** tab → **"OAuth 2"** section
-   - Click **"Generate"** button to create a new access token
-   - **Copy the token immediately** (it starts with `sl.u.` and is very long)
+**📌 Это одноразовая настройка (5 минут) - после этого все работает автоматически из облака!**
 
-2. **Add Token to GitHub Secrets**:
-   - Go to: https://github.com/AdminRHS/Nov25-Dropbox-Sync/settings/secrets/actions
-   - If `DROPBOX_ACCESS_TOKEN` already exists, click on it and **"Update"**
-   - If it doesn't exist, click **"New repository secret"**
-   - Configure:
-     - **Name**: `DROPBOX_ACCESS_TOKEN` (must match exactly, case-sensitive)
-     - **Value**: Paste your NEW Dropbox access token
-     - Click **"Add secret"** or **"Update secret"**
+#### Why This Is Required
 
-**Note**: Dropbox access tokens can expire. If sync fails with "expired_access_token", regenerate the token and update it in GitHub Secrets.
+- Access tokens expire in hours, requiring constant manual updates
+- Refresh tokens last months/years and enable automatic token refresh
+- After setup, sync will work continuously without manual intervention
+- The workflow is already configured to use refresh token mechanism
+
+#### Step 2.1: Get App Key and App Secret (2 minutes)
+
+1. Go to: https://www.dropbox.com/developers/apps
+2. Find your app (the same one used for Employee Profile Sync)
+3. Go to **Settings** → find **App key** and **App secret**
+4. Copy both values
+
+#### Step 2.2: Get Refresh Token (3 minutes)
+
+**Option A: Using Script (Recommended)**
+
+1. Open terminal and run:
+   ```bash
+   cd "/Users/nikolay/Library/CloudStorage/Dropbox/automations/dropbox-sync"
+   python3 get_refresh_token.py
+   ```
+
+2. Enter App Key and App Secret when prompted
+
+3. Script will show authorization URL - open it in browser
+
+4. Authorize the app in Dropbox
+
+5. Copy authorization code from browser and paste into terminal
+
+6. Script will output all tokens - copy them
+
+**Option B: Manual Browser Method**
+
+1. Open in browser (replace `YOUR_APP_KEY` with your App Key):
+   ```
+   https://www.dropbox.com/oauth2/authorize?client_id=YOUR_APP_KEY&response_type=code&token_access_type=offline
+   ```
+
+2. Authorize the app
+
+3. Copy code from URL (parameter `code=...`)
+
+4. Run command (replace values):
+   ```bash
+   curl https://api.dropbox.com/oauth2/token \
+     -d code=YOUR_CODE \
+     -d grant_type=authorization_code \
+     -u YOUR_APP_KEY:YOUR_APP_SECRET
+   ```
+
+5. Response JSON will contain `access_token` and `refresh_token`
+
+#### Step 2.3: Add Secrets to GitHub (1 minute)
+
+1. Go to: https://github.com/AdminRHS/Nov25-Dropbox-Sync/settings/secrets/actions
+
+2. Add/update **all 4 secrets**:
+   - `DROPBOX_ACCESS_TOKEN` - access token from step 2.2
+   - `DROPBOX_REFRESH_TOKEN` - refresh token from step 2.2 (for auto-refresh)
+   - `DROPBOX_APP_KEY` - your App Key
+   - `DROPBOX_APP_SECRET` - your App Secret
+
+3. For each secret:
+   - Click "New repository secret" (or "Update" if exists)
+   - Enter secret name exactly as shown (case-sensitive)
+   - Paste secret value
+   - Click "Add secret"
+
+**Note**: Without refresh token setup, you'll need to manually regenerate access token every few hours. With refresh token, tokens update automatically.
 
 ### Step 3: Push Code to GitHub
 
@@ -320,13 +377,29 @@ Each sync reports:
 2. Check Actions are enabled: Settings → Actions → General
 3. Wait up to 10 minutes after scheduled time
 
-### "Invalid Dropbox access token" Error
+### "expired_access_token" or "Invalid Dropbox access token" Error
 
-**Solution**:
-1. Verify token in GitHub Secrets
-2. Check token hasn't expired
-3. Regenerate token if needed
-4. Update secret in GitHub
+**Problem**: Access token has expired (tokens expire after a few hours).
+
+**Solution - Setup Refresh Token** (Recommended - Permanent Fix):
+
+1. **If you haven't set up refresh token yet**:
+   - Follow Step 2 in Initial Setup to get refresh token
+   - Add all 4 secrets to GitHub (DROPBOX_ACCESS_TOKEN, DROPBOX_REFRESH_TOKEN, DROPBOX_APP_KEY, DROPBOX_APP_SECRET)
+   - After setup, tokens will refresh automatically
+
+2. **If refresh token is already set up**:
+   - Verify all 4 secrets exist in GitHub Secrets
+   - Check that secret names match exactly (case-sensitive)
+   - The script should automatically refresh the token - check logs for refresh attempts
+
+**Temporary Workaround** (Not Recommended):
+
+If you need immediate fix without refresh token:
+1. Go to Dropbox Developer Console
+2. Generate new access token
+3. Update `DROPBOX_ACCESS_TOKEN` in GitHub Secrets
+4. **Note**: This will expire again in hours - setup refresh token for permanent solution
 
 ### "File not found" Error
 
