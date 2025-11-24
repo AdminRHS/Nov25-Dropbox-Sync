@@ -13,6 +13,7 @@ import json
 import hashlib
 import subprocess
 import requests
+import time
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Set, Optional, Tuple
@@ -48,27 +49,49 @@ class DropboxToGitHubSync:
     
     def _init_dropbox_client(self, access_token: str) -> dropbox.Dropbox:
         """Initialize Dropbox client with automatic token refresh if refresh token is available"""
-        try:
-            return dropbox.Dropbox(access_token)
-        except Exception as e:
-            # If token is expired and we have refresh token, try to refresh
-            if self.refresh_token and self.app_key and self.app_secret:
-                self.log(f"Access token expired, attempting to refresh...", "WARN")
-                new_token = self._refresh_access_token()
-                if new_token:
-                    return dropbox.Dropbox(new_token)
-            raise e
+        dbx = dropbox.Dropbox(access_token)
+        
+        # Proactively test the token and refresh if expired
+        if self.refresh_token and self.app_key and self.app_secret:
+            try:
+                # Test token by making a lightweight API call
+                dbx.users_get_current_account()
+                self.log("Access token is valid", "INFO")
+            except AuthError as e:
+                if 'expired_access_token' in str(e):
+                    self.log("Access token expired, attempting automatic refresh...", "WARN")
+                    new_token = self._refresh_access_token()
+                    if new_token:
+                        self.log("✅ Successfully refreshed access token", "INFO")
+                        return dropbox.Dropbox(new_token)
+                    else:
+                        raise Exception("❌ Failed to refresh expired token. Please check DROPBOX_APP_KEY, DROPBOX_APP_SECRET, and DROPBOX_REFRESH_TOKEN in GitHub Secrets.")
+                else:
+                    raise
+        
+        return dbx
     
     def _refresh_access_token(self) -> Optional[str]:
         """Refresh access token using refresh token"""
         if not all([self.app_key, self.app_secret, self.refresh_token]):
-            self.log("⚠️  Cannot refresh access token: refresh token credentials not configured. "
-                   "If sync continues successfully, your current token is still valid. "
-                   "To enable automatic token refresh, set DROPBOX_APP_KEY, DROPBOX_APP_SECRET, and DROPBOX_REFRESH_TOKEN.", 
-                   "WARN")
+            missing = []
+            if not self.app_key:
+                missing.append("DROPBOX_APP_KEY")
+            if not self.app_secret:
+                missing.append("DROPBOX_APP_SECRET")
+            if not self.refresh_token:
+                missing.append("DROPBOX_REFRESH_TOKEN")
+            
+            self.log(f"⚠️  Cannot refresh access token: missing credentials ({', '.join(missing)}). "
+                   "To enable automatic token refresh, add these secrets to GitHub Secrets.", 
+                   "ERROR")
             return None
         
         try:
+            self.log(f"Attempting to refresh token (app_key length: {len(self.app_key)}, "
+                   f"app_secret length: {len(self.app_secret)}, "
+                   f"refresh_token length: {len(self.refresh_token)})", "INFO")
+            
             url = "https://api.dropbox.com/oauth2/token"
             data = {
                 "grant_type": "refresh_token",
@@ -76,21 +99,37 @@ class DropboxToGitHubSync:
             }
             auth = (self.app_key, self.app_secret)
             
+            self.log("Sending refresh request to Dropbox API...", "INFO")
             response = requests.post(url, data=data, auth=auth, timeout=30)
-            response.raise_for_status()
+            
+            self.log(f"Refresh API response status: {response.status_code}", "INFO")
+            
+            if response.status_code != 200:
+                error_text = response.text[:500]  # Limit error text length
+                self.log(f"❌ Refresh API returned error status {response.status_code}: {error_text}", "ERROR")
+                response.raise_for_status()
             
             result = response.json()
             new_access_token = result.get("access_token")
             
             if new_access_token:
-                self.log("Successfully refreshed access token", "INFO")
+                self.log(f"✅ Successfully refreshed access token (length: {len(new_access_token)})", "INFO")
                 # Note: In production, you might want to update GitHub Secret here
                 # But that requires GitHub API access, so we'll just use the new token for this session
                 return new_access_token
+            else:
+                self.log(f"❌ Refresh response did not contain access_token. Response keys: {list(result.keys())}", "ERROR")
+                if "error" in result:
+                    self.log(f"Error details: {result.get('error')} - {result.get('error_description', 'No description')}", "ERROR")
+                return None
+        except requests.exceptions.RequestException as e:
+            self.log(f"❌ Network error while refreshing token: {e}", "ERROR")
+            return None
         except Exception as e:
-            self.log(f"Failed to refresh token: {e}", "ERROR")
-        
-        return None
+            self.log(f"❌ Unexpected error while refreshing token: {e}", "ERROR")
+            import traceback
+            self.log(f"Traceback: {traceback.format_exc()}", "ERROR")
+            return None
         
     def log(self, message: str, level: str = "INFO"):
         """Log message with timestamp"""
@@ -167,18 +206,30 @@ class DropboxToGitHubSync:
             return None
     
     def list_all_files(self) -> Dict[str, Dict]:
-        """List all files in Dropbox path recursively"""
+        """List all files in Dropbox path recursively with rate limiting and retry logic"""
         files = {}
         
         try:
             self.log(f"Scanning Dropbox path: {self.dropbox_path}")
-            result = self.dbx.files_list_folder(self.dropbox_path, recursive=True)
+            start_time = time.time()
+            
+            # Initial request with retry logic
+            result = self._list_folder_with_retry(self.dropbox_path, recursive=True)
             page_count = 0
             excluded_count = 0
+            last_log_time = time.time()
             
             while True:
                 page_count += 1
-                self.log(f"Processing page {page_count}... (found {len(files)} files so far)")
+                page_start_time = time.time()
+                
+                # Log progress with timing info
+                elapsed = time.time() - start_time
+                files_per_second = len(files) / elapsed if elapsed > 0 else 0
+                
+                # Log every page for first 10 pages, then every 10 pages
+                if page_count <= 10 or page_count % 10 == 0:
+                    self.log(f"Processing page {page_count}... (found {len(files)} files so far, elapsed: {elapsed:.1f}s, ~{files_per_second:.1f} files/sec)")
                 
                 for entry in result.entries:
                     if isinstance(entry, dropbox.files.FileMetadata):
@@ -198,18 +249,84 @@ class DropboxToGitHubSync:
                             "id": entry.id,
                         }
                 
+                page_process_time = time.time() - page_start_time
+                
+                # Warn if page processing takes too long (might indicate hanging)
+                if page_process_time > 30:
+                    self.log(f"⚠️  Page {page_count} took {page_process_time:.1f}s to process (unusually slow, might indicate network issues)", "WARN")
+                
                 if not result.has_more:
                     break
                 
-                self.log(f"Fetching next page...")
-                result = self.dbx.files_list_folder_continue(result.cursor)
+                # Log fetching next page
+                if page_count <= 10 or page_count % 10 == 0:
+                    self.log(f"Fetching next page...")
+                
+                # Fetch next page with retry logic and timeout detection
+                fetch_start = time.time()
+                result = self._list_folder_continue_with_retry(result.cursor)
+                fetch_time = time.time() - fetch_start
+                
+                # Warn if fetch takes too long
+                if fetch_time > 10:
+                    self.log(f"⚠️  Fetching page {page_count + 1} took {fetch_time:.1f}s (might indicate rate limiting or network issues)", "WARN")
+                
+                # Small delay to avoid rate limiting (50ms between requests)
+                time.sleep(0.05)
         
         except ApiError as e:
             self.log(f"Error listing files: {e}", "ERROR")
             raise
         
-        self.log(f"Scanning complete: Found {len(files)} files, excluded {excluded_count} files")
+        elapsed_total = time.time() - start_time
+        self.log(f"Scanning complete: Found {len(files)} files, excluded {excluded_count} files (total time: {elapsed_total:.1f}s)")
         return files
+    
+    def _list_folder_with_retry(self, path: str, recursive: bool = False, max_retries: int = 5):
+        """List folder with retry logic for rate limiting"""
+        for attempt in range(max_retries):
+            try:
+                return self.dbx.files_list_folder(path, recursive=recursive)
+            except ApiError as e:
+                error_str = str(e)
+                # Check for rate limiting (429) or server errors (5xx)
+                if 'rate_limit' in error_str.lower() or '429' in error_str or 'too_many_requests' in error_str.lower():
+                    wait_time = (2 ** attempt) + (attempt * 0.5)  # Exponential backoff: 2s, 4.5s, 9s, 16.5s, 27s
+                    self.log(f"Rate limit hit, waiting {wait_time:.1f}s before retry {attempt + 1}/{max_retries}...", "WARN")
+                    time.sleep(wait_time)
+                    continue
+                elif 'server_error' in error_str.lower() or '500' in error_str or '502' in error_str or '503' in error_str:
+                    wait_time = (2 ** attempt) + (attempt * 0.5)
+                    self.log(f"Server error, waiting {wait_time:.1f}s before retry {attempt + 1}/{max_retries}...", "WARN")
+                    time.sleep(wait_time)
+                    continue
+                else:
+                    # Other errors (auth, not found, etc.) - don't retry
+                    raise
+        raise Exception(f"Failed to list folder after {max_retries} retries")
+    
+    def _list_folder_continue_with_retry(self, cursor: str, max_retries: int = 5):
+        """Continue listing folder with retry logic for rate limiting"""
+        for attempt in range(max_retries):
+            try:
+                return self.dbx.files_list_folder_continue(cursor)
+            except ApiError as e:
+                error_str = str(e)
+                # Check for rate limiting (429) or server errors (5xx)
+                if 'rate_limit' in error_str.lower() or '429' in error_str or 'too_many_requests' in error_str.lower():
+                    wait_time = (2 ** attempt) + (attempt * 0.5)  # Exponential backoff
+                    self.log(f"Rate limit hit on page continuation, waiting {wait_time:.1f}s before retry {attempt + 1}/{max_retries}...", "WARN")
+                    time.sleep(wait_time)
+                    continue
+                elif 'server_error' in error_str.lower() or '500' in error_str or '502' in error_str or '503' in error_str:
+                    wait_time = (2 ** attempt) + (attempt * 0.5)
+                    self.log(f"Server error on page continuation, waiting {wait_time:.1f}s before retry {attempt + 1}/{max_retries}...", "WARN")
+                    time.sleep(wait_time)
+                    continue
+                else:
+                    # Other errors - don't retry
+                    raise
+        raise Exception(f"Failed to continue listing folder after {max_retries} retries")
     
     def get_git_file_status(self) -> Dict[str, str]:
         """Get current git file status"""
