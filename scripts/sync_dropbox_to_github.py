@@ -201,6 +201,47 @@ class DropboxToGitHubSync:
                 "rev": metadata.rev,
                 "author": author,
             }
+        except AuthError as e:
+            if 'expired_access_token' in str(e):
+                # Try to refresh token
+                if self.refresh_token and self.app_key and self.app_secret:
+                    self.log("Token expired during download, refreshing...", "WARN")
+                    new_token = self._refresh_access_token()
+                    if new_token:
+                        self.dbx = dropbox.Dropbox(new_token)
+                        # Retry download with new token
+                        try:
+                            metadata, response = self.dbx.files_download(dropbox_path)
+                            content = response.content
+                            
+                            author = "Unknown"
+                            try:
+                                revisions = self.dbx.files_list_revisions(dropbox_path, limit=1)
+                                if revisions.entries:
+                                    author = "Dropbox User"
+                            except:
+                                pass
+                            
+                            return content, {
+                                "path": metadata.path_display,
+                                "name": metadata.name,
+                                "size": metadata.size,
+                                "modified": metadata.client_modified.isoformat() if metadata.client_modified else None,
+                                "rev": metadata.rev,
+                                "author": author,
+                            }
+                        except Exception as retry_error:
+                            self.log(f"Error downloading {dropbox_path} after token refresh: {retry_error}", "ERROR")
+                            return None
+                    else:
+                        self.log(f"Failed to refresh token, cannot download {dropbox_path}", "ERROR")
+                        return None
+                else:
+                    self.log(f"Token expired but refresh token not configured. Cannot download {dropbox_path}", "ERROR")
+                    raise Exception("❌ Dropbox access token has EXPIRED. To enable automatic refresh, add DROPBOX_APP_KEY, DROPBOX_APP_SECRET, and DROPBOX_REFRESH_TOKEN to GitHub Secrets.")
+            else:
+                self.log(f"Auth error downloading {dropbox_path}: {e}", "ERROR")
+                return None
         except ApiError as e:
             self.log(f"Error downloading {dropbox_path}: {e}", "ERROR")
             return None
@@ -579,6 +620,8 @@ class DropboxToGitHubSync:
         """Sync files from Dropbox to local filesystem"""
         all_changes = changes["added"] + changes["modified"]
         total = len(all_changes)
+        synced_count = 0
+        failed_count = 0
         
         for idx, file_info in enumerate(all_changes, 1):
             dropbox_path = file_info["dropbox_path"]
@@ -588,16 +631,37 @@ class DropboxToGitHubSync:
             if total <= 50 or idx % 50 == 0 or idx == 1:
                 self.log(f"Syncing [{idx}/{total}]: {local_path}")
             
-            result = self.download_file(dropbox_path)
-            if result:
-                content, metadata = result
-                # Update author info in file_info
-                file_info["author"] = metadata.get("author", "Unknown")
-                self.save_file_locally(dropbox_path, content, local_path)
-                self.file_hashes[local_path] = self.get_file_hash(content)
-                self.file_metadata[local_path] = metadata
+            try:
+                result = self.download_file(dropbox_path)
+                if result:
+                    content, metadata = result
+                    # Update author info in file_info
+                    file_info["author"] = metadata.get("author", "Unknown")
+                    self.save_file_locally(dropbox_path, content, local_path)
+                    self.file_hashes[local_path] = self.get_file_hash(content)
+                    self.file_metadata[local_path] = metadata
+                    synced_count += 1
+                else:
+                    failed_count += 1
+                    self.log(f"Failed to download {local_path}, skipping...", "WARN")
+            except AuthError as e:
+                if 'expired_access_token' in str(e):
+                    # Token refresh should have been attempted in download_file
+                    # If we're here, refresh failed or wasn't configured
+                    if not (self.refresh_token and self.app_key and self.app_secret):
+                        self.log(f"Token expired and refresh token not configured. Stopping sync.", "ERROR")
+                        raise Exception("❌ Dropbox access token has EXPIRED. To enable automatic refresh, add DROPBOX_APP_KEY, DROPBOX_APP_SECRET, and DROPBOX_REFRESH_TOKEN to GitHub Secrets.")
+                    else:
+                        self.log(f"Token refresh failed. Stopping sync.", "ERROR")
+                        raise
+                else:
+                    failed_count += 1
+                    self.log(f"Auth error syncing {local_path}: {e}, skipping...", "WARN")
+            except Exception as e:
+                failed_count += 1
+                self.log(f"Unexpected error syncing {local_path}: {e}, skipping...", "WARN")
         
-        self.log(f"Sync complete: {total} files synced")
+        self.log(f"Sync complete: {synced_count} files synced, {failed_count} files failed")
     
     def organize_changes_by_department(self, changes: Dict) -> Dict:
         """Organize changes by department and employee"""
